@@ -74,6 +74,7 @@ DEFAULTS = {
     "SOURCES": "nse,nse_sme,bse",
     "INSTANT_ALERTS": "on",
     "ALERT_MAX_AGE_MINUTES": "90",
+    "CARD_MAX_AGE_HOURS": "4",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
     "LOOKBACK_DAYS": "1",
@@ -563,6 +564,22 @@ def discover_bse_announcements(http: Http, day: date) -> tuple[list[dict], bool]
         if not isinstance(total, int) or got >= total:
             break
     return out, ok
+
+
+def bse_file_time(url: str | None) -> datetime | None:
+    """Filing time from a BSE XBRL file name (..._<scrip>_<d>dmmyyyyHHMMSS_IFIndAs.xml). The clock part is
+    sometimes 12-hour, so treat the time as the latest it could be."""
+    m = re.search(r"_\d{6}_(\d{1,2})(\d{2})(\d{4})(\d{2})(\d{2})(\d{2})_", url or "")
+    if not m:
+        return None
+    d, mo, y, hh, mi, ss = (int(x) for x in m.groups())
+    try:
+        t = datetime(y, mo, d, hh, mi, ss, tzinfo=IST)
+    except ValueError:
+        return None
+    if hh < 12 and t + timedelta(hours=12) <= datetime.now(IST):
+        t += timedelta(hours=12)
+    return t
 
 
 def norm_name(s: str) -> str:
@@ -1661,6 +1678,16 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     filings = [f for f in filings if f.xbrl_url]
     st.add_to_index(filings)
     todo = [f for f in filings if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry"))]
+    # Only fresh results: anything filed more than CARD_MAX_AGE_HOURS ago is skipped quietly.
+    max_age = timedelta(hours=float(cfg["CARD_MAX_AGE_HOURS"]))
+    fresh = []
+    for f in todo:
+        when = f.filed_at or bse_file_time(f.xbrl_url)
+        if when is not None and now - when > max_age:
+            st.mark(f.uid, "old")
+        else:
+            fresh.append(f)
+    todo = fresh
     if first_run:
         for f in todo:
             if f.filed_at and f.filed_at.date() < d_to:
@@ -1758,6 +1785,36 @@ def sample_result() -> dict:
     return build_result(f, parsed, cache, "C", 15234.6, 794.3, "2026-11-05")
 
 
+def skip_backlog(cfg: dict) -> int:
+    """Mark everything currently listed as already seen, so only results filed from now on are sent."""
+    http, st = Http(), State(HERE / cfg["STATE_DIR"])
+    today = datetime.now(IST).date()
+    stamp = datetime.now(IST).isoformat(timespec="minutes")
+    n_f = n_a = 0
+    for fn in (lambda: discover_nse(http, "equities", today - timedelta(days=1), today),
+               lambda: discover_nse(http, "sme", today - timedelta(days=1), today),
+               lambda: discover_bse(http)):
+        got, _ = fn()
+        st.add_to_index(got)
+        for f in got:
+            if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry")):
+                st.mark(f.uid, "old")
+                n_f += 1
+    anns = []
+    for index in ("equities", "sme"):
+        anns += discover_nse_announcements(http, index, today)[0]
+    anns += discover_bse_announcements(http, today)[0]
+    for a in anns:
+        if a["uid"] not in st.data["ann"]:
+            st.data["ann"][a["uid"]] = {"t": stamp}
+            n_a += 1
+    st.save()
+    log(f"Skipped backlog: {n_f} filings and {n_a} announcements marked as seen")
+    Telegram(cfg["TELEGRAM_BOT_TOKEN"], cfg["TELEGRAM_CHAT_ID"], False).text(
+        "👍 All caught up. From now on you'll only get results as they are filed.")
+    return 0
+
+
 def loop(cfg: dict, dry_run: bool = False) -> int:
     """Always-on mode: check every POLL_SECONDS from 8 AM to 2:30 AM, every 10 minutes overnight."""
     poll = max(20.0, float(cfg["POLL_SECONDS"]))
@@ -1795,12 +1852,16 @@ def main(argv=None) -> int:
     ap.add_argument("--test-telegram", action="store_true", help="send the sample card to Telegram")
     ap.add_argument("--backfill", nargs=2, metavar=("FROM", "TO"),
                     help="one-off: index NSE result filings made between two dates (YYYY-MM-DD) for YoY figures")
+    ap.add_argument("--skip-backlog", action="store_true",
+                    help="mark everything listed right now as seen; only newer results get sent")
     ap.add_argument("--resend-today", action="store_true",
                     help="send today's cards again on the next run (e.g. after a backfill)")
     ap.add_argument("--loop", action="store_true",
                     help="keep running and check every POLL_SECONDS (for an always-on phone/PC/server)")
     a = ap.parse_args(argv)
     cfg = load_config()
+    if a.skip_backlog:
+        return skip_backlog(cfg)
     if a.resend_today:
         st = State(HERE / cfg["STATE_DIR"])
         n = st.resend_today()

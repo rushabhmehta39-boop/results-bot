@@ -138,7 +138,7 @@ on:
       mode:
         description: "What to do"
         type: choice
-        options: [check, test-telegram, resend-today]
+        options: [check, test-telegram, skip-backlog, resend-today]
         default: check
 
 permissions:
@@ -175,6 +175,8 @@ jobs:
         run: |
           if [ "$MODE" = "test-telegram" ]; then
             python results_bot.py --test-telegram
+          elif [ "$MODE" = "skip-backlog" ]; then
+            python results_bot.py --skip-backlog
           elif [ "$MODE" = "resend-today" ]; then
             python results_bot.py --resend-today && python results_bot.py
           else
