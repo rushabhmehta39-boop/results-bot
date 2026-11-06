@@ -260,6 +260,8 @@ class Http:
         api = kind in ("nse", "bse") and ("/api" in url or "BseIndiaAPI" in url)
         if api and kind in self.down:
             return None  # stopped answering earlier in this run: don't waste time
+        if kind == "nse" and api:
+            timeout = max(timeout, 40)  # NSE often takes ~20 s per request from cloud servers
         if kind == "nse" and not self.nse_seeded:
             self.seed_nse()
         s = self._session(kind)
@@ -392,7 +394,7 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
     while page <= 80:
         j = http.get_json(f"{NSE_API}/integrated-filing-results", "nse", referer=NSE_IF_REFERER,
                           params={"index": index, "from_date": d_from.strftime(fmt),
-                                  "to_date": d_to.strftime(fmt), "page": page})
+                                  "to_date": d_to.strftime(fmt), "page": page, "size": 100})
         if j is None:
             break
         ok_any = True
@@ -418,21 +420,24 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
     return out, ok_any
 
 
-def nse_history(http: Http, index: str, symbol: str, issuer: str) -> list[Filing]:
-    """Earlier result filings of one company (to fill in the comparison columns)."""
-    j = http.get_json(f"{NSE_API}/integrated-filing-results", "nse", referer=NSE_IF_REFERER,
-                      params={"index": index, "symbol": symbol, "issuer": issuer, "period_ended": "all",
-                              "type": "Integrated Filing- Financials", "page": 1, "size": 40})
-    out = [f for f in (_nse_row(r, index, "IF") for r in _rows(j)) if f]
-    if len(out) < 2:
-        today = datetime.now(IST).date()
-        per = "Half-Yearly" if index == "sme" else "Quarterly"
-        j = http.get_json(f"{NSE_API}/corporates-financial-results", "nse", referer=NSE_FR_REFERER,
-                          params={"index": index, "symbol": symbol, "period": per,
-                                  "from_date": (today - timedelta(days=560)).strftime("%d-%m-%Y"),
-                                  "to_date": today.strftime("%d-%m-%Y")})
-        out += [f for f in (_nse_row(r, index, "FR") for r in _rows(j)) if f]
-    return out
+def backfill_index(cfg: dict, d_from: date, d_to: date) -> int:
+    """One-off: list NSE result filings made between two dates and remember where each XBRL file is,
+    so last year's figures can fill the YoY column."""
+    http, st = Http(), State(HERE / cfg["STATE_DIR"])
+    total = 0
+    for index in ("equities", "sme"):
+        cur = d_from
+        while cur <= d_to:
+            win_end = min(cur + timedelta(days=30), d_to)
+            got, ok = discover_nse(http, index, cur, win_end)
+            added = st.add_to_index(got)
+            total += added
+            log(f"  {index} {cur:%d %b %Y}–{win_end:%d %b %Y}: {len(got)} filings listed, {added} new"
+                + ("" if ok else " (NSE did not respond)"))
+            st.save()
+            cur = win_end + timedelta(days=1)
+    log(f"Backfill done: {total} filings added; index now covers {len(st.index)} NSE symbols")
+    return 0
 
 
 def _rss_field(item: str, name: str) -> str:
@@ -1286,9 +1291,11 @@ class State:
         self.folder = folder
         self.path = folder / "seen.json"
         self.ppath = folder / "periods.json"
+        self.ipath = folder / "nse_index.json"
         self.exists = self.path.exists()
         self.data = self._read(self.path, {})
         self.periods = self._read(self.ppath, {})
+        self.index = self._read(self.ipath, {})   # NSE symbol -> {"period_end|C/S": [xbrl_url, filed]}
         for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin"):
             self.data.setdefault(k, {})
 
@@ -1298,6 +1305,20 @@ class State:
             return json.loads(p.read_text(encoding="utf-8"))
         except Exception:
             return default
+
+    def add_to_index(self, filings) -> int:
+        added = 0
+        for f in filings:
+            if not (f.symbol and f.xbrl_url and f.period_end and f.consolidated is not None
+                    and f.source in ("NSE", "NSE SME")):
+                continue
+            k = f"{f.period_end.isoformat()}|{'C' if f.consolidated else 'S'}"
+            filed = (f.filed_at or datetime.now(IST)).isoformat(timespec="minutes")
+            cur = self.index.setdefault(f.symbol, {}).get(k)
+            if cur is None or filed >= cur[1]:
+                added += cur is None
+                self.index[f.symbol][k] = [f.xbrl_url, filed]
+        return added
 
     def mark(self, uid, status, attempts=None):
         rec = {"s": status, "t": datetime.now(IST).isoformat(timespec="minutes")}
@@ -1322,6 +1343,11 @@ class State:
         self.folder.mkdir(parents=True, exist_ok=True)
         _write_if_changed(self.path, json.dumps(self.data, indent=0, sort_keys=True, ensure_ascii=False))
         _write_if_changed(self.ppath, json.dumps(self.periods, separators=(",", ":"), sort_keys=True))
+        for sym in list(self.index):
+            self.index[sym] = {k: v for k, v in self.index[sym].items() if k.split("|")[0] >= old_cut}
+            if not self.index[sym]:
+                del self.index[sym]
+        _write_if_changed(self.ipath, json.dumps(self.index, separators=(",", ":"), sort_keys=True))
 
 
 def _write_if_changed(path: Path, text: str) -> bool:
@@ -1382,22 +1408,14 @@ def write_site(site: Path, new_results: list, cfg: dict, status: dict, offline_h
 # Main run
 # --------------------------------------------------------------------------- #
 
-def fill_history(http, st, f: Filing, cache_key: str, basis: str, need_ends: set, issuer: str, sym: str):
-    """Fetch earlier filings of the same company and basis to fill comparison columns."""
-    if not sym or not need_ends:
-        return
-    index = "sme" if f.source == "NSE SME" else "equities"
-    hist = nse_history(http, index, sym, issuer)
-    want = []
-    for h in hist:
-        if h.period_end in need_ends and h.xbrl_url and h.consolidated is (basis == "C"):
-            want.append(h)
-    want.sort(key=lambda h: (h.period_end, h.filed_at or datetime.min.replace(tzinfo=IST)), reverse=True)
-    done = set()
-    for h in want:
-        if h.period_end in done:
+def fill_history(http, st, cache_key: str, basis: str, need_ends: set, sym: str):
+    """Fill comparison columns from earlier NSE filings of the same company and basis."""
+    entries = st.index.get(sym, {}) if sym else {}
+    for pe in sorted(need_ends):
+        ent = entries.get(f"{pe.isoformat()}|{basis}")
+        if not ent:
             continue
-        r = http.get(h.xbrl_url, "nse", accept="application/xml,text/xml,*/*")
+        r = http.get(ent[0], "nse", accept="application/xml,text/xml,*/*", timeout=40)
         if r is None:
             continue
         try:
@@ -1406,7 +1424,6 @@ def fill_history(http, st, f: Filing, cache_key: str, basis: str, need_ends: set
             log(f"    could not read earlier filing: {e}")
             continue
         st.periods.setdefault(cache_key, {}).update(p["periods"])
-        done.add(h.period_end)
 
 
 def process_filing(f: Filing, ctx: dict) -> str:
@@ -1463,8 +1480,7 @@ def process_filing(f: Filing, ctx: dict) -> str:
     needed = [shift_period(cs, ce, -12)] + ([shift_period(cs, ce, -span)] if span < 12 else [])
     need_ends = {e for (s, e) in needed if get_period(cache, s, e) is None}
     if need_ends and sym:
-        issuer = f.company if f.source != "BSE" else (info.get("NameOfTheCompany") or f.company)
-        fill_history(http, st, f, cache_key, basis, need_ends, issuer, sym)
+        fill_history(http, st, cache_key, basis, need_ends, sym)
         cache = st.periods[cache_key]
 
     res = build_result(f, parsed, cache, basis, mcap, price, pdate)
@@ -1599,6 +1615,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             st.data["warned"][name] = today
 
     filings = [f for f in filings if f.xbrl_url]
+    st.add_to_index(filings)
     todo = [f for f in filings if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry"))]
     if first_run:
         for f in todo:
@@ -1731,10 +1748,14 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="do everything except send to Telegram")
     ap.add_argument("--sample", action="store_true", help="save a sample card to out/sample_card.png")
     ap.add_argument("--test-telegram", action="store_true", help="send the sample card to Telegram")
+    ap.add_argument("--backfill", nargs=2, metavar=("FROM", "TO"),
+                    help="one-off: index NSE result filings made between two dates (YYYY-MM-DD) for YoY figures")
     ap.add_argument("--loop", action="store_true",
                     help="keep running and check every POLL_SECONDS (for an always-on phone/PC/server)")
     a = ap.parse_args(argv)
     cfg = load_config()
+    if a.backfill:
+        return backfill_index(cfg, date.fromisoformat(a.backfill[0]), date.fromisoformat(a.backfill[1]))
     if a.loop:
         return loop(cfg, a.dry_run)
     if a.sample or a.test_telegram:
