@@ -73,6 +73,7 @@ DEFAULTS = {
     "MIN_MCAP_CR": "700",
     "SOURCES": "nse,nse_sme,bse",
     "INSTANT_ALERTS": "on",
+    "ALERT_MAX_AGE_MINUTES": "90",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
     "LOOKBACK_DAYS": "1",
@@ -1554,10 +1555,13 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
     now = datetime.now(IST)
     today, stamp = now.date().isoformat(), now.isoformat(timespec="minutes")
     alerts = st.data["alerts"]
+    max_age = timedelta(minutes=float(cfg["ALERT_MAX_AGE_MINUTES"]))
     for a in sorted(anns, key=lambda x: (x["source"] == "BSE", x["ts"] or now)):
         if a["uid"] in st.data["ann"]:
             continue
         st.data["ann"][a["uid"]] = {"t": stamp}
+        if a["ts"] is None or now - a["ts"] > max_age or time.monotonic() > ctx["deadline"]:
+            continue  # only fresh results get an alert; older ones just get their card
         a.setdefault("scrip", "")
         if not a["isin"] and a["scrip"]:
             a["isin"] = st.data["scrip_isin"].get(a["scrip"], {}).get("v", "")
@@ -1686,8 +1690,9 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
         for f in fs:
             st.mark(f.uid, status if f is chosen else "superseded")
 
-    # Instant "results are out" alerts from the NSE announcement feed (the PDF comes before the XBRL).
-    if _on(cfg["INSTANT_ALERTS"]) and time.monotonic() < deadline:
+    # Instant "results are out" alerts from the announcement feeds (the PDF comes before the XBRL).
+    ctx["deadline"] = deadline + 120
+    if _on(cfg["INSTANT_ALERTS"]):
         anns = []
         for name, index in (("nse", "equities"), ("nse_sme", "sme")):
             if name in sources and health.get(name, True):
