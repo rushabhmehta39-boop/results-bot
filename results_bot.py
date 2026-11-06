@@ -1482,6 +1482,10 @@ def process_filing(f: Filing, ctx: dict) -> str:
         return "dup"
     if basis == "S" and f"{ident}|{ce.isoformat()}|C" in st.data["posted"]:
         return "superseded"
+    nn0 = norm_name(info.get("NameOfTheCompany") or f.company)
+    for v in st.data["posted"].values():
+        if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") in (basis, "C"):
+            return "dup" if v.get("b") == basis else "superseded"
     cache_key = f"{ident}|{basis}"
     st.periods.setdefault(cache_key, {}).update(parsed["periods"])
     cache = st.periods[cache_key]
@@ -1522,7 +1526,10 @@ def process_filing(f: Filing, ctx: dict) -> str:
     if mid is None:
         return "retry_tg"
     ctx["new_results"].append(res)
-    st.data["posted"][post_key] = {"t": datetime.now(IST).isoformat(timespec="minutes"), "n": nn}
+    st.data["posted"][post_key] = {"t": datetime.now(IST).isoformat(timespec="minutes"), "n": nn,
+                                   "pe": ce.isoformat(), "b": basis}
+    if not ctx.get("dry_run"):
+        st.save()  # record each card right away, so a stopped run never re-sends it
     log(f"  + {res['name']} {res['per']} {res['basis']}: M-cap ₹{mcap:,.0f} Cr -> card sent")
     return "posted"
 
@@ -1591,6 +1598,8 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
                 alerts[k] = rec
             counts["alert"] += 1
             log(f"  🔔 {a['company']}: results PDF out (M-cap ₹{mcap:,.0f} Cr) -> alert sent")
+            if not ctx.get("dry_run"):
+                st.save()
 
 
 def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
@@ -1659,7 +1668,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     for f in todo:
         groups[(f.source, f.exchange_key, str(f.period_end))].append(f)
     settle = timedelta(minutes=float(cfg["SETTLE_MINUTES"]))
-    ctx = {"http": http, "st": st, "cfg": cfg, "tg": tg, "fonts": Fonts(), "cards_dir": cards_dir,
+    ctx = {"http": http, "st": st, "cfg": cfg, "tg": tg, "fonts": Fonts(), "cards_dir": cards_dir, "dry_run": dry_run,
            "prices": Prices(http, out_dir / "prices"), "new_results": []}
     counts = defaultdict(int)
     keys = sorted(groups, key=lambda k: (order.get(k[0], 9),
