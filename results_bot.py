@@ -394,7 +394,7 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
     while page <= 80:
         j = http.get_json(f"{NSE_API}/integrated-filing-results", "nse", referer=NSE_IF_REFERER,
                           params={"index": index, "from_date": d_from.strftime(fmt),
-                                  "to_date": d_to.strftime(fmt), "page": page, "size": 100})
+                                  "to_date": d_to.strftime(fmt), "page": page})
         if j is None:
             break
         ok_any = True
@@ -425,15 +425,21 @@ def backfill_index(cfg: dict, d_from: date, d_to: date) -> int:
     so last year's figures can fill the YoY column."""
     http, st = Http(), State(HERE / cfg["STATE_DIR"])
     total = 0
+    deadline = time.monotonic() + 55 * 60
     for index in ("equities", "sme"):
         cur = d_from
-        while cur <= d_to:
-            win_end = min(cur + timedelta(days=30), d_to)
+        while cur <= d_to and time.monotonic() < deadline:
+            win_end = cur  # one day at a time: NSE times out on long date ranges
             got, ok = discover_nse(http, index, cur, win_end)
             added = st.add_to_index(got)
             total += added
-            log(f"  {index} {cur:%d %b %Y}–{win_end:%d %b %Y}: {len(got)} filings listed, {added} new"
-                + ("" if ok else " (NSE did not respond)"))
+            if got or not ok:
+                log(f"  {index} {cur:%d %b %Y}: {len(got)} filings listed, {added} new"
+                    + ("" if ok else " (NSE did not respond)"))
+            if not ok:
+                http.down.discard("nse")
+                http.fails["nse"] = 0
+                http = Http()  # fresh session after a timeout
             st.save()
             cur = win_end + timedelta(days=1)
     log(f"Backfill done: {total} filings added; index now covers {len(st.index)} NSE symbols")
