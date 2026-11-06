@@ -1329,7 +1329,8 @@ class State:
         self.periods = self._read(self.ppath, {})
         self.index = self._read(self.ipath, {})   # NSE symbol -> {"period_end|C/S": [xbrl_url, filed]}
         self.bindex = self._read(self.bpath, {})  # same, from the one-off backfill job
-        for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin"):
+        for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin",
+                  "fresh"):
             self.data.setdefault(k, {})
 
     @staticmethod
@@ -1376,14 +1377,15 @@ class State:
         self.data["filings"][uid] = rec
 
     RETAIN_DAYS = {"filings": 7, "posted": 60, "first_seen": 3, "alerts": 4, "ann": 3, "mcap": 2, "shares": 400,
-                   "scrip_isin": 400}
+                   "scrip_isin": 400, "fresh": 3}
 
     def save(self):
         now = datetime.now(IST)
         for k, days in self.RETAIN_DAYS.items():
             cutoff = (now - timedelta(days=days)).isoformat()
-            self.data[k] = {u: v for u, v in self.data[k].items()
-                            if (v.get("t", "") if isinstance(v, dict) else str(v)) >= cutoff}
+            d = self.data[k]  # prune in place: other code may hold a reference to this dict
+            for u in [u for u, v in d.items() if (v.get("t", "") if isinstance(v, dict) else str(v)) < cutoff]:
+                del d[u]
         old_cut = (now.date() - timedelta(days=800)).isoformat()
         for ck in list(self.periods):
             self.periods[ck] = {k: v for k, v in self.periods[ck].items() if k.split("_")[1] >= old_cut}
@@ -1577,6 +1579,27 @@ def _alert_mcap(a: dict, ctx: dict, stamp: str, today: str):
     return mcap
 
 
+def company_keys(isin="", symbol="", scrip="", name="") -> set:
+    keys = {isin.upper() if isin else "", symbol.upper() if symbol else "",
+            f"BSE:{scrip}" if scrip else "", f"N:{norm_name(name)}" if name else ""}
+    return keys - {"", "N:"}
+
+
+def mark_fresh(st: State, anns: list[dict], since: datetime) -> None:
+    """Remember companies whose results announcement came out after the bot went live."""
+    for a in anns:
+        if a["ts"] is None or a["ts"] < since:
+            continue
+        isin = a.get("isin") or (st.data["scrip_isin"].get(a.get("scrip", ""), {}).get("v", "") if a.get("scrip") else "")
+        rec = {"t": a["ts"].isoformat(timespec="minutes")}
+        for k in company_keys(isin, a.get("symbol", ""), a.get("scrip", ""), a.get("company", "")):
+            st.data["fresh"].setdefault(k, rec)
+
+
+def is_fresh(st: State, keys: set) -> bool:
+    return any(k in st.data["fresh"] for k in keys)
+
+
 def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
     """One short Telegram alert as soon as a results PDF is out (company M-cap >= limit).
     NSE announcements are handled first; a BSE one is skipped if the same company already got an alert."""
@@ -1589,7 +1612,8 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
         if a["uid"] in st.data["ann"]:
             continue
         st.data["ann"][a["uid"]] = {"t": stamp}
-        if a["ts"] is None or now - a["ts"] > max_age or time.monotonic() > ctx["deadline"]:
+        if (a["ts"] is None or now - a["ts"] > max_age or a["ts"] < ctx["since"]
+                or time.monotonic() > ctx["deadline"]):
             continue  # only fresh results get an alert; older ones just get their card
         a.setdefault("scrip", "")
         if not a["isin"] and a["scrip"]:
@@ -1675,6 +1699,19 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
                     f"Results from other exchanges still come through; it will keep retrying.")
             st.data["warned"][name] = today
 
+    # Results announcements (the PDFs). A company only gets a card if its announcement came out after the
+    # bot went live, so results announced earlier never show up.
+    if "since" not in st.data:
+        st.data["since"] = now.isoformat(timespec="seconds")
+    since = datetime.fromisoformat(st.data["since"])
+    anns = []
+    for name, index in (("nse", "equities"), ("nse_sme", "sme")):
+        if name in sources and health.get(name, True):
+            anns += discover_nse_announcements(http, index, d_to)[0]
+    if "bse" in sources and health.get("bse", True):
+        anns += discover_bse_announcements(http, d_to)[0]
+    mark_fresh(st, anns, since)
+
     filings = [f for f in filings if f.xbrl_url]
     st.add_to_index(filings)
     todo = [f for f in filings if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry"))]
@@ -1701,7 +1738,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
         groups[(f.source, f.exchange_key, str(f.period_end))].append(f)
     settle = timedelta(minutes=float(cfg["SETTLE_MINUTES"]))
     ctx = {"http": http, "st": st, "cfg": cfg, "tg": tg, "fonts": Fonts(), "cards_dir": cards_dir, "dry_run": dry_run,
-           "prices": Prices(http, out_dir / "prices"), "new_results": []}
+           "prices": Prices(http, out_dir / "prices"), "new_results": [], "since": since}
     counts = defaultdict(int)
     keys = sorted(groups, key=lambda k: (order.get(k[0], 9),
                                          min((f.filed_at or now) for f in groups[k])))
@@ -1710,6 +1747,10 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             log("Time limit reached; the rest will be done next run.")
             break
         fs = groups[gk]
+        if not any(is_fresh(st, company_keys(f.isin or st.data["scrip_isin"].get(f.scrip, {}).get("v", ""),
+                                             f.symbol, f.scrip, f.company)) for f in fs):
+            counts["announced earlier"] += 1
+            continue  # results announced before the bot went live (or not announced yet): no card
         gid = "|".join(gk)
         st.data["first_seen"].setdefault(gid, {"t": now.isoformat(timespec="minutes")})
         newest = lambda xs: max(xs, key=lambda f: (f.revised, f.filed_at or now))  # noqa: E731
@@ -1734,14 +1775,6 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     # Instant "results are out" alerts from the announcement feeds (the PDF comes before the XBRL).
     ctx["deadline"] = deadline + 120
     if _on(cfg["INSTANT_ALERTS"]):
-        anns = []
-        for name, index in (("nse", "equities"), ("nse_sme", "sme")):
-            if name in sources and health.get(name, True):
-                got, _ = discover_nse_announcements(http, index, d_to)
-                anns += got
-        if "bse" in sources and health.get("bse", True):
-            got, _ = discover_bse_announcements(http, d_to)
-            anns += got
         if first_run:  # don't alert on everything from earlier today on the very first run
             for a in anns:
                 st.data["ann"][a["uid"]] = {"t": now.isoformat(timespec="minutes")}
@@ -1808,6 +1841,8 @@ def skip_backlog(cfg: dict) -> int:
         if a["uid"] not in st.data["ann"]:
             st.data["ann"][a["uid"]] = {"t": stamp}
             n_a += 1
+    st.data["since"] = datetime.now(IST).isoformat(timespec="seconds")
+    st.data["fresh"] = {}
     st.save()
     log(f"Skipped backlog: {n_f} filings and {n_a} announcements marked as seen")
     Telegram(cfg["TELEGRAM_BOT_TOKEN"], cfg["TELEGRAM_CHAT_ID"], False).text(
