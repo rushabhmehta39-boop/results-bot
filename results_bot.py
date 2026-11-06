@@ -390,12 +390,12 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
     out: list[Filing] = []
     ok_any = False
     fmt = "%d-%m-%Y"
-    # 1) Integrated Filing - Financials (the format used since 2025), paginated.
-    page, got = 1, 0
-    while page <= 80:
+    # 1) Integrated Filing - Financials (the format used since 2025), 50 per page.
+    page, got, total = 1, 0, None
+    while page <= 60:
         j = http.get_json(f"{NSE_API}/integrated-filing-results", "nse", referer=NSE_IF_REFERER,
                           params={"index": index, "from_date": d_from.strftime(fmt),
-                                  "to_date": d_to.strftime(fmt), "page": page})
+                                  "to_date": d_to.strftime(fmt), "page": page, "size": 50})
         if j is None:
             break
         ok_any = True
@@ -404,10 +404,15 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
             break
         got += len(rows)
         out += [f for f in (_nse_row(r, index, "IF") for r in rows) if f]
-        total = j.get("totalCount") if isinstance(j, dict) else None
-        if not isinstance(j, dict) or (isinstance(total, int) and got >= total):
+        try:
+            total = int(j.get("totalCount")) if isinstance(j, dict) else None
+        except (TypeError, ValueError):
+            total = None
+        if not isinstance(j, dict) or total is None or got >= total or len(rows) < 50:
             break
         page += 1
+    if total and got < total:
+        log(f"  ! NSE {index}: got {got} of {total} listed filings (the rest come next run)")
     # 2) Older "Financial Results" format (still used by some filers).
     periods = ("Quarterly", "Half-Yearly") if index == "sme" else ("Quarterly",)
     for per in periods:
