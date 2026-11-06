@@ -207,6 +207,8 @@ class Http:
         self.sessions: dict = {}
         self.last: dict = {}
         self.nse_seeded = False
+        self.fails = {"nse": 0, "bse": 0}
+        self.down: set = set()   # exchange APIs that stopped answering during this run
 
     def _session(self, kind):
         if kind not in self.sessions:
@@ -254,7 +256,10 @@ class Http:
         self.nse_seeded = True
 
     def get(self, url, kind="plain", params=None, referer=None,
-            accept="application/json, text/plain, */*", timeout=45, tries=3, quiet=False):
+            accept="application/json, text/plain, */*", timeout=20, tries=2, quiet=False):
+        api = kind in ("nse", "bse") and ("/api" in url or "BseIndiaAPI" in url)
+        if api and kind in self.down:
+            return None  # stopped answering earlier in this run: don't waste time
         if kind == "nse" and not self.nse_seeded:
             self.seed_nse()
         s = self._session(kind)
@@ -264,10 +269,12 @@ class Http:
             try:
                 r = s.get(url, params=params, headers=self._headers(kind, referer, accept), timeout=timeout)
             except Exception as e:
-                last_err = f"{type(e).__name__}: {e}"
+                last_err = f"{type(e).__name__}: {str(e)[:90]}"
                 time.sleep(2 * (attempt + 1))
                 continue
             if r.status_code == 200:
+                if api:
+                    self.fails[kind] = 0
                 return r
             last_err = f"HTTP {r.status_code}"
             if r.status_code == 404:
@@ -275,8 +282,13 @@ class Http:
             if r.status_code in (401, 403) and kind == "nse":
                 self.seed_nse()
             time.sleep(2 * (attempt + 1))
+        if api and last_err != "HTTP 404":
+            self.fails[kind] += 1
+            if self.fails[kind] >= 3 and kind not in self.down:
+                self.down.add(kind)
+                log(f"  ! {kind.upper()} stopped answering - skipping its lookups for the rest of this run")
         if not quiet:
-            log(f"  ! {last_err} for {url}")
+            log(f"  ! {last_err} for {url.split('?')[0]}")
         return None
 
     def get_json(self, url, kind="plain", **kw):
@@ -774,13 +786,17 @@ def get_period(cache: dict, s: date, e: date) -> dict | None:
     k = pkey(s, e)
     if k in cache:
         return cache[k]
-    # Derive from two cumulative periods with the same start, e.g. Q4 = FY - 9M.
+    # Derive from two cumulative periods, e.g. Q4 = FY - 9M, or Q1 = H1 - Q2.
     prior_end = s - timedelta(days=1)
+    next_start = e + timedelta(days=1)
     for k1, m1 in cache.items():
         s1, e1 = unkey(k1)
-        if e1 != e or s1 >= s:
+        if e1 == e and s1 < s:
+            m2 = cache.get(pkey(s1, prior_end))
+        elif s1 == s and e1 > e:
+            m2 = cache.get(pkey(next_start, e1))
+        else:
             continue
-        m2 = cache.get(pkey(s1, prior_end))
         if m2:
             return {f: round(m1[f] - m2[f], 4) for f in m1 if f in m2}
     return None
@@ -927,27 +943,38 @@ def nse_quote_mcap(http: Http, sym: str, sme: bool = False):
     return None, None
 
 
+def bse_mcap(http: Http, scrip: str):
+    """Full market cap in Cr as published by BSE, or None."""
+    if not scrip:
+        return None
+    j = http.get_json(f"{BSE_API}/StockTrading/w", "bse", tries=1, referer=BSE + "/",
+                      params={"flag": "", "quotetype": "EQ", "scripcode": scrip})
+    try:
+        mc = float(str(j.get("MktCapFull", "")).replace(",", ""))
+        return mc if mc > 0 else None
+    except Exception:
+        return None
+
+
 def market_cap(http: Http, prices: Prices, f: Filing, isin: str, sym: str, scrip: str, shares):
-    """Returns (mcap in Cr, price, price date) or (None, None, None)."""
-    order = ["BSE", "NSE"] if f.source == "BSE" else ["NSE", "BSE"]
-    if shares:
-        for exch in order:
-            px, d = prices.close(exch, isin, sym if exch == "NSE" else scrip)
-            if px:
-                return shares * px / CRORE, px, d.isoformat()
-    if sym:  # NSE quote as a fallback
-        mc, px = nse_quote_mcap(http, sym, f.source == "NSE SME")
+    """Returns (mcap in Cr, price, price date) or (None, None, None).
+    BSE's published market cap first (share counts inside filings are sometimes wrong),
+    then shares x last close, then NSE's quote."""
+    px = pdate = None
+    for exch in (["BSE", "NSE"] if f.source == "BSE" else ["NSE", "BSE"]):
+        px, d = prices.close(exch, isin, sym if exch == "NSE" else scrip)
+        if px:
+            pdate = d.isoformat()
+            break
+    mc = bse_mcap(http, scrip)
+    if mc:
+        return mc, px, pdate
+    if shares and px:
+        return shares * px / CRORE, px, pdate
+    if sym:
+        mc, lp = nse_quote_mcap(http, sym, f.source == "NSE SME")
         if mc:
-            return mc, px, None
-    if scrip:  # BSE trading stats as a fallback (already in Cr)
-        j = http.get_json(f"{BSE_API}/StockTrading/w", "bse", tries=1,
-                          params={"flag": "", "quotetype": "EQ", "scripcode": scrip})
-        try:
-            mc = float(str(j.get("MktCapFull", "")).replace(",", ""))
-            if mc > 0:
-                return mc, None, None
-        except Exception:
-            pass
+            return mc, (px or lp), pdate
     return None, None, None
 
 
@@ -1463,20 +1490,16 @@ def _alert_mcap(a: dict, ctx: dict, stamp: str, today: str):
     cached = st.data["mcap"].get(ck)
     if cached and cached.get("t", "")[:10] == today:
         return cached["v"]
-    mcap = None
-    shares = st.data["shares"].get(a["isin"], {}).get("v") if a["isin"] else None
-    if shares:
-        px, _ = prices.close("BSE" if a["source"] == "BSE" else "NSE", a["isin"], a["symbol"] or a["scrip"])
-        mcap = shares * px / CRORE if px else None
+    scrip = a.get("scrip") or next((k for k, v in st.data["scrip_isin"].items()
+                                     if a["isin"] and v.get("v") == a["isin"]), "")
+    mcap = bse_mcap(http, scrip)
+    if mcap is None:
+        shares = st.data["shares"].get(a["isin"], {}).get("v") if a["isin"] else None
+        if shares:
+            px, _ = prices.close("BSE" if a["source"] == "BSE" else "NSE", a["isin"], a["symbol"] or scrip)
+            mcap = shares * px / CRORE if px else None
     if mcap is None and a["symbol"]:
         mcap, _ = nse_quote_mcap(http, a["symbol"], a["source"] == "NSE SME")
-    if mcap is None and a.get("scrip"):
-        j = http.get_json(f"{BSE_API}/StockTrading/w", "bse", tries=1,
-                          params={"flag": "", "quotetype": "EQ", "scripcode": a["scrip"]})
-        try:
-            mcap = float(str(j.get("MktCapFull", "")).replace(",", "")) or None
-        except Exception:
-            mcap = None
     if mcap is not None:
         st.data["mcap"][ck] = {"v": round(mcap, 1), "t": stamp}
     return mcap
