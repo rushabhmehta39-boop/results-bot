@@ -1,0 +1,63 @@
+name: Results bot
+
+on:
+  schedule:
+    # Every 5 minutes from 8:30 AM to 2:25 AM India time (GitHub may start runs a few minutes late)
+    - cron: "*/5 3-20 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        type: choice
+        options: [check, test-telegram]
+        default: check
+
+permissions:
+  contents: write
+
+concurrency:
+  group: results-bot
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Check for new results
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_MCAP_CR: ${{ vars.MIN_MCAP_CR || '700' }}
+          INSTANT_ALERTS: ${{ vars.INSTANT_ALERTS || 'on' }}
+          WEBSITE: ${{ vars.WEBSITE || 'off' }}
+          CARD_FOOTER: ${{ vars.CARD_FOOTER || '' }}
+          MODE: ${{ github.event.inputs.mode || 'check' }}
+        run: |
+          if [ "$MODE" = "test-telegram" ]; then
+            python results_bot.py --test-telegram
+          else
+            python results_bot.py
+          fi
+
+      - name: Save progress
+        if: always()
+        run: |
+          git config user.name "results-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for p in state docs; do [ -e "$p" ] && git add -A "$p"; done
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Update results state"
+            git pull -q --rebase || true
+            git push -q
+          fi
