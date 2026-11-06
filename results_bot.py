@@ -1535,7 +1535,9 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     http = http or Http()
     tg = Telegram(cfg["TELEGRAM_BOT_TOKEN"], cfg["TELEGRAM_CHAT_ID"], dry_run)
     if not tg.enabled and not dry_run:
-        log("Telegram is not set up (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID) - cards are only saved to out/cards")
+        log("Telegram is not set up yet: add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID "
+            "(GitHub: Settings -> Secrets and variables -> Actions). Nothing was checked or saved.")
+        return 0
     first_run = not st.exists
     if first_run:
         tg.text(f"✅ <b>{html.escape(cfg['CARD_BRAND'])} is live.</b>\nI check NSE, NSE SME and BSE every few minutes "
