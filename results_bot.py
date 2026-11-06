@@ -421,28 +421,30 @@ def discover_nse(http: Http, index: str, d_from: date, d_to: date) -> tuple[list
 
 
 def backfill_index(cfg: dict, d_from: date, d_to: date) -> int:
-    """One-off: list NSE result filings made between two dates and remember where each XBRL file is,
-    so last year's figures can fill the YoY column."""
+    """One-off: list NSE result filings made between two dates (one day at a time, main board and SME)
+    and remember where each XBRL file is, so last year's figures can fill the YoY column."""
     http, st = Http(), State(HERE / cfg["STATE_DIR"])
-    total = 0
-    deadline = time.monotonic() + 55 * 60
-    for index in ("equities", "sme"):
-        cur = d_from
-        while cur <= d_to and time.monotonic() < deadline:
-            win_end = cur  # one day at a time: NSE times out on long date ranges
-            got, ok = discover_nse(http, index, cur, win_end)
-            added = st.add_to_index(got)
+    deadline = time.monotonic() + 52 * 60
+    total, day, done_to = 0, d_from, None
+    while day <= d_to and time.monotonic() < deadline:
+        for index in ("equities", "sme"):
+            got, ok = discover_nse(http, index, day, day)
+            if not ok:  # NSE hiccup: fresh session, one more try
+                http = Http()
+                got, ok = discover_nse(http, index, day, day)
+            added = st.add_to_index(got, target=st.bindex)
             total += added
             if got or not ok:
-                log(f"  {index} {cur:%d %b %Y}: {len(got)} filings listed, {added} new"
+                log(f"  {index:8} {day:%d %b %Y}: {len(got)} filings listed, {added} new"
                     + ("" if ok else " (NSE did not respond)"))
-            if not ok:
-                http.down.discard("nse")
-                http.fails["nse"] = 0
-                http = Http()  # fresh session after a timeout
-            st.save()
-            cur = win_end + timedelta(days=1)
-    log(f"Backfill done: {total} filings added; index now covers {len(st.index)} NSE symbols")
+        st.save_backfill()
+        done_to = day
+        day += timedelta(days=1)
+    log(f"Backfill {'finished' if day > d_to else 'paused'}: covered {d_from:%d %b %Y} to "
+        f"{done_to:%d %b %Y} · {total} filings added · {len(st.bindex)} NSE symbols indexed"
+        if done_to else "Backfill could not start (NSE did not respond)")
+    if day <= d_to:
+        log(f"Run the backfill again from {day.isoformat()} to {d_to.isoformat()} to finish.")
     return 0
 
 
@@ -1298,10 +1300,12 @@ class State:
         self.path = folder / "seen.json"
         self.ppath = folder / "periods.json"
         self.ipath = folder / "nse_index.json"
+        self.bpath = folder / "nse_backfill.json"
         self.exists = self.path.exists()
         self.data = self._read(self.path, {})
         self.periods = self._read(self.ppath, {})
         self.index = self._read(self.ipath, {})   # NSE symbol -> {"period_end|C/S": [xbrl_url, filed]}
+        self.bindex = self._read(self.bpath, {})  # same, from the one-off backfill job
         for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin"):
             self.data.setdefault(k, {})
 
@@ -1312,7 +1316,8 @@ class State:
         except Exception:
             return default
 
-    def add_to_index(self, filings) -> int:
+    def add_to_index(self, filings, target=None) -> int:
+        target = self.index if target is None else target
         added = 0
         for f in filings:
             if not (f.symbol and f.xbrl_url and f.period_end and f.consolidated is not None
@@ -1320,11 +1325,26 @@ class State:
                 continue
             k = f"{f.period_end.isoformat()}|{'C' if f.consolidated else 'S'}"
             filed = (f.filed_at or datetime.now(IST)).isoformat(timespec="minutes")
-            cur = self.index.setdefault(f.symbol, {}).get(k)
+            cur = target.setdefault(f.symbol, {}).get(k)
             if cur is None or filed >= cur[1]:
                 added += cur is None
-                self.index[f.symbol][k] = [f.xbrl_url, filed]
+                target[f.symbol][k] = [f.xbrl_url, filed]
         return added
+
+    def save_backfill(self):
+        self.folder.mkdir(parents=True, exist_ok=True)
+        _write_if_changed(self.bpath, json.dumps(self.bindex, separators=(",", ":"), sort_keys=True))
+
+    def resend_today(self) -> int:
+        """Forget today's sent cards so the next run sends them again (e.g. after a backfill)."""
+        today = datetime.now(IST).date().isoformat()
+        keys = [k for k, v in self.data["posted"].items() if v.get("t", "")[:10] == today]
+        for k in keys:
+            del self.data["posted"][k]
+        for uid, v in list(self.data["filings"].items()):
+            if v.get("s") in ("posted", "superseded", "dup") and v.get("t", "")[:10] == today:
+                del self.data["filings"][uid]
+        return len(keys)
 
     def mark(self, uid, status, attempts=None):
         rec = {"s": status, "t": datetime.now(IST).isoformat(timespec="minutes")}
@@ -1416,7 +1436,7 @@ def write_site(site: Path, new_results: list, cfg: dict, status: dict, offline_h
 
 def fill_history(http, st, cache_key: str, basis: str, need_ends: set, sym: str):
     """Fill comparison columns from earlier NSE filings of the same company and basis."""
-    entries = st.index.get(sym, {}) if sym else {}
+    entries = {**st.bindex.get(sym, {}), **st.index.get(sym, {})} if sym else {}
     for pe in sorted(need_ends):
         ent = entries.get(f"{pe.isoformat()}|{basis}")
         if not ent:
@@ -1756,10 +1776,18 @@ def main(argv=None) -> int:
     ap.add_argument("--test-telegram", action="store_true", help="send the sample card to Telegram")
     ap.add_argument("--backfill", nargs=2, metavar=("FROM", "TO"),
                     help="one-off: index NSE result filings made between two dates (YYYY-MM-DD) for YoY figures")
+    ap.add_argument("--resend-today", action="store_true",
+                    help="send today's cards again on the next run (e.g. after a backfill)")
     ap.add_argument("--loop", action="store_true",
                     help="keep running and check every POLL_SECONDS (for an always-on phone/PC/server)")
     a = ap.parse_args(argv)
     cfg = load_config()
+    if a.resend_today:
+        st = State(HERE / cfg["STATE_DIR"])
+        n = st.resend_today()
+        st.save()
+        log(f"{n} of today's cards will be sent again on the next run")
+        return 0
     if a.backfill:
         return backfill_index(cfg, date.fromisoformat(a.backfill[0]), date.fromisoformat(a.backfill[1]))
     if a.loop:

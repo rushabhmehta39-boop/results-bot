@@ -1,0 +1,43 @@
+name: Backfill last year's filings
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_date:
+        description: "From date (YYYY-MM-DD)"
+        required: true
+      to_date:
+        description: "To date (YYYY-MM-DD)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: results-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Index past NSE result filings
+        run: python results_bot.py --backfill "${{ github.event.inputs.from_date }}" "${{ github.event.inputs.to_date }}"
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "results-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          [ -e state/nse_backfill.json ] && git add state/nse_backfill.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Update backfill index"
+            for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi

@@ -9,16 +9,8 @@ on:
       mode:
         description: "What to do"
         type: choice
-        options: [check, test-telegram, backfill]
+        options: [check, test-telegram, resend-today]
         default: check
-      backfill_from:
-        description: "Backfill only: from date (YYYY-MM-DD)"
-        required: false
-        default: ""
-      backfill_to:
-        description: "Backfill only: to date (YYYY-MM-DD)"
-        required: false
-        default: ""
 
 permissions:
   contents: write
@@ -30,7 +22,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
 
@@ -51,13 +43,11 @@ jobs:
           WEBSITE: ${{ vars.WEBSITE || 'off' }}
           CARD_FOOTER: ${{ vars.CARD_FOOTER || '' }}
           MODE: ${{ github.event.inputs.mode || 'check' }}
-          BACKFILL_FROM: ${{ github.event.inputs.backfill_from }}
-          BACKFILL_TO: ${{ github.event.inputs.backfill_to }}
         run: |
           if [ "$MODE" = "test-telegram" ]; then
             python results_bot.py --test-telegram
-          elif [ "$MODE" = "backfill" ]; then
-            python results_bot.py --backfill "$BACKFILL_FROM" "$BACKFILL_TO"
+          elif [ "$MODE" = "resend-today" ]; then
+            python results_bot.py --resend-today && python results_bot.py
           else
             python results_bot.py
           fi
@@ -70,6 +60,5 @@ jobs:
           for p in state docs; do [ -e "$p" ] && git add -A "$p"; done
           if ! git diff --cached --quiet; then
             git commit -q -m "Update results state"
-            git pull -q --rebase || true
-            git push -q
+            for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
           fi
