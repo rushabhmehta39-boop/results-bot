@@ -993,19 +993,16 @@ class Prices:
 
 
 def nse_quote_mcap(http: Http, sym: str, sme: bool = False):
-    """(mcap in Cr, last price) from NSE's quote service, or (None, None)."""
-    for series in (("SM", "ST", "EQ") if sme else ("EQ", "BE", "SM", "ST")):
-        j = http.get_json(f"{NSE_API}/NextApi/apiClient/GetQuoteApi", "nse", tries=1,
-                          referer=f"{NSE}/get-quotes/equity?symbol={sym}",
-                          params={"functionName": "getSymbolData", "marketType": "N",
-                                  "series": series, "symbol": sym})
-        try:
-            ti = j["equityResponse"][0]["tradeInfo"]
-            mc = float(ti.get("totalMarketCap") or 0)  # in rupees
-            if mc > 0:
-                return mc / CRORE, ti.get("lastPrice")
-        except Exception:
-            continue
+    """(mcap in Cr, last price) from NSE's quote page data (issued shares x last price), or (None, None)."""
+    j = http.get_json(f"{NSE_API}/quote-equity", "nse", tries=1,
+                      referer=f"{NSE}/get-quotes/equity?symbol={sym}", params={"symbol": sym})
+    try:
+        shares = float(j["securityInfo"]["issuedSize"])
+        px = float(j["priceInfo"]["lastPrice"])
+        if shares > 0 and px > 0:
+            return shares * px / CRORE, px
+    except Exception:
+        pass
     return None, None
 
 
