@@ -1,6 +1,6 @@
 # Results Desk — live NSE, NSE SME & BSE result cards on Telegram
 
-Every 5 minutes (8:30 AM – 2:30 AM India time) this bot:
+Every 5 minutes, round the clock, this bot:
 
 1. Checks for new quarterly / half-yearly results on **NSE, NSE SME (Emerge) and BSE**.
 2. Checks the company's **market cap — only ₹700 Cr and above** is posted.
@@ -131,8 +131,9 @@ name: Results bot
 
 on:
   schedule:
-    # Every 5 minutes from 8:30 AM to 2:25 AM India time (GitHub may start runs a few minutes late)
-    - cron: "*/5 3-20 * * *"
+    # Every 5 minutes, 24 hours a day, every day (GitHub may start runs a few minutes late)
+    # ok
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       mode:
