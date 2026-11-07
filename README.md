@@ -1,6 +1,6 @@
 # Results Desk — live NSE, NSE SME & BSE result cards on Telegram
 
-Every 5 minutes, round the clock, this bot:
+Every 5 minutes from 8 AM to 11 PM, Monday to Saturday (off on Sunday), this bot:
 
 1. Checks for new quarterly / half-yearly results on **NSE, NSE SME (Emerge) and BSE**.
 2. Checks the company's **market cap — only ₹700 Cr and above** is posted.
@@ -117,6 +117,7 @@ A Windows or Mac PC works the same way (`pip install -r requirements.txt`, then
   keep coming. NSE sometimes blocks cloud servers; if that happens a lot, use the 40-second option above
   on a device at home.
 - GitHub can start scheduled runs a few minutes late at busy times.
+- Results filed after 11 PM or on Sunday arrive with the first check at 8 AM the next working morning.
 - If GitHub ever emails that the workflow was disabled, open **Actions** and tap **Enable workflow**.
 - Uses unofficial exchange web addresses; they can change without notice. For personal use.
   **Not investment advice.**
@@ -131,9 +132,11 @@ name: Results bot
 
 on:
   schedule:
-    # Every 5 minutes, 24 hours a day, every day (GitHub may start runs a few minutes late)
-    # ok
-    - cron: "*/5 * * * *"
+    # Every 5 minutes, 8:00 AM to 11:00 PM India time, Monday to Saturday (Sunday off).
+    # Times below are UTC (India = UTC + 5:30). GitHub may start runs a few minutes late.
+    - cron: "30-55/5 2 * * 1-6"
+    - cron: "*/5 3-16 * * 1-6"
+    - cron: "0-30/5 17 * * 1-6"
   workflow_dispatch:
     inputs:
       mode:

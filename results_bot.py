@@ -75,6 +75,8 @@ DEFAULTS = {
     "INSTANT_ALERTS": "on",
     "ALERT_MAX_AGE_MINUTES": "90",
     "CARD_MAX_AGE_HOURS": "4",
+    "ACTIVE_HOURS": "08:00-23:00",
+    "ACTIVE_DAYS": "Mon,Tue,Wed,Thu,Fri,Sat",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
     "LOOKBACK_DAYS": "1",
@@ -88,6 +90,34 @@ DEFAULTS = {
     "CARD_BRAND": "Results Desk",
     "CARD_FOOTER": "",
 }
+
+
+_DAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+
+
+def active_window(cfg: dict):
+    """(start time, end time, set of weekday numbers) from ACTIVE_HOURS / ACTIVE_DAYS."""
+    a, b = (x.strip() for x in cfg["ACTIVE_HOURS"].split("-"))
+    start = datetime.strptime(a, "%H:%M").time()
+    end = datetime.strptime(b, "%H:%M").time()
+    days = {_DAYS.index(d.strip()[:3].lower()) for d in cfg["ACTIVE_DAYS"].split(",") if d.strip()[:3].lower() in _DAYS}
+    return start, end, days or set(range(7))
+
+
+def last_window_end(now: datetime, cfg: dict) -> datetime:
+    """End of the previous active day's window (e.g. Saturday 11 PM when it's Monday morning)."""
+    _, end, days = active_window(cfg)
+    d = now.date() - timedelta(days=1)
+    for _ in range(7):
+        if d.weekday() in days:
+            break
+        d -= timedelta(days=1)
+    return datetime.combine(d, end, tzinfo=IST)
+
+
+def is_active(now: datetime, cfg: dict) -> bool:
+    start, end, days = active_window(cfg)
+    return now.weekday() in days and start <= now.time() <= end
 
 
 def _on(v) -> bool:
@@ -510,10 +540,10 @@ def is_result_announcement(row: dict) -> bool:
         w in txt for w in ("financial result", "unaudited result", "audited result"))
 
 
-def discover_nse_announcements(http: Http, index: str, day: date) -> tuple[list[dict], bool]:
+def discover_nse_announcements(http: Http, index: str, day: date, d_from: date | None = None) -> tuple[list[dict], bool]:
     j = http.get_json(f"{NSE_API}/corporate-announcements", "nse",
                       referer=NSE + "/companies-listing/corporate-filings-announcements",
-                      params={"index": index, "from_date": day.strftime("%d-%m-%Y"),
+                      params={"index": index, "from_date": (d_from or day).strftime("%d-%m-%Y"),
                               "to_date": day.strftime("%d-%m-%Y")})
     if j is None:
         return [], False
@@ -532,12 +562,12 @@ def discover_nse_announcements(http: Http, index: str, day: date) -> tuple[list[
     return out, True
 
 
-def discover_bse_announcements(http: Http, day: date) -> tuple[list[dict], bool]:
+def discover_bse_announcements(http: Http, day: date, d_from: date | None = None) -> tuple[list[dict], bool]:
     """BSE 'Result' category announcements for the day (the feed behind bseindia.com/corporates/ann)."""
     out, ok, got = [], False, 0
     for page in range(1, 21):
         j = http.get_json(f"{BSE_API}/AnnSubCategoryGetData/w", "bse", referer=BSE + "/corporates/ann",
-                          params={"pageno": page, "strCat": "Result", "strPrevDate": day.strftime("%Y%m%d"),
+                          params={"pageno": page, "strCat": "Result", "strPrevDate": (d_from or day).strftime("%Y%m%d"),
                                   "strScrip": "", "strSearch": "P", "strToDate": day.strftime("%Y%m%d"),
                                   "strType": "C", "subcategory": "-1"})
         if not isinstance(j, dict):
@@ -1613,12 +1643,11 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
     now = datetime.now(IST)
     today, stamp = now.date().isoformat(), now.isoformat(timespec="minutes")
     alerts = st.data["alerts"]
-    max_age = timedelta(minutes=float(cfg["ALERT_MAX_AGE_MINUTES"]))
     for a in sorted(anns, key=lambda x: (x["source"] == "BSE", x["ts"] or now)):
         if a["uid"] in st.data["ann"]:
             continue
         st.data["ann"][a["uid"]] = {"t": stamp}
-        if (a["ts"] is None or now - a["ts"] > max_age or a["ts"] < ctx["since"]
+        if (a["ts"] is None or a["ts"] < ctx["alert_cutoff"] or a["ts"] < ctx["since"]
                 or time.monotonic() > ctx["deadline"]):
             continue  # only fresh results get an alert; older ones just get their card
         a.setdefault("scrip", "")
@@ -1674,8 +1703,12 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
                 f"and send results of companies with market cap ₹{indian(round(float(cfg['MIN_MCAP_CR'])))} Cr "
                 f"and above here." + (" A 🔔 alert comes when the results PDF is out; the numbers card follows "
                                      "as a reply." if _on(cfg["INSTANT_ALERTS"]) else ""))
+    # Anything that came in while the bot was off (overnight, Sunday) is still new to you.
+    quiet_from = last_window_end(now, cfg) - timedelta(minutes=15)
+    card_cutoff = min(now - timedelta(hours=float(cfg["CARD_MAX_AGE_HOURS"])), quiet_from)
+    alert_cutoff = min(now - timedelta(minutes=float(cfg["ALERT_MAX_AGE_MINUTES"])), quiet_from)
     d_to = now.date()
-    d_from = d_to - timedelta(days=0 if first_run else max(0, int(cfg["LOOKBACK_DAYS"])))
+    d_from = d_to if first_run else min(d_to - timedelta(days=max(0, int(cfg["LOOKBACK_DAYS"]))), card_cutoff.date())
     sources = [s.strip().lower() for s in cfg["SOURCES"].split(",") if s.strip()]
     log(f"Results Desk v{VERSION} · checking {', '.join(sources)} for {d_from:%d %b}–{d_to:%d %b}"
         f"{' (first run)' if first_run else ''}{' (dry run)' if dry_run else ''}")
@@ -1713,20 +1746,19 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     anns = []
     for name, index in (("nse", "equities"), ("nse_sme", "sme")):
         if name in sources and health.get(name, True):
-            anns += discover_nse_announcements(http, index, d_to)[0]
+            anns += discover_nse_announcements(http, index, d_to, max(alert_cutoff.date(), since.date()))[0]
     if "bse" in sources and health.get("bse", True):
-        anns += discover_bse_announcements(http, d_to)[0]
+        anns += discover_bse_announcements(http, d_to, max(alert_cutoff.date(), since.date()))[0]
     mark_fresh(st, anns, since)
 
     filings = [f for f in filings if f.xbrl_url]
     st.add_to_index(filings)
     todo = [f for f in filings if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry"))]
-    # Only fresh results: anything filed more than CARD_MAX_AGE_HOURS ago is skipped quietly.
-    max_age = timedelta(hours=float(cfg["CARD_MAX_AGE_HOURS"]))
+    # Only fresh results: anything filed before the cut-off is skipped quietly.
     fresh = []
     for f in todo:
         when = f.filed_at or bse_file_time(f.xbrl_url)
-        if when is not None and now - when > max_age:
+        if when is not None and when < card_cutoff:
             st.mark(f.uid, "old")
         else:
             fresh.append(f)
@@ -1744,7 +1776,8 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
         groups[(f.source, f.exchange_key, str(f.period_end))].append(f)
     settle = timedelta(minutes=float(cfg["SETTLE_MINUTES"]))
     ctx = {"http": http, "st": st, "cfg": cfg, "tg": tg, "fonts": Fonts(), "cards_dir": cards_dir, "dry_run": dry_run,
-           "prices": Prices(http, out_dir / "prices"), "new_results": [], "since": since}
+           "prices": Prices(http, out_dir / "prices"), "new_results": [], "since": since,
+           "alert_cutoff": alert_cutoff}
     counts = defaultdict(int)
     keys = sorted(groups, key=lambda k: (order.get(k[0], 9),
                                          min((f.filed_at or now) for f in groups[k])))
@@ -1857,7 +1890,7 @@ def skip_backlog(cfg: dict) -> int:
 
 
 def loop(cfg: dict, dry_run: bool = False) -> int:
-    """Always-on mode: check every POLL_SECONDS from 8 AM to 2:30 AM, every 10 minutes overnight."""
+    """Always-on mode: check every POLL_SECONDS during ACTIVE_HOURS/ACTIVE_DAYS, every 10 minutes otherwise."""
     poll = max(20.0, float(cfg["POLL_SECONDS"]))
     cfg = dict(cfg, MAX_RUN_MINUTES=str(min(float(cfg["MAX_RUN_MINUTES"]), 4)))
     http = Http()
@@ -1874,8 +1907,7 @@ def loop(cfg: dict, dry_run: bool = False) -> int:
         runs += 1
         if runs % 90 == 0:
             http = Http()  # fresh cookies now and then
-        hm = datetime.now(IST).hour * 60 + datetime.now(IST).minute
-        wait = poll if (hm >= 8 * 60 or hm < 150) else 600
+        wait = poll if is_active(datetime.now(IST), cfg) else 600
         try:
             time.sleep(max(5.0, wait - (time.monotonic() - t0)))
         except KeyboardInterrupt:
