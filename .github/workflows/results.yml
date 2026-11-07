@@ -3,10 +3,10 @@ name: Results bot
 on:
   schedule:
     # Every 5 minutes, 8:00 AM to 11:00 PM India time, Monday to Saturday (Sunday off).
-    # Times below are UTC (India = UTC + 5:30). GitHub may start runs a few minutes late.
-    - cron: "30-55/5 2 * * 1-6"
-    - cron: "*/5 3-16 * * 1-6"
-    - cron: "0-30/5 17 * * 1-6"
+    # Times below are UTC (India = UTC + 5:30), at :02/:07/... to avoid GitHub's busy round minutes.
+    - cron: "32-57/5 2 * * 1-6"
+    - cron: "2-57/5 3-16 * * 1-6"
+    - cron: "2-32/5 17 * * 1-6"
   workflow_dispatch:
     inputs:
       mode:
