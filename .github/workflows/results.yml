@@ -2,9 +2,9 @@ name: Results bot
 
 on:
   schedule:
-    # Every 5 minutes from 8:30 AM to 2:25 AM India time (GitHub may start runs a few minutes late)
+    # Every 5 minutes, 24 hours a day, every day (GitHub may start runs a few minutes late)
     # ok
-    - cron: "*/5 3-20 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       mode:
