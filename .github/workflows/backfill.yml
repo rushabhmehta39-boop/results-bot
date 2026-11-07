@@ -20,7 +20,7 @@ concurrency:
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -30,6 +30,8 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
       - name: Index past NSE result filings
+        env:
+          BACKFILL_MINUTES: "320"
         run: python results_bot.py --backfill "${{ github.event.inputs.from_date }}" "${{ github.event.inputs.to_date }}"
       - name: Save
         if: always()

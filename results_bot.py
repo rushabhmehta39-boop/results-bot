@@ -431,7 +431,7 @@ def backfill_index(cfg: dict, d_from: date, d_to: date) -> int:
     """One-off: list NSE result filings made between two dates (one day at a time, main board and SME)
     and remember where each XBRL file is, so last year's figures can fill the YoY column."""
     http, st = Http(), State(HERE / cfg["STATE_DIR"])
-    deadline = time.monotonic() + 52 * 60
+    deadline = time.monotonic() + float(os.environ.get("BACKFILL_MINUTES", "52")) * 60
     total, day, done_to = 0, d_from, None
     while day <= d_to and time.monotonic() < deadline:
         for index in ("equities", "sme"):
@@ -1344,15 +1344,17 @@ class State:
         target = self.index if target is None else target
         added = 0
         for f in filings:
-            if not (f.symbol and f.xbrl_url and f.period_end and f.consolidated is not None
-                    and f.source in ("NSE", "NSE SME")):
+            if not (f.xbrl_url and f.period_end and f.consolidated is not None):
+                continue
+            ident = f.symbol if f.source in ("NSE", "NSE SME") else (f"BSE:{f.scrip}" if f.scrip else "")
+            if not ident:
                 continue
             k = f"{f.period_end.isoformat()}|{'C' if f.consolidated else 'S'}"
             filed = (f.filed_at or datetime.now(IST)).isoformat(timespec="minutes")
-            cur = target.setdefault(f.symbol, {}).get(k)
+            cur = target.setdefault(ident, {}).get(k)
             if cur is None or filed >= cur[1]:
                 added += cur is None
-                target[f.symbol][k] = [f.xbrl_url, filed]
+                target[ident][k] = [f.xbrl_url, filed]
         return added
 
     def save_backfill(self):
@@ -1459,14 +1461,18 @@ def write_site(site: Path, new_results: list, cfg: dict, status: dict, offline_h
 # Main run
 # --------------------------------------------------------------------------- #
 
-def fill_history(http, st, cache_key: str, basis: str, need_ends: set, sym: str):
-    """Fill comparison columns from earlier NSE filings of the same company and basis."""
-    entries = {**st.bindex.get(sym, {}), **st.index.get(sym, {})} if sym else {}
+def fill_history(http, st, cache_key: str, basis: str, need_ends: set, sym: str, scrip: str = ""):
+    """Fill comparison columns from earlier filings (NSE or BSE) of the same company and basis."""
+    entries = {}
+    for ident in ([f"BSE:{scrip}"] if scrip else []) + ([sym] if sym else []):
+        entries.update(st.bindex.get(ident, {}))
+        entries.update(st.index.get(ident, {}))
     for pe in sorted(need_ends):
         ent = entries.get(f"{pe.isoformat()}|{basis}")
         if not ent:
             continue
-        r = http.get(ent[0], "nse", accept="application/xml,text/xml,*/*", timeout=40)
+        kind = "bse" if "bseindia.com" in ent[0] else "nse"
+        r = http.get(ent[0], kind, accept="application/xml,text/xml,*/*", timeout=40)
         if r is None:
             continue
         try:
@@ -1534,8 +1540,8 @@ def process_filing(f: Filing, ctx: dict) -> str:
     span = month_span(cs, ce)
     needed = [shift_period(cs, ce, -12)] + ([shift_period(cs, ce, -span)] if span < 12 else [])
     need_ends = {e for (s, e) in needed if get_period(cache, s, e) is None}
-    if need_ends and sym:
-        fill_history(http, st, cache_key, basis, need_ends, sym)
+    if need_ends and (sym or scrip):
+        fill_history(http, st, cache_key, basis, need_ends, sym, scrip if scrip.isdigit() else "")
         cache = st.periods[cache_key]
 
     res = build_result(f, parsed, cache, basis, mcap, price, pdate)
