@@ -3,7 +3,7 @@ name: Results bot
 on:
   schedule:
     # Every 5 minutes from 8:30 AM to 2:25 AM India time (GitHub may start runs a few minutes late)
-    ok
+    # ok
     - cron: "*/5 3-20 * * *"
   workflow_dispatch:
     inputs:
