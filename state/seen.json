@@ -12,6 +12,12 @@
 "n": "ASMTECHNOLOGIES",
 "t": "2026-11-07T22:09+05:30"
 },
+"BSE:543413": {
+"d": "2026-11-08",
+"mid": 125,
+"n": "TEGAINDUSTRIES",
+"t": "2026-11-08T18:13+05:30"
+},
 "DIVISLAB": {
 "d": "2026-11-07",
 "mid": 106,
@@ -23,6 +29,12 @@
 "mid": 109,
 "n": "FINOLEXCABLES",
 "t": "2026-11-07T15:59+05:30"
+},
+"INE011K01018": {
+"d": "2026-11-08",
+"mid": 125,
+"n": "TEGAINDUSTRIES",
+"t": "2026-11-08T18:13+05:30"
 },
 "INE01EO01010": {
 "d": "2026-11-07",
@@ -715,6 +727,9 @@
 "ANN-sme-106852801-AXIOMGAS": {
 "t": "2026-11-07T22:09+05:30"
 },
+"ANN-sme-106852873-LAKSHYA": {
+"t": "2026-11-08T18:13+05:30"
+},
 "BANN-00f9cf49-0c0b-47bd-a58f-c30fbc87a577": {
 "t": "2026-11-07T15:59+05:30"
 },
@@ -879,6 +894,9 @@
 },
 "BANN-2fc2026e-e1fb-4c65-9cba-2240f66fb14f": {
 "t": "2026-11-06T23:18+05:30"
+},
+"BANN-303d90ef-524d-4260-baa0-0d0ace222fda": {
+"t": "2026-11-08T18:13+05:30"
 },
 "BANN-317e7bd0-a363-493d-9ba7-6b8125e102dd": {
 "t": "2026-11-06T23:18+05:30"
@@ -2176,6 +2194,10 @@
 "BSE-Integrated_Finance_Ind_As_526431_6112026164523_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_526433_711202618532_IFIndAs.xml": {
+"s": "posted",
+"t": "2026-11-08T18:13+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_526612_06112026042540_IFIndAs.xml": {
 "s": "old",
@@ -5849,6 +5871,10 @@
 "s": "small",
 "t": "2026-11-07T22:08+05:30"
 },
+"NSE-equities-IF-211856": {
+"s": "superseded",
+"t": "2026-11-08T18:12+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -6772,6 +6798,11 @@
 "NSE-sme-IF-211850": {
 "s": "small",
 "t": "2026-11-08T01:57+05:30"
+},
+"NSE-sme-IF-211865": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-08T18:12+05:30"
 }
 },
 "first_seen": {
@@ -6783,6 +6814,9 @@
 },
 "BSE|500336|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
+},
+"BSE|500470|2026-09-30": {
+"t": "2026-11-08T18:12+05:30"
 },
 "BSE|500770|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
@@ -6817,6 +6851,9 @@
 "BSE|517271|2026-09-30": {
 "t": "2026-11-07T15:59+05:30"
 },
+"BSE|517554|2026-09-30": {
+"t": "2026-11-08T18:12+05:30"
+},
 "BSE|519367|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
 },
@@ -6828,6 +6865,9 @@
 },
 "BSE|523371|2026-09-30": {
 "t": "2026-11-07T15:59+05:30"
+},
+"BSE|524408|2026-09-30": {
+"t": "2026-11-08T18:12+05:30"
 },
 "BSE|524548|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
@@ -7017,6 +7057,9 @@
 },
 "NSE SME|GREENCHEF|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
+},
+"NSE SME|LAKSHYA|2026-09-30": {
+"t": "2026-11-08T18:12+05:30"
 },
 "NSE SME|MDL|2026-09-30": {
 "t": "2026-11-07T22:05+05:30"
@@ -7536,6 +7579,9 @@
 "BSE:543266": {
 "t": "2026-11-07T13:50+05:30"
 },
+"BSE:543413": {
+"t": "2026-11-08T13:21+05:30"
+},
 "BSE:543443": {
 "t": "2026-11-07T14:30+05:30"
 },
@@ -7634,6 +7680,9 @@
 },
 "INE008Z01012": {
 "t": "2026-11-07T14:02+05:30"
+},
+"INE011K01018": {
+"t": "2026-11-08T13:21+05:30"
 },
 "INE01EO01010": {
 "t": "2026-11-07T14:39+05:30"
@@ -8043,6 +8092,9 @@
 "N:TATASTEEL": {
 "t": "2026-11-07T13:06+05:30"
 },
+"N:TEGAINDUSTRIES": {
+"t": "2026-11-08T13:21+05:30"
+},
 "N:TRANSGLOBEFOODS": {
 "t": "2026-11-07T20:36+05:30"
 },
@@ -8325,6 +8377,10 @@
 "t": "2026-11-07T15:59+05:30",
 "v": 604.2
 },
+"BSE:543413": {
+"t": "2026-11-08T18:13+05:30",
+"v": 12811.5
+},
 "BSE:543443": {
 "t": "2026-11-07T15:59+05:30",
 "v": 72.4
@@ -8495,21 +8551,85 @@
 }
 },
 "pending": {
-"BSE-Integrated_Finance_Ind_As_526433_711202618532_IFIndAs.xml": {
-"company": "ASM Technologies Ltd",
+"BSE-Integrated_Finance_Ind_As_500470_811202633713_IFIndAs.xml": {
+"company": "Tata Steel Ltd",
 "consolidated": false,
 "filed_at": null,
 "index": "bse",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
-"scrip": "526433",
+"scrip": "500470",
 "source": "BSE",
 "symbol": "",
-"t": "2026-11-07T22:05+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_526433_711202618532_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526433_711202618532_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526433_711202618532_IFIndAs.xml"
+"t": "2026-11-08T18:12+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500470_811202633713_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500470_811202633713_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500470_811202633713_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_517554_811202652226_IFIndAs.xml": {
+"company": "NHC Foods Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "517554",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-08T18:12+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_517554_811202652226_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517554_811202652226_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517554_811202652226_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_524408_8112026134848_IFIndAs.xml": {
+"company": "Universal Starch Chem Allied Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "524408",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-08T18:12+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_524408_8112026134848_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524408_8112026134848_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524408_8112026134848_IFIndAs.xml"
+},
+"NSE-sme-IF-211864": {
+"company": "Lakshya Powertech Limited",
+"consolidated": false,
+"filed_at": "2026-11-08T12:54:22+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "LAKSHYA",
+"t": "2026-11-08T18:12+05:30",
+"uid": "NSE-sme-IF-211864",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
+},
+"NSE-sme-IF-211865": {
+"company": "Lakshya Powertech Limited",
+"consolidated": true,
+"filed_at": "2026-11-08T12:55:10+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "LAKSHYA",
+"t": "2026-11-08T18:12+05:30",
+"uid": "NSE-sme-IF-211865",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211865_08112026125510_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755534_08112026125509_WEB.xml"
 }
 },
 "posted": {
@@ -8845,6 +8965,12 @@
 "pe": "2026-09-30",
 "t": "2026-11-06T23:15+05:30"
 },
+"INE867C01010|2026-09-30|S": {
+"b": "S",
+"n": "ASMTECHNOLOGIES",
+"pe": "2026-09-30",
+"t": "2026-11-08T18:13+05:30"
+},
 "INE903D01011|2025-03-31|C": {
 "b": "C",
 "n": "MONARCHNETWORTHCAPITAL",
@@ -8980,8 +9106,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-08T01:57+05:30",
-"v": "INE16J201028"
+"t": "2026-11-08T18:12+05:30",
+"v": "INE0VZS01015"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -9102,6 +9228,10 @@
 "524669": {
 "t": "2026-11-06T23:11+05:30",
 "v": "INE782E01017"
+},
+"526433": {
+"t": "2026-11-08T18:12+05:30",
+"v": "INE867C01010"
 },
 "526729": {
 "t": "2026-11-07T15:59+05:30",
@@ -9848,6 +9978,10 @@
 "INE863T01013": {
 "t": "2026-11-06T23:16+05:30",
 "v": 25703500
+},
+"INE867C01010": {
+"t": "2026-11-08T18:12+05:30",
+"v": 14589000
 },
 "INE903D01011": {
 "t": "2026-11-06T23:10+05:30",
