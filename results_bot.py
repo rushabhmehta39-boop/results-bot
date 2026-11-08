@@ -348,6 +348,19 @@ class Filing:
         for k in self.__slots__:
             setattr(self, k, kw.get(k))
 
+    def to_dict(self) -> dict:
+        d = {k: getattr(self, k) for k in self.__slots__}
+        d["period_end"] = self.period_end.isoformat() if self.period_end else None
+        d["filed_at"] = self.filed_at.isoformat() if self.filed_at else None
+        return d
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Filing":
+        d = dict(d)
+        d["period_end"] = date.fromisoformat(d["period_end"]) if d.get("period_end") else None
+        d["filed_at"] = datetime.fromisoformat(d["filed_at"]) if d.get("filed_at") else None
+        return cls(**{k: d.get(k) for k in cls.__slots__})
+
     @property
     def company_id(self) -> str:
         return self.isin or (f"NSE:{self.symbol}" if self.symbol else f"BSE:{self.scrip}")
@@ -1357,7 +1370,7 @@ class State:
         self.index = self._read(self.ipath, {})   # NSE symbol -> {"period_end|C/S": [xbrl_url, filed]}
         self.bindex = self._read(self.bpath, {})  # same, from the one-off backfill job
         for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin",
-                  "fresh"):
+                  "fresh", "pending"):
             self.data.setdefault(k, {})
 
     @staticmethod
@@ -1400,13 +1413,15 @@ class State:
         return len(keys)
 
     def mark(self, uid, status, attempts=None):
+        if not status.startswith("retry"):
+            self.data["pending"].pop(uid, None)
         rec = {"s": status, "t": datetime.now(IST).isoformat(timespec="minutes")}
         if attempts:
             rec["n"] = attempts
         self.data["filings"][uid] = rec
 
     RETAIN_DAYS = {"filings": 7, "posted": 60, "first_seen": 3, "alerts": 4, "ann": 3, "mcap": 2, "shares": 400,
-                   "scrip_isin": 400, "fresh": 3}
+                   "scrip_isin": 400, "fresh": 3, "pending": 4}
 
     def save(self):
         now = datetime.now(IST)
@@ -1749,13 +1764,20 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     mark_fresh(st, anns, since)
 
     filings = [f for f in filings if f.xbrl_url]
+    listed = {f.uid for f in filings}
+    for uid, d in list(st.data["pending"].items()):
+        if uid not in listed and st.data["filings"].get(uid, {}).get("s", "new").startswith(("new", "retry")):
+            try:
+                filings.append(Filing.from_dict(d))
+            except Exception:
+                st.data["pending"].pop(uid, None)
     st.add_to_index(filings)
     todo = [f for f in filings if st.data["filings"].get(f.uid, {}).get("s", "new").startswith(("new", "retry"))]
     # Only fresh results: anything filed before the cut-off is skipped quietly.
     fresh = []
     for f in todo:
         when = f.filed_at or bse_file_time(f.xbrl_url)
-        if when is not None and when < card_cutoff:
+        if when is not None and when < card_cutoff and f.uid not in st.data["pending"]:
             st.mark(f.uid, "old")
         else:
             fresh.append(f)
@@ -1789,6 +1811,8 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             continue  # results announced before the bot went live (or not announced yet): no card
         gid = "|".join(gk)
         st.data["first_seen"].setdefault(gid, {"t": now.isoformat(timespec="minutes")})
+        for f in fs:  # keep it even if the exchange's list moves on before we finish
+            st.data["pending"].setdefault(f.uid, {**f.to_dict(), "t": now.isoformat(timespec="minutes")})
         newest = lambda xs: max(xs, key=lambda f: (f.revised, f.filed_at or now))  # noqa: E731
         cons = [f for f in fs if f.consolidated is True]
         if cons:
