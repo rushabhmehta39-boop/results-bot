@@ -625,6 +625,16 @@ def bse_file_time(url: str | None) -> datetime | None:
     return t
 
 
+_NOT_SYMBOLS = {"NOTLISTED", "NOT LISTED", "NA", "N.A.", "N/A", "NIL", "NONE", "-", "0"}
+
+
+def clean_symbol(v) -> str:
+    t = str(v or "").strip().upper()
+    if not t or t in _NOT_SYMBOLS or not re.fullmatch(r"[A-Z0-9&._\-]{1,20}", t):
+        return ""
+    return t
+
+
 def norm_name(s: str) -> str:
     s = (s or "").upper().replace("&", " AND ")
     s = re.sub(r"[^A-Z0-9 ]", " ", s)
@@ -906,7 +916,7 @@ def build_result(f: Filing, parsed: dict, cache: dict, basis: str, mcap, price, 
             pat_yoy = gyn
         rows.append([label, *vals, gy, gyd, gq, gqd])
     name = (info.get("NameOfTheCompany") or f.company or "").strip()
-    sym = (info.get("Symbol") or f.symbol or "").strip().upper()
+    sym = clean_symbol(info.get("Symbol")) or clean_symbol(f.symbol)
     scrip = (str(info.get("ScripCode") or f.scrip or "")).strip()
     if scrip and not scrip.isdigit():
         scrip = ""
@@ -1570,7 +1580,7 @@ def process_filing(f: Filing, ctx: dict) -> str:
     if isin and scrip0.isdigit():
         st.data["scrip_isin"][scrip0] = {"v": isin, "t": stamp}
 
-    sym = (info.get("Symbol") or f.symbol or "").strip().upper()
+    sym = clean_symbol(info.get("Symbol")) or clean_symbol(f.symbol)
     scrip = str(info.get("ScripCode") or f.scrip or "").strip()
     mcap, price, pdate = market_cap(http, prices, f, isin, sym, scrip, parsed["shares"])
     if mcap is None:
@@ -1822,8 +1832,17 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
         else:
             chosen = newest(fs)
             seen_at = chosen.filed_at or datetime.fromisoformat(st.data["first_seen"][gid]["t"])
-            if now - seen_at < settle:
-                counts["waiting"] += 1  # give the consolidated filing time to appear
+            hist = {}
+            for ident in (chosen.symbol, f"BSE:{chosen.scrip}" if chosen.scrip else ""):
+                if ident:
+                    hist.update(st.bindex.get(ident, {}))
+                    hist.update(st.index.get(ident, {}))
+            past_c = any(k.endswith("|C") and not k.startswith(str(chosen.period_end)) for k in hist)
+            past_s = any(k.endswith("|S") and not k.startswith(str(chosen.period_end)) for k in hist)
+            # usually consolidated -> wait up to 6 h; usually standalone only -> 15 min; unknown -> 1 h
+            wait = timedelta(hours=6) if past_c else (settle if past_s else max(settle, timedelta(hours=1)))
+            if now - seen_at < wait:
+                counts["waiting for consolidated"] += 1
                 continue
         status = process_filing(chosen, ctx)
         counts[status] += 1
