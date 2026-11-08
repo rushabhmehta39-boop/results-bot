@@ -1007,6 +1007,8 @@ class Prices:
 
 def nse_quote_mcap(http: Http, sym: str, sme: bool = False):
     """(mcap in Cr, last price) from NSE's quote page data (issued shares x last price), or (None, None)."""
+    page = f"{NSE}/get-quotes/equity?symbol={sym}"
+    http.get(page, "nse", accept="text/html,application/xhtml+xml,*/*;q=0.8", tries=1, quiet=True)  # sets cookies
     j = http.get_json(f"{NSE_API}/quote-equity", "nse", tries=1,
                       referer=f"{NSE}/get-quotes/equity?symbol={sym}", params={"symbol": sym})
     try:
