@@ -953,6 +953,13 @@ class Prices:
         return f"{BSE}/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_{d:%Y%m%d}_F_0000.CSV"
 
     _MEM: dict = {}   # shared across runs in always-on mode: exch -> (loaded_at, result)
+    _BSE_CODES: dict = {}  # ISIN -> BSE scrip code (from BSE's bhavcopy)
+
+    def bse_code(self, isin: str) -> str:
+        if not isin:
+            return ""
+        self._load("BSE")
+        return Prices._BSE_CODES.get(isin.upper(), "")
 
     def _load(self, exch):
         if exch in self.maps:
@@ -992,6 +999,7 @@ class Prices:
                     if old != fp:
                         old.unlink(missing_ok=True)
             by_isin, by_code = {}, {}
+            isin_code = {}
             for row in csv.DictReader(io.StringIO(text)):
                 row = {k.strip(): (v or "").strip() for k, v in row.items() if k}
                 px = _num(row.get("ClsPric") or row.get("CLOSE") or row.get("LastPric") or "")
@@ -1003,7 +1011,11 @@ class Prices:
                 for code in (row.get("TckrSymb"), row.get("FinInstrmId")):
                     if code:
                         by_code[code.upper()] = px
+                if exch == "BSE" and isin and (row.get("FinInstrmId") or "").isdigit():
+                    isin_code[isin] = row["FinInstrmId"]
             result = (d, by_isin, by_code)
+            if exch == "BSE":
+                Prices._BSE_CODES = isin_code
             log(f"  {exch} prices loaded for {d:%d %b} ({len(by_isin)} stocks)")
             break
         self.maps[exch] = result
@@ -1013,22 +1025,6 @@ class Prices:
         d, by_isin, by_code = self._load(exch)
         px = by_isin.get(isin or "") or by_code.get((code or "").upper())
         return (px, d) if px else (None, None)
-
-
-def nse_quote_mcap(http: Http, sym: str, sme: bool = False):
-    """(mcap in Cr, last price) from NSE's quote page data (issued shares x last price), or (None, None)."""
-    page = f"{NSE}/get-quotes/equity?symbol={sym}"
-    http.get(page, "nse", accept="text/html,application/xhtml+xml,*/*;q=0.8", tries=1, quiet=True)  # sets cookies
-    j = http.get_json(f"{NSE_API}/quote-equity", "nse", tries=1,
-                      referer=f"{NSE}/get-quotes/equity?symbol={sym}", params={"symbol": sym})
-    try:
-        shares = float(j["securityInfo"]["issuedSize"])
-        px = float(j["priceInfo"]["lastPrice"])
-        if shares > 0 and px > 0:
-            return shares * px / CRORE, px
-    except Exception:
-        pass
-    return None, None
 
 
 def bse_mcap(http: Http, scrip: str):
@@ -1054,15 +1050,11 @@ def market_cap(http: Http, prices: Prices, f: Filing, isin: str, sym: str, scrip
         if px:
             pdate = d.isoformat()
             break
-    mc = bse_mcap(http, scrip)
+    mc = bse_mcap(http, scrip or prices.bse_code(isin))
     if mc:
         return mc, px, pdate
     if shares and px:
         return shares * px / CRORE, px, pdate
-    if sym:
-        mc, lp = nse_quote_mcap(http, sym, f.source == "NSE SME")
-        if mc:
-            return mc, (px or lp), pdate
     return None, None, None
 
 
@@ -1625,15 +1617,13 @@ def _alert_mcap(a: dict, ctx: dict, stamp: str, today: str):
     if cached and cached.get("t", "")[:10] == today:
         return cached["v"]
     scrip = a.get("scrip") or next((k for k, v in st.data["scrip_isin"].items()
-                                     if a["isin"] and v.get("v") == a["isin"]), "")
+                                     if a["isin"] and v.get("v") == a["isin"]), "") or prices.bse_code(a["isin"])
     mcap = bse_mcap(http, scrip)
     if mcap is None:
         shares = st.data["shares"].get(a["isin"], {}).get("v") if a["isin"] else None
         if shares:
             px, _ = prices.close("BSE" if a["source"] == "BSE" else "NSE", a["isin"], a["symbol"] or scrip)
             mcap = shares * px / CRORE if px else None
-    if mcap is None and a["symbol"]:
-        mcap, _ = nse_quote_mcap(http, a["symbol"], a["source"] == "NSE SME")
     if mcap is not None:
         st.data["mcap"][ck] = {"v": round(mcap, 1), "t": stamp}
     return mcap
