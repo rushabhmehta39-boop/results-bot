@@ -504,8 +504,11 @@
 "ANN-equities-106855488-PIONEEREMB": {
 "t": "2026-11-11T18:12+05:30"
 },
-"ANN-sme-106852873-LAKSHYA": {
-"t": "2026-11-08T18:13+05:30"
+"ANN-equities-106855504-BASML": {
+"t": "2026-11-11T18:17+05:30"
+},
+"ANN-equities-106855506-PVSL": {
+"t": "2026-11-11T18:17+05:30"
 },
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
@@ -633,9 +636,6 @@
 "BANN-2d8fc688-1e54-4e63-964b-b03e37063378": {
 "t": "2026-11-11T17:23+05:30"
 },
-"BANN-303d90ef-524d-4260-baa0-0d0ace222fda": {
-"t": "2026-11-08T18:13+05:30"
-},
 "BANN-3076c2a5-4f76-4b3c-8b4f-d4c3c1a3bbfb": {
 "t": "2026-11-11T18:12+05:30"
 },
@@ -758,6 +758,9 @@
 },
 "BANN-6a756332-5561-4b8b-b31b-f781b8670a56": {
 "t": "2026-11-09T20:32+05:30"
+},
+"BANN-6bc63a7e-fb3a-4c54-b7b8-2d32595da425": {
+"t": "2026-11-11T18:17+05:30"
 },
 "BANN-6f6ec8d2-fecc-4d43-ab31-33de478a137b": {
 "t": "2026-11-10T23:49+05:30"
@@ -884,6 +887,9 @@
 },
 "BANN-d1bbb9b2-f33b-48bb-8ab6-9db512746527": {
 "t": "2026-11-11T17:59+05:30"
+},
+"BANN-d3fa30c7-2f9a-4a1e-b422-ffd043c5a9b2": {
+"t": "2026-11-11T18:17+05:30"
 },
 "BANN-d53d9306-e93e-4047-9403-ccffa4531d60": {
 "t": "2026-11-11T16:46+05:30"
@@ -6840,6 +6846,9 @@
 "BSE|526001|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|526315|2026-09-30": {
+"t": "2026-11-11T18:17+05:30"
+},
 "BSE|526441|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6935,6 +6944,9 @@
 },
 "BSE|539090|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
+},
+"BSE|539267|2026-09-30": {
+"t": "2026-11-11T18:17+05:30"
 },
 "BSE|539354|2026-09-30": {
 "t": "2026-11-11T15:31+05:30"
@@ -7215,6 +7227,9 @@
 "BARFLEX": {
 "t": "2026-11-09T19:32+05:30"
 },
+"BASML": {
+"t": "2026-11-11T18:13+05:30"
+},
 "BSE:500041": {
 "t": "2026-11-11T11:36+05:30"
 },
@@ -7435,6 +7450,9 @@
 "c": 1,
 "t": "2026-11-10T18:37+05:30"
 },
+"BSE:532674": {
+"t": "2026-11-11T18:15+05:30"
+},
 "BSE:532918": {
 "t": "2026-11-11T15:15+05:30"
 },
@@ -7480,6 +7498,9 @@
 },
 "BSE:538837": {
 "t": "2026-11-11T14:13+05:30"
+},
+"BSE:538922": {
+"t": "2026-11-11T18:13+05:30"
 },
 "BSE:539090": {
 "t": "2026-11-11T16:56+05:30"
@@ -7725,6 +7746,9 @@
 "INE183R01010": {
 "t": "2026-11-10T12:42+05:30"
 },
+"INE186H01014": {
+"t": "2026-11-11T18:13+05:30"
+},
 "INE187D01011": {
 "c": 1,
 "t": "2026-11-11T13:52+05:30"
@@ -7791,6 +7815,9 @@
 },
 "INE400R01018": {
 "t": "2026-11-10T23:19+05:30"
+},
+"INE410M01018": {
+"t": "2026-11-11T14:56+05:30"
 },
 "INE417C01014": {
 "t": "2026-11-10T17:20+05:30"
@@ -7899,10 +7926,14 @@
 "t": "2026-11-11T13:33+05:30"
 },
 "INE772T01024": {
+"c": 1,
 "t": "2026-11-11T17:36+05:30"
 },
 "INE781A01025": {
 "t": "2026-11-11T17:41+05:30"
+},
+"INE807A01010": {
+"t": "2026-11-11T15:25+05:30"
 },
 "INE810C01044": {
 "t": "2026-11-09T19:28+05:30"
@@ -7912,6 +7943,9 @@
 },
 "INE817H01014": {
 "t": "2026-11-11T17:15+05:30"
+},
+"INE817H01022": {
+"t": "2026-11-11T17:08+05:30"
 },
 "INE835D01023": {
 "t": "2026-11-10T13:24+05:30"
@@ -8043,6 +8077,9 @@
 "N:BAMBINOAGROINDUSTRIES": {
 "t": "2026-11-11T12:24+05:30"
 },
+"N:BANNARIAMMANSPINNINGMILLS": {
+"t": "2026-11-11T18:13+05:30"
+},
 "N:BANNARIAMMANSUGARS": {
 "t": "2026-11-11T11:36+05:30"
 },
@@ -8073,6 +8110,9 @@
 },
 "N:COCHINSHIPYARD": {
 "t": "2026-11-10T14:27+05:30"
+},
+"N:COSYN": {
+"t": "2026-11-11T18:13+05:30"
 },
 "N:COVANCESOFTSOL": {
 "c": 1,
@@ -8294,6 +8334,7 @@
 "t": "2026-11-11T11:00+05:30"
 },
 "N:POPULARVEHICLESANDSERVICES": {
+"c": 1,
 "t": "2026-11-11T17:36+05:30"
 },
 "N:POWERMECHPROJECTS": {
@@ -8496,6 +8537,7 @@
 "t": "2026-11-11T14:16+05:30"
 },
 "PVSL": {
+"c": 1,
 "t": "2026-11-11T17:36+05:30"
 },
 "QUADFUTURE": {
@@ -8829,6 +8871,10 @@
 "t": "2026-11-10T23:49+05:30",
 "v": 1459.5
 },
+"BSE:532674": {
+"t": "2026-11-11T18:17+05:30",
+"v": 182.1
+},
 "BSE:532918": {
 "t": "2026-11-11T15:17+05:30",
 "v": 25.6
@@ -8868,6 +8914,10 @@
 "BSE:538837": {
 "t": "2026-11-11T14:16+05:30",
 "v": 175.8
+},
+"BSE:538922": {
+"t": "2026-11-11T18:17+05:30",
+"v": 15.6
 },
 "BSE:539090": {
 "t": "2026-11-11T16:58+05:30",
@@ -9511,6 +9561,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml": {
+"company": "Divyashakti Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "526315",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:17+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.xml": {
 "company": "Godavari Drugs Ltd",
 "consolidated": false,
@@ -9670,6 +9736,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml": {
+"company": "Samsrita Labs Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539267",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:17+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml": {
 "company": "Valley Magnesite Company Ltd",
