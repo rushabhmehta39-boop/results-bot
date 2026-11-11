@@ -2319,6 +2319,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T22:56+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_539331_6112026164159_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -11250,22 +11254,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml": {
-"company": "Ortin Global Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "539287",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T20:52+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.xml": {
 "company": "Power Mech Projects Ltd",
 "consolidated": false,
@@ -12870,7 +12858,7 @@
 "v": "INE751R01014"
 },
 "539287": {
-"t": "2026-11-11T21:04+05:30",
+"t": "2026-11-11T22:56+05:30",
 "v": "INE749B01020"
 },
 "539354": {
@@ -14064,7 +14052,7 @@
 "v": 24956000
 },
 "INE749B01020": {
-"t": "2026-11-11T21:04+05:30",
+"t": "2026-11-11T22:56+05:30",
 "v": 8131400
 },
 "INE750D01016": {
