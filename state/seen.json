@@ -1,5 +1,13 @@
 {
 "alerts": {
+"AFSL": {
+"d": "2026-11-11",
+"mcap": 1057.1,
+"mid": 204,
+"n": "ABANSFINANCIALSERVICES",
+"pdf": 5,
+"t": "2026-11-11T20:35+05:30"
+},
 "AMBIKCO": {
 "d": "2026-11-11",
 "mid": 156,
@@ -190,6 +198,14 @@
 "n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
 "pdf": 5,
 "t": "2026-11-11T14:51+05:30"
+},
+"INE00ZE01026": {
+"d": "2026-11-11",
+"mcap": 1057.1,
+"mid": 204,
+"n": "ABANSFINANCIALSERVICES",
+"pdf": 5,
+"t": "2026-11-11T20:35+05:30"
 },
 "INE011K01018": {
 "d": "2026-11-08",
@@ -591,6 +607,9 @@
 "ANN-equities-106855718-DELPHIFX": {
 "t": "2026-11-11T20:17+05:30"
 },
+"ANN-equities-106855735-AFSL": {
+"t": "2026-11-11T20:35+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -920,6 +939,9 @@
 },
 "BANN-83d80b34-853f-4c9b-a675-6f53df2bfd9f": {
 "t": "2026-11-11T19:54+05:30"
+},
+"BANN-8706869a-1308-48a0-b6bb-f457f6cb2acd": {
+"t": "2026-11-11T20:35+05:30"
 },
 "BANN-88ebb620-50a1-4ec9-bcf3-53239fb5164b": {
 "t": "2026-11-11T13:41+05:30"
@@ -6076,6 +6098,10 @@
 "s": "posted",
 "t": "2026-11-11T20:11+05:30"
 },
+"NSE-equities-IF-212500": {
+"s": "small",
+"t": "2026-11-11T20:35+05:30"
+},
 "NSE-equities-IF-212503": {
 "s": "small",
 "t": "2026-11-11T20:23+05:30"
@@ -7788,6 +7814,10 @@
 }
 },
 "fresh": {
+"AFSL": {
+"c": 1,
+"t": "2026-11-11T20:34+05:30"
+},
 "AMBIKCO": {
 "t": "2026-11-11T13:09+05:30"
 },
@@ -7944,6 +7974,9 @@
 },
 "BSE:519506": {
 "t": "2026-11-11T16:37+05:30"
+},
+"BSE:521005": {
+"t": "2026-11-11T20:32+05:30"
 },
 "BSE:521034": {
 "t": "2026-11-11T17:16+05:30"
@@ -8337,6 +8370,10 @@
 },
 "INE002B01016": {
 "t": "2026-11-10T13:36+05:30"
+},
+"INE00ZE01026": {
+"c": 1,
+"t": "2026-11-11T20:34+05:30"
 },
 "INE011K01018": {
 "t": "2026-11-08T13:21+05:30"
@@ -8812,6 +8849,10 @@
 },
 "MRF": {
 "t": "2026-11-10T12:24+05:30"
+},
+"N:ABANSFINANCIALSERVICES": {
+"c": 1,
+"t": "2026-11-11T20:34+05:30"
 },
 "N:ABIRAMIFINANCIALSERVICESINDIA": {
 "t": "2026-11-11T17:23+05:30"
@@ -9318,6 +9359,9 @@
 "N:TITAGARHRAILSYSTEMS": {
 "t": "2026-11-10T20:47+05:30"
 },
+"N:TITANINTECH": {
+"t": "2026-11-11T20:32+05:30"
+},
 "N:TRIVENITURBINE": {
 "c": 1,
 "t": "2026-11-11T18:03+05:30"
@@ -9510,6 +9554,10 @@
 }
 },
 "mcap": {
+"AFSL": {
+"t": "2026-11-11T20:35+05:30",
+"v": 1057.1
+},
 "AMBIKCO": {
 "t": "2026-11-11T13:10+05:30",
 "v": 934.7
@@ -9622,10 +9670,6 @@
 "t": "2026-11-11T15:01+05:30",
 "v": 20.3
 },
-"BSE:516098": {
-"t": "2026-11-09T20:32+05:30",
-"v": 14.0
-},
 "BSE:517238": {
 "t": "2026-11-10T23:49+05:30",
 "v": 87.5
@@ -9653,6 +9697,10 @@
 "BSE:519506": {
 "t": "2026-11-11T16:46+05:30",
 "v": 16.7
+},
+"BSE:521005": {
+"t": "2026-11-11T20:35+05:30",
+"v": 80.3
 },
 "BSE:521034": {
 "t": "2026-11-11T17:17+05:30",
@@ -9705,10 +9753,6 @@
 "BSE:526441": {
 "t": "2026-11-10T23:49+05:30",
 "v": 6.8
-},
-"BSE:526721": {
-"t": "2026-11-09T20:32+05:30",
-"v": 327.2
 },
 "BSE:530129": {
 "t": "2026-11-10T15:46+05:30",
@@ -10992,22 +11036,6 @@
 "uid": "BSE-Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml"
-},
-"NSE-equities-IF-212500": {
-"company": "Lotus Eye Hospital and Institute Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T20:14:32+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "LOTUSEYE",
-"t": "2026-11-11T20:17+05:30",
-"uid": "NSE-equities-IF-212500",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212500_11112026201432_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756273_11112026081432_WEB.xml"
 },
 "NSE-equities-IF-212510": {
 "company": "TSF INVESTMENTS LIMITED",
@@ -12318,6 +12346,10 @@
 "t": "2026-11-11T19:18+05:30",
 "v": "INE878I01022"
 },
+"532998": {
+"t": "2026-11-11T20:34+05:30",
+"v": "INE947I01017"
+},
 "533163": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE267I01010"
@@ -13603,6 +13635,10 @@
 "INE921D01013": {
 "t": "2026-11-11T16:06+05:30",
 "v": 8008800
+},
+"INE947I01017": {
+"t": "2026-11-11T20:34+05:30",
+"v": 20796300
 },
 "INE948I01015": {
 "t": "2026-11-09T20:32+05:30",
