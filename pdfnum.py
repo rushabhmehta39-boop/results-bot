@@ -7,7 +7,7 @@ Only returns numbers when every check passes for all three columns; anything dou
 """
 from __future__ import annotations
 
-VERSION = 2  # bump when the reader improves: today's alerts without a card get one more try
+VERSION = 3  # bump when the reader improves: today's alerts without a card get one more try
 
 import calendar
 import io
@@ -567,6 +567,21 @@ def _unit(text: str):
     return None
 
 
+CONS_DOC = re.compile(
+    r"standalone\s*(?:and|&)\s*consolidated|consolidated\s+(?:\(?un\)?audited\s+)?(?:quarterly\s+)?financial\s+results"
+    r"|consolidated\s+(?:un)?audited\s+(?:financial\s+)?results|statement\s+of\s+(?:un)?audited\s+consolidated"
+    r"|consolidated\s+statement\s+of\s+(?:profit|assets|cash)")
+
+
+def _mentions_consolidated(text: str) -> bool:
+    """Does the document say it has consolidated results? ("... consolidated results are not applicable" -> no)"""
+    for m in CONS_DOC.finditer(text):
+        after = text[m.end():m.end() + 70]
+        if not re.search(r"not\s+applicable|not\s+required|n\.?\s?a\.?\b|does\s+not\s+have", after):
+            return True
+    return False
+
+
 def _matches_known(cols: dict, fac: float, kn: dict) -> tuple[int, list]:
     """How many known figures (from the company's earlier XBRL filings) the PDF columns agree with."""
     agree, probs = 0, []
@@ -598,6 +613,7 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
     t0 = _time.monotonic()
     known = known or {}
     reasons, good = [], []
+    cons_seen = False  # the PDF has a consolidated results statement (read or not)
     try:
         pdf = pdfplumber.open(io.BytesIO(content))
     except Exception as e:  # noqa: BLE001
@@ -634,6 +650,8 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                 reasons.append(f"p{pno}: {err}")
                 continue
             head_text = next((g["head_text"] for g in groups if "head_text" in g), "")
+            if "consolidated" in head_text or "consolidated" in low[:400] or any(g.get("basis") == "C" for g in groups):
+                cons_seen = True
             unit = _unit(head_text) or _unit(low)
             for g in groups:
                 if "why" in g:
@@ -646,6 +664,7 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                         prev = doc_text[-2][-600:]
                         hc, hs = prev.rfind("consolidated"), prev.rfind("standalone")
                     basis = ("C" if hc > hs else "S") if (hc >= 0 or hs >= 0) else "?"
+                    cons_seen = cons_seen or basis == "C"
                 raw, problems = {}, []
                 for name, ci in zip(("cur", "prev", "yoy"), g["cols"]):
                     vals, order, labels = _extract(g["rows"], ci)
@@ -700,14 +719,21 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
         if not any_text:
             return {"ok": False, "why": "scanned PDF (no text)"}
     full = " ".join(doc_text)
-    for want in ("C", "S"):
-        for r in good:
-            if r["basis"] == want:
-                return r
+    cons_seen = cons_seen or _mentions_consolidated(full)
+    for r in good:
+        if r["basis"] == "C":
+            return dict(r, has_consolidated=True)
+    # standalone only when the PDF has no consolidated statement at all
+    if cons_seen and any(r["basis"] in ("S", "?") for r in good):
+        return {"ok": False, "has_consolidated": True,
+                "why": "the consolidated statement could not be read (standalone not sent on its own)"}
+    for r in good:
+        if r["basis"] == "S":
+            return dict(r, has_consolidated=False)
     for r in good:
         if r["basis"] == "?" and "consolidated" not in full:
-            r["basis"] = "S"
-            return r
+            return dict(r, basis="S", has_consolidated=False)
     if good:
-        return {"ok": False, "why": "standalone or consolidated not stated"}
-    return {"ok": False, "why": "; ".join(reasons[:6]) or f"no results table found in {min(npages, max_pages)} pages"}
+        return {"ok": False, "why": "standalone or consolidated not stated", "has_consolidated": cons_seen}
+    return {"ok": False, "has_consolidated": cons_seen,
+            "why": "; ".join(reasons[:6]) or f"no results table found in {min(npages, max_pages)} pages"}

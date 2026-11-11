@@ -86,7 +86,7 @@ DEFAULTS = {
     "PDF_CARDS": "on",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
-    "CONSOLIDATED_WAIT_HOURS": "6",
+    "CONSOLIDATED_WAIT_HOURS": "24",
     "UNKNOWN_WAIT_HOURS": "2",
     "LOOKBACK_DAYS": "1",
     "MAX_RUN_MINUTES": "12",
@@ -1568,6 +1568,9 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     ident = isin or f.company_id
     post_key = f"{ident}|{ce.isoformat()}|{basis}"
     nn0 = norm_name(info.get("NameOfTheCompany") or f.company)
+    if basis == "S" and (f"{ident}|{ce.isoformat()}|C" in st.data["posted"] or any(
+            v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") == "C" for v in st.data["posted"].values())):
+        return "superseded"
     # The card may already have gone out with numbers read from the results PDF: check them now.
     from_pdf_key = next((k for k, v in st.data["posted"].items()
                          if v.get("src") == "pdf" and not v.get("checked") and v.get("pe") == ce.isoformat()
@@ -1789,6 +1792,28 @@ def _late_pdf(a: dict, ctx: dict, today: str) -> None:
     _queue_pdf(st, a, rec["mid"], mcap, datetime.now(IST).isoformat(timespec="minutes"))
 
 
+def expects_consolidated(st: State, isin: str, sym: str, scrip: str, company: str, period_end) -> bool:
+    """Does this company report consolidated numbers? (past consolidated filings, or the results
+    announcement / PDF says so)"""
+    pe = str(period_end or "")
+    hist = {}
+    for ident in (sym, f"BSE:{scrip}" if scrip else ""):
+        if ident:
+            hist.update(st.bindex.get(ident, {}))
+            hist.update(st.index.get(ident, {}))
+    if any(k.endswith("|C") and not k.startswith(pe) for k in hist):
+        return True
+    ident = isin or (f"NSE:{sym}" if sym else f"BSE:{scrip}")
+    if any(k for k in (st.periods.get(f"{ident}|C") or {}) if not k.endswith(pe)):
+        return True
+    return any(st.data["fresh"].get(k, {}).get("c") for k in company_keys(isin, sym, scrip, company))
+
+
+def _hint_consolidated(st: State, isin: str, sym: str, scrip: str, company: str) -> None:
+    for k in company_keys(isin, sym, scrip, company):
+        st.data["fresh"].setdefault(k, {"t": datetime.now(IST).isoformat(timespec="minutes")})["c"] = 1
+
+
 def quarter_end_before(d: date) -> date:
     """The last quarter end before date d (results out on 11 Nov -> quarter ended 30 Sep)."""
     m, y = ((d.month - 1) // 3) * 3, d.year
@@ -1853,9 +1878,13 @@ def pdf_card(item: dict, ctx: dict) -> str:
         if kn:
             known[b] = kn
     out = pdfnum.read_results_pdf(r.content, qe, known=known)
+    if out.get("has_consolidated"):
+        _hint_consolidated(st, isin, sym, scrip, item["company"])  # the XBRL path waits for consolidated too
     if not out["ok"]:
         return "fail: " + out["why"]
     basis, cols = out["basis"], out["cols"]
+    if basis == "S" and expects_consolidated(st, isin, sym, scrip, item["company"], qe):
+        return "fail: the company reports consolidated numbers; standalone not sent on its own"
     post_key = f"{ident}|{qe.isoformat()}|{basis}"
     keys = {"cur": pkey(qs, qe), "prev": pkey(*shift_period(qs, qe, -3)), "yoy": pkey(*shift_period(qs, qe, -12))}
     periods = {keys[n]: cols[n] for n in ("cur", "prev", "yoy")}
@@ -2025,10 +2054,9 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             past_c = any(k.endswith("|C") and not k.startswith(str(chosen.period_end)) for k in hist)
             past_s = any(k.endswith("|S") and not k.startswith(str(chosen.period_end)) for k in hist)
             isin0 = chosen.isin or st.data["scrip_isin"].get(chosen.scrip, {}).get("v", "")
-            said_c = any(st.data["fresh"].get(k, {}).get("c") for f in fs
-                         for k in company_keys(isin0, f.symbol, f.scrip, f.company))
-            # Consolidated expected (files it every quarter, or the results announcement mentions it):
-            # wait up to 6 h. Only ever standalone: 15 min. Nothing known: 2 h.
+            said_c = any(expects_consolidated(st, isin0, f.symbol, f.scrip, f.company, chosen.period_end) for f in fs)
+            # Consolidated expected (filed it before, or the announcement / PDF says so): wait up to 24 h
+            # for it. Only ever standalone: 15 min. Nothing known: 2 h.
             if past_c or said_c:
                 wait = timedelta(hours=float(cfg["CONSOLIDATED_WAIT_HOURS"]))
                 note = ("⚠️ Standalone numbers: the consolidated XBRL is not filed yet. "

@@ -15,6 +15,9 @@ Every 5 minutes from 8 AM to 11 PM, Monday to Saturday (off on Sunday), this bot
    year), and when it matches the company's earlier filings. Scanned PDFs it cannot read wait for the XBRL.
    When the XBRL arrives, the bot compares: same numbers → nothing more is sent; different → a
    "Corrected numbers" card follows as a reply.
+6. **Consolidated first.** A company that reports consolidated numbers gets a consolidated card. Standalone is
+   sent only for companies without consolidated results, or if the consolidated numbers have not appeared
+   within 24 hours (the consolidated card then follows as a reply).
 
 No AI guessing and no paid data: the numbers come straight from the exchange filings.
 It runs free on GitHub, so your phone or PC does not need to be on.
