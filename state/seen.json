@@ -30,6 +30,14 @@
 "pdf": 5,
 "t": "2026-11-11T11:40+05:30"
 },
+"BSE:500400": {
+"d": "2026-11-11",
+"mcap": 115335.8,
+"mid": 181,
+"n": "TATAPOWERCOMPANY",
+"pdf": 5,
+"t": "2026-11-11T17:34+05:30"
+},
 "BSE:501298": {
 "d": "2026-11-11",
 "mcap": 1013.9,
@@ -112,6 +120,14 @@
 "n": "SOUTHERNPETROCHEMICALSINDUSTRIESCORPORATION",
 "t": "2026-11-09T15:39+05:30"
 },
+"DCXINDIA": {
+"d": "2026-11-11",
+"mcap": 1626.8,
+"mid": 180,
+"n": "DCXSYSTEMS",
+"pdf": 5,
+"t": "2026-11-11T17:34+05:30"
+},
 "EDELALTS": {
 "d": "2026-11-11",
 "mcap": 11286.5,
@@ -154,6 +170,14 @@
 "n": "MISHRADHATUNIGAM",
 "pdf": 5,
 "t": "2026-11-11T17:10+05:30"
+},
+"INE0KL801015": {
+"d": "2026-11-11",
+"mcap": 1626.8,
+"mid": 180,
+"n": "DCXSYSTEMS",
+"pdf": 5,
+"t": "2026-11-11T17:34+05:30"
 },
 "INE211R01019": {
 "d": "2026-11-11",
@@ -416,6 +440,9 @@
 "ANN-equities-106855375-GANGOTRI": {
 "t": "2026-11-11T17:23+05:30"
 },
+"ANN-equities-106855396-DCXINDIA": {
+"t": "2026-11-11T17:34+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -478,6 +505,9 @@
 },
 "ANN-sme-106855356-MARCO": {
 "t": "2026-11-11T17:17+05:30"
+},
+"ANN-sme-106855394-FLYSBS": {
+"t": "2026-11-11T17:34+05:30"
 },
 "BANN-0140b61d-7717-4a83-9f3f-f03a9094091f": {
 "t": "2026-11-11T16:58+05:30"
@@ -542,6 +572,9 @@
 "BANN-303d90ef-524d-4260-baa0-0d0ace222fda": {
 "t": "2026-11-08T18:13+05:30"
 },
+"BANN-32826afc-b6cb-4c24-b590-3ddff0045fa7": {
+"t": "2026-11-11T17:34+05:30"
+},
 "BANN-34138c1d-5898-49e2-b776-602a5de65cdd": {
 "t": "2026-11-10T16:14+05:30"
 },
@@ -562,6 +595,9 @@
 },
 "BANN-3a0acdba-aab7-454f-bdb0-54de05be8f84": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-3de57b54-efa3-4790-9b4c-020b2887de9b": {
+"t": "2026-11-11T17:34+05:30"
 },
 "BANN-446b02cf-cc68-440c-9990-68256d5f849e": {
 "t": "2026-11-11T14:41+05:30"
@@ -586,6 +622,9 @@
 },
 "BANN-504b4788-d2d4-4199-b091-f3898d4c8ae3": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-50a7ba80-fcb5-4278-ba42-c6e7001cc9b3": {
+"t": "2026-11-11T17:34+05:30"
 },
 "BANN-50d7ca40-857e-46f7-92e0-53aff42ac84a": {
 "t": "2026-11-11T15:46+05:30"
@@ -1814,6 +1853,10 @@
 "BSE-Integrated_Finance_Ind_As_539331_6112026164159_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T17:34+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_539405_10112026131734_IFIndAs.xml": {
 "s": "small",
@@ -5500,9 +5543,14 @@
 "t": "2026-11-11T17:17+05:30"
 },
 "NSE-equities-IF-212361": {
+"n": 2,
+"s": "retry",
+"t": "2026-11-11T17:34+05:30"
+},
+"NSE-equities-IF-212369": {
 "n": 1,
 "s": "retry",
-"t": "2026-11-11T17:29+05:30"
+"t": "2026-11-11T17:34+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6510,9 +6558,9 @@
 "t": "2026-11-11T17:23+05:30"
 },
 "NSE-sme-IF-212346": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-11T17:29+05:30"
+"t": "2026-11-11T17:34+05:30"
 }
 },
 "first_seen": {
@@ -6645,6 +6693,9 @@
 "BSE|530747|2026-09-30": {
 "t": "2026-11-11T16:06+05:30"
 },
+"BSE|530809|2026-09-30": {
+"t": "2026-11-11T17:34+05:30"
+},
 "BSE|530899|2026-09-30": {
 "t": "2026-11-11T16:46+05:30"
 },
@@ -6750,6 +6801,9 @@
 "BSE|543278|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|543650|2026-09-30": {
+"t": "2026-11-11T17:34+05:30"
+},
 "BSE|544293|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6836,6 +6890,9 @@
 },
 "NSE|COCHINSHIP|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|DCXINDIA|2026-09-30": {
+"t": "2026-11-11T17:34+05:30"
 },
 "NSE|DREDGECORP|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -6963,6 +7020,10 @@
 "BSE:500290": {
 "t": "2026-11-10T12:23+05:30"
 },
+"BSE:500400": {
+"c": 1,
+"t": "2026-11-11T17:29+05:30"
+},
 "BSE:500439": {
 "t": "2026-11-10T13:03+05:30"
 },
@@ -7055,6 +7116,9 @@
 },
 "BSE:521034": {
 "t": "2026-11-11T17:16+05:30"
+},
+"BSE:521226": {
+"t": "2026-11-11T17:33+05:30"
 },
 "BSE:522267": {
 "c": 1,
@@ -7235,6 +7299,10 @@
 "BSE:543413": {
 "t": "2026-11-08T13:21+05:30"
 },
+"BSE:543650": {
+"c": 1,
+"t": "2026-11-11T17:30+05:30"
+},
 "BSE:544166": {
 "t": "2026-11-11T14:21+05:30"
 },
@@ -7286,6 +7354,10 @@
 "DCCL": {
 "t": "2026-11-10T19:26+05:30"
 },
+"DCXINDIA": {
+"c": 1,
+"t": "2026-11-11T17:30+05:30"
+},
 "DREDGECORP": {
 "t": "2026-11-10T19:57+05:30"
 },
@@ -7297,6 +7369,9 @@
 },
 "EIHAHOTELS": {
 "t": "2026-11-11T16:50+05:30"
+},
+"FLYSBS": {
+"t": "2026-11-11T17:30+05:30"
 },
 "GANGOTRI": {
 "t": "2026-11-11T17:21+05:30"
@@ -7350,6 +7425,10 @@
 "INE099Z01011": {
 "c": 1,
 "t": "2026-11-11T17:05+05:30"
+},
+"INE0KL801015": {
+"c": 1,
+"t": "2026-11-11T17:30+05:30"
 },
 "INE0LRY01011": {
 "t": "2026-11-10T17:35+05:30"
@@ -7720,6 +7799,10 @@
 "N:DARCREDITANDCAPITAL": {
 "t": "2026-11-10T19:26+05:30"
 },
+"N:DCXSYSTEMS": {
+"c": 1,
+"t": "2026-11-11T17:30+05:30"
+},
 "N:DECCANPOLYPACKS": {
 "t": "2026-11-10T15:50+05:30"
 },
@@ -7749,6 +7832,9 @@
 },
 "N:EPPELTONEENGINEERS": {
 "t": "2026-11-11T12:04+05:30"
+},
+"N:FLYSBSAVIATION": {
+"t": "2026-11-11T17:30+05:30"
 },
 "N:GANGOTRITEXTILES": {
 "t": "2026-11-11T17:21+05:30"
@@ -7992,6 +8078,7 @@
 "t": "2026-11-11T13:52+05:30"
 },
 "N:TATAPOWERCOMPANY": {
+"c": 1,
 "t": "2026-11-11T17:20+05:30"
 },
 "N:TCFCFINANCE": {
@@ -8011,6 +8098,9 @@
 },
 "N:TITAGARHRAILSYSTEMS": {
 "t": "2026-11-10T20:47+05:30"
+},
+"N:UNIROYALINDUSTRIES": {
+"t": "2026-11-11T17:33+05:30"
 },
 "N:UNITEDNILGIRITEAESTATESCOMPANY": {
 "t": "2026-11-10T13:10+05:30"
@@ -8163,6 +8253,10 @@
 "t": "2026-11-11T11:40+05:30",
 "v": 3991.4
 },
+"BSE:500400": {
+"t": "2026-11-11T17:34+05:30",
+"v": 115335.8
+},
 "BSE:501298": {
 "t": "2026-11-11T17:10+05:30",
 "v": 1013.9
@@ -8262,6 +8356,10 @@
 "BSE:521034": {
 "t": "2026-11-11T17:17+05:30",
 "v": 241.6
+},
+"BSE:521226": {
+"t": "2026-11-11T17:34+05:30",
+"v": 20.6
 },
 "BSE:522267": {
 "t": "2026-11-10T23:49+05:30",
@@ -8455,6 +8553,10 @@
 "t": "2026-11-11T15:46+05:30",
 "v": 44.0
 },
+"DCXINDIA": {
+"t": "2026-11-11T17:34+05:30",
+"v": 1626.8
+},
 "EDELALTS": {
 "t": "2026-11-11T13:41+05:30",
 "v": 11286.5
@@ -8578,6 +8680,35 @@
 }
 },
 "t": "2026-11-11T17:11+05:30"
+},
+"INE0KL801015|2026-09-30|C": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 7.328,
+"finance": 1.659,
+"other_income": 25.996,
+"pat": -4.983,
+"pbe": 5.321,
+"pbt": 5.321,
+"revenue": 415.016,
+"tax": 10.304,
+"total_expenses": 435.691,
+"total_income": 441.012
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 3.68,
+"finance": 0.838,
+"other_income": 8.784,
+"pat": -8.658,
+"pbe": -6.491,
+"pbt": -6.492,
+"revenue": 103.125,
+"tax": 2.166,
+"total_expenses": 118.325,
+"total_income": 111.909
+}
+},
+"t": "2026-11-11T17:35+05:30"
 },
 "INE211R01019|2026-09-30|C": {
 "p": {
@@ -8964,6 +9095,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.xml": {
+"company": "BNR Udyog Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "530809",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:34+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_530899_11112026164018_IFIndAs.xml": {
 "company": "Asia Pack Ltd",
 "consolidated": false,
@@ -9060,22 +9207,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.xml": {
-"company": "Polyspin Exports Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "539354",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T15:31+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml": {
 "company": "Valley Magnesite Company Ltd",
 "consolidated": false,
@@ -9107,6 +9238,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_542232_1111202616108_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542232_1111202616108_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542232_1111202616108_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.xml": {
+"company": "DCX Systems Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543650",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:34+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml": {
 "company": "Challani Capital Ltd",
@@ -9171,6 +9318,38 @@
 "uid": "NSE-equities-IF-212361",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212361_11112026172602_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756151_11112026052602_WEB.xml"
+},
+"NSE-equities-IF-212366": {
+"company": "DCX Systems Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:32:57+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DCXINDIA",
+"t": "2026-11-11T17:34+05:30",
+"uid": "NSE-equities-IF-212366",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212366_11112026173256_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756153_11112026053256_WEB.xml"
+},
+"NSE-equities-IF-212369": {
+"company": "DCX Systems Limited",
+"consolidated": true,
+"filed_at": "2026-11-11T17:33:20+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DCXINDIA",
+"t": "2026-11-11T17:34+05:30",
+"uid": "NSE-equities-IF-212369",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212369_11112026173320_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756156_11112026053320_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -9337,6 +9516,16 @@
 "n": "SHIPROCKET",
 "pe": "2026-09-30",
 "t": "2026-11-06T23:14+05:30"
+},
+"INE0KL801015|2026-09-30|C": {
+"b": "C",
+"mid": 182,
+"n": "DCXSYSTEMS",
+"pat": -0.257,
+"pe": "2026-09-30",
+"rev": 140.172,
+"src": "pdf",
+"t": "2026-11-11T17:35+05:30"
 },
 "INE0LDG01026|2026-09-30|C": {
 "b": "C",
@@ -9921,7 +10110,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:29+05:30",
+"t": "2026-11-11T17:34+05:30",
 "v": "INE0GOJ01027"
 },
 "123456": {
@@ -10340,6 +10529,10 @@
 "t": "2026-11-11T03:45+05:30",
 "v": "INE428B01021"
 },
+"539354": {
+"t": "2026-11-11T17:34+05:30",
+"v": "INE914G01029"
+},
 "539359": {
 "t": "2026-11-06T23:16+05:30",
 "v": "INE583R01029"
@@ -10703,7 +10896,7 @@
 "v": 727549000
 },
 "INE0GOJ01027": {
-"t": "2026-11-11T17:29+05:30",
+"t": "2026-11-11T17:34+05:30",
 "v": 505550000
 },
 "INE0GTX01019": {
@@ -11365,6 +11558,10 @@
 "INE909C01010": {
 "t": "2026-11-07T22:09+05:30",
 "v": 14443400
+},
+"INE914G01029": {
+"t": "2026-11-11T17:34+05:30",
+"v": 10000000
 },
 "INE921D01013": {
 "t": "2026-11-11T16:06+05:30",
