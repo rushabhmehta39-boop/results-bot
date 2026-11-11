@@ -78,6 +78,14 @@
 "pdf": 5,
 "t": "2026-11-11T16:46+05:30"
 },
+"BSE:523323": {
+"d": "2026-11-11",
+"mcap": 6705.1,
+"mid": 187,
+"n": "KOVAIMEDICALCENTERANDHOSPITAL",
+"pdf": 5,
+"t": "2026-11-11T18:29+05:30"
+},
 "BSE:526433": {
 "d": "2026-11-07",
 "mid": 123,
@@ -573,6 +581,9 @@
 "ANN-sme-106855394-FLYSBS": {
 "t": "2026-11-11T17:34+05:30"
 },
+"ANN-sme-106855539-NAMOEWASTE": {
+"t": "2026-11-11T18:29+05:30"
+},
 "BANN-0140b61d-7717-4a83-9f3f-f03a9094091f": {
 "t": "2026-11-11T16:58+05:30"
 },
@@ -870,6 +881,9 @@
 "BANN-bd7b5dea-5932-4c65-9c95-78d7d47f1cc6": {
 "t": "2026-11-11T17:04+05:30"
 },
+"BANN-be62772c-3c9f-4870-b2a2-a9e735df8f18": {
+"t": "2026-11-11T18:29+05:30"
+},
 "BANN-bedd6fb9-1d18-445b-a9d2-66da728878f7": {
 "t": "2026-11-09T16:21+05:30"
 },
@@ -881,6 +895,9 @@
 },
 "BANN-c3e317bf-f4b1-4538-9c6f-fd7039db4426": {
 "t": "2026-11-11T17:23+05:30"
+},
+"BANN-ca05b62a-d83d-4e2a-83b5-0cef61060868": {
+"t": "2026-11-11T18:29+05:30"
 },
 "BANN-ce7400c2-dd1c-4951-98e1-ecc7fe93f963": {
 "t": "2026-11-10T23:49+05:30"
@@ -1704,6 +1721,10 @@
 "BSE-Integrated_Finance_Ind_As_531190_611202619276_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T18:29+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531273_6112026155737_IFIndAs.xml": {
 "s": "old",
@@ -5713,6 +5734,30 @@
 "s": "dup",
 "t": "2026-11-11T17:59+05:30"
 },
+"NSE-equities-IF-212410": {
+"s": "superseded",
+"t": "2026-11-11T18:29+05:30"
+},
+"NSE-equities-IF-212417": {
+"s": "small",
+"t": "2026-11-11T18:29+05:30"
+},
+"NSE-equities-IF-212418": {
+"s": "superseded",
+"t": "2026-11-11T18:29+05:30"
+},
+"NSE-equities-IF-212419": {
+"s": "dup",
+"t": "2026-11-11T18:29+05:30"
+},
+"NSE-equities-IF-212420": {
+"s": "superseded",
+"t": "2026-11-11T18:29+05:30"
+},
+"NSE-equities-IF-212422": {
+"s": "small",
+"t": "2026-11-11T18:29+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -6802,6 +6847,9 @@
 "BSE|512573|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|514300|2026-09-30": {
+"t": "2026-11-11T18:28+05:30"
+},
 "BSE|514454|2026-09-30": {
 "t": "2026-11-11T16:11+05:30"
 },
@@ -6837,6 +6885,9 @@
 },
 "BSE|523120|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
+},
+"BSE|523323|2026-09-30": {
+"t": "2026-11-11T18:28+05:30"
 },
 "BSE|523618|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -6960,6 +7011,9 @@
 },
 "BSE|539267|2026-09-30": {
 "t": "2026-11-11T18:17+05:30"
+},
+"BSE|539302|2026-09-30": {
+"t": "2026-11-11T18:28+05:30"
 },
 "BSE|539354|2026-09-30": {
 "t": "2026-11-11T15:31+05:30"
@@ -7165,6 +7219,12 @@
 "NSE|PILANIINVS|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"NSE|PIONEEREMB|2026-09-30": {
+"t": "2026-11-11T18:28+05:30"
+},
+"NSE|POWERMECH|2026-09-30": {
+"t": "2026-11-11T18:28+05:30"
+},
 "NSE|QUADFUTURE|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -7368,6 +7428,9 @@
 "BSE:523127": {
 "t": "2026-11-11T16:39+05:30"
 },
+"BSE:523323": {
+"t": "2026-11-11T18:24+05:30"
+},
 "BSE:523618": {
 "t": "2026-11-10T19:58+05:30"
 },
@@ -7384,6 +7447,9 @@
 },
 "BSE:526001": {
 "t": "2026-11-10T17:40+05:30"
+},
+"BSE:526115": {
+"t": "2026-11-11T18:27+05:30"
 },
 "BSE:526315": {
 "t": "2026-11-11T12:26+05:30"
@@ -8248,8 +8314,14 @@
 "N:KALYANJEWELLERSINDIA": {
 "t": "2026-11-10T17:08+05:30"
 },
+"N:KARANWOOSIN": {
+"t": "2026-11-11T18:27+05:30"
+},
 "N:KKVAGROPOWERS": {
 "t": "2026-11-11T13:26+05:30"
+},
+"N:KOVAIMEDICALCENTERANDHOSPITAL": {
+"t": "2026-11-11T18:24+05:30"
 },
 "N:LAKSHMIENGINEERINGANDWAREHOUSING": {
 "t": "2026-11-11T13:33+05:30"
@@ -8306,6 +8378,9 @@
 },
 "N:MRF": {
 "t": "2026-11-10T12:24+05:30"
+},
+"N:NAMOEWASTEMANAGEMENT": {
+"t": "2026-11-11T18:26+05:30"
 },
 "N:NATIONALGENERALINDUSTRIES": {
 "t": "2026-11-10T17:02+05:30"
@@ -8531,6 +8606,9 @@
 },
 "N:WILLIAMSONFINANCIALSERVICES": {
 "t": "2026-11-11T17:53+05:30"
+},
+"NAMOEWASTE": {
+"t": "2026-11-11T18:26+05:30"
 },
 "NPST": {
 "c": 1,
@@ -8779,6 +8857,10 @@
 "t": "2026-11-11T16:46+05:30",
 "v": 1792.8
 },
+"BSE:523323": {
+"t": "2026-11-11T18:29+05:30",
+"v": 6705.1
+},
 "BSE:524636": {
 "t": "2026-11-10T23:49+05:30",
 "v": 184.9
@@ -8790,6 +8872,10 @@
 "BSE:526001": {
 "t": "2026-11-10T23:49+05:30",
 "v": 11.6
+},
+"BSE:526115": {
+"t": "2026-11-11T18:29+05:30",
+"v": 6.5
 },
 "BSE:526315": {
 "t": "2026-11-11T12:30+05:30",
@@ -9133,6 +9219,35 @@
 }
 },
 "t": "2026-11-11T16:47+05:30"
+},
+"BSE:523323|2026-09-30|S": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 26.7816,
+"finance": 8.7384,
+"other_income": 7.3084,
+"pat": 58.8614,
+"pbe": 77.892,
+"pbt": 77.892,
+"revenue": 390.7387,
+"tax": 19.0306,
+"total_expenses": 320.5109,
+"total_income": 398.4029
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 31.7269,
+"finance": 8.0158,
+"other_income": 7.3417,
+"pat": 69.0858,
+"pbe": 91.5378,
+"pbt": 91.5378,
+"revenue": 430.9085,
+"tax": 22.452,
+"total_expenses": 347.1114,
+"total_income": 438.6492
+}
+},
+"t": "2026-11-11T18:29+05:30"
 },
 "INE099Z01011|2026-09-30|C": {
 "p": {
@@ -9529,6 +9644,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml": {
+"company": "Pioneer Embroideries Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "514300",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml": {
 "company": "AVT Natural Products Ltd",
 "consolidated": false,
@@ -9576,6 +9707,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml": {
+"company": "Kovai Medical Center & Hospital Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "523323",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml": {
 "company": "Bal Pharma Ltd",
@@ -9656,22 +9803,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_530899_11112026164018_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530899_11112026164018_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530899_11112026164018_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml": {
-"company": "Shyama Computronics and Services Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531219",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T16:26+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531343_1111202617741_IFIndAs.xml": {
 "company": "India Infraspace Ltd",
@@ -9800,6 +9931,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.xml": {
+"company": "Power Mech Projects Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539302",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml": {
 "company": "Valley Magnesite Company Ltd",
@@ -9977,22 +10124,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml"
 },
-"NSE-equities-IF-212410": {
-"company": "Bal Pharma Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T18:19:23+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "BALPHARMA",
-"t": "2026-11-11T18:23+05:30",
-"uid": "NSE-equities-IF-212410",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212410_11112026181923_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756195_11112026061923_WEB.xml"
-},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -10036,6 +10167,16 @@
 "rev": 590.47,
 "src": "pdf",
 "t": "2026-11-11T16:47+05:30"
+},
+"BSE:523323|2026-09-30|S": {
+"b": "S",
+"mid": 188,
+"n": "KOVAIMEDICALCENTERANDHOSPITAL",
+"pat": 76.9661,
+"pe": "2026-09-30",
+"rev": 472.2106,
+"src": "pdf",
+"t": "2026-11-11T18:29+05:30"
 },
 "INE00CE01017|2026-09-30|C": {
 "b": "C",
@@ -10256,6 +10397,7 @@
 },
 "INE211R01019|2026-09-30|C": {
 "b": "C",
+"checked": "ok",
 "mid": 166,
 "n": "POWERMECHPROJECTS",
 "pat": 87.75,
@@ -10893,6 +11035,10 @@
 "t": "2026-11-10T23:48+05:30",
 "v": "INE871C01038"
 },
+"514300": {
+"t": "2026-11-11T18:29+05:30",
+"v": "INE156C01018"
+},
 "514454": {
 "t": "2026-11-11T18:12+05:30",
 "v": "INE410M01018"
@@ -10989,6 +11135,10 @@
 "t": "2026-11-06T23:11+05:30",
 "v": "INE782E01017"
 },
+"524824": {
+"t": "2026-11-11T18:29+05:30",
+"v": "INE083D01012"
+},
 "526001": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE593O01017"
@@ -11056,6 +11206,10 @@
 "531162": {
 "t": "2026-11-06T23:17+05:30",
 "v": "INE548C01032"
+},
+"531219": {
+"t": "2026-11-11T18:29+05:30",
+"v": "INE861E01019"
 },
 "531266": {
 "t": "2026-11-06T23:15+05:30",
@@ -11511,6 +11665,10 @@
 "t": "2026-11-07T22:07+05:30",
 "v": 12474300000
 },
+"INE083D01012": {
+"t": "2026-11-11T18:29+05:30",
+"v": 15920900
+},
 "INE083E01010": {
 "t": "2026-11-11T03:45+05:30",
 "v": 3840000
@@ -11694,6 +11852,10 @@
 "INE141C01036": {
 "t": "2026-11-09T15:39+05:30",
 "v": 943806000
+},
+"INE156C01018": {
+"t": "2026-11-11T18:29+05:30",
+"v": 30815400
 },
 "INE159E01026": {
 "t": "2026-11-11T14:51+05:30",
@@ -12222,6 +12384,10 @@
 "INE860T01019": {
 "t": "2026-11-06T23:17+05:30",
 "v": 10483700
+},
+"INE861E01019": {
+"t": "2026-11-11T18:29+05:30",
+"v": 10064400
 },
 "INE863T01013": {
 "t": "2026-11-06T23:16+05:30",
