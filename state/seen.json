@@ -4,7 +4,7 @@
 "d": "2026-11-11",
 "mid": 156,
 "n": "AMBIKACOTTONMILLS",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T13:10+05:30"
 },
 "ANDHRSUGAR": {
@@ -18,14 +18,14 @@
 "mcap": 4339.1,
 "mid": 157,
 "n": "BAJAJHINDUSTHANSUGAR",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T13:15+05:30"
 },
 "BSE:500041": {
 "d": "2026-11-11",
 "mid": 153,
 "n": "BANNARIAMMANSUGARS",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T11:40+05:30"
 },
 "BSE:526433": {
@@ -86,7 +86,7 @@
 "d": "2026-11-11",
 "mid": 155,
 "n": "ORIENTGREENPOWERCOMPANY",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T12:30+05:30"
 },
 "INE011K01018": {
@@ -130,7 +130,7 @@
 "mcap": 4339.1,
 "mid": 157,
 "n": "BAJAJHINDUSTHANSUGAR",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T13:15+05:30"
 },
 "INE335A01012": {
@@ -149,7 +149,7 @@
 "d": "2026-11-11",
 "mid": 156,
 "n": "AMBIKACOTTONMILLS",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T13:10+05:30"
 },
 "INE701A01023": {
@@ -180,7 +180,7 @@
 "d": "2026-11-11",
 "mid": 155,
 "n": "ORIENTGREENPOWERCOMPANY",
-"pdf": 1,
+"pdf": 2,
 "t": "2026-11-11T12:30+05:30"
 },
 "MATRIMONY": {
@@ -464,6 +464,9 @@
 "BANN-71468d01-b760-4c76-ab58-66ab6a90fcfc": {
 "t": "2026-11-11T13:05+05:30"
 },
+"BANN-74900a40-6e1b-4fca-8044-5885fb5d564b": {
+"t": "2026-11-11T13:36+05:30"
+},
 "BANN-7ac361aa-f19c-4820-b82f-7e2ff4348b51": {
 "t": "2026-11-11T13:21+05:30"
 },
@@ -478,6 +481,9 @@
 },
 "BANN-89558c40-79ec-430a-a61f-ded56ccf8ff1": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-8b94592c-ed5f-4d97-9679-e958a8ef2d29": {
+"t": "2026-11-11T13:36+05:30"
 },
 "BANN-8dd967e2-cf0e-4fee-9333-7ce9989b7afb": {
 "t": "2026-11-10T23:49+05:30"
@@ -6153,6 +6159,9 @@
 "BSE|509196|2026-09-30": {
 "t": "2026-11-11T12:50+05:30"
 },
+"BSE|511092|2026-09-30": {
+"t": "2026-11-11T13:35+05:30"
+},
 "BSE|512036|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6434,6 +6443,9 @@
 "BSE:504036": {
 "t": "2026-11-10T13:39+05:30"
 },
+"BSE:505302": {
+"t": "2026-11-11T13:33+05:30"
+},
 "BSE:505590": {
 "t": "2026-11-09T16:34+05:30"
 },
@@ -6445,6 +6457,9 @@
 },
 "BSE:509196": {
 "t": "2026-11-11T12:47+05:30"
+},
+"BSE:511092": {
+"t": "2026-11-11T13:30+05:30"
 },
 "BSE:512036": {
 "t": "2026-11-10T20:27+05:30"
@@ -6961,11 +6976,17 @@
 "N:JAUSSPOLYMERS": {
 "t": "2026-11-10T17:40+05:30"
 },
+"N:JMDVENTURES": {
+"t": "2026-11-11T13:30+05:30"
+},
 "N:KALYANJEWELLERSINDIA": {
 "t": "2026-11-10T17:08+05:30"
 },
 "N:KKVAGROPOWERS": {
 "t": "2026-11-11T13:26+05:30"
+},
+"N:LAKSHMIENGINEERINGANDWAREHOUSING": {
+"t": "2026-11-11T13:33+05:30"
 },
 "N:LAKSHMIFINANCEANDINDUSTRIALCORPORATION": {
 "t": "2026-11-10T15:44+05:30"
@@ -7178,6 +7199,10 @@
 "t": "2026-11-11T11:40+05:30",
 "v": 3991.4
 },
+"BSE:505302": {
+"t": "2026-11-11T13:36+05:30",
+"v": 167.1
+},
 "BSE:505590": {
 "t": "2026-11-09T18:51+05:30",
 "v": 48.1
@@ -7193,6 +7218,10 @@
 "BSE:509196": {
 "t": "2026-11-11T12:50+05:30",
 "v": 35.7
+},
+"BSE:511092": {
+"t": "2026-11-11T13:36+05:30",
+"v": 19.7
 },
 "BSE:512036": {
 "t": "2026-11-10T23:49+05:30",
@@ -7391,7 +7420,66 @@
 "v": 163.0
 }
 },
-"pdfper": {},
+"pdfper": {
+"INE459A01010|2026-09-30|S": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 15.3556,
+"finance": 0.5638,
+"other_income": 6.7213,
+"pat": 42.703,
+"pbe": 65.7273,
+"pbt": 65.7273,
+"revenue": 571.6516,
+"tax": 23.0243,
+"total_expenses": 512.6456,
+"total_income": 578.3729
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 14.9128,
+"finance": 0.3524,
+"other_income": 5.97,
+"pat": -10.9154,
+"pbe": -14.4607,
+"pbt": -14.4607,
+"revenue": 172.4499,
+"tax": -3.5453,
+"total_expenses": 192.8806,
+"total_income": 178.4199
+}
+},
+"t": "2026-11-11T13:36+05:30"
+},
+"INE999K01014|2026-09-30|C": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 21.58,
+"finance": 14.88,
+"other_income": 4.44,
+"pat": 80.94,
+"pbe": 67.85,
+"pbt": 80.86,
+"revenue": 131.01,
+"tax": 0.0,
+"total_expenses": 67.6,
+"total_income": 135.45
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 22.76,
+"finance": 13.51,
+"other_income": 4.81,
+"pat": 23.94,
+"pbe": 23.74,
+"pbt": 23.95,
+"revenue": 81.43,
+"tax": 0.0,
+"total_expenses": 62.5,
+"total_income": 86.24
+}
+},
+"t": "2026-11-11T13:36+05:30"
+}
+},
 "pdfq": {},
 "pending": {
 "BSE-IFOtherthan_522267_11112026121518_IFOtherthan.xml": {
@@ -7425,6 +7513,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml": {
+"company": "JMD Ventures Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511092",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T13:35+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -7733,6 +7837,16 @@
 "pe": "2026-09-30",
 "t": "2026-11-10T23:48+05:30"
 },
+"INE459A01010|2026-09-30|S": {
+"b": "S",
+"mid": 158,
+"n": "BANNARIAMMANSUGARS",
+"pat": 30.9517,
+"pe": "2026-09-30",
+"rev": 340.2165,
+"src": "pdf",
+"t": "2026-11-11T13:36+05:30"
+},
 "INE463A01038|2026-09-30|C": {
 "b": "C",
 "n": "BERGERPAINTSI",
@@ -7932,6 +8046,16 @@
 "n": "MONARCHNETWORTHCAPITAL",
 "pe": "2026-06-30",
 "t": "2026-11-06T23:11+05:30"
+},
+"INE999K01014|2026-09-30|C": {
+"b": "C",
+"mid": 159,
+"n": "ORIENTGREENPOWERCOMPANY",
+"pat": 81.57,
+"pe": "2026-09-30",
+"rev": 143.33,
+"src": "pdf",
+"t": "2026-11-11T13:36+05:30"
 },
 "LOG|ANAWILWIREANDENGINEERING|2026-09-30|S": {
 "b": "S",
