@@ -42,6 +42,11 @@ import xml.etree.ElementTree as ET
 
 import requests
 
+try:  # reads results PDFs when the XBRL is not out yet (optional: pip install pdfplumber)
+    import pdfnum
+except ImportError:  # pragma: no cover
+    pdfnum = None
+
 try:  # Browser-like TLS fingerprint: helps get past NSE/BSE bot protection.
     from curl_cffi import requests as cffi_requests  # type: ignore
 except Exception:  # pragma: no cover - optional
@@ -78,6 +83,7 @@ DEFAULTS = {
     "ACTIVE_HOURS": "08:00-23:00",
     "ACTIVE_DAYS": "Mon,Tue,Wed,Thu,Fri,Sat",
     "QUIET_OUTSIDE_HOURS": "on",
+    "PDF_CARDS": "on",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
     "CONSOLIDATED_WAIT_HOURS": "6",
@@ -1152,7 +1158,8 @@ def render_card(res: dict, cfg: dict, fonts: Fonts | None = None) -> bytes:
     # Brand line
     d.polygon([(P, y + 17), (P + 11, y + 6), (P + 22, y + 17), (P + 11, y + 28)], fill=GREEN)
     d.text((P + 34, y), cfg.get("CARD_BRAND") or "Results Desk", font=fonts.get("Bold", 30), fill=GREEN)
-    _tracked(d, (W - P, y + 8), "INDIAN RESULTS · XBRL", fonts.get("Bold", 19), MUTED, 3, anchor_right=True)
+    _tracked(d, (W - P, y + 8), "INDIAN RESULTS · " + ("RESULTS PDF" if res.get("src") == "pdf" else "XBRL"),
+             fonts.get("Bold", 19), MUTED, 3, anchor_right=True)
     y += 58
     d.line((P, y, W - P, y), fill=LINE, width=2)
     y += 30
@@ -1258,7 +1265,8 @@ def render_card(res: dict, cfg: dict, fonts: Fonts | None = None) -> bytes:
     y += 22
     _tracked(d, (P, y), "FOR EDUCATION ONLY · NOT INVESTMENT ADVICE", fonts.get("Bold", 19), INK, 3)
     y += 36
-    src = f"Source: {res['ex'].split()[0]} filing (XBRL)"
+    src = (f"Source: {res['ex'].split()[0]} results PDF (cross-checked)" if res.get("src") == "pdf"
+           else f"Source: {res['ex'].split()[0]} filing (XBRL)")
     try:
         filed = datetime.fromisoformat(res["filed"])
         src += f" · filed {filed.day} {filed:%b %Y, %H:%M}"
@@ -1379,7 +1387,7 @@ class State:
         self.index = self._read(self.ipath, {})   # NSE symbol -> {"period_end|C/S": [xbrl_url, filed]}
         self.bindex = self._read(self.bpath, {})  # same, from the one-off backfill job
         for k in ("filings", "posted", "first_seen", "warned", "alerts", "ann", "mcap", "shares", "scrip_isin",
-                  "fresh", "pending"):
+                  "fresh", "pending", "pdfq", "pdfper"):
             self.data.setdefault(k, {})
 
     @staticmethod
@@ -1430,7 +1438,7 @@ class State:
         self.data["filings"][uid] = rec
 
     RETAIN_DAYS = {"filings": 7, "posted": 60, "first_seen": 3, "alerts": 4, "ann": 3, "mcap": 2, "shares": 400,
-                   "scrip_isin": 400, "fresh": 7, "pending": 4}
+                   "scrip_isin": 400, "fresh": 7, "pending": 4, "pdfq": 1, "pdfper": 10}
 
     def save(self):
         now = datetime.now(IST)
@@ -1559,14 +1567,34 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     ce = unkey(parsed["current"])[1]
     ident = isin or f.company_id
     post_key = f"{ident}|{ce.isoformat()}|{basis}"
-    if post_key in st.data["posted"]:
+    nn0 = norm_name(info.get("NameOfTheCompany") or f.company)
+    # The card may already have gone out with numbers read from the results PDF: check them now.
+    from_pdf_key = next((k for k, v in st.data["posted"].items()
+                         if v.get("src") == "pdf" and not v.get("checked") and v.get("pe") == ce.isoformat()
+                         and v.get("b") == basis and (k == post_key or v.get("n") == nn0)), None)
+    correction_of = None
+    if from_pdf_key:
+        v = st.data["posted"][from_pdf_key]
+        xm = derive(cm, parsed["kind"])
+        same = all(a is not None and b is not None and abs(a - b) <= max(0.005 * abs(b), 0.05)
+                   for a, b in ((v.get("rev"), xm.get("revenue")), (v.get("pat"), xm.get("pat"))))
+        if same:
+            v["checked"] = "ok"
+            cache_key0 = f"{ident}|{basis}"
+            st.periods.setdefault(cache_key0, {}).update(parsed["periods"])
+            for k2, m2 in (st.data["pdfper"].get(from_pdf_key, {}).get("p") or {}).items():
+                st.periods[cache_key0].setdefault(k2, m2)  # last quarter / last year from the PDF, now confirmed
+            log(f"  = {f.company}: the XBRL confirms the numbers read from the PDF")
+            return "dup"
+        correction_of = v
+    elif post_key in st.data["posted"]:
         return "dup"
     if basis == "S" and f"{ident}|{ce.isoformat()}|C" in st.data["posted"]:
         return "superseded"
-    nn0 = norm_name(info.get("NameOfTheCompany") or f.company)
-    for v in st.data["posted"].values():
-        if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") in (basis, "C"):
-            return "dup" if v.get("b") == basis else "superseded"
+    if correction_of is None:
+        for v in st.data["posted"].values():
+            if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") in (basis, "C"):
+                return "dup" if v.get("b") == basis else "superseded"
     # A standalone card already went out for this quarter: the consolidated one is an update to it.
     earlier_s = None
     if basis == "C":
@@ -1610,7 +1638,11 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     alert = (al.get(isin) or al.get(sym) or (al.get(f"BSE:{scrip}") if scrip else None)
              or next((v for v in al.values() if isinstance(v, dict) and v.get("n") == nn), None) or {})
     caption, reply_to = caption_for(res), alert.get("mid")
-    if earlier_s is not None:
+    if correction_of is not None:
+        caption = ("✏️ <b>Corrected numbers</b> from the exchange's data file "
+                   "(the reading of the PDF differed)\n" + caption)
+        reply_to = correction_of.get("mid") or reply_to
+    elif earlier_s is not None:
         caption = "🔁 <b>Consolidated numbers</b> (the earlier card was standalone)\n" + caption
         reply_to = earlier_s.get("mid") or reply_to
     elif basis == "S" and note:
@@ -1619,12 +1651,17 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     if mid is None:
         return "retry_tg"
     ctx["new_results"].append(res)
+    if correction_of is not None:
+        correction_of["checked"] = "corrected"
+        if from_pdf_key != post_key:
+            st.data["posted"].pop(from_pdf_key, None)
     st.data["posted"][post_key] = {"t": datetime.now(IST).isoformat(timespec="minutes"), "n": nn,
                                    "pe": ce.isoformat(), "b": basis, "mid": mid}
     if not ctx.get("dry_run"):
         st.save()  # record each card right away, so a stopped run never re-sends it
-    log(f"  + {res['name']} {res['per']} {res['basis']}: M-cap ₹{mcap:,.0f} Cr -> card sent")
-    return "posted"
+    log(f"  + {res['name']} {res['per']} {res['basis']}: M-cap ₹{mcap:,.0f} Cr -> card sent"
+        + (" (correction of the PDF card)" if correction_of is not None else ""))
+    return "corrected" if correction_of is not None else "posted"
 
 
 def _alert_mcap(a: dict, ctx: dict, stamp: str, today: str):
@@ -1677,6 +1714,7 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
     alerts = st.data["alerts"]
     for a in sorted(anns, key=lambda x: (x["source"] == "BSE", x["ts"] or now)):
         if a["uid"] in st.data["ann"]:
+            _late_pdf(a, ctx, today)
             continue
         st.data["ann"][a["uid"]] = {"t": stamp}
         if (a["ts"] is None or a["ts"] < ctx["alert_cutoff"] or a["ts"] < ctx["since"]
@@ -1706,13 +1744,142 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
                + "numbers card follows as a reply")
         mid = tg.text(msg)
         if mid is not None:
-            rec = {"t": stamp, "d": today, "mid": mid, "n": nn}
+            queue = bool(a["pdf"] and pdfnum is not None and _on(cfg["PDF_CARDS"]))
+            rec = {"t": stamp, "d": today, "mid": mid, "n": nn, "mcap": round(mcap, 1), **({"pdf": 1} if queue else {})}
             for k in {key, a["symbol"], f"BSE:{a['scrip']}" if a["scrip"] else ""} - {""}:
                 alerts[k] = rec
             counts["alert"] += 1
             log(f"  🔔 {a['company']}: results PDF out (M-cap ₹{mcap:,.0f} Cr) -> alert sent")
+            if queue:
+                _queue_pdf(st, a, mid, mcap, stamp)
             if not ctx.get("dry_run"):
                 st.save()
+    process_pdf_queue(ctx, counts)
+
+
+def _queue_pdf(st: State, a: dict, mid, mcap, stamp: str) -> None:
+    st.data["pdfq"][a["uid"]] = {
+        "t": stamp, "mid": mid, "mcap": round(mcap, 1), "pdf": a["pdf"], "company": a["company"],
+        "symbol": a["symbol"], "scrip": a.get("scrip", ""), "isin": a.get("isin", ""), "source": a["source"],
+        "ts": (a["ts"] or datetime.now(IST)).isoformat(timespec="minutes"), "tries": 0}
+
+
+def _late_pdf(a: dict, ctx: dict, today: str) -> None:
+    """An alert that went out without a PDF attempt (sent before PDF cards existed): try its PDF once."""
+    st, cfg = ctx["st"], ctx["cfg"]
+    if not a.get("pdf") or pdfnum is None or not _on(cfg["PDF_CARDS"]):
+        return
+    nn = norm_name(a["company"])
+    keys = [k for k in (a.get("isin"), a.get("symbol"), f"BSE:{a['scrip']}" if a.get("scrip") else "") if k]
+    recs = [st.data["alerts"][k] for k in keys if k in st.data["alerts"]] or [
+        v for v in st.data["alerts"].values() if isinstance(v, dict) and v.get("n") == nn]
+    rec = next((r for r in recs if r.get("d") == today), None)
+    if rec is None or rec.get("pdf") or any(
+            v.get("n") == nn and v.get("t", "")[:10] == today for v in st.data["posted"].values()):
+        return
+    same = [k for k, r in st.data["alerts"].items() if isinstance(r, dict) and r.get("mid") == rec.get("mid")]
+    cands = same + [a.get("symbol") or "", f"BSE:{a['scrip']}" if a.get("scrip") else ""]
+    mcap = rec.get("mcap") or next((st.data["mcap"][k]["v"] for k in cands if k and k in st.data["mcap"]), None)
+    if not mcap:
+        return
+    for k in same:
+        st.data["alerts"][k]["pdf"] = 1
+    _queue_pdf(st, a, rec["mid"], mcap, datetime.now(IST).isoformat(timespec="minutes"))
+
+
+def quarter_end_before(d: date) -> date:
+    """The last quarter end before date d (results out on 11 Nov -> quarter ended 30 Sep)."""
+    m, y = ((d.month - 1) // 3) * 3, d.year
+    if m == 0:
+        m, y = 12, y - 1
+    return date(y, m, calendar.monthrange(y, m)[1])
+
+
+def process_pdf_queue(ctx: dict, counts: dict) -> None:
+    """Numbers cards read straight from results PDFs, for companies whose XBRL is not out yet."""
+    st = ctx["st"]
+    for uid, item in sorted(st.data["pdfq"].items(), key=lambda kv: kv[1]["t"]):
+        if time.monotonic() > ctx["deadline"]:
+            return
+        try:
+            status = pdf_card(item, ctx)
+        except Exception as e:  # a bad PDF must never stop the bot
+            status = f"fail: {type(e).__name__}: {e}"
+        if status in ("retry", "retry_tg") and item["tries"] < 3:
+            item["tries"] += 1
+            continue
+        st.data["pdfq"].pop(uid, None)
+        if status == "posted":
+            counts["card from PDF"] += 1
+        elif status.startswith("fail"):
+            counts["PDF not readable"] += 1
+            log(f"  · {item['company']}: numbers not read from the PDF ({status[5:].strip()[:160]}) "
+                "- the card follows when the XBRL is filed")
+        if not ctx.get("dry_run"):
+            st.save()
+
+
+def pdf_card(item: dict, ctx: dict) -> str:
+    http, st, cfg, prices, tg = ctx["http"], ctx["st"], ctx["cfg"], ctx["prices"], ctx["tg"]
+    ts = datetime.fromisoformat(item["ts"])
+    qe = quarter_end_before(ts.date())
+    qs = date(qe.year, qe.month - 2, 1)
+    isin = item["isin"] or ""
+    sym, scrip = item["symbol"] or "", item["scrip"] or ""
+    ident = isin or (f"NSE:{sym}" if sym else f"BSE:{scrip}")
+    nn = norm_name(item["company"])
+    if any(v.get("pe") == qe.isoformat() and (k.startswith(ident + "|") or v.get("n") == nn)
+           for k, v in st.data["posted"].items()):
+        return "dup"  # the XBRL card beat us to it
+    url = item["pdf"]
+    kind = "bse" if "bseindia" in url else "nse"
+    r = http.get(url, kind, accept="application/pdf,*/*", referer=(BSE + "/") if kind == "bse" else NSE + "/",
+                 timeout=60, tries=2, quiet=True)
+    if r is None or r.status_code != 200:
+        return "retry"
+    if not r.content[:1024].lstrip().startswith(b"%PDF"):
+        return "fail: not a PDF"
+    known = {}
+    for b in ("C", "S"):
+        cache = st.periods.get(f"{ident}|{b}") or {}
+        kn = {}
+        for name, months in (("prev", -3), ("yoy", -12)):
+            m = get_period(cache, *shift_period(qs, qe, months)) if cache else None
+            if m:
+                d = derive(m, "std")
+                kn[name] = {"revenue": d.get("revenue"), "pat": d.get("pat")}
+        if kn:
+            known[b] = kn
+    out = pdfnum.read_results_pdf(r.content, qe, known=known)
+    if not out["ok"]:
+        return "fail: " + out["why"]
+    basis, cols = out["basis"], out["cols"]
+    post_key = f"{ident}|{qe.isoformat()}|{basis}"
+    keys = {"cur": pkey(qs, qe), "prev": pkey(*shift_period(qs, qe, -3)), "yoy": pkey(*shift_period(qs, qe, -12))}
+    periods = {keys[n]: cols[n] for n in ("cur", "prev", "yoy")}
+    parsed = {"info": {"NameOfTheCompany": item["company"], "Symbol": sym, "ScripCode": scrip, "ISIN": isin},
+              "kind": "std", "current": keys["cur"], "periods": periods, "shares": None}
+    f = Filing(source=item["source"], index="", uid="PDF-" + post_key, symbol=sym, scrip=scrip,
+               company=item["company"], isin=isin, period_end=qe, consolidated=(basis == "C"),
+               xbrl_url=None, view_url=url, filed_at=ts, revised=False)
+    px, pdate = prices.close("BSE" if item["source"] == "BSE" else "NSE", isin, sym or scrip)
+    res = build_result(f, parsed, periods, basis, item["mcap"], px, pdate)
+    res["src"] = "pdf"
+    png = render_card(res, cfg, ctx["fonts"])
+    (ctx["cards_dir"] / (re.sub(r"[^A-Za-z0-9_.-]+", "_", res["id"]) + ".png")).write_bytes(png)
+    caption = (caption_for(res) + "\n📄 Read from the results PDF and cross-checked. "
+               "If the exchange's data file differs, a correction follows.")
+    mid = tg.photo(png, caption, reply_to=item["mid"])
+    if mid is None:
+        return "retry_tg"
+    ctx["new_results"].append(res)
+    now = datetime.now(IST).isoformat(timespec="minutes")
+    st.data["posted"][post_key] = {"t": now, "n": nn, "pe": qe.isoformat(), "b": basis, "mid": mid, "src": "pdf",
+                                   "rev": cols["cur"].get("revenue"), "pat": cols["cur"].get("pat")}
+    st.data["pdfper"][post_key] = {"t": now, "p": {keys["prev"]: cols["prev"], keys["yoy"]: cols["yoy"]}}
+    log(f"  + {item['company']} {res['per']} {res['basis']}: card sent from the results PDF "
+        f"(page {out['page']}, {out['unit']}, {out.get('history_checks', 0)} history checks)")
+    return "posted"
 
 
 def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:

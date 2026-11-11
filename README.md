@@ -9,6 +9,12 @@ Every 5 minutes from 8 AM to 11 PM, Monday to Saturday (off on Sunday), this bot
    results) and sends a **card** as a reply to the alert:
    Revenue · Other income · EBITDA · EBITDA margin · PBT · Exceptional items · PAT,
    each with the previous quarter, the same quarter last year, **YoY** and **QoQ** (SME: half-years, HoH).
+5. If the company has not filed its XBRL yet, it reads the numbers straight from the **results PDF**
+   and sends the card right away, marked "Read from the results PDF". It only does so when the table adds up
+   (total income, profit before tax − tax = profit after tax, expenses, and this quarter + last quarter = half
+   year), and when it matches the company's earlier filings. Scanned PDFs it cannot read wait for the XBRL.
+   When the XBRL arrives, the bot compares: same numbers → nothing more is sent; different → a
+   "Corrected numbers" card follows as a reply.
 
 No AI guessing and no paid data: the numbers come straight from the exchange filings.
 It runs free on GitHub, so your phone or PC does not need to be on.
