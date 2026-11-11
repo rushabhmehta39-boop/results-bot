@@ -2,42 +2,66 @@ name: Results bot
 
 on:
   schedule:
-    # Every 5 minutes, 8:00 AM to 11:00 PM India time, Monday to Saturday (Sunday off).
-    # Times below are UTC (India = UTC + 5:30), at :02/:07/... to avoid GitHub's busy round minutes.
-    - cron: "32-57/5 2 * * 1-6"
-    - cron: "2-57/5 3-16 * * 1-6"
-    - cron: "2-32/5 17 * * 1-6"
+    # Backup starts only. The bot keeps itself running: every run starts the next one ~5 minutes later.
+    # Times are UTC (India = UTC + 5:30): about 8:02 AM, 1:02 PM and 6:02 PM India time, Monday to Saturday.
+    - cron: "32 2 * * 1-6"
+    - cron: "32 7 * * 1-6"
+    - cron: "32 12 * * 1-6"
   workflow_dispatch:
     inputs:
       mode:
         description: "What to do"
         type: choice
-        options: [check, test-telegram, skip-backlog, resend-today]
+        options: [check, test-telegram, skip-backlog, resend-today, chain]
         default: check
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: results-bot
   cancel-in-progress: false
 
 jobs:
+  pause:
+    # 5-minute pause between checks. Set it once: Settings -> Environments -> every-5-min -> Wait timer = 5.
+    if: github.event.inputs.mode == 'chain'
+    runs-on: ubuntu-latest
+    environment: every-5-min
+    steps:
+      - run: echo "pause done"
+
   check:
+    needs: pause
+    if: ${{ !cancelled() && (needs.pause.result == 'success' || needs.pause.result == 'skipped') }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
 
+      - name: Is it checking time? (Mon-Sat, 8 AM to 11 PM India time)
+        id: when
+        run: |
+          dow=$(TZ=Asia/Kolkata date +%u); hm=$(TZ=Asia/Kolkata date +%H%M)
+          if [ "${{ github.event.inputs.mode }}" != "chain" ] || { [ "$dow" -le 6 ] && [ "$hm" -ge 0800 ] && [ "$hm" -le 2300 ]; }; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "Outside checking hours - just keeping the bot alive."
+          fi
+
       - uses: actions/setup-python@v6
+        if: steps.when.outputs.run == 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - name: Install
+        if: steps.when.outputs.run == 'true'
         run: pip install -r requirements.txt
 
       - name: Check for new results
+        if: steps.when.outputs.run == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -58,7 +82,7 @@ jobs:
           fi
 
       - name: Save progress
-        if: always()
+        if: always() && steps.when.outputs.run == 'true'
         run: |
           git config user.name "results-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -67,3 +91,21 @@ jobs:
             git commit -q -m "Update results state"
             for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
           fi
+
+      - name: Start the next check
+        if: always() && (github.event_name == 'schedule' || github.event.inputs.mode == 'chain' || github.event.inputs.mode == 'check')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Keep exactly one chain: if another run is already waiting or running, it carries on instead.
+          others=$(gh run list -R "$GITHUB_REPOSITORY" -w results.yml -L 30 --json databaseId,status \
+            --jq "[.[] | select(.databaseId != $GITHUB_RUN_ID) | select(.status != \"completed\")] | length")
+          if [ "$others" != "0" ]; then echo "Another run is already lined up ($others) - not starting one."; exit 0; fi
+          # Until the 5-minute pause rule is set, wait here so checks stay ~5 minutes apart.
+          if [ "${{ github.event.inputs.mode }}" = "chain" ]; then
+            created=$(gh run view "$GITHUB_RUN_ID" -R "$GITHUB_REPOSITORY" --json createdAt --jq .createdAt)
+            elapsed=$(( $(date +%s) - $(date -d "$created" +%s) ))
+            if [ "$elapsed" -lt 270 ]; then echo "No pause rule yet - waiting $((300 - elapsed)) s"; sleep $((300 - elapsed)); fi
+          fi
+          gh workflow run results.yml -R "$GITHUB_REPOSITORY" -f mode=chain
+          echo "Next check started."
