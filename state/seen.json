@@ -105,6 +105,14 @@
 "pdf": 2,
 "t": "2026-11-11T12:30+05:30"
 },
+"GRSE": {
+"d": "2026-11-11",
+"mcap": 25531.9,
+"mid": 167,
+"n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
+"pdf": 4,
+"t": "2026-11-11T14:51+05:30"
+},
 "INE011K01018": {
 "d": "2026-11-08",
 "mid": 125,
@@ -168,6 +176,14 @@
 "mid": 106,
 "n": "DIVISLABORATORIES",
 "t": "2026-11-07T15:59+05:30"
+},
+"INE382Z01011": {
+"d": "2026-11-11",
+"mcap": 25531.9,
+"mid": 167,
+"n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
+"pdf": 4,
+"t": "2026-11-11T14:51+05:30"
 },
 "INE528L01027": {
 "d": "2026-11-11",
@@ -383,6 +399,9 @@
 },
 "ANN-equities-106855069-THEJO": {
 "t": "2026-11-11T14:31+05:30"
+},
+"ANN-equities-106855090-GRSE": {
+"t": "2026-11-11T14:51+05:30"
 },
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
@@ -950,6 +969,10 @@
 "BSE-Integrated_Finance_Ind_As_509162_6112026204038_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T14:51+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_509546_6112026151222_IFIndAs.xml": {
 "s": "old",
@@ -6240,6 +6263,9 @@
 "BSE|505590|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"BSE|508494|2026-09-30": {
+"t": "2026-11-11T14:51+05:30"
+},
 "BSE|508956|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
@@ -6775,6 +6801,9 @@
 "GREENPOWER": {
 "t": "2026-11-11T12:29+05:30"
 },
+"GRSE": {
+"t": "2026-11-11T14:47+05:30"
+},
 "HALEOSLABS": {
 "t": "2026-11-11T14:02+05:30"
 },
@@ -6867,6 +6896,9 @@
 },
 "INE358D01018": {
 "t": "2026-11-10T17:05+05:30"
+},
+"INE382Z01011": {
+"t": "2026-11-11T14:47+05:30"
 },
 "INE393H01016": {
 "t": "2026-11-10T20:27+05:30"
@@ -7114,6 +7146,9 @@
 },
 "N:EPPELTONEENGINEERS": {
 "t": "2026-11-11T12:04+05:30"
+},
+"N:GARDENREACHSHIPBUILDERSANDENGINEERS": {
+"t": "2026-11-11T14:47+05:30"
 },
 "N:GOLDENCARPETS": {
 "t": "2026-11-10T18:51+05:30"
@@ -7606,6 +7641,10 @@
 "t": "2026-11-11T12:30+05:30",
 "v": 1126.1
 },
+"GRSE": {
+"t": "2026-11-11T14:51+05:30",
+"v": 25531.9
+},
 "MATRIMONY": {
 "t": "2026-11-10T16:14+05:30",
 "v": 1196.2
@@ -7804,21 +7843,21 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
 },
-"BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml": {
-"company": "MM Rubber Company Ltd",
+"BSE-Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml": {
+"company": "Warren Tea Ltd-$",
 "consolidated": false,
 "filed_at": null,
 "index": "bse",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
-"scrip": "509196",
+"scrip": "508494",
 "source": "BSE",
 "symbol": "",
-"t": "2026-11-11T12:50+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml"
+"t": "2026-11-11T14:51+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml": {
 "company": "JMD Ventures Ltd",
@@ -8618,6 +8657,10 @@
 "t": "2026-11-07T22:08+05:30",
 "v": "INE977E01013"
 },
+"509196": {
+"t": "2026-11-11T14:51+05:30",
+"v": "INE159E01026"
+},
 "509480": {
 "t": "2026-11-06T23:16+05:30",
 "v": "INE463A01038"
@@ -9363,6 +9406,10 @@
 "INE141C01036": {
 "t": "2026-11-09T15:39+05:30",
 "v": 943806000
+},
+"INE159E01026": {
+"t": "2026-11-11T14:51+05:30",
+"v": 6231000
 },
 "INE162A01010": {
 "t": "2026-11-06T23:15+05:30",
