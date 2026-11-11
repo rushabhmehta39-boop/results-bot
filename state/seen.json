@@ -1520,6 +1520,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T20:29+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_514414_6112026163226_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -1647,6 +1651,10 @@
 "BSE-Integrated_Finance_Ind_As_523120_9112026172810_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-09T20:32+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T20:29+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_523369_7112026142522_IFIndAs.xml": {
 "s": "small",
@@ -7394,6 +7402,9 @@
 "BSE|532998|2026-09-30": {
 "t": "2026-11-11T20:17+05:30"
 },
+"BSE|533007|2026-09-30": {
+"t": "2026-11-11T20:28+05:30"
+},
 "BSE|533095|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
 },
@@ -7495,6 +7506,9 @@
 },
 "BSE|544144|2026-09-30": {
 "t": "2026-11-11T20:23+05:30"
+},
+"BSE|544171|2026-09-30": {
+"t": "2026-11-11T20:28+05:30"
 },
 "BSE|544205|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
@@ -7753,6 +7767,9 @@
 },
 "NSE|TRITURBINE|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
+},
+"NSE|TSFINV|2026-09-30": {
+"t": "2026-11-11T20:28+05:30"
 },
 "NSE|UNITEDTEA|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -8455,6 +8472,9 @@
 "INE219Y01026": {
 "t": "2026-11-09T15:03+05:30"
 },
+"INE237B01018": {
+"t": "2026-11-11T14:13+05:30"
+},
 "INE245A01013": {
 "t": "2026-11-11T17:20+05:30"
 },
@@ -8497,6 +8517,9 @@
 },
 "INE382Z01011": {
 "t": "2026-11-11T14:47+05:30"
+},
+"INE389D01013": {
+"t": "2026-11-11T16:12+05:30"
 },
 "INE393H01016": {
 "t": "2026-11-10T20:27+05:30"
@@ -8636,6 +8659,9 @@
 },
 "INE726L01019": {
 "t": "2026-11-11T20:11+05:30"
+},
+"INE726L01027": {
+"t": "2026-11-11T20:15+05:30"
 },
 "INE751R01014": {
 "t": "2026-11-11T16:56+05:30"
@@ -10359,6 +10385,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544015_1111202619236_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544015_1111202619236_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_544171_11112026202355_IFOtherthan.xml": {
+"company": "Storage Technologies and Automation Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544171",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:28+05:30",
+"uid": "BSE-IFOtherthan_544171_11112026202355_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544171_11112026202355_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544171_11112026202355_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_544383_1111202620120_IFOtherthan.xml": {
 "company": "Paradeep Parivahan Ltd",
 "consolidated": false,
@@ -10503,22 +10545,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513629_111120262092_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513629_111120262092_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml": {
-"company": "Pioneer Embroideries Ltd-$",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "514300",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T18:28+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml": {
 "company": "AVT Natural Products Ltd",
 "consolidated": false,
@@ -10550,22 +10576,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml": {
-"company": "Kovai Medical Center & Hospital Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "523323",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T18:28+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_523672_11112026193229_IFIndAs.xml": {
 "company": "Flex Foods Ltd-$",
@@ -10710,6 +10720,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_533007_1111202620261_IFIndAs.xml": {
+"company": "LGB Forge Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "533007",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_533007_1111202620261_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533007_1111202620261_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533007_1111202620261_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.xml": {
 "company": "Orient Green Power Company Ltd",
@@ -10983,6 +11009,22 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212500_11112026201432_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756273_11112026081432_WEB.xml"
 },
+"NSE-equities-IF-212510": {
+"company": "TSF INVESTMENTS LIMITED",
+"consolidated": false,
+"filed_at": "2026-11-11T20:24:36+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "TSFINV",
+"t": "2026-11-11T20:28+05:30",
+"uid": "NSE-equities-IF-212510",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212510_11112026202436_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756281_11112026082434_WEB.xml"
+},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -11014,6 +11056,7 @@
 },
 "BSE:523323|2026-09-30|S": {
 "b": "S",
+"checked": "ok",
 "mid": 188,
 "n": "KOVAIMEDICALCENTERANDHOSPITAL",
 "pat": 76.9661,
@@ -11948,7 +11991,7 @@
 "v": "INE871C01038"
 },
 "514300": {
-"t": "2026-11-11T18:29+05:30",
+"t": "2026-11-11T20:29+05:30",
 "v": "INE156C01018"
 },
 "514454": {
@@ -12890,7 +12933,7 @@
 "v": 318000000
 },
 "INE156C01018": {
-"t": "2026-11-11T18:29+05:30",
+"t": "2026-11-11T20:29+05:30",
 "v": 30815400
 },
 "INE159E01026": {
