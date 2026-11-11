@@ -4,7 +4,7 @@
 "d": "2026-11-11",
 "mid": 156,
 "n": "AMBIKACOTTONMILLS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T13:10+05:30"
 },
 "ANDHRSUGAR": {
@@ -25,7 +25,7 @@
 "d": "2026-11-11",
 "mid": 153,
 "n": "BANNARIAMMANSUGARS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T11:40+05:30"
 },
 "BSE:505160": {
@@ -33,7 +33,7 @@
 "mcap": 2545.7,
 "mid": 162,
 "n": "TALBROSAUTOMOTIVECOMPONENTS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T14:06+05:30"
 },
 "BSE:505232": {
@@ -41,7 +41,7 @@
 "mcap": 886.5,
 "mid": 168,
 "n": "VELJANDENISON",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T15:06+05:30"
 },
 "BSE:526433": {
@@ -118,7 +118,7 @@
 "mcap": 25531.9,
 "mid": 167,
 "n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T14:51+05:30"
 },
 "INE011K01018": {
@@ -190,7 +190,7 @@
 "mcap": 25531.9,
 "mid": 167,
 "n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T14:51+05:30"
 },
 "INE528L01027": {
@@ -205,7 +205,7 @@
 "d": "2026-11-11",
 "mid": 156,
 "n": "AMBIKACOTTONMILLS",
-"pdf": 4,
+"pdf": 5,
 "t": "2026-11-11T13:10+05:30"
 },
 "INE701A01023": {
@@ -599,6 +599,9 @@
 },
 "BANN-8dd967e2-cf0e-4fee-9333-7ce9989b7afb": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-8e8bfb0f-49fb-4792-925f-caaa97f889e8": {
+"t": "2026-11-11T15:26+05:30"
 },
 "BANN-8fa583a7-a081-41e3-bb08-64795dd5df95": {
 "t": "2026-11-11T12:50+05:30"
@@ -6445,6 +6448,9 @@
 "BSE|540937|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"BSE|542011|2026-09-30": {
+"t": "2026-11-11T15:26+05:30"
+},
 "BSE|543278|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6719,6 +6725,9 @@
 },
 "BSE:530537": {
 "t": "2026-11-09T18:20+05:30"
+},
+"BSE:530747": {
+"t": "2026-11-11T15:25+05:30"
 },
 "BSE:531306": {
 "t": "2026-11-10T12:12+05:30"
@@ -7172,6 +7181,9 @@
 "N:CENTURYBUSINESSMEDIA": {
 "t": "2026-11-10T15:46+05:30"
 },
+"N:CHALLANICAPITAL": {
+"t": "2026-11-11T15:25+05:30"
+},
 "N:CHAMBALBREWERIESANDDISTILLERIES": {
 "t": "2026-11-10T18:21+05:30"
 },
@@ -7616,6 +7628,10 @@
 "t": "2026-11-09T18:51+05:30",
 "v": 16.5
 },
+"BSE:530747": {
+"t": "2026-11-11T15:26+05:30",
+"v": 28.2
+},
 "BSE:531306": {
 "t": "2026-11-10T15:46+05:30",
 "v": 149.9
@@ -7827,6 +7843,35 @@
 }
 },
 "t": "2026-11-11T14:21+05:30"
+},
+"INE382Z01011|2026-09-30|S": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 11.8693,
+"finance": 3.6228,
+"other_income": 68.6901,
+"pat": 153.7874,
+"pbe": 209.3603,
+"pbt": 209.3603,
+"revenue": 1677.3828,
+"tax": 55.5729,
+"total_expenses": 1536.7126,
+"total_income": 1746.0729
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 13.5011,
+"finance": 3.7644,
+"other_income": 99.5655,
+"pat": 172.8376,
+"pbe": 231.5261,
+"pbt": 231.5261,
+"revenue": 1814.6159,
+"tax": 58.6885,
+"total_expenses": 1682.6553,
+"total_income": 1914.1814
+}
+},
+"t": "2026-11-11T15:28+05:30"
 },
 "INE459A01010|2026-09-30|S": {
 "p": {
@@ -8061,6 +8106,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml": {
+"company": "Garden Reach Shipbuilders & Engineers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "542011",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T15:26+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -8383,6 +8444,16 @@
 "n": "DIVISLABORATORIES",
 "pe": "2026-09-30",
 "t": "2026-11-07T22:07+05:30"
+},
+"INE382Z01011|2026-09-30|S": {
+"b": "S",
+"mid": 170,
+"n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
+"pat": 171.975,
+"pe": "2026-09-30",
+"rev": 1826.6934,
+"src": "pdf",
+"t": "2026-11-11T15:28+05:30"
 },
 "INE399C01030|2026-09-30|C": {
 "b": "C",
