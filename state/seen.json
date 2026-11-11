@@ -6726,6 +6726,10 @@
 "NSE-sme-IF-212385": {
 "s": "small",
 "t": "2026-11-11T18:05+05:30"
+},
+"NSE-sme-IF-212401": {
+"s": "small",
+"t": "2026-11-11T18:23+05:30"
 }
 },
 "first_seen": {
@@ -6843,6 +6847,9 @@
 "BSE|524636|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|524824|2026-09-30": {
+"t": "2026-11-11T18:23+05:30"
+},
 "BSE|526001|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6897,6 +6904,9 @@
 "BSE|531989|2026-09-30": {
 "t": "2026-11-10T16:14+05:30"
 },
+"BSE|532284|2026-09-30": {
+"t": "2026-11-11T18:23+05:30"
+},
 "BSE|532333|2026-09-30": {
 "t": "2026-11-09T15:38+05:30"
 },
@@ -6941,6 +6951,9 @@
 },
 "BSE|536659|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|538837|2026-09-30": {
+"t": "2026-11-11T18:23+05:30"
 },
 "BSE|539090|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
@@ -7085,6 +7098,9 @@
 },
 "NSE|BAJAJHIND|2026-09-30": {
 "t": "2026-11-11T15:11+05:30"
+},
+"NSE|BALPHARMA|2026-09-30": {
+"t": "2026-11-11T18:23+05:30"
 },
 "NSE|BANARISUG|2026-09-30": {
 "t": "2026-11-11T17:10+05:30"
@@ -9561,6 +9577,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml": {
+"company": "Bal Pharma Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "524824",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:23+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml": {
 "company": "Divyashakti Ltd",
 "consolidated": false,
@@ -9720,6 +9752,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_535431_11112026175443_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_535431_11112026175443_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_535431_11112026175443_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.xml": {
+"company": "Jeevan Scientific Technology Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "538837",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:23+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml": {
 "company": "Rajputana Investment and Finance Ltd",
@@ -9881,6 +9929,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_519214_1111202617584_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_519214_1111202617584_IFNBFC.xml"
 },
+"BSE-Integrated_Finance_NBFC_532284_11112026181757_IFNBFC.xml": {
+"company": "TCFC Finance Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532284",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:23+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_532284_11112026181757_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_532284_11112026181757_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_532284_11112026181757_IFNBFC.xml"
+},
 "BSE-Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml": {
 "company": "PMC Fincorp Ltd",
 "consolidated": false,
@@ -9913,6 +9977,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml"
 },
+"NSE-equities-IF-212410": {
+"company": "Bal Pharma Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T18:19:23+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "BALPHARMA",
+"t": "2026-11-11T18:23+05:30",
+"uid": "NSE-equities-IF-212410",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212410_11112026181923_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756195_11112026061923_WEB.xml"
+},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -9944,22 +10024,6 @@
 "uid": "NSE-sme-IF-212300",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
-},
-"NSE-sme-IF-212401": {
-"company": "Rite Zone Chemcon India Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T18:03:23+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "RITEZONE",
-"t": "2026-11-11T18:05+05:30",
-"uid": "NSE-sme-IF-212401",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212401_11112026180323_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756185_11112026060322_WEB.xml"
 }
 },
 "posted": {
@@ -10682,8 +10746,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T18:05+05:30",
-"v": "INE0PS301014"
+"t": "2026-11-11T18:23+05:30",
+"v": "INE0MRA01019"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -11526,6 +11590,10 @@
 "INE0LXA01019": {
 "t": "2026-11-11T17:23+05:30",
 "v": 10050000
+},
+"INE0MRA01019": {
+"t": "2026-11-11T18:23+05:30",
+"v": 4230300
 },
 "INE0O0001013": {
 "t": "2026-11-11T16:46+05:30",
