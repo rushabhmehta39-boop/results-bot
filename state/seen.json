@@ -588,6 +588,9 @@
 "ANN-equities-106855709-SEPC": {
 "t": "2026-11-11T20:11+05:30"
 },
+"ANN-equities-106855718-DELPHIFX": {
+"t": "2026-11-11T20:17+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -1025,6 +1028,9 @@
 },
 "BANN-ce7400c2-dd1c-4951-98e1-ecc7fe93f963": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-d12081d7-c9d1-4e0e-98a3-7be95225ada4": {
+"t": "2026-11-11T20:17+05:30"
 },
 "BANN-d1bbb9b2-f33b-48bb-8ab6-9db512746527": {
 "t": "2026-11-11T17:59+05:30"
@@ -1723,6 +1729,10 @@
 "BSE-Integrated_Finance_Ind_As_526269_611202614275_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T20:17+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_526331_6112026174732_IFIndAs.xml": {
 "s": "old",
@@ -7087,9 +7097,9 @@
 "t": "2026-11-11T19:19+05:30"
 },
 "NSE-sme-IF-212475": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-11T20:11+05:30"
+"t": "2026-11-11T20:17+05:30"
 },
 "NSE-sme-IF-212477": {
 "s": "small",
@@ -7351,6 +7361,9 @@
 "BSE|532989|2026-09-30": {
 "t": "2026-11-11T19:00+05:30"
 },
+"BSE|532998|2026-09-30": {
+"t": "2026-11-11T20:17+05:30"
+},
 "BSE|533095|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
 },
@@ -7362,6 +7375,9 @@
 },
 "BSE|533263|2026-09-30": {
 "t": "2026-11-11T17:17+05:30"
+},
+"BSE|533452|2026-06-30": {
+"t": "2026-11-11T20:17+05:30"
 },
 "BSE|533655|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
@@ -7617,6 +7633,9 @@
 },
 "NSE|LFIC|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|LOTUSEYE|2026-09-30": {
+"t": "2026-11-11T20:17+05:30"
 },
 "NSE|MATRIMONY|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -8044,6 +8063,9 @@
 "c": 1,
 "t": "2026-11-11T12:30+05:30"
 },
+"BSE:533452": {
+"t": "2026-11-11T20:15+05:30"
+},
 "BSE:533655": {
 "c": 1,
 "t": "2026-11-11T18:10+05:30"
@@ -8200,6 +8222,9 @@
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
 },
+"DELPHIFX": {
+"t": "2026-11-11T20:11+05:30"
+},
 "DREDGECORP": {
 "t": "2026-11-10T19:57+05:30"
 },
@@ -8300,6 +8325,9 @@
 "c": 1,
 "t": "2026-11-10T19:35+05:30"
 },
+"INE0Z9N01013": {
+"t": "2026-11-11T17:54+05:30"
+},
 "INE102E01018": {
 "t": "2026-11-10T16:59+05:30"
 },
@@ -8325,6 +8353,9 @@
 "INE159E01026": {
 "t": "2026-11-11T12:47+05:30"
 },
+"INE168O01026": {
+"t": "2026-11-11T17:42+05:30"
+},
 "INE16VF01010": {
 "t": "2026-11-10T15:46+05:30"
 },
@@ -8345,11 +8376,20 @@
 "c": 1,
 "t": "2026-11-11T14:03+05:30"
 },
+"INE188E01017": {
+"t": "2026-11-11T17:53+05:30"
+},
+"INE195I01013": {
+"t": "2026-11-11T17:23+05:30"
+},
 "INE1WDC01012": {
 "t": "2026-11-09T11:37+05:30"
 },
 "INE202Z01029": {
 "t": "2026-11-11T19:04+05:30"
+},
+"INE210F01016": {
+"t": "2026-11-11T17:56+05:30"
 },
 "INE211R01019": {
 "c": 1,
@@ -8542,6 +8582,9 @@
 },
 "INE718M01022": {
 "t": "2026-11-11T13:33+05:30"
+},
+"INE726L01019": {
+"t": "2026-11-11T20:11+05:30"
 },
 "INE751R01014": {
 "t": "2026-11-11T16:56+05:30"
@@ -8798,6 +8841,9 @@
 },
 "N:DECOROUSINVESTMENTANDTRADINGCO": {
 "t": "2026-11-10T12:42+05:30"
+},
+"N:DELPHIWORLDMONEY": {
+"t": "2026-11-11T20:11+05:30"
 },
 "N:DHPINDIA": {
 "t": "2026-11-10T12:12+05:30"
@@ -9701,6 +9747,10 @@
 "t": "2026-11-10T15:46+05:30",
 "v": 198.8
 },
+"BSE:533452": {
+"t": "2026-11-11T20:17+05:30",
+"v": 137.8
+},
 "BSE:534060": {
 "t": "2026-11-11T15:51+05:30",
 "v": 131.0
@@ -10516,22 +10566,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml": {
-"company": "Divyashakti Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "526315",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T18:17+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml": {
 "company": "Cupid Ltd-$",
 "consolidated": false,
@@ -10596,6 +10630,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml": {
+"company": "Lotus Eye Hospital And Institute Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532998",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:17+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.xml": {
 "company": "Orient Green Power Company Ltd",
 "consolidated": false,
@@ -10611,6 +10661,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_533452_1111202620165_IFIndAs.xml": {
+"company": "Delphi World Money Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-06-30",
+"revised": false,
+"scrip": "533452",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:17+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_533452_1111202620165_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533452_1111202620165_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533452_1111202620165_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_533655_11112026073943_IFIndAs.xml": {
 "company": "Triveni Turbine Ltd",
@@ -10835,6 +10901,22 @@
 "uid": "BSE-Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml"
+},
+"NSE-equities-IF-212500": {
+"company": "Lotus Eye Hospital and Institute Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T20:14:32+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "LOTUSEYE",
+"t": "2026-11-11T20:17+05:30",
+"uid": "NSE-equities-IF-212500",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212500_11112026201432_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756273_11112026081432_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -11657,7 +11739,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T20:11+05:30",
+"t": "2026-11-11T20:17+05:30",
 "v": "INE239T01016"
 },
 "123456": {
@@ -11935,6 +12017,10 @@
 "526001": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE593O01017"
+},
+"526315": {
+"t": "2026-11-11T20:17+05:30",
+"v": "INE410G01010"
 },
 "526433": {
 "t": "2026-11-08T18:12+05:30",
@@ -12843,7 +12929,7 @@
 "v": 152950000
 },
 "INE239T01016": {
-"t": "2026-11-11T20:11+05:30",
+"t": "2026-11-11T20:17+05:30",
 "v": 6235620000
 },
 "INE245A01021": {
@@ -12997,6 +13083,10 @@
 "INE400R01018": {
 "t": "2026-11-11T03:45+05:30",
 "v": 8714500
+},
+"INE410G01010": {
+"t": "2026-11-11T20:17+05:30",
+"v": 10268900
 },
 "INE410M01018": {
 "t": "2026-11-11T18:12+05:30",
