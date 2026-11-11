@@ -560,6 +560,12 @@
 "ANN-equities-106855599-BALPHARMA": {
 "t": "2026-11-11T18:55+05:30"
 },
+"ANN-equities-106855626-LOTUSEYE": {
+"t": "2026-11-11T19:07+05:30"
+},
+"ANN-equities-106855631-TSFINV": {
+"t": "2026-11-11T19:07+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -637,6 +643,9 @@
 },
 "BANN-0b4536a5-ed94-42ad-af05-8b311a41f755": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-0ca0a67c-f848-4f53-8fb5-53702daba323": {
+"t": "2026-11-11T19:07+05:30"
 },
 "BANN-0e45f73a-4d8a-42f5-aa3b-a63f35a5c89d": {
 "t": "2026-11-11T15:51+05:30"
@@ -1367,6 +1376,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T19:06+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_511200_6112026193127_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -2042,6 +2055,10 @@
 "BSE-Integrated_Finance_Ind_As_539042_06112026060613_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T19:07+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_539225_611202617820_IFIndAs.xml": {
 "s": "old",
@@ -5851,6 +5868,18 @@
 "s": "posted",
 "t": "2026-11-11T18:49+05:30"
 },
+"NSE-equities-IF-212439": {
+"s": "small",
+"t": "2026-11-11T19:06+05:30"
+},
+"NSE-equities-IF-212449": {
+"s": "superseded",
+"t": "2026-11-11T19:06+05:30"
+},
+"NSE-equities-IF-212451": {
+"s": "posted",
+"t": "2026-11-11T19:06+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7293,6 +7322,9 @@
 "NSE|EDELALTS|2026-09-30": {
 "t": "2026-11-11T17:59+05:30"
 },
+"NSE|EIHAHOTELS|2026-09-30": {
+"t": "2026-11-11T19:06+05:30"
+},
 "NSE|GLOTTIS|2026-09-30": {
 "t": "2026-11-11T17:59+05:30"
 },
@@ -7376,6 +7408,9 @@
 },
 "NSE|TALBROAUTO|2026-09-30": {
 "t": "2026-11-11T16:26+05:30"
+},
+"NSE|TATAPOWER|2026-09-30": {
+"t": "2026-11-11T19:06+05:30"
 },
 "NSE|TITAGARH|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -7601,6 +7636,10 @@
 "BSE:530129": {
 "c": 1,
 "t": "2026-11-10T13:31+05:30"
+},
+"BSE:530235": {
+"c": 1,
+"t": "2026-11-11T19:03+05:30"
 },
 "BSE:530317": {
 "t": "2026-11-11T17:21+05:30"
@@ -7993,6 +8032,9 @@
 "INE1WDC01012": {
 "t": "2026-11-09T11:37+05:30"
 },
+"INE202Z01029": {
+"t": "2026-11-11T19:04+05:30"
+},
 "INE211R01019": {
 "c": 1,
 "t": "2026-11-11T14:16+05:30"
@@ -8242,6 +8284,9 @@
 "INE921D01013": {
 "t": "2026-11-11T12:24+05:30"
 },
+"INE947I01017": {
+"t": "2026-11-11T19:02+05:30"
+},
 "INE948I01015": {
 "t": "2026-11-09T18:20+05:30"
 },
@@ -8269,6 +8314,9 @@
 },
 "LOANFRONT": {
 "t": "2026-11-10T19:53+05:30"
+},
+"LOTUSEYE": {
+"t": "2026-11-11T19:02+05:30"
 },
 "MAGSON": {
 "t": "2026-11-09T13:08+05:30"
@@ -8508,6 +8556,10 @@
 "N:KARANWOOSIN": {
 "t": "2026-11-11T18:27+05:30"
 },
+"N:KJMCFINANCIALSERVICES": {
+"c": 1,
+"t": "2026-11-11T19:03+05:30"
+},
 "N:KKVAGROPOWERS": {
 "t": "2026-11-11T13:26+05:30"
 },
@@ -8525,6 +8577,9 @@
 },
 "N:LGBFORGE": {
 "t": "2026-11-11T18:11+05:30"
+},
+"N:LOTUSEYEHOSPITALANDINSTITUTE": {
+"t": "2026-11-11T19:02+05:30"
 },
 "N:MADALAHOLDINGS": {
 "t": "2026-11-10T13:36+05:30"
@@ -8756,6 +8811,9 @@
 "c": 1,
 "t": "2026-11-11T18:03+05:30"
 },
+"N:TSFINVESTMENTS": {
+"t": "2026-11-11T19:04+05:30"
+},
 "N:TULSYANNEC": {
 "c": 1,
 "t": "2026-11-11T18:32+05:30"
@@ -8907,6 +8965,9 @@
 "TRITURBINE": {
 "c": 1,
 "t": "2026-11-11T18:03+05:30"
+},
+"TSFINV": {
+"t": "2026-11-11T19:04+05:30"
 },
 "UNITEDTEA": {
 "t": "2026-11-10T13:10+05:30"
@@ -9111,6 +9172,10 @@
 "BSE:530129": {
 "t": "2026-11-10T15:46+05:30",
 "v": 423.5
+},
+"BSE:530235": {
+"t": "2026-11-11T19:07+05:30",
+"v": 27.8
 },
 "BSE:530317": {
 "t": "2026-11-11T17:23+05:30",
@@ -9335,6 +9400,10 @@
 "INTENTECH": {
 "t": "2026-11-11T17:47+05:30",
 "v": 194.9
+},
+"LOTUSEYE": {
+"t": "2026-11-11T19:07+05:30",
+"v": 220.0
 },
 "MATRIMONY": {
 "t": "2026-11-10T16:14+05:30",
@@ -9819,22 +9888,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml": {
-"company": "ICDS Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "511194",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T17:04+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.xml": {
 "company": "Abirami Financial Services India Ltd",
 "consolidated": false,
@@ -10107,22 +10160,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538837_11112026181920_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml": {
-"company": "Rajputana Investment and Finance Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "539090",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T17:04+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml": {
 "company": "Samsrita Labs Ltd",
 "consolidated": false,
@@ -10315,22 +10352,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml"
 },
-"NSE-equities-IF-212439": {
-"company": "Salona Cotspin Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T18:49:39+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SALONA",
-"t": "2026-11-11T18:55+05:30",
-"uid": "NSE-equities-IF-212439",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212439_11112026184939_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756222_11112026064939_WEB.xml"
-},
 "NSE-equities-IF-212446": {
 "company": "Bafna Pharmaceuticals Limited",
 "consolidated": false,
@@ -10346,6 +10367,22 @@
 "uid": "NSE-equities-IF-212446",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212446_11112026185923_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756230_11112026065923_WEB.xml"
+},
+"NSE-equities-IF-212459": {
+"company": "EIH Associated Hotels Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T19:06:29+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "EIHAHOTELS",
+"t": "2026-11-11T19:06+05:30",
+"uid": "NSE-equities-IF-212459",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212459_11112026190627_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756238_11112026070626_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -10635,6 +10672,13 @@
 "n": "FINOLEXCABLES",
 "pe": "2026-09-30",
 "t": "2026-11-07T22:08+05:30"
+},
+"INE245A01021|2026-09-30|C": {
+"b": "C",
+"mid": 195,
+"n": "TATAPOWERCOMPANY",
+"pe": "2026-09-30",
+"t": "2026-11-11T19:06+05:30"
 },
 "INE258A01024|2026-09-30|C": {
 "b": "C",
@@ -11103,8 +11147,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T18:55+05:30",
-"v": "INE124101010"
+"t": "2026-11-11T19:06+05:30",
+"v": "INE498E01010"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -11145,6 +11189,10 @@
 "500336": {
 "t": "2026-11-07T22:06+05:30",
 "v": "INE335A01020"
+},
+"500400": {
+"t": "2026-11-11T19:06+05:30",
+"v": "INE245A01021"
 },
 "500439": {
 "t": "2026-11-10T23:47+05:30",
@@ -11223,7 +11271,7 @@
 "v": "INE047E01031"
 },
 "511194": {
-"t": "2026-11-11T17:10+05:30",
+"t": "2026-11-11T19:06+05:30",
 "v": "INE613B01010"
 },
 "511551": {
@@ -11573,6 +11621,10 @@
 "536659": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE428B01021"
+},
+"539090": {
+"t": "2026-11-11T19:06+05:30",
+"v": "INE751R01014"
 },
 "539354": {
 "t": "2026-11-11T17:34+05:30",
@@ -12180,6 +12232,10 @@
 "t": "2026-11-07T22:08+05:30",
 "v": 152950000
 },
+"INE245A01021": {
+"t": "2026-11-11T19:06+05:30",
+"v": 3195600000
+},
 "INE24YP01017": {
 "t": "2026-11-07T22:09+05:30",
 "v": 10240000
@@ -12364,6 +12420,10 @@
 "t": "2026-11-06T23:15+05:30",
 "v": 282563000
 },
+"INE498E01010": {
+"t": "2026-11-11T19:06+05:30",
+"v": 5262400
+},
 "INE501G01024": {
 "t": "2026-11-06T23:14+05:30",
 "v": 232750000
@@ -12465,7 +12525,7 @@
 "v": 6490100
 },
 "INE613B01010": {
-"t": "2026-11-11T17:10+05:30",
+"t": "2026-11-11T19:06+05:30",
 "v": 13026700
 },
 "INE615H01020": {
@@ -12563,6 +12623,10 @@
 "INE750D01016": {
 "t": "2026-11-06T23:11+05:30",
 "v": 7543600
+},
+"INE751R01014": {
+"t": "2026-11-11T19:06+05:30",
+"v": 3080000
 },
 "INE764D01017": {
 "t": "2026-11-06T23:15+05:30",
