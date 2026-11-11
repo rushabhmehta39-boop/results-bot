@@ -600,6 +600,9 @@
 "BANN-ebcc5cc3-803c-4d54-bb06-370b0a92c375": {
 "t": "2026-11-10T15:46+05:30"
 },
+"BANN-ebec4b77-62a0-44fd-84e3-692637dd17f7": {
+"t": "2026-11-11T16:06+05:30"
+},
 "BANN-ecc64d41-7ffc-4632-8738-d92b61914e64": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -1048,6 +1051,10 @@
 "BSE-Integrated_Finance_Ind_As_519234_6112026162418_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T16:06+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_519483_1011202616534_IFIndAs.xml": {
 "s": "small",
@@ -6331,6 +6338,9 @@
 "BSE|530537|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"BSE|530747|2026-09-30": {
+"t": "2026-11-11T16:06+05:30"
+},
 "BSE|531306|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
 },
@@ -6773,6 +6783,9 @@
 },
 "BSE:542011": {
 "t": "2026-11-11T14:52+05:30"
+},
+"BSE:542232": {
+"t": "2026-11-11T16:04+05:30"
 },
 "BSE:543278": {
 "t": "2026-11-10T17:10+05:30"
@@ -7710,6 +7723,10 @@
 "t": "2026-11-09T18:51+05:30",
 "v": 157.6
 },
+"BSE:542232": {
+"t": "2026-11-11T16:06+05:30",
+"v": 273.8
+},
 "BSE:544166": {
 "t": "2026-11-11T14:26+05:30",
 "v": 358.7
@@ -8049,22 +8066,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml": {
-"company": "Bambino Agro Industries Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "519295",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T14:05+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml": {
 "company": "Rathi Bars Ltd",
 "consolidated": false,
@@ -8112,6 +8113,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml": {
+"company": "Challani Capital Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "530747",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T16:06+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -8952,6 +8969,10 @@
 "517554": {
 "t": "2026-11-09T15:39+05:30",
 "v": "INE141C01036"
+},
+"519295": {
+"t": "2026-11-11T16:06+05:30",
+"v": "INE921D01013"
 },
 "519483": {
 "t": "2026-11-11T03:45+05:30",
@@ -10166,6 +10187,10 @@
 "INE909C01010": {
 "t": "2026-11-07T22:09+05:30",
 "v": 14443400
+},
+"INE921D01013": {
+"t": "2026-11-11T16:06+05:30",
+"v": 8008800
 },
 "INE948I01015": {
 "t": "2026-11-09T20:32+05:30",
