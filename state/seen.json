@@ -1791,6 +1791,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_524572_1111202620555_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T22:15+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_524622_6112026171135_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7550,6 +7554,9 @@
 "BSE|531989|2026-09-30": {
 "t": "2026-11-10T16:14+05:30"
 },
+"BSE|532183|2026-09-30": {
+"t": "2026-11-11T22:14+05:30"
+},
 "BSE|532284|2026-09-30": {
 "t": "2026-11-11T18:23+05:30"
 },
@@ -10982,22 +10989,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_524572_1111202620555_IFIndAs.xml": {
-"company": "Pharmaids Pharmaceuticals Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "524572",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T20:11+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_524572_1111202620555_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524572_1111202620555_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524572_1111202620555_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml": {
 "company": "Bal Pharma Ltd",
 "consolidated": false,
@@ -11029,6 +11020,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.xml": {
+"company": "Gayatri Sugars Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532183",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T22:14+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532326_11112026092004_IFIndAs.xml": {
 "company": "Intense Technologies Ltd-$",
@@ -12478,6 +12485,10 @@
 "t": "2026-11-06T23:14+05:30",
 "v": "INE571A01038"
 },
+"524572": {
+"t": "2026-11-11T22:14+05:30",
+"v": "INE117D01018"
+},
 "524636": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE102E01018"
@@ -13343,6 +13354,10 @@
 "INE113E01015": {
 "t": "2026-11-09T15:39+05:30",
 "v": 4200000
+},
+"INE117D01018": {
+"t": "2026-11-11T22:14+05:30",
+"v": 35267800
 },
 "INE11HF01010": {
 "t": "2026-11-11T12:30+05:30",
