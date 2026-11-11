@@ -338,6 +338,9 @@
 "BANN-3a0acdba-aab7-454f-bdb0-54de05be8f84": {
 "t": "2026-11-10T23:49+05:30"
 },
+"BANN-47e4a817-8472-413d-837a-c9cefab531d5": {
+"t": "2026-11-11T12:20+05:30"
+},
 "BANN-48523336-efa6-41fd-bb15-ef67316617e5": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -6077,6 +6080,9 @@
 "BSE|519483|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|522267|2026-09-30": {
+"t": "2026-11-11T12:20+05:30"
+},
 "BSE|523120|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
@@ -6383,6 +6389,9 @@
 "BSE:530129": {
 "c": 1,
 "t": "2026-11-10T13:31+05:30"
+},
+"BSE:530369": {
+"t": "2026-11-11T12:18+05:30"
 },
 "BSE:530537": {
 "t": "2026-11-09T18:20+05:30"
@@ -6907,6 +6916,9 @@
 "N:VAIBHAVVYAPAAR": {
 "t": "2026-11-10T19:53+05:30"
 },
+"N:VAMSHIRUBBER": {
+"t": "2026-11-11T12:18+05:30"
+},
 "N:VARDHMANHOLDINGS": {
 "t": "2026-11-10T13:02+05:30"
 },
@@ -7035,6 +7047,10 @@
 "t": "2026-11-10T15:46+05:30",
 "v": 423.5
 },
+"BSE:530369": {
+"t": "2026-11-11T12:20+05:30",
+"v": 15.2
+},
 "BSE:530537": {
 "t": "2026-11-09T18:51+05:30",
 "v": 16.5
@@ -7161,6 +7177,22 @@
 }
 },
 "pending": {
+"BSE-IFOtherthan_522267_11112026121518_IFOtherthan.xml": {
+"company": "Veejay Lakshmi Engineering Works Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "522267",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T12:20+05:30",
+"uid": "BSE-IFOtherthan_522267_11112026121518_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
+},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
