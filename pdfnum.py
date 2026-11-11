@@ -7,7 +7,7 @@ Only returns numbers when every check passes for all three columns; anything dou
 """
 from __future__ import annotations
 
-VERSION = 3  # bump when the reader improves: today's alerts without a card get one more try
+VERSION = 4  # bump when the reader improves: today's alerts without a card get one more try
 
 import calendar
 import io
@@ -65,6 +65,7 @@ _OCR_DIGIT = str.maketrans({"O": "0", "o": "0", "Q": "0", "D": "0", "l": "1", "I
 def parse_num(t: str):
     """'1,234.56' -> (1234.56, 2); '(12.5)' -> (-12.5, 1); '-' -> (0.0, 0); else None."""
     t = t.strip().strip("*#^@$").replace("−", "-").replace("–", "-").replace("—", "-")
+    t = t.replace("[", "(").replace("]", ")").replace("{", "(").replace("}", ")")  # scans misread brackets
     if t in ("-", "--", "---", "nil", "Nil", "NIL", "-0", "(-)", "=", "_", "—"):
         return 0.0, 0
     if re.search(r"[A-Za-z|]", t):
@@ -212,7 +213,8 @@ ROW_RULES = [  # key, must match, must not match
     ("fin", r"\bfinance costs?\b|\binterest expenses?\b|\bfinance charges\b|\binterest and finance\b|\bborrowing costs?\b|^interest$",
      r"income|profit"),
     ("dep", r"\bdepreciation\b", r"profit"),
-    ("jv", r"\bshare (in|of) (the )?(net )?(profit|loss|results?|income)\b", r"comprehensive|non controlling|minority|owners|\bbefore\b"),
+    ("jv", r"\bshare (in|of) (the )?(net )?(profit|loss|results?|income)\b|\b(profit|loss)\b.*\bfrom (the )?joint ventures?\b",
+     r"comprehensive|non controlling|minority|owners|\bbefore\b|attributable"),
     ("pbe", r"\b(profit|loss|earnings)\b.*\bbefore\b.*\bexceptional\b", r"comprehensive"),
     ("exc", r"\bexceptional\b", r"\bbefore\b|\bafter\b|\bprofit\b|\bloss\b(?! on)"),
     ("pbt", r"\b(profit|loss)\b.*\bbefore (income )?tax(ation)?\b", r"\bbefore\b.*\bexceptional\b|comprehensive|share of"),
@@ -450,6 +452,12 @@ def _extract(rows, cidx):
             continue
         lab = own
         k = _classify(lab) if lab else None
+        first = re.search(r"[A-Za-z]", r["label"])
+        if prev_label and first and first.group(0).islower() and k in (None, "exc"):
+            # "exceptional items and tax" continues "Profit before share of JVs," on the line above
+            k2 = _classify((prev_label + " " + own).strip())
+            if k2:
+                k, lab = k2, (prev_label + " " + own).strip()
         if k is None and prev_label:
             lab2 = (prev_label + " " + own).strip()
             k = _classify(lab2)
@@ -500,6 +508,8 @@ def _check_col(v: dict, dec: int):
     taxes = [g("tax_total"), g("tax")]
     if g("tax_cur") is not None:
         taxes += [g("tax_cur") + (g("tax_def") or 0) + (g("tax_old") or 0), g("tax_cur") + (g("tax_def") or 0)]
+    if g("tax") is not None and g("tax_def") is not None:  # "Tax expense: current tax" on one line
+        taxes += [g("tax") + g("tax_def") + (g("tax_old") or 0), g("tax") + g("tax_def")]
     taxes = [t for t in taxes if t is not None]
     taxes += [-t for t in taxes if t]  # some statements show tax as a deduction, e.g. "(18.71)"
     tax = next((t for t in taxes if close(pbt - t, pat, 4)), taxes[0] if taxes else None)
@@ -541,9 +551,10 @@ def _check_col(v: dict, dec: int):
         dep = 0.0
     m = {"revenue": rev, "other_income": oi, "total_income": ti, "total_expenses": te, "finance": fin,
          "depreciation": dep, "pbe": pbe if pbe is not None else pbt - (exc or 0), "pbt": pbt, "tax": tax, "pat": pat}
-    if jv is not None:
-        # share of associates / JVs sits between expenses and PBT: keep it out of EBITDA but inside PBE
-        m["pbe"] = pbe
+    if jv is not None and pbe is not None and close(op, pbe) and not close(op + jv, pbe):
+        # the "profit before exceptional items" line came before the share of associates / JVs:
+        # add it, so the card's exceptional items (PBT - PBE) are only the real exceptional items
+        m["pbe"] = pbe + jv
     return m, probs
 
 

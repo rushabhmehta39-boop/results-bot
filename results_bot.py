@@ -1780,8 +1780,8 @@ def _late_pdf(a: dict, ctx: dict, today: str) -> None:
     rec = next((r for r in recs if r.get("d") == today), None)
     version = getattr(pdfnum, "VERSION", 1)
     if rec is None or rec.get("pdf", 0) >= version or any(
-            v.get("n") == nn and v.get("t", "")[:10] == today for v in st.data["posted"].values()):
-        return
+            v.get("n") == nn and v.get("t", "")[:10] == today and v.get("b") == "C" for v in st.data["posted"].values()):
+        return  # (a standalone card can still be followed by a consolidated one)
     same = [k for k, r in st.data["alerts"].items() if isinstance(r, dict) and r.get("mid") == rec.get("mid")]
     cands = same + [a.get("symbol") or "", f"BSE:{a['scrip']}" if a.get("scrip") else ""]
     mcap = rec.get("mcap") or next((st.data["mcap"][k]["v"] for k in cands if k and k in st.data["mcap"]), None)
@@ -1855,9 +1855,10 @@ def pdf_card(item: dict, ctx: dict) -> str:
     sym, scrip = item["symbol"] or "", item["scrip"] or ""
     ident = isin or (f"NSE:{sym}" if sym else f"BSE:{scrip}")
     nn = norm_name(item["company"])
-    if any(v.get("pe") == qe.isoformat() and (k.startswith(ident + "|") or v.get("n") == nn)
-           for k, v in st.data["posted"].items()):
-        return "dup"  # the XBRL card beat us to it
+    same_q = [(k, v) for k, v in st.data["posted"].items()
+              if v.get("pe") == qe.isoformat() and (k.startswith(ident + "|") or v.get("n") == nn)]
+    if any(v.get("b") == "C" for _, v in same_q):
+        return "dup"  # the consolidated card is already out
     url = item["pdf"]
     kind = "bse" if "bseindia" in url else "nse"
     r = http.get(url, kind, accept="application/pdf,*/*", referer=(BSE + "/") if kind == "bse" else NSE + "/",
@@ -1883,6 +1884,9 @@ def pdf_card(item: dict, ctx: dict) -> str:
     if not out["ok"]:
         return "fail: " + out["why"]
     basis, cols = out["basis"], out["cols"]
+    earlier_s = next((v for _, v in same_q if v.get("b") == "S"), None)
+    if basis == "S" and earlier_s is not None:
+        return "dup"
     if basis == "S" and expects_consolidated(st, isin, sym, scrip, item["company"], qe):
         return "fail: the company reports consolidated numbers; standalone not sent on its own"
     post_key = f"{ident}|{qe.isoformat()}|{basis}"
@@ -1900,7 +1904,11 @@ def pdf_card(item: dict, ctx: dict) -> str:
     (ctx["cards_dir"] / (re.sub(r"[^A-Za-z0-9_.-]+", "_", res["id"]) + ".png")).write_bytes(png)
     caption = (caption_for(res) + "\n📄 Read from the results PDF and cross-checked. "
                "If the exchange's data file differs, a correction follows.")
-    mid = tg.photo(png, caption, reply_to=item["mid"])
+    reply_to = item["mid"]
+    if earlier_s is not None:
+        caption = "🔁 <b>Consolidated numbers</b> (the earlier card was standalone)\n" + caption
+        reply_to = earlier_s.get("mid") or reply_to
+    mid = tg.photo(png, caption, reply_to=reply_to)
     if mid is None:
         return "retry_tg"
     ctx["new_results"].append(res)
