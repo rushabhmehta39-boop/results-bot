@@ -314,6 +314,9 @@
 "ANN-sme-106854839-EEPL": {
 "t": "2026-11-11T12:05+05:30"
 },
+"ANN-sme-106854971-CURIS": {
+"t": "2026-11-11T12:50+05:30"
+},
 "BANN-0b4536a5-ed94-42ad-af05-8b311a41f755": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -427,6 +430,9 @@
 },
 "BANN-8dd967e2-cf0e-4fee-9333-7ce9989b7afb": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-8fa583a7-a081-41e3-bb08-64795dd5df95": {
+"t": "2026-11-11T12:50+05:30"
 },
 "BANN-914ee534-8e74-4523-98ab-2e23a3a86268": {
 "t": "2026-11-10T23:49+05:30"
@@ -6090,6 +6096,9 @@
 "BSE|508956|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"BSE|509196|2026-09-30": {
+"t": "2026-11-11T12:50+05:30"
+},
 "BSE|512036|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6371,6 +6380,9 @@
 "BSE:508956": {
 "t": "2026-11-09T16:05+05:30"
 },
+"BSE:509196": {
+"t": "2026-11-11T12:47+05:30"
+},
 "BSE:512036": {
 "t": "2026-11-10T20:27+05:30"
 },
@@ -6539,6 +6551,10 @@
 },
 "COCHINSHIP": {
 "t": "2026-11-10T14:27+05:30"
+},
+"CURIS": {
+"c": 1,
+"t": "2026-11-11T12:48+05:30"
 },
 "DCCL": {
 "t": "2026-11-10T19:26+05:30"
@@ -6812,6 +6828,10 @@
 "c": 1,
 "t": "2026-11-10T16:32+05:30"
 },
+"N:CURISLIFESCIENCES": {
+"c": 1,
+"t": "2026-11-11T12:48+05:30"
+},
 "N:DARCREDITANDCAPITAL": {
 "t": "2026-11-10T19:26+05:30"
 },
@@ -6878,6 +6898,9 @@
 "N:MIDWEST": {
 "c": 1,
 "t": "2026-11-10T19:35+05:30"
+},
+"N:MMRUBBERCOMPANY": {
+"t": "2026-11-11T12:47+05:30"
 },
 "N:MMTC": {
 "t": "2026-11-10T19:19+05:30"
@@ -7055,6 +7078,10 @@
 "BSE:508956": {
 "t": "2026-11-09T16:21+05:30",
 "v": 12.9
+},
+"BSE:509196": {
+"t": "2026-11-11T12:50+05:30",
+"v": 35.7
 },
 "BSE:512036": {
 "t": "2026-11-10T23:49+05:30",
@@ -7261,6 +7288,22 @@
 "uid": "BSE-IFOtherthan_522267_11112026121518_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml": {
+"company": "MM Rubber Company Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "509196",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T12:50+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509196_1111202612716_IFIndAs.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
