@@ -6311,6 +6311,14 @@
 "s": "posted",
 "t": "2026-11-11T22:33+05:30"
 },
+"NSE-equities-IF-212540": {
+"s": "superseded",
+"t": "2026-11-11T22:39+05:30"
+},
+"NSE-equities-IF-212541": {
+"s": "small",
+"t": "2026-11-11T22:39+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7604,6 +7612,9 @@
 "BSE|532183|2026-09-30": {
 "t": "2026-11-11T22:14+05:30"
 },
+"BSE|532271|2026-09-30": {
+"t": "2026-11-11T22:38+05:30"
+},
 "BSE|532284|2026-09-30": {
 "t": "2026-11-11T18:23+05:30"
 },
@@ -7987,6 +7998,9 @@
 },
 "NSE|OLECTRA|2026-09-30": {
 "t": "2026-11-09T22:43+05:30"
+},
+"NSE|ORCHASP|2026-09-30": {
+"t": "2026-11-11T22:38+05:30"
 },
 "NSE|ORTINGLOBE|2026-09-30": {
 "t": "2026-11-11T20:52+05:30"
@@ -8726,6 +8740,9 @@
 "c": 1,
 "t": "2026-11-10T16:32+05:30"
 },
+"INE0RGM01016": {
+"t": "2026-11-11T20:17+05:30"
+},
 "INE0TQE01026": {
 "t": "2026-11-11T17:47+05:30"
 },
@@ -8795,6 +8812,9 @@
 },
 "INE1WDC01012": {
 "t": "2026-11-09T11:37+05:30"
+},
+"INE201J01017": {
+"t": "2026-11-11T18:11+05:30"
 },
 "INE202Z01029": {
 "t": "2026-11-11T19:04+05:30"
@@ -11118,6 +11138,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532183_111120262290_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_532271_1111202622328_IFIndAs.xml": {
+"company": "Orchasp Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532271",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T22:38+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532271_1111202622328_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532271_1111202622328_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532271_1111202622328_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_532326_11112026092004_IFIndAs.xml": {
 "company": "Intense Technologies Ltd-$",
 "consolidated": false,
@@ -12669,6 +12705,10 @@
 "t": "2026-11-06T23:16+05:30",
 "v": "INE550B01022"
 },
+"532271": {
+"t": "2026-11-11T22:39+05:30",
+"v": "INE215B01022"
+},
 "532284": {
 "t": "2026-11-11T20:23+05:30",
 "v": "INE389D01013"
@@ -13550,6 +13590,10 @@
 "INE210F01016": {
 "t": "2026-11-11T20:11+05:30",
 "v": 1010000
+},
+"INE215B01022": {
+"t": "2026-11-11T22:39+05:30",
+"v": 346425500
 },
 "INE215F01023": {
 "t": "2026-11-11T17:17+05:30",
