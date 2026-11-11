@@ -554,6 +554,12 @@
 "ANN-equities-106855595-SECURKLOUD": {
 "t": "2026-11-11T18:49+05:30"
 },
+"ANN-equities-106855598-BALPHARMA": {
+"t": "2026-11-11T18:55+05:30"
+},
+"ANN-equities-106855599-BALPHARMA": {
+"t": "2026-11-11T18:55+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -619,6 +625,9 @@
 },
 "ANN-sme-106855539-NAMOEWASTE": {
 "t": "2026-11-11T18:29+05:30"
+},
+"ANN-sme-106855597-INM": {
+"t": "2026-11-11T18:55+05:30"
 },
 "BANN-0140b61d-7717-4a83-9f3f-f03a9094091f": {
 "t": "2026-11-11T16:58+05:30"
@@ -6817,6 +6826,10 @@
 "s": "posted",
 "t": "2026-11-11T12:30+05:30"
 },
+"NSE-sme-IF-212300": {
+"s": "superseded",
+"t": "2026-11-11T18:55+05:30"
+},
 "NSE-sme-IF-212313": {
 "s": "small",
 "t": "2026-11-11T16:46+05:30"
@@ -6845,6 +6858,10 @@
 "NSE-sme-IF-212401": {
 "s": "small",
 "t": "2026-11-11T18:23+05:30"
+},
+"NSE-sme-IF-212440": {
+"s": "small",
+"t": "2026-11-11T18:55+05:30"
 }
 },
 "first_seen": {
@@ -7319,6 +7336,9 @@
 "NSE|SAKHTISUG|2026-09-30": {
 "t": "2026-11-11T14:56+05:30"
 },
+"NSE|SALONA|2026-09-30": {
+"t": "2026-11-11T18:55+05:30"
+},
 "NSE|SIMPLEXINF|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -7378,6 +7398,10 @@
 "BAJAJHIND": {
 "c": 1,
 "t": "2026-11-11T13:14+05:30"
+},
+"BALPHARMA": {
+"c": 1,
+"t": "2026-11-11T18:50+05:30"
 },
 "BANARISUG": {
 "t": "2026-11-11T11:40+05:30"
@@ -8036,6 +8060,9 @@
 "INE509F01011": {
 "t": "2026-11-11T18:30+05:30"
 },
+"INE509F01029": {
+"t": "2026-11-11T18:30+05:30"
+},
 "INE515B01025": {
 "c": 1,
 "t": "2026-11-10T16:28+05:30"
@@ -8080,6 +8107,9 @@
 "INE628D01014": {
 "t": "2026-11-09T17:48+05:30"
 },
+"INE630N01019": {
+"t": "2026-11-11T16:37+05:30"
+},
 "INE630Y01016": {
 "t": "2026-11-09T17:30+05:30"
 },
@@ -8123,6 +8153,9 @@
 "INE781A01025": {
 "t": "2026-11-11T17:41+05:30"
 },
+"INE784M01016": {
+"t": "2026-11-11T16:15+05:30"
+},
 "INE807A01010": {
 "t": "2026-11-11T15:25+05:30"
 },
@@ -8137,6 +8170,9 @@
 },
 "INE817H01022": {
 "t": "2026-11-11T17:08+05:30"
+},
+"INE834E01016": {
+"t": "2026-11-11T16:31+05:30"
 },
 "INE835D01023": {
 "t": "2026-11-10T13:24+05:30"
@@ -8184,6 +8220,10 @@
 },
 "INE999K01014": {
 "t": "2026-11-11T12:29+05:30"
+},
+"INM": {
+"c": 1,
+"t": "2026-11-11T18:49+05:30"
 },
 "INSPIRISYS": {
 "t": "2026-11-11T16:24+05:30"
@@ -8421,6 +8461,10 @@
 },
 "N:INTENSETECHNOLOGIES": {
 "t": "2026-11-11T17:41+05:30"
+},
+"N:INTERIORSANDMORE": {
+"c": 1,
+"t": "2026-11-11T18:49+05:30"
 },
 "N:JAUSSPOLYMERS": {
 "t": "2026-11-10T17:40+05:30"
@@ -8873,6 +8917,10 @@
 "t": "2026-11-11T13:15+05:30",
 "v": 4339.1
 },
+"BALPHARMA": {
+"t": "2026-11-11T18:55+05:30",
+"v": 133.8
+},
 "BSE:500041": {
 "t": "2026-11-11T11:40+05:30",
 "v": 3991.4
@@ -8904,10 +8952,6 @@
 "BSE:505502": {
 "t": "2026-11-11T17:17+05:30",
 "v": 14.8
-},
-"BSE:505590": {
-"t": "2026-11-09T18:51+05:30",
-"v": 48.1
 },
 "BSE:507315": {
 "t": "2026-11-11T13:05+05:30",
@@ -8997,10 +9041,6 @@
 "t": "2026-11-10T23:49+05:30",
 "v": 19.5
 },
-"BSE:523120": {
-"t": "2026-11-09T18:51+05:30",
-"v": 101.9
-},
 "BSE:523127": {
 "t": "2026-11-11T16:46+05:30",
 "v": 1792.8
@@ -9048,10 +9088,6 @@
 "BSE:530369": {
 "t": "2026-11-11T12:20+05:30",
 "v": 15.2
-},
-"BSE:530537": {
-"t": "2026-11-09T18:51+05:30",
-"v": 16.5
 },
 "BSE:530747": {
 "t": "2026-11-11T15:26+05:30",
@@ -9116,10 +9152,6 @@
 "BSE:532372": {
 "t": "2026-11-10T23:49+05:30",
 "v": 163.0
-},
-"BSE:532439": {
-"t": "2026-11-09T18:51+05:30",
-"v": 8865.1
 },
 "BSE:532485": {
 "t": "2026-11-10T23:49+05:30",
@@ -9200,10 +9232,6 @@
 "BSE:540678": {
 "t": "2026-11-10T15:46+05:30",
 "v": 33911.1
-},
-"BSE:540937": {
-"t": "2026-11-09T18:51+05:30",
-"v": 157.6
 },
 "BSE:542232": {
 "t": "2026-11-11T16:06+05:30",
@@ -10272,6 +10300,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml"
 },
+"NSE-equities-IF-212439": {
+"company": "Salona Cotspin Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T18:49:39+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SALONA",
+"t": "2026-11-11T18:55+05:30",
+"uid": "NSE-equities-IF-212439",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212439_11112026184939_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756222_11112026064939_WEB.xml"
+},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -10287,22 +10331,6 @@
 "uid": "NSE-sme-IF-211864",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
-},
-"NSE-sme-IF-212300": {
-"company": "Samay Project Services Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T16:16:07+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "SAMAY",
-"t": "2026-11-11T16:16+05:30",
-"uid": "NSE-sme-IF-212300",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
 }
 },
 "posted": {
@@ -11043,8 +11071,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T18:23+05:30",
-"v": "INE0MRA01019"
+"t": "2026-11-11T18:55+05:30",
+"v": "INE124101010"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -12015,6 +12043,10 @@
 "INE123B01028": {
 "t": "2026-11-07T22:09+05:30",
 "v": 31259600
+},
+"INE124101010": {
+"t": "2026-11-11T18:55+05:30",
+"v": 15349300
 },
 "INE126M01010": {
 "t": "2026-11-06T23:12+05:30",
