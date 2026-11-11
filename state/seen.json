@@ -179,6 +179,14 @@
 "pdf": 5,
 "t": "2026-11-11T17:10+05:30"
 },
+"INE0FFK01017": {
+"d": "2026-11-11",
+"mcap": 3732.0,
+"mid": 185,
+"n": "NETWORKPEOPLESERVICESTECHNOLOGIES",
+"pdf": 5,
+"t": "2026-11-11T18:05+05:30"
+},
 "INE0KL801015": {
 "d": "2026-11-11",
 "mcap": 1626.8,
@@ -186,6 +194,14 @@
 "n": "DCXSYSTEMS",
 "pdf": 5,
 "t": "2026-11-11T17:34+05:30"
+},
+"INE152M01016": {
+"d": "2026-11-11",
+"mcap": 16353.1,
+"mid": 186,
+"n": "TRIVENITURBINE",
+"pdf": 5,
+"t": "2026-11-11T18:05+05:30"
 },
 "INE211R01019": {
 "d": "2026-11-11",
@@ -279,6 +295,14 @@
 "n": "MRF",
 "t": "2026-11-10T15:46+05:30"
 },
+"NPST": {
+"d": "2026-11-11",
+"mcap": 3732.0,
+"mid": 185,
+"n": "NETWORKPEOPLESERVICESTECHNOLOGIES",
+"pdf": 5,
+"t": "2026-11-11T18:05+05:30"
+},
 "POWERMECH": {
 "d": "2026-11-11",
 "mcap": 7615.4,
@@ -292,6 +316,14 @@
 "mid": 150,
 "n": "RENTOMOJO",
 "t": "2026-11-10T23:49+05:30"
+},
+"TRITURBINE": {
+"d": "2026-11-11",
+"mcap": 16353.1,
+"mid": 186,
+"n": "TRIVENITURBINE",
+"pdf": 5,
+"t": "2026-11-11T18:05+05:30"
 },
 "VHL": {
 "d": "2026-11-10",
@@ -459,6 +491,15 @@
 },
 "ANN-equities-106855438-GLOTTIS": {
 "t": "2026-11-11T17:54+05:30"
+},
+"ANN-equities-106855465-NPST": {
+"t": "2026-11-11T18:05+05:30"
+},
+"ANN-equities-106855470-ORCHASP": {
+"t": "2026-11-11T18:05+05:30"
+},
+"ANN-equities-106855481-TRITURBINE": {
+"t": "2026-11-11T18:05+05:30"
 },
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
@@ -768,6 +809,9 @@
 },
 "BANN-94c3fff8-1f4d-4eb6-894b-a503935e0ee4": {
 "t": "2026-11-11T15:01+05:30"
+},
+"BANN-9525bcab-5d51-4432-aa07-d704c76bbf1b": {
+"t": "2026-11-11T18:05+05:30"
 },
 "BANN-99f1a09d-34db-4773-a8d6-7afc10526eee": {
 "t": "2026-11-11T17:29+05:30"
@@ -6644,6 +6688,10 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-11T17:54+05:30"
+},
+"NSE-sme-IF-212385": {
+"s": "small",
+"t": "2026-11-11T18:05+05:30"
 }
 },
 "first_seen": {
@@ -6706,6 +6754,9 @@
 },
 "BSE|511194|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
+},
+"BSE|511756|2026-09-30": {
+"t": "2026-11-11T18:05+05:30"
 },
 "BSE|512036|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -6976,6 +7027,9 @@
 },
 "NSE SME|QUADPRO|2026-09-30": {
 "t": "2026-11-11T17:10+05:30"
+},
+"NSE SME|RITEZONE|2026-09-30": {
+"t": "2026-11-11T18:05+05:30"
 },
 "NSE SME|RKFAL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -7453,6 +7507,9 @@
 "BSE:543914": {
 "t": "2026-11-11T17:56+05:30"
 },
+"BSE:544015": {
+"t": "2026-11-11T18:02+05:30"
+},
 "BSE:544144": {
 "t": "2026-11-11T17:34+05:30"
 },
@@ -7588,6 +7645,10 @@
 "c": 1,
 "t": "2026-11-11T17:05+05:30"
 },
+"INE0FFK01017": {
+"c": 1,
+"t": "2026-11-11T17:59+05:30"
+},
 "INE0KL801015": {
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
@@ -7621,6 +7682,10 @@
 "INE132E01015": {
 "t": "2026-11-10T15:50+05:30"
 },
+"INE152M01016": {
+"c": 1,
+"t": "2026-11-11T18:03+05:30"
+},
 "INE159E01026": {
 "t": "2026-11-11T12:47+05:30"
 },
@@ -7644,6 +7709,9 @@
 "INE211R01019": {
 "c": 1,
 "t": "2026-11-11T14:16+05:30"
+},
+"INE215B01022": {
+"t": "2026-11-11T18:00+05:30"
 },
 "INE215F01023": {
 "t": "2026-11-11T16:56+05:30"
@@ -7703,6 +7771,9 @@
 "INE428B01021": {
 "c": 1,
 "t": "2026-11-10T20:04+05:30"
+},
+"INE437D01010": {
+"t": "2026-11-11T13:20+05:30"
 },
 "INE445D01013": {
 "c": 1,
@@ -8127,6 +8198,9 @@
 "c": 1,
 "t": "2026-11-10T19:35+05:30"
 },
+"N:MISHDESIGNS": {
+"t": "2026-11-11T18:02+05:30"
+},
 "N:MISHRADHATUNIGAM": {
 "c": 1,
 "t": "2026-11-11T17:05+05:30"
@@ -8146,6 +8220,10 @@
 "N:NCCBLUEWATERPRODUCTS": {
 "t": "2026-11-11T16:37+05:30"
 },
+"N:NETWORKPEOPLESERVICESTECHNOLOGIES": {
+"c": 1,
+"t": "2026-11-11T17:59+05:30"
+},
 "N:NICCOPARKSANDRESORTS": {
 "t": "2026-11-09T19:50+05:30"
 },
@@ -8155,6 +8233,9 @@
 },
 "N:OLECTRAGREENTECH": {
 "t": "2026-11-09T16:53+05:30"
+},
+"N:ORCHASP": {
+"t": "2026-11-11T18:00+05:30"
 },
 "N:ORIENTGREENPOWERCOMPANY": {
 "c": 1,
@@ -8298,6 +8379,10 @@
 "N:TITAGARHRAILSYSTEMS": {
 "t": "2026-11-10T20:47+05:30"
 },
+"N:TRIVENITURBINE": {
+"c": 1,
+"t": "2026-11-11T18:03+05:30"
+},
 "N:UNIROYALINDUSTRIES": {
 "t": "2026-11-11T17:33+05:30"
 },
@@ -8350,8 +8435,15 @@
 "N:WILLIAMSONFINANCIALSERVICES": {
 "t": "2026-11-11T17:53+05:30"
 },
+"NPST": {
+"c": 1,
+"t": "2026-11-11T17:59+05:30"
+},
 "OLECTRA": {
 "t": "2026-11-09T16:53+05:30"
+},
+"ORCHASP": {
+"t": "2026-11-11T18:00+05:30"
 },
 "PILANIINVS": {
 "t": "2026-11-10T17:20+05:30"
@@ -8417,6 +8509,10 @@
 },
 "TITAGARH": {
 "t": "2026-11-10T20:47+05:30"
+},
+"TRITURBINE": {
+"c": 1,
+"t": "2026-11-11T18:03+05:30"
 },
 "UNITEDTEA": {
 "t": "2026-11-10T13:10+05:30"
@@ -8762,6 +8858,10 @@
 "t": "2026-11-11T17:59+05:30",
 "v": 54.2
 },
+"BSE:544015": {
+"t": "2026-11-11T18:05+05:30",
+"v": 11.5
+},
 "BSE:544144": {
 "t": "2026-11-11T17:41+05:30",
 "v": 683.3
@@ -8834,6 +8934,14 @@
 "t": "2026-11-10T15:46+05:30",
 "v": 53044.3
 },
+"NPST": {
+"t": "2026-11-11T18:05+05:30",
+"v": 3732.0
+},
+"ORCHASP": {
+"t": "2026-11-11T18:05+05:30",
+"v": 40.2
+},
 "POWERMECH": {
 "t": "2026-11-11T14:21+05:30",
 "v": 7615.4
@@ -8861,6 +8969,10 @@
 "SRD": {
 "t": "2026-11-11T16:01+05:30",
 "v": 273.8
+},
+"TRITURBINE": {
+"t": "2026-11-11T18:05+05:30",
+"v": 16353.1
 },
 "VHL": {
 "t": "2026-11-10T15:46+05:30",
@@ -9279,6 +9391,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.xml": {
+"company": "Abirami Financial Services India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511756",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T18:05+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511756_1111202618323_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_514454_1111202616114_IFIndAs.xml": {
 "company": "Southern Latex Ltd",
@@ -9744,21 +9872,21 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
 },
-"NSE-sme-IF-212385": {
-"company": "Indifra Limited",
+"NSE-sme-IF-212401": {
+"company": "Rite Zone Chemcon India Limited",
 "consolidated": false,
-"filed_at": "2026-11-11T17:46:36+05:30",
+"filed_at": "2026-11-11T18:03:23+05:30",
 "index": "sme",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
 "scrip": "",
 "source": "NSE SME",
-"symbol": "INDIFRA",
-"t": "2026-11-11T17:47+05:30",
-"uid": "NSE-sme-IF-212385",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212385_11112026174635_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756168_11112026054635_WEB.xml"
+"symbol": "RITEZONE",
+"t": "2026-11-11T18:05+05:30",
+"uid": "NSE-sme-IF-212401",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212401_11112026180323_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756185_11112026060322_WEB.xml"
 }
 },
 "posted": {
@@ -10481,8 +10609,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:54+05:30",
-"v": "INE0GOJ01027"
+"t": "2026-11-11T18:05+05:30",
+"v": "INE0PS301014"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -11337,6 +11465,10 @@
 "INE0PQ001012": {
 "t": "2026-11-07T22:08+05:30",
 "v": 25925500
+},
+"INE0PS301014": {
+"t": "2026-11-11T18:05+05:30",
+"v": 7290000
 },
 "INE0Q4701019": {
 "t": "2026-11-07T22:08+05:30",
