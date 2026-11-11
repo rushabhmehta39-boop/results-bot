@@ -1145,6 +1145,9 @@
 "BANN-ed67d75e-80e1-41fc-9b9e-4817598257c1": {
 "t": "2026-11-11T19:01+05:30"
 },
+"BANN-ee000415-d6a0-4908-884b-b655ad068276": {
+"t": "2026-11-11T21:40+05:30"
+},
 "BANN-ee2b08ce-86c0-4ac9-bc02-2577a00ed92b": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -7736,6 +7739,9 @@
 "NSE SME|MAGSON|2026-09-30": {
 "t": "2026-11-09T15:38+05:30"
 },
+"NSE SME|MARCO|2026-09-30": {
+"t": "2026-11-11T21:40+05:30"
+},
 "NSE SME|NAMOEWASTE|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
 },
@@ -8086,6 +8092,10 @@
 "BSE:512573": {
 "c": 1,
 "t": "2026-11-10T17:10+05:30"
+},
+"BSE:513599": {
+"c": 1,
+"t": "2026-11-11T21:36+05:30"
 },
 "BSE:513629": {
 "c": 1,
@@ -11363,6 +11373,22 @@
 "uid": "NSE-sme-IF-211864",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
+},
+"NSE-sme-IF-212527": {
+"company": "Marco Cables & Conductors Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T21:36:01+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "MARCO",
+"t": "2026-11-11T21:40+05:30",
+"uid": "NSE-sme-IF-212527",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212527_11112026213600_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756303_11112026093559_WEB.xml"
 }
 },
 "posted": {
