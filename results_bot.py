@@ -1862,8 +1862,8 @@ def pdf_card(item: dict, ctx: dict) -> str:
     f = Filing(source=item["source"], index="", uid="PDF-" + post_key, symbol=sym, scrip=scrip,
                company=item["company"], isin=isin, period_end=qe, consolidated=(basis == "C"),
                xbrl_url=None, view_url=url, filed_at=ts, revised=False)
-    px, pdate = prices.close("BSE" if item["source"] == "BSE" else "NSE", isin, sym or scrip)
-    res = build_result(f, parsed, periods, basis, item["mcap"], px, pdate)
+    px, pday = prices.close("BSE" if item["source"] == "BSE" else "NSE", isin, sym or scrip)
+    res = build_result(f, parsed, periods, basis, item["mcap"], px, pday.isoformat() if pday else None)
     res["src"] = "pdf"
     png = render_card(res, cfg, ctx["fonts"])
     (ctx["cards_dir"] / (re.sub(r"[^A-Za-z0-9_.-]+", "_", res["id"]) + ".png")).write_bytes(png)
