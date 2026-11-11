@@ -434,6 +434,9 @@
 "ANN-sme-106855325-INDIFRA": {
 "t": "2026-11-11T16:53+05:30"
 },
+"ANN-sme-106855342-QUADPRO": {
+"t": "2026-11-11T17:04+05:30"
+},
 "BANN-0140b61d-7717-4a83-9f3f-f03a9094091f": {
 "t": "2026-11-11T16:58+05:30"
 },
@@ -551,6 +554,9 @@
 "BANN-636c6337-54c4-4cd2-9e80-e21ffcb3be14": {
 "t": "2026-11-10T15:46+05:30"
 },
+"BANN-63c8f47c-8eab-45e2-97c2-3b7675927609": {
+"t": "2026-11-11T17:04+05:30"
+},
 "BANN-665baf58-f099-4348-98d2-24639748e430": {
 "t": "2026-11-11T14:26+05:30"
 },
@@ -652,6 +658,9 @@
 },
 "BANN-b816f036-18f9-4d1c-9ed9-ead48a767624": {
 "t": "2026-11-10T15:46+05:30"
+},
+"BANN-bd7b5dea-5932-4c65-9c95-78d7d47f1cc6": {
+"t": "2026-11-11T17:04+05:30"
 },
 "BANN-bedd6fb9-1d18-445b-a9d2-66da728878f7": {
 "t": "2026-11-09T16:21+05:30"
@@ -6424,6 +6433,9 @@
 "BSE|511092|2026-09-30": {
 "t": "2026-11-11T13:35+05:30"
 },
+"BSE|511194|2026-09-30": {
+"t": "2026-11-11T17:04+05:30"
+},
 "BSE|512036|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6550,6 +6562,9 @@
 "BSE|536659|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|539090|2026-09-30": {
+"t": "2026-11-11T17:04+05:30"
+},
 "BSE|539354|2026-09-30": {
 "t": "2026-11-11T15:31+05:30"
 },
@@ -6624,6 +6639,9 @@
 },
 "NSE SME|EEPL|2026-09-30": {
 "t": "2026-11-11T12:15+05:30"
+},
+"NSE SME|HOLMARC|2026-09-30": {
+"t": "2026-11-11T17:04+05:30"
 },
 "NSE SME|LAKSHYA|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
@@ -6820,6 +6838,9 @@
 "BSE:511092": {
 "t": "2026-11-11T13:30+05:30"
 },
+"BSE:511194": {
+"t": "2026-11-11T16:58+05:30"
+},
 "BSE:511692": {
 "c": 1,
 "t": "2026-11-11T16:31+05:30"
@@ -6909,6 +6930,9 @@
 },
 "BSE:531306": {
 "t": "2026-11-10T12:12+05:30"
+},
+"BSE:531343": {
+"t": "2026-11-11T17:02+05:30"
 },
 "BSE:531651": {
 "t": "2026-11-10T17:02+05:30"
@@ -7308,6 +7332,9 @@
 "INE716A01013": {
 "t": "2026-11-09T16:50+05:30"
 },
+"INE718M01022": {
+"t": "2026-11-11T13:33+05:30"
+},
 "INE810C01044": {
 "t": "2026-11-09T19:28+05:30"
 },
@@ -7516,6 +7543,9 @@
 "N:ICDS": {
 "t": "2026-11-11T16:52+05:30"
 },
+"N:INDIAINFRASPACE": {
+"t": "2026-11-11T17:02+05:30"
+},
 "N:INDIFRA": {
 "t": "2026-11-11T16:52+05:30"
 },
@@ -7619,6 +7649,9 @@
 "N:PVVINFRA": {
 "c": 1,
 "t": "2026-11-10T20:04+05:30"
+},
+"N:QUADPROITES": {
+"t": "2026-11-11T17:03+05:30"
 },
 "N:QUADRANTFUTURETEK": {
 "t": "2026-11-10T17:35+05:30"
@@ -7771,6 +7804,9 @@
 "QUADFUTURE": {
 "t": "2026-11-10T17:35+05:30"
 },
+"QUADPRO": {
+"t": "2026-11-11T17:03+05:30"
+},
 "QUESTLAB": {
 "t": "2026-11-11T16:48+05:30"
 },
@@ -7894,6 +7930,10 @@
 "t": "2026-11-11T13:36+05:30",
 "v": 19.7
 },
+"BSE:511194": {
+"t": "2026-11-11T17:04+05:30",
+"v": 57.0
+},
 "BSE:511692": {
 "t": "2026-11-11T16:31+05:30",
 "v": 35.5
@@ -7993,6 +8033,10 @@
 "BSE:531306": {
 "t": "2026-11-10T15:46+05:30",
 "v": 149.9
+},
+"BSE:531343": {
+"t": "2026-11-11T17:04+05:30",
+"v": 2.3
 },
 "BSE:531651": {
 "t": "2026-11-10T23:49+05:30",
@@ -8454,6 +8498,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml": {
+"company": "ICDS Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511194",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:04+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_514454_1111202616114_IFIndAs.xml": {
 "company": "Southern Latex Ltd",
 "consolidated": false,
@@ -8566,6 +8626,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml": {
+"company": "Rajputana Investment and Finance Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539090",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:04+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539354_11112026152858_IFIndAs.xml": {
 "company": "Polyspin Exports Ltd",
 "consolidated": false,
@@ -8677,6 +8753,22 @@
 "uid": "NSE-sme-IF-212300",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
+},
+"NSE-sme-IF-212340": {
+"company": "Holmarc Opto-Mechatronics Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:02:32+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "HOLMARC",
+"t": "2026-11-11T17:04+05:30",
+"uid": "NSE-sme-IF-212340",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212340_11112026170231_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756119_11112026050231_WEB.xml"
 }
 },
 "posted": {
