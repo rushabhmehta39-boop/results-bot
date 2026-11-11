@@ -1745,7 +1745,8 @@ def process_alerts(anns: list[dict], ctx: dict, counts: dict) -> None:
         mid = tg.text(msg)
         if mid is not None:
             queue = bool(a["pdf"] and pdfnum is not None and _on(cfg["PDF_CARDS"]))
-            rec = {"t": stamp, "d": today, "mid": mid, "n": nn, "mcap": round(mcap, 1), **({"pdf": 1} if queue else {})}
+            rec = {"t": stamp, "d": today, "mid": mid, "n": nn, "mcap": round(mcap, 1),
+                   **({"pdf": getattr(pdfnum, "VERSION", 1)} if queue else {})}
             for k in {key, a["symbol"], f"BSE:{a['scrip']}" if a["scrip"] else ""} - {""}:
                 alerts[k] = rec
             counts["alert"] += 1
@@ -1765,7 +1766,7 @@ def _queue_pdf(st: State, a: dict, mid, mcap, stamp: str) -> None:
 
 
 def _late_pdf(a: dict, ctx: dict, today: str) -> None:
-    """An alert that went out without a PDF attempt (sent before PDF cards existed): try its PDF once."""
+    """Today's alert without a card whose PDF was not tried with the current reader: try it (once per version)."""
     st, cfg = ctx["st"], ctx["cfg"]
     if not a.get("pdf") or pdfnum is None or not _on(cfg["PDF_CARDS"]):
         return
@@ -1774,7 +1775,8 @@ def _late_pdf(a: dict, ctx: dict, today: str) -> None:
     recs = [st.data["alerts"][k] for k in keys if k in st.data["alerts"]] or [
         v for v in st.data["alerts"].values() if isinstance(v, dict) and v.get("n") == nn]
     rec = next((r for r in recs if r.get("d") == today), None)
-    if rec is None or rec.get("pdf") or any(
+    version = getattr(pdfnum, "VERSION", 1)
+    if rec is None or rec.get("pdf", 0) >= version or any(
             v.get("n") == nn and v.get("t", "")[:10] == today for v in st.data["posted"].values()):
         return
     same = [k for k, r in st.data["alerts"].items() if isinstance(r, dict) and r.get("mid") == rec.get("mid")]
@@ -1783,7 +1785,7 @@ def _late_pdf(a: dict, ctx: dict, today: str) -> None:
     if not mcap:
         return
     for k in same:
-        st.data["alerts"][k]["pdf"] = 1
+        st.data["alerts"][k]["pdf"] = version
     _queue_pdf(st, a, rec["mid"], mcap, datetime.now(IST).isoformat(timespec="minutes"))
 
 

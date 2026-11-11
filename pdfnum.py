@@ -7,6 +7,8 @@ Only returns numbers when every check passes for all three columns; anything dou
 """
 from __future__ import annotations
 
+VERSION = 2  # bump when the reader improves: today's alerts without a card get one more try
+
 import calendar
 import io
 import re
