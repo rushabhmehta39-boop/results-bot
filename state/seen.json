@@ -410,6 +410,12 @@
 "ANN-equities-106855364-BURNPUR": {
 "t": "2026-11-11T17:17+05:30"
 },
+"ANN-equities-106855371-TATAPOWER": {
+"t": "2026-11-11T17:23+05:30"
+},
+"ANN-equities-106855375-GANGOTRI": {
+"t": "2026-11-11T17:23+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -512,6 +518,9 @@
 "BANN-1d4506f3-2af4-4247-8f2f-44cf1eeca31e": {
 "t": "2026-11-10T23:49+05:30"
 },
+"BANN-20360d71-399c-4d1a-a87c-ca3b915a871a": {
+"t": "2026-11-11T17:23+05:30"
+},
 "BANN-2206b68d-a8d3-4e58-b4db-9effe9967446": {
 "t": "2026-11-11T14:06+05:30"
 },
@@ -526,6 +535,9 @@
 },
 "BANN-2d2601d3-9a95-4292-9c63-082025e38ada": {
 "t": "2026-11-11T16:16+05:30"
+},
+"BANN-2d8fc688-1e54-4e63-964b-b03e37063378": {
+"t": "2026-11-11T17:23+05:30"
 },
 "BANN-303d90ef-524d-4260-baa0-0d0ace222fda": {
 "t": "2026-11-08T18:13+05:30"
@@ -686,6 +698,9 @@
 "BANN-94c3fff8-1f4d-4eb6-894b-a503935e0ee4": {
 "t": "2026-11-11T15:01+05:30"
 },
+"BANN-9c71d7fb-4151-49b1-9a56-6c488255011b": {
+"t": "2026-11-11T17:23+05:30"
+},
 "BANN-a4d9d285-1fd6-4d00-bee6-57738dc9847f": {
 "t": "2026-11-11T15:21+05:30"
 },
@@ -727,6 +742,9 @@
 },
 "BANN-c2312ddb-25d5-429e-a239-cbf796e2f60e": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-c3e317bf-f4b1-4538-9c6f-fd7039db4426": {
+"t": "2026-11-11T17:23+05:30"
 },
 "BANN-ce7400c2-dd1c-4951-98e1-ecc7fe93f963": {
 "t": "2026-11-10T23:49+05:30"
@@ -5446,6 +5464,10 @@
 "s": "small",
 "t": "2026-11-11T16:58+05:30"
 },
+"NSE-equities-IF-212341": {
+"s": "dup",
+"t": "2026-11-11T17:23+05:30"
+},
 "NSE-equities-IF-212343": {
 "s": "small",
 "t": "2026-11-11T17:10+05:30"
@@ -6470,6 +6492,15 @@
 "NSE-sme-IF-212336": {
 "s": "posted",
 "t": "2026-11-11T16:58+05:30"
+},
+"NSE-sme-IF-212340": {
+"s": "small",
+"t": "2026-11-11T17:23+05:30"
+},
+"NSE-sme-IF-212346": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-11T17:23+05:30"
 }
 },
 "first_seen": {
@@ -7035,6 +7066,9 @@
 "c": 1,
 "t": "2026-11-10T13:31+05:30"
 },
+"BSE:530317": {
+"t": "2026-11-11T17:21+05:30"
+},
 "BSE:530369": {
 "t": "2026-11-11T12:18+05:30"
 },
@@ -7043,6 +7077,9 @@
 },
 "BSE:530747": {
 "t": "2026-11-11T15:25+05:30"
+},
+"BSE:530809": {
+"t": "2026-11-11T17:21+05:30"
 },
 "BSE:530899": {
 "t": "2026-11-11T16:15+05:30"
@@ -7234,6 +7271,9 @@
 "EIHAHOTELS": {
 "t": "2026-11-11T16:50+05:30"
 },
+"GANGOTRI": {
+"t": "2026-11-11T17:21+05:30"
+},
 "GREENPOWER": {
 "t": "2026-11-11T12:29+05:30"
 },
@@ -7343,6 +7383,9 @@
 "INE219Y01026": {
 "t": "2026-11-09T15:03+05:30"
 },
+"INE245A01013": {
+"t": "2026-11-11T17:20+05:30"
+},
 "INE260D01016": {
 "t": "2026-11-09T16:53+05:30"
 },
@@ -7426,6 +7469,9 @@
 "INE549B01016": {
 "t": "2026-11-09T16:05+05:30"
 },
+"INE575I01016": {
+"t": "2026-11-11T15:18+05:30"
+},
 "INE590D01016": {
 "t": "2026-11-10T12:12+05:30"
 },
@@ -7461,6 +7507,9 @@
 },
 "INE654H01011": {
 "t": "2026-11-10T17:02+05:30"
+},
+"INE670B01028": {
+"t": "2026-11-11T17:21+05:30"
 },
 "INE701A01023": {
 "t": "2026-11-10T13:02+05:30"
@@ -7609,6 +7658,9 @@
 "N:BARFLEXPOLYFILMS": {
 "t": "2026-11-09T19:32+05:30"
 },
+"N:BNRUDYOG": {
+"t": "2026-11-11T17:21+05:30"
+},
 "N:BURNPURCEMENT": {
 "t": "2026-11-11T17:08+05:30"
 },
@@ -7668,11 +7720,17 @@
 "N:EPPELTONEENGINEERS": {
 "t": "2026-11-11T12:04+05:30"
 },
+"N:GANGOTRITEXTILES": {
+"t": "2026-11-11T17:21+05:30"
+},
 "N:GARDENREACHSHIPBUILDERSANDENGINEERS": {
 "t": "2026-11-11T14:47+05:30"
 },
 "N:GAYATRISUGARS": {
 "t": "2026-11-11T16:56+05:30"
+},
+"N:GODAVARIDRUGS": {
+"t": "2026-11-11T17:21+05:30"
 },
 "N:GOLDENCARPETS": {
 "t": "2026-11-10T18:51+05:30"
@@ -7903,6 +7961,9 @@
 "c": 1,
 "t": "2026-11-11T13:52+05:30"
 },
+"N:TATAPOWERCOMPANY": {
+"t": "2026-11-11T17:20+05:30"
+},
 "N:TCFCFINANCE": {
 "t": "2026-11-11T16:12+05:30"
 },
@@ -8022,6 +8083,9 @@
 "TALBROAUTO": {
 "c": 1,
 "t": "2026-11-11T13:52+05:30"
+},
+"TATAPOWER": {
+"t": "2026-11-11T17:20+05:30"
 },
 "THEJO": {
 "t": "2026-11-11T14:30+05:30"
@@ -8201,6 +8265,10 @@
 "t": "2026-11-10T15:46+05:30",
 "v": 423.5
 },
+"BSE:530317": {
+"t": "2026-11-11T17:23+05:30",
+"v": 128.9
+},
 "BSE:530369": {
 "t": "2026-11-11T12:20+05:30",
 "v": 15.2
@@ -8212,6 +8280,10 @@
 "BSE:530747": {
 "t": "2026-11-11T15:26+05:30",
 "v": 28.2
+},
+"BSE:530809": {
+"t": "2026-11-11T17:23+05:30",
+"v": 9.7
 },
 "BSE:530899": {
 "t": "2026-11-11T16:16+05:30",
@@ -9002,22 +9074,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml"
 },
-"NSE-equities-IF-212341": {
-"company": "Bannari Amman Sugars Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:05:57+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "BANARISUG",
-"t": "2026-11-11T17:10+05:30",
-"uid": "NSE-equities-IF-212341",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212341_11112026170556_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756121_11112026050556_WEB.xml"
-},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -9049,22 +9105,6 @@
 "uid": "NSE-sme-IF-212300",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
-},
-"NSE-sme-IF-212340": {
-"company": "Holmarc Opto-Mechatronics Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:02:32+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "HOLMARC",
-"t": "2026-11-11T17:04+05:30",
-"uid": "NSE-sme-IF-212340",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212340_11112026170231_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756119_11112026050231_WEB.xml"
 },
 "NSE-sme-IF-212346": {
 "company": "Quadpro Ites Limited",
@@ -9447,6 +9487,7 @@
 },
 "INE459A01010|2026-09-30|S": {
 "b": "S",
+"checked": "ok",
 "mid": 158,
 "n": "BANNARIAMMANSUGARS",
 "pat": 30.9517,
@@ -9782,8 +9823,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:17+05:30",
-"v": "INE215F01023"
+"t": "2026-11-11T17:23+05:30",
+"v": "INE0GOJ01027"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -10563,6 +10604,10 @@
 "t": "2026-11-06T23:14+05:30",
 "v": 727549000
 },
+"INE0GOJ01027": {
+"t": "2026-11-11T17:23+05:30",
+"v": 505550000
+},
 "INE0GTX01019": {
 "t": "2026-11-07T22:09+05:30",
 "v": 2677100
@@ -10586,6 +10631,10 @@
 "INE0LRY01011": {
 "t": "2026-11-10T23:48+05:30",
 "v": 40000000
+},
+"INE0LXA01019": {
+"t": "2026-11-11T17:23+05:30",
+"v": 10050000
 },
 "INE0O0001013": {
 "t": "2026-11-11T16:46+05:30",
