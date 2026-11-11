@@ -399,6 +399,9 @@
 "BANN-1a7523c7-07c0-4bd4-ab5f-3902c5029468": {
 "t": "2026-11-10T23:49+05:30"
 },
+"BANN-1d316793-ba6f-4bf4-aa3c-d05915ba0d65": {
+"t": "2026-11-11T16:21+05:30"
+},
 "BANN-1d4506f3-2af4-4247-8f2f-44cf1eeca31e": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -1444,6 +1447,10 @@
 "BSE-Integrated_Finance_Ind_As_531977_6112026105829_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_531978_11112026042007_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T16:21+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml": {
 "s": "dup",
@@ -6614,6 +6621,9 @@
 "BSE:500439": {
 "t": "2026-11-10T13:03+05:30"
 },
+"BSE:502250": {
+"t": "2026-11-11T16:18+05:30"
+},
 "BSE:504036": {
 "t": "2026-11-10T13:39+05:30"
 },
@@ -7289,6 +7299,9 @@
 "N:LAKSHMIFINANCEANDINDUSTRIALCORPORATION": {
 "t": "2026-11-10T15:44+05:30"
 },
+"N:LERTHAIFINANCE": {
+"t": "2026-11-11T16:18+05:30"
+},
 "N:MADALAHOLDINGS": {
 "t": "2026-11-10T13:36+05:30"
 },
@@ -7563,6 +7576,10 @@
 "t": "2026-11-11T11:40+05:30",
 "v": 3991.4
 },
+"BSE:502250": {
+"t": "2026-11-11T16:21+05:30",
+"v": 30.0
+},
 "BSE:505160": {
 "t": "2026-11-11T14:06+05:30",
 "v": 2545.7
@@ -7586,10 +7603,6 @@
 "BSE:508494": {
 "t": "2026-11-11T14:41+05:30",
 "v": 51.0
-},
-"BSE:508956": {
-"t": "2026-11-09T16:21+05:30",
-"v": 12.9
 },
 "BSE:509196": {
 "t": "2026-11-11T12:50+05:30",
@@ -8221,6 +8234,22 @@
 "uid": "NSE-equities-IF-212296",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212296_11112026161034_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756075_11112026041033_WEB.xml"
+},
+"NSE-equities-IF-212305": {
+"company": "Ambika Cotton Mills Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T16:19:56+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "AMBIKCO",
+"t": "2026-11-11T16:21+05:30",
+"uid": "NSE-equities-IF-212305",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212305_11112026161955_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756083_11112026041954_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
