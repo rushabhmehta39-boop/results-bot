@@ -79,6 +79,8 @@ DEFAULTS = {
     "ACTIVE_DAYS": "Mon,Tue,Wed,Thu,Fri,Sat",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
+    "CONSOLIDATED_WAIT_HOURS": "6",
+    "UNKNOWN_WAIT_HOURS": "2",
     "LOOKBACK_DAYS": "1",
     "MAX_RUN_MINUTES": "12",
     "POLL_SECONDS": "40",
@@ -571,7 +573,8 @@ def discover_nse_announcements(http: Http, index: str, day: date, d_from: date |
                     "isin": str(r.get("sm_isin") or "").strip().upper(),
                     "company": str(r.get("sm_name") or sym).strip(), "pdf": _clean_url(r.get("attchmntFile")),
                     "ts": parse_ts(r.get("an_dt") or r.get("exchdisstime")),
-                    "source": "NSE SME" if index == "sme" else "NSE"})
+                    "source": "NSE SME" if index == "sme" else "NSE",
+                    "cons": "consolidated" in f"{r.get('desc') or ''} {r.get('attchmntText') or ''}".lower()})
     return out, True
 
 
@@ -602,7 +605,8 @@ def discover_bse_announcements(http: Http, day: date, d_from: date | None = None
             out.append({"uid": f"BANN-{r.get('NEWSID')}", "symbol": "", "scrip": scrip, "isin": "",
                         "company": str(r.get("SLONGNAME") or scrip).strip(),
                         "pdf": f"{BSE}/xml-data/corpfiling/AttachLive/{att}" if att else None,
-                        "ts": parse_ts(str(r.get("NEWS_DT") or r.get("DissemDT") or "")), "source": "BSE"})
+                        "ts": parse_ts(str(r.get("NEWS_DT") or r.get("DissemDT") or "")), "source": "BSE",
+                        "cons": "consolidated" in low})
         total = (j.get("Table1") or [{}])[0].get("ROWCNT") if isinstance(j.get("Table1"), list) else None
         if not isinstance(total, int) or got >= total:
             break
@@ -1425,7 +1429,7 @@ class State:
         self.data["filings"][uid] = rec
 
     RETAIN_DAYS = {"filings": 7, "posted": 60, "first_seen": 3, "alerts": 4, "ann": 3, "mcap": 2, "shares": 400,
-                   "scrip_isin": 400, "fresh": 3, "pending": 4}
+                   "scrip_isin": 400, "fresh": 7, "pending": 4}
 
     def save(self):
         now = datetime.now(IST)
@@ -1529,7 +1533,7 @@ def fill_history(http, st, cache_key: str, basis: str, need_ends: set, sym: str,
         st.periods.setdefault(cache_key, {}).update(p["periods"])
 
 
-def process_filing(f: Filing, ctx: dict) -> str:
+def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     http, st, cfg, prices = ctx["http"], ctx["st"], ctx["cfg"], ctx["prices"]
     kind = "bse" if f.source == "BSE" else "nse"
     r = http.get(f.xbrl_url, kind, accept="application/xml,text/xml,*/*",
@@ -1562,6 +1566,12 @@ def process_filing(f: Filing, ctx: dict) -> str:
     for v in st.data["posted"].values():
         if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") in (basis, "C"):
             return "dup" if v.get("b") == basis else "superseded"
+    # A standalone card already went out for this quarter: the consolidated one is an update to it.
+    earlier_s = None
+    if basis == "C":
+        earlier_s = st.data["posted"].get(f"{ident}|{ce.isoformat()}|S") or next(
+            (v for v in st.data["posted"].values()
+             if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") == "S"), None)
     cache_key = f"{ident}|{basis}"
     st.periods.setdefault(cache_key, {}).update(parsed["periods"])
     cache = st.periods[cache_key]
@@ -1598,12 +1608,18 @@ def process_filing(f: Filing, ctx: dict) -> str:
     nn = norm_name(name)
     alert = (al.get(isin) or al.get(sym) or (al.get(f"BSE:{scrip}") if scrip else None)
              or next((v for v in al.values() if isinstance(v, dict) and v.get("n") == nn), None) or {})
-    mid = ctx["tg"].photo(png, caption_for(res), reply_to=alert.get("mid"))
+    caption, reply_to = caption_for(res), alert.get("mid")
+    if earlier_s is not None:
+        caption = "🔁 <b>Consolidated numbers</b> (the earlier card was standalone)\n" + caption
+        reply_to = earlier_s.get("mid") or reply_to
+    elif basis == "S" and note:
+        caption += "\n" + html.escape(note)
+    mid = ctx["tg"].photo(png, caption, reply_to=reply_to)
     if mid is None:
         return "retry_tg"
     ctx["new_results"].append(res)
     st.data["posted"][post_key] = {"t": datetime.now(IST).isoformat(timespec="minutes"), "n": nn,
-                                   "pe": ce.isoformat(), "b": basis}
+                                   "pe": ce.isoformat(), "b": basis, "mid": mid}
     if not ctx.get("dry_run"):
         st.save()  # record each card right away, so a stopped run never re-sends it
     log(f"  + {res['name']} {res['per']} {res['basis']}: M-cap ₹{mcap:,.0f} Cr -> card sent")
@@ -1641,9 +1657,10 @@ def mark_fresh(st: State, anns: list[dict], since: datetime) -> None:
         if a["ts"] is None or a["ts"] < since:
             continue
         isin = a.get("isin") or (st.data["scrip_isin"].get(a.get("scrip", ""), {}).get("v", "") if a.get("scrip") else "")
-        rec = {"t": a["ts"].isoformat(timespec="minutes")}
         for k in company_keys(isin, a.get("symbol", ""), a.get("scrip", ""), a.get("company", "")):
-            st.data["fresh"].setdefault(k, rec)
+            rec = st.data["fresh"].setdefault(k, {"t": a["ts"].isoformat(timespec="minutes")})
+            if a.get("cons"):
+                rec["c"] = 1  # the announcement says consolidated results are out too
 
 
 def is_fresh(st: State, keys: set) -> bool:
@@ -1817,6 +1834,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             st.data["pending"].setdefault(f.uid, {**f.to_dict(), "t": now.isoformat(timespec="minutes")})
         newest = lambda xs: max(xs, key=lambda f: (f.revised, f.filed_at or now))  # noqa: E731
         cons = [f for f in fs if f.consolidated is True]
+        note = ""
         if cons:
             chosen = newest(cons)
         else:
@@ -1829,12 +1847,25 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
                     hist.update(st.index.get(ident, {}))
             past_c = any(k.endswith("|C") and not k.startswith(str(chosen.period_end)) for k in hist)
             past_s = any(k.endswith("|S") and not k.startswith(str(chosen.period_end)) for k in hist)
-            # usually consolidated -> wait up to 6 h; usually standalone only -> 15 min; unknown -> 1 h
-            wait = timedelta(hours=6) if past_c else (settle if past_s else max(settle, timedelta(hours=1)))
+            isin0 = chosen.isin or st.data["scrip_isin"].get(chosen.scrip, {}).get("v", "")
+            said_c = any(st.data["fresh"].get(k, {}).get("c") for f in fs
+                         for k in company_keys(isin0, f.symbol, f.scrip, f.company))
+            # Consolidated expected (files it every quarter, or the results announcement mentions it):
+            # wait up to 6 h. Only ever standalone: 15 min. Nothing known: 2 h.
+            if past_c or said_c:
+                wait = timedelta(hours=float(cfg["CONSOLIDATED_WAIT_HOURS"]))
+                note = ("⚠️ Standalone numbers: the consolidated XBRL is not filed yet. "
+                        "The consolidated card follows as a reply when it is.")
+            elif past_s:
+                wait = settle
+            else:
+                wait = max(settle, timedelta(hours=float(cfg["UNKNOWN_WAIT_HOURS"])))
+                note = ("⚠️ Standalone numbers. If the company files consolidated numbers too, "
+                        "they follow as a reply.")
             if now - seen_at < wait:
                 counts["waiting for consolidated"] += 1
                 continue
-        status = process_filing(chosen, ctx)
+        status = process_filing(chosen, ctx, note)
         counts[status] += 1
         if status.startswith("retry"):
             n = int(st.data["filings"].get(chosen.uid, {}).get("n", 0)) + 1
