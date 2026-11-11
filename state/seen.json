@@ -2499,6 +2499,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_543531_11112026201652_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T22:27+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_543597_6112026153428_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -11257,22 +11261,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_543531_11112026201652_IFIndAs.xml": {
-"company": "Tierra Agrotech Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "543531",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T20:23+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_543531_11112026201652_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543531_11112026201652_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543531_11112026201652_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.xml": {
 "company": "DCX Systems Ltd",
 "consolidated": false,
@@ -12934,6 +12922,10 @@
 "t": "2026-11-06T23:17+05:30",
 "v": "INE278Y01022"
 },
+"543531": {
+"t": "2026-11-11T22:27+05:30",
+"v": "INE05CY01014"
+},
 "543540": {
 "t": "2026-11-07T22:09+05:30",
 "v": "INE0GTX01019"
@@ -13171,6 +13163,10 @@
 "INE059B01024": {
 "t": "2026-11-10T23:48+05:30",
 "v": 79300000
+},
+"INE05CY01014": {
+"t": "2026-11-11T22:27+05:30",
+"v": 65593700
 },
 "INE05X901010": {
 "t": "2026-11-06T22:39+05:30",
