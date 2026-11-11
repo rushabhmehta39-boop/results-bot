@@ -642,6 +642,9 @@
 "BANN-b4ba9909-edf2-472b-b90d-3926e269c372": {
 "t": "2026-11-11T14:21+05:30"
 },
+"BANN-b6610510-980e-4955-8221-5d41cb2952ba": {
+"t": "2026-11-11T15:56+05:30"
+},
 "BANN-b816f036-18f9-4d1c-9ed9-ead48a767624": {
 "t": "2026-11-10T15:46+05:30"
 },
@@ -1503,6 +1506,10 @@
 "BSE-Integrated_Finance_Ind_As_531977_6112026105829_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T15:56+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531989_10112026155059_IFIndAs.xml": {
 "s": "small",
@@ -5309,9 +5316,8 @@
 "t": "2026-11-11T15:11+05:30"
 },
 "NSE-equities-IF-212271": {
-"n": 2,
-"s": "retry",
-"t": "2026-11-11T15:51+05:30"
+"s": "dup",
+"t": "2026-11-11T15:56+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6357,6 +6363,9 @@
 },
 "BSE|517238|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|517449|2026-09-30": {
+"t": "2026-11-11T15:56+05:30"
 },
 "BSE|517554|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
@@ -8079,6 +8088,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml": {
+"company": "Magna Electro Castings Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "517449",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T15:56+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml": {
 "company": "Bambino Agro Industries Ltd",
 "consolidated": false,
@@ -8094,22 +8119,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml": {
-"company": "Ambika Cotton Mills Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531978",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T13:55+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml": {
 "company": "Rathi Bars Ltd",
@@ -8158,22 +8167,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml"
-},
-"NSE-equities-IF-212271": {
-"company": "Garden Reach Shipbuilders & Engineers Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T15:27:22+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "GRSE",
-"t": "2026-11-11T15:31+05:30",
-"uid": "NSE-equities-IF-212271",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212271_11112026152721_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756048_11112026032721_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -8499,6 +8492,7 @@
 },
 "INE382Z01011|2026-09-30|S": {
 "b": "S",
+"checked": "ok",
 "mid": 170,
 "n": "GARDENREACHSHIPBUILDERSANDENGINEERS",
 "pat": 171.975,
