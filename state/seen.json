@@ -443,6 +443,9 @@
 "ANN-equities-106855396-DCXINDIA": {
 "t": "2026-11-11T17:34+05:30"
 },
+"ANN-equities-106855413-PVSL": {
+"t": "2026-11-11T17:41+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -637,6 +640,9 @@
 },
 "BANN-5507b2fe-d28d-42d3-b64c-3c5a586653f1": {
 "t": "2026-11-11T17:10+05:30"
+},
+"BANN-554f037b-b18a-402c-ad18-d20363469fb5": {
+"t": "2026-11-11T17:41+05:30"
 },
 "BANN-55dfe561-b549-4b6c-8cbd-8cbbe6131b8a": {
 "t": "2026-11-09T15:39+05:30"
@@ -5542,15 +5548,28 @@
 "s": "dup",
 "t": "2026-11-11T17:17+05:30"
 },
+"NSE-equities-IF-212360": {
+"s": "superseded",
+"t": "2026-11-11T17:41+05:30"
+},
 "NSE-equities-IF-212361": {
-"n": 2,
-"s": "retry",
-"t": "2026-11-11T17:34+05:30"
+"s": "posted",
+"t": "2026-11-11T17:41+05:30"
 },
 "NSE-equities-IF-212369": {
+"n": 2,
+"s": "retry",
+"t": "2026-11-11T17:41+05:30"
+},
+"NSE-equities-IF-212378": {
 "n": 1,
 "s": "retry",
-"t": "2026-11-11T17:34+05:30"
+"t": "2026-11-11T17:41+05:30"
+},
+"NSE-equities-IF-212379": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-11T17:41+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6558,9 +6577,9 @@
 "t": "2026-11-11T17:23+05:30"
 },
 "NSE-sme-IF-212346": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-11T17:34+05:30"
+"t": "2026-11-11T17:41+05:30"
 }
 },
 "first_seen": {
@@ -6657,6 +6676,9 @@
 "BSE|519506|2026-09-30": {
 "t": "2026-11-11T16:46+05:30"
 },
+"BSE|521034|2026-09-30": {
+"t": "2026-11-11T17:41+05:30"
+},
 "BSE|522267|2026-09-30": {
 "t": "2026-11-11T12:20+05:30"
 },
@@ -6686,6 +6708,9 @@
 },
 "BSE|530129|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
+},
+"BSE|530317|2026-09-30": {
+"t": "2026-11-11T17:41+05:30"
 },
 "BSE|530537|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
@@ -6924,6 +6949,9 @@
 "NSE|MEDICO|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"NSE|MIDHANI|2026-09-30": {
+"t": "2026-11-11T17:41+05:30"
+},
 "NSE|MIDWESTLTD|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6950,6 +6978,9 @@
 },
 "NSE|SIMPLEXINF|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|SOMATEX|2026-09-30": {
+"t": "2026-11-11T17:41+05:30"
 },
 "NSE|SRD|2026-09-30": {
 "t": "2026-11-11T16:11+05:30"
@@ -7303,6 +7334,9 @@
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
 },
+"BSE:544144": {
+"t": "2026-11-11T17:34+05:30"
+},
 "BSE:544166": {
 "t": "2026-11-11T14:21+05:30"
 },
@@ -7632,6 +7666,9 @@
 "INE718M01022": {
 "t": "2026-11-11T13:33+05:30"
 },
+"INE772T01024": {
+"t": "2026-11-11T17:36+05:30"
+},
 "INE810C01044": {
 "t": "2026-11-09T19:28+05:30"
 },
@@ -7668,6 +7705,9 @@
 },
 "INE883A01011": {
 "t": "2026-11-10T12:24+05:30"
+},
+"INE914G01029": {
+"t": "2026-11-11T11:00+05:30"
 },
 "INE921D01013": {
 "t": "2026-11-11T12:24+05:30"
@@ -7982,6 +8022,9 @@
 "N:POLYSPINEXPORTS": {
 "t": "2026-11-11T11:00+05:30"
 },
+"N:POPULARVEHICLESANDSERVICES": {
+"t": "2026-11-11T17:36+05:30"
+},
 "N:POWERMECHPROJECTS": {
 "c": 1,
 "t": "2026-11-11T14:16+05:30"
@@ -8157,6 +8200,9 @@
 "POWERMECH": {
 "c": 1,
 "t": "2026-11-11T14:16+05:30"
+},
+"PVSL": {
+"t": "2026-11-11T17:36+05:30"
 },
 "QUADFUTURE": {
 "t": "2026-11-10T17:35+05:30"
@@ -8537,6 +8583,10 @@
 "t": "2026-11-11T16:06+05:30",
 "v": 273.8
 },
+"BSE:544144": {
+"t": "2026-11-11T17:41+05:30",
+"v": 683.3
+},
 "BSE:544166": {
 "t": "2026-11-11T14:26+05:30",
 "v": 358.7
@@ -8592,6 +8642,10 @@
 "POWERMECH": {
 "t": "2026-11-11T14:21+05:30",
 "v": 7615.4
+},
+"PVSL": {
+"t": "2026-11-11T17:41+05:30",
+"v": 683.3
 },
 "RENTOMOJO": {
 "t": "2026-11-10T23:49+05:30",
@@ -9095,6 +9149,38 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml": {
+"company": "Soma Textiles & Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "521034",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:41+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.xml": {
+"company": "Godavari Drugs Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "530317",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:41+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.xml": {
 "company": "BNR Udyog Ltd",
 "consolidated": false,
@@ -9287,38 +9373,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml"
 },
-"NSE-equities-IF-212360": {
-"company": "AVT Natural Products Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:25:56+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "AVTNPL",
-"t": "2026-11-11T17:28+05:30",
-"uid": "NSE-equities-IF-212360",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212360_11112026172556_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756150_11112026052556_WEB.xml"
-},
-"NSE-equities-IF-212361": {
-"company": "AVT Natural Products Limited",
-"consolidated": true,
-"filed_at": "2026-11-11T17:26:03+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "AVTNPL",
-"t": "2026-11-11T17:28+05:30",
-"uid": "NSE-equities-IF-212361",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212361_11112026172602_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756151_11112026052602_WEB.xml"
-},
 "NSE-equities-IF-212366": {
 "company": "DCX Systems Limited",
 "consolidated": false,
@@ -9350,6 +9404,70 @@
 "uid": "NSE-equities-IF-212369",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212369_11112026173320_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756156_11112026053320_WEB.xml"
+},
+"NSE-equities-IF-212374": {
+"company": "Soma Textiles & Industries Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:40:11+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SOMATEX",
+"t": "2026-11-11T17:41+05:30",
+"uid": "NSE-equities-IF-212374",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212374_11112026174010_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756162_11112026054010_WEB.xml"
+},
+"NSE-equities-IF-212376": {
+"company": "Mishra Dhatu Nigam Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:41:09+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "MIDHANI",
+"t": "2026-11-11T17:41+05:30",
+"uid": "NSE-equities-IF-212376",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212376_11112026174108_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756163_11112026054108_WEB.xml"
+},
+"NSE-equities-IF-212378": {
+"company": "Soma Textiles & Industries Limited",
+"consolidated": true,
+"filed_at": "2026-11-11T17:41:31+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SOMATEX",
+"t": "2026-11-11T17:41+05:30",
+"uid": "NSE-equities-IF-212378",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212378_11112026174130_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756165_11112026054129_WEB.xml"
+},
+"NSE-equities-IF-212379": {
+"company": "Mishra Dhatu Nigam Limited",
+"consolidated": true,
+"filed_at": "2026-11-11T17:41:31+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "MIDHANI",
+"t": "2026-11-11T17:41+05:30",
+"uid": "NSE-equities-IF-212379",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212379_11112026174131_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756166_11112026054131_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -9789,6 +9907,13 @@
 "pe": "2026-09-30",
 "t": "2026-11-06T23:16+05:30"
 },
+"INE488D01021|2026-09-30|C": {
+"b": "C",
+"mid": 183,
+"n": "AVTNATURALPRODUCTS",
+"pe": "2026-09-30",
+"t": "2026-11-11T17:41+05:30"
+},
 "INE495B01038|2026-09-30|C": {
 "b": "C",
 "n": "SUVENLIFESCIENCES",
@@ -10110,7 +10235,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:34+05:30",
+"t": "2026-11-11T17:41+05:30",
 "v": "INE0GOJ01027"
 },
 "123456": {
@@ -10280,6 +10405,10 @@
 "517554": {
 "t": "2026-11-09T15:39+05:30",
 "v": "INE141C01036"
+},
+"519105": {
+"t": "2026-11-11T17:41+05:30",
+"v": "INE488D01021"
 },
 "519295": {
 "t": "2026-11-11T16:06+05:30",
@@ -10896,7 +11025,7 @@
 "v": 727549000
 },
 "INE0GOJ01027": {
-"t": "2026-11-11T17:34+05:30",
+"t": "2026-11-11T17:41+05:30",
 "v": 505550000
 },
 "INE0GTX01019": {
@@ -11262,6 +11391,10 @@
 "INE474C01023": {
 "t": "2026-11-07T22:09+05:30",
 "v": 34879000
+},
+"INE488D01021": {
+"t": "2026-11-11T17:41+05:30",
+"v": 152284000
 },
 "INE495B01038": {
 "t": "2026-11-06T23:15+05:30",
