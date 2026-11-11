@@ -199,6 +199,14 @@
 "pdf": 5,
 "t": "2026-11-11T14:51+05:30"
 },
+"HINDCOPPER": {
+"d": "2026-11-11",
+"mcap": 42205.8,
+"mid": 207,
+"n": "HINDUSTANCOPPER",
+"pdf": 5,
+"t": "2026-11-11T21:10+05:30"
+},
 "INE00ZE01026": {
 "d": "2026-11-11",
 "mcap": 1057.1,
@@ -282,6 +290,14 @@
 "n": "EAAAINDIAALTERNATIVES",
 "pdf": 2,
 "t": "2026-11-11T13:41+05:30"
+},
+"INE531E01026": {
+"d": "2026-11-11",
+"mcap": 42205.8,
+"mid": 207,
+"n": "HINDUSTANCOPPER",
+"pdf": 5,
+"t": "2026-11-11T21:10+05:30"
 },
 "INE540G01014": {
 "d": "2026-11-11",
@@ -615,6 +631,9 @@
 },
 "ANN-equities-106855754-SICALLOG": {
 "t": "2026-11-11T21:04+05:30"
+},
+"ANN-equities-106855757-HINDCOPPER": {
+"t": "2026-11-11T21:10+05:30"
 },
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
@@ -7312,6 +7331,9 @@
 "BSE|517449|2026-09-30": {
 "t": "2026-11-11T15:56+05:30"
 },
+"BSE|517500|2026-09-30": {
+"t": "2026-11-11T21:10+05:30"
+},
 "BSE|519105|2026-09-30": {
 "t": "2026-11-11T17:28+05:30"
 },
@@ -8414,6 +8436,10 @@
 "HALEOSLABS": {
 "t": "2026-11-11T14:02+05:30"
 },
+"HINDCOPPER": {
+"c": 1,
+"t": "2026-11-11T21:08+05:30"
+},
 "HIRECT": {
 "t": "2026-11-10T13:24+05:30"
 },
@@ -8687,6 +8713,10 @@
 "INE528L01027": {
 "t": "2026-11-11T13:37+05:30"
 },
+"INE531E01026": {
+"c": 1,
+"t": "2026-11-11T21:08+05:30"
+},
 "INE535D01029": {
 "t": "2026-11-11T19:34+05:30"
 },
@@ -8767,6 +8797,9 @@
 },
 "INE726L01027": {
 "t": "2026-11-11T20:15+05:30"
+},
+"INE749B01020": {
+"t": "2026-11-11T20:19+05:30"
 },
 "INE751R01014": {
 "t": "2026-11-11T16:56+05:30"
@@ -9096,6 +9129,10 @@
 },
 "N:HBPORTFOLIO": {
 "t": "2026-11-09T13:47+05:30"
+},
+"N:HINDUSTANCOPPER": {
+"c": 1,
+"t": "2026-11-11T21:08+05:30"
 },
 "N:HIRECT": {
 "t": "2026-11-10T13:24+05:30"
@@ -10092,6 +10129,10 @@
 "t": "2026-11-11T14:51+05:30",
 "v": 25531.9
 },
+"HINDCOPPER": {
+"t": "2026-11-11T21:10+05:30",
+"v": 42205.8
+},
 "ICDSLTD": {
 "t": "2026-11-11T16:53+05:30",
 "v": 57.0
@@ -10451,6 +10492,35 @@
 },
 "t": "2026-11-11T13:41+05:30"
 },
+"INE531E01026|2026-09-30|C": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 85.25,
+"finance": 2.08,
+"other_income": 21.19,
+"pat": 320.3,
+"pbe": 427.99,
+"pbt": 427.99,
+"revenue": 1234.41,
+"tax": 107.69,
+"total_expenses": 827.61,
+"total_income": 1255.6
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 49.65,
+"finance": 3.2,
+"other_income": 17.1,
+"pat": 352.61,
+"pbe": 471.77,
+"pbt": 471.77,
+"revenue": 936.5,
+"tax": 119.16,
+"total_expenses": 481.83,
+"total_income": 953.6
+}
+},
+"t": "2026-11-11T21:11+05:30"
+},
 "INE999K01014|2026-09-30|C": {
 "p": {
 "2025-07-01_2025-09-30": {
@@ -10674,6 +10744,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_513629_111120262092_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513629_111120262092_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513629_111120262092_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.xml": {
+"company": "Roto Pumps Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "517500",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T21:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml": {
 "company": "AVT Natural Products Ltd",
@@ -11682,6 +11768,16 @@
 "rev": 251.49,
 "src": "pdf",
 "t": "2026-11-11T13:41+05:30"
+},
+"INE531E01026|2026-09-30|C": {
+"b": "C",
+"mid": 208,
+"n": "HINDUSTANCOPPER",
+"pat": 519.54,
+"pe": "2026-09-30",
+"rev": 1175.24,
+"src": "pdf",
+"t": "2026-11-11T21:11+05:30"
 },
 "INE540G01014|2026-09-30|S": {
 "b": "S",
