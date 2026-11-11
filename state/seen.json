@@ -448,6 +448,9 @@
 "BANN-0eaa5bdc-4b44-4415-8917-eb091bbe05f9": {
 "t": "2026-11-10T23:49+05:30"
 },
+"BANN-130bf966-5b53-4ac2-b96f-648eaf1b241d": {
+"t": "2026-11-11T14:56+05:30"
+},
 "BANN-16fdcf0b-d780-4cd9-a609-386ff9ccdb6a": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -6260,8 +6263,14 @@
 "BSE|504036|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
 },
+"BSE|505302|2026-09-30": {
+"t": "2026-11-11T14:56+05:30"
+},
 "BSE|505590|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
+},
+"BSE|507315|2026-09-30": {
+"t": "2026-11-11T14:56+05:30"
 },
 "BSE|508494|2026-09-30": {
 "t": "2026-11-11T14:51+05:30"
@@ -6503,6 +6512,9 @@
 "NSE|ROSSELLIND|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"NSE|SAKHTISUG|2026-09-30": {
+"t": "2026-11-11T14:56+05:30"
+},
 "NSE|SIMPLEXINF|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6735,6 +6747,9 @@
 "BSE:540937": {
 "t": "2026-11-09T17:27+05:30"
 },
+"BSE:542011": {
+"t": "2026-11-11T14:52+05:30"
+},
 "BSE:543278": {
 "t": "2026-11-10T17:10+05:30"
 },
@@ -6851,6 +6866,9 @@
 },
 "INE132E01015": {
 "t": "2026-11-10T15:50+05:30"
+},
+"INE159E01026": {
+"t": "2026-11-11T12:47+05:30"
 },
 "INE16VF01010": {
 "t": "2026-11-10T15:46+05:30"
@@ -7843,6 +7861,38 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
 },
+"BSE-Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.xml": {
+"company": "Lakshmi Engineering And Warehousing Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "505302",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T14:56+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_507315_11112026145242_IFIndAs.xml": {
+"company": "Sakthi Sugars Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "507315",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T14:56+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_507315_11112026145242_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507315_11112026145242_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507315_11112026145242_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml": {
 "company": "Warren Tea Ltd-$",
 "consolidated": false,
@@ -7906,6 +7956,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
+},
+"NSE-equities-IF-212251": {
+"company": "Sakthi Sugars Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T14:54:30+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SAKHTISUG",
+"t": "2026-11-11T14:56+05:30",
+"uid": "NSE-equities-IF-212251",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212251_11112026145429_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756026_11112026025429_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
