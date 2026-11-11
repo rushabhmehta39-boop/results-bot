@@ -457,6 +457,9 @@
 "ANN-equities-106855425-INTENTECH": {
 "t": "2026-11-11T17:47+05:30"
 },
+"ANN-equities-106855438-GLOTTIS": {
+"t": "2026-11-11T17:54+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -634,6 +637,9 @@
 "BANN-4f5db2af-cfb3-49ce-8822-b73352a3781b": {
 "t": "2026-11-10T23:49+05:30"
 },
+"BANN-4f676db0-9130-421d-ab01-06b7b64fc0fe": {
+"t": "2026-11-11T17:54+05:30"
+},
 "BANN-504b4788-d2d4-4199-b091-f3898d4c8ae3": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -783,6 +789,9 @@
 },
 "BANN-b6610510-980e-4955-8221-5d41cb2952ba": {
 "t": "2026-11-11T15:56+05:30"
+},
+"BANN-b784dd44-e617-4ab8-a943-5133a5acf8b6": {
+"t": "2026-11-11T17:54+05:30"
 },
 "BANN-b816f036-18f9-4d1c-9ed9-ead48a767624": {
 "t": "2026-11-10T15:46+05:30"
@@ -5573,20 +5582,29 @@
 "s": "posted",
 "t": "2026-11-11T17:41+05:30"
 },
+"NSE-equities-IF-212366": {
+"s": "superseded",
+"t": "2026-11-11T17:54+05:30"
+},
 "NSE-equities-IF-212369": {
-"n": 3,
-"s": "retry",
-"t": "2026-11-11T17:47+05:30"
+"s": "dup",
+"t": "2026-11-11T17:54+05:30"
+},
+"NSE-equities-IF-212374": {
+"s": "superseded",
+"t": "2026-11-11T17:54+05:30"
+},
+"NSE-equities-IF-212376": {
+"s": "superseded",
+"t": "2026-11-11T17:54+05:30"
 },
 "NSE-equities-IF-212378": {
-"n": 2,
-"s": "retry",
-"t": "2026-11-11T17:47+05:30"
+"s": "small",
+"t": "2026-11-11T17:54+05:30"
 },
 "NSE-equities-IF-212379": {
-"n": 2,
-"s": "retry",
-"t": "2026-11-11T17:47+05:30"
+"s": "dup",
+"t": "2026-11-11T17:54+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6594,9 +6612,9 @@
 "t": "2026-11-11T17:23+05:30"
 },
 "NSE-sme-IF-212346": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-11T17:47+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-11T17:54+05:30"
 }
 },
 "first_seen": {
@@ -6617,6 +6635,9 @@
 },
 "BSE|500470|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
+},
+"BSE|501298|2026-09-30": {
+"t": "2026-11-11T17:53+05:30"
 },
 "BSE|504036|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
@@ -7159,6 +7180,9 @@
 "BSE:517449": {
 "t": "2026-11-11T13:20+05:30"
 },
+"BSE:519214": {
+"t": "2026-11-11T17:53+05:30"
+},
 "BSE:519295": {
 "t": "2026-11-11T12:24+05:30"
 },
@@ -7386,6 +7410,9 @@
 "BSE:544456": {
 "t": "2026-11-09T15:03+05:30"
 },
+"BSE:544557": {
+"t": "2026-11-11T17:53+05:30"
+},
 "BSE:544587": {
 "c": 1,
 "t": "2026-11-10T19:21+05:30"
@@ -7439,6 +7466,9 @@
 },
 "GANGOTRI": {
 "t": "2026-11-11T17:21+05:30"
+},
+"GLOTTIS": {
+"t": "2026-11-11T17:47+05:30"
 },
 "GREENPOWER": {
 "t": "2026-11-11T12:29+05:30"
@@ -7500,6 +7530,9 @@
 "INE0R8101016": {
 "c": 1,
 "t": "2026-11-10T16:32+05:30"
+},
+"INE0TQE01026": {
+"t": "2026-11-11T17:47+05:30"
 },
 "INE0XAD01024": {
 "c": 1,
@@ -7928,6 +7961,9 @@
 "N:GCMSECURITIES": {
 "t": "2026-11-11T17:42+05:30"
 },
+"N:GLOTTIS": {
+"t": "2026-11-11T17:47+05:30"
+},
 "N:GODAVARIDRUGS": {
 "t": "2026-11-11T17:21+05:30"
 },
@@ -8237,6 +8273,9 @@
 "N:WHIRLPOOLOFINDIA": {
 "t": "2026-11-09T16:50+05:30"
 },
+"N:WILLIAMSONFINANCIALSERVICES": {
+"t": "2026-11-11T17:53+05:30"
+},
 "OLECTRA": {
 "t": "2026-11-09T16:53+05:30"
 },
@@ -8432,6 +8471,10 @@
 "BSE:517449": {
 "t": "2026-11-11T13:21+05:30",
 "v": 579.8
+},
+"BSE:519214": {
+"t": "2026-11-11T17:54+05:30",
+"v": 3.6
 },
 "BSE:519295": {
 "t": "2026-11-11T12:25+05:30",
@@ -8653,6 +8696,10 @@
 "t": "2026-11-10T23:49+05:30",
 "v": 33.0
 },
+"BSE:544557": {
+"t": "2026-11-11T17:54+05:30",
+"v": 550.4
+},
 "BSE:544928": {
 "t": "2026-11-11T15:46+05:30",
 "v": 44.0
@@ -8664,6 +8711,10 @@
 "EDELALTS": {
 "t": "2026-11-11T13:41+05:30",
 "v": 11286.5
+},
+"GLOTTIS": {
+"t": "2026-11-11T17:54+05:30",
+"v": 550.4
 },
 "GREENPOWER": {
 "t": "2026-11-11T12:30+05:30",
@@ -9415,6 +9466,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543650_11112026173119_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml": {
+"company": "Industrial & Prudential Investment Company Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "501298",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:53+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml"
+},
 "BSE-Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml": {
 "company": "Challani Capital Ltd",
 "consolidated": false,
@@ -9447,102 +9514,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml"
 },
-"NSE-equities-IF-212366": {
-"company": "DCX Systems Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:32:57+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "DCXINDIA",
-"t": "2026-11-11T17:34+05:30",
-"uid": "NSE-equities-IF-212366",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212366_11112026173256_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756153_11112026053256_WEB.xml"
-},
-"NSE-equities-IF-212369": {
-"company": "DCX Systems Limited",
-"consolidated": true,
-"filed_at": "2026-11-11T17:33:20+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "DCXINDIA",
-"t": "2026-11-11T17:34+05:30",
-"uid": "NSE-equities-IF-212369",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212369_11112026173320_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756156_11112026053320_WEB.xml"
-},
-"NSE-equities-IF-212374": {
-"company": "Soma Textiles & Industries Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:40:11+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SOMATEX",
-"t": "2026-11-11T17:41+05:30",
-"uid": "NSE-equities-IF-212374",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212374_11112026174010_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756162_11112026054010_WEB.xml"
-},
-"NSE-equities-IF-212376": {
-"company": "Mishra Dhatu Nigam Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:41:09+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "MIDHANI",
-"t": "2026-11-11T17:41+05:30",
-"uid": "NSE-equities-IF-212376",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212376_11112026174108_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756163_11112026054108_WEB.xml"
-},
-"NSE-equities-IF-212378": {
-"company": "Soma Textiles & Industries Limited",
-"consolidated": true,
-"filed_at": "2026-11-11T17:41:31+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SOMATEX",
-"t": "2026-11-11T17:41+05:30",
-"uid": "NSE-equities-IF-212378",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212378_11112026174130_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756165_11112026054129_WEB.xml"
-},
-"NSE-equities-IF-212379": {
-"company": "Mishra Dhatu Nigam Limited",
-"consolidated": true,
-"filed_at": "2026-11-11T17:41:31+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "MIDHANI",
-"t": "2026-11-11T17:41+05:30",
-"uid": "NSE-equities-IF-212379",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212379_11112026174131_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756166_11112026054131_WEB.xml"
-},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -9574,22 +9545,6 @@
 "uid": "NSE-sme-IF-212300",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
-},
-"NSE-sme-IF-212346": {
-"company": "Quadpro Ites Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T17:08:03+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "QUADPRO",
-"t": "2026-11-11T17:10+05:30",
-"uid": "NSE-sme-IF-212346",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212346_11112026170803_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756127_11112026050802_WEB.xml"
 },
 "NSE-sme-IF-212385": {
 "company": "Indifra Limited",
@@ -9687,6 +9642,7 @@
 },
 "INE099Z01011|2026-09-30|C": {
 "b": "C",
+"checked": "ok",
 "mid": 179,
 "n": "MISHRADHATUNIGAM",
 "pat": 27.838,
@@ -9727,6 +9683,7 @@
 },
 "INE0KL801015|2026-09-30|C": {
 "b": "C",
+"checked": "ok",
 "mid": 182,
 "n": "DCXSYSTEMS",
 "pat": -0.257,
@@ -10325,7 +10282,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:47+05:30",
+"t": "2026-11-11T17:54+05:30",
 "v": "INE0GOJ01027"
 },
 "123456": {
@@ -10511,6 +10468,10 @@
 "521014": {
 "t": "2026-11-06T22:39+05:30",
 "v": "INE022C01012"
+},
+"521034": {
+"t": "2026-11-11T17:54+05:30",
+"v": "INE314C01013"
 },
 "521109": {
 "t": "2026-11-07T22:09+05:30",
@@ -11115,7 +11076,7 @@
 "v": 727549000
 },
 "INE0GOJ01027": {
-"t": "2026-11-11T17:47+05:30",
+"t": "2026-11-11T17:54+05:30",
 "v": 505550000
 },
 "INE0GTX01019": {
@@ -11377,6 +11338,10 @@
 "INE308E01029": {
 "t": "2026-11-10T02:38+05:30",
 "v": 126500000
+},
+"INE314C01013": {
+"t": "2026-11-11T17:54+05:30",
+"v": 33030000
 },
 "INE318D01020": {
 "t": "2026-11-06T23:09+05:30",
