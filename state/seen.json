@@ -345,6 +345,9 @@
 "ANN-equities-106855014-EDELALTS": {
 "t": "2026-11-11T13:41+05:30"
 },
+"ANN-equities-106855025-TALBROAUTO": {
+"t": "2026-11-11T13:56+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -6250,6 +6253,9 @@
 "BSE|531952|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|531978|2026-09-30": {
+"t": "2026-11-11T13:55+05:30"
+},
 "BSE|531989|2026-09-30": {
 "t": "2026-11-10T16:14+05:30"
 },
@@ -6354,6 +6360,9 @@
 },
 "NSE SME|RMDRIP|2026-09-30": {
 "t": "2026-11-09T16:21+05:30"
+},
+"NSE|AMBIKCO|2026-09-30": {
+"t": "2026-11-11T13:55+05:30"
 },
 "NSE|ARSSINFRA|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -6727,6 +6736,9 @@
 },
 "INE183R01010": {
 "t": "2026-11-10T12:42+05:30"
+},
+"INE187D01011": {
+"t": "2026-11-11T13:52+05:30"
 },
 "INE1WDC01012": {
 "t": "2026-11-09T11:37+05:30"
@@ -7132,6 +7144,9 @@
 "N:TAIINDUSTRIES": {
 "t": "2026-11-10T17:05+05:30"
 },
+"N:TALBROSAUTOMOTIVECOMPONENTS": {
+"t": "2026-11-11T13:52+05:30"
+},
 "N:TEGAINDUSTRIES": {
 "t": "2026-11-08T13:21+05:30"
 },
@@ -7199,6 +7214,9 @@
 },
 "SVPGLOB": {
 "t": "2026-11-09T16:25+05:30"
+},
+"TALBROAUTO": {
+"t": "2026-11-11T13:52+05:30"
 },
 "TITAGARH": {
 "t": "2026-11-10T20:47+05:30"
@@ -7596,6 +7614,54 @@
 "uid": "BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml": {
+"company": "Ambika Cotton Mills Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531978",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T13:55+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
+},
+"NSE-equities-IF-212234": {
+"company": "Ambika Cotton Mills Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T13:51:59+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "AMBIKCO",
+"t": "2026-11-11T13:55+05:30",
+"uid": "NSE-equities-IF-212234",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212234_11112026135159_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756014_11112026015159_WEB.xml"
+},
+"NSE-equities-IF-212235": {
+"company": "Ambika Cotton Mills Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T13:52:26+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "AMBIKCO",
+"t": "2026-11-11T13:55+05:30",
+"uid": "NSE-equities-IF-212235",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212235_11112026135226_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756015_11112026015226_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
