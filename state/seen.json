@@ -474,6 +474,9 @@
 "BANN-2206b68d-a8d3-4e58-b4db-9effe9967446": {
 "t": "2026-11-11T14:06+05:30"
 },
+"BANN-22465ea4-41d7-4aff-90ab-07876f3154bf": {
+"t": "2026-11-11T15:17+05:30"
+},
 "BANN-27b0b9fe-d793-4b02-ab3e-55c7bcba7fda": {
 "t": "2026-11-09T18:51+05:30"
 },
@@ -6403,6 +6406,9 @@
 "BSE|532485|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|532918|2026-09-30": {
+"t": "2026-11-11T15:16+05:30"
+},
 "BSE|532966|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6744,6 +6750,9 @@
 "BSE:532485": {
 "c": 1,
 "t": "2026-11-10T18:37+05:30"
+},
+"BSE:532918": {
+"t": "2026-11-11T15:15+05:30"
 },
 "BSE:532966": {
 "t": "2026-11-10T20:52+05:30"
@@ -7314,6 +7323,9 @@
 "N:QUADRANTFUTURETEK": {
 "t": "2026-11-10T17:35+05:30"
 },
+"N:RATHIBARS": {
+"t": "2026-11-11T15:15+05:30"
+},
 "N:RENTOMOJO": {
 "t": "2026-11-10T22:49+05:30"
 },
@@ -7640,6 +7652,10 @@
 "BSE:532485": {
 "t": "2026-11-10T23:49+05:30",
 "v": 1459.5
+},
+"BSE:532918": {
+"t": "2026-11-11T15:17+05:30",
+"v": 25.6
 },
 "BSE:533163": {
 "t": "2026-11-10T23:49+05:30",
@@ -8026,6 +8042,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml": {
+"company": "Rathi Bars Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532918",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T15:16+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
