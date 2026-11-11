@@ -362,8 +362,7 @@ def _table(lines, qe: date, page_text_lower: str):
     for r in rows:
         p = merged[-1] if merged else None
         if (p is not None and r["vals"] and p["vals"] and not _is_alpha(r["label"])
-                and not set(r["vals"]) & set(p["vals"]) and r["top"] - p["top"] < 1.3 * max(p["h"], r["h"])
-                and min(r["vals"]) > max(p["vals"])):
+                and not set(r["vals"]) & set(p["vals"]) and r["top"] - p["top"] < 1.3 * max(p["h"], r["h"])):
             p["vals"].update(r["vals"])
             continue
         merged.append(r)
@@ -592,6 +591,8 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
         import pdfplumber
     except ImportError:
         return {"ok": False, "why": "pdfplumber not installed"}
+    import logging
+    logging.getLogger("pdfminer").setLevel(logging.ERROR)
     t0 = _time.monotonic()
     known = known or {}
     reasons, good = [], []
