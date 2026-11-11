@@ -395,6 +395,9 @@
 "ANN-sme-106855004-KKVAPOW": {
 "t": "2026-11-11T13:30+05:30"
 },
+"ANN-sme-106855036-SAMAY": {
+"t": "2026-11-11T14:11+05:30"
+},
 "BANN-0b4536a5-ed94-42ad-af05-8b311a41f755": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -5183,6 +5186,14 @@
 "s": "posted",
 "t": "2026-11-10T23:49+05:30"
 },
+"NSE-equities-IF-212234": {
+"s": "superseded",
+"t": "2026-11-11T14:11+05:30"
+},
+"NSE-equities-IF-212235": {
+"s": "posted",
+"t": "2026-11-11T14:11+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7152,6 +7163,9 @@
 "N:SAKTHISUGARS": {
 "t": "2026-11-11T13:03+05:30"
 },
+"N:SAMAYPROJECTSERVICES": {
+"t": "2026-11-11T14:06+05:30"
+},
 "N:SIMPLEXINFRASTRUCTURES": {
 "c": 1,
 "t": "2026-11-10T18:52+05:30"
@@ -7239,6 +7253,9 @@
 },
 "SAKHTISUG": {
 "t": "2026-11-11T13:03+05:30"
+},
+"SAMAY": {
+"t": "2026-11-11T14:06+05:30"
 },
 "SIMPLEXINF": {
 "t": "2026-11-10T18:52+05:30"
@@ -7682,38 +7699,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
 },
-"NSE-equities-IF-212234": {
-"company": "Ambika Cotton Mills Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T13:51:59+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "AMBIKCO",
-"t": "2026-11-11T13:55+05:30",
-"uid": "NSE-equities-IF-212234",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212234_11112026135159_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756014_11112026015159_WEB.xml"
-},
-"NSE-equities-IF-212235": {
-"company": "Ambika Cotton Mills Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T13:52:26+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "AMBIKCO",
-"t": "2026-11-11T13:55+05:30",
-"uid": "NSE-equities-IF-212235",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212235_11112026135226_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756015_11112026015226_WEB.xml"
-},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -8070,6 +8055,13 @@
 "rev": 251.49,
 "src": "pdf",
 "t": "2026-11-11T13:41+05:30"
+},
+"INE540G01014|2026-09-30|S": {
+"b": "S",
+"mid": 163,
+"n": "AMBIKACOTTONMILLS",
+"pe": "2026-09-30",
+"t": "2026-11-11T14:11+05:30"
 },
 "INE548C01032|2026-09-30|C": {
 "b": "C",
@@ -8632,6 +8624,10 @@
 "531952": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE811H01017"
+},
+"531978": {
+"t": "2026-11-11T14:11+05:30",
+"v": "INE540G01014"
 },
 "531989": {
 "t": "2026-11-10T23:49+05:30",
@@ -9442,6 +9438,10 @@
 "INE539B01017": {
 "t": "2026-11-11T03:45+05:30",
 "v": 112703400
+},
+"INE540G01014": {
+"t": "2026-11-11T14:11+05:30",
+"v": 5725000
 },
 "INE546V01010": {
 "t": "2026-11-07T22:08+05:30",
