@@ -2062,6 +2062,10 @@
 "s": "superseded",
 "t": "2026-11-10T02:39+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T20:52+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-11T19:01+05:30"
@@ -7473,6 +7477,9 @@
 "BSE|539267|2026-09-30": {
 "t": "2026-11-11T18:17+05:30"
 },
+"BSE|539287|2026-09-30": {
+"t": "2026-11-11T20:52+05:30"
+},
 "BSE|539302|2026-09-30": {
 "t": "2026-11-11T18:28+05:30"
 },
@@ -7733,6 +7740,9 @@
 },
 "NSE|OLECTRA|2026-09-30": {
 "t": "2026-11-09T22:43+05:30"
+},
+"NSE|ORTINGLOBE|2026-09-30": {
+"t": "2026-11-11T20:52+05:30"
 },
 "NSE|PILANIINVS|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -10701,22 +10711,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml": {
-"company": "Bannari Amman Spinning Mills Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532674",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T18:41+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_532945_111120262028_IFIndAs.xml": {
 "company": "SEPC Ltd",
 "consolidated": false,
@@ -10876,6 +10870,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml": {
+"company": "Ortin Global Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539287",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:52+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539287_11112026204338_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539302_1111202618255_IFIndAs.xml": {
 "company": "Power Mech Projects Ltd",
@@ -11052,6 +11062,22 @@
 "uid": "NSE-equities-IF-212510",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212510_11112026202436_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756281_11112026082434_WEB.xml"
+},
+"NSE-equities-IF-212514": {
+"company": "ORTIN GLOBAL LIMITED",
+"consolidated": false,
+"filed_at": "2026-11-11T20:44:30+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "ORTINGLOBE",
+"t": "2026-11-11T20:52+05:30",
+"uid": "NSE-equities-IF-212514",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212514_11112026204429_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756287_11112026084429_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -12303,7 +12329,7 @@
 "v": "INE501G01024"
 },
 "532674": {
-"t": "2026-11-11T18:42+05:30",
+"t": "2026-11-11T20:52+05:30",
 "v": "INE186H01022"
 },
 "532774": {
@@ -12997,7 +13023,7 @@
 "v": 73440000
 },
 "INE186H01022": {
-"t": "2026-11-11T18:42+05:30",
+"t": "2026-11-11T20:52+05:30",
 "v": 79921400
 },
 "INE187D01029": {
