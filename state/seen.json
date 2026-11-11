@@ -414,6 +414,9 @@
 "BANN-28a408ef-8462-4e65-8a33-dfa40d6b8849": {
 "t": "2026-11-11T11:40+05:30"
 },
+"BANN-2d2601d3-9a95-4292-9c63-082025e38ada": {
+"t": "2026-11-11T16:16+05:30"
+},
 "BANN-303d90ef-524d-4260-baa0-0d0ace222fda": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -593,6 +596,9 @@
 },
 "BANN-db36097d-bf12-4003-8506-f4242936ffc9": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-ded29d41-bb1c-4433-b7d9-2372e61ea8a6": {
+"t": "2026-11-11T16:16+05:30"
 },
 "BANN-e0f7ac4f-2d05-45cb-8c9b-c04f626b5a62": {
 "t": "2026-11-10T15:46+05:30"
@@ -6479,6 +6485,9 @@
 "NSE SME|RMDRIP|2026-09-30": {
 "t": "2026-11-09T16:21+05:30"
 },
+"NSE SME|SAMAY|2026-09-30": {
+"t": "2026-11-11T16:16+05:30"
+},
 "NSE|AMBIKCO|2026-09-30": {
 "t": "2026-11-11T13:55+05:30"
 },
@@ -6709,6 +6718,9 @@
 "BSE:530747": {
 "t": "2026-11-11T15:25+05:30"
 },
+"BSE:530899": {
+"t": "2026-11-11T16:15+05:30"
+},
 "BSE:531219": {
 "t": "2026-11-11T15:57+05:30"
 },
@@ -6729,6 +6741,9 @@
 },
 "BSE:531989": {
 "t": "2026-11-10T15:50+05:30"
+},
+"BSE:532284": {
+"t": "2026-11-11T16:12+05:30"
 },
 "BSE:532333": {
 "t": "2026-11-09T13:47+05:30"
@@ -7149,6 +7164,9 @@
 "N:ARSSINFRASTRUCTUREPROJECTS": {
 "t": "2026-11-10T16:37+05:30"
 },
+"N:ASIAPACK": {
+"t": "2026-11-11T16:15+05:30"
+},
 "N:AVANTIFEEDS": {
 "c": 1,
 "t": "2026-11-10T17:16+05:30"
@@ -7407,6 +7425,9 @@
 "c": 1,
 "t": "2026-11-11T13:52+05:30"
 },
+"N:TCFCFINANCE": {
+"t": "2026-11-11T16:12+05:30"
+},
 "N:TEGAINDUSTRIES": {
 "t": "2026-11-08T13:21+05:30"
 },
@@ -7654,6 +7675,10 @@
 "t": "2026-11-11T15:26+05:30",
 "v": 28.2
 },
+"BSE:530899": {
+"t": "2026-11-11T16:16+05:30",
+"v": 14.7
+},
 "BSE:531219": {
 "t": "2026-11-11T16:01+05:30",
 "v": 3.5
@@ -7677,6 +7702,10 @@
 "BSE:531989": {
 "t": "2026-11-10T16:14+05:30",
 "v": 4.9
+},
+"BSE:532284": {
+"t": "2026-11-11T16:16+05:30",
+"v": 25.5
 },
 "BSE:532344": {
 "t": "2026-11-10T15:46+05:30",
@@ -8208,6 +8237,22 @@
 "uid": "NSE-sme-IF-211864",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
+},
+"NSE-sme-IF-212300": {
+"company": "Samay Project Services Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T16:16:07+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SAMAY",
+"t": "2026-11-11T16:16+05:30",
+"uid": "NSE-sme-IF-212300",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
 }
 },
 "posted": {
