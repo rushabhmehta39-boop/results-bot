@@ -28,6 +28,14 @@
 "pdf": 2,
 "t": "2026-11-11T11:40+05:30"
 },
+"BSE:505160": {
+"d": "2026-11-11",
+"mcap": 2545.7,
+"mid": 162,
+"n": "TALBROSAUTOMOTIVECOMPONENTS",
+"pdf": 2,
+"t": "2026-11-11T14:06+05:30"
+},
 "BSE:526433": {
 "d": "2026-11-07",
 "mid": 123,
@@ -348,6 +356,9 @@
 "ANN-equities-106855025-TALBROAUTO": {
 "t": "2026-11-11T13:56+05:30"
 },
+"ANN-equities-106855033-HALEOSLABS": {
+"t": "2026-11-11T14:06+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -401,6 +412,9 @@
 },
 "BANN-1d4506f3-2af4-4247-8f2f-44cf1eeca31e": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-2206b68d-a8d3-4e58-b4db-9effe9967446": {
+"t": "2026-11-11T14:06+05:30"
 },
 "BANN-27b0b9fe-d793-4b02-ab3e-55c7bcba7fda": {
 "t": "2026-11-09T18:51+05:30"
@@ -6205,6 +6219,9 @@
 "BSE|517554|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
 },
+"BSE|519295|2026-09-30": {
+"t": "2026-11-11T14:05+05:30"
+},
 "BSE|519483|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6474,6 +6491,10 @@
 "BSE:504036": {
 "t": "2026-11-10T13:39+05:30"
 },
+"BSE:505160": {
+"c": 1,
+"t": "2026-11-11T14:03+05:30"
+},
 "BSE:505302": {
 "t": "2026-11-11T13:33+05:30"
 },
@@ -6689,6 +6710,9 @@
 "GREENPOWER": {
 "t": "2026-11-11T12:29+05:30"
 },
+"HALEOSLABS": {
+"t": "2026-11-11T14:02+05:30"
+},
 "HIRECT": {
 "t": "2026-11-10T13:24+05:30"
 },
@@ -6763,6 +6787,9 @@
 },
 "INE308E01029": {
 "t": "2026-11-09T16:25+05:30"
+},
+"INE320X01016": {
+"t": "2026-11-11T14:02+05:30"
 },
 "INE358D01018": {
 "t": "2026-11-10T17:05+05:30"
@@ -7010,6 +7037,9 @@
 "N:GULFLLOYDSINDIA": {
 "t": "2026-11-09T11:37+05:30"
 },
+"N:HALEOSLABS": {
+"t": "2026-11-11T14:02+05:30"
+},
 "N:HBLEASINGANDFINANCECOMPANY": {
 "t": "2026-11-09T16:05+05:30"
 },
@@ -7145,6 +7175,7 @@
 "t": "2026-11-10T17:05+05:30"
 },
 "N:TALBROSAUTOMOTIVECOMPONENTS": {
+"c": 1,
 "t": "2026-11-11T13:52+05:30"
 },
 "N:TEGAINDUSTRIES": {
@@ -7250,6 +7281,10 @@
 "BSE:500041": {
 "t": "2026-11-11T11:40+05:30",
 "v": 3991.4
+},
+"BSE:505160": {
+"t": "2026-11-11T14:06+05:30",
+"v": 2545.7
 },
 "BSE:505302": {
 "t": "2026-11-11T13:36+05:30",
@@ -7614,6 +7649,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml": {
+"company": "Bambino Agro Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "519295",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T14:05+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml": {
 "company": "Ambika Cotton Mills Ltd",
