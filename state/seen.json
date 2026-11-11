@@ -902,6 +902,9 @@
 "BANN-9525bcab-5d51-4432-aa07-d704c76bbf1b": {
 "t": "2026-11-11T18:05+05:30"
 },
+"BANN-997bafbe-4f65-4080-8ff8-34cb551de237": {
+"t": "2026-11-11T19:19+05:30"
+},
 "BANN-99f1a09d-34db-4773-a8d6-7afc10526eee": {
 "t": "2026-11-11T17:29+05:30"
 },
@@ -5887,6 +5890,10 @@
 "s": "small",
 "t": "2026-11-11T19:06+05:30"
 },
+"NSE-equities-IF-212446": {
+"s": "posted",
+"t": "2026-11-11T19:18+05:30"
+},
 "NSE-equities-IF-212449": {
 "s": "superseded",
 "t": "2026-11-11T19:06+05:30"
@@ -5894,6 +5901,14 @@
 "NSE-equities-IF-212451": {
 "s": "posted",
 "t": "2026-11-11T19:06+05:30"
+},
+"NSE-equities-IF-212471": {
+"s": "superseded",
+"t": "2026-11-11T19:19+05:30"
+},
+"NSE-equities-IF-212473": {
+"s": "posted",
+"t": "2026-11-11T19:19+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6928,6 +6943,14 @@
 "NSE-sme-IF-212470": {
 "s": "small",
 "t": "2026-11-11T19:12+05:30"
+},
+"NSE-sme-IF-212471": {
+"s": "superseded",
+"t": "2026-11-11T19:19+05:30"
+},
+"NSE-sme-IF-212473": {
+"s": "dup",
+"t": "2026-11-11T19:19+05:30"
 }
 },
 "first_seen": {
@@ -7294,6 +7317,9 @@
 "NSE SME|INM|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
 },
+"NSE SME|KKVAPOW|2026-09-30": {
+"t": "2026-11-11T19:18+05:30"
+},
 "NSE SME|LOANFRONT|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -7455,6 +7481,9 @@
 },
 "NSE|TATAPOWER|2026-09-30": {
 "t": "2026-11-11T19:06+05:30"
+},
+"NSE|THEJO|2026-09-30": {
+"t": "2026-11-11T19:18+05:30"
 },
 "NSE|TITAGARH|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -7773,6 +7802,9 @@
 },
 "BSE:532989": {
 "t": "2026-11-11T17:06+05:30"
+},
+"BSE:532998": {
+"t": "2026-11-11T19:12+05:30"
 },
 "BSE:533007": {
 "t": "2026-11-11T18:11+05:30"
@@ -8278,6 +8310,9 @@
 "INE784M01016": {
 "t": "2026-11-11T16:15+05:30"
 },
+"INE793G01035": {
+"t": "2026-11-11T15:54+05:30"
+},
 "INE807A01010": {
 "t": "2026-11-11T15:25+05:30"
 },
@@ -8342,6 +8377,9 @@
 },
 "INE948I01015": {
 "t": "2026-11-09T18:20+05:30"
+},
+"INE954M01031": {
+"t": "2026-11-11T17:02+05:30"
 },
 "INE999K01014": {
 "t": "2026-11-11T12:29+05:30"
@@ -9324,6 +9362,10 @@
 "BSE:532931": {
 "t": "2026-11-11T17:10+05:30",
 "v": 19.6
+},
+"BSE:532998": {
+"t": "2026-11-11T19:19+05:30",
+"v": 220.0
 },
 "BSE:533007": {
 "t": "2026-11-11T18:12+05:30",
@@ -10444,22 +10486,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_543914_11112026173220_IFNBFC.xml"
 },
-"NSE-equities-IF-212446": {
-"company": "Bafna Pharmaceuticals Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T18:59:24+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "BAFNAPH",
-"t": "2026-11-11T19:00+05:30",
-"uid": "NSE-equities-IF-212446",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212446_11112026185923_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756230_11112026065923_WEB.xml"
-},
 "NSE-equities-IF-212459": {
 "company": "EIH Associated Hotels Limited",
 "consolidated": false,
@@ -10492,21 +10518,21 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
 },
-"NSE-sme-IF-212471": {
-"company": "Thejo Engineering Limited",
+"NSE-sme-IF-212475": {
+"company": "KKV Agro Powers Limited",
 "consolidated": false,
-"filed_at": "2026-11-11T19:12:31+05:30",
+"filed_at": "2026-11-11T19:15:42+05:30",
 "index": "sme",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
 "scrip": "",
 "source": "NSE SME",
-"symbol": "THEJO",
-"t": "2026-11-11T19:12+05:30",
-"uid": "NSE-sme-IF-212471",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212471_11112026191231_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756246_11112026071231_WEB.xml"
+"symbol": "KKVAPOW",
+"t": "2026-11-11T19:18+05:30",
+"uid": "NSE-sme-IF-212475",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212475_11112026191542_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756251_11112026071542_WEB.xml"
 }
 },
 "posted": {
@@ -10704,6 +10730,13 @@
 "n": "EPPELTONEENGINEERS",
 "pe": "2026-09-30",
 "t": "2026-11-11T12:30+05:30"
+},
+"INE121N01019|2026-09-30|C": {
+"b": "C",
+"mid": 197,
+"n": "THEJOENGINEERING",
+"pe": "2026-09-30",
+"t": "2026-11-11T19:19+05:30"
 },
 "INE121R01077|2026-09-30|C": {
 "b": "C",
@@ -11103,6 +11136,13 @@
 "pe": "2026-09-30",
 "t": "2026-11-10T23:49+05:30"
 },
+"INE878I01022|2026-09-30|S": {
+"b": "S",
+"mid": 196,
+"n": "BAFNAPHARMACEUTICALS",
+"pe": "2026-09-30",
+"t": "2026-11-11T19:18+05:30"
+},
 "INE883A01011|2026-09-30|C": {
 "b": "C",
 "n": "MRF",
@@ -11255,8 +11295,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T19:12+05:30",
-"v": "INE0OPC01015"
+"t": "2026-11-11T19:18+05:30",
+"v": "INE121N01019"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -11701,6 +11741,10 @@
 "532976": {
 "t": "2026-11-06T23:14+05:30",
 "v": "INE091G01026"
+},
+"532989": {
+"t": "2026-11-11T19:18+05:30",
+"v": "INE878I01022"
 },
 "533163": {
 "t": "2026-11-11T03:45+05:30",
@@ -12239,6 +12283,10 @@
 "INE11HF01010": {
 "t": "2026-11-11T12:30+05:30",
 "v": 129593120000
+},
+"INE121N01019": {
+"t": "2026-11-11T19:18+05:30",
+"v": 10848100
 },
 "INE121R01077": {
 "t": "2026-11-06T23:11+05:30",
@@ -12855,6 +12903,10 @@
 "INE877V01027": {
 "t": "2026-11-10T23:49+05:30",
 "v": 52081000
+},
+"INE878I01022": {
+"t": "2026-11-11T19:18+05:30",
+"v": 23656300
 },
 "INE883A01011": {
 "t": "2026-11-10T23:48+05:30",
