@@ -7027,9 +7027,9 @@
 "t": "2026-11-11T19:19+05:30"
 },
 "NSE-sme-IF-212475": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-11T19:42+05:30"
+"t": "2026-11-11T19:48+05:30"
 },
 "NSE-sme-IF-212477": {
 "s": "small",
@@ -7056,6 +7056,9 @@
 },
 "BSE|500290|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|500298|2026-09-30": {
+"t": "2026-11-11T19:48+05:30"
 },
 "BSE|500400|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
@@ -8309,8 +8312,14 @@
 "INE320X01016": {
 "t": "2026-11-11T14:02+05:30"
 },
+"INE355C01016": {
+"t": "2026-11-11T17:21+05:30"
+},
 "INE358D01018": {
 "t": "2026-11-10T17:05+05:30"
+},
+"INE362C01012": {
+"t": "2026-11-11T17:21+05:30"
 },
 "INE382Z01011": {
 "t": "2026-11-11T14:47+05:30"
@@ -8528,6 +8537,9 @@
 },
 "INE948I01015": {
 "t": "2026-11-09T18:20+05:30"
+},
+"INE953M01033": {
+"t": "2026-11-11T17:10+05:30"
 },
 "INE954M01031": {
 "t": "2026-11-11T17:02+05:30"
@@ -10131,6 +10143,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_500298_11112026194610_IFIndAs.xml": {
+"company": "Naperol Investments Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "500298",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T19:48+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500298_11112026194610_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500298_11112026194610_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500298_11112026194610_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_500400_11112026070256_IFIndAs.xml": {
 "company": "Tata Power Company Ltd",
 "consolidated": false,
@@ -11569,8 +11597,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T19:42+05:30",
-"v": "INE08NZ01012"
+"t": "2026-11-11T19:48+05:30",
+"v": "INE239T01016"
 },
 "123456": {
 "t": "2026-11-06T23:16+05:30",
@@ -12711,7 +12739,7 @@
 "v": 152950000
 },
 "INE239T01016": {
-"t": "2026-11-11T19:42+05:30",
+"t": "2026-11-11T19:48+05:30",
 "v": 6235620000
 },
 "INE245A01021": {
