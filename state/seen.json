@@ -613,6 +613,9 @@
 "ANN-equities-106855746-LALITHAA": {
 "t": "2026-11-11T20:58+05:30"
 },
+"ANN-equities-106855754-SICALLOG": {
+"t": "2026-11-11T21:04+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -864,6 +867,9 @@
 },
 "BANN-63c8f47c-8eab-45e2-97c2-3b7675927609": {
 "t": "2026-11-11T17:04+05:30"
+},
+"BANN-6428ad22-fb15-46cd-97b4-69869a4dccbe": {
+"t": "2026-11-11T21:04+05:30"
 },
 "BANN-665baf58-f099-4348-98d2-24639748e430": {
 "t": "2026-11-11T14:26+05:30"
@@ -2108,6 +2114,10 @@
 "BSE-Integrated_Finance_Ind_As_532966_10112026213216_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-11T03:45+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T21:04+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_533108_6112026141049_IFIndAs.xml": {
 "s": "old",
@@ -6133,6 +6143,10 @@
 "s": "small",
 "t": "2026-11-11T20:23+05:30"
 },
+"NSE-equities-IF-212514": {
+"s": "small",
+"t": "2026-11-11T21:04+05:30"
+},
 "NSE-equities-IF-212515": {
 "s": "superseded",
 "t": "2026-11-11T20:58+05:30"
@@ -8281,6 +8295,9 @@
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
 },
+"BSE:543712": {
+"t": "2026-11-11T21:00+05:30"
+},
 "BSE:543914": {
 "t": "2026-11-11T17:56+05:30"
 },
@@ -8434,6 +8451,10 @@
 "INE059B01024": {
 "c": 1,
 "t": "2026-11-10T18:52+05:30"
+},
+"INE075B01020": {
+"c": 1,
+"t": "2026-11-11T21:03+05:30"
 },
 "INE083D01012": {
 "c": 1,
@@ -9349,6 +9370,10 @@
 "N:SHYAMACOMPUTRONICSANDSERVICES": {
 "t": "2026-11-11T15:57+05:30"
 },
+"N:SICALLOGISTICS": {
+"c": 1,
+"t": "2026-11-11T21:03+05:30"
+},
 "N:SIMPLEXINFRASTRUCTURES": {
 "c": 1,
 "t": "2026-11-10T18:52+05:30"
@@ -9554,6 +9579,10 @@
 "SEPC": {
 "c": 1,
 "t": "2026-11-11T19:56+05:30"
+},
+"SICALLOG": {
+"c": 1,
+"t": "2026-11-11T21:03+05:30"
 },
 "SIMPLEXINF": {
 "t": "2026-11-10T18:52+05:30"
@@ -10134,6 +10163,10 @@
 "SECURKLOUD": {
 "t": "2026-11-11T18:49+05:30",
 "v": 50.4
+},
+"SICALLOG": {
+"t": "2026-11-11T21:04+05:30",
+"v": 621.7
 },
 "SOMATEX": {
 "t": "2026-11-11T16:53+05:30",
@@ -10802,22 +10835,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532945_111120262028_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532945_111120262028_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml": {
-"company": "Bafna Pharmaceuticals Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532989",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T19:00+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_532998_11112026201311_IFIndAs.xml": {
 "company": "Lotus Eye Hospital And Institute Ltd",
 "consolidated": false,
@@ -11153,22 +11170,6 @@
 "uid": "NSE-equities-IF-212510",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212510_11112026202436_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756281_11112026082434_WEB.xml"
-},
-"NSE-equities-IF-212514": {
-"company": "ORTIN GLOBAL LIMITED",
-"consolidated": false,
-"filed_at": "2026-11-11T20:44:30+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "ORTINGLOBE",
-"t": "2026-11-11T20:52+05:30",
-"uid": "NSE-equities-IF-212514",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212514_11112026204429_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756287_11112026084429_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -12541,6 +12542,10 @@
 "t": "2026-11-11T19:06+05:30",
 "v": "INE751R01014"
 },
+"539287": {
+"t": "2026-11-11T21:04+05:30",
+"v": "INE749B01020"
+},
 "539354": {
 "t": "2026-11-11T17:34+05:30",
 "v": "INE914G01029"
@@ -13634,6 +13639,10 @@
 "INE738V01013": {
 "t": "2026-11-06T23:15+05:30",
 "v": 24956000
+},
+"INE749B01020": {
+"t": "2026-11-11T21:04+05:30",
+"v": 8131400
 },
 "INE750D01016": {
 "t": "2026-11-06T23:11+05:30",
