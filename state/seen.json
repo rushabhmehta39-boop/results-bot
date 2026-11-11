@@ -610,6 +610,9 @@
 "ANN-equities-106855735-AFSL": {
 "t": "2026-11-11T20:35+05:30"
 },
+"ANN-equities-106855746-LALITHAA": {
+"t": "2026-11-11T20:58+05:30"
+},
 "ANN-sme-106853301-MAGSON": {
 "t": "2026-11-09T15:39+05:30"
 },
@@ -6106,9 +6109,17 @@
 "s": "small",
 "t": "2026-11-11T20:35+05:30"
 },
+"NSE-equities-IF-212502": {
+"s": "superseded",
+"t": "2026-11-11T20:58+05:30"
+},
 "NSE-equities-IF-212503": {
 "s": "small",
 "t": "2026-11-11T20:23+05:30"
+},
+"NSE-equities-IF-212504": {
+"s": "posted",
+"t": "2026-11-11T20:58+05:30"
 },
 "NSE-equities-IF-212505": {
 "s": "superseded",
@@ -6121,6 +6132,14 @@
 "NSE-equities-IF-212508": {
 "s": "small",
 "t": "2026-11-11T20:23+05:30"
+},
+"NSE-equities-IF-212515": {
+"s": "superseded",
+"t": "2026-11-11T20:58+05:30"
+},
+"NSE-equities-IF-212516": {
+"s": "posted",
+"t": "2026-11-11T20:58+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -7294,6 +7313,9 @@
 "BSE|519506|2026-09-30": {
 "t": "2026-11-11T16:46+05:30"
 },
+"BSE|521005|2026-09-30": {
+"t": "2026-11-11T20:57+05:30"
+},
 "BSE|521034|2026-09-30": {
 "t": "2026-11-11T17:41+05:30"
 },
@@ -7311,6 +7333,9 @@
 },
 "BSE|523618|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|523630|2026-09-30": {
+"t": "2026-11-11T20:57+05:30"
 },
 "BSE|523672|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
@@ -7576,6 +7601,9 @@
 "BSE|544869|2025-09-30": {
 "t": "2026-11-11T17:59+05:30"
 },
+"BSE|544879|2026-09-30": {
+"t": "2026-11-11T20:57+05:30"
+},
 "BSE|544928|2026-09-30": {
 "t": "2026-11-10T16:14+05:30"
 },
@@ -7717,6 +7745,9 @@
 "NSE|KALYANKJIL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"NSE|LALITHAA|2026-09-30": {
+"t": "2026-11-11T20:57+05:30"
+},
 "NSE|LFIC|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -7737,6 +7768,9 @@
 },
 "NSE|MRF|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|NFL|2026-09-30": {
+"t": "2026-11-11T20:57+05:30"
 },
 "NSE|OLECTRA|2026-09-30": {
 "t": "2026-11-09T22:43+05:30"
@@ -8419,6 +8453,9 @@
 "c": 1,
 "t": "2026-11-11T17:59+05:30"
 },
+"INE0K9O01026": {
+"t": "2026-11-11T20:52+05:30"
+},
 "INE0KL801015": {
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
@@ -8823,6 +8860,9 @@
 "KKVAPOW": {
 "t": "2026-11-11T13:26+05:30"
 },
+"LALITHAA": {
+"t": "2026-11-11T20:52+05:30"
+},
 "LFIC": {
 "t": "2026-11-10T15:44+05:30"
 },
@@ -9101,6 +9141,9 @@
 },
 "N:LAKSHMIFINANCEANDINDUSTRIALCORPORATION": {
 "t": "2026-11-10T15:44+05:30"
+},
+"N:LALITHAAJEWELLERYMART": {
+"t": "2026-11-11T20:52+05:30"
 },
 "N:LERTHAIFINANCE": {
 "t": "2026-11-11T16:18+05:30"
@@ -10615,6 +10658,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.xml": {
+"company": "Titan Intech Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "521005",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:57+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml": {
 "company": "EIH Associated Hotels Ltd-$",
 "consolidated": false,
@@ -10630,6 +10689,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.xml": {
+"company": "National Fertilizers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "523630",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:57+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_523672_11112026193229_IFIndAs.xml": {
 "company": "Flex Foods Ltd-$",
@@ -10999,6 +11074,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544205_11112026193222_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544205_11112026193222_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544879_11112026201441_IFIndAs.xml": {
+"company": "Lalithaa Jewellery Mart Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544879",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T20:57+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544879_11112026201441_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544879_11112026201441_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544879_11112026201441_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml": {
 "company": "Industrial & Prudential Investment Company Ltd",
 "consolidated": false,
@@ -11232,6 +11323,13 @@
 "n": "SHIPROCKET",
 "pe": "2026-09-30",
 "t": "2026-11-06T23:14+05:30"
+},
+"INE0K9O01026|2026-09-30|C": {
+"b": "C",
+"mid": 205,
+"n": "LALITHAAJEWELLERYMART",
+"pe": "2026-09-30",
+"t": "2026-11-11T20:58+05:30"
 },
 "INE0KL801015|2026-09-30|C": {
 "b": "C",
@@ -11707,6 +11805,13 @@
 "pe": "2026-09-30",
 "t": "2026-11-08T18:13+05:30"
 },
+"INE870D01012|2026-09-30|C": {
+"b": "C",
+"mid": 206,
+"n": "NATIONALFERTILIZERS",
+"pe": "2026-09-30",
+"t": "2026-11-11T20:58+05:30"
+},
 "INE871C01038|2026-09-30|C": {
 "b": "C",
 "n": "AVANTIFEEDS",
@@ -12135,6 +12240,10 @@
 "523618": {
 "t": "2026-11-10T23:48+05:30",
 "v": "INE506A01018"
+},
+"523630": {
+"t": "2026-11-11T20:58+05:30",
+"v": "INE870D01012"
 },
 "523838": {
 "t": "2026-11-10T23:48+05:30",
@@ -12668,6 +12777,10 @@
 "t": "2026-11-06T23:14+05:30",
 "v": "INE0FOO01011"
 },
+"544879": {
+"t": "2026-11-11T20:58+05:30",
+"v": "INE0K9O01026"
+},
 "544882": {
 "t": "2026-11-06T23:14+05:30",
 "v": "INE1WFC01025"
@@ -12841,6 +12954,10 @@
 "INE0HQI01014": {
 "t": "2026-11-07T22:08+05:30",
 "v": 13073300
+},
+"INE0K9O01026": {
+"t": "2026-11-11T20:58+05:30",
+"v": 559710000
 },
 "INE0LAA01017": {
 "t": "2026-11-07T22:08+05:30",
@@ -13629,6 +13746,10 @@
 "INE867C01010": {
 "t": "2026-11-08T18:12+05:30",
 "v": 14589000
+},
+"INE870D01012": {
+"t": "2026-11-11T20:58+05:30",
+"v": 490580000
 },
 "INE871C01038": {
 "t": "2026-11-10T23:48+05:30",
