@@ -1702,6 +1702,10 @@
 "s": "small",
 "t": "2026-11-09T20:32+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T21:17+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml": {
 "s": "dup",
 "t": "2026-11-11T20:29+05:30"
@@ -1789,6 +1793,10 @@
 "BSE-Integrated_Finance_Ind_As_526009_6112026181344_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T21:17+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_526269_611202614275_IFIndAs.xml": {
 "s": "old",
@@ -6174,6 +6182,14 @@
 "s": "posted",
 "t": "2026-11-11T20:58+05:30"
 },
+"NSE-equities-IF-212518": {
+"s": "posted",
+"t": "2026-11-11T21:17+05:30"
+},
+"NSE-equities-IF-212519": {
+"s": "superseded",
+"t": "2026-11-11T21:17+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7834,6 +7850,9 @@
 },
 "NSE|ROSSELLIND|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|ROTO|2026-09-30": {
+"t": "2026-11-11T21:16+05:30"
 },
 "NSE|SAKHTISUG|2026-09-30": {
 "t": "2026-11-11T14:56+05:30"
@@ -10793,22 +10812,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_521005_1111202620551_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml": {
-"company": "EIH Associated Hotels Ltd-$",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "523127",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T19:12+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523127_1111202619422_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_523630_11112026085219_IFIndAs.xml": {
 "company": "National Fertilizers Ltd",
 "consolidated": false,
@@ -10872,22 +10875,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.xml": {
-"company": "Karan Woo Sin Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "526115",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T19:12+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526115_1111202619110_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml": {
 "company": "Cupid Ltd-$",
@@ -11779,6 +11766,13 @@
 "src": "pdf",
 "t": "2026-11-11T21:11+05:30"
 },
+"INE535D01037|2026-09-30|C": {
+"b": "C",
+"mid": 209,
+"n": "ROTOPUMPS",
+"pe": "2026-09-30",
+"t": "2026-11-11T21:17+05:30"
+},
 "INE540G01014|2026-09-30|S": {
 "b": "S",
 "mid": 163,
@@ -12278,6 +12272,10 @@
 "t": "2026-11-11T17:59+05:30",
 "v": "INE437D01010"
 },
+"517500": {
+"t": "2026-11-11T21:16+05:30",
+"v": "INE535D01037"
+},
 "517554": {
 "t": "2026-11-09T15:39+05:30",
 "v": "INE141C01036"
@@ -12369,6 +12367,10 @@
 "526001": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE593O01017"
+},
+"526115": {
+"t": "2026-11-11T21:17+05:30",
+"v": "INE327D01013"
 },
 "526315": {
 "t": "2026-11-11T20:17+05:30",
@@ -13412,6 +13414,10 @@
 "t": "2026-11-06T23:14+05:30",
 "v": 678772000
 },
+"INE327D01013": {
+"t": "2026-11-11T21:17+05:30",
+"v": 8235000
+},
 "INE335A01020": {
 "t": "2026-11-07T22:06+05:30",
 "v": 217640000
@@ -13567,6 +13573,10 @@
 "INE525F01025": {
 "t": "2026-11-11T03:46+05:30",
 "v": 221973000
+},
+"INE535D01037": {
+"t": "2026-11-11T21:16+05:30",
+"v": 188446000
 },
 "INE539B01017": {
 "t": "2026-11-11T03:45+05:30",
