@@ -96,6 +96,14 @@
 "n": "BALMERLAWRIEINVESTMENTS",
 "t": "2026-11-10T23:49+05:30"
 },
+"BSE:533095": {
+"d": "2026-11-11",
+"mcap": 6502.5,
+"mid": 184,
+"n": "BENGALANDASSAMCOMPANY",
+"pdf": 5,
+"t": "2026-11-11T17:47+05:30"
+},
 "BSE:540678": {
 "d": "2026-11-10",
 "mid": 135,
@@ -446,6 +454,9 @@
 "ANN-equities-106855413-PVSL": {
 "t": "2026-11-11T17:41+05:30"
 },
+"ANN-equities-106855425-INTENTECH": {
+"t": "2026-11-11T17:47+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -671,6 +682,9 @@
 "BANN-67aa031d-fbda-49a6-9dea-e729a38717f0": {
 "t": "2026-11-11T15:06+05:30"
 },
+"BANN-68b3c742-0ccd-4bd7-a176-753b7671fb03": {
+"t": "2026-11-11T17:47+05:30"
+},
 "BANN-68bc0700-2e8c-4fdd-b8d9-ff32f8072e66": {
 "t": "2026-11-11T16:01+05:30"
 },
@@ -832,6 +846,9 @@
 },
 "BANN-ee2b08ce-86c0-4ac9-bc02-2577a00ed92b": {
 "t": "2026-11-09T15:39+05:30"
+},
+"BANN-ef5ad89a-ec07-4239-9690-043ae0df3ea0": {
+"t": "2026-11-11T17:47+05:30"
 },
 "BANN-f94cd472-38f4-4d3e-a178-68c9b8e10c74": {
 "t": "2026-11-10T23:49+05:30"
@@ -5557,19 +5574,19 @@
 "t": "2026-11-11T17:41+05:30"
 },
 "NSE-equities-IF-212369": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-11T17:41+05:30"
+"t": "2026-11-11T17:47+05:30"
 },
 "NSE-equities-IF-212378": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-11T17:41+05:30"
+"t": "2026-11-11T17:47+05:30"
 },
 "NSE-equities-IF-212379": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-11T17:41+05:30"
+"t": "2026-11-11T17:47+05:30"
 },
 "NSE-sme-IF-210023": {
 "s": "old",
@@ -6577,9 +6594,9 @@
 "t": "2026-11-11T17:23+05:30"
 },
 "NSE-sme-IF-212346": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-11T17:41+05:30"
+"t": "2026-11-11T17:47+05:30"
 }
 },
 "first_seen": {
@@ -6817,6 +6834,9 @@
 "BSE|540937|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
+"BSE|541195|2026-09-30": {
+"t": "2026-11-11T17:47+05:30"
+},
 "BSE|542011|2026-09-30": {
 "t": "2026-11-11T15:26+05:30"
 },
@@ -6870,6 +6890,9 @@
 },
 "NSE SME|HOLMARC|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
+},
+"NSE SME|INDIFRA|2026-09-30": {
+"t": "2026-11-11T17:47+05:30"
 },
 "NSE SME|LAKSHYA|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
@@ -7264,6 +7287,10 @@
 "BSE:532989": {
 "t": "2026-11-11T17:06+05:30"
 },
+"BSE:533095": {
+"c": 1,
+"t": "2026-11-11T17:46+05:30"
+},
 "BSE:533163": {
 "t": "2026-11-10T16:46+05:30"
 },
@@ -7276,6 +7303,9 @@
 },
 "BSE:534060": {
 "t": "2026-11-11T15:51+05:30"
+},
+"BSE:535431": {
+"t": "2026-11-11T17:42+05:30"
 },
 "BSE:536659": {
 "c": 1,
@@ -7669,6 +7699,9 @@
 "INE772T01024": {
 "t": "2026-11-11T17:36+05:30"
 },
+"INE781A01025": {
+"t": "2026-11-11T17:41+05:30"
+},
 "INE810C01044": {
 "t": "2026-11-09T19:28+05:30"
 },
@@ -7720,6 +7753,9 @@
 },
 "INSPIRISYS": {
 "t": "2026-11-11T16:24+05:30"
+},
+"INTENTECH": {
+"t": "2026-11-11T17:41+05:30"
 },
 "KALYANKJIL": {
 "t": "2026-11-10T17:08+05:30"
@@ -7807,6 +7843,10 @@
 "N:BARFLEXPOLYFILMS": {
 "t": "2026-11-09T19:32+05:30"
 },
+"N:BENGALANDASSAMCOMPANY": {
+"c": 1,
+"t": "2026-11-11T17:46+05:30"
+},
 "N:BNRUDYOG": {
 "t": "2026-11-11T17:21+05:30"
 },
@@ -7885,6 +7925,9 @@
 "N:GAYATRISUGARS": {
 "t": "2026-11-11T16:56+05:30"
 },
+"N:GCMSECURITIES": {
+"t": "2026-11-11T17:42+05:30"
+},
 "N:GODAVARIDRUGS": {
 "t": "2026-11-11T17:21+05:30"
 },
@@ -7924,6 +7967,9 @@
 },
 "N:INSPIRISYSSOLUTIONS": {
 "t": "2026-11-11T16:24+05:30"
+},
+"N:INTENSETECHNOLOGIES": {
+"t": "2026-11-11T17:41+05:30"
 },
 "N:JAUSSPOLYMERS": {
 "t": "2026-11-10T17:40+05:30"
@@ -8527,6 +8573,10 @@
 "t": "2026-11-11T17:10+05:30",
 "v": 19.6
 },
+"BSE:533095": {
+"t": "2026-11-11T17:47+05:30",
+"v": 6502.5
+},
 "BSE:533163": {
 "t": "2026-11-10T23:49+05:30",
 "v": 124.7
@@ -8538,6 +8588,10 @@
 "BSE:534060": {
 "t": "2026-11-11T15:51+05:30",
 "v": 131.0
+},
+"BSE:535431": {
+"t": "2026-11-11T17:47+05:30",
+"v": 12.7
 },
 "BSE:536659": {
 "t": "2026-11-10T23:49+05:30",
@@ -8626,6 +8680,10 @@
 "INSPIRISYS": {
 "t": "2026-11-11T16:27+05:30",
 "v": 390.7
+},
+"INTENTECH": {
+"t": "2026-11-11T17:47+05:30",
+"v": 194.9
 },
 "MATRIMONY": {
 "t": "2026-11-10T16:14+05:30",
@@ -9309,6 +9367,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.xml": {
+"company": "Mishra Dhatu Nigam Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "541195",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_541195_11112026054118_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_542232_1111202616108_IFIndAs.xml": {
 "company": "Shankar Lal Rampal Dye-Chem Ltd",
 "consolidated": false,
@@ -9516,6 +9590,22 @@
 "uid": "NSE-sme-IF-212346",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212346_11112026170803_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756127_11112026050802_WEB.xml"
+},
+"NSE-sme-IF-212385": {
+"company": "Indifra Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:46:36+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "INDIFRA",
+"t": "2026-11-11T17:47+05:30",
+"uid": "NSE-sme-IF-212385",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212385_11112026174635_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756168_11112026054635_WEB.xml"
 }
 },
 "posted": {
@@ -10235,7 +10325,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:41+05:30",
+"t": "2026-11-11T17:47+05:30",
 "v": "INE0GOJ01027"
 },
 "123456": {
@@ -11025,7 +11115,7 @@
 "v": 727549000
 },
 "INE0GOJ01027": {
-"t": "2026-11-11T17:41+05:30",
+"t": "2026-11-11T17:47+05:30",
 "v": 505550000
 },
 "INE0GTX01019": {
