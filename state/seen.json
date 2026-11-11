@@ -6206,6 +6206,9 @@
 "NSE SME|DCCL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"NSE SME|EEPL|2026-09-30": {
+"t": "2026-11-11T12:15+05:30"
+},
 "NSE SME|LAKSHYA|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
 },
@@ -7173,6 +7176,22 @@
 "uid": "NSE-sme-IF-211864",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_211864_08112026125421_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755533_08112026125419_WEB.xml"
+},
+"NSE-sme-IF-212206": {
+"company": "Eppeltone Engineers Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T12:14:52+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "EEPL",
+"t": "2026-11-11T12:15+05:30",
+"uid": "NSE-sme-IF-212206",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212206_11112026121451_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1755980_11112026121450_WEB.xml"
 }
 },
 "posted": {
