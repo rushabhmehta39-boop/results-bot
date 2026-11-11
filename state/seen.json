@@ -330,6 +330,9 @@
 "ANN-equities-106855189-SRD": {
 "t": "2026-11-11T16:01+05:30"
 },
+"ANN-equities-106855238-INSPIRISYS": {
+"t": "2026-11-11T16:27+05:30"
+},
 "ANN-sme-106852873-LAKSHYA": {
 "t": "2026-11-08T18:13+05:30"
 },
@@ -5264,6 +5267,18 @@
 "s": "dup",
 "t": "2026-11-11T15:56+05:30"
 },
+"NSE-equities-IF-212296": {
+"s": "small",
+"t": "2026-11-11T16:26+05:30"
+},
+"NSE-equities-IF-212309": {
+"s": "superseded",
+"t": "2026-11-11T16:27+05:30"
+},
+"NSE-equities-IF-212312": {
+"s": "posted",
+"t": "2026-11-11T16:27+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -6273,6 +6288,9 @@
 "BSE|504036|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
 },
+"BSE|505160|2026-09-30": {
+"t": "2026-11-11T16:26+05:30"
+},
 "BSE|505302|2026-09-30": {
 "t": "2026-11-11T14:56+05:30"
 },
@@ -6359,6 +6377,9 @@
 },
 "BSE|530747|2026-09-30": {
 "t": "2026-11-11T16:06+05:30"
+},
+"BSE|531219|2026-09-30": {
+"t": "2026-11-11T16:26+05:30"
 },
 "BSE|531306|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
@@ -6471,6 +6492,9 @@
 "NSE SME|BARFLEX|2026-09-30": {
 "t": "2026-11-09T20:31+05:30"
 },
+"NSE SME|CELLPOINT|2026-09-30": {
+"t": "2026-11-11T16:26+05:30"
+},
 "NSE SME|DCCL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -6566,6 +6590,9 @@
 },
 "NSE|SVPGLOB|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
+},
+"NSE|TALBROAUTO|2026-09-30": {
+"t": "2026-11-11T16:26+05:30"
 },
 "NSE|TITAGARH|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -6908,6 +6935,9 @@
 "INE01NE01012": {
 "t": "2026-11-11T16:00+05:30"
 },
+"INE020G01017": {
+"t": "2026-11-11T16:24+05:30"
+},
 "INE047E01031": {
 "t": "2026-11-11T13:30+05:30"
 },
@@ -7135,6 +7165,9 @@
 "INE999K01014": {
 "t": "2026-11-11T12:29+05:30"
 },
+"INSPIRISYS": {
+"t": "2026-11-11T16:24+05:30"
+},
 "KALYANKJIL": {
 "t": "2026-11-10T17:08+05:30"
 },
@@ -7277,6 +7310,9 @@
 },
 "N:HIRECT": {
 "t": "2026-11-10T13:24+05:30"
+},
+"N:INSPIRISYSSOLUTIONS": {
+"t": "2026-11-11T16:24+05:30"
 },
 "N:JAUSSPOLYMERS": {
 "t": "2026-11-10T17:40+05:30"
@@ -7812,6 +7848,10 @@
 "t": "2026-11-11T14:51+05:30",
 "v": 25531.9
 },
+"INSPIRISYS": {
+"t": "2026-11-11T16:27+05:30",
+"v": 390.7
+},
 "MATRIMONY": {
 "t": "2026-11-10T16:14+05:30",
 "v": 1196.2
@@ -8059,6 +8099,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml": {
+"company": "Talbros Automotive Components Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "505160",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T16:26+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.xml": {
 "company": "Lakshmi Engineering And Warehousing Ltd",
 "consolidated": false,
@@ -8138,6 +8194,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml": {
+"company": "Shyama Computronics and Services Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531219",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T16:26+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml": {
 "company": "Rathi Bars Ltd",
@@ -8219,22 +8291,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml"
 },
-"NSE-equities-IF-212296": {
-"company": "Shankar Lal Rampal Dye-Chem Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T16:10:34+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SRD",
-"t": "2026-11-11T16:11+05:30",
-"uid": "NSE-equities-IF-212296",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212296_11112026161034_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756075_11112026041033_WEB.xml"
-},
 "NSE-equities-IF-212305": {
 "company": "Ambika Cotton Mills Limited",
 "consolidated": false,
@@ -8282,6 +8338,22 @@
 "uid": "NSE-sme-IF-212300",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212300_11112026161606_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756079_11112026041605_WEB.xml"
+},
+"NSE-sme-IF-212313": {
+"company": "Cell Point (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T16:24:59+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "CELLPOINT",
+"t": "2026-11-11T16:26+05:30",
+"uid": "NSE-sme-IF-212313",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212313_11112026162458_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756089_11112026042458_WEB.xml"
 }
 },
 "posted": {
@@ -8453,6 +8525,13 @@
 "n": "GUJARATALKALIESANDCHEMICALS",
 "pe": "2026-09-30",
 "t": "2026-11-06T23:12+05:30"
+},
+"INE187D01029|2026-09-30|C": {
+"b": "C",
+"mid": 171,
+"n": "TALBROSAUTOMOTIVECOMPONENTS",
+"pe": "2026-09-30",
+"t": "2026-11-11T16:27+05:30"
 },
 "INE188B01013|2026-09-30|S": {
 "b": "S",
@@ -9019,6 +9098,10 @@
 "t": "2026-11-06T23:16+05:30",
 "v": "INE323C01030"
 },
+"505160": {
+"t": "2026-11-11T16:27+05:30",
+"v": "INE187D01029"
+},
 "505590": {
 "t": "2026-11-10T02:38+05:30",
 "v": "INE308E01029"
@@ -9411,6 +9494,10 @@
 "t": "2026-11-07T22:09+05:30",
 "v": "INE685Z01033"
 },
+"542232": {
+"t": "2026-11-11T16:26+05:30",
+"v": "INE01NE01012"
+},
 "543266": {
 "t": "2026-11-07T22:09+05:30",
 "v": "INE694N01015"
@@ -9612,6 +9699,10 @@
 "INE01EO01010": {
 "t": "2026-11-07T22:07+05:30",
 "v": 17087500
+},
+"INE01NE01012": {
+"t": "2026-11-11T16:26+05:30",
+"v": 63966800
 },
 "INE022C01012": {
 "t": "2026-11-06T22:39+05:30",
@@ -9828,6 +9919,10 @@
 "INE186A01019": {
 "t": "2026-11-06T23:12+05:30",
 "v": 73440000
+},
+"INE187D01029": {
+"t": "2026-11-11T16:27+05:30",
+"v": 61728000
 },
 "INE188B01013": {
 "t": "2026-11-06T23:17+05:30",
