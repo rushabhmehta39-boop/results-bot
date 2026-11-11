@@ -1219,6 +1219,10 @@
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
 },
+"BSE-IFOtherthan_544015_1111202619236_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-11T21:28+05:30"
+},
 "BSE-IFOtherthan_544082_6112026162056_IFOtherthan.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -10656,22 +10660,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
 },
-"BSE-IFOtherthan_544015_1111202619236_IFOtherthan.xml": {
-"company": "Mish Designs Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544015",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T19:24+05:30",
-"uid": "BSE-IFOtherthan_544015_1111202619236_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544015_1111202619236_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544015_1111202619236_IFOtherthan.xml"
-},
 "BSE-IFOtherthan_544171_11112026202355_IFOtherthan.xml": {
 "company": "Storage Technologies and Automation Ltd",
 "consolidated": false,
@@ -12884,6 +12872,10 @@
 "t": "2026-11-11T20:11+05:30",
 "v": "INE210F01016"
 },
+"544015": {
+"t": "2026-11-11T21:28+05:30",
+"v": "INE0QI101019"
+},
 "544121": {
 "t": "2026-11-07T22:09+05:30",
 "v": "INE0OYK01010"
@@ -13233,6 +13225,10 @@
 "INE0Q4701019": {
 "t": "2026-11-07T22:08+05:30",
 "v": 13260000
+},
+"INE0QI101019": {
+"t": "2026-11-11T21:28+05:30",
+"v": 353300
 },
 "INE0QX401014": {
 "t": "2026-11-10T23:49+05:30",
