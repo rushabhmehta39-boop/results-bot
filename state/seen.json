@@ -698,6 +698,9 @@
 "BANN-94c3fff8-1f4d-4eb6-894b-a503935e0ee4": {
 "t": "2026-11-11T15:01+05:30"
 },
+"BANN-99f1a09d-34db-4773-a8d6-7afc10526eee": {
+"t": "2026-11-11T17:29+05:30"
+},
 "BANN-9c71d7fb-4151-49b1-9a56-6c488255011b": {
 "t": "2026-11-11T17:23+05:30"
 },
@@ -1923,6 +1926,10 @@
 "BSE-Integrated_Finance_Ind_As_541601_7112026141445_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-07T22:09+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T17:29+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_542020_611202619156_IFIndAs.xml": {
 "s": "old",
@@ -5492,6 +5499,11 @@
 "s": "dup",
 "t": "2026-11-11T17:17+05:30"
 },
+"NSE-equities-IF-212361": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-11T17:29+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -6498,9 +6510,9 @@
 "t": "2026-11-11T17:23+05:30"
 },
 "NSE-sme-IF-212346": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-11T17:23+05:30"
+"t": "2026-11-11T17:29+05:30"
 }
 },
 "first_seen": {
@@ -6528,8 +6540,14 @@
 "BSE|505160|2026-09-30": {
 "t": "2026-11-11T16:26+05:30"
 },
+"BSE|505232|2026-09-30": {
+"t": "2026-11-11T17:28+05:30"
+},
 "BSE|505302|2026-09-30": {
 "t": "2026-11-11T14:56+05:30"
+},
+"BSE|505502|2026-09-30": {
+"t": "2026-11-11T17:28+05:30"
 },
 "BSE|505590|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
@@ -6578,6 +6596,9 @@
 },
 "BSE|517554|2026-09-30": {
 "t": "2026-11-08T18:12+05:30"
+},
+"BSE|519105|2026-09-30": {
+"t": "2026-11-11T17:28+05:30"
 },
 "BSE|519295|2026-09-30": {
 "t": "2026-11-11T14:05+05:30"
@@ -6804,6 +6825,9 @@
 "NSE|AVANTIFEED|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"NSE|AVTNPL|2026-09-30": {
+"t": "2026-11-11T17:28+05:30"
+},
 "NSE|BAJAJHIND|2026-09-30": {
 "t": "2026-11-11T15:11+05:30"
 },
@@ -6994,6 +7018,9 @@
 "BSE:511692": {
 "c": 1,
 "t": "2026-11-11T16:31+05:30"
+},
+"BSE:511756": {
+"t": "2026-11-11T17:23+05:30"
 },
 "BSE:512036": {
 "t": "2026-11-10T20:27+05:30"
@@ -7615,6 +7642,9 @@
 "MRF": {
 "t": "2026-11-10T12:24+05:30"
 },
+"N:ABIRAMIFINANCIALSERVICESINDIA": {
+"t": "2026-11-11T17:23+05:30"
+},
 "N:AJCONGLOBALSERVICES": {
 "c": 1,
 "t": "2026-11-11T16:31+05:30"
@@ -8188,6 +8218,10 @@
 "BSE:511692": {
 "t": "2026-11-11T16:31+05:30",
 "v": 35.5
+},
+"BSE:511756": {
+"t": "2026-11-11T17:29+05:30",
+"v": 17.8
 },
 "BSE:512036": {
 "t": "2026-11-10T23:49+05:30",
@@ -8786,6 +8820,38 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_505232_11112026172444_IFIndAs.xml": {
+"company": "Veljan Denison Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "505232",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_505232_11112026172444_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505232_11112026172444_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505232_11112026172444_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.xml": {
+"company": "PS IT Infrastructure & Services Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "505502",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml": {
 "company": "TGV Sraac Ltd",
 "consolidated": false,
@@ -8865,6 +8931,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml": {
+"company": "AVT Natural Products Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "519105",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T17:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.xml": {
 "company": "NCC Bluewater Products Ltd",
@@ -9010,22 +9092,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml": {
-"company": "Garden Reach Shipbuilders & Engineers Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "542011",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T15:26+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542011_11112026152549_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_542232_1111202616108_IFIndAs.xml": {
 "company": "Shankar Lal Rampal Dye-Chem Ltd",
 "consolidated": false,
@@ -9073,6 +9139,38 @@
 "uid": "BSE-Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml"
+},
+"NSE-equities-IF-212360": {
+"company": "AVT Natural Products Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T17:25:56+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "AVTNPL",
+"t": "2026-11-11T17:28+05:30",
+"uid": "NSE-equities-IF-212360",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212360_11112026172556_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756150_11112026052556_WEB.xml"
+},
+"NSE-equities-IF-212361": {
+"company": "AVT Natural Products Limited",
+"consolidated": true,
+"filed_at": "2026-11-11T17:26:03+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "AVTNPL",
+"t": "2026-11-11T17:28+05:30",
+"uid": "NSE-equities-IF-212361",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212361_11112026172602_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756151_11112026052602_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -9823,7 +9921,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-11T17:23+05:30",
+"t": "2026-11-11T17:29+05:30",
 "v": "INE0GOJ01027"
 },
 "123456": {
@@ -10605,7 +10703,7 @@
 "v": 727549000
 },
 "INE0GOJ01027": {
-"t": "2026-11-11T17:23+05:30",
+"t": "2026-11-11T17:29+05:30",
 "v": 505550000
 },
 "INE0GTX01019": {
