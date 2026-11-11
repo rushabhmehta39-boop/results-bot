@@ -450,6 +450,12 @@
 "ANN-sme-106855036-SAMAY": {
 "t": "2026-11-11T14:11+05:30"
 },
+"ANN-sme-106855147-MARUSHIKA": {
+"t": "2026-11-11T15:36+05:30"
+},
+"ANN-sme-106855151-VINYAS": {
+"t": "2026-11-11T15:36+05:30"
+},
 "BANN-0b4536a5-ed94-42ad-af05-8b311a41f755": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -1007,6 +1013,10 @@
 "BSE-Integrated_Finance_Ind_As_509845_6112026162153_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T15:36+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_511096_6112026171639_IFIndAs.xml": {
 "s": "old",
@@ -7133,6 +7143,9 @@
 "MAGSON": {
 "t": "2026-11-09T13:08+05:30"
 },
+"MARUSHIKA": {
+"t": "2026-11-11T15:33+05:30"
+},
 "MATRIMONY": {
 "t": "2026-11-10T15:48+05:30"
 },
@@ -7288,6 +7301,9 @@
 "N:MANRAJHOUSINGFINANCE": {
 "t": "2026-11-09T18:20+05:30"
 },
+"N:MARUSHIKATECHNOLOGY": {
+"t": "2026-11-11T15:33+05:30"
+},
 "N:MATRIMONYCOM": {
 "t": "2026-11-10T15:48+05:30"
 },
@@ -7435,6 +7451,9 @@
 "N:VENTURATEXTILES": {
 "t": "2026-11-09T19:28+05:30"
 },
+"N:VINYASINNOVATIVETECHNOLOGIES": {
+"t": "2026-11-11T15:34+05:30"
+},
 "N:VIRINCHI": {
 "t": "2026-11-10T20:44+05:30"
 },
@@ -7501,6 +7520,9 @@
 },
 "VHL": {
 "t": "2026-11-10T13:02+05:30"
+},
+"VINYAS": {
+"t": "2026-11-11T15:34+05:30"
 },
 "VIRINCHI": {
 "t": "2026-11-10T20:44+05:30"
@@ -8048,22 +8070,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml": {
-"company": "JMD Ventures Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "511092",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T13:35+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511092_11112026133117_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_519295_1111202614231_IFIndAs.xml": {
 "company": "Bambino Agro Industries Ltd",
@@ -8948,6 +8954,10 @@
 "t": "2026-11-06T23:15+05:30",
 "v": "INE426D01013"
 },
+"511092": {
+"t": "2026-11-11T15:36+05:30",
+"v": "INE047E01031"
+},
 "511551": {
 "t": "2026-11-06T23:10+05:30",
 "v": "INE903D01011"
@@ -9509,6 +9519,10 @@
 "INE03DD01011": {
 "t": "2026-11-06T23:15+05:30",
 "v": 8204600
+},
+"INE047E01031": {
+"t": "2026-11-11T15:36+05:30",
+"v": 28858400
 },
 "INE04Q901010": {
 "t": "2026-11-11T08:49+05:30",
