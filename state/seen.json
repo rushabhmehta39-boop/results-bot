@@ -5271,6 +5271,18 @@
 "s": "posted",
 "t": "2026-11-11T14:11+05:30"
 },
+"NSE-equities-IF-212251": {
+"s": "small",
+"t": "2026-11-11T15:11+05:30"
+},
+"NSE-equities-IF-212259": {
+"s": "superseded",
+"t": "2026-11-11T15:11+05:30"
+},
+"NSE-equities-IF-212260": {
+"s": "posted",
+"t": "2026-11-11T15:11+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -6262,6 +6274,9 @@
 }
 },
 "first_seen": {
+"BSE|500032|2026-09-30": {
+"t": "2026-11-11T15:11+05:30"
+},
 "BSE|500238|2026-09-30": {
 "t": "2026-11-09T18:51+05:30"
 },
@@ -6483,6 +6498,9 @@
 },
 "NSE|AVANTIFEED|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|BAJAJHIND|2026-09-30": {
+"t": "2026-11-11T15:11+05:30"
 },
 "NSE|COCHINSHIP|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -7897,6 +7915,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_522267_11112026121518_IFOtherthan.xml"
 },
+"BSE-Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml": {
+"company": "Bajaj Hindusthan Sugar Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "500032",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T15:11+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_505302_11112026145425_IFIndAs.xml": {
 "company": "Lakshmi Engineering And Warehousing Ltd",
 "consolidated": false,
@@ -7992,22 +8026,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531978_11112026135029_IFIndAs.xml"
-},
-"NSE-equities-IF-212251": {
-"company": "Sakthi Sugars Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T14:54:30+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SAKHTISUG",
-"t": "2026-11-11T14:56+05:30",
-"uid": "NSE-equities-IF-212251",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212251_11112026145429_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756026_11112026025429_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -8281,6 +8299,13 @@
 "n": "KALYANJEWELLERSINDIA",
 "pe": "2026-09-30",
 "t": "2026-11-10T23:48+05:30"
+},
+"INE306A01021|2026-09-30|C": {
+"b": "C",
+"mid": 169,
+"n": "BAJAJHINDUSTHANSUGAR",
+"pe": "2026-09-30",
+"t": "2026-11-11T15:11+05:30"
 },
 "INE319Y01024|2026-09-30|S": {
 "b": "S",
@@ -8679,6 +8704,10 @@
 "t": "2026-11-06T23:16+05:30",
 "v": "INE365I01020"
 },
+"500032": {
+"t": "2026-11-11T15:11+05:30",
+"v": "INE306A01021"
+},
 "500048": {
 "t": "2026-11-06T23:13+05:30",
 "v": "INE258A01024"
@@ -8746,6 +8775,10 @@
 "506655": {
 "t": "2026-11-06T22:39+05:30",
 "v": "INE659A01023"
+},
+"507315": {
+"t": "2026-11-11T15:11+05:30",
+"v": "INE623A01011"
 },
 "507508": {
 "t": "2026-11-07T22:09+05:30",
@@ -9633,6 +9666,10 @@
 "t": "2026-11-10T23:48+05:30",
 "v": 1032751000
 },
+"INE306A01021": {
+"t": "2026-11-11T15:11+05:30",
+"v": 30945200000
+},
 "INE308E01029": {
 "t": "2026-11-10T02:38+05:30",
 "v": 126500000
@@ -9840,6 +9877,10 @@
 "INE615H01020": {
 "t": "2026-11-10T23:49+05:30",
 "v": 134650000
+},
+"INE623A01011": {
+"t": "2026-11-11T15:11+05:30",
+"v": 118849000
 },
 "INE628D01014": {
 "t": "2026-11-09T20:32+05:30",
