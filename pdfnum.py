@@ -7,7 +7,7 @@ Only returns numbers when every check passes for all three columns; anything dou
 """
 from __future__ import annotations
 
-VERSION = 4  # bump when the reader improves: today's alerts without a card get one more try
+VERSION = 5  # bump when the reader improves: today's alerts without a card get one more try
 
 import calendar
 import io
@@ -525,10 +525,13 @@ def _check_col(v: dict, dec: int):
         return None, ["tax row missing"]
     if not close(pbt - tax, pat, 4):
         probs.append(f"PBT {pbt} - tax {tax} != PAT {pat}")
-    if te is None:
-        if pbe is None:
+    if te is None:  # no readable total line: expenses = income - profit (before exceptional items)
+        if pbe is not None:
+            te = ti - pbe
+        elif not exc and jv is None:
+            te = ti - pbt
+        else:
             return None, ["total expenses missing"]
-        te = ti - pbe + (jv or 0) * 0  # no total line: expenses = income - profit before exceptional items
     # operating profit before exceptional items, with or without the share of associates / JVs
     op = ti - te
     if pbe is not None:
@@ -545,10 +548,8 @@ def _check_col(v: dict, dec: int):
         pbe = pbt - (exc or 0)
         if jv is not None and close(op + (exc or 0) + jv, pbt, 4):
             pbe = pbt - (exc or 0)
-    if fin is None:
-        fin = 0.0
-    if dep is None:
-        dep = 0.0
+    if fin is None or dep is None:  # every statement has both lines; a missing one would distort EBITDA
+        return None, [("finance costs" if fin is None else "depreciation") + " row missing"]
     m = {"revenue": rev, "other_income": oi, "total_income": ti, "total_expenses": te, "finance": fin,
          "depreciation": dep, "pbe": pbe if pbe is not None else pbt - (exc or 0), "pbt": pbt, "tax": tax, "pat": pat}
     if jv is not None and pbe is not None and close(op, pbe) and not close(op + jv, pbe):
@@ -610,10 +611,90 @@ def _matches_known(cols: dict, fac: float, kn: dict) -> tuple[int, list]:
     return agree, probs
 
 
+_TESS: str | None = None
+
+
+def _tesseract() -> str:
+    """Path of the Tesseract OCR program ('' if unavailable). On GitHub it is installed the first time it is needed."""
+    global _TESS
+    if _TESS is None:
+        import os
+        import shutil
+        import subprocess
+        path = shutil.which("tesseract") or ""
+        if not path and os.environ.get("GITHUB_ACTIONS") == "true":
+            for cmd in (["sudo", "apt-get", "install", "-y", "-qq", "tesseract-ocr"], ["sudo", "apt-get", "update", "-qq"],
+                        ["sudo", "apt-get", "install", "-y", "-qq", "tesseract-ocr"]):
+                try:
+                    subprocess.run(cmd, capture_output=True, timeout=240)
+                except Exception:  # noqa: BLE001
+                    pass
+                path = shutil.which("tesseract") or ""
+                if path:
+                    break
+        _TESS = path
+    return _TESS
+
+
+def _ocr_words(page, dpi: int = 300) -> list[dict]:
+    """Words of a scanned page, with positions in PDF points, read by Tesseract."""
+    import subprocess
+    tess = _tesseract()
+    if not tess:
+        return []
+    img = page.to_image(resolution=dpi).original.convert("L")
+
+    def run(im, psm):
+        buf = io.BytesIO()
+        im.save(buf, format="PNG")
+        r = subprocess.run([tess, "stdin", "stdout", "--psm", psm, "tsv"], input=buf.getvalue(),
+                           capture_output=True, timeout=120)
+        return r.stdout.decode("utf-8", "replace")
+
+    def words_of(tsv, w_px, h_px, rot):
+        sc = 72.0 / dpi
+        raw, by_line = [], {}
+        for row in tsv.splitlines()[1:]:
+            c = row.split("\t")
+            if len(c) != 12 or c[0] != "5" or not c[11].strip():
+                continue
+            left, top, w, h = (int(x) for x in c[6:10])
+            raw.append((c[11].strip(), left, top, w, h))
+            by_line.setdefault((c[2], c[3], c[4]), []).append((left + w / 2, top + h / 2))
+        # tilted scan: measure the tilt from Tesseract's own text lines and straighten the positions
+        slopes = []
+        for pts in by_line.values():
+            if len(pts) >= 3 and max(x for x, _ in pts) - min(x for x, _ in pts) > 0.3 * w_px:
+                n = len(pts)
+                mx, my = sum(x for x, _ in pts) / n, sum(y for _, y in pts) / n
+                den = sum((x - mx) ** 2 for x, _ in pts)
+                if den:
+                    slopes.append(sum((x - mx) * (y - my) for x, y in pts) / den)
+        slope = sorted(slopes)[len(slopes) // 2] if len(slopes) >= 3 else 0.0
+        if abs(slope) > 0.05:
+            slope = 0.0
+        out = []
+        for text, left, top, w, h in raw:
+            dy = slope * (left + w / 2)
+            out.append({"text": text, "x0": left * sc, "x1": (left + w) * sc,
+                        "top": (top - dy) * sc, "bottom": (top + h - dy) * sc})
+        return out
+    words = words_of(run(img, "6"), *img.size, 0)
+    text = " ".join(w["text"] for w in words).lower()
+    if not ("revenue" in text or "income" in text):  # page scanned sideways? ask Tesseract which way is up
+        osd = run(img, "0")
+        m = re.search(r"Rotate:\s*(\d+)", osd)
+        if m and int(m.group(1)) in (90, 180, 270):
+            im2 = img.rotate(-int(m.group(1)), expand=True)
+            words = words_of(run(im2, "6"), *im2.size, int(m.group(1)))
+    return words
+
+
 def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pages: int = 30,
-                     time_limit: float = 45.0) -> dict:
+                     time_limit: float = 45.0, ocr: bool = True, ocr_pages: int = 14, ocr_time: float = 120.0) -> dict:
     """known: {"C"/"S": {"prev": metrics, "yoy": metrics}} in Rs crore, from earlier XBRL filings (optional).
-    PDF columns must agree with it when given; it also settles an unstated unit or basis."""
+    PDF columns must agree with it when given; it also settles an unstated unit or basis.
+    Scanned pages (images) are read with OCR when the text of the PDF does not give an answer."""
     import time as _time
     try:
         import pdfplumber
@@ -624,15 +705,105 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
     t0 = _time.monotonic()
     known = known or {}
     reasons, good = [], []
-    cons_seen = False  # the PDF has a consolidated results statement (read or not)
+    st = {"cons": False, "bank": None}
+    doc_text: list[str] = []
+
+    def scan(pno: int, words: list[dict], how: str) -> None:
+        low = " ".join(w["text"] for w in words).lower()
+        doc_text.append(low)
+        squeezed = low.replace(" ", "")
+        if not (("revenuefromoperations" in squeezed or "incomefromoperations" in squeezed
+                 or "totalincome" in squeezed) and "tax" in low and ("profit" in low or "loss" in low)):
+            return
+        if "interest earned" in low and ("advances" in low or "bills" in low):
+            st["bank"] = "bank format (not read from PDF)"
+            return
+        if "net premium" in low or "premium earned" in low:
+            st["bank"] = "insurance format (not read from PDF)"
+            return
+        groups, err = _table(_lines(words), qe, low)
+        if err:
+            reasons.append(f"p{pno}{how}: {err}")
+            return
+        head_text = next((g["head_text"] for g in groups if "head_text" in g), "")
+        if "consolidated" in head_text or "consolidated" in low[:400] or any(g.get("basis") == "C" for g in groups):
+            st["cons"] = True
+        unit = _unit(head_text) or _unit(low)
+        for g in groups:
+            if "why" in g:
+                reasons.append(f"p{pno}{how}: {g['why']}")
+                continue
+            basis = g["basis"]
+            if basis is None:
+                hc, hs = head_text.rfind("consolidated"), head_text.rfind("standalone")
+                if hc < 0 and hs < 0 and len(doc_text) > 1:
+                    prev = doc_text[-2][-600:]
+                    hc, hs = prev.rfind("consolidated"), prev.rfind("standalone")
+                basis = ("C" if hc > hs else "S") if (hc >= 0 or hs >= 0) else "?"
+                st["cons"] = st["cons"] or basis == "C"
+            raw, problems = {}, []
+            for name, ci in zip(("cur", "prev", "yoy"), g["cols"]):
+                vals, order, labels = _extract(g["rows"], ci)
+                decs = [x[1] for x in vals.values() if x is not None]
+                dec = max(set(decs), key=decs.count) if decs else 2
+                m, probs = _check_col(vals, dec)
+                if m is None:
+                    problems += [f"{name}: {x}" for x in probs]
+                    break
+                problems += [f"{name}: {x}" for x in probs]
+                raw[name] = m
+            if not problems and len(raw) == 3 and g.get("h1") is not None:
+                hv, _, _ = _extract(g["rows"], g["h1"])
+                hm, _ = _check_col(hv, 2)
+                if hm is None:
+                    problems.append("half-year column unreadable")
+                else:
+                    for k in ("revenue", "pat"):
+                        a2, b2 = raw["cur"][k] + raw["prev"][k], hm[k]
+                        if abs(a2 - b2) > max(0.06, 0.004 * max(abs(a2), abs(b2))):
+                            problems.append(f"quarter + last quarter {k} {a2:.2f} != half year {b2:.2f}")
+            if problems or len(raw) < 3:
+                reasons.append(f"p{pno}{how} {basis}: " + "; ".join(problems[:3]))
+                continue
+            options = [basis] if basis in ("C", "S") else ["C", "S"]
+            facs = ([1e-7 if unit == "rupee" else FACTOR[unit]] if unit
+                    else [FACTOR["lakh"], FACTOR["crore"], FACTOR["million"], FACTOR["thousand"], 1e-7])
+            best = None
+            for b in options:
+                kn = known.get(b) or {}
+                for fac in facs:
+                    agree, probs = _matches_known(raw, fac, kn)
+                    if probs:
+                        continue
+                    if agree or (unit and b == basis):
+                        if best is None or agree > best[2]:
+                            best = (b, fac, agree)
+            if best is None and basis == "?" and unit and not any(known.get(b) for b in ("C", "S")):
+                best = ("?", 1e-7 if unit == "rupee" else FACTOR[unit], 0)
+            if best is None:
+                why = "unit not stated" if not unit else "does not match the company's earlier filing"
+                if basis == "?" and unit:
+                    why = "standalone or consolidated not stated"
+                reasons.append(f"p{pno}{how} {basis}: {why}")
+                continue
+            b, fac, agree = best
+            cols = {n: {k: (None if x is None else round(x * fac, 4)) for k, x in m.items()} for n, m in raw.items()}
+            unit_name = unit or next((k for k, v in FACTOR.items() if v == fac), "rupee")
+            good.append({"ok": True, "basis": b, "unit": unit_name, "page": pno, "cols": cols, "how": g["how"],
+                         "ncols": g["ncols"], "history_checks": agree, "ocr": bool(how)})
+
+    def done() -> bool:
+        return any(r["basis"] == "C" for r in good) or (
+            any(r["basis"] in ("S", "?") for r in good) and not st["cons"]
+            and not _mentions_consolidated(" ".join(doc_text)))
+
     try:
         pdf = pdfplumber.open(io.BytesIO(content))
     except Exception as e:  # noqa: BLE001
         return {"ok": False, "why": f"cannot open PDF: {type(e).__name__}"}
     with pdf:
-        doc_text = []
         npages = len(pdf.pages)
-        any_text = False
+        scanned = []  # pages that are pictures: little or no text, or one big image
         for pno, page in enumerate(pdf.pages[:max_pages], 1):
             if _time.monotonic() - t0 > time_limit:
                 reasons.append(f"stopped after {pno - 1} pages (time limit)")
@@ -641,100 +812,38 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                 if len(page.chars) > 25000:
                     continue
                 words = page.extract_words(x_tolerance=2.5, y_tolerance=2, keep_blank_chars=False)
+                big_image = any((im["x1"] - im["x0"]) * (im["bottom"] - im["top"]) > 0.5 * page.width * page.height
+                                for im in page.images)
             except Exception as e:  # noqa: BLE001
                 reasons.append(f"p{pno}: {type(e).__name__}")
                 continue
-            if words:
-                any_text = True
-            low = " ".join(w["text"] for w in words).lower()
-            doc_text.append(low)
-            squeezed = low.replace(" ", "")
-            if not (("revenuefromoperations" in squeezed or "incomefromoperations" in squeezed
-                     or "totalincome" in squeezed) and "tax" in low and ("profit" in low or "loss" in low)):
-                continue
-            if "interest earned" in low and ("advances" in low or "bills" in low):
-                return {"ok": False, "why": "bank format (not read from PDF)"}
-            if "net premium" in low or "premium earned" in low:
-                return {"ok": False, "why": "insurance format (not read from PDF)"}
-            groups, err = _table(_lines(words), qe, low)
-            if err:
-                reasons.append(f"p{pno}: {err}")
-                continue
-            head_text = next((g["head_text"] for g in groups if "head_text" in g), "")
-            if "consolidated" in head_text or "consolidated" in low[:400] or any(g.get("basis") == "C" for g in groups):
-                cons_seen = True
-            unit = _unit(head_text) or _unit(low)
-            for g in groups:
-                if "why" in g:
-                    reasons.append(f"p{pno}: {g['why']}")
+            if len(words) < 40 or big_image:
+                scanned.append(pno)
+            scan(pno, words, "")
+            if st["bank"]:
+                return {"ok": False, "why": st["bank"]}
+        # pictures of pages: read them with OCR if the text did not settle it
+        if ocr and scanned and not done() and _tesseract():
+            t1 = _time.monotonic()
+            for pno in scanned[:ocr_pages]:
+                if _time.monotonic() - t1 > ocr_time:
+                    reasons.append("OCR stopped (time limit)")
+                    break
+                try:
+                    words = _ocr_words(pdf.pages[pno - 1])
+                except Exception as e:  # noqa: BLE001
+                    reasons.append(f"p{pno} OCR: {type(e).__name__}")
                     continue
-                basis = g["basis"]
-                if basis is None:
-                    hc, hs = head_text.rfind("consolidated"), head_text.rfind("standalone")
-                    if hc < 0 and hs < 0 and len(doc_text) > 1:
-                        prev = doc_text[-2][-600:]
-                        hc, hs = prev.rfind("consolidated"), prev.rfind("standalone")
-                    basis = ("C" if hc > hs else "S") if (hc >= 0 or hs >= 0) else "?"
-                    cons_seen = cons_seen or basis == "C"
-                raw, problems = {}, []
-                for name, ci in zip(("cur", "prev", "yoy"), g["cols"]):
-                    vals, order, labels = _extract(g["rows"], ci)
-                    decs = [x[1] for x in vals.values() if x is not None]
-                    dec = max(set(decs), key=decs.count) if decs else 2
-                    m, probs = _check_col(vals, dec)
-                    if m is None:
-                        problems += [f"{name}: {x}" for x in probs]
-                        break
-                    problems += [f"{name}: {x}" for x in probs]
-                    raw[name] = m
-                if not problems and len(raw) == 3 and g.get("h1") is not None:
-                    hv, _, _ = _extract(g["rows"], g["h1"])
-                    hm, _ = _check_col(hv, 2)
-                    if hm is None:
-                        problems.append("half-year column unreadable")
-                    else:
-                        for k in ("revenue", "pat"):
-                            a2, b2 = raw["cur"][k] + raw["prev"][k], hm[k]
-                            if abs(a2 - b2) > max(0.06, 0.004 * max(abs(a2), abs(b2))):
-                                problems.append(f"quarter + last quarter {k} {a2:.2f} != half year {b2:.2f}")
-                if problems or len(raw) < 3:
-                    reasons.append(f"p{pno} {basis}: " + "; ".join(problems[:3]))
-                    continue
-                # unit, basis and agreement with the company's earlier filings
-                options = [basis] if basis in ("C", "S") else ["C", "S"]
-                facs = ([1e-7 if unit == "rupee" else FACTOR[unit]] if unit
-                        else [FACTOR["lakh"], FACTOR["crore"], FACTOR["million"], FACTOR["thousand"], 1e-7])
-                best = None
-                for b in options:
-                    kn = known.get(b) or {}
-                    for fac in facs:
-                        agree, probs = _matches_known(raw, fac, kn)
-                        if probs:
-                            continue
-                        if agree or (unit and b == basis):
-                            if best is None or agree > best[2]:
-                                best = (b, fac, agree)
-                if best is None and basis == "?" and unit and not any(known.get(b) for b in ("C", "S")):
-                    best = ("?", 1e-7 if unit == "rupee" else FACTOR[unit], 0)
-                if best is None:
-                    why = "unit not stated" if not unit else "does not match the company's earlier filing"
-                    if basis == "?" and unit:
-                        why = "standalone or consolidated not stated"
-                    reasons.append(f"p{pno} {basis}: {why}")
-                    continue
-                b, fac, agree = best
-                cols = {n: {k: (None if x is None else round(x * fac, 4)) for k, x in m.items()} for n, m in raw.items()}
-                unit_name = unit or next(k for k, v in FACTOR.items() if v == fac) if fac != 1e-7 else (unit or "rupee")
-                good.append({"ok": True, "basis": b, "unit": unit_name, "page": pno, "cols": cols, "how": g["how"],
-                             "ncols": g["ncols"], "history_checks": agree})
-        if not any_text:
-            return {"ok": False, "why": "scanned PDF (no text)"}
+                scan(pno, words, " OCR")
+                if st["bank"]:
+                    return {"ok": False, "why": st["bank"]}
+                if done():
+                    break
     full = " ".join(doc_text)
-    cons_seen = cons_seen or _mentions_consolidated(full)
+    cons_seen = st["cons"] or _mentions_consolidated(full)
     for r in good:
         if r["basis"] == "C":
             return dict(r, has_consolidated=True)
-    # standalone only when the PDF has no consolidated statement at all
     if cons_seen and any(r["basis"] in ("S", "?") for r in good):
         return {"ok": False, "has_consolidated": True,
                 "why": "the consolidated statement could not be read (standalone not sent on its own)"}
@@ -746,5 +855,7 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
             return dict(r, basis="S", has_consolidated=False)
     if good:
         return {"ok": False, "why": "standalone or consolidated not stated", "has_consolidated": cons_seen}
+    if not full.strip():
+        return {"ok": False, "why": "scanned PDF (no text, OCR unavailable)", "has_consolidated": False}
     return {"ok": False, "has_consolidated": cons_seen,
             "why": "; ".join(reasons[:6]) or f"no results table found in {min(npages, max_pages)} pages"}

@@ -12,7 +12,9 @@ Every 5 minutes from 8 AM to 11 PM, Monday to Saturday (off on Sunday), this bot
 5. If the company has not filed its XBRL yet, it reads the numbers straight from the **results PDF**
    and sends the card right away, marked "Read from the results PDF". It only does so when the table adds up
    (total income, profit before tax − tax = profit after tax, expenses, and this quarter + last quarter = half
-   year), and when it matches the company's earlier filings. Scanned PDFs it cannot read wait for the XBRL.
+   year), and when it matches the company's earlier filings. Scanned PDFs (pictures of the pages) are read
+   with OCR (Tesseract, installed automatically the first time it is needed); anything it still cannot read
+   waits for the XBRL.
    When the XBRL arrives, the bot compares: same numbers → nothing more is sent; different → a
    "Corrected numbers" card follows as a reply.
 6. **Consolidated first.** A company that reports consolidated numbers gets a consolidated card. Standalone is
