@@ -40,11 +40,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Is it checking time? (Mon-Sat, 8 AM to 11 PM India time)
+      - name: Is it checking time? (Mon-Sat 8 AM to midnight, Sunday 11 PM to midnight, India time)
         id: when
         run: |
           dow=$(TZ=Asia/Kolkata date +%u); hm=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "${{ github.event.inputs.mode }}" != "chain" ] || { [ "$dow" -le 6 ] && [ "$hm" -ge 0800 ] && [ "$hm" -le 2300 ]; }; then
+          if [ "${{ github.event.inputs.mode }}" != "chain" ] || { [ "$dow" -le 6 ] && [ "$hm" -ge 0800 ]; } || [ "$hm" -ge 2300 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"; echo "Outside checking hours - just keeping the bot alive."

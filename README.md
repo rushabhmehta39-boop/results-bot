@@ -118,6 +118,8 @@ A Windows or Mac PC works the same way (`pip install -r requirements.txt`, then
   on a device at home.
 - GitHub can start scheduled runs a few minutes late at busy times.
 - Results filed after 11 PM or on Sunday arrive with the first check at 8 AM the next working morning.
+  Between 11 PM and midnight (and late on Sunday) the bot only notes new filings and sends nothing,
+  because BSE's results list starts afresh at midnight.
 - If GitHub ever emails that the workflow was disabled, open **Actions** and tap **Enable workflow**.
 - Uses unofficial exchange web addresses; they can change without notice. For personal use.
   **Not investment advice.**
@@ -170,11 +172,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Is it checking time? (Mon-Sat, 8 AM to 11 PM India time)
+      - name: Is it checking time? (Mon-Sat 8 AM to midnight, Sunday 11 PM to midnight, India time)
         id: when
         run: |
           dow=$(TZ=Asia/Kolkata date +%u); hm=$(TZ=Asia/Kolkata date +%H%M)
-          if [ "${{ github.event.inputs.mode }}" != "chain" ] || { [ "$dow" -le 6 ] && [ "$hm" -ge 0800 ] && [ "$hm" -le 2300 ]; }; then
+          if [ "${{ github.event.inputs.mode }}" != "chain" ] || { [ "$dow" -le 6 ] && [ "$hm" -ge 0800 ]; } || [ "$hm" -ge 2300 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"; echo "Outside checking hours - just keeping the bot alive."

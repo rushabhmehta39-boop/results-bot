@@ -77,6 +77,7 @@ DEFAULTS = {
     "CARD_MAX_AGE_HOURS": "4",
     "ACTIVE_HOURS": "08:00-23:00",
     "ACTIVE_DAYS": "Mon,Tue,Wed,Thu,Fri,Sat",
+    "QUIET_OUTSIDE_HOURS": "on",
     "WEBSITE": "off",
     "SETTLE_MINUTES": "15",
     "CONSOLIDATED_WAIT_HOURS": "6",
@@ -1741,8 +1742,12 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     d_to = now.date()
     d_from = d_to if first_run else min(d_to - timedelta(days=max(0, int(cfg["LOOKBACK_DAYS"]))), card_cutoff.date())
     sources = [s.strip().lower() for s in cfg["SOURCES"].split(",") if s.strip()]
+    # Outside checking hours nothing is sent: new filings are only noted, and their cards go out when
+    # checking hours start. (BSE's results list starts afresh at midnight, so late filings would be lost.)
+    quiet = _on(cfg["QUIET_OUTSIDE_HOURS"]) and not is_active(now, cfg)
     log(f"Results Desk v{VERSION} · checking {', '.join(sources)} for {d_from:%d %b}–{d_to:%d %b}"
-        f"{' (first run)' if first_run else ''}{' (dry run)' if dry_run else ''}")
+        f"{' (first run)' if first_run else ''}{' (dry run)' if dry_run else ''}"
+        f"{' (outside checking hours: noting new filings, sending nothing)' if quiet else ''}")
 
     filings: list[Filing] = []
     health = {}
@@ -1763,7 +1768,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
     # Warn once a day on Telegram if an exchange is not responding.
     today = now.date().isoformat()
     for name, ok in health.items():
-        if not ok and st.data["warned"].get(name) != today:
+        if not ok and not quiet and st.data["warned"].get(name) != today:
             label = {"nse": "NSE", "nse_sme": "NSE SME", "bse": "BSE"}[name]
             tg.text(f"⚠️ {label} did not respond to the results checker this run. "
                     f"Results from other exchanges still come through; it will keep retrying.")
@@ -1832,6 +1837,9 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
         st.data["first_seen"].setdefault(gid, {"t": now.isoformat(timespec="minutes")})
         for f in fs:  # keep it even if the exchange's list moves on before we finish
             st.data["pending"].setdefault(f.uid, {**f.to_dict(), "t": now.isoformat(timespec="minutes")})
+        if quiet:
+            counts["kept for checking hours"] += 1
+            continue
         newest = lambda xs: max(xs, key=lambda f: (f.revised, f.filed_at or now))  # noqa: E731
         cons = [f for f in fs if f.consolidated is True]
         note = ""
@@ -1876,7 +1884,7 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
 
     # Instant "results are out" alerts from the announcement feeds (the PDF comes before the XBRL).
     ctx["deadline"] = deadline + 120
-    if _on(cfg["INSTANT_ALERTS"]):
+    if _on(cfg["INSTANT_ALERTS"]) and not quiet:
         if first_run:  # don't alert on everything from earlier today on the very first run
             for a in anns:
                 st.data["ann"][a["uid"]] = {"t": now.isoformat(timespec="minutes")}
