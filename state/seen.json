@@ -782,6 +782,9 @@
 "BANN-5a6696aa-e003-4685-9ae0-7372d3463949": {
 "t": "2026-11-11T17:59+05:30"
 },
+"BANN-5ffff844-d8c2-47cb-b4f2-946478d6b6a4": {
+"t": "2026-11-11T19:01+05:30"
+},
 "BANN-61387dc7-c1c9-4aab-834d-10cc861f16cf": {
 "t": "2026-11-11T17:59+05:30"
 },
@@ -991,6 +994,9 @@
 },
 "BANN-ecc64d41-7ffc-4632-8738-d92b61914e64": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-ed67d75e-80e1-41fc-9b9e-4817598257c1": {
+"t": "2026-11-11T19:01+05:30"
 },
 "BANN-ee2b08ce-86c0-4ac9-bc02-2577a00ed92b": {
 "t": "2026-11-09T15:39+05:30"
@@ -1316,6 +1322,10 @@
 "BSE-Integrated_Finance_Ind_As_507508_7112026144655_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-07T22:09+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-11T19:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_507944_6112026173320_IFIndAs.xml": {
 "s": "old",
@@ -1900,6 +1910,10 @@
 "BSE-Integrated_Finance_Ind_As_532439_09112026085945_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-10T02:39+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-11T19:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_532775_61120261542_IFIndAs.xml": {
 "s": "old",
@@ -7078,6 +7092,9 @@
 "BSE|532966|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|532989|2026-09-30": {
+"t": "2026-11-11T19:00+05:30"
+},
 "BSE|533163|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
@@ -7242,6 +7259,9 @@
 },
 "NSE|AVTNPL|2026-09-30": {
 "t": "2026-11-11T17:28+05:30"
+},
+"NSE|BAFNAPH|2026-09-30": {
+"t": "2026-11-11T19:00+05:30"
 },
 "NSE|BAJAJHIND|2026-09-30": {
 "t": "2026-11-11T15:11+05:30"
@@ -7487,6 +7507,9 @@
 "BSE:512036": {
 "t": "2026-11-10T20:27+05:30"
 },
+"BSE:512161": {
+"t": "2026-11-11T18:55+05:30"
+},
 "BSE:512301": {
 "t": "2026-11-10T18:21+05:30"
 },
@@ -7543,6 +7566,10 @@
 },
 "BSE:523618": {
 "t": "2026-11-10T19:58+05:30"
+},
+"BSE:523630": {
+"c": 1,
+"t": "2026-11-11T18:56+05:30"
 },
 "BSE:523838": {
 "c": 1,
@@ -8989,6 +9016,10 @@
 "t": "2026-11-10T23:49+05:30",
 "v": 21.9
 },
+"BSE:512161": {
+"t": "2026-11-11T19:01+05:30",
+"v": 50.4
+},
 "BSE:512301": {
 "t": "2026-11-10T23:49+05:30",
 "v": 24.1
@@ -9772,22 +9803,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml": {
-"company": "TGV Sraac Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "507753",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T16:58+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_508494_11112026144857_IFIndAs.xml": {
 "company": "Warren Tea Ltd-$",
 "consolidated": false,
@@ -10012,22 +10027,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml": {
-"company": "Inspirisys Solutions Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532774",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T16:58+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_532931_11112026175526_IFIndAs.xml": {
 "company": "Burnpur Cement Ltd",
 "consolidated": false,
@@ -10043,6 +10042,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532931_11112026175526_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532931_11112026175526_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532931_11112026175526_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml": {
+"company": "Bafna Pharmaceuticals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532989",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T19:00+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532989_1111202618586_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_533263_11112026051429_IFIndAs.xml": {
 "company": "Orient Green Power Company Ltd",
@@ -10316,6 +10331,22 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212439_11112026184939_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756222_11112026064939_WEB.xml"
 },
+"NSE-equities-IF-212446": {
+"company": "Bafna Pharmaceuticals Limited",
+"consolidated": false,
+"filed_at": "2026-11-11T18:59:24+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "BAFNAPH",
+"t": "2026-11-11T19:00+05:30",
+"uid": "NSE-equities-IF-212446",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212446_11112026185923_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756230_11112026065923_WEB.xml"
+},
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
 "consolidated": false,
@@ -10336,6 +10367,7 @@
 "posted": {
 "BSE:507753|2026-09-30|S": {
 "b": "S",
+"checked": "ok",
 "mid": 174,
 "n": "TGVSRAAC",
 "pat": 55.72,
@@ -11479,7 +11511,7 @@
 "v": "INE186H01022"
 },
 "532774": {
-"t": "2026-11-11T16:58+05:30",
+"t": "2026-11-11T19:01+05:30",
 "v": "INE020G01017"
 },
 "532850": {
@@ -11829,7 +11861,7 @@
 "v": 63966800
 },
 "INE020G01017": {
-"t": "2026-11-11T16:58+05:30",
+"t": "2026-11-11T19:01+05:30",
 "v": 39620000
 },
 "INE022C01012": {
