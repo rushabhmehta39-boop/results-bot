@@ -5280,6 +5280,10 @@
 "s": "small",
 "t": "2026-11-11T16:26+05:30"
 },
+"NSE-equities-IF-212305": {
+"s": "dup",
+"t": "2026-11-11T16:37+05:30"
+},
 "NSE-equities-IF-212309": {
 "s": "superseded",
 "t": "2026-11-11T16:27+05:30"
@@ -8331,22 +8335,6 @@
 "uid": "BSE-Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530747_1111202616139_IFNBFC.xml"
-},
-"NSE-equities-IF-212305": {
-"company": "Ambika Cotton Mills Limited",
-"consolidated": false,
-"filed_at": "2026-11-11T16:19:56+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "AMBIKCO",
-"t": "2026-11-11T16:21+05:30",
-"uid": "NSE-equities-IF-212305",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212305_11112026161955_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756083_11112026041954_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
