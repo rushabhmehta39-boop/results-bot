@@ -6253,6 +6253,22 @@
 "s": "small",
 "t": "2026-11-11T21:23+05:30"
 },
+"NSE-equities-IF-212529": {
+"s": "superseded",
+"t": "2026-11-11T22:03+05:30"
+},
+"NSE-equities-IF-212530": {
+"s": "small",
+"t": "2026-11-11T22:03+05:30"
+},
+"NSE-equities-IF-212531": {
+"s": "small",
+"t": "2026-11-11T22:03+05:30"
+},
+"NSE-equities-IF-212532": {
+"s": "superseded",
+"t": "2026-11-11T22:03+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -7606,6 +7622,9 @@
 "BSE|533655|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
 },
+"BSE|533982|2026-09-30": {
+"t": "2026-11-11T22:03+05:30"
+},
 "BSE|534060|2026-09-30": {
 "t": "2026-11-11T17:10+05:30"
 },
@@ -7971,6 +7990,9 @@
 },
 "NSE|TATAPOWER|2026-09-30": {
 "t": "2026-11-11T19:06+05:30"
+},
+"NSE|TERASOFT|2026-09-30": {
+"t": "2026-11-11T22:03+05:30"
 },
 "NSE|THEJO|2026-09-30": {
 "t": "2026-11-11T19:18+05:30"
@@ -11126,6 +11148,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533655_11112026073943_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533655_11112026073943_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_533982_1111202621599_IFIndAs.xml": {
+"company": "Tera Software Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "533982",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-11T22:03+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_533982_1111202621599_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533982_1111202621599_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_533982_1111202621599_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539267_11112026181419_IFIndAs.xml": {
 "company": "Samsrita Labs Ltd",
 "consolidated": false,
@@ -11317,22 +11355,6 @@
 "uid": "NSE-equities-IF-212510",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212510_11112026202436_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756281_11112026082434_WEB.xml"
-},
-"NSE-equities-IF-212529": {
-"company": "SECUREKLOUD TECHNOLOGIES LIMITED",
-"consolidated": false,
-"filed_at": "2026-11-11T21:48:42+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SECURKLOUD",
-"t": "2026-11-11T21:51+05:30",
-"uid": "NSE-equities-IF-212529",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212529_11112026214841_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756305_11112026094841_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
@@ -12326,6 +12348,10 @@
 "t": "2026-11-07T22:09+05:30",
 "v": "INE808W01012"
 },
+"512161": {
+"t": "2026-11-11T22:03+05:30",
+"v": "INE650K01021"
+},
 "512301": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE417N01011"
@@ -12725,6 +12751,10 @@
 "533655": {
 "t": "2026-11-11T19:42+05:30",
 "v": "INE152M01016"
+},
+"533982": {
+"t": "2026-11-11T22:03+05:30",
+"v": "INE482B01010"
 },
 "534060": {
 "t": "2026-11-11T19:12+05:30",
@@ -13684,6 +13714,10 @@
 "t": "2026-11-07T22:09+05:30",
 "v": 34879000
 },
+"INE482B01010": {
+"t": "2026-11-11T22:03+05:30",
+"v": 12511900
+},
 "INE488D01021": {
 "t": "2026-11-11T17:41+05:30",
 "v": 152284000
@@ -13847,6 +13881,10 @@
 "INE648Z01023": {
 "t": "2026-11-07T22:08+05:30",
 "v": 150560000
+},
+"INE650K01021": {
+"t": "2026-11-11T22:03+05:30",
+"v": 33410600
 },
 "INE650L01011": {
 "t": "2026-11-07T22:08+05:30",
