@@ -351,6 +351,14 @@
 "pdf": 5,
 "t": "2026-11-12T16:24+05:30"
 },
+"INE07Y701011": {
+"d": "2026-11-12",
+"mcap": 127254.1,
+"mid": 253,
+"n": "HITACHIENERGYINDIA",
+"pdf": 5,
+"t": "2026-11-12T16:32+05:30"
+},
 "INE08T701025": {
 "d": "2026-11-10",
 "mid": 150,
@@ -720,6 +728,14 @@
 "n": "PROCTERANDGAMBLEHYGIENEANDHEALTHCARE",
 "pdf": 5,
 "t": "2026-11-12T15:32+05:30"
+},
+"POWERINDIA": {
+"d": "2026-11-12",
+"mcap": 127254.1,
+"mid": 253,
+"n": "HITACHIENERGYINDIA",
+"pdf": 5,
+"t": "2026-11-12T16:32+05:30"
 },
 "POWERMECH": {
 "d": "2026-11-11",
@@ -1166,6 +1182,9 @@
 "ANN-equities-106856811-KCPSUGIND": {
 "t": "2026-11-12T16:24+05:30"
 },
+"ANN-equities-106856820-POWERINDIA": {
+"t": "2026-11-12T16:32+05:30"
+},
 "ANN-sme-106853698-BARFLEX": {
 "t": "2026-11-09T20:32+05:30"
 },
@@ -1331,11 +1350,17 @@
 "BANN-1093f474-a593-4ba8-b872-627058b01aab": {
 "t": "2026-11-11T16:11+05:30"
 },
+"BANN-12e37f5b-f537-4f18-9e57-af138753f710": {
+"t": "2026-11-12T16:32+05:30"
+},
 "BANN-130bf966-5b53-4ac2-b96f-648eaf1b241d": {
 "t": "2026-11-11T14:56+05:30"
 },
 "BANN-16fdcf0b-d780-4cd9-a609-386ff9ccdb6a": {
 "t": "2026-11-10T23:49+05:30"
+},
+"BANN-17efc8f9-34cb-4786-bdc6-8b0c795c42a2": {
+"t": "2026-11-12T16:32+05:30"
 },
 "BANN-1902d6d0-51fe-4eae-87c8-c4a10e4c3f12": {
 "t": "2026-11-10T15:46+05:30"
@@ -1562,6 +1587,9 @@
 "BANN-665baf58-f099-4348-98d2-24639748e430": {
 "t": "2026-11-11T14:26+05:30"
 },
+"BANN-669b62c1-4825-40ba-bc4c-839f3f649d1e": {
+"t": "2026-11-12T16:32+05:30"
+},
 "BANN-66a8f722-494e-44b0-b6b1-4eee7d021703": {
 "t": "2026-11-09T18:51+05:30"
 },
@@ -1774,6 +1802,9 @@
 },
 "BANN-ac18336f-8ca2-43d9-bbf5-7dd0b28e13ac": {
 "t": "2026-11-11T17:17+05:30"
+},
+"BANN-adec6d4a-dbd4-4910-a818-bd4083c7df8a": {
+"t": "2026-11-12T16:32+05:30"
 },
 "BANN-ae8a53bc-8bf0-459e-bec5-ed3ade0712fe": {
 "t": "2026-11-12T15:32+05:30"
@@ -2323,6 +2354,10 @@
 "BSE-Integrated_Finance_Ind_As_504084_611202613941_IFIndAs.xml": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml": {
+"s": "superseded",
+"t": "2026-11-12T16:32+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_505212_6112026171954_IFIndAs.xml": {
 "s": "old",
@@ -7372,6 +7407,11 @@
 "s": "small",
 "t": "2026-11-12T16:04+05:30"
 },
+"NSE-equities-IF-212746": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-12T16:32+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -8606,6 +8646,9 @@
 "BSE|517500|2026-09-30": {
 "t": "2026-11-11T21:10+05:30"
 },
+"BSE|517514|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
+},
 "BSE|519105|2026-09-30": {
 "t": "2026-11-11T17:28+05:30"
 },
@@ -8626,6 +8669,9 @@
 },
 "BSE|520086|2026-09-30": {
 "t": "2026-11-11T21:22+05:30"
+},
+"BSE|520131|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
 },
 "BSE|521005|2026-09-30": {
 "t": "2026-11-11T20:57+05:30"
@@ -8734,6 +8780,9 @@
 },
 "BSE|530899|2026-09-30": {
 "t": "2026-11-11T16:46+05:30"
+},
+"BSE|531015|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
 },
 "BSE|531111|2026-09-30": {
 "t": "2026-11-12T15:44+05:30"
@@ -8912,6 +8961,9 @@
 "BSE|539405|2026-09-30": {
 "t": "2026-11-10T15:45+05:30"
 },
+"BSE|539435|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
+},
 "BSE|539543|2026-09-30": {
 "t": "2026-11-11T16:46+05:30"
 },
@@ -8920,6 +8972,9 @@
 },
 "BSE|539883|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|539947|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
 },
 "BSE|540132|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -9040,6 +9095,9 @@
 },
 "BSE|545008|2026-09-30": {
 "t": "2026-11-11T17:59+05:30"
+},
+"BSE|590070|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
 },
 "NSE SME|ACEINTEG|2026-09-30": {
 "t": "2026-11-12T16:24+05:30"
@@ -9292,6 +9350,9 @@
 },
 "NSE|QUADFUTURE|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|RADAAN|2026-09-30": {
+"t": "2026-11-12T16:30+05:30"
 },
 "NSE|RENTOMOJO|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
@@ -9636,6 +9697,9 @@
 "BSE:513729": {
 "t": "2026-11-12T13:34+05:30"
 },
+"BSE:514034": {
+"t": "2026-11-12T16:27+05:30"
+},
 "BSE:514171": {
 "t": "2026-11-12T15:50+05:30"
 },
@@ -9660,6 +9724,10 @@
 },
 "BSE:517500": {
 "t": "2026-11-11T19:21+05:30"
+},
+"BSE:517514": {
+"c": 1,
+"t": "2026-11-12T16:25+05:30"
 },
 "BSE:519214": {
 "t": "2026-11-11T17:53+05:30"
@@ -10082,6 +10150,9 @@
 "BSE:539405": {
 "t": "2026-11-10T12:42+05:30"
 },
+"BSE:539435": {
+"t": "2026-11-12T16:26+05:30"
+},
 "BSE:539523": {
 "t": "2026-11-12T13:55+05:30"
 },
@@ -10233,6 +10304,9 @@
 "BSE:544587": {
 "c": 1,
 "t": "2026-11-10T19:21+05:30"
+},
+"BSE:544738": {
+"t": "2026-11-12T16:30+05:30"
 },
 "BSE:544834": {
 "t": "2026-11-09T11:37+05:30"
@@ -10425,6 +10499,9 @@
 "INE075B01020": {
 "c": 1,
 "t": "2026-11-11T21:03+05:30"
+},
+"INE07Y701011": {
+"t": "2026-11-12T16:28+05:30"
 },
 "INE083D01012": {
 "c": 1,
@@ -11340,6 +11417,10 @@
 "c": 1,
 "t": "2026-11-11T12:48+05:30"
 },
+"N:DANDHINDIA": {
+"c": 1,
+"t": "2026-11-12T16:25+05:30"
+},
 "N:DAPSADVERTISING": {
 "t": "2026-11-12T14:32+05:30"
 },
@@ -11486,6 +11567,9 @@
 },
 "N:HIRECT": {
 "t": "2026-11-10T13:24+05:30"
+},
+"N:HITACHIENERGYINDIA": {
+"t": "2026-11-12T16:28+05:30"
 },
 "N:HOLMARCOPTOMECHATRONICS": {
 "t": "2026-11-11T16:27+05:30"
@@ -11879,6 +11963,9 @@
 "N:RIBATEXTILES": {
 "t": "2026-11-10T17:28+05:30"
 },
+"N:RICHFIELDFINANCIALSERVICES": {
+"t": "2026-11-12T16:26+05:30"
+},
 "N:RITEZONECHEMCONINDIA": {
 "t": "2026-11-11T17:07+05:30"
 },
@@ -11992,6 +12079,9 @@
 },
 "N:SOUTHERNPETROCHEMICALSINDUSTRIESCORPORATION": {
 "t": "2026-11-09T10:22+05:30"
+},
+"N:SPECIALITYMEDICINES": {
+"t": "2026-11-12T16:30+05:30"
 },
 "N:SPINAROOCOMMERCIAL": {
 "t": "2026-11-10T17:38+05:30"
@@ -12214,6 +12304,9 @@
 },
 "PIONEEREMB": {
 "t": "2026-11-11T18:05+05:30"
+},
+"POWERINDIA": {
+"t": "2026-11-12T16:28+05:30"
 },
 "POWERMECH": {
 "c": 1,
@@ -12597,6 +12690,10 @@
 "BSE:513729": {
 "t": "2026-11-12T15:45+05:30",
 "v": 35.2
+},
+"BSE:514034": {
+"t": "2026-11-12T16:32+05:30",
+"v": 36.2
 },
 "BSE:514171": {
 "t": "2026-11-12T15:56+05:30",
@@ -13050,6 +13147,10 @@
 "t": "2026-11-11T11:05+05:30",
 "v": 29.9
 },
+"BSE:539435": {
+"t": "2026-11-12T16:32+05:30",
+"v": 20.0
+},
 "BSE:539543": {
 "t": "2026-11-11T16:31+05:30",
 "v": 1.4
@@ -13173,6 +13274,10 @@
 "BSE:544557": {
 "t": "2026-11-11T17:54+05:30",
 "v": 550.4
+},
+"BSE:544738": {
+"t": "2026-11-12T16:32+05:30",
+"v": 149.4
 },
 "BSE:544869": {
 "t": "2026-11-11T17:59+05:30",
@@ -13325,6 +13430,10 @@
 "PIONEEREMB": {
 "t": "2026-11-11T18:12+05:30",
 "v": 59.6
+},
+"POWERINDIA": {
+"t": "2026-11-12T16:32+05:30",
+"v": 127254.1
 },
 "POWERMECH": {
 "t": "2026-11-11T14:21+05:30",
@@ -14035,22 +14144,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504058_12112026035343_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504058_12112026035343_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml": {
-"company": "Talbros Automotive Components Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "505160",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-11T16:26+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_505232_11112026172444_IFIndAs.xml": {
 "company": "Veljan Denison Ltd",
 "consolidated": false,
@@ -14195,6 +14288,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517500_1111202621911_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_517514_12112026162653_IFIndAs.xml": {
+"company": "D & H India Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "517514",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_517514_12112026162653_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517514_12112026162653_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_517514_12112026162653_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_519105_11112026172443_IFIndAs.xml": {
 "company": "AVT Natural Products Ltd",
 "consolidated": false,
@@ -14242,6 +14351,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_520086_1111202621196_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520086_1111202621196_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520086_1111202621196_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_520131_12112026162936_IFIndAs.xml": {
+"company": "Coastal Roadways Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "520131",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_520131_12112026162936_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520131_12112026162936_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520131_12112026162936_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_521149_1211202614947_IFIndAs.xml": {
 "company": "Prime Urban Development India Ltd",
@@ -14371,6 +14496,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524610_1211202616139_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524610_1211202616139_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_524610_12112026162254_IFIndAs.xml": {
+"company": "Rathi Graphic Technologies Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "524610",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_524610_12112026162254_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524610_12112026162254_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524610_12112026162254_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_524824_11112026181857_IFIndAs.xml": {
 "company": "Bal Pharma Ltd",
 "consolidated": false,
@@ -14434,6 +14575,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531015_12112026162448_IFIndAs.xml": {
+"company": "Venmax Drugs and Pharmaceuticals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531015",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531015_12112026162448_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531015_12112026162448_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531015_12112026162448_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531111_12112026132847_IFIndAs.xml": {
 "company": "Gothi Plascon India Ltd",
@@ -14915,6 +15072,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544915_12112026152733_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544915_12112026152733_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_590070_12112026162425_IFIndAs.xml": {
+"company": "Radaan Mediaworks India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "590070",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_590070_12112026162425_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_590070_12112026162425_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_590070_12112026162425_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_NBFC_501298_1111202617517_IFNBFC.xml": {
 "company": "Industrial & Prudential Investment Company Ltd",
 "consolidated": false,
@@ -14979,6 +15152,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml"
 },
+"BSE-Integrated_Finance_NBFC_539435_12112026162748_IFNBFC.xml": {
+"company": "Richfield Financial Services Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539435",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_539435_12112026162748_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539435_12112026162748_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539435_12112026162748_IFNBFC.xml"
+},
 "BSE-Integrated_Finance_NBFC_539621_1211202613337_IFNBFC.xml": {
 "company": "BCL Enterprises Ltd",
 "consolidated": false,
@@ -14995,6 +15184,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539621_1211202613337_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539621_1211202613337_IFNBFC.xml"
 },
+"BSE-Integrated_Finance_NBFC_539947_12112026162617_IFNBFC.xml": {
+"company": "Jindal Leasefin Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539947",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T16:30+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_539947_12112026162617_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539947_12112026162617_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_539947_12112026162617_IFNBFC.xml"
+},
 "NSE-equities-IF-212741": {
 "company": "Ace Integrated Solutions Limited",
 "consolidated": false,
@@ -15010,6 +15215,38 @@
 "uid": "NSE-equities-IF-212741",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212741_12112026162049_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756554_12112026042048_WEB.xml"
+},
+"NSE-equities-IF-212745": {
+"company": "Radaan Mediaworks India Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T16:25:37+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "RADAAN",
+"t": "2026-11-12T16:30+05:30",
+"uid": "NSE-equities-IF-212745",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212745_12112026162536_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756560_12112026042536_WEB.xml"
+},
+"NSE-equities-IF-212746": {
+"company": "Radaan Mediaworks India Limited",
+"consolidated": true,
+"filed_at": "2026-11-12T16:25:58+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "RADAAN",
+"t": "2026-11-12T16:30+05:30",
+"uid": "NSE-equities-IF-212746",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_212746_12112026162558_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1756561_12112026042557_WEB.xml"
 },
 "NSE-sme-IF-211864": {
 "company": "Lakshya Powertech Limited",
