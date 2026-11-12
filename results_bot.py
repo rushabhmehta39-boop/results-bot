@@ -1576,6 +1576,8 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
                          if v.get("src") == "pdf" and not v.get("checked") and v.get("pe") == ce.isoformat()
                          and v.get("b") == basis and (k == post_key or v.get("n") == nn0)), None)
     correction_of = None
+    old = st.data["posted"].get(post_key)
+    half_fix = old if old and old.get("span") == 6 and not old.get("src") else None  # earlier card showed the half year
     if from_pdf_key:
         v = st.data["posted"][from_pdf_key]
         xm = derive(cm, parsed["kind"])
@@ -1590,11 +1592,11 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
             log(f"  = {f.company}: the XBRL confirms the numbers read from the PDF")
             return "dup"
         correction_of = v
-    elif post_key in st.data["posted"]:
+    elif post_key in st.data["posted"] and half_fix is None:
         return "dup"
     if basis == "S" and f"{ident}|{ce.isoformat()}|C" in st.data["posted"]:
         return "superseded"
-    if correction_of is None:
+    if correction_of is None and half_fix is None:
         for v in st.data["posted"].values():
             if v.get("n") == nn0 and v.get("pe") == ce.isoformat() and v.get("b") in (basis, "C"):
                 return "dup" if v.get("b") == basis else "superseded"
@@ -1626,6 +1628,29 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
 
     cs, ce = unkey(parsed["current"])
     span = month_span(cs, ce)
+    half_note = ""
+    if span == 6 and f.source != "NSE SME" and ce.month in (3, 6, 9, 12):
+        # The company filed half-year numbers only (main-board companies report quarters):
+        # this quarter = half year - last quarter, from the company's earlier filing.
+        m0, y0 = ce.month - 2, ce.year
+        qs = date(y0, m0, 1) if m0 > 0 else date(y0 - 1, m0 + 12, 1)
+        want = {qs - timedelta(days=1), shift_period(qs, ce, -12)[1]}
+        want = {e for e in want if not any(unkey(k)[1] == e for k in cache)}
+        if want and (sym or scrip):
+            fill_history(http, st, cache_key, basis, want, sym, scrip if scrip.isdigit() else "")
+            cache = st.periods[cache_key]
+        q = get_period(cache, qs, ce)
+        if q and (q.get("revenue") is not None or q.get("pat") is not None):
+            cache[pkey(qs, ce)] = q
+            parsed["periods"][pkey(qs, ce)] = q
+            parsed["current"] = pkey(qs, ce)
+            cs, span = qs, 3
+            half_note = ("ℹ️ The company filed half-year numbers only; this quarter is worked out as "
+                         "half year − last quarter.")
+        elif any(unkey(k)[1] == qs - timedelta(days=1) for k in cache) or half_fix is not None:
+            half_note = "ℹ️ The company filed half-year numbers only; the quarter could not be worked out yet."
+    if half_fix is not None and span != 3:
+        return "dup"  # still no quarter: nothing new to send
     needed = [shift_period(cs, ce, -12)] + ([shift_period(cs, ce, -span)] if span < 12 else [])
     need_ends = {e for (s, e) in needed if get_period(cache, s, e) is None}
     if need_ends and (sym or scrip):
@@ -1641,6 +1666,11 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     alert = (al.get(isin) or al.get(sym) or (al.get(f"BSE:{scrip}") if scrip else None)
              or next((v for v in al.values() if isinstance(v, dict) and v.get("n") == nn), None) or {})
     caption, reply_to = caption_for(res), alert.get("mid")
+    if half_fix is not None:
+        caption = "✏️ <b>Quarterly numbers</b> (the earlier card showed the half year)\n" + caption
+        reply_to = half_fix.get("mid") or reply_to
+    if half_note:
+        caption += "\n" + html.escape(half_note)
     if correction_of is not None:
         caption = ("✏️ <b>Corrected numbers</b> from the exchange's data file "
                    "(the reading of the PDF differed)\n" + caption)
@@ -1659,7 +1689,8 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
         if from_pdf_key != post_key:
             st.data["posted"].pop(from_pdf_key, None)
     st.data["posted"][post_key] = {"t": datetime.now(IST).isoformat(timespec="minutes"), "n": nn,
-                                   "pe": ce.isoformat(), "b": basis, "mid": mid}
+                                   "pe": ce.isoformat(), "b": basis, "mid": mid,
+                                   **({"span": 6} if span == 6 and f.source != "NSE SME" else {})}
     if not ctx.get("dry_run"):
         st.save()  # record each card right away, so a stopped run never re-sends it
     log(f"  + {res['name']} {res['per']} {res['basis']}: M-cap ₹{mcap:,.0f} Cr -> card sent"
