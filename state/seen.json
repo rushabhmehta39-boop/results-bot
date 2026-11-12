@@ -12848,6 +12848,9 @@
 "BSE|519295|2026-09-30": {
 "t": "2026-11-11T14:05+05:30"
 },
+"BSE|519307|2026-09-30": {
+"t": "2026-11-12T23:32+05:30"
+},
 "BSE|519397|2026-09-30": {
 "t": "2026-11-12T17:01+05:30"
 },
@@ -13028,6 +13031,9 @@
 "BSE|526596|2026-09-30": {
 "t": "2026-11-12T17:29+05:30"
 },
+"BSE|526666|2026-09-30": {
+"t": "2026-11-12T23:32+05:30"
+},
 "BSE|526739|2026-09-30": {
 "t": "2026-11-12T17:01+05:30"
 },
@@ -13195,6 +13201,9 @@
 },
 "BSE|531651|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|531658|2026-09-30": {
+"t": "2026-11-12T23:32+05:30"
 },
 "BSE|531737|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -13747,6 +13756,9 @@
 },
 "BSE|543768|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"BSE|543896|2026-09-30": {
+"t": "2026-11-12T23:32+05:30"
 },
 "BSE|543914|2026-09-30": {
 "t": "2026-11-11T17:59+05:30"
@@ -17035,6 +17047,9 @@
 },
 "INE0JM501013": {
 "t": "2026-11-12T18:13+05:30"
+},
+"INE0JR601024": {
+"t": "2026-11-12T23:30+05:30"
 },
 "INE0K9O01026": {
 "t": "2026-11-11T20:52+05:30"
@@ -20590,6 +20605,9 @@
 "N:WSINDUSTRIESINDIA": {
 "t": "2026-11-12T18:41+05:30"
 },
+"N:YATRAONLINE": {
+"t": "2026-11-12T23:30+05:30"
+},
 "N:ZENLABSETHICA": {
 "t": "2026-11-12T17:15+05:30"
 },
@@ -21025,6 +21043,9 @@
 },
 "WSI": {
 "t": "2026-11-12T18:46+05:30"
+},
+"YATRA": {
+"t": "2026-11-12T23:30+05:30"
 },
 "ZUARIIND": {
 "c": 1,
@@ -24829,6 +24850,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_518091_12112026064609_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_518091_12112026064609_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_519307_12112026232857_IFIndAs.xml": {
+"company": "Vikas WSP Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "519307",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:32+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_519307_12112026232857_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519307_12112026232857_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_519307_12112026232857_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_519397_12112026165822_IFIndAs.xml": {
 "company": "Sharat Industries Ltd",
 "consolidated": false,
@@ -25165,6 +25202,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526550_1211202621172_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526550_1211202621172_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_526666_1211202623307_IFIndAs.xml": {
+"company": "Bhartiya International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "526666",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:32+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_526666_1211202623307_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526666_1211202623307_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526666_1211202623307_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_530305_1211202620433_IFIndAs.xml": {
 "company": "Piccadily Agro Industries Ltd",
 "consolidated": false,
@@ -25340,6 +25393,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531583_12112026223316_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531583_12112026223316_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531583_12112026223316_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531658_12112026232925_IFIndAs.xml": {
+"company": "Abate As Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531658",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:32+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531658_12112026232925_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531658_12112026232925_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531658_12112026232925_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531746_12112026055730_IFIndAs.xml": {
 "company": "Prajay Engineers Syndicate Ltd",
@@ -26380,6 +26449,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_543768_12112026211026_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543768_12112026211026_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543768_12112026211026_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.xml": {
+"company": "Avalon Technologies Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543896",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:32+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_543971_12112026203836_IFIndAs.xml": {
 "company": "Bondada Engineering Ltd",
