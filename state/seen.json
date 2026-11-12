@@ -13124,6 +13124,9 @@
 "BSE|531147|2026-09-30": {
 "t": "2026-11-12T18:55+05:30"
 },
+"BSE|531213|2026-09-30": {
+"t": "2026-11-12T23:11+05:30"
+},
 "BSE|531219|2026-09-30": {
 "t": "2026-11-11T16:26+05:30"
 },
@@ -13615,6 +13618,9 @@
 },
 "BSE|540717|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"BSE|540730|2026-09-30": {
+"t": "2026-11-12T23:11+05:30"
 },
 "BSE|540952|2026-09-30": {
 "t": "2026-11-12T18:36+05:30"
@@ -26019,6 +26025,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540717_12112026205110_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540717_12112026205110_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.xml": {
+"company": "Mehai Technology Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "540730",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:11+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_541005_12112026193843_IFIndAs.xml": {
 "company": "Kanco Tea & Industries Ltd",
 "consolidated": false,
@@ -26867,6 +26889,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530499_12112026223042_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_530499_12112026223042_IFNBFC.xml"
 },
+"BSE-Integrated_Finance_NBFC_531213_1211202623639_IFNBFC.xml": {
+"company": "Manappuram Finance Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531213",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:11+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_531213_1211202623639_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_531213_1211202623639_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_531213_1211202623639_IFNBFC.xml"
+},
 "BSE-Integrated_Finance_NBFC_531591_12112026212557_IFNBFC.xml": {
 "company": "Bampsl Securities Ltd",
 "consolidated": false,
@@ -27154,6 +27192,22 @@
 "uid": "NSE-equities-IF-213250",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213250_12112026230256_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757083_12112026110255_WEB.xml"
+},
+"NSE-equities-IF-213251": {
+"company": "Manappuram Finance Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T23:07:34+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "MANAPPURAM",
+"t": "2026-11-12T23:11+05:30",
+"uid": "NSE-equities-IF-213251",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213251_12112026230734_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757086_12112026110734_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
