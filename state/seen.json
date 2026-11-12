@@ -10019,6 +10019,10 @@
 "s": "small",
 "t": "2026-11-12T15:31+05:30"
 },
+"NSE-equities-IF-212592": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE-equities-IF-212629": {
 "s": "superseded",
 "t": "2026-11-12T15:45+05:30"
@@ -10038,6 +10042,10 @@
 "NSE-equities-IF-212640": {
 "s": "small",
 "t": "2026-11-12T15:31+05:30"
+},
+"NSE-equities-IF-212644": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-equities-IF-212647": {
 "s": "small",
@@ -10079,9 +10087,21 @@
 "s": "posted",
 "t": "2026-11-12T15:32+05:30"
 },
+"NSE-equities-IF-212682": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE-equities-IF-212688": {
 "s": "small",
 "t": "2026-11-12T15:32+05:30"
+},
+"NSE-equities-IF-212689": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212690": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-equities-IF-212695": {
 "s": "dup",
@@ -10119,6 +10139,14 @@
 "s": "posted",
 "t": "2026-11-12T15:55+05:30"
 },
+"NSE-equities-IF-212726": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212727": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE-equities-IF-212729": {
 "s": "superseded",
 "t": "2026-11-12T16:04+05:30"
@@ -10130,6 +10158,10 @@
 "NSE-equities-IF-212732": {
 "s": "small",
 "t": "2026-11-12T16:04+05:30"
+},
+"NSE-equities-IF-212740": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-equities-IF-212741": {
 "s": "small",
@@ -10363,6 +10395,14 @@
 "s": "superseded",
 "t": "2026-11-12T18:13+05:30"
 },
+"NSE-equities-IF-212888": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212890": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE-equities-IF-212893": {
 "s": "posted",
 "t": "2026-11-12T18:13+05:30"
@@ -10374,6 +10414,26 @@
 "NSE-equities-IF-212897": {
 "s": "posted",
 "t": "2026-11-12T18:13+05:30"
+},
+"NSE-equities-IF-212904": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212905": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212907": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212909": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-equities-IF-212910": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-equities-IF-212912": {
 "s": "superseded",
@@ -10470,6 +10530,10 @@
 "NSE-equities-IF-212959": {
 "s": "small",
 "t": "2026-11-12T18:47+05:30"
+},
+"NSE-equities-IF-212960": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-equities-IF-212961": {
 "s": "superseded",
@@ -12342,6 +12406,10 @@
 "s": "small",
 "t": "2026-11-12T22:03+05:30"
 },
+"NSE-sme-IF-212960": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE-sme-IF-212971": {
 "s": "small",
 "t": "2026-11-12T19:06+05:30"
@@ -12382,6 +12450,14 @@
 "NSE-sme-IF-213016": {
 "s": "small",
 "t": "2026-11-12T22:03+05:30"
+},
+"NSE-sme-IF-213026": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
+},
+"NSE-sme-IF-213028": {
+"s": "old",
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE-sme-IF-213042": {
 "s": "superseded",
@@ -12688,6 +12764,9 @@
 },
 "BSE|511194|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
+},
+"BSE|511427|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "BSE|511509|2026-09-30": {
 "t": "2026-11-11T19:41+05:30"
@@ -13181,6 +13260,9 @@
 "BSE|531439|2026-09-30": {
 "t": "2026-11-12T18:44+05:30"
 },
+"BSE|531460|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
+},
 "BSE|531562|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
 },
@@ -13337,6 +13419,9 @@
 "BSE|532774|2026-09-30": {
 "t": "2026-11-11T16:58+05:30"
 },
+"BSE|532801|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
+},
 "BSE|532822|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -13465,6 +13550,9 @@
 },
 "BSE|536659|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"BSE|536773|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "BSE|537069|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -13642,6 +13730,9 @@
 },
 "BSE|540730|2026-09-30": {
 "t": "2026-11-12T23:11+05:30"
+},
+"BSE|540902|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "BSE|540952|2026-09-30": {
 "t": "2026-11-12T18:36+05:30"
@@ -13898,6 +13989,9 @@
 "BSE|544738|2026-09-30": {
 "t": "2026-11-12T16:38+05:30"
 },
+"BSE|544740|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
+},
 "BSE|544786|2026-09-30": {
 "t": "2026-11-12T18:36+05:30"
 },
@@ -13931,6 +14025,9 @@
 "BSE|544881|2026-09-30": {
 "t": "2026-11-12T22:46+05:30"
 },
+"BSE|544900|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
+},
 "BSE|544906|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -13957,6 +14054,9 @@
 },
 "BSE|544960|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"BSE|544965|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "BSE|544994|2026-09-30": {
 "t": "2026-11-12T23:18+05:30"
@@ -14225,6 +14325,9 @@
 "NSE|ASTRAMICRO|2026-09-30": {
 "t": "2026-11-12T18:12+05:30"
 },
+"NSE|ATNINTER|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
+},
 "NSE|AUTOAXLES|2026-09-30": {
 "t": "2026-11-12T18:44+05:30"
 },
@@ -14476,6 +14579,9 @@
 },
 "NSE|JMA|2026-09-30": {
 "t": "2026-11-12T18:28+05:30"
+},
+"NSE|JPOLYINVST|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE|KALYANKJIL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
@@ -14764,6 +14870,9 @@
 },
 "NSE|SRD|2026-09-30": {
 "t": "2026-11-11T16:11+05:30"
+},
+"NSE|SRIT|2026-09-30": {
+"t": "2026-11-13T04:10+05:30"
 },
 "NSE|STANLEY|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -16381,6 +16490,9 @@
 "BSE:543249": {
 "t": "2026-11-12T18:58+05:30"
 },
+"BSE:543267": {
+"t": "2026-11-13T01:28+05:30"
+},
 "BSE:543278": {
 "t": "2026-11-10T17:10+05:30"
 },
@@ -16611,6 +16723,10 @@
 "BSE:544881": {
 "t": "2026-11-12T20:24+05:30"
 },
+"BSE:544900": {
+"c": 1,
+"t": "2026-11-13T01:05+05:30"
+},
 "BSE:544906": {
 "t": "2026-11-12T19:33+05:30"
 },
@@ -16708,6 +16824,9 @@
 "CURIS": {
 "c": 1,
 "t": "2026-11-11T12:48+05:30"
+},
+"DAVANGERE": {
+"t": "2026-11-13T01:41+05:30"
 },
 "DBEIL": {
 "t": "2026-11-12T17:39+05:30"
@@ -17306,6 +17425,9 @@
 "INE179A01014": {
 "t": "2026-11-12T13:39+05:30"
 },
+"INE179G01011": {
+"t": "2026-11-13T01:41+05:30"
+},
 "INE17IR01028": {
 "t": "2026-11-12T21:32+05:30"
 },
@@ -17516,6 +17638,9 @@
 },
 "INE2WCT01016": {
 "t": "2026-11-12T13:43+05:30"
+},
+"INE301D01018": {
+"t": "2026-11-12T23:55+05:30"
 },
 "INE302R01024": {
 "t": "2026-11-12T17:27+05:30"
@@ -18972,6 +19097,10 @@
 "c": 1,
 "t": "2026-11-12T18:00+05:30"
 },
+"N:COMPLETESPORTSANDMANAGEMENTINDIA": {
+"c": 1,
+"t": "2026-11-13T01:05+05:30"
+},
 "N:CONCORDDRUGS": {
 "t": "2026-11-12T19:02+05:30"
 },
@@ -19032,6 +19161,9 @@
 },
 "N:DARCREDITANDCAPITAL": {
 "t": "2026-11-10T19:26+05:30"
+},
+"N:DAVANGERESUGARCOMPANY": {
+"t": "2026-11-13T01:41+05:30"
 },
 "N:DCXSYSTEMS": {
 "c": 1,
@@ -20875,6 +21007,9 @@
 },
 "RUBFILA": {
 "t": "2026-11-12T13:14+05:30"
+},
+"RUBYMILLS": {
+"t": "2026-11-12T23:55+05:30"
 },
 "RVNL": {
 "t": "2026-11-12T19:49+05:30"
@@ -24025,6 +24160,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544561_121120261977_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544561_121120261977_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_544740_1311202601230_IFOtherthan.xml": {
+"company": "Tipco Engineering India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544740",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-IFOtherthan_544740_1311202601230_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544740_1311202601230_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544740_1311202601230_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_544797_12112026203252_IFOtherthan.xml": {
 "company": "Leapfrog Engineering Services Ltd",
 "consolidated": false,
@@ -24568,6 +24719,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_511108_12112026135531_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511108_12112026135531_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511108_12112026135531_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_511427_131120261838_IFIndAs.xml": {
+"company": "ATN International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511427",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511427_131120261838_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511427_131120261838_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511427_131120261838_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_511644_12112026221059_IFIndAs.xml": {
 "company": "Omega Interactive Technologies Ltd",
@@ -25401,6 +25568,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531439_12112026063818_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531439_12112026063818_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_531460_131120263711_IFIndAs.xml": {
+"company": "Continental Controls Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531460",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531460_131120263711_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531460_131120263711_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531460_131120263711_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_531583_12112026223316_IFIndAs.xml": {
 "company": "Rap Corp Ltd",
 "consolidated": false,
@@ -25624,6 +25807,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532768_1211202618823_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532768_1211202618823_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532768_1211202618823_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532801_131120260439_IFIndAs.xml": {
+"company": "Cambridge Technology Enterprises Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532801",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532801_131120260439_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532801_131120260439_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532801_131120260439_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532822_12112026073344_IFIndAs.xml": {
 "company": "Vodafone Idea Ltd",
@@ -26184,6 +26383,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540730_1211202623934_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.xml": {
+"company": "Amber Enterprises India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "540902",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_541005_12112026193843_IFIndAs.xml": {
 "company": "Kanco Tea & Industries Ltd",
@@ -26825,6 +27040,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544881_12112026223745_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544881_12112026223745_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544900_1311202611616_IFIndAs.xml": {
+"company": "Complete Sports and Management India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544900",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544900_1311202611616_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544900_1311202611616_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544900_1311202611616_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_544906_12112026202957_IFIndAs.xml": {
 "company": "Rays of Belief Ltd",
 "consolidated": false,
@@ -26888,6 +27119,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_544965_1311202601143_IFIndAs.xml": {
+"company": "Srit India Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544965",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544965_1311202601143_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544965_1311202601143_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544965_1311202601143_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.xml": {
 "company": "HD Fire Protect Ltd",
@@ -27256,6 +27503,22 @@
 "uid": "BSE-Integrated_Finance_NBFC_535514_1211202619367_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_535514_1211202619367_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_535514_1211202619367_IFNBFC.xml"
+},
+"BSE-Integrated_Finance_NBFC_536773_1311202623153_IFNBFC.xml": {
+"company": "Jindal Poly Investment and Finance Company Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "536773",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T04:10+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_536773_1311202623153_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_536773_1311202623153_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_536773_1311202623153_IFNBFC.xml"
 },
 "BSE-Integrated_Finance_NBFC_537069_12112026204436_IFNBFC.xml": {
 "company": "Arnold Holdings Ltd",
@@ -27752,6 +28015,118 @@
 "uid": "NSE-equities-IF-213277",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213277_12112026235425_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757109_12112026115425_WEB.xml"
+},
+"NSE-equities-IF-213279": {
+"company": "Cambridge Technology Enterprises Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T00:05:34+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "CTE",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213279",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213279_13112026000534_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757112_13112026120534_WEB.xml"
+},
+"NSE-equities-IF-213280": {
+"company": "SRIT India Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T00:12:31+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SRIT",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213280",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213280_13112026001231_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757113_13112026121230_WEB.xml"
+},
+"NSE-equities-IF-213281": {
+"company": "SRIT India Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T00:12:47+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SRIT",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213281",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213281_13112026001247_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757114_13112026121247_WEB.xml"
+},
+"NSE-equities-IF-213282": {
+"company": "Amber Enterprises India Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T00:19:37+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "AMBER",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213282",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213282_13112026001933_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757115_13112026121933_WEB.xml"
+},
+"NSE-equities-IF-213283": {
+"company": "ATN International Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T01:09:19+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "ATNINTER",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213283",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213283_13112026010919_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757116_13112026010918_WEB.xml"
+},
+"NSE-equities-IF-213284": {
+"company": "Jindal Poly Investment and Finance Company Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T02:32:58+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "JPOLYINVST",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213284",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213284_13112026023257_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757118_13112026023256_WEB.xml"
+},
+"NSE-equities-IF-213285": {
+"company": "Jindal Poly Investment and Finance Company Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T02:33:22+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "JPOLYINVST",
+"t": "2026-11-13T04:10+05:30",
+"uid": "NSE-equities-IF-213285",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213285_13112026023322_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757119_13112026023322_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
