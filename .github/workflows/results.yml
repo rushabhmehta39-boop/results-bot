@@ -3,10 +3,11 @@ name: Results bot
 on:
   schedule:
     # Backup starts only. The bot keeps itself running: every run starts the next one ~5 minutes later.
-    # Times are UTC (India = UTC + 5:30): about 8:02 AM, 1:02 PM and 6:02 PM India time, Monday to Saturday.
-    - cron: "32 2 * * 1-6"
-    - cron: "32 7 * * 1-6"
-    - cron: "32 12 * * 1-6"
+    # If GitHub ever drops a run and the chain stops, one of these restarts it (they do nothing while the
+    # chain is alive). Times are UTC (India = UTC + 5:30): every 20 minutes from 7:30 AM to 12:10 AM India
+    # time Monday to Saturday, and 10:30 PM to 12:10 AM on Sunday (late-night notes only).
+    - cron: "*/20 2-18 * * 1-6"
+    - cron: "*/20 17-18 * * 0"
   workflow_dispatch:
     inputs:
       mode:
@@ -36,7 +37,7 @@ jobs:
     needs: pause
     if: ${{ !cancelled() && (needs.pause.result == 'success' || needs.pause.result == 'skipped') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
 
@@ -98,8 +99,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # Keep exactly one chain: if another run is already waiting or running, it carries on instead.
-          others=$(gh run list -R "$GITHUB_REPOSITORY" -w results.yml -L 30 --json databaseId,status \
-            --jq "[.[] | select(.databaseId != $GITHUB_RUN_ID) | select(.status != \"completed\")] | length")
+          others=$(gh run list -R "$GITHUB_REPOSITORY" -w results.yml -L 30 --json databaseId,status,createdAt \
+            --jq "[.[] | select(.databaseId != $GITHUB_RUN_ID) | select(.status != \"completed\")
+                   | select((now - (.createdAt | fromdateiso8601)) < 1500)] | length")  # ignore runs stuck > 25 min
           if [ "$others" != "0" ]; then echo "Another run is already lined up ($others) - not starting one."; exit 0; fi
           # Until the 5-minute pause rule is set, wait here so checks stay ~5 minutes apart.
           if [ "${{ github.event.inputs.mode }}" = "chain" ]; then
