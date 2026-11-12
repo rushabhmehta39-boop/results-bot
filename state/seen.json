@@ -14321,6 +14321,9 @@
 "NSE|GANGOTRI|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
 },
+"NSE|GAUDIUMIVF|2026-09-30": {
+"t": "2026-11-12T23:04+05:30"
+},
 "NSE|GAYAHWS|2026-09-30": {
 "t": "2026-11-12T18:44+05:30"
 },
@@ -27135,6 +27138,22 @@
 "uid": "NSE-equities-IF-213237",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213237_12112026221414_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757071_12112026101414_WEB.xml"
+},
+"NSE-equities-IF-213250": {
+"company": "Gaudium IVF and Women Health Limited",
+"consolidated": true,
+"filed_at": "2026-11-12T23:02:56+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "GAUDIUMIVF",
+"t": "2026-11-12T23:04+05:30",
+"uid": "NSE-equities-IF-213250",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213250_12112026230256_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757083_12112026110255_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
