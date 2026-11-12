@@ -13772,6 +13772,9 @@
 "BSE|543983|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|543992|2026-09-30": {
+"t": "2026-11-12T23:46+05:30"
+},
 "BSE|543993|2026-09-30": {
 "t": "2026-11-12T17:47+05:30"
 },
@@ -14281,6 +14284,9 @@
 },
 "NSE|CROWN|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
+},
+"NSE|CTE|2026-09-30": {
+"t": "2026-11-12T23:46+05:30"
 },
 "NSE|CUPID|2026-09-30": {
 "t": "2026-11-11T18:49+05:30"
@@ -26526,6 +26532,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543983_1211202620589_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543983_1211202620589_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_543992_12112026114447_IFIndAs.xml": {
+"company": "Yatra Online Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543992",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:46+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543992_12112026114447_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543992_12112026114447_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543992_12112026114447_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_543993_12112026173859_IFIndAs.xml": {
 "company": "ARCL Organics Ltd",
 "consolidated": false,
@@ -27581,6 +27603,38 @@
 "uid": "NSE-equities-IF-213265",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213265_12112026233709_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757098_12112026113708_WEB.xml"
+},
+"NSE-equities-IF-213266": {
+"company": "Cambridge Technology Enterprises Limited",
+"consolidated": true,
+"filed_at": "2026-11-12T23:44:25+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "CTE",
+"t": "2026-11-12T23:46+05:30",
+"uid": "NSE-equities-IF-213266",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213266_12112026234424_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757099_12112026114424_WEB.xml"
+},
+"NSE-equities-IF-213267": {
+"company": "Yatra Online Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T23:44:40+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "YATRA",
+"t": "2026-11-12T23:46+05:30",
+"uid": "NSE-equities-IF-213267",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213267_12112026234440_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757100_12112026114439_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
