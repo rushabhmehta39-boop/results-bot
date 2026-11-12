@@ -13682,6 +13682,9 @@
 "BSE|542649|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|542684|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
+},
 "BSE|542830|2026-09-30": {
 "t": "2026-11-12T18:19+05:30"
 },
@@ -13859,6 +13862,9 @@
 "BSE|544642|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|544709|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
+},
 "BSE|544738|2026-09-30": {
 "t": "2026-11-12T16:38+05:30"
 },
@@ -13921,6 +13927,9 @@
 },
 "BSE|544960|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"BSE|544994|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
 },
 "BSE|544996|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -14366,6 +14375,9 @@
 "NSE|HAVISHA|2026-09-30": {
 "t": "2026-11-12T17:54+05:30"
 },
+"NSE|HDFIRE|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
+},
 "NSE|HGS|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -14591,6 +14603,9 @@
 "NSE|POWERMECH|2026-09-30": {
 "t": "2026-11-11T18:28+05:30"
 },
+"NSE|PPL|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
+},
 "NSE|PRAENG|2026-09-30": {
 "t": "2026-11-12T18:04+05:30"
 },
@@ -14713,6 +14728,9 @@
 },
 "NSE|SURYALAXMI|2026-09-30": {
 "t": "2026-11-12T16:53+05:30"
+},
+"NSE|SYSTMTXC|2026-09-30": {
+"t": "2026-11-12T23:18+05:30"
 },
 "NSE|TAJGVK|2025-09-30": {
 "t": "2026-11-12T15:30+05:30"
@@ -15735,6 +15753,9 @@
 "BSE:531439": {
 "c": 1,
 "t": "2026-11-12T18:53+05:30"
+},
+"BSE:531460": {
+"t": "2026-11-12T23:16+05:30"
 },
 "BSE:531472": {
 "c": 1,
@@ -18881,6 +18902,9 @@
 "N:CONSOLIDATEDFINVESTANDHOLDINGS": {
 "c": 1,
 "t": "2026-11-12T20:50+05:30"
+},
+"N:CONTINENTALCONTROLS": {
+"t": "2026-11-12T23:16+05:30"
 },
 "N:COROMANDELAGROPRODUCTSANDOILS": {
 "t": "2026-11-12T15:57+05:30"
@@ -26169,6 +26193,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542649_1211202620441_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542649_1211202620441_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_542684_12112026231518_IFIndAs.xml": {
+"company": "Prakash Pipes Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "542684",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:18+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_542684_12112026231518_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542684_12112026231518_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542684_12112026231518_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_542830_12112026181758_IFIndAs.xml": {
 "company": "Indian Railway Catering and Tourism Corporation Ltd",
 "consolidated": false,
@@ -26553,6 +26593,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544642_12112026195423_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544642_12112026195423_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544709_1211202623130_IFIndAs.xml": {
+"company": "Gaudium IVF and Women Health Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544709",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:18+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544709_1211202623130_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544709_1211202623130_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544709_1211202623130_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_544799_12112026192112_IFIndAs.xml": {
 "company": "Turtlemint Fintech Solutions Ltd",
 "consolidated": false,
@@ -26680,6 +26736,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544960_12112026202117_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.xml": {
+"company": "HD Fire Protect Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544994",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-12T23:18+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544996_12112026221321_IFIndAs.xml": {
 "company": "Bonfiglioli Transmissions Ltd",
@@ -27208,6 +27280,86 @@
 "uid": "NSE-equities-IF-213251",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213251_12112026230734_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757086_12112026110734_WEB.xml"
+},
+"NSE-equities-IF-213253": {
+"company": "Systematix Corporate Services Limited",
+"consolidated": true,
+"filed_at": "2026-11-12T23:12:22+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SYSTMTXC",
+"t": "2026-11-12T23:18+05:30",
+"uid": "NSE-equities-IF-213253",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213253_12112026231222_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757088_12112026111222_WEB.xml"
+},
+"NSE-equities-IF-213255": {
+"company": "HD Fire Protect Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T23:13:17+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "HDFIRE",
+"t": "2026-11-12T23:18+05:30",
+"uid": "NSE-equities-IF-213255",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213255_12112026231316_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757089_12112026111315_WEB.xml"
+},
+"NSE-equities-IF-213256": {
+"company": "Gaudium IVF and Women Health Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T23:13:20+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "GAUDIUMIVF",
+"t": "2026-11-12T23:18+05:30",
+"uid": "NSE-equities-IF-213256",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213256_12112026231319_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757090_12112026111319_WEB.xml"
+},
+"NSE-equities-IF-213257": {
+"company": "HD Fire Protect Limited",
+"consolidated": true,
+"filed_at": "2026-11-12T23:14:12+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "HDFIRE",
+"t": "2026-11-12T23:18+05:30",
+"uid": "NSE-equities-IF-213257",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213257_12112026231412_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757091_12112026111411_WEB.xml"
+},
+"NSE-equities-IF-213258": {
+"company": "Prakash Pipes Limited",
+"consolidated": false,
+"filed_at": "2026-11-12T23:17:53+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "PPL",
+"t": "2026-11-12T23:18+05:30",
+"uid": "NSE-equities-IF-213258",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213258_12112026231753_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757092_12112026111753_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
