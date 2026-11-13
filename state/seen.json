@@ -4759,9 +4759,9 @@
 "t": "2026-11-12T22:07+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_512517_12112026203133_IFIndAs.xml": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-13T08:32+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-13T08:38+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_512573_10112026183345_IFIndAs.xml": {
 "s": "superseded",
@@ -5540,9 +5540,9 @@
 "t": "2026-11-06T23:19+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531282_121120261990_IFIndAs.xml": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-13T08:32+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-13T08:38+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531297_1211202617525_IFIndAs.xml": {
 "s": "small",
@@ -25163,22 +25163,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511692_12112026195819_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511692_12112026195819_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_512517_12112026203133_IFIndAs.xml": {
-"company": "Vinayak Vanijya Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "512517",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-12T21:59+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_512517_12112026203133_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512517_12112026203133_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512517_12112026203133_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_513023_12112026064913_IFIndAs.xml": {
 "company": "Nava Ltd",
 "consolidated": false,
@@ -25578,22 +25562,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_531282_121120261990_IFIndAs.xml": {
-"company": "Virgo Polymer India Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531282",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-12T21:59+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531282_121120261990_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531282_121120261990_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531282_121120261990_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531439_12112026063818_IFIndAs.xml": {
 "company": "Aion-Tech Solutions Ltd",
@@ -29142,7 +29110,7 @@
 "v": "INE977F01010"
 },
 "512517": {
-"t": "2026-11-13T08:32+05:30",
+"t": "2026-11-13T08:38+05:30",
 "v": "INE132V01019"
 },
 "512573": {
@@ -29754,7 +29722,7 @@
 "v": "INE764D01017"
 },
 "531282": {
-"t": "2026-11-13T08:32+05:30",
+"t": "2026-11-13T08:38+05:30",
 "v": "INE464H01015"
 },
 "531297": {
@@ -31676,7 +31644,7 @@
 "v": 2115000
 },
 "INE132V01019": {
-"t": "2026-11-13T08:32+05:30",
+"t": "2026-11-13T08:38+05:30",
 "v": 996000
 },
 "INE134R01013": {
@@ -32524,7 +32492,7 @@
 "v": 16461400
 },
 "INE464H01015": {
-"t": "2026-11-13T08:32+05:30",
+"t": "2026-11-13T08:38+05:30",
 "v": 6800000
 },
 "INE466D01019": {
