@@ -2638,6 +2638,9 @@
 "ANN-sme-106858133-KRISHCA": {
 "t": "2026-11-13T10:42+05:30"
 },
+"ANN-sme-106858233-SLONE": {
+"t": "2026-11-13T11:36+05:30"
+},
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
 },
@@ -3840,6 +3843,9 @@
 },
 "BANN-c67dc3db-0b97-4ffa-91b0-f126b616701e": {
 "t": "2026-11-12T15:32+05:30"
+},
+"BANN-c6bd1d73-9556-46ea-a058-545880535241": {
+"t": "2026-11-13T11:36+05:30"
 },
 "BANN-c78c46ae-0e90-4add-a94c-0cfb47e9b92e": {
 "t": "2026-11-12T16:04+05:30"
@@ -14701,6 +14707,9 @@
 "NSE SME|MGSL|2026-09-30": {
 "t": "2026-11-12T18:12+05:30"
 },
+"NSE SME|MPEL|2026-09-30": {
+"t": "2026-11-13T11:36+05:30"
+},
 "NSE SME|MYMUDRA|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
 },
@@ -15893,6 +15902,9 @@
 "BSE:509055": {
 "c": 1,
 "t": "2026-11-12T14:50+05:30"
+},
+"BSE:509084": {
+"t": "2026-11-13T11:34+05:30"
 },
 "BSE:509196": {
 "t": "2026-11-11T12:47+05:30"
@@ -20782,6 +20794,9 @@
 "N:PHARMAIDSPHARMACEUTICALS": {
 "t": "2026-11-11T19:28+05:30"
 },
+"N:PHOTONCAPITALADVISORS": {
+"t": "2026-11-13T11:34+05:30"
+},
 "N:PICCADILYAGROINDUSTRIES": {
 "t": "2026-11-12T19:44+05:30"
 },
@@ -22254,6 +22269,10 @@
 "BSE:509055": {
 "t": "2026-11-12T15:32+05:30",
 "v": 777.6
+},
+"BSE:509084": {
+"t": "2026-11-13T11:36+05:30",
+"v": 179.9
 },
 "BSE:509196": {
 "t": "2026-11-11T12:50+05:30",
@@ -27200,6 +27219,22 @@
 "uid": "NSE-sme-IF-212936",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212936_12112026182950_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756752_12112026062950_WEB.xml"
+},
+"NSE-sme-IF-213298": {
+"company": "Manas Polymers and Energies Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T11:35:02+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "MPEL",
+"t": "2026-11-13T11:36+05:30",
+"uid": "NSE-sme-IF-213298",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_213298_13112026113501_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1757135_13112026113500_WEB.xml"
 }
 },
 "posted": {
