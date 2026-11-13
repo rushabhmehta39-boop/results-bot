@@ -10990,9 +10990,9 @@
 "t": "2026-11-12T22:06+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531625_13112026191745_IFIndAs.xml": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-13T22:28+05:30"
+"t": "2026-11-13T22:36+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531626_12112026174545_IFIndAs.xml": {
 "s": "small",
@@ -19453,6 +19453,10 @@
 "s": "superseded",
 "t": "2026-11-13T22:27+05:30"
 },
+"NSE-equities-IF-214051": {
+"s": "small",
+"t": "2026-11-13T22:36+05:30"
+},
 "NSE-equities-IF-214053": {
 "s": "small",
 "t": "2026-11-13T22:27+05:30"
@@ -21351,9 +21355,9 @@
 "t": "2026-11-13T20:51+05:30"
 },
 "NSE-sme-IF-213935": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-13T22:27+05:30"
+"t": "2026-11-13T22:36+05:30"
 },
 "NSE-sme-IF-213936": {
 "s": "superseded",
@@ -21420,19 +21424,19 @@
 "t": "2026-11-13T21:49+05:30"
 },
 "NSE-sme-IF-214026": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-13T22:27+05:30"
+"t": "2026-11-13T22:36+05:30"
 },
 "NSE-sme-IF-214035": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-13T22:27+05:30"
+"t": "2026-11-13T22:36+05:30"
 },
 "NSE-sme-IF-214036": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-13T22:27+05:30"
+"t": "2026-11-13T22:36+05:30"
 },
 "NSE-sme-IF-214040": {
 "s": "small",
@@ -23125,6 +23129,9 @@
 "BSE|532053|2026-09-30": {
 "t": "2026-11-12T17:01+05:30"
 },
+"BSE|532054|2026-09-30": {
+"t": "2026-11-13T22:35+05:30"
+},
 "BSE|532067|2026-09-30": {
 "t": "2026-11-13T17:59+05:30"
 },
@@ -24142,6 +24149,9 @@
 "BSE|543547|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|543578|2026-09-30": {
+"t": "2026-11-13T22:35+05:30"
+},
 "BSE|543595|2026-09-30": {
 "t": "2026-11-13T18:14+05:30"
 },
@@ -24760,6 +24770,9 @@
 "NSE SME|CELLPOINT|2026-09-30": {
 "t": "2026-11-11T16:26+05:30"
 },
+"NSE SME|CKKRETAIL|2026-09-30": {
+"t": "2026-11-13T22:35+05:30"
+},
 "NSE SME|CLSL|2026-09-30": {
 "t": "2026-11-13T16:50+05:30"
 },
@@ -24822,6 +24835,9 @@
 },
 "NSE SME|EXIMROUTES|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
+},
+"NSE SME|FALCONTECH|2026-09-30": {
+"t": "2026-11-13T22:35+05:30"
 },
 "NSE SME|FELIX|2026-09-30": {
 "t": "2026-11-13T16:58+05:30"
@@ -25824,6 +25840,9 @@
 },
 "NSE|KCPSUGIND|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
+},
+"NSE|KDDL|2026-09-30": {
+"t": "2026-11-13T22:35+05:30"
 },
 "NSE|KESORAMIND|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
@@ -45788,6 +45807,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543460_13112026212023_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543460_13112026212023_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_543578_13112026222929_IFOtherthan.xml": {
+"company": "Olatech Solutions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543578",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T22:35+05:30",
+"uid": "BSE-IFOtherthan_543578_13112026222929_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543578_13112026222929_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543578_13112026222929_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_543621_13112026184441_IFOtherthan.xml": {
 "company": "Cargosol Logistics Ltd",
 "consolidated": false,
@@ -47900,6 +47935,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532038_13112026144755_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532038_13112026144755_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_532054_13112026223152_IFIndAs.xml": {
+"company": "KDDL Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532054",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T22:35+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532054_13112026223152_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532054_13112026223152_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532054_13112026223152_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_532067_1311202617536_IFIndAs.xml": {
 "company": "3B BlackBio Dx Ltd",
 "consolidated": false,
@@ -49964,22 +50015,6 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214014_13112026214044_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758019_13112026094044_WEB.xml"
 },
-"NSE-equities-IF-214051": {
-"company": "Annu Projects Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T22:17:54+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "ANNU",
-"t": "2026-11-13T22:25+05:30",
-"uid": "NSE-equities-IF-214051",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214051_13112026221753_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758064_13112026101753_WEB.xml"
-},
 "NSE-equities-IF-214052": {
 "company": "Bhagyanagar India Limited",
 "consolidated": false,
@@ -49995,6 +50030,22 @@
 "uid": "NSE-equities-IF-214052",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214052_13112026221821_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758066_13112026101821_WEB.xml"
+},
+"NSE-equities-IF-214060": {
+"company": "KDDL Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T22:32:58+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "KDDL",
+"t": "2026-11-13T22:35+05:30",
+"uid": "NSE-equities-IF-214060",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214060_13112026223258_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758075_13112026103258_WEB.xml"
 },
 "NSE-sme-IF-213312": {
 "company": "Newmalayalam Steel Limited",
@@ -50331,6 +50382,70 @@
 "uid": "NSE-sme-IF-214036",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214036_13112026215815_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758046_13112026095815_WEB.xml"
+},
+"NSE-sme-IF-214057": {
+"company": "Falcon Technoprojects India Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T22:29:54+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "FALCONTECH",
+"t": "2026-11-13T22:35+05:30",
+"uid": "NSE-sme-IF-214057",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214057_13112026222954_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758070_13112026102953_WEB.xml"
+},
+"NSE-sme-IF-214058": {
+"company": "Falcon Technoprojects India Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T22:31:05+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "FALCONTECH",
+"t": "2026-11-13T22:35+05:30",
+"uid": "NSE-sme-IF-214058",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214058_13112026223105_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758071_13112026103105_WEB.xml"
+},
+"NSE-sme-IF-214059": {
+"company": "Falcon Technoprojects India Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T22:31:22+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "FALCONTECH",
+"t": "2026-11-13T22:35+05:30",
+"uid": "NSE-sme-IF-214059",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214059_13112026223122_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758072_13112026103121_WEB.xml"
+},
+"NSE-sme-IF-214061": {
+"company": "C K K Retail Mart Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T22:34:41+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "CKKRETAIL",
+"t": "2026-11-13T22:35+05:30",
+"uid": "NSE-sme-IF-214061",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214061_13112026223441_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758077_13112026103440_WEB.xml"
 }
 },
 "posted": {
@@ -52933,8 +53048,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-13T22:27+05:30",
-"v": "INE0T1501010"
+"t": "2026-11-13T22:36+05:30",
+"v": "INE0QZM01018"
 },
 "123456": {
 "t": "2026-11-13T19:48+05:30",
@@ -54949,7 +55064,7 @@
 "v": "INE695B01025"
 },
 "531625": {
-"t": "2026-11-13T22:28+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": "INE431E01011"
 },
 "531626": {
@@ -56944,6 +57059,10 @@
 "t": "2026-11-06T23:12+05:30",
 "v": "INE0LEG01024"
 },
+"544893": {
+"t": "2026-11-13T22:36+05:30",
+"v": "INE103001017"
+},
 "544895": {
 "t": "2026-11-13T22:11+05:30",
 "v": "INE1SFA01019"
@@ -57247,7 +57366,7 @@
 "v": 161250
 },
 "INE02CV01017": {
-"t": "2026-11-13T22:27+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": 15062400
 },
 "INE02KC01010": {
@@ -57743,7 +57862,7 @@
 "v": 559710000
 },
 "INE0KLO01025": {
-"t": "2026-11-13T22:27+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": 15015000
 },
 "INE0KNT01012": {
@@ -58059,7 +58178,7 @@
 "v": 7434800
 },
 "INE0QZM01018": {
-"t": "2026-11-13T22:27+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": 7531200
 },
 "INE0QZR01017": {
@@ -58075,7 +58194,7 @@
 "v": 15241100
 },
 "INE0R3501012": {
-"t": "2026-11-13T22:27+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": 13204400
 },
 "INE0R6801013": {
@@ -58369,6 +58488,10 @@
 "INE102E01018": {
 "t": "2026-11-11T03:45+05:30",
 "v": 36983500
+},
+"INE103001017": {
+"t": "2026-11-13T22:36+05:30",
+"v": 65490000
 },
 "INE103V01028": {
 "t": "2026-11-12T21:45+05:30",
@@ -59947,7 +60070,7 @@
 "v": 491000
 },
 "INE431E01011": {
-"t": "2026-11-13T22:28+05:30",
+"t": "2026-11-13T22:36+05:30",
 "v": 14860700
 },
 "INE434B01029": {
