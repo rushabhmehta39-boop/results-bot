@@ -2461,6 +2461,9 @@
 "ANN-equities-106858276-BFINVEST": {
 "t": "2026-11-13T11:55+05:30"
 },
+"ANN-equities-106858297-BBOX": {
+"t": "2026-11-13T12:14+05:30"
+},
 "ANN-sme-106854249-LOANFRONT": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -2976,6 +2979,9 @@
 },
 "BANN-3076c2a5-4f76-4b3c-8b4f-d4c3c1a3bbfb": {
 "t": "2026-11-11T18:12+05:30"
+},
+"BANN-30e9945e-e105-444d-9880-d8f4a584387f": {
+"t": "2026-11-13T12:14+05:30"
 },
 "BANN-32548d0a-6c5c-4a9b-a8af-aa912349376c": {
 "t": "2026-11-12T15:45+05:30"
@@ -4074,6 +4080,9 @@
 },
 "BANN-e5eeb4ef-548e-4798-90b8-b9950797c520": {
 "t": "2026-11-12T17:32+05:30"
+},
+"BANN-e60379a8-7034-4758-b475-551b4ac4f061": {
+"t": "2026-11-13T12:14+05:30"
 },
 "BANN-e61cedf0-df53-4b27-be78-54ef5cf5189a": {
 "t": "2026-11-12T22:09+05:30"
@@ -13988,6 +13997,9 @@
 "BSE|532326|2026-09-30": {
 "t": "2026-11-11T21:22+05:30"
 },
+"BSE|532329|2026-09-30": {
+"t": "2026-11-13T12:13+05:30"
+},
 "BSE|532332|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
 },
@@ -15780,6 +15792,9 @@
 "BASML": {
 "t": "2026-11-11T18:13+05:30"
 },
+"BBOX": {
+"t": "2026-11-13T12:09+05:30"
+},
 "BDL": {
 "t": "2026-11-12T13:54+05:30"
 },
@@ -15971,6 +15986,9 @@
 },
 "BSE:506680": {
 "t": "2026-11-12T17:16+05:30"
+},
+"BSE:506858": {
+"t": "2026-11-13T12:09+05:30"
 },
 "BSE:506975": {
 "t": "2026-11-12T18:38+05:30"
@@ -16773,6 +16791,9 @@
 },
 "BSE:532853": {
 "t": "2026-11-12T13:44+05:30"
+},
+"BSE:532855": {
+"t": "2026-11-13T12:10+05:30"
 },
 "BSE:532915": {
 "c": 1,
@@ -18994,6 +19015,9 @@
 "INE670C01026": {
 "t": "2026-11-12T19:58+05:30"
 },
+"INE676A01019": {
+"t": "2026-11-13T12:09+05:30"
+},
 "INE681Q01015": {
 "t": "2026-11-12T18:41+05:30"
 },
@@ -19893,6 +19917,9 @@
 "N:BKVINDUSTRIES": {
 "t": "2026-11-12T16:51+05:30"
 },
+"N:BLACKBOX": {
+"t": "2026-11-13T12:09+05:30"
+},
 "N:BLKASHYAPANDSONS": {
 "c": 1,
 "t": "2026-11-12T13:26+05:30"
@@ -20306,6 +20333,9 @@
 "N:GTNINDUSTRIES": {
 "t": "2026-11-12T15:20+05:30"
 },
+"N:GUJARATPETROSYNTHESE": {
+"t": "2026-11-13T12:09+05:30"
+},
 "N:GUJARATRAFFIAINDUSTRIES": {
 "t": "2026-11-12T16:39+05:30"
 },
@@ -20323,6 +20353,9 @@
 },
 "N:HARSHDEEPHORTICO": {
 "t": "2026-11-12T13:29+05:30"
+},
+"N:HARYANACAPFIN": {
+"t": "2026-11-13T12:10+05:30"
 },
 "N:HASLIFESTYLE": {
 "t": "2026-11-12T17:19+05:30"
@@ -23213,6 +23246,10 @@
 "t": "2026-11-12T15:45+05:30",
 "v": 422.0
 },
+"BSE:532855": {
+"t": "2026-11-13T12:14+05:30",
+"v": 68.8
+},
 "BSE:532918": {
 "t": "2026-11-11T15:17+05:30",
 "v": 25.6
@@ -26022,6 +26059,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532240_12112026082010_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532240_12112026082010_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532240_12112026082010_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532329_1311202612126_IFIndAs.xml": {
+"company": "Danlaw Technologies India Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532329",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T12:13+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532329_1311202612126_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532329_1311202612126_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532329_1311202612126_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532390_12112026141056_IFIndAs.xml": {
 "company": "Taj Gvk Hotels & Resorts Ltd",
