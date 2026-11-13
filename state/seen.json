@@ -19093,6 +19093,9 @@
 "BSE|539401|2026-09-30": {
 "t": "2026-11-13T19:41+05:30"
 },
+"BSE|539402|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
+},
 "BSE|539428|2026-09-30": {
 "t": "2026-11-12T22:19+05:30"
 },
@@ -19512,6 +19515,9 @@
 },
 "BSE|543919|2026-09-30": {
 "t": "2026-11-13T16:40+05:30"
+},
+"BSE|543920|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
 },
 "BSE|543921|2026-09-30": {
 "t": "2026-11-13T19:14+05:30"
@@ -19959,6 +19965,9 @@
 },
 "BSE|544975|2026-09-30": {
 "t": "2026-11-13T15:33+05:30"
+},
+"BSE|544987|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
 },
 "BSE|544994|2026-09-30": {
 "t": "2026-11-12T23:18+05:30"
@@ -20488,6 +20497,9 @@
 "NSE SME|TECHLABS|2026-09-30": {
 "t": "2026-11-13T17:46+05:30"
 },
+"NSE SME|TEMBO|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
+},
 "NSE SME|THEJO|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
 },
@@ -20509,11 +20521,17 @@
 "NSE SME|VASA|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"NSE SME|VDEAL|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
+},
 "NSE SME|VERA|2026-09-30": {
 "t": "2026-11-13T18:56+05:30"
 },
 "NSE SME|VERITAAS|2026-09-30": {
 "t": "2026-11-13T18:41+05:30"
+},
+"NSE SME|VERTOZ|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
 },
 "NSE SME|VGINFOTECH|2026-09-30": {
 "t": "2026-11-13T16:01+05:30"
@@ -20832,6 +20850,9 @@
 },
 "NSE|DISHTV|2026-09-30": {
 "t": "2026-11-12T22:56+05:30"
+},
+"NSE|DJML|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
 },
 "NSE|DOLLAR|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
@@ -21763,6 +21784,9 @@
 "NSE|TECILCHEM|2026-09-30": {
 "t": "2026-11-12T17:47+05:30"
 },
+"NSE|TEMBO|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
+},
 "NSE|TERASOFT|2026-09-30": {
 "t": "2026-11-11T22:03+05:30"
 },
@@ -21825,6 +21849,9 @@
 },
 "NSE|VERANDA|2026-09-30": {
 "t": "2026-11-13T19:41+05:30"
+},
+"NSE|VERTOZ|2026-09-30": {
+"t": "2026-11-13T23:59+05:30"
 },
 "NSE|VHLTD|2026-09-30": {
 "t": "2026-11-12T16:53+05:30"
@@ -26829,6 +26856,9 @@
 "c": 1,
 "t": "2026-11-12T14:24+05:30"
 },
+"INE0M8901010": {
+"t": "2026-11-13T17:46+05:30"
+},
 "INE0MHO01029": {
 "t": "2026-11-13T15:40+05:30"
 },
@@ -27741,8 +27771,14 @@
 "INE2WCT01016": {
 "t": "2026-11-12T13:43+05:30"
 },
+"INE300A01016": {
+"t": "2026-11-13T17:50+05:30"
+},
 "INE300B01022": {
 "t": "2026-11-13T16:39+05:30"
+},
+"INE301C01028": {
+"t": "2026-11-13T17:53+05:30"
 },
 "INE301D01018": {
 "t": "2026-11-12T23:55+05:30"
@@ -28082,11 +28118,17 @@
 "INE401C01018": {
 "t": "2026-11-13T18:18+05:30"
 },
+"INE404N01019": {
+"t": "2026-11-13T17:06+05:30"
+},
 "INE405H01018": {
 "t": "2026-11-12T20:21+05:30"
 },
 "INE406F01010": {
 "t": "2026-11-12T14:53+05:30"
+},
+"INE406N01014": {
+"t": "2026-11-13T17:57+05:30"
 },
 "INE407E01029": {
 "t": "2026-11-13T14:43+05:30"
@@ -28189,6 +28231,9 @@
 "c": 1,
 "t": "2026-11-10T13:31+05:30"
 },
+"INE446D01011": {
+"t": "2026-11-13T18:27+05:30"
+},
 "INE446E01019": {
 "t": "2026-11-12T19:45+05:30"
 },
@@ -28243,6 +28288,9 @@
 },
 "INE459A01010": {
 "t": "2026-11-11T11:40+05:30"
+},
+"INE459C01016": {
+"t": "2026-11-13T17:11+05:30"
 },
 "INE459N01021": {
 "c": 1,
@@ -29162,6 +29210,9 @@
 },
 "INE793G01035": {
 "t": "2026-11-11T15:54+05:30"
+},
+"INE793Z01027": {
+"t": "2026-11-13T17:25+05:30"
 },
 "INE794B01026": {
 "c": 1,
@@ -44635,6 +44686,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539195_13112026213914_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539195_13112026213914_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_539402_13112026235753_IFIndAs.xml": {
+"company": "Naksh Precious Metals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539402",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:59+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539402_13112026235753_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539402_13112026235753_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539402_13112026235753_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539673_1311202622369_IFIndAs.xml": {
 "company": "Radhagobind Commercial Ltd",
 "consolidated": false,
@@ -45018,6 +45085,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543896_1211202623299_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_543920_13112026235454_IFIndAs.xml": {
+"company": "CFF Fluid Control Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543920",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:59+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543920_13112026235454_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543920_13112026235454_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543920_13112026235454_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_543936_13112026211457_IFIndAs.xml": {
 "company": "Senco Gold Ltd",
@@ -45530,6 +45613,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544969_13112026192859_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544969_13112026192859_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544969_13112026192859_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_544987_13112026115512_IFIndAs.xml": {
+"company": "Tembo Global Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544987",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:59+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544987_13112026115512_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544987_13112026115512_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544987_13112026115512_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544994_12112026111329_IFIndAs.xml": {
 "company": "HD Fire Protect Ltd",
@@ -46683,6 +46782,86 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214116_13112026234751_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758147_13112026114750_WEB.xml"
 },
+"NSE-equities-IF-214117": {
+"company": "DJ Mediaprint & Logistics Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:52:27+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DJML",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-equities-IF-214117",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214117_13112026235227_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758148_13112026115226_WEB.xml"
+},
+"NSE-equities-IF-214118": {
+"company": "DJ Mediaprint & Logistics Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:52:33+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DJML",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-equities-IF-214118",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214118_13112026235232_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758149_13112026115232_WEB.xml"
+},
+"NSE-equities-IF-214119": {
+"company": "Vertoz Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:53:09+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "VERTOZ",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-equities-IF-214119",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214119_13112026235309_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758150_13112026115308_WEB.xml"
+},
+"NSE-equities-IF-214120": {
+"company": "Tembo Global Industries Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:55:04+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "TEMBO",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-equities-IF-214120",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214120_13112026235504_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758151_13112026115504_WEB.xml"
+},
+"NSE-equities-IF-214121": {
+"company": "Vertoz Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:55:42+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "VERTOZ",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-equities-IF-214121",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214121_13112026235542_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758152_13112026115541_WEB.xml"
+},
 "NSE-sme-IF-213312": {
 "company": "Newmalayalam Steel Limited",
 "consolidated": false,
@@ -47322,6 +47501,86 @@
 "uid": "NSE-sme-IF-214115",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214115_13112026234639_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758146_13112026114639_WEB.xml"
+},
+"NSE-sme-IF-214119": {
+"company": "Vertoz Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:53:09+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VERTOZ",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-sme-IF-214119",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214119_13112026235309_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758150_13112026115308_WEB.xml"
+},
+"NSE-sme-IF-214120": {
+"company": "Tembo Global Industries Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:55:04+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "TEMBO",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-sme-IF-214120",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214120_13112026235504_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758151_13112026115504_WEB.xml"
+},
+"NSE-sme-IF-214121": {
+"company": "Vertoz Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:55:42+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VERTOZ",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-sme-IF-214121",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214121_13112026235542_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758152_13112026115541_WEB.xml"
+},
+"NSE-sme-IF-214122": {
+"company": "Vdeal System Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:58:09+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VDEAL",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-sme-IF-214122",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214122_13112026235808_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758155_13112026115807_WEB.xml"
+},
+"NSE-sme-IF-214123": {
+"company": "Vdeal System Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:59:25+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VDEAL",
+"t": "2026-11-13T23:59+05:30",
+"uid": "NSE-sme-IF-214123",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214123_13112026235925_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758156_13112026115925_WEB.xml"
 }
 },
 "posted": {
