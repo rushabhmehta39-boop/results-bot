@@ -12064,14 +12064,6 @@
 "s": "posted",
 "t": "2026-11-12T22:40+05:30"
 },
-"NSE-equities-IF-211639": {
-"s": "superseded",
-"t": "2026-11-06T23:38+05:30"
-},
-"NSE-equities-IF-211640": {
-"s": "posted",
-"t": "2026-11-06T23:38+05:30"
-},
 "NSE-equities-IF-211641": {
 "s": "old",
 "t": "2026-11-07T07:21+05:30"
@@ -15662,14 +15654,6 @@
 "s": "retry_tg",
 "t": "2026-11-13T22:48+05:30"
 },
-"NSE-sme-IF-211637": {
-"s": "superseded",
-"t": "2026-11-06T23:38+05:30"
-},
-"NSE-sme-IF-211638": {
-"s": "posted",
-"t": "2026-11-06T23:38+05:30"
-},
 "NSE-sme-IF-211659": {
 "s": "superseded",
 "t": "2026-11-07T22:08+05:30"
@@ -18806,6 +18790,9 @@
 "BSE|532744|2026-09-30": {
 "t": "2026-11-13T15:15+05:30"
 },
+"BSE|532748|2026-09-30": {
+"t": "2026-11-13T23:37+05:30"
+},
 "BSE|532761|2026-09-30": {
 "t": "2026-11-13T13:18+05:30"
 },
@@ -19201,6 +19188,9 @@
 },
 "BSE|539056|2026-09-30": {
 "t": "2026-11-13T19:32+05:30"
+},
+"BSE|539083|2026-09-30": {
+"t": "2026-11-13T23:37+05:30"
 },
 "BSE|539090|2026-09-30": {
 "t": "2026-11-11T17:04+05:30"
@@ -20582,6 +20572,9 @@
 "NSE SME|QUICKTOUCH|2026-09-30": {
 "t": "2026-11-13T17:59+05:30"
 },
+"NSE SME|QVCEL|2026-09-30": {
+"t": "2026-11-13T23:37+05:30"
+},
 "NSE SME|RAPIDFLEET|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
 },
@@ -21314,6 +21307,9 @@
 "NSE|INOXGREEN|2026-09-30": {
 "t": "2026-11-13T21:44+05:30"
 },
+"NSE|INOXWIND|2026-09-30": {
+"t": "2026-11-13T23:37+05:30"
+},
 "NSE|INSPIRISYS|2026-09-30": {
 "t": "2026-11-11T16:58+05:30"
 },
@@ -21673,6 +21669,9 @@
 },
 "NSE|PENINLAND|2026-09-30": {
 "t": "2026-11-13T19:05+05:30"
+},
+"NSE|PFOCUS|2026-09-30": {
+"t": "2026-11-13T23:37+05:30"
 },
 "NSE|PGHH|2026-09-30": {
 "t": "2026-11-12T17:09+05:30"
@@ -44217,6 +44216,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532744_131120261539_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532744_131120261539_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_532748_13112026233034_IFIndAs.xml": {
+"company": "Prime Focus Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532748",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:37+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532748_13112026233034_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532748_13112026233034_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532748_13112026233034_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_532801_131120260439_IFIndAs.xml": {
 "company": "Cambridge Technology Enterprises Ltd",
 "consolidated": false,
@@ -44680,6 +44695,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539056_13112026193036_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539056_13112026193036_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539056_13112026193036_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539083_13112026233118_IFIndAs.xml": {
+"company": "Inox Wind Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539083",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:37+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539083_13112026233118_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539083_13112026233118_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539083_13112026233118_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539148_13112026184713_IFIndAs.xml": {
 "company": "Shivalik Rasayan Ltd",
@@ -46553,6 +46584,70 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214099_13112026232931_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758127_13112026112931_WEB.xml"
 },
+"NSE-equities-IF-214101": {
+"company": "Prime Focus Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:33:00+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "PFOCUS",
+"t": "2026-11-13T23:37+05:30",
+"uid": "NSE-equities-IF-214101",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214101_13112026233259_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758131_13112026113258_WEB.xml"
+},
+"NSE-equities-IF-214102": {
+"company": "Inox Wind Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:33:05+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "INOXWIND",
+"t": "2026-11-13T23:37+05:30",
+"uid": "NSE-equities-IF-214102",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214102_13112026233305_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758132_13112026113305_WEB.xml"
+},
+"NSE-equities-IF-214103": {
+"company": "Prime Focus Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:33:10+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "PFOCUS",
+"t": "2026-11-13T23:37+05:30",
+"uid": "NSE-equities-IF-214103",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214103_13112026233310_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758133_13112026113310_WEB.xml"
+},
+"NSE-equities-IF-214104": {
+"company": "Inox Wind Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:33:16+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "INOXWIND",
+"t": "2026-11-13T23:37+05:30",
+"uid": "NSE-equities-IF-214104",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214104_13112026233316_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758134_13112026113316_WEB.xml"
+},
 "NSE-sme-IF-213312": {
 "company": "Newmalayalam Steel Limited",
 "consolidated": false,
@@ -47096,6 +47191,22 @@
 "uid": "NSE-sme-IF-214093",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214093_13112026232041_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758119_13112026112041_WEB.xml"
+},
+"NSE-sme-IF-214100": {
+"company": "QVC Exports Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:32:04+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "QVCEL",
+"t": "2026-11-13T23:37+05:30",
+"uid": "NSE-sme-IF-214100",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214100_13112026233204_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758130_13112026113204_WEB.xml"
 }
 },
 "posted": {
