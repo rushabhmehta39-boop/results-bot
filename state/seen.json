@@ -17653,6 +17653,9 @@
 "BSE|516106|2026-09-30": {
 "t": "2026-11-13T18:56+05:30"
 },
+"BSE|516110|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
+},
 "BSE|517059|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -18543,6 +18546,9 @@
 },
 "BSE|531846|2026-09-30": {
 "t": "2026-11-13T16:01+05:30"
+},
+"BSE|531862|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
 },
 "BSE|531866|2026-09-30": {
 "t": "2026-11-13T19:14+05:30"
@@ -19507,6 +19513,9 @@
 "BSE|542232|2026-09-30": {
 "t": "2026-11-11T16:11+05:30"
 },
+"BSE|542323|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
+},
 "BSE|542332|2026-09-30": {
 "t": "2026-11-12T17:29+05:30"
 },
@@ -19605,6 +19614,9 @@
 },
 "BSE|543377|2026-09-30": {
 "t": "2026-11-13T18:41+05:30"
+},
+"BSE|543378|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
 },
 "BSE|543399|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -19776,6 +19788,9 @@
 },
 "BSE|544144|2026-09-30": {
 "t": "2026-11-11T20:23+05:30"
+},
+"BSE|544150|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
 },
 "BSE|544157|2026-09-30": {
 "t": "2026-11-13T23:03+05:30"
@@ -20377,6 +20392,9 @@
 "NSE SME|FROG|2026-09-30": {
 "t": "2026-11-13T18:14+05:30"
 },
+"NSE SME|GANESHIN|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
+},
 "NSE SME|GCHOTELS|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -20619,6 +20637,9 @@
 },
 "NSE SME|SARTELE|2026-09-30": {
 "t": "2026-11-13T19:05+05:30"
+},
+"NSE SME|SARVESHWAR|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
 },
 "NSE SME|SATECH|2026-09-30": {
 "t": "2026-11-13T15:50+05:30"
@@ -21412,6 +21433,9 @@
 "NSE|KPEL|2026-09-30": {
 "t": "2026-11-13T22:05+05:30"
 },
+"NSE|KPIGREEN|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
+},
 "NSE|KRIDHANINF|2026-09-30": {
 "t": "2026-11-13T21:44+05:30"
 },
@@ -21837,6 +21861,9 @@
 },
 "NSE|SALZERELEC|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
+},
+"NSE|SARVESHWAR|2026-09-30": {
+"t": "2026-11-13T23:44+05:30"
 },
 "NSE|SATIA|2026-09-30": {
 "t": "2026-11-13T15:15+05:30"
@@ -23347,6 +23374,9 @@
 },
 "BSE:516106": {
 "t": "2026-11-13T18:11+05:30"
+},
+"BSE:516110": {
+"t": "2026-11-13T23:37+05:30"
 },
 "BSE:517059": {
 "t": "2026-11-12T18:34+05:30"
@@ -31573,6 +31603,9 @@
 },
 "N:FALCONTECHNOPROJECTSINDIA": {
 "t": "2026-11-13T21:33+05:30"
+},
+"N:FAMILYCAREHOSPITALS": {
+"t": "2026-11-13T23:37+05:30"
 },
 "N:FEDERALMOGULGOETZEINDIA": {
 "c": 1,
@@ -41544,6 +41577,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_542678_1311202620123_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_542678_1311202620123_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_543378_13112026233934_IFOtherthan.xml": {
+"company": "CWD Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543378",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:44+05:30",
+"uid": "BSE-IFOtherthan_543378_13112026233934_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543378_13112026233934_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543378_13112026233934_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_543460_13112026212023_IFOtherthan.xml": {
 "company": "Quality RO Industries Ltd",
 "consolidated": false,
@@ -42984,6 +43033,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514197_13112026175732_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514197_13112026175732_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_516110_13112026233954_IFIndAs.xml": {
+"company": "Family Care Hospitals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "516110",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:44+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_516110_13112026233954_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_516110_13112026233954_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_516110_13112026233954_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_517146_13112026224123_IFIndAs.xml": {
 "company": "Usha Martin Ltd",
 "consolidated": false,
@@ -43911,6 +43976,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531846_13112026154721_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531846_13112026154721_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531846_13112026154721_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531862_13112026234124_IFIndAs.xml": {
+"company": "Bharat Agri Fert & Realty Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531862",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:44+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531862_13112026234124_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531862_13112026234124_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531862_13112026234124_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531979_1311202617948_IFIndAs.xml": {
 "company": "Hind Aluminium Industries Ltd-$",
@@ -44952,6 +45033,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540902_1311202601854_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_542323_13112026233720_IFIndAs.xml": {
+"company": "KPI Green Energy Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "542323",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:44+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_542323_13112026233720_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542323_13112026233720_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_542323_13112026233720_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_542367_13112026061902_IFIndAs.xml": {
 "company": "Xelpmoc Design and Tech Ltd",
 "consolidated": false,
@@ -45207,6 +45304,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544111_13112026172811_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_13112026172811_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_13112026172811_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_544150_13112026234136_IFIndAs.xml": {
+"company": "KP Green Engineering Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544150",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T23:44+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544150_13112026234136_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544150_13112026234136_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544150_13112026234136_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544224_12112026224950_IFIndAs.xml": {
 "company": "Afcom Holdings Ltd",
@@ -46648,6 +46761,86 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214104_13112026233316_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758134_13112026113316_WEB.xml"
 },
+"NSE-equities-IF-214108": {
+"company": "KPI Green Energy Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:38:25+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "KPIGREEN",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-equities-IF-214108",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214108_13112026233825_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758138_13112026113824_WEB.xml"
+},
+"NSE-equities-IF-214109": {
+"company": "KPI Green Energy Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:38:40+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "KPIGREEN",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-equities-IF-214109",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214109_13112026233840_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758139_13112026113840_WEB.xml"
+},
+"NSE-equities-IF-214112": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:43:43+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SARVESHWAR",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-equities-IF-214112",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214112_13112026234343_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758142_13112026114342_WEB.xml"
+},
+"NSE-equities-IF-214113": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:44:28+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "SARVESHWAR",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-equities-IF-214113",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214113_13112026234428_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758143_13112026114428_WEB.xml"
+},
+"NSE-equities-IF-214114": {
+"company": "Swelect Energy Systems Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:44:34+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SWELECTES",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-equities-IF-214114",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214114_13112026234434_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758144_13112026114434_WEB.xml"
+},
 "NSE-sme-IF-213312": {
 "company": "Newmalayalam Steel Limited",
 "consolidated": false,
@@ -47207,6 +47400,70 @@
 "uid": "NSE-sme-IF-214100",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214100_13112026233204_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758130_13112026113204_WEB.xml"
+},
+"NSE-sme-IF-214110": {
+"company": "Ganesh Infraworld Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:38:50+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "GANESHIN",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-sme-IF-214110",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214110_13112026233850_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758140_13112026113850_WEB.xml"
+},
+"NSE-sme-IF-214111": {
+"company": "Ganesh Infraworld Limited",
+"consolidated": true,
+"filed_at": "2026-11-13T23:43:13+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "GANESHIN",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-sme-IF-214111",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214111_13112026234313_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758141_13112026114312_WEB.xml"
+},
+"NSE-sme-IF-214112": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:43:43+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SARVESHWAR",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-sme-IF-214112",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214112_13112026234343_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758142_13112026114342_WEB.xml"
+},
+"NSE-sme-IF-214113": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T23:44:28+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SARVESHWAR",
+"t": "2026-11-13T23:44+05:30",
+"uid": "NSE-sme-IF-214113",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214113_13112026234428_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758143_13112026114428_WEB.xml"
 }
 },
 "posted": {
