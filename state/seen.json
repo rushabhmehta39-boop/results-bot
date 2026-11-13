@@ -3827,6 +3827,9 @@
 "BANN-ae8a53bc-8bf0-459e-bec5-ed3ade0712fe": {
 "t": "2026-11-12T15:32+05:30"
 },
+"BANN-aec02348-c69d-40f9-8b42-ee35706e7319": {
+"t": "2026-11-13T12:41+05:30"
+},
 "BANN-af2b15e2-d1f8-41ce-9641-69e9340372c9": {
 "t": "2026-11-12T18:57+05:30"
 },
@@ -3862,6 +3865,9 @@
 },
 "BANN-b4ba9909-edf2-472b-b90d-3926e269c372": {
 "t": "2026-11-11T14:21+05:30"
+},
+"BANN-b52d3323-1e92-4c49-90c1-d522e83fc7f1": {
+"t": "2026-11-13T12:41+05:30"
 },
 "BANN-b56f03c0-8f1f-4964-a121-26dbb880e008": {
 "t": "2026-11-12T18:38+05:30"
@@ -13935,6 +13941,9 @@
 "BSE|531396|2026-09-30": {
 "t": "2026-11-12T18:44+05:30"
 },
+"BSE|531402|2026-09-30": {
+"t": "2026-11-13T12:40+05:30"
+},
 "BSE|531413|2026-09-30": {
 "t": "2026-11-12T17:01+05:30"
 },
@@ -16136,6 +16145,10 @@
 "BSE:511756": {
 "t": "2026-11-11T17:23+05:30"
 },
+"BSE:512018": {
+"c": 1,
+"t": "2026-11-13T12:33+05:30"
+},
 "BSE:512036": {
 "t": "2026-11-10T20:27+05:30"
 },
@@ -17285,6 +17298,9 @@
 },
 "BSE:543547": {
 "t": "2026-11-12T19:38+05:30"
+},
+"BSE:543625": {
+"t": "2026-11-13T12:39+05:30"
 },
 "BSE:543650": {
 "c": 1,
@@ -21374,6 +21390,9 @@
 "N:SCHNEIDERELECTRICPRESIDENTSYSTEMS": {
 "t": "2026-11-12T18:09+05:30"
 },
+"N:SECURCREDENTIALS": {
+"t": "2026-11-13T12:39+05:30"
+},
 "N:SECUREKLOUDTECHNOLOGIES": {
 "t": "2026-11-11T18:47+05:30"
 },
@@ -21646,6 +21665,10 @@
 },
 "N:TMTINDIA": {
 "t": "2026-11-12T17:02+05:30"
+},
+"N:TOMORROWTECHNOLOGIESGLOBALINNOVATIONS": {
+"c": 1,
+"t": "2026-11-13T12:33+05:30"
 },
 "N:TRAVELFOODSERVICES": {
 "c": 1,
@@ -22646,6 +22669,10 @@
 "BSE:511756": {
 "t": "2026-11-11T17:29+05:30",
 "v": 17.8
+},
+"BSE:512018": {
+"t": "2026-11-13T12:41+05:30",
+"v": 93.9
 },
 "BSE:512048": {
 "t": "2026-11-12T22:09+05:30",
@@ -23738,6 +23765,10 @@
 "BSE:543531": {
 "t": "2026-11-11T20:11+05:30",
 "v": 169.4
+},
+"BSE:543625": {
+"t": "2026-11-13T12:41+05:30",
+"v": 6.7
 },
 "BSE:543651": {
 "t": "2026-11-12T15:32+05:30",
@@ -26096,6 +26127,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531147_12112026184625_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531402_13112026123914_IFIndAs.xml": {
+"company": "LWS Knitwear Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531402",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T12:40+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531402_13112026123914_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531402_13112026123914_IFIndAs.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531402_13112026123914_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531439_12112026063818_IFIndAs.xml": {
 "company": "Aion-Tech Solutions Ltd",
