@@ -1145,6 +1145,14 @@
 "pdf": 5,
 "t": "2026-11-12T17:56+05:30"
 },
+"INE451L01014": {
+"d": "2026-11-13",
+"mcap": 2534.1,
+"mid": 432,
+"n": "MAHAMAYASTEELINDUSTRIES",
+"pdf": 5,
+"t": "2026-11-13T13:27+05:30"
+},
 "INE457F01013": {
 "d": "2026-11-12",
 "mcap": 936.5,
@@ -1400,6 +1408,14 @@
 "n": "MADRASFERTILIZERS",
 "pdf": 5,
 "t": "2026-11-12T15:56+05:30"
+},
+"MAHASTEEL": {
+"d": "2026-11-13",
+"mcap": 2534.1,
+"mid": 432,
+"n": "MAHAMAYASTEELINDUSTRIES",
+"pdf": 5,
+"t": "2026-11-13T13:27+05:30"
 },
 "MANAPPURAM": {
 "d": "2026-11-12",
@@ -2535,6 +2551,12 @@
 "ANN-equities-106858491-PRECOT": {
 "t": "2026-11-13T13:20+05:30"
 },
+"ANN-equities-106858493-GILLANDERS": {
+"t": "2026-11-13T13:27+05:30"
+},
+"ANN-equities-106858497-MAHASTEEL": {
+"t": "2026-11-13T13:27+05:30"
+},
 "ANN-sme-106854249-LOANFRONT": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -2798,6 +2820,9 @@
 },
 "ANN-sme-106858449-REXPIPES": {
 "t": "2026-11-13T13:04+05:30"
+},
+"ANN-sme-106858499-JALAN": {
+"t": "2026-11-13T13:27+05:30"
 },
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
@@ -12030,6 +12055,18 @@
 "s": "posted",
 "t": "2026-11-13T12:56+05:30"
 },
+"NSE-equities-IF-213330": {
+"s": "small",
+"t": "2026-11-13T13:27+05:30"
+},
+"NSE-equities-IF-213336": {
+"s": "small",
+"t": "2026-11-13T13:27+05:30"
+},
+"NSE-equities-IF-213337": {
+"s": "superseded",
+"t": "2026-11-13T13:27+05:30"
+},
 "NSE-sme-IF-210023": {
 "s": "old",
 "t": "2026-11-06T23:19+05:30"
@@ -13396,9 +13433,9 @@
 "t": "2026-11-13T12:02+05:30"
 },
 "NSE-sme-IF-213320": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-13T13:20+05:30"
+"t": "2026-11-13T13:27+05:30"
 }
 },
 "first_seen": {
@@ -13560,6 +13597,9 @@
 },
 "BSE|507753|2026-09-30": {
 "t": "2026-11-11T16:58+05:30"
+},
+"BSE|507794|2026-09-30": {
+"t": "2026-11-13T13:26+05:30"
 },
 "BSE|507878|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -14680,6 +14720,9 @@
 "BSE|543278|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
 },
+"BSE|543298|2026-09-30": {
+"t": "2026-11-13T13:26+05:30"
+},
 "BSE|543309|2026-09-30": {
 "t": "2026-11-12T15:44+05:30"
 },
@@ -15421,6 +15464,9 @@
 "NSE|HDFIRE|2026-09-30": {
 "t": "2026-11-12T23:18+05:30"
 },
+"NSE|HGM|2026-09-30": {
+"t": "2026-11-13T13:26+05:30"
+},
 "NSE|HGS|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -15489,6 +15535,9 @@
 },
 "NSE|KESORAMIND|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
+},
+"NSE|KHAICHEM|2026-09-30": {
+"t": "2026-11-13T13:26+05:30"
 },
 "NSE|KUNDANMM|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
@@ -15861,6 +15910,9 @@
 },
 "NSE|VHL|2026-09-30": {
 "t": "2026-11-10T23:47+05:30"
+},
+"NSE|VINEETLAB|2026-09-30": {
+"t": "2026-11-13T13:26+05:30"
 },
 "NSE|VIPIND|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
@@ -18001,6 +18053,9 @@
 "GCHOTELS": {
 "t": "2026-11-12T17:47+05:30"
 },
+"GILLANDERS": {
+"t": "2026-11-13T13:17+05:30"
+},
 "GILLETTE": {
 "t": "2026-11-13T13:02+05:30"
 },
@@ -18170,6 +18225,9 @@
 },
 "INE039E01020": {
 "t": "2026-11-12T18:27+05:30"
+},
+"INE047B01011": {
+"t": "2026-11-13T13:17+05:30"
 },
 "INE047E01031": {
 "t": "2026-11-11T13:30+05:30"
@@ -19070,6 +19128,10 @@
 "INE451F01016": {
 "t": "2026-11-12T18:52+05:30"
 },
+"INE451L01014": {
+"c": 1,
+"t": "2026-11-13T13:19+05:30"
+},
 "INE452Z01012": {
 "t": "2026-11-12T18:41+05:30"
 },
@@ -19864,6 +19926,9 @@
 "JAINAM": {
 "t": "2026-11-12T16:54+05:30"
 },
+"JALAN": {
+"t": "2026-11-13T13:19+05:30"
+},
 "JAYESH": {
 "t": "2026-11-12T17:59+05:30"
 },
@@ -19955,6 +20020,10 @@
 },
 "MAHAPEXLTD": {
 "t": "2026-11-12T16:39+05:30"
+},
+"MAHASTEEL": {
+"c": 1,
+"t": "2026-11-13T13:19+05:30"
 },
 "MALLCOM": {
 "t": "2026-11-12T19:14+05:30"
@@ -20737,6 +20806,9 @@
 "N:GICHOUSINGFINANCE": {
 "t": "2026-11-12T19:10+05:30"
 },
+"N:GILLANDERSARBUTHNOTANDCOMPANY": {
+"t": "2026-11-13T13:17+05:30"
+},
 "N:GILLETTEINDIA": {
 "t": "2026-11-13T13:02+05:30"
 },
@@ -20948,6 +21020,9 @@
 "N:JAINAMFERROALLOYSI": {
 "t": "2026-11-12T16:54+05:30"
 },
+"N:JALANTRANSOLUTIONSINDIA": {
+"t": "2026-11-13T13:19+05:30"
+},
 "N:JAMESWARRENTEA": {
 "t": "2026-11-12T17:36+05:30"
 },
@@ -21155,6 +21230,10 @@
 },
 "N:MAGSONRETAILANDDISTRIBUTION": {
 "t": "2026-11-09T13:08+05:30"
+},
+"N:MAHAMAYASTEELINDUSTRIES": {
+"c": 1,
+"t": "2026-11-13T13:19+05:30"
 },
 "N:MAHARAJAANDSPEEDEXINDIA": {
 "t": "2026-11-12T21:18+05:30"
@@ -24681,6 +24760,10 @@
 "t": "2026-11-12T16:45+05:30",
 "v": 131.1
 },
+"MAHASTEEL": {
+"t": "2026-11-13T13:27+05:30",
+"v": 2534.1
+},
 "MALLCOM": {
 "t": "2026-11-12T21:52+05:30",
 "v": 586.3
@@ -26152,6 +26235,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507526_12112026213354_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507526_12112026213354_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_507794_13112026132044_IFIndAs.xml": {
+"company": "Khaitan Chemicals & Fertilizers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "507794",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T13:26+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_507794_13112026132044_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507794_13112026132044_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_507794_13112026132044_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_507878_1211202619338_IFIndAs.xml": {
 "company": "Unitech Ltd",
 "consolidated": false,
@@ -27528,6 +27627,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543249_12112026202352_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543249_12112026202352_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_543298_13112026132028_IFIndAs.xml": {
+"company": "Vineet Laboratories Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543298",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T13:26+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543298_13112026132028_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543298_13112026132028_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543298_13112026132028_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_543364_1211202619425_IFIndAs.xml": {
 "company": "Markolines Pavement Technologies Ltd",
 "consolidated": false,
@@ -28360,21 +28475,37 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213268_12112026234751_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757101_12112026114750_WEB.xml"
 },
-"NSE-equities-IF-213330": {
-"company": "Sarthak Metals Limited",
+"NSE-equities-IF-213338": {
+"company": "Vineet Laboratories Limited",
 "consolidated": false,
-"filed_at": "2026-11-13T13:04:01+05:30",
+"filed_at": "2026-11-13T13:22:09+05:30",
 "index": "equities",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
 "scrip": "",
 "source": "NSE",
-"symbol": "SMLT",
-"t": "2026-11-13T13:10+05:30",
-"uid": "NSE-equities-IF-213330",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213330_13112026130401_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757189_13112026010400_WEB.xml"
+"symbol": "VINEETLAB",
+"t": "2026-11-13T13:26+05:30",
+"uid": "NSE-equities-IF-213338",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213338_13112026132208_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757199_13112026012208_WEB.xml"
+},
+"NSE-equities-IF-213339": {
+"company": "Khaitan Chemicals & Fertilizers Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T13:22:15+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "KHAICHEM",
+"t": "2026-11-13T13:26+05:30",
+"uid": "NSE-equities-IF-213339",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213339_13112026132214_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757200_13112026012214_WEB.xml"
 },
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
@@ -30162,7 +30293,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-13T13:20+05:30",
+"t": "2026-11-13T13:27+05:30",
 "v": "INE0TP801012"
 },
 "123456": {
@@ -31393,6 +31524,10 @@
 "t": "2026-11-12T18:37+05:30",
 "v": "INE397H01017"
 },
+"532761": {
+"t": "2026-11-13T13:27+05:30",
+"v": "INE596H01014"
+},
 "532768": {
 "t": "2026-11-12T18:13+05:30",
 "v": "INE737H01014"
@@ -31772,6 +31907,10 @@
 "540311": {
 "t": "2026-11-06T23:16+05:30",
 "v": "INE863T01013"
+},
+"540393": {
+"t": "2026-11-13T13:27+05:30",
+"v": "INE017W01010"
 },
 "540455": {
 "t": "2026-11-13T08:08+05:30",
@@ -32407,6 +32546,10 @@
 "t": "2026-11-12T22:01+05:30",
 "v": 20940000
 },
+"INE017W01010": {
+"t": "2026-11-13T13:27+05:30",
+"v": 13689800
+},
 "INE01A001028": {
 "t": "2026-11-12T22:01+05:30",
 "v": 57150000
@@ -32952,7 +33095,7 @@
 "v": 24607800
 },
 "INE0TP801012": {
-"t": "2026-11-13T13:20+05:30",
+"t": "2026-11-13T13:27+05:30",
 "v": 22766
 },
 "INE0TQE01026": {
@@ -34206,6 +34349,10 @@
 "INE595D01015": {
 "t": "2026-11-11T03:45+05:30",
 "v": 6490100
+},
+"INE596H01014": {
+"t": "2026-11-13T13:27+05:30",
+"v": 12595000
 },
 "INE597I01028": {
 "t": "2026-11-12T21:47+05:30",
