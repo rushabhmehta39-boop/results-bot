@@ -2486,6 +2486,12 @@
 "ANN-equities-106858317-VENKEYS": {
 "t": "2026-11-13T12:34+05:30"
 },
+"ANN-equities-106858411-SMLT": {
+"t": "2026-11-13T12:49+05:30"
+},
+"ANN-equities-106858414-AJOONI": {
+"t": "2026-11-13T12:49+05:30"
+},
 "ANN-sme-106854249-LOANFRONT": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -2731,6 +2737,12 @@
 },
 "ANN-sme-106858306-RAVITA": {
 "t": "2026-11-13T12:20+05:30"
+},
+"ANN-sme-106858387-NMSTEEL": {
+"t": "2026-11-13T12:49+05:30"
+},
+"ANN-sme-106858410-COMMITTED": {
+"t": "2026-11-13T12:49+05:30"
 },
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
@@ -3010,6 +3022,9 @@
 },
 "BANN-30e9945e-e105-444d-9880-d8f4a584387f": {
 "t": "2026-11-13T12:14+05:30"
+},
+"BANN-3225b5ea-f630-4ae9-aa9f-fd0c5ca7c5a7": {
+"t": "2026-11-13T12:49+05:30"
 },
 "BANN-32548d0a-6c5c-4a9b-a8af-aa912349376c": {
 "t": "2026-11-12T15:45+05:30"
@@ -14574,6 +14589,9 @@
 "BSE|543993|2026-09-30": {
 "t": "2026-11-12T17:47+05:30"
 },
+"BSE|543995|2026-09-30": {
+"t": "2026-11-13T12:47+05:30"
+},
 "BSE|544015|2026-09-30": {
 "t": "2026-11-11T19:24+05:30"
 },
@@ -14885,6 +14903,9 @@
 },
 "NSE SME|NEPHROCARE|2026-09-30": {
 "t": "2026-11-12T18:12+05:30"
+},
+"NSE SME|NMSTEEL|2026-09-30": {
+"t": "2026-11-13T12:47+05:30"
 },
 "NSE SME|NPST|2026-09-30": {
 "t": "2026-11-12T15:44+05:30"
@@ -15390,6 +15411,9 @@
 "NSE|MURUDCERA|2026-09-30": {
 "t": "2026-11-12T15:44+05:30"
 },
+"NSE|MVGJL|2026-09-30": {
+"t": "2026-11-13T12:47+05:30"
+},
 "NSE|NAVA|2026-09-30": {
 "t": "2026-11-12T18:55+05:30"
 },
@@ -15729,6 +15753,9 @@
 },
 "AGNI": {
 "t": "2026-11-12T19:25+05:30"
+},
+"AJOONI": {
+"t": "2026-11-13T12:46+05:30"
 },
 "ALBERTDAVD": {
 "t": "2026-11-12T13:13+05:30"
@@ -17429,6 +17456,9 @@
 "BSE:544475": {
 "t": "2026-11-12T15:03+05:30"
 },
+"BSE:544506": {
+"t": "2026-11-13T12:45+05:30"
+},
 "BSE:544544": {
 "c": 1,
 "t": "2026-11-13T09:51+05:30"
@@ -17583,6 +17613,9 @@
 },
 "COCHINSHIP": {
 "t": "2026-11-10T14:27+05:30"
+},
+"COMMITTED": {
+"t": "2026-11-13T12:44+05:30"
 },
 "CONSOFINVT": {
 "c": 1,
@@ -17836,6 +17869,9 @@
 },
 "INE016Q01014": {
 "t": "2026-11-12T20:29+05:30"
+},
+"INE017W01010": {
+"t": "2026-11-13T12:44+05:30"
 },
 "INE01A001028": {
 "t": "2026-11-12T20:45+05:30"
@@ -19292,6 +19328,9 @@
 "c": 1,
 "t": "2026-11-12T17:06+05:30"
 },
+"INE820Y01013": {
+"t": "2026-11-13T12:46+05:30"
+},
 "INE825C01018": {
 "t": "2026-11-12T18:54+05:30"
 },
@@ -19781,6 +19820,9 @@
 "c": 1,
 "t": "2026-11-11T16:31+05:30"
 },
+"N:AJOONIBIOTECH": {
+"t": "2026-11-13T12:46+05:30"
+},
 "N:AKCAPITALSERVICES": {
 "c": 1,
 "t": "2026-11-12T21:03+05:30"
@@ -20091,6 +20133,9 @@
 "N:COMFORTCOMMOTRADE": {
 "c": 1,
 "t": "2026-11-12T18:00+05:30"
+},
+"N:COMMITTEDCARGOCARE": {
+"t": "2026-11-13T12:44+05:30"
 },
 "N:COMPLETESPORTSANDMANAGEMENTINDIA": {
 "c": 1,
@@ -21384,6 +21429,9 @@
 "N:SANTOSHFINEFAB": {
 "t": "2026-11-12T17:27+05:30"
 },
+"N:SARTHAKMETALS": {
+"t": "2026-11-13T12:44+05:30"
+},
 "N:SATTVAENGINEERINGCONSTRUCTION": {
 "t": "2026-11-12T18:29+05:30"
 },
@@ -21422,6 +21470,9 @@
 "N:SHARESAMADHAN": {
 "c": 1,
 "t": "2026-11-12T14:24+05:30"
+},
+"N:SHARVAYAMETALS": {
+"t": "2026-11-13T12:45+05:30"
 },
 "N:SHESHADRIINDUSTRIES": {
 "t": "2026-11-12T12:19+05:30"
@@ -22145,6 +22196,9 @@
 },
 "SLONE": {
 "t": "2026-11-12T19:11+05:30"
+},
+"SMLT": {
+"t": "2026-11-13T12:44+05:30"
 },
 "SOMATEX": {
 "t": "2026-11-11T16:47+05:30"
@@ -23874,6 +23928,10 @@
 "t": "2026-11-12T15:32+05:30",
 "v": 64.1
 },
+"BSE:544506": {
+"t": "2026-11-13T12:49+05:30",
+"v": 164.5
+},
 "BSE:544544": {
 "t": "2026-11-13T09:54+05:30",
 "v": 205.0
@@ -24361,6 +24419,10 @@
 "SICALLOG": {
 "t": "2026-11-11T21:04+05:30",
 "v": 621.7
+},
+"SMLT": {
+"t": "2026-11-13T12:49+05:30",
+"v": 97.2
 },
 "SOMATEX": {
 "t": "2026-11-11T16:53+05:30",
@@ -27040,6 +27102,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543993_12112026173859_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543993_12112026173859_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_543995_13112026124701_IFIndAs.xml": {
+"company": "Manoj Vaibhav Gems N Jewellers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543995",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T12:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543995_13112026124701_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543995_13112026124701_IFIndAs.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543995_13112026124701_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_544136_12112026191942_IFIndAs.xml": {
 "company": "R K Swamy Ltd",
 "consolidated": false,
@@ -27648,6 +27726,22 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213268_12112026234751_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757101_12112026114750_WEB.xml"
 },
+"NSE-equities-IF-213314": {
+"company": "Manoj Vaibhav Gems N Jewellers Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T12:46:50+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "MVGJL",
+"t": "2026-11-13T12:47+05:30",
+"uid": "NSE-equities-IF-213314",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213314_13112026124650_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757169_13112026124649_WEB.xml"
+},
 "NSE-sme-IF-212933": {
 "company": "Jainam Ferro Alloys (I) Limited",
 "consolidated": false,
@@ -27679,6 +27773,22 @@
 "uid": "NSE-sme-IF-212936",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_212936_12112026182950_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1756752_12112026062950_WEB.xml"
+},
+"NSE-sme-IF-213312": {
+"company": "Newmalayalam Steel Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T12:45:02+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "NMSTEEL",
+"t": "2026-11-13T12:47+05:30",
+"uid": "NSE-sme-IF-213312",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_213312_13112026124501_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1757168_13112026124500_WEB.xml"
 }
 },
 "posted": {
