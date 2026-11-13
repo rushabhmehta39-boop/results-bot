@@ -2401,6 +2401,9 @@
 "ANN-equities-106858218-PARKHOSPS": {
 "t": "2026-11-13T11:24+05:30"
 },
+"ANN-equities-106858248-XELPMOC": {
+"t": "2026-11-13T11:42+05:30"
+},
 "ANN-sme-106854249-LOANFRONT": {
 "t": "2026-11-10T23:49+05:30"
 },
@@ -14776,6 +14779,9 @@
 "NSE SME|SJLOGISTIC|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"NSE SME|SLONE|2026-09-30": {
+"t": "2026-11-13T11:42+05:30"
+},
 "NSE SME|SYLVANPLY|2026-09-30": {
 "t": "2026-11-12T19:04+05:30"
 },
@@ -17614,6 +17620,9 @@
 },
 "INE01NE01012": {
 "t": "2026-11-11T16:00+05:30"
+},
+"INE01P501012": {
+"t": "2026-11-13T11:41+05:30"
 },
 "INE020G01017": {
 "t": "2026-11-11T16:24+05:30"
@@ -21548,6 +21557,9 @@
 "N:WSINDUSTRIESINDIA": {
 "t": "2026-11-12T18:41+05:30"
 },
+"N:XELPMOCDESIGNANDTECH": {
+"t": "2026-11-13T11:41+05:30"
+},
 "N:YATRAONLINE": {
 "t": "2026-11-12T23:30+05:30"
 },
@@ -21994,6 +22006,9 @@
 "WSI": {
 "t": "2026-11-12T18:46+05:30"
 },
+"XELPMOC": {
+"t": "2026-11-13T11:41+05:30"
+},
 "YATRA": {
 "t": "2026-11-12T23:30+05:30"
 },
@@ -22105,10 +22120,6 @@
 "BSE:500013": {
 "t": "2026-11-12T15:45+05:30",
 "v": 49.6
-},
-"BSE:500041": {
-"t": "2026-11-11T11:40+05:30",
-"v": 3991.4
 },
 "BSE:500170": {
 "t": "2026-11-12T15:32+05:30",
@@ -24085,6 +24096,10 @@
 "WSI": {
 "t": "2026-11-12T18:57+05:30",
 "v": 537.3
+},
+"XELPMOC": {
+"t": "2026-11-13T11:42+05:30",
+"v": 124.6
 },
 "ZUARIIND": {
 "t": "2026-11-12T18:29+05:30",
@@ -27235,6 +27250,22 @@
 "uid": "NSE-sme-IF-213298",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_213298_13112026113501_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1757135_13112026113500_WEB.xml"
+},
+"NSE-sme-IF-213299": {
+"company": "Slone Infosystems Limited",
+"consolidated": false,
+"filed_at": "2026-11-13T11:41:53+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SLONE",
+"t": "2026-11-13T11:42+05:30",
+"uid": "NSE-sme-IF-213299",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_213299_13112026114152_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1757137_13112026114152_WEB.xml"
 }
 },
 "posted": {
