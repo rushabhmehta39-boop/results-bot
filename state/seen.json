@@ -2805,6 +2805,9 @@
 "BANN-1f8e8610-0748-4d68-97a2-24a402e8f81c": {
 "t": "2026-11-12T17:32+05:30"
 },
+"BANN-1fcce002-70be-465c-9b5d-8756747e6d12": {
+"t": "2026-11-13T09:54+05:30"
+},
 "BANN-20360d71-399c-4d1a-a87c-ca3b915a871a": {
 "t": "2026-11-11T17:23+05:30"
 },
@@ -14448,6 +14451,9 @@
 "BSE|544475|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
 },
+"BSE|544544|2026-09-30": {
+"t": "2026-11-13T09:54+05:30"
+},
 "BSE|544547|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -17135,6 +17141,10 @@
 },
 "BSE:544475": {
 "t": "2026-11-12T15:03+05:30"
+},
+"BSE:544544": {
+"c": 1,
+"t": "2026-11-13T09:51+05:30"
 },
 "BSE:544547": {
 "c": 1,
@@ -21227,6 +21237,10 @@
 "c": 1,
 "t": "2026-11-12T19:11+05:30"
 },
+"N:TELGEPROJECTS": {
+"c": 1,
+"t": "2026-11-13T09:51+05:30"
+},
 "N:TERASOFTWARE": {
 "t": "2026-11-11T21:22+05:30"
 },
@@ -23381,6 +23395,10 @@
 "t": "2026-11-12T15:32+05:30",
 "v": 64.1
 },
+"BSE:544544": {
+"t": "2026-11-13T09:54+05:30",
+"v": 205.0
+},
 "BSE:544547": {
 "t": "2026-11-12T22:09+05:30",
 "v": 441.4
@@ -24746,6 +24764,22 @@
 "uid": "BSE-IFOtherthan_544251_121120261855_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544251_121120261855_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544251_121120261855_IFOtherthan.xml"
+},
+"BSE-IFOtherthan_544544_1311202693220_IFOtherthan.xml": {
+"company": "Telge Projects Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544544",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-13T09:54+05:30",
+"uid": "BSE-IFOtherthan_544544_1311202693220_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544544_1311202693220_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544544_1311202693220_IFOtherthan.xml"
 },
 "BSE-IFOtherthan_544561_121120261977_IFOtherthan.xml": {
 "company": "Chiraharit Ltd",
