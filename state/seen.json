@@ -17737,6 +17737,9 @@
 "BSE|504220|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|504378|2026-09-30": {
+"t": "2026-11-14T10:57+05:30"
+},
 "BSE|504810|2026-09-30": {
 "t": "2026-11-13T21:44+05:30"
 },
@@ -43121,6 +43124,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_503635_1311202620345_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_503635_1311202620345_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_503635_1311202620345_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml": {
+"company": "Nyssa Corporation Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "504378",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T10:57+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_505200_13112026214544_IFIndAs.xml": {
 "company": "Eicher Motors Ltd",
