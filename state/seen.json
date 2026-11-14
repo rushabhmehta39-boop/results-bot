@@ -5817,6 +5817,9 @@
 "BANN-31931563-f8d9-48f8-a073-8ad41218f15e": {
 "t": "2026-11-13T17:50+05:30"
 },
+"BANN-31c282f4-849e-4b6d-8065-00605f74f5c4": {
+"t": "2026-11-14T12:49+05:30"
+},
 "BANN-31f73781-b56d-4c65-ace4-adacf0c51524": {
 "t": "2026-11-13T16:11+05:30"
 },
@@ -8906,6 +8909,10 @@
 "BSE-IFOtherthan_544967_13112026192932_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-13T21:49+05:30"
+},
+"BSE-IFOtherthan_544979_14112026121639_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-14T12:49+05:30"
 },
 "BSE-IFOtherthan_544996_12112026195512_IFOtherthan.xml": {
 "s": "dup",
@@ -16442,6 +16449,11 @@
 "s": "failed",
 "t": "2026-11-14T11:46+05:30"
 },
+"NSE-equities-IF-214153": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-14T12:49+05:30"
+},
 "NSE-sme-IF-211659": {
 "s": "superseded",
 "t": "2026-11-07T22:08+05:30"
@@ -17035,6 +17047,10 @@
 "NSE-sme-IF-213299": {
 "s": "small",
 "t": "2026-11-13T12:02+05:30"
+},
+"NSE-sme-IF-213312": {
+"s": "small",
+"t": "2026-11-14T12:49+05:30"
 },
 "NSE-sme-IF-213316": {
 "s": "small",
@@ -17779,9 +17795,14 @@
 "t": "2026-11-14T12:18+05:30"
 },
 "NSE-sme-IF-214149": {
-"n": 4,
+"n": 5,
 "s": "retry",
-"t": "2026-11-14T12:43+05:30"
+"t": "2026-11-14T12:49+05:30"
+},
+"NSE-sme-IF-214153": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-14T12:49+05:30"
 }
 },
 "first_seen": {
@@ -18525,6 +18546,9 @@
 },
 "BSE|514045|2026-09-30": {
 "t": "2026-11-13T17:23+05:30"
+},
+"BSE|514087|2026-09-30": {
+"t": "2026-11-14T12:48+05:30"
 },
 "BSE|514140|2026-09-30": {
 "t": "2026-11-13T19:32+05:30"
@@ -20883,6 +20907,9 @@
 },
 "BSE|544615|2026-09-30": {
 "t": "2026-11-13T18:28+05:30"
+},
+"BSE|544625|2026-09-30": {
+"t": "2026-11-14T12:48+05:30"
 },
 "BSE|544629|2026-09-30": {
 "t": "2026-11-13T20:41+05:30"
@@ -27432,6 +27459,10 @@
 "BSE:544615": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b5e07ab-2b41-439e-8f00-ce4f3e9d98bd.pdf",
 "t": "2026-11-13T14:27+05:30"
+},
+"BSE:544625": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/15cdbefb-3539-435f-8525-56056cf4a3b9.pdf",
+"t": "2026-11-14T12:45+05:30"
 },
 "BSE:544629": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94700f01-8b3f-4e14-a65e-f2f6d08abcf6.pdf",
@@ -35936,6 +35967,10 @@
 "c": 1,
 "t": "2026-11-12T12:50+05:30"
 },
+"N:LOGICIELSOLUTIONS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/15cdbefb-3539-435f-8525-56056cf4a3b9.pdf",
+"t": "2026-11-14T12:45+05:30"
+},
 "N:LOKESHMACHINES": {
 "t": "2026-11-12T13:31+05:30"
 },
@@ -43207,6 +43242,10 @@
 "t": "2026-11-13T14:29+05:30",
 "v": 60.2
 },
+"BSE:544625": {
+"t": "2026-11-14T12:49+05:30",
+"v": 20.5
+},
 "BSE:544629": {
 "t": "2026-11-13T19:59+05:30",
 "v": 67.2
@@ -45758,21 +45797,21 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.xml"
 },
-"BSE-IFOtherthan_544979_14112026121639_IFOtherthan.xml": {
-"company": "Everestims Technologies Ltd",
+"BSE-IFOtherthan_544625_1411202612358_IFOtherthan.xml": {
+"company": "Logiciel Solutions Ltd",
 "consolidated": false,
 "filed_at": null,
 "index": "bse",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
-"scrip": "544979",
+"scrip": "544625",
 "source": "BSE",
 "symbol": "",
-"t": "2026-11-14T12:17+05:30",
-"uid": "BSE-IFOtherthan_544979_14112026121639_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544979_14112026121639_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544979_14112026121639_IFOtherthan.xml"
+"t": "2026-11-14T12:48+05:30",
+"uid": "BSE-IFOtherthan_544625_1411202612358_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544625_1411202612358_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544625_1411202612358_IFOtherthan.xml"
 },
 "BSE-Integrated_Finance_Ind_As_500002_13112026175920_IFIndAs.xml": {
 "company": "ABB India Ltd",
@@ -46413,6 +46452,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_513554_13112026134446_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513554_13112026134446_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513554_13112026134446_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.xml": {
+"company": "PBM Polytex Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "514087",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:48+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_517146_13112026224123_IFIndAs.xml": {
 "company": "Usha Martin Ltd",
@@ -48574,21 +48629,21 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214137_14112026110933_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758177_14112026110933_WEB.xml"
 },
-"NSE-sme-IF-213312": {
-"company": "Newmalayalam Steel Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T12:45:02+05:30",
-"index": "sme",
+"NSE-equities-IF-214153": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T12:44:34+05:30",
+"index": "equities",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
 "scrip": "",
-"source": "NSE SME",
-"symbol": "NMSTEEL",
-"t": "2026-11-13T12:47+05:30",
-"uid": "NSE-sme-IF-213312",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_213312_13112026124501_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1757168_13112026124500_WEB.xml"
+"source": "NSE",
+"symbol": "SARVESHWAR",
+"t": "2026-11-14T12:48+05:30",
+"uid": "NSE-equities-IF-214153",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214153_14112026124433_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758192_14112026124433_WEB.xml"
 },
 "NSE-sme-IF-213488": {
 "company": "Crop Life Science Limited",
@@ -48957,6 +49012,22 @@
 "uid": "NSE-sme-IF-214149",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214149_14112026120803_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758188_14112026120802_WEB.xml"
+},
+"NSE-sme-IF-214153": {
+"company": "Sarveshwar Foods Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T12:44:34+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SARVESHWAR",
+"t": "2026-11-14T12:48+05:30",
+"uid": "NSE-sme-IF-214153",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214153_14112026124433_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758192_14112026124433_WEB.xml"
 }
 },
 "posted": {
@@ -51680,8 +51751,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-14T08:38+05:30",
-"v": "INE0N5H01017"
+"t": "2026-11-14T12:49+05:30",
+"v": "INE0TP801012"
 },
 "123456": {
 "t": "2026-11-13T19:48+05:30",
@@ -56307,6 +56378,10 @@
 "t": "2026-11-13T17:38+05:30",
 "v": "INE0NXJ01016"
 },
+"544979": {
+"t": "2026-11-14T12:49+05:30",
+"v": "INE0YUW01020"
+},
 "544994": {
 "t": "2026-11-13T08:04+05:30",
 "v": "INE18AK01028"
@@ -57694,8 +57769,8 @@
 "v": 24607800
 },
 "INE0TP801012": {
-"t": "2026-11-13T13:35+05:30",
-"v": 22766
+"t": "2026-11-14T12:49+05:30",
+"v": 17287600
 },
 "INE0TPJ01019": {
 "t": "2026-11-13T21:29+05:30",
@@ -57828,6 +57903,10 @@
 "INE0YKW01013": {
 "t": "2026-11-13T18:06+05:30",
 "v": 10920000
+},
+"INE0YUW01020": {
+"t": "2026-11-14T12:49+05:30",
+"v": 17044600
 },
 "INE0Z9N01013": {
 "t": "2026-11-12T22:23+05:30",
