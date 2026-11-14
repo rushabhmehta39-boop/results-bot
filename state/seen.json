@@ -17353,9 +17353,9 @@
 "t": "2026-11-14T08:13+05:30"
 },
 "NSE-sme-IF-214036": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214040": {
 "s": "small",
@@ -17390,9 +17390,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214061": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214064": {
 "s": "small",
@@ -17403,23 +17403,23 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214069": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214070": {
 "s": "small",
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214077": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214086": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214090": {
 "s": "superseded",
@@ -17458,9 +17458,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214124": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 },
 "NSE-sme-IF-214126": {
 "s": "superseded",
@@ -17475,9 +17475,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214131": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T08:13+05:30"
+"t": "2026-11-14T08:19+05:30"
 }
 },
 "first_seen": {
@@ -46209,22 +46209,6 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214034_13112026215701_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758044_13112026095700_WEB.xml"
 },
-"NSE-sme-IF-214036": {
-"company": "DRS Cargo Movers Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T21:58:15+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "DRSCARGO",
-"t": "2026-11-13T22:05+05:30",
-"uid": "NSE-sme-IF-214036",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214036_13112026215815_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758046_13112026095815_WEB.xml"
-},
 "NSE-sme-IF-214061": {
 "company": "C K K Retail Mart Limited",
 "consolidated": false,
@@ -49123,7 +49107,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-14T08:13+05:30",
+"t": "2026-11-14T08:19+05:30",
 "v": "INE0N5H01017"
 },
 "123456": {
@@ -54437,7 +54421,7 @@
 "v": 3558800
 },
 "INE0N5H01017": {
-"t": "2026-11-14T08:13+05:30",
+"t": "2026-11-14T08:19+05:30",
 "v": 24748200
 },
 "INE0N6V01016": {
@@ -54573,7 +54557,7 @@
 "v": 11575000
 },
 "INE0PCL01011": {
-"t": "2026-11-14T08:13+05:30",
+"t": "2026-11-14T08:19+05:30",
 "v": 402048600000
 },
 "INE0PDJ01013": {
@@ -54697,7 +54681,7 @@
 "v": 7434800
 },
 "INE0QZM01018": {
-"t": "2026-11-14T08:13+05:30",
+"t": "2026-11-14T08:19+05:30",
 "v": 7531200
 },
 "INE0QZR01017": {
@@ -54841,7 +54825,7 @@
 "v": 15918000
 },
 "INE0SMX01019": {
-"t": "2026-11-14T08:13+05:30",
+"t": "2026-11-14T08:19+05:30",
 "v": 19368000
 },
 "INE0SN801015": {
