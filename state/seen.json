@@ -24648,6 +24648,9 @@
 "BSE|500023|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
+"BSE|500051|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "BSE|500058|2026-09-30": {
 "t": "2026-11-13T16:01+05:30"
 },
@@ -25310,6 +25313,9 @@
 },
 "BSE|511559|2026-09-30": {
 "t": "2026-11-13T18:41+05:30"
+},
+"BSE|511563|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
 },
 "BSE|511571|2026-09-30": {
 "t": "2026-11-12T18:28+05:30"
@@ -26165,6 +26171,9 @@
 },
 "BSE|524742|2026-09-30": {
 "t": "2026-11-12T18:28+05:30"
+},
+"BSE|524743|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
 },
 "BSE|524752|2026-09-30": {
 "t": "2026-11-14T17:04+05:30"
@@ -27113,6 +27122,9 @@
 },
 "BSE|532362|2026-09-30": {
 "t": "2026-11-13T18:56+05:30"
+},
+"BSE|532365|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
 },
 "BSE|532368|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
@@ -28392,6 +28404,9 @@
 "BSE|543449|2026-09-30": {
 "t": "2026-11-12T17:09+05:30"
 },
+"BSE|543453|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "BSE|543460|2026-09-30": {
 "t": "2026-11-13T21:22+05:30"
 },
@@ -29064,6 +29079,9 @@
 "BSE|544773|2026-09-30": {
 "t": "2026-11-14T22:22+05:30"
 },
+"BSE|544779|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "BSE|544785|2026-09-30": {
 "t": "2026-11-14T16:16+05:30"
 },
@@ -29451,6 +29469,9 @@
 "NSE SME|BEACON|2026-09-30": {
 "t": "2026-11-13T19:41+05:30"
 },
+"NSE SME|BHADORA|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "NSE SME|BLUEPEBBLE|2026-09-30": {
 "t": "2026-11-13T18:28+05:30"
 },
@@ -29480,6 +29501,9 @@
 },
 "NSE SME|CGRAPHICS|2026-09-30": {
 "t": "2026-11-14T20:40+05:30"
+},
+"NSE SME|CHANDAN|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
 },
 "NSE SME|CKKRETAIL|2026-09-30": {
 "t": "2026-11-13T22:35+05:30"
@@ -30243,6 +30267,9 @@
 "NSE SME|VOLERCAR|2026-09-30": {
 "t": "2026-11-14T23:08+05:30"
 },
+"NSE SME|VR|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "NSE SME|WEL|2026-09-30": {
 "t": "2026-11-12T17:09+05:30"
 },
@@ -30687,6 +30714,9 @@
 "NSE|DSKULKARNI|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
 },
+"NSE|DSSL|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
+},
 "NSE|EASEMYTRIP|2026-09-30": {
 "t": "2026-11-14T22:22+05:30"
 },
@@ -30764,6 +30794,9 @@
 },
 "NSE|FIRSTCRY|2026-09-30": {
 "t": "2026-11-14T19:28+05:30"
+},
+"NSE|FISCHER|2026-09-30": {
+"t": "2026-11-14T23:39+05:30"
 },
 "NSE|FMGOETZE|2026-09-30": {
 "t": "2026-11-12T22:46+05:30"
@@ -32605,6 +32638,10 @@
 },
 "BSE:500041": {
 "t": "2026-11-11T11:36+05:30"
+},
+"BSE:500051": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69beb364-a336-435b-9983-9d8204c50276.pdf",
+"t": "2026-11-14T23:31+05:30"
 },
 "BSE:500058": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/742f2005-1b7e-4bf7-be17-1697988c57ca.pdf",
@@ -39766,6 +39803,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/FINBUD_14112026145951_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-14T15:01+05:30"
 },
+"FISCHER": {
+"pdf": "https://nsearchives.nseindia.in/corporate/FISCHER_14112026233038_finalupload141126.pdf",
+"t": "2026-11-14T23:31+05:30"
+},
 "FLYSBS": {
 "t": "2026-11-11T17:30+05:30"
 },
@@ -45781,6 +45822,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36155717-124c-41ed-aab3-ea8b74a463c5.pdf",
 "t": "2026-11-14T17:20+05:30"
 },
+"INE771F01025": {
+"pdf": "https://nsearchives.nseindia.in/corporate/FISCHER_14112026233038_finalupload141126.pdf",
+"t": "2026-11-14T23:31+05:30"
+},
 "INE772T01024": {
 "c": 1,
 "t": "2026-11-11T17:36+05:30"
@@ -48772,6 +48817,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/BHADORA_14112026192625_bhadorafinaloutcome.pdf",
 "t": "2026-11-14T19:26+05:30"
 },
+"N:BHAGAWATIGAS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69beb364-a336-435b-9983-9d8204c50276.pdf",
+"t": "2026-11-14T23:31+05:30"
+},
 "N:BHAGAWATIOXYGEN": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e415c712-ba07-4c0e-9e4f-a5adadeefa2b.pdf",
 "t": "2026-11-13T16:50+05:30"
@@ -50028,6 +50077,10 @@
 "N:FIRSTCUSTODIANFUNDINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4b9e086d-2498-4395-a797-26a9e1b0707c.pdf",
 "t": "2026-11-13T16:52+05:30"
+},
+"N:FISCHERMEDICALVENTURES": {
+"pdf": "https://nsearchives.nseindia.in/corporate/FISCHER_14112026233038_finalupload141126.pdf",
+"t": "2026-11-14T23:31+05:30"
 },
 "N:FLEXFOODS": {
 "t": "2026-11-11T19:28+05:30"
@@ -65093,6 +65146,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543244_1411202622404_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543244_1411202622404_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_543453_14112026232810_IFOtherthan.xml": {
+"company": "Alkosign Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543453",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-IFOtherthan_543453_14112026232810_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543453_14112026232810_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543453_14112026232810_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_543461_1311202623190_IFOtherthan.xml": {
 "company": "Safa Systems & Technologies Ltd",
 "consolidated": false,
@@ -65332,6 +65401,22 @@
 "uid": "BSE-IFOtherthan_544966_1411202622428_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544966_1411202622428_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544966_1411202622428_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_500051_14112026233535_IFIndAs.xml": {
+"company": "Bhagawati Gas Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "500051",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500051_14112026233535_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500051_14112026233535_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500051_14112026233535_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_500119_14112026191648_IFIndAs.xml": {
 "company": "Dhampur Sugar Mills Ltd",
@@ -65620,6 +65705,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_509732_141120261994_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509732_141120261994_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_509732_141120261994_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_511563_14112026232855_IFIndAs.xml": {
+"company": "Sanchay Finvest Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511563",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511563_14112026232855_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511563_14112026232855_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511563_14112026232855_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_511628_14112026154011_IFIndAs.xml": {
 "company": "Fedders Holding Ltd",
@@ -66021,6 +66122,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524634_14112026212743_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524634_14112026212743_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_524743_14112026113454_IFIndAs.xml": {
+"company": "Fischer Medical Ventures Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "524743",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_524743_14112026113454_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524743_14112026113454_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524743_14112026113454_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_526125_14112026131753_IFIndAs.xml": {
 "company": "BN Agrochem Ltd",
 "consolidated": false,
@@ -66388,6 +66505,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532051_13112026234313_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532051_13112026234313_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532051_13112026234313_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532365_14112026233336_IFIndAs.xml": {
+"company": "Dynacons Systems & Solutions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532365",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532365_14112026233336_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532365_14112026233336_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532365_14112026233336_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532368_1411202621137_IFIndAs.xml": {
 "company": "Brightcom Group Ltd",
@@ -67333,6 +67466,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544703_14112026231224_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544703_14112026231224_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544779_14112026233019_IFIndAs.xml": {
+"company": "UHM Vacation Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544779",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T23:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544779_14112026233019_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544779_14112026233019_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544779_14112026233019_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_544785_1411202616102_IFIndAs.xml": {
 "company": "Hexagon Nutrition Ltd",
 "consolidated": false,
@@ -68085,6 +68234,70 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214694_14112026232833_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758839_14112026112833_WEB.xml"
 },
+"NSE-equities-IF-214695": {
+"company": "Dynacons Systems & Solutions Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T23:34:27+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DSSL",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-equities-IF-214695",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214695_14112026233427_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758841_14112026113426_WEB.xml"
+},
+"NSE-equities-IF-214696": {
+"company": "Dynacons Systems & Solutions Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T23:34:32+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "DSSL",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-equities-IF-214696",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214696_14112026233432_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758842_14112026113432_WEB.xml"
+},
+"NSE-equities-IF-214697": {
+"company": "Fischer Medical Ventures Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T23:34:43+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "FISCHER",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-equities-IF-214697",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214697_14112026233443_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758844_14112026113443_WEB.xml"
+},
+"NSE-equities-IF-214699": {
+"company": "Fischer Medical Ventures Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T23:36:17+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "FISCHER",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-equities-IF-214699",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214699_14112026233616_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758846_14112026113616_WEB.xml"
+},
 "NSE-sme-IF-214034": {
 "company": "Active Infrastructures Limited",
 "consolidated": false,
@@ -68612,6 +68825,54 @@
 "uid": "NSE-sme-IF-214689",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214689_14112026232057_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758832_14112026112057_WEB.xml"
+},
+"NSE-sme-IF-214698": {
+"company": "Bhadora Industries Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T23:35:24+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "BHADORA",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-sme-IF-214698",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214698_14112026233523_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758845_14112026113523_WEB.xml"
+},
+"NSE-sme-IF-214700": {
+"company": "V R Infraspace Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T23:38:28+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VR",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-sme-IF-214700",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214700_14112026233827_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758848_14112026113827_WEB.xml"
+},
+"NSE-sme-IF-214701": {
+"company": "Chandan Healthcare Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T23:40:08+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "CHANDAN",
+"t": "2026-11-14T23:39+05:30",
+"uid": "NSE-sme-IF-214701",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214701_14112026234008_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758851_14112026114007_WEB.xml"
 }
 },
 "posted": {
