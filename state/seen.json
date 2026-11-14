@@ -8666,6 +8666,10 @@
 "s": "small",
 "t": "2026-11-13T18:31+05:30"
 },
+"BSE-IFOtherthan_544544_1311202693220_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-14T09:57+05:30"
+},
 "BSE-IFOtherthan_544553_13112026205055_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-14T08:04+05:30"
@@ -42625,22 +42629,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.xml"
 },
-"BSE-IFOtherthan_544544_1311202693220_IFOtherthan.xml": {
-"company": "Telge Projects Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544544",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-13T09:54+05:30",
-"uid": "BSE-IFOtherthan_544544_1311202693220_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544544_1311202693220_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544544_1311202693220_IFOtherthan.xml"
-},
 "BSE-IFOtherthan_544563_13112026223627_IFOtherthan.xml": {
 "company": "Zelio E Mobility Ltd",
 "consolidated": false,
@@ -53134,6 +53122,10 @@
 "t": "2026-11-13T20:50+05:30",
 "v": "INE0TY101024"
 },
+"544544": {
+"t": "2026-11-14T09:57+05:30",
+"v": "INE0SRP01014"
+},
 "544547": {
 "t": "2026-11-13T22:28+05:30",
 "v": "INE1FF001016"
@@ -54743,6 +54735,10 @@
 "INE0SRI01019": {
 "t": "2026-11-13T18:58+05:30",
 "v": 2823000
+},
+"INE0SRP01014": {
+"t": "2026-11-14T09:57+05:30",
+"v": 9790100
 },
 "INE0SUN01013": {
 "t": "2026-11-12T18:21+05:30",
