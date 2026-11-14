@@ -1919,6 +1919,14 @@
 "pdf": 5,
 "t": "2026-11-13T13:12+05:30"
 },
+"INE325D01025": {
+"d": "2026-11-14",
+"mcap": 3824.8,
+"mid": 733,
+"n": "SINDHUTRADELINKS",
+"pdf": 6,
+"t": "2026-11-14T13:28+05:30"
+},
 "INE332H01014": {
 "d": "2026-11-12",
 "mcap": 2958.7,
@@ -2920,6 +2928,14 @@
 "n": "SHRIRAMPROPERTIES",
 "pdf": 5,
 "t": "2026-11-13T16:04+05:30"
+},
+"SINDHUTRAD": {
+"d": "2026-11-14",
+"mcap": 3824.8,
+"mid": 733,
+"n": "SINDHUTRADELINKS",
+"pdf": 6,
+"t": "2026-11-14T13:28+05:30"
 },
 "SOLARWORLD": {
 "d": "2026-11-13",
@@ -4551,6 +4567,9 @@
 "ANN-equities-106860452-RCOM": {
 "t": "2026-11-14T13:21+05:30"
 },
+"ANN-equities-106860463-SINDHUTRAD": {
+"t": "2026-11-14T13:28+05:30"
+},
 "ANN-sme-106855004-KKVAPOW": {
 "t": "2026-11-11T13:30+05:30"
 },
@@ -5213,6 +5232,12 @@
 },
 "ANN-sme-106860435-ENVIRO": {
 "t": "2026-11-14T13:14+05:30"
+},
+"ANN-sme-106860460-SERVICE": {
+"t": "2026-11-14T13:28+05:30"
+},
+"ANN-sme-106860465-SANGANI": {
+"t": "2026-11-14T13:28+05:30"
 },
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
@@ -16548,24 +16573,29 @@
 "t": "2026-11-14T13:21+05:30"
 },
 "NSE-equities-IF-214154": {
-"n": 3,
+"n": 4,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE-equities-IF-214162": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE-equities-IF-214163": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE-equities-IF-214165": {
+"n": 2,
+"s": "retry",
+"t": "2026-11-14T13:27+05:30"
+},
+"NSE-equities-IF-214170": {
 "n": 1,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -17918,24 +17948,24 @@
 "t": "2026-11-14T13:21+05:30"
 },
 "NSE-sme-IF-214159": {
-"n": 3,
+"n": 4,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:28+05:30"
 },
 "NSE-sme-IF-214162": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:28+05:30"
 },
 "NSE-sme-IF-214163": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE-sme-IF-214168": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-14T13:21+05:30"
+"t": "2026-11-14T13:28+05:30"
 }
 },
 "first_seen": {
@@ -19825,6 +19855,9 @@
 },
 "BSE|532645|2026-09-30": {
 "t": "2026-11-12T17:54+05:30"
+},
+"BSE|532649|2026-09-30": {
+"t": "2026-11-14T13:27+05:30"
 },
 "BSE|532650|2026-09-30": {
 "t": "2026-11-13T15:33+05:30"
@@ -22711,6 +22744,9 @@
 },
 "NSE|NDGL|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
+},
+"NSE|NECLIFE|2026-09-30": {
+"t": "2026-11-14T13:27+05:30"
 },
 "NSE|NFL|2026-09-30": {
 "t": "2026-11-11T20:57+05:30"
@@ -30678,6 +30714,11 @@
 "c": 1,
 "t": "2026-11-12T18:35+05:30"
 },
+"INE325D01025": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.com/corporate/SINDHUTRAD_14112026132425_Covering33Signed.pdf",
+"t": "2026-11-14T13:25+05:30"
+},
 "INE325G01010": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94a64d5c-57c9-4cca-8555-30eeb025ddec.pdf",
@@ -37873,6 +37914,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/19cddb2b-66cf-4cf3-b23a-8bf071a6fb78.pdf",
 "t": "2026-11-13T18:58+05:30"
 },
+"N:SANGANIHOSPITALS": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SANGANIHOSPITALS_14112026132646_Outcome--.pdf",
+"t": "2026-11-14T13:26+05:30"
+},
 "N:SANTOSHFINEFAB": {
 "t": "2026-11-12T17:27+05:30"
 },
@@ -37962,6 +38007,10 @@
 "N:SEPC": {
 "c": 1,
 "t": "2026-11-11T19:49+05:30"
+},
+"N:SERVICECARE": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SERVICECARE_14112026132321_Financials_H1_Outcome.pdf",
+"t": "2026-11-14T13:23+05:30"
 },
 "N:SETCOAUTOMOTIVE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fdbbabdb-ee8e-44a6-bf4f-ce8276318b41.pdf",
@@ -38140,6 +38189,11 @@
 "N:SIMPLEXINFRASTRUCTURES": {
 "c": 1,
 "t": "2026-11-10T18:52+05:30"
+},
+"N:SINDHUTRADELINKS": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.com/corporate/SINDHUTRAD_14112026132425_Covering33Signed.pdf",
+"t": "2026-11-14T13:25+05:30"
 },
 "N:SINGERINDIA": {
 "t": "2026-11-12T16:34+05:30"
@@ -39714,6 +39768,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/IHFL_14112026114149_SCL_Intimation_on_Outcome_of_Board_Meeting__14_11_2026.pdf",
 "t": "2026-11-14T11:42+05:30"
 },
+"SANGANI": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SANGANIHOSPITALS_14112026132646_Outcome--.pdf",
+"t": "2026-11-14T13:26+05:30"
+},
 "SAROJA": {
 "pdf": "https://nsearchives.nseindia.com/corporate/SAROJAPHARMA_13112026181620_cl_fr_merged_sd.pdf",
 "t": "2026-11-13T18:21+05:30"
@@ -39764,6 +39822,10 @@
 "SEPC": {
 "c": 1,
 "t": "2026-11-11T19:56+05:30"
+},
+"SERVICE": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SERVICECARE_14112026132321_Financials_H1_Outcome.pdf",
+"t": "2026-11-14T13:23+05:30"
 },
 "SETCO": {
 "pdf": "https://nsearchives.nseindia.com/corporate/SETCO_13112026155058_Delay_in_submissiting_financial_results_sept_2026.pdf",
@@ -39817,6 +39879,11 @@
 },
 "SIMPLEXINF": {
 "t": "2026-11-10T18:52+05:30"
+},
+"SINDHUTRAD": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.com/corporate/SINDHUTRAD_14112026132425_Covering33Signed.pdf",
+"t": "2026-11-14T13:25+05:30"
 },
 "SINTERCOM": {
 "pdf": "https://nsearchives.nseindia.com/corporate/SINTERCOM_13112026200428_Outcome_of_BM.pdf",
@@ -44638,6 +44705,10 @@
 "t": "2026-11-13T16:04+05:30",
 "v": 1200.9
 },
+"SINDHUTRAD": {
+"t": "2026-11-14T13:28+05:30",
+"v": 3824.8
+},
 "SMLT": {
 "t": "2026-11-13T12:49+05:30",
 "v": 97.2
@@ -47697,6 +47768,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532467_13112026202711_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532467_13112026202711_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_532649_1411202613224_IFIndAs.xml": {
+"company": "Nectar Lifesciences Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532649",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T13:27+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532649_1411202613224_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532649_1411202613224_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532649_1411202613224_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_532650_13112026153040_IFIndAs.xml": {
 "company": "MSP Steel & Power Ltd",
 "consolidated": false,
@@ -49328,6 +49415,38 @@
 "uid": "NSE-equities-IF-214166",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214166_14112026131836_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758208_14112026011836_WEB.xml"
+},
+"NSE-equities-IF-214169": {
+"company": "Nectar Lifesciences Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T13:22:28+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "NECLIFE",
+"t": "2026-11-14T13:27+05:30",
+"uid": "NSE-equities-IF-214169",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214169_14112026132228_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758211_14112026012228_WEB.xml"
+},
+"NSE-equities-IF-214170": {
+"company": "Nectar Lifesciences Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T13:26:25+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "NECLIFE",
+"t": "2026-11-14T13:27+05:30",
+"uid": "NSE-equities-IF-214170",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214170_14112026132624_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758213_14112026012624_WEB.xml"
 },
 "NSE-sme-IF-213488": {
 "company": "Crop Life Science Limited",
