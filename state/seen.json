@@ -874,6 +874,14 @@
 "pdf": 5,
 "t": "2026-11-12T18:57+05:30"
 },
+"BSE:544198": {
+"d": "2026-11-14",
+"mcap": 3958.7,
+"mid": 728,
+"n": "DEEDEVELOPMENTENGINEERS",
+"pdf": 6,
+"t": "2026-11-14T12:05+05:30"
+},
 "BSE:544224": {
 "d": "2026-11-12",
 "mcap": 4274.8,
@@ -4493,9 +4501,6 @@
 "ANN-equities-106860341-NECLIFE": {
 "t": "2026-11-14T11:59+05:30"
 },
-"ANN-sme-106854839-EEPL": {
-"t": "2026-11-11T12:05+05:30"
-},
 "ANN-sme-106854971-CURIS": {
 "t": "2026-11-11T12:50+05:30"
 },
@@ -5323,6 +5328,9 @@
 },
 "BANN-0baae5b2-1b97-4fa2-be33-0ff1888bf25b": {
 "t": "2026-11-13T18:19+05:30"
+},
+"BANN-0bbc5b87-597e-4a67-a6dd-d4f1de41dcb8": {
+"t": "2026-11-14T12:05+05:30"
 },
 "BANN-0c0123ea-eb42-4d3f-8547-517c791bb305": {
 "t": "2026-11-13T19:18+05:30"
@@ -7189,6 +7197,9 @@
 },
 "BANN-9bc3bdfb-7dc9-45c8-b5b5-7544aecedcf1": {
 "t": "2026-11-11T21:23+05:30"
+},
+"BANN-9c099e7d-98ef-44ed-894d-851559ba87db": {
+"t": "2026-11-14T12:05+05:30"
 },
 "BANN-9c27d0ea-3e62-47e3-b046-0b5cc99fd526": {
 "t": "2026-11-12T15:56+05:30"
@@ -17737,9 +17748,9 @@
 "t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214142": {
-"n": 3,
+"n": 4,
 "s": "retry",
-"t": "2026-11-14T11:59+05:30"
+"t": "2026-11-14T12:05+05:30"
 }
 },
 "first_seen": {
@@ -27104,6 +27115,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ded8e9fc-f67e-43fa-b748-44cd8ec7f788.pdf",
 "t": "2026-11-13T18:34+05:30"
 },
+"BSE:544198": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f6763ea-da21-4c04-b688-3620cdc11cb2.pdf",
+"t": "2026-11-14T11:59+05:30"
+},
 "BSE:544199": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ce6bfe94-2fe5-42de-8639-84c1576eddcc.pdf",
@@ -27598,6 +27614,10 @@
 "BSE:590070": {
 "c": 1,
 "t": "2026-11-12T16:23+05:30"
+},
+"BSE:590072": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13989240-a2a2-43b0-93d0-18dfc070d154.pdf",
+"t": "2026-11-14T11:59+05:30"
 },
 "BSE:780014": {
 "t": "2026-11-12T17:19+05:30"
@@ -28578,7 +28598,7 @@
 "t": "2026-11-12T18:35+05:30"
 },
 "INE073D01013": {
-"pdf": "https://nsearchives.nseindia.com/corporate/SUNDRMBRAK_13112026120952_SEOutcomeFinal.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13989240-a2a2-43b0-93d0-18dfc070d154.pdf",
 "t": "2026-11-13T12:13+05:30"
 },
 "INE073G01016": {
@@ -34242,7 +34262,8 @@
 "t": "2026-11-10T12:42+05:30"
 },
 "N:DEEDEVELOPMENTENGINEERS": {
-"pdf": "https://nsearchives.nseindia.com/corporate/DDEL_14112026114548_NSEBSE_Financials.pdf",
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f6763ea-da21-4c04-b688-3620cdc11cb2.pdf",
 "t": "2026-11-14T11:51+05:30"
 },
 "N:DEEPAKBUILDERSANDENGINEERSINDIA": {
@@ -37798,7 +37819,7 @@
 "t": "2026-11-12T14:25+05:30"
 },
 "N:SUNDARAMBRAKELININGS": {
-"pdf": "https://nsearchives.nseindia.com/corporate/SUNDRMBRAK_13112026120952_SEOutcomeFinal.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13989240-a2a2-43b0-93d0-18dfc070d154.pdf",
 "t": "2026-11-13T12:13+05:30"
 },
 "N:SUNDARAMMULTIPAP": {
@@ -42833,6 +42854,10 @@
 "t": "2026-11-13T18:47+05:30",
 "v": 12.2
 },
+"BSE:544198": {
+"t": "2026-11-14T12:05+05:30",
+"v": 3958.7
+},
 "BSE:544199": {
 "t": "2026-11-13T14:21+05:30",
 "v": 84.1
@@ -43184,6 +43209,10 @@
 "BSE:590070": {
 "t": "2026-11-12T16:24+05:30",
 "v": 10.6
+},
+"BSE:590072": {
+"t": "2026-11-14T12:05+05:30",
+"v": 255.8
 },
 "BSL": {
 "t": "2026-11-13T17:02+05:30",
@@ -44690,6 +44719,35 @@
 }
 },
 "t": "2026-11-13T21:59+05:30"
+},
+"BSE:544198|2026-09-30|C": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 13.1572,
+"finance": 13.7301,
+"other_income": 5.1725,
+"pat": 17.7984,
+"pbe": 22.344,
+"pbt": 22.344,
+"revenue": 269.9999,
+"tax": 4.5456,
+"total_expenses": 252.8284,
+"total_income": 275.1724
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 15.0077,
+"finance": 17.163,
+"other_income": 2.4789,
+"pat": 16.083,
+"pbe": 20.0543,
+"pbt": 20.0543,
+"revenue": 294.4622,
+"tax": 3.9713,
+"total_expenses": 276.8868,
+"total_income": 296.9411
+}
+},
+"t": "2026-11-14T12:06+05:30"
 },
 "INE048C01025|2026-09-30|C": {
 "p": {
@@ -48852,6 +48910,16 @@
 "rev": 118.0593,
 "src": "pdf",
 "t": "2026-11-13T21:59+05:30"
+},
+"BSE:544198|2026-09-30|C": {
+"b": "C",
+"mid": 729,
+"n": "DEEDEVELOPMENTENGINEERS",
+"pat": 23.453,
+"pe": "2026-09-30",
+"rev": 292.9868,
+"src": "pdf",
+"t": "2026-11-14T12:06+05:30"
 },
 "INE00CE01017|2026-09-30|C": {
 "b": "C",
