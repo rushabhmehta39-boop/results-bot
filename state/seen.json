@@ -3193,12 +3193,6 @@
 }
 },
 "ann": {
-"ANN-equities-106855065-AVTNPL": {
-"t": "2026-11-11T14:31+05:30"
-},
-"ANN-equities-106855069-THEJO": {
-"t": "2026-11-11T14:31+05:30"
-},
 "ANN-equities-106855090-GRSE": {
 "t": "2026-11-11T14:51+05:30"
 },
@@ -4630,6 +4624,15 @@
 "ANN-equities-106860521-EUROBOND": {
 "t": "2026-11-14T14:13+05:30"
 },
+"ANN-equities-106860544-ARCHIES": {
+"t": "2026-11-14T14:30+05:30"
+},
+"ANN-equities-106860546-NOVAAGRI": {
+"t": "2026-11-14T14:30+05:30"
+},
+"ANN-equities-106860550-DCMSIL": {
+"t": "2026-11-14T14:30+05:30"
+},
 "ANN-sme-106855147-MARUSHIKA": {
 "t": "2026-11-11T15:36+05:30"
 },
@@ -5308,6 +5311,9 @@
 "ANN-sme-106860532-FRESHARA": {
 "t": "2026-11-14T14:20+05:30"
 },
+"ANN-sme-106860549-IDENTICAL": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
 },
@@ -5769,6 +5775,9 @@
 },
 "BANN-1f627f67-b427-4b3e-8856-4b9175936036": {
 "t": "2026-11-12T18:05+05:30"
+},
+"BANN-1f7e15a8-81a2-41a5-96d2-6bfa5ddcc864": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BANN-1f8e8610-0748-4d68-97a2-24a402e8f81c": {
 "t": "2026-11-12T17:32+05:30"
@@ -6322,6 +6331,9 @@
 "BANN-4d71d3e4-1fd7-4e0a-89c4-fd7ebe60c7c4": {
 "t": "2026-11-13T18:47+05:30"
 },
+"BANN-4df0a8ab-177d-4804-9e6c-8b463d57e643": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BANN-4e763f12-a27a-4053-b3ee-6b1e22d1c7a6": {
 "t": "2026-11-13T19:18+05:30"
 },
@@ -6399,6 +6411,9 @@
 },
 "BANN-52da051e-4f04-441c-99e9-0024cca1fe9f": {
 "t": "2026-11-14T13:14+05:30"
+},
+"BANN-531fbe53-609c-49f4-bb05-6fc87854f052": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BANN-53e4ebc5-b09a-4d22-82ae-cb70da3832c4": {
 "t": "2026-11-12T22:09+05:30"
@@ -6667,9 +6682,6 @@
 "BANN-662828c9-0ccd-445c-97ac-3a4e4df79db7": {
 "t": "2026-11-13T18:59+05:30"
 },
-"BANN-665baf58-f099-4348-98d2-24639748e430": {
-"t": "2026-11-11T14:26+05:30"
-},
 "BANN-666d4bbb-4b28-4f52-83c2-34e0804893d8": {
 "t": "2026-11-13T18:47+05:30"
 },
@@ -6847,6 +6859,9 @@
 "BANN-75d66ac6-dd6e-427b-a361-b63f8d027d94": {
 "t": "2026-11-13T13:36+05:30"
 },
+"BANN-763c1bd8-1520-443c-8046-1f5255827c1d": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BANN-7688e087-833f-4f28-a031-2ed0a88a81da": {
 "t": "2026-11-13T20:17+05:30"
 },
@@ -6982,8 +6997,14 @@
 "BANN-7daabdd3-178e-4b3d-ae04-7b2e0b07ae6a": {
 "t": "2026-11-14T13:08+05:30"
 },
+"BANN-7e327c55-0f25-4114-a42f-391c0451377b": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BANN-7e39c506-f2e3-4315-926b-e78874fe3d46": {
 "t": "2026-11-13T19:18+05:30"
+},
+"BANN-7e45e65e-981d-4ed4-9231-2c4385f5e73f": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BANN-7e5e18b9-10bb-47c2-bdd8-08c7e821b957": {
 "t": "2026-11-13T21:50+05:30"
@@ -7086,6 +7107,9 @@
 },
 "BANN-85d1f9c9-b1ac-4085-9fc8-246ca2eb1407": {
 "t": "2026-11-13T12:34+05:30"
+},
+"BANN-861c5e4d-3373-4141-9bd8-27af67381c25": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BANN-86398119-77a6-40ef-80df-d21bdb7a97f3": {
 "t": "2026-11-13T15:17+05:30"
@@ -8194,6 +8218,9 @@
 "BANN-d7a4378d-048c-4c1b-acd4-bc1ccbc5b495": {
 "t": "2026-11-12T19:06+05:30"
 },
+"BANN-d7ef53eb-a9ba-4ef8-9da6-637bda326f95": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BANN-d8c0ed2c-9fe3-450f-8555-20a4acd06452": {
 "t": "2026-11-13T16:11+05:30"
 },
@@ -8529,6 +8556,9 @@
 },
 "BANN-f0165712-9c29-49f2-87ba-3f5666311dbc": {
 "t": "2026-11-13T20:17+05:30"
+},
+"BANN-f040dc13-8ab4-4268-b558-47907b8ab485": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BANN-f042c511-6ddb-435a-a0a4-69330bfa33fd": {
 "t": "2026-11-13T17:02+05:30"
@@ -9700,6 +9730,10 @@
 "BSE-Integrated_Finance_Ind_As_511260_1311202617437_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T19:17+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-14T14:30+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_511427_131120261838_IFIndAs.xml": {
 "s": "small",
@@ -11456,6 +11490,10 @@
 "s": "small",
 "t": "2026-11-12T17:47+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_532854_14112026132934_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-14T14:30+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_532859_12112026092139_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-13T22:15+05:30"
@@ -11743,6 +11781,10 @@
 "BSE-Integrated_Finance_Ind_As_538596_13112026234951_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T08:05+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_538610_14112026135840_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-14T14:30+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_538634_12112026205019_IFIndAs.xml": {
 "s": "small",
@@ -18198,6 +18240,14 @@
 "NSE-sme-IF-214168": {
 "s": "small",
 "t": "2026-11-14T13:35+05:30"
+},
+"NSE-sme-IF-214184": {
+"s": "superseded",
+"t": "2026-11-14T14:30+05:30"
+},
+"NSE-sme-IF-214185": {
+"s": "small",
+"t": "2026-11-14T14:30+05:30"
 }
 },
 "first_seen": {
@@ -18837,6 +18887,9 @@
 "BSE|512485|2026-09-30": {
 "t": "2026-11-12T17:38+05:30"
 },
+"BSE|512499|2026-09-30": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BSE|512517|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
 },
@@ -18989,6 +19042,9 @@
 },
 "BSE|514348|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"BSE|514412|2026-09-30": {
+"t": "2026-11-14T14:30+05:30"
 },
 "BSE|514454|2026-09-30": {
 "t": "2026-11-11T16:11+05:30"
@@ -21342,6 +21398,9 @@
 "BSE|544482|2026-09-30": {
 "t": "2026-11-13T16:19+05:30"
 },
+"BSE|544483|2026-09-30": {
+"t": "2026-11-14T14:30+05:30"
+},
 "BSE|544485|2026-09-30": {
 "t": "2026-11-13T18:56+05:30"
 },
@@ -21986,6 +22045,9 @@
 },
 "NSE SME|PRLIND|2026-09-30": {
 "t": "2026-11-14T13:20+05:30"
+},
+"NSE SME|PROPEQUITY|2026-09-30": {
+"t": "2026-11-14T14:30+05:30"
 },
 "NSE SME|PROV|2026-09-30": {
 "t": "2026-11-13T19:05+05:30"
@@ -23754,6 +23816,10 @@
 "APOLSINHOT": {
 "t": "2026-11-12T18:52+05:30"
 },
+"ARCHIES": {
+"pdf": "https://nsearchives.nseindia.com/corporate/pankaj_14112026142233_Submission_of_Results_and_Outcome_sept_26.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "ARCIIL": {
 "pdf": "https://nsearchives.nseindia.com/corporate/ARCINC_13112026153107_outcome13112026.pdf",
 "t": "2026-11-13T15:32+05:30"
@@ -24865,6 +24931,10 @@
 "BSE:512485": {
 "t": "2026-11-12T17:05+05:30"
 },
+"BSE:512499": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d409beb8-f5d3-42fd-8f55-3e2ea467a298.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "BSE:512517": {
 "t": "2026-11-12T20:26+05:30"
 },
@@ -25288,6 +25358,10 @@
 "BSE:521034": {
 "t": "2026-11-11T17:16+05:30"
 },
+"BSE:521036": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3013ff7f-0530-4023-af51-a49b79e01f64.pdf",
+"t": "2026-11-14T14:26+05:30"
+},
 "BSE:521054": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2236c961-d4ad-479d-aa38-6e191f4a6eab.pdf",
 "t": "2026-11-13T18:32+05:30"
@@ -25498,6 +25572,10 @@
 "BSE:524080": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e0e2e1f-8e5a-4310-85f8-f544d1f04009.pdf",
 "t": "2026-11-13T13:22+05:30"
+},
+"BSE:524202": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf248790-5e5d-4cae-a297-f0386aa89cf9.pdf",
+"t": "2026-11-14T14:29+05:30"
 },
 "BSE:524210": {
 "t": "2026-11-12T19:02+05:30"
@@ -26074,6 +26152,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/246fc7a0-fde1-4145-b33a-6b8858569222.pdf",
 "t": "2026-11-13T18:10+05:30"
 },
+"BSE:531233": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8309ee1b-a353-4a07-98f5-c5480bcd4820.pdf",
+"t": "2026-11-14T14:19+05:30"
+},
 "BSE:531234": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89efe5b3-90fb-43a9-af9e-e0610c0b7fb0.pdf",
 "t": "2026-11-13T17:25+05:30"
@@ -26260,6 +26342,10 @@
 },
 "BSE:531737": {
 "t": "2026-11-12T20:32+05:30"
+},
+"BSE:531743": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e81a1798-ed10-415c-a717-4a002c2bb85a.pdf",
+"t": "2026-11-14T14:20+05:30"
 },
 "BSE:531746": {
 "c": 1,
@@ -27025,6 +27111,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/624866e9-18ed-4196-8d55-1bd775542ad1.pdf",
 "t": "2026-11-13T17:25+05:30"
 },
+"BSE:538597": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f549cf19-ca4e-4d2d-ab6c-177f1a8c274e.pdf",
+"t": "2026-11-14T14:22+05:30"
+},
 "BSE:538610": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ed9f2a6-9777-4f2b-81b1-b2a072bccd95.pdf",
@@ -27261,6 +27351,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fe506527-efbd-4bc4-bbf7-21326cf4a27c.pdf",
 "t": "2026-11-13T15:53+05:30"
 },
+"BSE:539518": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/521b1475-36f2-496e-bef3-138132876164.pdf",
+"t": "2026-11-14T14:21+05:30"
+},
 "BSE:539523": {
 "t": "2026-11-12T13:55+05:30"
 },
@@ -27380,6 +27474,10 @@
 "BSE:540467": {
 "c": 1,
 "t": "2026-11-12T19:32+05:30"
+},
+"BSE:540468": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30331b87-5d4c-4edc-9eb6-738e4a321569.pdf",
+"t": "2026-11-14T14:24+05:30"
 },
 "BSE:540481": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/16b68c6c-3872-4750-85ae-a5b0290bb91f.pdf",
@@ -27704,6 +27802,10 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8885f12c-9317-4ac6-80c7-ccdc75cfa5cc.pdf",
 "t": "2026-11-13T23:18+05:30"
+},
+"BSE:543475": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e9c25ef-dcf2-4566-b704-b7bfb289dfde.pdf",
+"t": "2026-11-14T14:24+05:30"
 },
 "BSE:543514": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fb92ac8c-cb7a-450a-a5f4-18fbb01a8133.pdf",
@@ -28596,6 +28698,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/DCMCS_13112026181136_Outcomesd.pdf",
 "t": "2026-11-13T18:13+05:30"
 },
+"DCMSIL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DSIL_14112026142829_resultsforstx.PDF",
+"t": "2026-11-14T14:29+05:30"
+},
 "DCXINDIA": {
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
@@ -29053,6 +29159,10 @@
 "c": 1,
 "t": "2026-11-12T18:41+05:30"
 },
+"IDENTICAL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/IDENTICAL_14112026142722_Outcome_NSE.pdf",
+"t": "2026-11-14T14:28+05:30"
+},
 "IEML": {
 "pdf": "https://nsearchives.nseindia.com/corporate/INDIANEMULSIFIERS_13112026214157_Outcome_of_BM_H1FY27_Financial_Results.pdf",
 "t": "2026-11-13T21:45+05:30"
@@ -29250,6 +29360,10 @@
 "INE02C301011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/22ae0e92-e781-4100-8c31-84f951097f2d.pdf",
 "t": "2026-11-13T18:46+05:30"
+},
+"INE02H701025": {
+"pdf": "https://nsearchives.nseindia.com/corporate/NOVA_14112026142454_OUTCOMEOFMEETING.pdf",
+"t": "2026-11-14T14:27+05:30"
 },
 "INE02WG01016": {
 "t": "2026-11-12T14:04+05:30"
@@ -29828,6 +29942,10 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8207b487-70c7-43de-a972-fd52cbb6fee6.pdf",
 "t": "2026-11-13T19:43+05:30"
+},
+"INE0OU201013": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DSIL_14112026142829_resultsforstx.PDF",
+"t": "2026-11-14T14:29+05:30"
 },
 "INE0OV601013": {
 "c": 1,
@@ -30701,7 +30819,7 @@
 "t": "2026-11-12T16:46+05:30"
 },
 "INE217G01035": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/683c363f-c08e-4e9c-9f39-b0e6c31fa521.pdf",
+"pdf": "https://nsearchives.nseindia.com/corporate/EQUIPPP_13112026163315_EQUIPPP_BM_OUTCOME_FY_2026-27_SD_V.pdf",
 "t": "2026-11-13T16:36+05:30"
 },
 "INE217L01019": {
@@ -32742,6 +32860,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ec5b61b4-bc70-4395-a717-7a4012b84b42.pdf",
 "t": "2026-11-13T19:30+05:30"
 },
+"INE731A01012": {
+"pdf": "https://nsearchives.nseindia.com/corporate/pankaj_14112026142233_Submission_of_Results_and_Outcome_sept_26.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "INE731B01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9981e2bb-d4de-4fdc-9e3e-debce3604c8e.pdf",
 "t": "2026-11-13T12:33+05:30"
@@ -34524,6 +34646,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b8727d2-3721-4051-b7c3-6b737d13944e.pdf",
 "t": "2026-11-13T12:55+05:30"
 },
+"N:ARCHIES": {
+"pdf": "https://nsearchives.nseindia.com/corporate/pankaj_14112026142233_Submission_of_Results_and_Outcome_sept_26.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "N:ARCINSULATIONANDINSULATORS": {
 "pdf": "https://nsearchives.nseindia.com/corporate/ARCINC_13112026153107_outcome13112026.pdf",
 "t": "2026-11-13T15:32+05:30"
@@ -35277,6 +35403,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8a6e72c-c839-4717-bff4-7025625df439.pdf",
 "t": "2026-11-13T18:13+05:30"
 },
+"N:DCMSHRIRAMINTERNATIONAL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DSIL_14112026142829_resultsforstx.PDF",
+"t": "2026-11-14T14:29+05:30"
+},
 "N:DCXSYSTEMS": {
 "c": 1,
 "t": "2026-11-11T17:30+05:30"
@@ -35509,6 +35639,10 @@
 "N:EIHASSOCIATEDHOTELS": {
 "t": "2026-11-11T16:39+05:30"
 },
+"N:EKENNISSOFTWARESERVICE": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e9c25ef-dcf2-4566-b704-b7bfb289dfde.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "N:ELANGOINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebe84c8a-2aad-43ac-9fd7-e4e35ade5690.pdf",
 "t": "2026-11-13T17:16+05:30"
@@ -35605,7 +35739,7 @@
 "t": "2026-11-13T14:28+05:30"
 },
 "N:EQUIPPPSOCIALIMPACTTECHNOLOGIES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/683c363f-c08e-4e9c-9f39-b0e6c31fa521.pdf",
+"pdf": "https://nsearchives.nseindia.com/corporate/EQUIPPP_13112026163315_EQUIPPP_BM_OUTCOME_FY_2026-27_SD_V.pdf",
 "t": "2026-11-13T16:24+05:30"
 },
 "N:ERAINFRAENGINEERING": {
@@ -36123,6 +36257,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b63cc536-bb38-40ef-b22b-8a7b243caa2a.pdf",
 "t": "2026-11-13T17:57+05:30"
 },
+"N:HIRAAUTOMOBILES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e81a1798-ed10-415c-a717-4a002c2bb85a.pdf",
+"t": "2026-11-14T14:20+05:30"
+},
 "N:HIRECT": {
 "t": "2026-11-10T13:24+05:30"
 },
@@ -36170,6 +36308,10 @@
 "N:ICONIKSPORTSANDEVENTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2e985629-8b5c-44fc-a8a2-879df19af480.pdf",
 "t": "2026-11-13T15:55+05:30"
+},
+"N:IDENTICALBRAINSSTUDIOS": {
+"pdf": "https://nsearchives.nseindia.com/corporate/IDENTICAL_14112026142722_Outcome_NSE.pdf",
+"t": "2026-11-14T14:28+05:30"
 },
 "N:IDENTIXWEB": {
 "c": 1,
@@ -36764,6 +36906,10 @@
 "N:KMGMILKFOOD": {
 "t": "2026-11-12T16:09+05:30"
 },
+"N:KMSMEDISURGI": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30331b87-5d4c-4edc-9eb6-738e4a321569.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "N:KNRCONSTRUCTIONS": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd7dbcb3-b365-4529-aacf-0ca37e11ad96.pdf",
@@ -36855,6 +37001,10 @@
 "N:KWICKFORENSICSOLUTIONS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e825720-b4f8-46ab-bd7d-99417b03fa5b.pdf",
 "t": "2026-11-13T19:24+05:30"
+},
+"N:LACTOSEINDIA": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf248790-5e5d-4cae-a297-f0386aa89cf9.pdf",
+"t": "2026-11-14T14:29+05:30"
 },
 "N:LAFFANSPETROCHEMICALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4624cbf0-fa46-4f81-8a9e-d69048ac49c3.pdf",
@@ -37558,6 +37708,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1e47e9a-003c-4b0c-a486-b7d428019b41.pdf",
 "t": "2026-11-13T16:25+05:30"
 },
+"N:NOVAAGRITECH": {
+"pdf": "https://nsearchives.nseindia.com/corporate/NOVA_14112026142454_OUTCOMEOFMEETING.pdf",
+"t": "2026-11-14T14:27+05:30"
+},
 "N:NOVALUMMATERIALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/648aded8-7c30-4efb-9148-258d13a2ddff.pdf",
 "t": "2026-11-14T13:52+05:30"
@@ -38175,6 +38329,10 @@
 "c": 1,
 "t": "2026-11-12T15:58+05:30"
 },
+"N:RASIELECTRODES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8309ee1b-a353-4a07-98f5-c5480bcd4820.pdf",
+"t": "2026-11-14T14:19+05:30"
+},
 "N:RATHIBARS": {
 "t": "2026-11-11T15:15+05:30"
 },
@@ -38638,6 +38796,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5fa08810-6aa9-4a08-9b84-83d9a244466c.pdf",
 "t": "2026-11-13T17:40+05:30"
 },
+"N:SHALIMARPRODUCTIONS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d409beb8-f5d3-42fd-8f55-3e2ea467a298.pdf",
+"t": "2026-11-14T14:24+05:30"
+},
 "N:SHALIMARWIRESINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d880269c-3c3e-4f8b-9728-4cdcc3ee7940.pdf",
 "t": "2026-11-13T14:31+05:30"
@@ -38906,6 +39068,10 @@
 "N:SOTACPHARMACEUTICALS": {
 "pdf": "https://nsearchives.nseindia.com/corporate/SOTAC_13112026181903_outcome_updated_signed.pdf",
 "t": "2026-11-13T18:27+05:30"
+},
+"N:SOURCEINDUSTRIESINDIA": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3013ff7f-0530-4023-af51-a49b79e01f64.pdf",
+"t": "2026-11-14T14:26+05:30"
 },
 "N:SOUTHERNINFOCONSULTANTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e6ebc367-591d-44b8-b89b-e92b43c9b1d4.pdf",
@@ -39434,6 +39600,10 @@
 "N:TSFINVESTMENTS": {
 "t": "2026-11-11T19:04+05:30"
 },
+"N:TTIENTERPRISE": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f549cf19-ca4e-4d2d-ab6c-177f1a8c274e.pdf",
+"t": "2026-11-14T14:22+05:30"
+},
 "N:TULSYANNEC": {
 "c": 1,
 "t": "2026-11-11T18:32+05:30"
@@ -39469,7 +39639,7 @@
 "t": "2026-11-13T16:33+05:30"
 },
 "N:UDAYJEWELLERYINDUSTRIES": {
-"pdf": "https://nsearchives.nseindia.com/corporate/UDAYJEW_14112026134808_Finaloutcome14112026_sd.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/521b1475-36f2-496e-bef3-138132876164.pdf",
 "t": "2026-11-14T13:50+05:30"
 },
 "N:UFLEX": {
@@ -39986,6 +40156,10 @@
 },
 "NOIDATOLL": {
 "t": "2026-11-12T16:58+05:30"
+},
+"NOVAAGRI": {
+"pdf": "https://nsearchives.nseindia.com/corporate/NOVA_14112026142454_OUTCOMEOFMEETING.pdf",
+"t": "2026-11-14T14:27+05:30"
 },
 "NPST": {
 "c": 1,
@@ -41916,6 +42090,10 @@
 "t": "2026-11-12T17:09+05:30",
 "v": 45.4
 },
+"BSE:512499": {
+"t": "2026-11-14T14:30+05:30",
+"v": 22.6
+},
 "BSE:512519": {
 "t": "2026-11-13T18:33+05:30",
 "v": 447.2
@@ -42252,6 +42430,10 @@
 "t": "2026-11-14T12:43+05:30",
 "v": 12.8
 },
+"BSE:521036": {
+"t": "2026-11-14T14:30+05:30",
+"v": 128.9
+},
 "BSE:521054": {
 "t": "2026-11-13T18:47+05:30",
 "v": 4.7
@@ -42431,6 +42613,10 @@
 "BSE:524080": {
 "t": "2026-11-13T13:36+05:30",
 "v": 28.0
+},
+"BSE:524202": {
+"t": "2026-11-14T14:30+05:30",
+"v": 131.4
 },
 "BSE:524210": {
 "t": "2026-11-12T19:06+05:30",
@@ -42924,6 +43110,10 @@
 "t": "2026-11-13T18:19+05:30",
 "v": 13.4
 },
+"BSE:531233": {
+"t": "2026-11-14T14:30+05:30",
+"v": 42.1
+},
 "BSE:531234": {
 "t": "2026-11-13T17:38+05:30",
 "v": 103.6
@@ -43099,6 +43289,10 @@
 "BSE:531737": {
 "t": "2026-11-12T22:09+05:30",
 "v": 21.2
+},
+"BSE:531743": {
+"t": "2026-11-14T14:30+05:30",
+"v": 53.1
 },
 "BSE:531746": {
 "t": "2026-11-12T17:56+05:30",
@@ -43680,6 +43874,10 @@
 "t": "2026-11-13T17:38+05:30",
 "v": 14.0
 },
+"BSE:538597": {
+"t": "2026-11-14T14:30+05:30",
+"v": 17.3
+},
 "BSE:538610": {
 "t": "2026-11-14T14:01+05:30",
 "v": 20.1
@@ -43992,6 +44190,10 @@
 "t": "2026-11-12T22:09+05:30",
 "v": 76.2
 },
+"BSE:540468": {
+"t": "2026-11-14T14:30+05:30",
+"v": 46.0
+},
 "BSE:540481": {
 "t": "2026-11-13T17:50+05:30",
 "v": 47.9
@@ -44247,6 +44449,10 @@
 "BSE:543461": {
 "t": "2026-11-14T08:06+05:30",
 "v": 47.9
+},
+"BSE:543475": {
+"t": "2026-11-14T14:30+05:30",
+"v": 5.4
 },
 "BSE:543514": {
 "t": "2026-11-13T14:04+05:30",
@@ -44852,6 +45058,10 @@
 "t": "2026-11-13T18:19+05:30",
 "v": 132.0
 },
+"DCMSIL": {
+"t": "2026-11-14T14:30+05:30",
+"v": 587.2
+},
 "DDEVPLSTIK": {
 "t": "2026-11-12T18:29+05:30",
 "v": 2619.0
@@ -45299,6 +45509,10 @@
 "NOIDATOLL": {
 "t": "2026-11-12T17:02+05:30",
 "v": 69.8
+},
+"NOVAAGRI": {
+"t": "2026-11-14T14:30+05:30",
+"v": 214.7
 },
 "NSLNISP": {
 "t": "2026-11-12T21:52+05:30",
@@ -47223,6 +47437,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544341_141120261374_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544341_141120261374_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_544483_14112026141859_IFOtherthan.xml": {
+"company": "Icodex Publishing Solutions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544483",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T14:30+05:30",
+"uid": "BSE-IFOtherthan_544483_14112026141859_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544483_14112026141859_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544483_14112026141859_IFOtherthan.xml"
+},
 "BSE-IFOtherthan_544542_131120262169_IFOtherthan.xml": {
 "company": "Justo Realfintech Ltd",
 "consolidated": false,
@@ -47783,22 +48013,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511034_1311202618936_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511034_1311202618936_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml": {
-"company": "Munoth Communication Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "511401",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-14T12:23+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_512068_1311202620850_IFIndAs.xml": {
 "company": "Deccan Gold Mines Ltd",
 "consolidated": false,
@@ -47830,6 +48044,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_512237_13112026184013_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512237_13112026184013_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512237_13112026184013_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_512499_14112026142536_IFIndAs.xml": {
+"company": "Shalimar Productions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "512499",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T14:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_512499_14112026142536_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512499_14112026142536_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512499_14112026142536_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_512529_13112026174933_IFIndAs.xml": {
 "company": "Viyash Scientific Ltd",
@@ -47926,6 +48156,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_514282_14112026134737_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514282_14112026134737_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514282_14112026134737_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_514412_14112026142355_IFIndAs.xml": {
+"company": "Sarup Industries Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "514412",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T14:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_514412_14112026142355_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514412_14112026142355_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514412_14112026142355_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_515085_14112026134851_IFIndAs.xml": {
 "company": "Restile Ceramics Ltd",
@@ -48871,22 +49117,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532804_1311202616213_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532804_1311202616213_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_532854_14112026132934_IFIndAs.xml": {
-"company": "Nitin Fire Protection Industries Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532854",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-14T13:53+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532854_14112026132934_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532854_14112026132934_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532854_14112026132934_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_532890_1311202619164_IFIndAs.xml": {
 "company": "Take Ltd",
 "consolidated": false,
@@ -49062,22 +49292,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_537253_13112026193128_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_537253_13112026193128_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_537253_13112026193128_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_538610_14112026135840_IFIndAs.xml": {
-"company": "Unison Metals Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "538610",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-14T14:00+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_538610_14112026135840_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538610_14112026135840_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538610_14112026135840_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_538668_1311202617373_IFIndAs.xml": {
 "company": "Meghna Infracon Infrastructure Ltd",
@@ -53381,8 +53595,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-14T13:35+05:30",
-"v": "INE0CFG01012"
+"t": "2026-11-14T14:30+05:30",
+"v": "INE0KN801013"
 },
 "123456": {
 "t": "2026-11-13T19:48+05:30",
@@ -54099,6 +54313,10 @@
 "511391": {
 "t": "2026-11-13T20:17+05:30",
 "v": "INE661M01016"
+},
+"511401": {
+"t": "2026-11-14T14:30+05:30",
+"v": "INE410E01015"
 },
 "511427": {
 "t": "2026-11-13T08:05+05:30",
@@ -56161,7 +56379,7 @@
 "v": "INE228I01012"
 },
 "532854": {
-"t": "2026-11-14T13:53+05:30",
+"t": "2026-11-14T14:30+05:30",
 "v": "INE489H01020"
 },
 "532855": {
@@ -56563,6 +56781,10 @@
 "538596": {
 "t": "2026-11-14T08:05+05:30",
 "v": "INE222B01028"
+},
+"538610": {
+"t": "2026-11-14T14:30+05:30",
+"v": "INE099D01026"
 },
 "538634": {
 "t": "2026-11-13T08:07+05:30",
@@ -58646,6 +58868,10 @@
 "t": "2026-11-12T22:07+05:30",
 "v": 10926400
 },
+"INE099D01026": {
+"t": "2026-11-14T14:30+05:30",
+"v": 296223000
+},
 "INE099E01016": {
 "t": "2026-11-14T11:40+05:30",
 "v": 13095500
@@ -58897,6 +59123,10 @@
 "INE0KLO01025": {
 "t": "2026-11-14T08:13+05:30",
 "v": 15015000
+},
+"INE0KN801013": {
+"t": "2026-11-14T14:30+05:30",
+"v": 10879900
 },
 "INE0KNT01012": {
 "t": "2026-11-13T13:12+05:30",
@@ -61346,6 +61576,10 @@
 "t": "2026-11-13T22:10+05:30",
 "v": 15158800
 },
+"INE410E01015": {
+"t": "2026-11-14T14:30+05:30",
+"v": 9951300
+},
 "INE410G01010": {
 "t": "2026-11-11T20:17+05:30",
 "v": 10268900
@@ -61639,7 +61873,7 @@
 "v": 152284000
 },
 "INE489H01020": {
-"t": "2026-11-14T13:53+05:30",
+"t": "2026-11-14T14:30+05:30",
 "v": 292269500
 },
 "INE491C01027": {
