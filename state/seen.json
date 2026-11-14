@@ -4490,6 +4490,9 @@
 "ANN-equities-106860335-DEEDEV": {
 "t": "2026-11-14T11:53+05:30"
 },
+"ANN-equities-106860341-NECLIFE": {
+"t": "2026-11-14T11:59+05:30"
+},
 "ANN-sme-106854839-EEPL": {
 "t": "2026-11-11T12:05+05:30"
 },
@@ -6731,6 +6734,9 @@
 "BANN-7cd5d7cc-32aa-41b3-b098-3abed7a9fd96": {
 "t": "2026-11-13T15:42+05:30"
 },
+"BANN-7cde6ca8-4d1f-4792-b4d7-88a1273d12f9": {
+"t": "2026-11-14T11:59+05:30"
+},
 "BANN-7cdeadc4-6348-43a5-997f-d82a5153fb9c": {
 "t": "2026-11-12T17:56+05:30"
 },
@@ -7675,6 +7681,9 @@
 },
 "BANN-c2f32d1a-d4c4-462c-aa06-68a1464e4415": {
 "t": "2026-11-11T20:23+05:30"
+},
+"BANN-c362a85e-f02e-4b75-8e3b-e9efc417c69e": {
+"t": "2026-11-14T11:59+05:30"
 },
 "BANN-c372c6fa-fea3-40ad-94e0-c8a0d54e6c40": {
 "t": "2026-11-13T18:33+05:30"
@@ -17728,9 +17737,9 @@
 "t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214142": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T11:53+05:30"
+"t": "2026-11-14T11:59+05:30"
 }
 },
 "first_seen": {
@@ -24699,6 +24708,10 @@
 "BSE:523127": {
 "t": "2026-11-11T16:39+05:30"
 },
+"BSE:523151": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/90e6ca5a-2c60-4de3-b1f0-530be313bf49.pdf",
+"t": "2026-11-14T11:57+05:30"
+},
 "BSE:523186": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c1c5d7bd-1810-4995-ac19-d50128683b97.pdf",
 "t": "2026-11-13T19:04+05:30"
@@ -25806,6 +25819,10 @@
 },
 "BSE:532645": {
 "t": "2026-11-12T17:05+05:30"
+},
+"BSE:532649": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd1edea5-e3c9-4cfc-a1d5-89cb08b8f37b.pdf",
+"t": "2026-11-14T11:58+05:30"
 },
 "BSE:532650": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0ea7dd7a-e3bc-466f-b0b9-6287babd75f0.pdf",
@@ -28321,6 +28338,10 @@
 },
 "INE020G01017": {
 "t": "2026-11-11T16:24+05:30"
+},
+"INE023H01027": {
+"pdf": "https://nsearchives.nseindia.com/corporate/NECLIFE_14112026115532_NECLIFE_BM_Outcome_261114_Signed.pdf",
+"t": "2026-11-14T11:58+05:30"
 },
 "INE025A01027": {
 "c": 1,
@@ -36263,6 +36284,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/35e7a410-a0ae-465e-a328-99600f5a9694.pdf",
 "t": "2026-11-13T17:37+05:30"
 },
+"N:NECTARLIFESCIENCES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cd1edea5-e3c9-4cfc-a1d5-89cb08b8f37b.pdf",
+"t": "2026-11-14T11:58+05:30"
+},
 "N:NEELAMALAIAGROINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bb453876-fad1-4fbf-adc3-69f34f1fd532.pdf",
 "t": "2026-11-13T13:47+05:30"
@@ -36485,6 +36510,10 @@
 "N:OSWALPUMPS": {
 "c": 1,
 "t": "2026-11-12T17:39+05:30"
+},
+"N:OTCOINTERNATIONAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/90e6ca5a-2c60-4de3-b1f0-530be313bf49.pdf",
+"t": "2026-11-14T11:57+05:30"
 },
 "N:OXYGENTAPHARMACEUTICAL": {
 "t": "2026-11-10T16:59+05:30"
@@ -36999,7 +37028,7 @@
 "t": "2026-11-13T18:10+05:30"
 },
 "N:RELAXOFOOTWEARS": {
-"pdf": "https://nsearchives.nseindia.com/corporate/RELAXO_13112026170911_Outcome_Financial_Results_13112026.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ad3adcab-7b3a-4043-aebf-57efd247a39b.pdf",
 "t": "2026-11-13T17:14+05:30"
 },
 "N:RELIABLEDATASERVICES": {
@@ -38606,6 +38635,10 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.com/corporate/NDGL_13112026154352_Outcome_NDGL.pdf",
 "t": "2026-11-13T15:44+05:30"
+},
+"NECLIFE": {
+"pdf": "https://nsearchives.nseindia.com/corporate/NECLIFE_14112026115532_NECLIFE_BM_Outcome_261114_Signed.pdf",
+"t": "2026-11-14T11:58+05:30"
 },
 "NEPHROCARE": {
 "t": "2026-11-12T17:52+05:30"
@@ -40872,6 +40905,10 @@
 "t": "2026-11-12T22:09+05:30",
 "v": 122.4
 },
+"BSE:523151": {
+"t": "2026-11-14T11:59+05:30",
+"v": 17.0
+},
 "BSE:523186": {
 "t": "2026-11-13T19:18+05:30",
 "v": 43.1
@@ -41791,6 +41828,10 @@
 "BSE:532645": {
 "t": "2026-11-12T17:09+05:30",
 "v": 3.5
+},
+"BSE:532649": {
+"t": "2026-11-14T11:59+05:30",
+"v": 208.4
 },
 "BSE:532651": {
 "t": "2026-11-13T15:00+05:30",
@@ -43631,6 +43672,10 @@
 "NCLIND": {
 "t": "2026-11-12T15:56+05:30",
 "v": 770.8
+},
+"NECLIFE": {
+"t": "2026-11-14T11:59+05:30",
+"v": 208.4
 },
 "NIRAJ": {
 "t": "2026-11-13T21:32+05:30",
