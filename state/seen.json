@@ -4487,6 +4487,9 @@
 "ANN-equities-106860320-SAMMAANCAP": {
 "t": "2026-11-14T11:46+05:30"
 },
+"ANN-equities-106860335-DEEDEV": {
+"t": "2026-11-14T11:53+05:30"
+},
 "ANN-sme-106854839-EEPL": {
 "t": "2026-11-11T12:05+05:30"
 },
@@ -5140,6 +5143,9 @@
 },
 "ANN-sme-106860300-VELS": {
 "t": "2026-11-14T11:23+05:30"
+},
+"ANN-sme-106860332-READYMIX": {
+"t": "2026-11-14T11:53+05:30"
 },
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
@@ -17722,9 +17728,9 @@
 "t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214142": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-14T11:46+05:30"
+"t": "2026-11-14T11:53+05:30"
 }
 },
 "first_seen": {
@@ -27740,6 +27746,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/DECCAN_13112026181935_NSE_Submissions_signed.pdf",
 "t": "2026-11-13T18:23+05:30"
 },
+"DEEDEV": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DDEL_14112026114548_NSEBSE_Financials.pdf",
+"t": "2026-11-14T11:51+05:30"
+},
 "DEEPAKFERT": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.com/corporate/DEEPAKFERT1_13112026203559_Results_Signed_1.pdf",
@@ -31646,6 +31656,11 @@
 "INE706A01022": {
 "t": "2026-11-12T23:20+05:30"
 },
+"INE706D01018": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bf896d5-3ea5-4b16-8a5a-8bc18f241cd1.pdf",
+"t": "2026-11-14T10:44+05:30"
+},
 "INE707B01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50487f0e-4e05-483a-b186-a4029623396f.pdf",
 "t": "2026-11-13T14:54+05:30"
@@ -32159,6 +32174,10 @@
 "INE840D01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa7e1469-5c23-4da6-9f9a-f95372b73d3a.pdf",
 "t": "2026-11-13T20:08+05:30"
+},
+"INE841L01016": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DDEL_14112026114548_NSEBSE_Financials.pdf",
+"t": "2026-11-14T11:51+05:30"
 },
 "INE841Y01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8a3f442c-7cc6-430c-8ab6-f9a41465d17f.pdf",
@@ -34200,6 +34219,10 @@
 },
 "N:DECOROUSINVESTMENTANDTRADINGCO": {
 "t": "2026-11-10T12:42+05:30"
+},
+"N:DEEDEVELOPMENTENGINEERS": {
+"pdf": "https://nsearchives.nseindia.com/corporate/DDEL_14112026114548_NSEBSE_Financials.pdf",
+"t": "2026-11-14T11:51+05:30"
 },
 "N:DEEPAKBUILDERSANDENGINEERSINDIA": {
 "t": "2026-11-12T17:39+05:30"
@@ -36952,6 +36975,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b3d501a5-2d73-40ff-b2fd-57a6471db2e0.pdf",
 "t": "2026-11-13T16:20+05:30"
 },
+"N:READYMIXCONSTRUCTIONMACHINERY": {
+"pdf": "https://nsearchives.nseindia.com/corporate/READYMIX_14112026114026_RMX_Financials_Signed.pdf",
+"t": "2026-11-14T11:48+05:30"
+},
 "N:REFRACTORYSHAPES": {
 "pdf": "https://nsearchives.nseindia.com/corporate/RSL_13112026142422_Outcome_sw.pdf",
 "t": "2026-11-13T14:25+05:30"
@@ -36972,7 +36999,7 @@
 "t": "2026-11-13T18:10+05:30"
 },
 "N:RELAXOFOOTWEARS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ad3adcab-7b3a-4043-aebf-57efd247a39b.pdf",
+"pdf": "https://nsearchives.nseindia.com/corporate/RELAXO_13112026170911_Outcome_Financial_Results_13112026.pdf",
 "t": "2026-11-13T17:14+05:30"
 },
 "N:RELIABLEDATASERVICES": {
@@ -38900,6 +38927,10 @@
 "RCF": {
 "c": 1,
 "t": "2026-11-12T15:58+05:30"
+},
+"READYMIX": {
+"pdf": "https://nsearchives.nseindia.com/corporate/READYMIX_14112026114026_RMX_Financials_Signed.pdf",
+"t": "2026-11-14T11:48+05:30"
 },
 "REFRACTORY": {
 "pdf": "https://nsearchives.nseindia.com/corporate/RSL_13112026142422_Outcome_sw.pdf",
