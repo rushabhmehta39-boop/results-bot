@@ -17751,9 +17751,9 @@
 "t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214142": {
-"n": 5,
-"s": "retry",
-"t": "2026-11-14T12:12+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T12:18+05:30"
 }
 },
 "first_seen": {
@@ -21030,6 +21030,9 @@
 "BSE|544975|2026-09-30": {
 "t": "2026-11-13T15:33+05:30"
 },
+"BSE|544979|2026-09-30": {
+"t": "2026-11-14T12:17+05:30"
+},
 "BSE|544987|2026-09-30": {
 "t": "2026-11-13T23:59+05:30"
 },
@@ -21203,9 +21206,6 @@
 },
 "NSE SME|DUGLOBAL|2026-09-30": {
 "t": "2026-11-13T16:10+05:30"
-},
-"NSE SME|EEPL|2026-09-30": {
-"t": "2026-11-11T12:15+05:30"
 },
 "NSE SME|EFORCE|2026-09-30": {
 "t": "2026-11-13T19:32+05:30"
@@ -45587,6 +45587,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544542_131120262169_IFOtherthan.xml"
 },
+"BSE-IFOtherthan_544979_14112026121639_IFOtherthan.xml": {
+"company": "Everestims Technologies Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544979",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:17+05:30",
+"uid": "BSE-IFOtherthan_544979_14112026121639_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544979_14112026121639_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544979_14112026121639_IFOtherthan.xml"
+},
 "BSE-Integrated_Finance_Ind_As_500002_13112026175920_IFIndAs.xml": {
 "company": "ABB India Ltd",
 "consolidated": false,
@@ -48690,22 +48706,6 @@
 "uid": "NSE-sme-IF-214130",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214130_14112026025449_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758165_14112026025446_WEB.xml"
-},
-"NSE-sme-IF-214142": {
-"company": "Utkal Speciality Industries India Limited",
-"consolidated": false,
-"filed_at": "2026-11-14T11:20:55+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "UTKAL",
-"t": "2026-11-14T11:22+05:30",
-"uid": "NSE-sme-IF-214142",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214142_14112026112054_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758181_14112026112054_WEB.xml"
 },
 "NSE-sme-IF-214149": {
 "company": "C P S Shapers Limited",
