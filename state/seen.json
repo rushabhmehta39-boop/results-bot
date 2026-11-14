@@ -4608,8 +4608,14 @@
 "ANN-equities-106860504-NITINFIRE": {
 "t": "2026-11-14T14:01+05:30"
 },
-"ANN-sme-106855036-SAMAY": {
-"t": "2026-11-11T14:11+05:30"
+"ANN-equities-106860514-ATAM": {
+"t": "2026-11-14T14:13+05:30"
+},
+"ANN-equities-106860517-SGL": {
+"t": "2026-11-14T14:13+05:30"
+},
+"ANN-equities-106860521-EUROBOND": {
+"t": "2026-11-14T14:13+05:30"
 },
 "ANN-sme-106855147-MARUSHIKA": {
 "t": "2026-11-11T15:36+05:30"
@@ -5283,6 +5289,9 @@
 "ANN-sme-106860513-GOYALSALT": {
 "t": "2026-11-14T14:07+05:30"
 },
+"ANN-sme-106860516-PROPEQUITY": {
+"t": "2026-11-14T14:13+05:30"
+},
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
 },
@@ -5789,6 +5798,9 @@
 },
 "BANN-236475a9-9c64-43cc-936d-72cbfe45d806": {
 "t": "2026-11-13T13:04+05:30"
+},
+"BANN-239d5248-156e-49e9-97ee-d242a599c643": {
+"t": "2026-11-14T14:13+05:30"
 },
 "BANN-23d6c515-ee14-414b-98ae-ba6bbdd362ac": {
 "t": "2026-11-13T21:32+05:30"
@@ -8079,6 +8091,9 @@
 "BANN-d1a2dc9e-e43e-42eb-adba-0cc7b13fd278": {
 "t": "2026-11-12T22:09+05:30"
 },
+"BANN-d1b15a7d-94d6-4887-90f1-0f76fe94741b": {
+"t": "2026-11-14T14:13+05:30"
+},
 "BANN-d1bbb9b2-f33b-48bb-8ab6-9db512746527": {
 "t": "2026-11-11T17:59+05:30"
 },
@@ -9250,6 +9265,10 @@
 "BSE-Integrated_Finance_Ind_As_500840_1211202620493_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-13T22:12+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_501425_1311202614636_IFIndAs.xml": {
+"s": "superseded",
+"t": "2026-11-14T14:13+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_501477_1211202619259_IFIndAs.xml": {
 "s": "small",
@@ -15753,6 +15772,10 @@
 "s": "small",
 "t": "2026-11-13T18:57+05:30"
 },
+"NSE-equities-IF-213712": {
+"s": "superseded",
+"t": "2026-11-14T14:13+05:30"
+},
 "NSE-equities-IF-213713": {
 "s": "small",
 "t": "2026-11-13T18:45+05:30"
@@ -16746,6 +16769,18 @@
 "NSE-equities-IF-214175": {
 "s": "small",
 "t": "2026-11-14T13:54+05:30"
+},
+"NSE-equities-IF-214179": {
+"s": "superseded",
+"t": "2026-11-14T14:13+05:30"
+},
+"NSE-equities-IF-214180": {
+"s": "posted",
+"t": "2026-11-14T14:13+05:30"
+},
+"NSE-equities-IF-214182": {
+"s": "posted",
+"t": "2026-11-14T14:13+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -18245,6 +18280,9 @@
 },
 "BSE|500367|2026-09-30": {
 "t": "2026-11-12T15:30+05:30"
+},
+"BSE|500368|2026-09-30": {
+"t": "2026-11-14T14:12+05:30"
 },
 "BSE|500388|2026-09-30": {
 "t": "2026-11-13T16:40+05:30"
@@ -19811,6 +19849,9 @@
 },
 "BSE|531626|2026-09-30": {
 "t": "2026-11-12T17:54+05:30"
+},
+"BSE|531628|2026-09-30": {
+"t": "2026-11-14T14:12+05:30"
 },
 "BSE|531658|2026-09-30": {
 "t": "2026-11-12T23:32+05:30"
@@ -23025,6 +23066,9 @@
 "NSE|PARKHOTELS|2026-09-30": {
 "t": "2026-11-13T17:34+05:30"
 },
+"NSE|PATANJALI|2026-09-30": {
+"t": "2026-11-14T14:12+05:30"
+},
 "NSE|PEARLPOLY|2026-09-30": {
 "t": "2026-11-13T19:41+05:30"
 },
@@ -23705,6 +23749,10 @@
 "ASTRAMICRO": {
 "c": 1,
 "t": "2026-11-12T12:27+05:30"
+},
+"ATAM": {
+"pdf": "https://nsearchives.nseindia.com/corporate/ATAM_14112026140208_INTIMATIONTOEXCHANGE.pdf",
+"t": "2026-11-14T14:07+05:30"
 },
 "ATCENERGY": {
 "pdf": "https://nsearchives.nseindia.com/corporate/ATCENERGIES_13112026173913_Outcome.pdf",
@@ -25584,6 +25632,10 @@
 "BSE:526532": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7ea64ae0-f8ca-4bfd-995c-eaf89c3a08df.pdf",
 "t": "2026-11-13T19:41+05:30"
+},
+"BSE:526546": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c6206d6-ab9d-454a-a0e7-3070ceb64db7.pdf",
+"t": "2026-11-14T14:12+05:30"
 },
 "BSE:526550": {
 "c": 1,
@@ -27509,6 +27561,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b8727d2-3721-4051-b7c3-6b737d13944e.pdf",
 "t": "2026-11-13T13:01+05:30"
 },
+"BSE:543236": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96b1ca90-9eed-4197-9f85-2ebd2a1be1f3.pdf",
+"t": "2026-11-14T14:12+05:30"
+},
 "BSE:543249": {
 "t": "2026-11-12T18:58+05:30"
 },
@@ -28661,6 +28717,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/EMERALD_GYR_13112026185739_EmerladTyreOutcomeBM13112026signed.pdf",
 "t": "2026-11-13T18:57+05:30"
 },
+"EUROBOND": {
+"pdf": "https://nsearchives.nseindia.com/corporate/EUROPANEL_14112026140729_Euro_outcome_14112026.pdf",
+"t": "2026-11-14T14:10+05:30"
+},
 "EVENTIONS": {
 "t": "2026-11-12T20:02+05:30"
 },
@@ -29443,6 +29503,10 @@
 "INE099Z01011": {
 "c": 1,
 "t": "2026-11-11T17:05+05:30"
+},
+"INE09KD01013": {
+"pdf": "https://nsearchives.nseindia.com/corporate/ATAM_14112026140208_INTIMATIONTOEXCHANGE.pdf",
+"t": "2026-11-14T14:07+05:30"
 },
 "INE09PO01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/951940e7-cd1f-4f5b-9ed7-148a05309419.pdf",
@@ -31133,6 +31197,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/670b4377-3150-4790-8722-140c7b6c9d3b.pdf",
 "t": "2026-11-13T17:27+05:30"
 },
+"INE353H01010": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SGL_14112026140659_BM_OUTCOME.pdf",
+"t": "2026-11-14T14:08+05:30"
+},
 "INE353K01014": {
 "t": "2026-11-12T20:02+05:30"
 },
@@ -31704,6 +31772,10 @@
 "INE505C01016": {
 "c": 1,
 "t": "2026-11-12T17:41+05:30"
+},
+"INE505V01016": {
+"pdf": "https://nsearchives.nseindia.com/corporate/EUROPANEL_14112026140729_Euro_outcome_14112026.pdf",
+"t": "2026-11-14T14:10+05:30"
 },
 "INE505Y01010": {
 "t": "2026-11-12T18:09+05:30"
@@ -34494,6 +34566,10 @@
 "c": 1,
 "t": "2026-11-12T12:27+05:30"
 },
+"N:ATAMVALVES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96b1ca90-9eed-4197-9f85-2ebd2a1be1f3.pdf",
+"t": "2026-11-14T14:07+05:30"
+},
 "N:ATCENERGIESSYSTEM": {
 "pdf": "https://nsearchives.nseindia.com/corporate/ATCENERGIES_13112026173913_Outcome.pdf",
 "t": "2026-11-13T17:41+05:30"
@@ -34926,6 +35002,10 @@
 },
 "N:CHOKSIASIA": {
 "t": "2026-11-12T19:46+05:30"
+},
+"N:CHOKSILABORATORIES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c6206d6-ab9d-454a-a0e7-3070ceb64db7.pdf",
+"t": "2026-11-14T14:12+05:30"
 },
 "N:CHROMESILICON": {
 "t": "2026-11-12T19:06+05:30"
@@ -35484,6 +35564,10 @@
 "N:ETHOS": {
 "c": 1,
 "t": "2026-11-12T19:05+05:30"
+},
+"N:EUROPANELPRODUCTS": {
+"pdf": "https://nsearchives.nseindia.com/corporate/EUROPANEL_14112026140729_Euro_outcome_14112026.pdf",
+"t": "2026-11-14T14:10+05:30"
 },
 "N:EVENTIONS": {
 "t": "2026-11-12T20:02+05:30"
@@ -38853,6 +38937,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/decb7085-dd30-4368-a3ec-7b3002df9371.pdf",
 "t": "2026-11-13T18:30+05:30"
 },
+"N:STLGLOBAL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SGL_14112026140659_BM_OUTCOME.pdf",
+"t": "2026-11-14T14:08+05:30"
+},
 "N:STORAGETECHNOLOGIESANDAUTOMATION": {
 "t": "2026-11-11T20:17+05:30"
 },
@@ -40308,6 +40396,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/SETCO_13112026155058_Delay_in_submissiting_financial_results_sept_2026.pdf",
 "t": "2026-11-13T16:02+05:30"
 },
+"SGL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SGL_14112026140659_BM_OUTCOME.pdf",
+"t": "2026-11-14T14:08+05:30"
+},
 "SHARDAMOTR": {
 "t": "2026-11-12T19:52+05:30"
 },
@@ -40973,6 +41065,10 @@
 "ASTRAMICRO": {
 "t": "2026-11-12T15:32+05:30",
 "v": 16947.7
+},
+"ATAM": {
+"t": "2026-11-14T14:13+05:30",
+"v": 62.0
 },
 "AUTOAXLES": {
 "t": "2026-11-12T17:56+05:30",
@@ -42369,6 +42465,10 @@
 "BSE:526532": {
 "t": "2026-11-13T19:59+05:30",
 "v": 15.1
+},
+"BSE:526546": {
+"t": "2026-11-14T14:13+05:30",
+"v": 138.3
 },
 "BSE:526550": {
 "t": "2026-11-12T22:09+05:30",
@@ -43962,6 +44062,10 @@
 "t": "2026-11-13T13:04+05:30",
 "v": 35.8
 },
+"BSE:543236": {
+"t": "2026-11-14T14:13+05:30",
+"v": 62.0
+},
 "BSE:543267": {
 "t": "2026-11-13T08:08+05:30",
 "v": 346.0
@@ -44674,6 +44778,10 @@
 "t": "2026-11-12T21:52+05:30",
 "v": 7635.0
 },
+"EUROBOND": {
+"t": "2026-11-14T14:13+05:30",
+"v": 320.9
+},
 "FACT": {
 "t": "2026-11-13T13:36+05:30",
 "v": 53846.1
@@ -45249,6 +45357,10 @@
 "SETCO": {
 "t": "2026-11-13T16:11+05:30",
 "v": 238.8
+},
+"SGL": {
+"t": "2026-11-14T14:13+05:30",
+"v": 25.5
 },
 "SHIVALIK": {
 "t": "2026-11-13T18:59+05:30",
@@ -47173,6 +47285,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500306_13112026205140_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500306_13112026205140_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_500368_1411202614657_IFIndAs.xml": {
+"company": "Patanjali Foods Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "500368",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T14:12+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500368_1411202614657_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500368_1411202614657_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500368_1411202614657_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_500390_13112026212652_IFIndAs.xml": {
 "company": "Reliance Infrastructure Ltd",
 "consolidated": false,
@@ -47316,22 +47444,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_501421_1311202620047_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501421_1311202620047_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501421_1311202620047_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_501425_1311202614636_IFIndAs.xml": {
-"company": "The Bombay Burmah Trading Corporation Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "501425",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-13T14:11+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_501425_1311202614636_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501425_1311202614636_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501425_1311202614636_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_502820_13112026062426_IFIndAs.xml": {
 "company": "DCM Ltd",
@@ -48196,6 +48308,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531628_14112026141120_IFIndAs.xml": {
+"company": "Tejassvi Aaharam Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531628",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T14:12+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531628_14112026141120_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531628_14112026141120_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531628_14112026141120_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531677_14112026122824_IFIndAs.xml": {
 "company": "Aris International Ltd",
@@ -49812,22 +49940,6 @@
 "uid": "NSE-equities-IF-213617",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_213617_13112026175314_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1757563_13112026055314_WEB.xml"
-},
-"NSE-equities-IF-213712": {
-"company": "Edelweiss Financial Services Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T18:34:32+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "EDELWEISS",
-"t": "2026-11-13T18:41+05:30",
-"uid": "NSE-equities-IF-213712",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_213712_13112026183432_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1757674_13112026063431_WEB.xml"
 },
 "NSE-equities-IF-213816": {
 "company": "RHI MAGNESITA INDIA LIMITED",
@@ -52266,6 +52378,13 @@
 "src": "pdf",
 "t": "2026-11-11T21:11+05:30"
 },
+"INE532F01054|2026-09-30|C": {
+"b": "C",
+"mid": 738,
+"n": "EDELWEISSFINANCIALSERVICES",
+"pe": "2026-09-30",
+"t": "2026-11-14T14:13+05:30"
+},
 "INE532F01054|2026-09-30|S": {
 "b": "S",
 "mid": 621,
@@ -52431,6 +52550,13 @@
 "n": "TITAGARHRAILSYSTEMS",
 "pe": "2026-09-30",
 "t": "2026-11-10T23:49+05:30"
+},
+"INE619A01035|2026-09-30|C": {
+"b": "C",
+"mid": 739,
+"n": "PATANJALIFOODS",
+"pe": "2026-09-30",
+"t": "2026-11-14T14:13+05:30"
 },
 "INE620D01011|2026-09-30|S": {
 "b": "S",
@@ -53247,6 +53373,10 @@
 "500367": {
 "t": "2026-11-12T17:40+05:30",
 "v": "INE642C01025"
+},
+"500368": {
+"t": "2026-11-14T14:13+05:30",
+"v": "INE619A01035"
 },
 "500388": {
 "t": "2026-11-13T18:46+05:30",
@@ -55877,7 +56007,7 @@
 "v": "INE575I01016"
 },
 "532922": {
-"t": "2026-11-13T20:53+05:30",
+"t": "2026-11-14T14:13+05:30",
 "v": "INE532F01054"
 },
 "532923": {
@@ -61475,7 +61605,7 @@
 "v": 2879300
 },
 "INE532F01054": {
-"t": "2026-11-13T20:53+05:30",
+"t": "2026-11-14T14:13+05:30",
 "v": 946500000
 },
 "INE533A01012": {
@@ -61869,6 +61999,10 @@
 "INE618N01022": {
 "t": "2026-11-12T21:45+05:30",
 "v": 55207500
+},
+"INE619A01035": {
+"t": "2026-11-14T14:13+05:30",
+"v": 1087879500
 },
 "INE619I01012": {
 "t": "2026-11-13T21:30+05:30",
