@@ -366,6 +366,14 @@
 "pdf": 5,
 "t": "2026-11-12T15:32+05:30"
 },
+"BSE:509243": {
+"d": "2026-11-14",
+"mcap": 3313.0,
+"mid": 730,
+"n": "TVSSRICHAKRA",
+"pdf": 6,
+"t": "2026-11-14T12:36+05:30"
+},
 "BSE:511034": {
 "d": "2026-11-13",
 "mcap": 1500.3,
@@ -4501,6 +4509,12 @@
 "ANN-equities-106860370-HISARMETAL": {
 "t": "2026-11-14T12:24+05:30"
 },
+"ANN-equities-106860382-MBAPL": {
+"t": "2026-11-14T12:36+05:30"
+},
+"ANN-equities-106860389-AIRAN": {
+"t": "2026-11-14T12:36+05:30"
+},
 "ANN-sme-106854971-CURIS": {
 "t": "2026-11-11T12:50+05:30"
 },
@@ -7483,6 +7497,9 @@
 "BANN-afce2dae-fd3b-407f-aad8-1916095acbf4": {
 "t": "2026-11-12T15:32+05:30"
 },
+"BANN-b114258c-5295-4108-9604-aeec3a23fc45": {
+"t": "2026-11-14T12:36+05:30"
+},
 "BANN-b18f786a-e640-4afb-a1bc-12de420b9a9b": {
 "t": "2026-11-13T18:47+05:30"
 },
@@ -8385,9 +8402,6 @@
 },
 "BANN-fa004ea3-6b69-415d-9f79-9ef25af4496e": {
 "t": "2026-11-13T17:15+05:30"
-},
-"BANN-fa0f0023-7d1d-4381-b79f-3c843a3aa551": {
-"t": "2026-11-11T12:35+05:30"
 },
 "BANN-fb447899-2a2c-4863-b525-562d3da50db6": {
 "t": "2026-11-13T14:47+05:30"
@@ -17756,9 +17770,9 @@
 "t": "2026-11-14T12:18+05:30"
 },
 "NSE-sme-IF-214149": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T12:30+05:30"
+"t": "2026-11-14T12:36+05:30"
 }
 },
 "first_seen": {
@@ -18878,6 +18892,9 @@
 "BSE|524522|2026-09-30": {
 "t": "2026-11-13T17:23+05:30"
 },
+"BSE|524534|2026-09-30": {
+"t": "2026-11-14T12:35+05:30"
+},
 "BSE|524572|2026-09-30": {
 "t": "2026-11-11T20:11+05:30"
 },
@@ -19408,6 +19425,9 @@
 },
 "BSE|531663|2026-09-30": {
 "t": "2026-11-13T19:55+05:30"
+},
+"BSE|531677|2026-09-30": {
+"t": "2026-11-14T12:35+05:30"
 },
 "BSE|531686|2026-09-30": {
 "t": "2026-11-13T17:34+05:30"
@@ -23102,6 +23122,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/AHLWEST_13112026194119_AHWL_outcome_of_BM_13112026.pdf",
 "t": "2026-11-13T19:42+05:30"
 },
+"AIRAN": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AIRAN_14112026123423_AiranoutcomeofBM.pdf",
+"t": "2026-11-14T12:34+05:30"
+},
 "AISL": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.com/corporate/AISL_13112026183250_Outcome_Covering_13_11_2026-signed.pdf",
@@ -23976,6 +24000,11 @@
 },
 "BSE:509196": {
 "t": "2026-11-11T12:47+05:30"
+},
+"BSE:509243": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbef768-e96d-4dc1-bfdc-498224f5022a.pdf",
+"t": "2026-11-14T12:32+05:30"
 },
 "BSE:509449": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e415c712-ba07-4c0e-9e4f-a5adadeefa2b.pdf",
@@ -31506,6 +31535,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e669f2a-edd0-40b9-be8e-a81a15b78a4a.pdf",
 "t": "2026-11-13T13:14+05:30"
 },
+"INE645W01018": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AIRAN_14112026123423_AiranoutcomeofBM.pdf",
+"t": "2026-11-14T12:34+05:30"
+},
 "INE646B01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2b81e67-4b0c-4b2e-91dc-97149e16295e.pdf",
 "t": "2026-11-13T16:13+05:30"
@@ -32466,6 +32499,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9849843d-09ae-41e3-9335-29a7ea9f8281.pdf",
 "t": "2026-11-13T12:56+05:30"
 },
+"INE900L01010": {
+"pdf": "https://nsearchives.nseindia.com/corporate/MBAPL_14112026122746_mbapl_OUTCOME.pdf",
+"t": "2026-11-14T12:29+05:30"
+},
 "INE902B01017": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8d89b907-2add-40b0-8d0d-0b360323ac22.pdf",
@@ -33103,6 +33140,10 @@
 "MATRIMONY": {
 "t": "2026-11-10T15:48+05:30"
 },
+"MBAPL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/MBAPL_14112026122746_mbapl_OUTCOME.pdf",
+"t": "2026-11-14T12:29+05:30"
+},
 "MBECL": {
 "t": "2026-11-12T19:07+05:30"
 },
@@ -33378,6 +33419,10 @@
 "N:AIONTECHSOLUTIONS": {
 "c": 1,
 "t": "2026-11-12T18:31+05:30"
+},
+"N:AIRAN": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AIRAN_14112026123423_AiranoutcomeofBM.pdf",
+"t": "2026-11-14T12:34+05:30"
 },
 "N:AJCJEWELMANUFACTURERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/55da615c-19ce-4c72-8686-c71ea41cfe3e.pdf",
@@ -35897,6 +35942,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/MADHUCON_13112026224225_OutcomeBOD13112026MR.pdf",
 "t": "2026-11-13T22:53+05:30"
 },
+"N:MADHYABHARATAGROPRODUCTS": {
+"pdf": "https://nsearchives.nseindia.com/corporate/MBAPL_14112026122746_mbapl_OUTCOME.pdf",
+"t": "2026-11-14T12:29+05:30"
+},
 "N:MADHYAPRADESHTODAYMEDIA": {
 "pdf": "https://nsearchives.nseindia.com/corporate/MPTODAY_13112026194019_outcome_of_board_meeting.pdf",
 "t": "2026-11-12T20:47+05:30"
@@ -38229,6 +38278,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f7ff526-bc23-4d2d-8432-427b2641ba22.pdf",
 "t": "2026-11-13T11:07+05:30"
 },
+"N:TVSSRICHAKRA": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbef768-e96d-4dc1-bfdc-498224f5022a.pdf",
+"t": "2026-11-14T12:32+05:30"
+},
 "N:TVSSUPPLYCHAINSOLUTIONS": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.com/corporate/CSCOMPLIANCE_13112026193049_TVS_SCS_BM_Outcome_Disclosure_sd.pdf",
@@ -40360,6 +40414,10 @@
 "BSE:509084": {
 "t": "2026-11-13T11:36+05:30",
 "v": 179.9
+},
+"BSE:509243": {
+"t": "2026-11-14T12:36+05:30",
+"v": 3313.0
 },
 "BSE:509449": {
 "t": "2026-11-13T16:52+05:30",
@@ -46520,6 +46578,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524470_1311202618155_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524470_1311202618155_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_524534_1411202612326_IFIndAs.xml": {
+"company": "Bhaskar Agrochemicals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "524534",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:35+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_524534_1411202612326_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524534_1411202612326_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_524534_1411202612326_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_524654_13112026204533_IFIndAs.xml": {
 "company": "Natural Capsules Ltd",
 "consolidated": false,
@@ -46695,6 +46769,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531557_13112026202226_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531677_14112026122824_IFIndAs.xml": {
+"company": "Aris International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531677",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:35+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531677_14112026122824_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531677_14112026122824_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531677_14112026122824_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531842_1311202618939_IFIndAs.xml": {
 "company": "Lahoti Overseas Ltd-$",
