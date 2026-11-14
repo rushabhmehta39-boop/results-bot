@@ -737,7 +737,8 @@ def _ocr_words(page, dpi: int = 300) -> list[dict]:
 
 
 def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pages: int = 30,
-                     time_limit: float = 45.0, ocr: bool = True, ocr_pages: int = 14, ocr_time: float = 120.0) -> dict:
+                     time_limit: float = 45.0, ocr: bool = True, ocr_pages: int = 14, ocr_time: float = 120.0,
+                     want_basis: str | None = None) -> dict:
     """known: {"C"/"S": {"prev": metrics, "yoy": metrics}} in Rs crore, from earlier XBRL filings (optional).
     PDF columns must agree with it when given; it also settles an unstated unit or basis.
     Scanned pages (images) are read with OCR when the text of the PDF does not give an answer."""
@@ -846,6 +847,8 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                          "ncols": g["ncols"], "history_checks": agree, "ocr": bool(how), "months": g.get("months", 3)})
 
     def done() -> bool:
+        if want_basis:
+            return any(r["basis"] == want_basis for r in good)
         return any(r["basis"] == "C" for r in good) or (
             any(r["basis"] in ("S", "?") for r in good) and not st["cons"]
             and not _mentions_consolidated(" ".join(doc_text)))
@@ -894,6 +897,12 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                     break
     full = " ".join(doc_text)
     cons_seen = st["cons"] or _mentions_consolidated(full)
+    if want_basis:  # a particular statement was asked for (to fill an XBRL card's columns)
+        for r in good:
+            if r["basis"] == want_basis or (r["basis"] == "?" and want_basis == "S" and not cons_seen):
+                return dict(r, basis=want_basis, has_consolidated=cons_seen)
+        return {"ok": False, "has_consolidated": cons_seen,
+                "why": f"no readable {'consolidated' if want_basis == 'C' else 'standalone'} table"}
     for r in good:
         if r["basis"] == "C":
             return dict(r, has_consolidated=True)

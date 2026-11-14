@@ -1642,6 +1642,38 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
         log(f"  - {name}: M-cap ₹{mcap:,.0f} Cr, below limit")
         return "small"
 
+    # Standalone XBRL: first see whether the results PDF has a readable consolidated table (consolidated first)
+    if basis == "S" and correction_of is None and half_fix is None and pdfnum is not None and _on(cfg["PDF_CARDS"]):
+        recs = [st.data["fresh"][k] for k in company_keys(isin, sym, scrip, f.company)
+                if st.data["fresh"].get(k, {}).get("pdf")]
+        url = recs[0]["pdf"] if recs else None
+        tried = f"{url}|card|{getattr(pdfnum, 'VERSION', 1)}"
+        if url and not any(r0.get("pdf_card") == tried for r0 in recs):
+            for r0 in recs:
+                r0["pdf_card"] = tried
+            al0 = st.data["alerts"]
+            alert0 = (al0.get(isin) or al0.get(sym) or (al0.get(f"BSE:{scrip}") if scrip else None)
+                      or next((v for v in al0.values() if isinstance(v, dict) and v.get("n") == nn0), None) or {})
+            item = {"t": stamp, "mid": alert0.get("mid"), "mcap": round(mcap, 1), "pdf": url, "company": name,
+                    "symbol": sym, "scrip": scrip, "isin": isin, "source": f.source,
+                    "ts": (f.filed_at or datetime.now(IST)).isoformat(timespec="minutes"), "tries": 0}
+            try:
+                s2 = pdf_card(item, ctx)
+            except Exception as e:  # a bad PDF must never stop the XBRL card
+                s2 = f"fail: {type(e).__name__}"
+            if s2 == "posted":
+                if any(v.get("pe") == ce.isoformat() and v.get("b") == "C" and (k.startswith(ident + "|") or v.get("n") == nn0)
+                       for k, v in st.data["posted"].items()):
+                    return "superseded"  # the consolidated card went out from the PDF
+                v = st.data["posted"].get(post_key)
+                if v and v.get("src") == "pdf":  # a standalone PDF card: check it against this XBRL
+                    xm = derive(cm, parsed["kind"])
+                    if all(a is not None and b is not None and abs(a - b) <= max(0.005 * abs(b), 0.05)
+                           for a, b in ((v.get("rev"), xm.get("revenue")), (v.get("pat"), xm.get("pat")))):
+                        v["checked"] = "ok"
+                        return "dup"
+                    correction_of = v
+
     cs, ce = unkey(parsed["current"])
     span = month_span(cs, ce)
     half_note = ""
@@ -1897,7 +1929,7 @@ def history_from_pdf(ctx: dict, isin: str, sym: str, scrip: str, company: str, c
         if r is None or r.status_code != 200 or not r.content[:1024].lstrip().startswith(b"%PDF"):
             return {}
         out = pdfnum.read_results_pdf(r.content, ce, known={basis: {"cur": {"revenue": d["revenue"], "pat": d["pat"]}}},
-                                      ocr_time=60.0)
+                                      ocr_time=60.0, want_basis=basis)
     except Exception as e:  # a bad PDF must never stop the card
         log(f"  · {company}: results PDF not read for history ({type(e).__name__})")
         return {}
