@@ -4501,6 +4501,9 @@
 "ANN-equities-106860341-NECLIFE": {
 "t": "2026-11-14T11:59+05:30"
 },
+"ANN-equities-106860370-HISARMETAL": {
+"t": "2026-11-14T12:24+05:30"
+},
 "ANN-sme-106854971-CURIS": {
 "t": "2026-11-11T12:50+05:30"
 },
@@ -6070,9 +6073,6 @@
 "BANN-47b7b06f-b465-4e94-9a59-31905d5da008": {
 "t": "2026-11-13T18:47+05:30"
 },
-"BANN-47e4a817-8472-413d-837a-c9cefab531d5": {
-"t": "2026-11-11T12:20+05:30"
-},
 "BANN-47fd1ed4-5500-4f8c-b7f5-e88e89197a29": {
 "t": "2026-11-13T20:32+05:30"
 },
@@ -6423,6 +6423,9 @@
 },
 "BANN-6428ad22-fb15-46cd-97b4-69869a4dccbe": {
 "t": "2026-11-11T21:04+05:30"
+},
+"BANN-6441c059-1299-4558-bcdc-5f9f67bafe46": {
+"t": "2026-11-14T12:24+05:30"
 },
 "BANN-645cc9eb-b1aa-4d7a-87e2-0c02a1673788": {
 "t": "2026-11-12T17:02+05:30"
@@ -17754,6 +17757,11 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-14T12:18+05:30"
+},
+"NSE-sme-IF-214149": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-14T12:24+05:30"
 }
 },
 "first_seen": {
@@ -18264,6 +18272,9 @@
 "BSE|511391|2026-09-30": {
 "t": "2026-11-13T17:59+05:30"
 },
+"BSE|511401|2026-09-30": {
+"t": "2026-11-14T12:23+05:30"
+},
 "BSE|511427|2026-09-30": {
 "t": "2026-11-13T04:10+05:30"
 },
@@ -18758,9 +18769,6 @@
 },
 "BSE|522171|2026-09-30": {
 "t": "2026-11-12T17:09+05:30"
-},
-"BSE|522267|2026-09-30": {
-"t": "2026-11-11T12:20+05:30"
 },
 "BSE|522650|2026-09-30": {
 "t": "2026-11-13T14:57+05:30"
@@ -24854,6 +24862,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4624cbf0-fa46-4f81-8a9e-d69048ac49c3.pdf",
 "t": "2026-11-13T16:55+05:30"
 },
+"BSE:524534": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/407f992a-cf86-45a9-809b-9764bfbf7fe6.pdf",
+"t": "2026-11-14T12:22+05:30"
+},
 "BSE:524572": {
 "t": "2026-11-11T19:28+05:30"
 },
@@ -28191,6 +28203,10 @@
 "HIRECT": {
 "t": "2026-11-10T13:24+05:30"
 },
+"HISARMETAL": {
+"pdf": "https://nsearchives.nseindia.com/corporate/HISARMETAL_14112026122058_MergedResult30092026.pdf",
+"t": "2026-11-14T12:23+05:30"
+},
 "HITECHCORP": {
 "pdf": "https://nsearchives.nseindia.com/corporate/HITECHCORP_13112026202908_OutcomeBM13112026.pdf",
 "t": "2026-11-13T20:30+05:30"
@@ -31279,6 +31295,10 @@
 "INE597I01028": {
 "t": "2026-11-12T19:46+05:30"
 },
+"INE598C01011": {
+"pdf": "https://nsearchives.nseindia.com/corporate/HISARMETAL_14112026122058_MergedResult30092026.pdf",
+"t": "2026-11-14T12:23+05:30"
+},
 "INE598F01014": {
 "t": "2026-11-12T16:51+05:30"
 },
@@ -33860,6 +33880,10 @@
 "c": 1,
 "t": "2026-11-12T21:27+05:30"
 },
+"N:BHASKARAGROCHEMICALS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/407f992a-cf86-45a9-809b-9764bfbf7fe6.pdf",
+"t": "2026-11-14T12:22+05:30"
+},
 "N:BHUDEVIINFRAPROJECTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f86d0e32-ada3-46f1-a6c0-3996e70ed379.pdf",
 "t": "2026-11-13T21:27+05:30"
@@ -35062,6 +35086,10 @@
 },
 "N:HIRECT": {
 "t": "2026-11-10T13:24+05:30"
+},
+"N:HISARMETALINDUSTRIES": {
+"pdf": "https://nsearchives.nseindia.com/corporate/HISARMETAL_14112026122058_MergedResult30092026.pdf",
+"t": "2026-11-14T12:23+05:30"
 },
 "N:HITACHIENERGYINDIA": {
 "t": "2026-11-12T16:28+05:30"
@@ -41040,6 +41068,10 @@
 "t": "2026-11-13T17:02+05:30",
 "v": 21.9
 },
+"BSE:524534": {
+"t": "2026-11-14T12:24+05:30",
+"v": 56.0
+},
 "BSE:524592": {
 "t": "2026-11-13T13:20+05:30",
 "v": 202.9
@@ -43439,6 +43471,10 @@
 "HINDWAREAP": {
 "t": "2026-11-13T18:07+05:30",
 "v": 1440.0
+},
+"HISARMETAL": {
+"t": "2026-11-14T12:24+05:30",
+"v": 84.1
 },
 "IDEA": {
 "t": "2026-11-12T18:47+05:30",
@@ -46130,6 +46166,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_511034_1311202618936_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511034_1311202618936_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511034_1311202618936_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml": {
+"company": "Munoth Communication Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "511401",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:23+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_511401_14112026122054_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_512068_1311202620850_IFIndAs.xml": {
 "company": "Deccan Gold Mines Ltd",
