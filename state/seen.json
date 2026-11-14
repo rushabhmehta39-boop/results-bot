@@ -17390,9 +17390,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214061": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:31+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214064": {
 "s": "small",
@@ -17403,23 +17403,23 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214069": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:31+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214070": {
 "s": "small",
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214077": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:31+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214086": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:31+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214090": {
 "s": "superseded",
@@ -17458,9 +17458,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214124": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-14T08:32+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 },
 "NSE-sme-IF-214126": {
 "s": "superseded",
@@ -17475,9 +17475,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-sme-IF-214131": {
-"n": 5,
-"s": "retry",
-"t": "2026-11-14T08:32+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T08:38+05:30"
 }
 },
 "first_seen": {
@@ -46209,22 +46209,6 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214034_13112026215701_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758044_13112026095700_WEB.xml"
 },
-"NSE-sme-IF-214061": {
-"company": "C K K Retail Mart Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T22:34:41+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "CKKRETAIL",
-"t": "2026-11-13T22:35+05:30",
-"uid": "NSE-sme-IF-214061",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214061_13112026223441_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758077_13112026103440_WEB.xml"
-},
 "NSE-sme-IF-214065": {
 "company": "Canarys Automations Limited",
 "consolidated": false,
@@ -46241,22 +46225,6 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214065_13112026224105_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758082_13112026104105_WEB.xml"
 },
-"NSE-sme-IF-214069": {
-"company": "Canarys Automations Limited",
-"consolidated": true,
-"filed_at": "2026-11-13T22:43:21+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "CANARYS",
-"t": "2026-11-13T23:03+05:30",
-"uid": "NSE-sme-IF-214069",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214069_13112026224321_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758086_13112026104320_WEB.xml"
-},
 "NSE-sme-IF-214075": {
 "company": "Alpex Solar Limited",
 "consolidated": false,
@@ -46272,38 +46240,6 @@
 "uid": "NSE-sme-IF-214075",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214075_13112026230547_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758101_13112026110546_WEB.xml"
-},
-"NSE-sme-IF-214077": {
-"company": "Alpex Solar Limited",
-"consolidated": true,
-"filed_at": "2026-11-13T23:06:34+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "ALPEXSOLAR",
-"t": "2026-11-13T23:10+05:30",
-"uid": "NSE-sme-IF-214077",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214077_13112026230634_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758104_13112026110634_WEB.xml"
-},
-"NSE-sme-IF-214086": {
-"company": "Saroja Pharma Industries India Limited",
-"consolidated": false,
-"filed_at": "2026-11-13T23:12:45+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "SAROJA",
-"t": "2026-11-13T23:17+05:30",
-"uid": "NSE-sme-IF-214086",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214086_13112026231245_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758113_13112026111245_WEB.xml"
 },
 "NSE-sme-IF-214100": {
 "company": "QVC Exports Limited",
@@ -46369,22 +46305,6 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214120_13112026235504_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758151_13112026115504_WEB.xml"
 },
-"NSE-sme-IF-214124": {
-"company": "Jiwanram Sheoduttrai Industries Limited",
-"consolidated": false,
-"filed_at": "2026-11-14T00:17:24+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "JIWANRAM",
-"t": "2026-11-14T04:18+05:30",
-"uid": "NSE-sme-IF-214124",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214124_14112026001723_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758159_14112026121722_WEB.xml"
-},
 "NSE-sme-IF-214130": {
 "company": "Oriana Power Limited",
 "consolidated": false,
@@ -46400,22 +46320,6 @@
 "uid": "NSE-sme-IF-214130",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214130_14112026025449_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758165_14112026025446_WEB.xml"
-},
-"NSE-sme-IF-214131": {
-"company": "Oriana Power Limited",
-"consolidated": true,
-"filed_at": "2026-11-14T02:57:23+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "ORIANA",
-"t": "2026-11-14T04:18+05:30",
-"uid": "NSE-sme-IF-214131",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214131_14112026025723_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758166_14112026025723_WEB.xml"
 }
 },
 "posted": {
@@ -49107,7 +49011,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-14T08:31+05:30",
+"t": "2026-11-14T08:38+05:30",
 "v": "INE0N5H01017"
 },
 "123456": {
@@ -54421,7 +54325,7 @@
 "v": 3558800
 },
 "INE0N5H01017": {
-"t": "2026-11-14T08:31+05:30",
+"t": "2026-11-14T08:38+05:30",
 "v": 24748200
 },
 "INE0N6V01016": {
@@ -54557,7 +54461,7 @@
 "v": 11575000
 },
 "INE0PCL01011": {
-"t": "2026-11-14T08:31+05:30",
+"t": "2026-11-14T08:38+05:30",
 "v": 402048600000
 },
 "INE0PDJ01013": {
@@ -54825,7 +54729,7 @@
 "v": 15918000
 },
 "INE0SMX01019": {
-"t": "2026-11-14T08:31+05:30",
+"t": "2026-11-14T08:38+05:30",
 "v": 19368000
 },
 "INE0SN801015": {
