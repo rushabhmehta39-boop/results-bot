@@ -3097,9 +3097,6 @@
 }
 },
 "ann": {
-"ANN-equities-106854945-GREENPOWER": {
-"t": "2026-11-11T12:30+05:30"
-},
 "ANN-equities-106854956-GREENPOWER": {
 "t": "2026-11-11T12:40+05:30"
 },
@@ -5428,6 +5425,9 @@
 "BANN-118e34cd-0812-4b9a-bdaa-f18cb473a653": {
 "t": "2026-11-13T20:32+05:30"
 },
+"BANN-1191cf2b-0183-4496-b003-e8823aa8357c": {
+"t": "2026-11-14T12:30+05:30"
+},
 "BANN-1197f3cb-330d-465f-a16f-7f81a5fe70d7": {
 "t": "2026-11-13T17:38+05:30"
 },
@@ -5904,9 +5904,6 @@
 },
 "BANN-38370c65-41d9-4ce1-a563-6ce8b875243d": {
 "t": "2026-11-13T13:53+05:30"
-},
-"BANN-38558798-812e-47d8-9b56-f646076fa321": {
-"t": "2026-11-11T12:30+05:30"
 },
 "BANN-386214b2-b16f-4c6f-84a6-2600e54241cf": {
 "t": "2026-11-13T13:12+05:30"
@@ -6808,9 +6805,6 @@
 "BANN-80955e09-0ee2-4abf-95d3-0aee744d08d2": {
 "t": "2026-11-13T17:50+05:30"
 },
-"BANN-81ed398d-5e89-4504-8cac-b586fafd33e9": {
-"t": "2026-11-11T12:25+05:30"
-},
 "BANN-8214b7c9-ce39-4ef9-88ca-950180731630": {
 "t": "2026-11-12T16:39+05:30"
 },
@@ -7071,6 +7065,9 @@
 },
 "BANN-95034a55-ee0f-4307-997c-ab669f454704": {
 "t": "2026-11-12T22:09+05:30"
+},
+"BANN-95059e1b-e28d-4fbb-9a4c-a753c9f4a5ef": {
+"t": "2026-11-14T12:30+05:30"
 },
 "BANN-95167360-5c58-4c0a-840c-a9c1bacc4ca5": {
 "t": "2026-11-13T15:00+05:30"
@@ -17759,9 +17756,9 @@
 "t": "2026-11-14T12:18+05:30"
 },
 "NSE-sme-IF-214149": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-14T12:24+05:30"
+"t": "2026-11-14T12:30+05:30"
 }
 },
 "first_seen": {
@@ -25547,6 +25544,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50691d7b-a329-49a8-b11f-a00c094fdbbe.pdf",
 "t": "2026-11-13T19:32+05:30"
 },
+"BSE:531677": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0be3451-565c-489f-84c8-c3c8cd63ba13.pdf",
+"t": "2026-11-14T12:27+05:30"
+},
 "BSE:531686": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/961bc332-5c99-499d-92ab-5b31dee5cf0c.pdf",
 "t": "2026-11-13T17:28+05:30"
@@ -27621,6 +27622,10 @@
 "BSE:570005": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5031b24d-9170-474d-a79b-b450ba4e5171.pdf",
 "t": "2026-11-13T20:46+05:30"
+},
+"BSE:590018": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/347393c6-cb1d-4728-bcdc-61232edc54bb.pdf",
+"t": "2026-11-14T12:28+05:30"
 },
 "BSE:590030": {
 "t": "2026-11-09T10:22+05:30"
@@ -33556,6 +33561,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/ARIES_13112026171121_LettertoBSENSEOutComeResultsLRRBM13112026.pdf",
 "t": "2026-11-13T17:13+05:30"
 },
+"N:ARISINTERNATIONAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0be3451-565c-489f-84c8-c3c8cd63ba13.pdf",
+"t": "2026-11-14T12:27+05:30"
+},
 "N:ARNOLDHOLDINGS": {
 "t": "2026-11-12T20:42+05:30"
 },
@@ -35088,7 +35097,7 @@
 "t": "2026-11-10T13:24+05:30"
 },
 "N:HISARMETALINDUSTRIES": {
-"pdf": "https://nsearchives.nseindia.com/corporate/HISARMETAL_14112026122058_MergedResult30092026.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/347393c6-cb1d-4728-bcdc-61232edc54bb.pdf",
 "t": "2026-11-14T12:23+05:30"
 },
 "N:HITACHIENERGYINDIA": {
@@ -41664,6 +41673,10 @@
 "t": "2026-11-13T19:59+05:30",
 "v": 80.0
 },
+"BSE:531677": {
+"t": "2026-11-14T12:30+05:30",
+"v": 60.0
+},
 "BSE:531686": {
 "t": "2026-11-13T17:38+05:30",
 "v": 4.0
@@ -43247,6 +43260,10 @@
 "BSE:570005": {
 "t": "2026-11-13T21:32+05:30",
 "v": 8.9
+},
+"BSE:590018": {
+"t": "2026-11-14T12:30+05:30",
+"v": 84.1
 },
 "BSE:590057": {
 "t": "2026-11-13T16:34+05:30",
