@@ -278,6 +278,14 @@
 "pdf": 5,
 "t": "2026-11-13T14:04+05:30"
 },
+"BSE:504786": {
+"d": "2026-11-14",
+"mcap": 1335.9,
+"mid": 731,
+"n": "INVESTMENTANDPRECISIONCASTINGS",
+"pdf": 6,
+"t": "2026-11-14T12:55+05:30"
+},
 "BSE:505160": {
 "d": "2026-11-11",
 "mcap": 2545.7,
@@ -4515,9 +4523,6 @@
 "ANN-equities-106860390-TVSSRICHAK": {
 "t": "2026-11-14T12:43+05:30"
 },
-"ANN-sme-106854971-CURIS": {
-"t": "2026-11-11T12:50+05:30"
-},
 "ANN-sme-106855004-KKVAPOW": {
 "t": "2026-11-11T13:30+05:30"
 },
@@ -5805,6 +5810,9 @@
 "BANN-3076c2a5-4f76-4b3c-8b4f-d4c3c1a3bbfb": {
 "t": "2026-11-11T18:12+05:30"
 },
+"BANN-30960d3b-e256-42d8-850c-0d52d91fe3c7": {
+"t": "2026-11-14T12:55+05:30"
+},
 "BANN-30e9945e-e105-444d-9880-d8f4a584387f": {
 "t": "2026-11-13T12:14+05:30"
 },
@@ -6735,6 +6743,9 @@
 "BANN-7ac361aa-f19c-4820-b82f-7e2ff4348b51": {
 "t": "2026-11-11T13:21+05:30"
 },
+"BANN-7ae56a5d-b204-4c86-825b-aff65234fffd": {
+"t": "2026-11-14T12:55+05:30"
+},
 "BANN-7aee1cfc-cb9a-4ff4-8862-60fb1033d83e": {
 "t": "2026-11-12T17:02+05:30"
 },
@@ -7001,9 +7012,6 @@
 },
 "BANN-8f27906e-a67b-40ed-b93e-d91db78163c6": {
 "t": "2026-11-12T15:32+05:30"
-},
-"BANN-8fa583a7-a081-41e3-bb08-64795dd5df95": {
-"t": "2026-11-11T12:50+05:30"
 },
 "BANN-8fb67302-9afc-4da6-ab78-0ada34fa479d": {
 "t": "2026-11-13T18:19+05:30"
@@ -7704,6 +7712,9 @@
 "BANN-c1690a80-5fd8-40d2-bb99-988f04a71c95": {
 "t": "2026-11-13T18:47+05:30"
 },
+"BANN-c200acae-39c5-4ba6-ab26-c1f19fc713bd": {
+"t": "2026-11-14T12:55+05:30"
+},
 "BANN-c22a8e7c-b46a-4cd1-bc73-eba4584c89bf": {
 "t": "2026-11-13T17:02+05:30"
 },
@@ -8312,6 +8323,9 @@
 },
 "BANN-f1678074-4e10-41c1-8245-502f7b944bd9": {
 "t": "2026-11-13T20:17+05:30"
+},
+"BANN-f201feb8-d097-4ac2-962b-2a592b204e8d": {
+"t": "2026-11-14T12:55+05:30"
 },
 "BANN-f259c001-9b67-4d82-9cda-f912261ef85d": {
 "t": "2026-11-13T18:59+05:30"
@@ -16450,9 +16464,9 @@
 "t": "2026-11-14T11:46+05:30"
 },
 "NSE-equities-IF-214153": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-14T12:49+05:30"
+"t": "2026-11-14T12:55+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -17795,14 +17809,14 @@
 "t": "2026-11-14T12:18+05:30"
 },
 "NSE-sme-IF-214149": {
-"n": 5,
-"s": "retry",
-"t": "2026-11-14T12:49+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-14T12:55+05:30"
 },
 "NSE-sme-IF-214153": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-14T12:49+05:30"
+"t": "2026-11-14T12:55+05:30"
 }
 },
 "first_seen": {
@@ -18244,9 +18258,6 @@
 "BSE|509084|2026-09-30": {
 "t": "2026-11-13T17:59+05:30"
 },
-"BSE|509196|2026-09-30": {
-"t": "2026-11-11T12:50+05:30"
-},
 "BSE|509449|2026-09-30": {
 "t": "2026-11-13T16:58+05:30"
 },
@@ -18504,6 +18515,9 @@
 },
 "BSE|513403|2026-09-30": {
 "t": "2026-11-13T19:55+05:30"
+},
+"BSE|513452|2026-09-30": {
+"t": "2026-11-14T12:54+05:30"
 },
 "BSE|513460|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
@@ -18828,6 +18842,9 @@
 },
 "BSE|523127|2026-09-30": {
 "t": "2026-11-11T19:12+05:30"
+},
+"BSE|523151|2026-09-30": {
+"t": "2026-11-14T12:54+05:30"
 },
 "BSE|523186|2026-09-30": {
 "t": "2026-11-13T19:14+05:30"
@@ -21124,6 +21141,9 @@
 "BSE|570005|2026-09-30": {
 "t": "2026-11-13T21:22+05:30"
 },
+"BSE|590018|2026-09-30": {
+"t": "2026-11-14T12:54+05:30"
+},
 "BSE|590021|2026-09-30": {
 "t": "2026-11-13T16:58+05:30"
 },
@@ -22200,6 +22220,9 @@
 },
 "NSE|HINDWAREAP|2026-09-30": {
 "t": "2026-11-13T20:25+05:30"
+},
+"NSE|HISARMETAL|2026-09-30": {
+"t": "2026-11-14T12:54+05:30"
 },
 "NSE|HITECHCORP|2026-09-30": {
 "t": "2026-11-13T20:41+05:30"
@@ -23779,6 +23802,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a0814f3f-4e3d-4aac-bca9-1622a7658547.pdf",
 "t": "2026-11-14T11:30+05:30"
 },
+"BSE:504786": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/edb7271a-0840-4eb4-8660-354b9ee1562e.pdf",
+"t": "2026-11-14T12:52+05:30"
+},
 "BSE:504810": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b95cca23-8861-4d36-aace-fe4b918c6b3e.pdf",
 "t": "2026-11-13T21:35+05:30"
@@ -23866,6 +23894,10 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cacee582-c644-46f2-9895-1cf673697d34.pdf",
 "t": "2026-11-13T20:39+05:30"
+},
+"BSE:506122": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/65355ba3-1503-4e0b-bf32-d4755935b964.pdf",
+"t": "2026-11-14T12:51+05:30"
 },
 "BSE:506128": {
 "t": "2026-11-12T17:27+05:30"
@@ -25129,6 +25161,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7f44fa82-e957-4760-a5d3-7f8ef090bb46.pdf",
 "t": "2026-11-13T16:38+05:30"
 },
+"BSE:526817": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8e0665e-13bf-436e-84e1-24f3c1ae5a04.pdf",
+"t": "2026-11-14T12:50+05:30"
+},
 "BSE:526829": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/746c4d38-5451-46bd-a6c6-446adad0c8e6.pdf",
 "t": "2026-11-13T21:26+05:30"
@@ -26047,6 +26083,10 @@
 "BSE:532855": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/acaeb897-a61d-4d6e-a6ad-30bcbabc532b.pdf",
 "t": "2026-11-13T12:10+05:30"
+},
+"BSE:532886": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50802b51-001c-4225-942a-4d4cb023fdfe.pdf",
+"t": "2026-11-14T12:52+05:30"
 },
 "BSE:532890": {
 "c": 1,
@@ -29287,6 +29327,11 @@
 "INE0YG001013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5c3bbcf-6e49-4580-b0e6-7a15feba634b.pdf",
 "t": "2026-11-13T16:07+05:30"
+},
+"INE0YUW01020": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7a10e624-deff-41fc-9bfe-8107316537b8.pdf",
+"t": "2026-11-13T17:54+05:30"
 },
 "INE0Z9N01013": {
 "t": "2026-11-11T17:54+05:30"
@@ -34181,6 +34226,10 @@
 "N:CHEMTECHINDUSTRIALVALVES": {
 "t": "2026-11-12T17:40+05:30"
 },
+"N:CHEVIOTCOMPANY": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8e0665e-13bf-436e-84e1-24f3c1ae5a04.pdf",
+"t": "2026-11-14T12:50+05:30"
+},
 "N:CHIRAHARIT": {
 "c": 1,
 "t": "2026-11-12T18:53+05:30"
@@ -35453,6 +35502,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0756548d-0df6-48a3-bf6b-f0e5f5c4160c.pdf",
 "t": "2026-11-13T15:24+05:30"
 },
+"N:INVESTMENTANDPRECISIONCASTINGS": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/edb7271a-0840-4eb4-8660-354b9ee1562e.pdf",
+"t": "2026-11-14T12:52+05:30"
+},
 "N:IPOWERSOLUTIONSINDIA": {
 "t": "2026-11-12T17:49+05:30"
 },
@@ -35645,6 +35699,10 @@
 "N:KAHANPACKAGING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1cafba2f-96a3-44a6-8b8c-6ddaeb0620ba.pdf",
 "t": "2026-11-13T16:31+05:30"
+},
+"N:KAIROSOFTAISOLUTIONS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/65355ba3-1503-4e0b-bf32-d4755935b964.pdf",
+"t": "2026-11-14T12:51+05:30"
 },
 "N:KAIZENAGROINFRABUILD": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a63c1414-d84c-471a-be03-7bb6dfdad5e9.pdf",
@@ -37554,6 +37612,10 @@
 },
 "N:SECUREKLOUDTECHNOLOGIES": {
 "t": "2026-11-11T18:47+05:30"
+},
+"N:SELMANUFACTURINGCOMPANY": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50802b51-001c-4225-942a-4d4cb023fdfe.pdf",
+"t": "2026-11-14T12:52+05:30"
 },
 "N:SEMACCONSTRUCTION": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4536d8b9-de95-441b-99da-acfe667009a6.pdf",
@@ -40302,6 +40364,10 @@
 "t": "2026-11-14T11:40+05:30",
 "v": 30.7
 },
+"BSE:504786": {
+"t": "2026-11-14T12:55+05:30",
+"v": 1335.9
+},
 "BSE:504810": {
 "t": "2026-11-13T21:50+05:30",
 "v": 36.6
@@ -40357,6 +40423,10 @@
 "BSE:506109": {
 "t": "2026-11-13T20:53+05:30",
 "v": 1268.1
+},
+"BSE:506122": {
+"t": "2026-11-14T12:55+05:30",
+"v": 16.0
 },
 "BSE:506128": {
 "t": "2026-11-12T17:32+05:30",
@@ -41382,6 +41452,10 @@
 "t": "2026-11-13T16:43+05:30",
 "v": 18.0
 },
+"BSE:526817": {
+"t": "2026-11-14T12:55+05:30",
+"v": 685.0
+},
 "BSE:526869": {
 "t": "2026-11-13T20:32+05:30",
 "v": 10.4
@@ -42149,6 +42223,10 @@
 "BSE:532855": {
 "t": "2026-11-13T12:14+05:30",
 "v": 68.8
+},
+"BSE:532886": {
+"t": "2026-11-14T12:55+05:30",
+"v": 65.1
 },
 "BSE:532890": {
 "t": "2026-11-13T18:47+05:30",
@@ -46437,6 +46515,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513228_13112026203018_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513228_13112026203018_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_513452_14112026125124_IFIndAs.xml": {
+"company": "Elango Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "513452",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:54+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_513452_14112026125124_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513452_14112026125124_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513452_14112026125124_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_513554_13112026134446_IFIndAs.xml": {
 "company": "Mahamaya Steel Industries Ltd",
 "consolidated": false,
@@ -46612,6 +46706,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_522108_131120261849_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_522108_131120261849_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_522108_131120261849_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_523151_14112026125047_IFIndAs.xml": {
+"company": "OTCO International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "523151",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:54+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_523151_14112026125047_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523151_14112026125047_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523151_14112026125047_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_523610_13112026193520_IFIndAs.xml": {
 "company": "ITI Ltd",
@@ -48197,6 +48307,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545000_13112026205759_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545000_13112026205759_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_590018_14112026124917_IFIndAs.xml": {
+"company": "Hisar Metal Industries Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "590018",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:54+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_590018_14112026124917_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_590018_14112026124917_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_590018_14112026124917_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_590021_13112026045417_IFIndAs.xml": {
 "company": "Bharat Rasayan Ltd",
 "consolidated": false,
@@ -48645,6 +48771,22 @@
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214153_14112026124433_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758192_14112026124433_WEB.xml"
 },
+"NSE-equities-IF-214154": {
+"company": "Hisar Metal Industries Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T12:49:06+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "HISARMETAL",
+"t": "2026-11-14T12:54+05:30",
+"uid": "NSE-equities-IF-214154",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214154_14112026124905_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758193_14112026124904_WEB.xml"
+},
 "NSE-sme-IF-213488": {
 "company": "Crop Life Science Limited",
 "consolidated": false,
@@ -48996,22 +49138,6 @@
 "uid": "NSE-sme-IF-214130",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214130_14112026025449_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758165_14112026025446_WEB.xml"
-},
-"NSE-sme-IF-214149": {
-"company": "C P S Shapers Limited",
-"consolidated": false,
-"filed_at": "2026-11-14T12:08:04+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "CPS",
-"t": "2026-11-14T12:11+05:30",
-"uid": "NSE-sme-IF-214149",
-"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214149_14112026120803_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758188_14112026120802_WEB.xml"
 },
 "NSE-sme-IF-214153": {
 "company": "Sarveshwar Foods Limited",
