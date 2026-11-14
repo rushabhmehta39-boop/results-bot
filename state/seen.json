@@ -16162,9 +16162,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-equities-IF-214138": {
-"n": 3,
+"n": 4,
 "s": "retry",
-"t": "2026-11-14T11:23+05:30"
+"t": "2026-11-14T11:29+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -18750,6 +18750,9 @@
 "BSE|526871|2026-09-30": {
 "t": "2026-11-13T19:41+05:30"
 },
+"BSE|526901|2026-09-30": {
+"t": "2026-11-14T11:28+05:30"
+},
 "BSE|526945|2026-09-30": {
 "t": "2026-11-13T16:40+05:30"
 },
@@ -19307,6 +19310,9 @@
 },
 "BSE|532398|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
+},
+"BSE|532403|2026-09-30": {
+"t": "2026-11-14T11:28+05:30"
 },
 "BSE|532413|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -20645,6 +20651,9 @@
 },
 "BSE|544833|2026-09-30": {
 "t": "2026-11-13T21:22+05:30"
+},
+"BSE|544834|2026-09-30": {
+"t": "2026-11-14T11:28+05:30"
 },
 "BSE|544835|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -44012,6 +44021,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526829_13112026110345_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526829_13112026110345_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_526901_14112026112726_IFIndAs.xml": {
+"company": "Sonal Adhesives Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "526901",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T11:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_526901_14112026112726_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526901_14112026112726_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526901_14112026112726_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_527005_13112026191456_IFIndAs.xml": {
 "company": "Shree Pacetronix Ltd",
 "consolidated": false,
@@ -44411,6 +44436,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532395_13112026213322_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532395_13112026213322_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532395_13112026213322_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532403_14112026111617_IFIndAs.xml": {
+"company": "Fourth Generation Information Systems Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532403",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T11:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532403_14112026111617_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532403_14112026111617_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532403_14112026111617_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532467_13112026202711_IFIndAs.xml": {
 "company": "Hazoor Multi Projects Ltd-$",
@@ -45467,6 +45508,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544833_13112026211236_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544833_13112026211236_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544833_13112026211236_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_544834_14112026111540_IFIndAs.xml": {
+"company": "Gulf Lloyds (India) Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544834",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T11:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544834_14112026111540_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544834_14112026111540_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544834_14112026111540_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544837_13112026231116_IFIndAs.xml": {
 "company": "INDO-MIM Ltd",
