@@ -8068,9 +8068,6 @@
 "BANN-e665954b-3d16-4e94-b549-f4558a0bf014": {
 "t": "2026-11-13T19:18+05:30"
 },
-"BANN-e67d2fc6-affa-4104-bb2f-db44aed8e2bf": {
-"t": "2026-11-11T11:05+05:30"
-},
 "BANN-e6843386-1cba-4145-ba68-48659091ecb7": {
 "t": "2026-11-13T16:34+05:30"
 },
@@ -16161,6 +16158,11 @@
 "s": "superseded",
 "t": "2026-11-14T08:03+05:30"
 },
+"NSE-equities-IF-214138": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-14T11:10+05:30"
+},
 "NSE-sme-IF-211659": {
 "s": "superseded",
 "t": "2026-11-07T22:08+05:30"
@@ -17697,6 +17699,9 @@
 },
 "BSE|502850|2026-09-30": {
 "t": "2026-11-13T20:09+05:30"
+},
+"BSE|502893|2026-09-30": {
+"t": "2026-11-14T11:10+05:30"
 },
 "BSE|502937|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
@@ -19386,6 +19391,9 @@
 },
 "BSE|532734|2026-09-30": {
 "t": "2026-11-13T21:22+05:30"
+},
+"BSE|532738|2026-09-30": {
+"t": "2026-11-14T11:10+05:30"
 },
 "BSE|532740|2026-09-30": {
 "t": "2026-11-12T18:28+05:30"
@@ -22593,6 +22601,9 @@
 },
 "NSE|THOMASCOTT|2026-09-30": {
 "t": "2026-11-12T21:39+05:30"
+},
+"NSE|TICL|2026-09-30": {
+"t": "2026-11-14T11:10+05:30"
 },
 "NSE|TIIL|2026-09-30": {
 "t": "2026-11-13T16:30+05:30"
@@ -43093,6 +43104,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_502820_13112026062426_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_502820_13112026062426_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_502893_1411202611540_IFIndAs.xml": {
+"company": "United Interactive Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "502893",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T11:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_502893_1411202611540_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_502893_1411202611540_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_502893_1411202611540_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_503626_1311202623440_IFIndAs.xml": {
 "company": "Manglam Global Corporations Ltd",
 "consolidated": false,
@@ -44468,6 +44495,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_532734_13112026085436_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532734_13112026085436_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532734_13112026085436_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_532738_1411202611833_IFIndAs.xml": {
+"company": "Twamev Construction And Infrastructure Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532738",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T11:10+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532738_1411202611833_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532738_1411202611833_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532738_1411202611833_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532744_131120261539_IFIndAs.xml": {
 "company": "GTN Textiles Ltd",
@@ -46004,6 +46047,38 @@
 "uid": "NSE-equities-IF-214120",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214120_13112026235504_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758151_13112026115504_WEB.xml"
+},
+"NSE-equities-IF-214137": {
+"company": "Twamev Construction and Infrastructure Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T11:09:34+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "TICL",
+"t": "2026-11-14T11:10+05:30",
+"uid": "NSE-equities-IF-214137",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214137_14112026110933_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758177_14112026110933_WEB.xml"
+},
+"NSE-equities-IF-214138": {
+"company": "Twamev Construction and Infrastructure Limited",
+"consolidated": true,
+"filed_at": "2026-11-14T11:09:40+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "TICL",
+"t": "2026-11-14T11:10+05:30",
+"uid": "NSE-equities-IF-214138",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214138_14112026110939_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758178_14112026110939_WEB.xml"
 },
 "NSE-sme-IF-213312": {
 "company": "Newmalayalam Steel Limited",
