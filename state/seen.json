@@ -4523,6 +4523,15 @@
 "ANN-equities-106860390-TVSSRICHAK": {
 "t": "2026-11-14T12:43+05:30"
 },
+"ANN-equities-106860414-CHEVIOT": {
+"t": "2026-11-14T13:02+05:30"
+},
+"ANN-equities-106860416-AMDIND": {
+"t": "2026-11-14T13:02+05:30"
+},
+"ANN-equities-106860420-SELMC": {
+"t": "2026-11-14T13:02+05:30"
+},
 "ANN-sme-106855004-KKVAPOW": {
 "t": "2026-11-11T13:30+05:30"
 },
@@ -5176,6 +5185,9 @@
 },
 "ANN-sme-106860349-SAHASRA": {
 "t": "2026-11-14T12:12+05:30"
+},
+"ANN-sme-106860421-SAHASRA": {
+"t": "2026-11-14T13:02+05:30"
 },
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
@@ -6673,6 +6685,9 @@
 },
 "BANN-7688e087-833f-4f28-a031-2ed0a88a81da": {
 "t": "2026-11-13T20:17+05:30"
+},
+"BANN-768fb727-eb89-4a5d-b352-c5dc51c10a2f": {
+"t": "2026-11-14T13:02+05:30"
 },
 "BANN-76a5b8bf-e3c1-44e9-9927-e3537fe3b9d5": {
 "t": "2026-11-13T15:00+05:30"
@@ -9159,6 +9174,10 @@
 "BSE-Integrated_Finance_Ind_As_504220_1211202619561_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T08:05+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-14T13:02+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_504810_13112026192830_IFIndAs.xml": {
 "s": "small",
@@ -12568,6 +12587,10 @@
 "BSE-Integrated_Finance_NBFC_533095_1111202619934_IFNBFC.xml": {
 "s": "posted",
 "t": "2026-11-12T22:09+05:30"
+},
+"BSE-Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml": {
+"s": "superseded",
+"t": "2026-11-14T13:02+05:30"
 },
 "BSE-Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml": {
 "s": "small",
@@ -16464,9 +16487,9 @@
 "t": "2026-11-14T11:46+05:30"
 },
 "NSE-equities-IF-214153": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T12:55+05:30"
+"t": "2026-11-14T13:02+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -17814,9 +17837,9 @@
 "t": "2026-11-14T12:55+05:30"
 },
 "NSE-sme-IF-214153": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T12:55+05:30"
+"t": "2026-11-14T13:02+05:30"
 }
 },
 "first_seen": {
@@ -21576,6 +21599,9 @@
 "NSE SME|SAAKSHI|2026-09-30": {
 "t": "2026-11-12T18:12+05:30"
 },
+"NSE SME|SAHASRA|2026-09-30": {
+"t": "2026-11-14T13:01+05:30"
+},
 "NSE SME|SAMAY|2026-09-30": {
 "t": "2026-11-11T16:16+05:30"
 },
@@ -23228,6 +23254,10 @@
 },
 "AMBIKCO": {
 "t": "2026-11-11T13:09+05:30"
+},
+"AMDIND": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
+"t": "2026-11-14T12:56+05:30"
 },
 "AMIABLE": {
 "pdf": "https://nsearchives.nseindia.com/corporate/AMIABLE_13112026151347_BM_outcome_Finall_NSE.pdf",
@@ -26834,6 +26864,10 @@
 "BSE:541143": {
 "t": "2026-11-12T13:39+05:30"
 },
+"BSE:541144": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
+"t": "2026-11-14T12:56+05:30"
+},
 "BSE:541154": {
 "c": 1,
 "t": "2026-11-12T13:22+05:30"
@@ -27822,6 +27856,10 @@
 "CEREBRAINT": {
 "t": "2026-11-12T19:29+05:30"
 },
+"CHEVIOT": {
+"pdf": "https://nsearchives.nseindia.com/corporate/CHEVIOT_14112026125258_Outcome.pdf",
+"t": "2026-11-14T12:54+05:30"
+},
 "CKKRETAIL": {
 "pdf": "https://nsearchives.nseindia.com/corporate/CKKRETAIL_13112026221931_Results_30092026CKK.pdf",
 "t": "2026-11-13T22:20+05:30"
@@ -28433,6 +28471,10 @@
 },
 "INE003F01015": {
 "t": "2026-11-12T19:21+05:30"
+},
+"INE005I01014": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
+"t": "2026-11-14T12:56+05:30"
 },
 "INE00FM01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c1c5d7bd-1810-4995-ac19-d50128683b97.pdf",
@@ -29368,6 +29410,10 @@
 },
 "INE105D01013": {
 "t": "2026-11-12T15:50+05:30"
+},
+"INE105I01020": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SELMC_14112026125619_SelOutcomeNov2026File.pdf",
+"t": "2026-11-14T12:58+05:30"
 },
 "INE107A01015": {
 "pdf": "https://nsearchives.nseindia.com/corporate/TNPL_13112026185413_326thBMOutcome13112026CSDSC.pdf",
@@ -32837,6 +32883,10 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/SPCENET_13112026171921_SEILBMOUTCOME13112026.pdf",
 "t": "2026-11-13T17:21+05:30"
 },
+"INE974B01016": {
+"pdf": "https://nsearchives.nseindia.com/corporate/CHEVIOT_14112026125258_Outcome.pdf",
+"t": "2026-11-14T12:54+05:30"
+},
 "INE975Z01012": {
 "t": "2026-11-12T14:32+05:30"
 },
@@ -33462,6 +33512,10 @@
 "c": 1,
 "t": "2026-11-12T17:51+05:30"
 },
+"N:ACTIVECLOTHINGCO": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
+"t": "2026-11-14T12:56+05:30"
+},
 "N:ACTIVEINFRASTRUCTURES": {
 "pdf": "https://nsearchives.nseindia.com/corporate/ACTIVEINFRA_13112026212151_Outcome.pdf",
 "t": "2026-11-13T21:22+05:30"
@@ -33590,6 +33644,10 @@
 "N:AMBOAGRITEC": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/80786207-f144-490f-a31d-0ddb2906ec72.pdf",
 "t": "2026-11-13T19:46+05:30"
+},
+"N:AMDINDUSTRIES": {
+"pdf": "https://nsearchives.nseindia.com/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
+"t": "2026-11-14T12:56+05:30"
 },
 "N:AMFORGEINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8de0ffe5-2ede-4cb6-807c-b62fe39abdd8.pdf",
@@ -39403,6 +39461,10 @@
 "SECURKLOUD": {
 "t": "2026-11-11T18:47+05:30"
 },
+"SELMC": {
+"pdf": "https://nsearchives.nseindia.com/corporate/SELMC_14112026125619_SelOutcomeNov2026File.pdf",
+"t": "2026-11-14T12:58+05:30"
+},
 "SEMAC": {
 "pdf": "https://nsearchives.nseindia.com/corporate/REVATHI_13112026153516_Semac_Outcome_of_BM131126_final_sd.pdf",
 "t": "2026-11-13T15:36+05:30"
@@ -42828,6 +42890,10 @@
 "t": "2026-11-13T13:44+05:30",
 "v": 61.6
 },
+"BSE:541144": {
+"t": "2026-11-14T13:02+05:30",
+"v": 145.1
+},
 "BSE:541154": {
 "t": "2026-11-12T15:45+05:30",
 "v": 323687.1
@@ -43535,6 +43601,10 @@
 "CENTRUM": {
 "t": "2026-11-13T17:15+05:30",
 "v": 956.6
+},
+"CHEVIOT": {
+"t": "2026-11-14T13:02+05:30",
+"v": 685.0
 },
 "CMLL": {
 "t": "2026-11-13T15:35+05:30",
@@ -46259,22 +46329,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_503626_1311202623440_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_503626_1311202623440_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml": {
-"company": "Nyssa Corporation Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "504378",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-14T10:57+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_504378_14112026105111_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_504697_14112026112112_IFIndAs.xml": {
 "company": "Galada Power & Telecommunication Ltd",
 "consolidated": false,
@@ -48435,22 +48489,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_532624_1311202620208_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_532624_1311202620208_IFNBFC.xml"
 },
-"BSE-Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml": {
-"company": "BF Investment Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "533303",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-13T12:55+05:30",
-"uid": "BSE-Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml"
-},
 "NSE-equities-IF-213353": {
 "company": "Alicon Castalloy Limited",
 "consolidated": false,
@@ -49154,6 +49192,22 @@
 "uid": "NSE-sme-IF-214153",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214153_14112026124433_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758192_14112026124433_WEB.xml"
+},
+"NSE-sme-IF-214158": {
+"company": "Sahasra Electronic Solutions Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T13:00:26+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SAHASRA",
+"t": "2026-11-14T13:01+05:30",
+"uid": "NSE-sme-IF-214158",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_214158_14112026130025_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1758196_14112026010024_WEB.xml"
 }
 },
 "posted": {
@@ -52243,6 +52297,10 @@
 "504220": {
 "t": "2026-11-13T08:05+05:30",
 "v": "INE100D01014"
+},
+"504378": {
+"t": "2026-11-14T13:02+05:30",
+"v": "INE812K01027"
 },
 "504741": {
 "t": "2026-11-06T23:16+05:30",
@@ -61377,6 +61435,10 @@
 "INE811H01017": {
 "t": "2026-11-11T03:45+05:30",
 "v": 9652900
+},
+"INE812K01027": {
+"t": "2026-11-14T13:02+05:30",
+"v": 30000000
 },
 "INE814D01010": {
 "t": "2026-11-13T14:03+05:30",
