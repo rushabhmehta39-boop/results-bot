@@ -7,7 +7,7 @@ Only returns numbers when every check passes for all three columns; anything dou
 """
 from __future__ import annotations
 
-VERSION = 5  # bump when the reader improves: today's alerts without a card get one more try
+VERSION = 6  # bump when the reader improves: today's alerts without a card get one more try
 
 import calendar
 import io
@@ -16,7 +16,12 @@ from datetime import date
 
 MONTHS = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct",
                                       "nov", "dec"], 1)}
-_MON = r"(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.?"
+_MON = r"(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec|~?ptember|eptember)[a-z]*\.?"
+
+
+def _mon(s: str) -> int:
+    s = s.lower().lstrip("~")
+    return 9 if "ptem" in s else MONTHS[s[:3]]
 DATE_PATS = [
     re.compile(r"(?<![\d.])(\d{1,2})\s?[./-]\s?(\d{1,2})\s?[./-]\s?(\d{4}|\d{2})(?![\d])"),           # 30.09.2026
     re.compile(r"(?<!\d)(\d{1,2})(?:st|nd|rd|th)?[\s,.'-]*" + _MON + r"(?:[\s,.'-]*(\d{4})|[-'’]\s?(\d{2}))(?![\d,])", re.I),
@@ -169,11 +174,11 @@ def _find_dates(line: list[dict]):
                         continue
                     dt = date(y, mo, d)
                 elif i == 1:
-                    dt = date(_year(m.group(3) or m.group(4)), MONTHS[m.group(2).lower()[:3]], int(m.group(1)))
+                    dt = date(_year(m.group(3) or m.group(4)), _mon(m.group(2)), int(m.group(1)))
                 elif i == 2:
-                    dt = date(_year(m.group(3)), MONTHS[m.group(1).lower()[:3]], int(m.group(2)))
+                    dt = date(_year(m.group(3)), _mon(m.group(1)), int(m.group(2)))
                 elif i == 3:
-                    dt = month_end(_year(m.group(2) or m.group(3)), MONTHS[m.group(1).lower()[:3]])
+                    dt = month_end(_year(m.group(2) or m.group(3)), _mon(m.group(1)))
                 else:
                     q, fy = int(m.group(1)), _year(m.group(2))
                     if m.group(3):
@@ -182,14 +187,14 @@ def _find_dates(line: list[dict]):
                             fy = _year(m.group(2)) + 1
                     y = fy - 1 if q < 4 else fy
                     dt = month_end(y, {1: 6, 2: 9, 3: 12, 4: 3}[q])
-            except ValueError:
+            except (ValueError, KeyError):
                 continue
             ws = [w for a, b, w in spans if a < m.end() and b > m.start()]
             if not ws:
                 continue
             taken.append((m.start(), m.end()))
-            out.append((dt, (min(w["x0"] for w in ws) + max(w["x1"] for w in ws)) / 2))
-    return out
+            out.append((m.start(), dt, (min(w["x0"] for w in ws) + max(w["x1"] for w in ws)) / 2))
+    return [(dt, x) for _, dt, x in sorted(out, key=lambda t: t[0])]  # in reading order
 
 
 def _cluster(xs: list[float], gap: float) -> list[list[float]]:
@@ -224,7 +229,8 @@ ROW_RULES = [  # key, must match, must not match
     ("tax_cur", r"^current( income)? tax\b|^current year tax\b", r"comprehensive"),
     ("tax_def", r"^deferred tax\b|^deferred tax (charge|credit)", r"comprehensive|items"),
     ("tax_old", r"\b(earlier|prior|previous) (years?|periods?)\b|\bshort excess provision\b|\bexcess short provision\b",
-     r"comprehensive"),
+     r"comprehensive|\bprofit\b|\bloss\b|\bbefore\b|\bitems\b"),
+    ("ppi", r"\bprior period (items|adjustments?)\b", r"\bbefore\b|\bprofit\b|\btax\b"),
     ("pat_cont", r"\b(profit|loss)\b.*\bfrom continuing operations\b", r"discontinued|\bbefore\b|comprehensive|\btax expense"),
     ("pat", r"\b(net )?(profit|loss|income)\b.*\bfor the\b|\b(net )?(profit|loss|income)\b.*\b(for|after tax for) the (period|quarter|year|half)\b|\b(net )?(profit|loss)\b.*\bafter tax(es|ation)?\b",
      r"comprehensive|attributable|\bowners\b|non controlling|minority|\bbefore\b|continuing|discontinued|"
@@ -262,22 +268,32 @@ def _classify(label: str) -> str | None:
     return None
 
 
-def _quarter_cols(col_dates: list, qe: date):
-    """Which column is this quarter, last quarter, same quarter last year (leftmost match of each)."""
+def _back(d: date, months: int) -> date:
+    y, m = d.year, d.month - months
+    while m <= 0:
+        m += 12
+        y -= 1
+    return month_end(y, m)
+
+
+def _quarter_cols(col_dates: list, qe: date, months: int = 3):
+    """Which column is this period, the period before, the same period last year (leftmost match of each).
+    months = 3 for quarters, 6 for half years (SME companies)."""
     def first(d):
         for i, ds in enumerate(col_dates):
             if d in ds:
                 return i
         return None
-    pq = qe.replace(day=1)
-    pm, py = (pq.month - 3, pq.year) if pq.month > 3 else (pq.month + 9, pq.year - 1)
-    prev = month_end(py, pm)
-    yoy = month_end(qe.year - 1, qe.month)
-    return first(qe), first(prev), first(yoy)
+    return first(qe), first(_back(qe, months)), first(_back(qe, 12))
 
 
-def _expected(qe: date, n: int):
+def _expected(qe: date, n: int, months: int = 3):
     """Standard SEBI column order for a results table with n columns ending at quarter qe."""
+    if months == 6:  # SME: half year, previous half year, same half year last year, (year, last year)
+        full = [qe, _back(qe, 6), _back(qe, 12), month_end(qe.year if qe.month >= 4 else qe.year - 1, 3)]
+        if qe.month == 3:
+            full = [qe, _back(qe, 6), _back(qe, 12), qe, _back(qe, 12)]
+        return full if n == len(full) else (full[:3] + [None] * (n - 3) if n > len(full) else None)
     def back(d, months):
         y, m = d.year, d.month - months
         while m <= 0:
@@ -387,21 +403,25 @@ def _table(lines, qe: date, page_text_lower: str):
             j = min(range(len(cols)), key=lambda j: abs(cols[j] - x1))
             if abs(cols[j] - x1) <= tol:
                 x0s[j].append(w["x0"])
-    centres = [((sorted(a)[len(a) // 2] if a else c - 25) + c) / 2 for a, c in zip(x0s, cols)]
+    # each column spans from the left edge of its wide numbers to its right edge; headings sit over that span
+    lefts = [(sorted(a)[len(a) // 10] if a else c - 40) for a, c in zip(x0s, cols)]
+    centres = [(lf + c) / 2 for lf, c in zip(lefts, cols)]
     half = 0.6 * min(gaps) if gaps else 30.0
     col_words = [[] for _ in cols]
     for r in header[-18:]:
         for w in r["ln"]:
             xc = (w["x0"] + w["x1"]) / 2
-            j = min(range(len(cols)), key=lambda j: abs(centres[j] - xc))
-            if abs(centres[j] - xc) <= half:
+            inside = [j for j in range(len(cols)) if lefts[j] - 4 <= xc <= cols[j] + 4]
+            j = min(inside or range(len(cols)), key=lambda j: abs(centres[j] - xc))
+            if inside or abs(centres[j] - xc) <= half:
                 col_words[j].append(w)
     lo, hi = qe.year - 2, qe.year + 1
+    col_heads = [" ".join(w["text"] for ln in _lines(ws) for w in ln).lower() if ws else "" for ws in col_words]
     col_dates = []
     for ws in col_words:
         ws = [w for ln in _lines(ws) for w in ln]  # line by line, left to right
         found = [d for d, _ in _find_dates(ws) if lo <= d.year <= hi]
-        col_dates.append(found[:1])
+        col_dates.append(found[-1:])  # the date nearest the numbers (a page title above may carry a date too)
     if not any(col_dates):  # fall back on dates read line by line
         for r in header[-25:]:
             for dt, x in r["dates"]:
@@ -415,28 +435,50 @@ def _table(lines, qe: date, page_text_lower: str):
     else:
         parts = [(None, list(range(len(cols))))]
     out = []
+    half_heading = bool(re.search(r"half[\s-]*year|six\s*months|6\s*months|half\s*yearly", head_text))
     for basis, idxs in parts:
         cd = [col_dates[j] if j in idxs else [] for j in range(len(cols))]
-        c, pq, y = _quarter_cols(cd, qe)
-        how = "dates"
-        if c is None or pq is None or y is None:
-            # fall back on the standard column order, if every date we could read agrees with it
-            exp = _expected(qe, len(idxs))
-            seen = {k: set(col_dates[j]) for k, j in enumerate(idxs) if col_dates[j]}
-            if exp and seen and all(ds == {exp[k]} for k, ds in seen.items()) and \
-                    (len([k for k in seen if k < 3]) >= 2 or len(seen) >= 3):
-                c, pq, y = idxs[0], idxs[1], idxs[2]
-                how = "position"
-            else:
-                out.append({"basis": basis, "why": f"column dates unclear {[sorted(set(map(str, d))) for d in cd]}"})
+        found_map = None
+        for months in ((3, 6) if half_heading else (3,)):
+            c, pq, y = _quarter_cols(cd, qe, months)
+            how = "dates"
+            if months == 6 and c is not None and y is not None and pq is not None and c < y < pq and \
+                    re.search(r"\byear\b", col_heads[pq]) and not re.search(r"half|six|6\s*months", col_heads[pq]):
+                # SME table without the previous half year: this half, same half last year, last full year
+                # -> previous half year = last full year - same half last year
+                found_map = (c, ("fy", pq), y, "dates", months)
+                break
+            if c is None or pq is None or y is None:
+                # fall back on the standard column order, if every date we could read agrees with it
+                exp = _expected(qe, len(idxs), months)
+                seen = {k: set(col_dates[j]) for k, j in enumerate(idxs) if col_dates[j]}
+                if exp and seen and all(exp[k] is not None and ds == {exp[k]} for k, ds in seen.items()) and \
+                        (len([k for k in seen if k < 3]) >= 2 or len(seen) >= 3):
+                    c, pq, y = idxs[0], idxs[1], idxs[2]
+                    how = "position"
+                else:
+                    continue
+            found_map = (c, pq, y, how, months)
+            break
+        if found_map is None:
+            out.append({"basis": basis, "why": f"column dates unclear {[sorted(set(map(str, d))) for d in cd]}"})
+            continue
+        c, pq, y, how, months = found_map
+        if isinstance(pq, tuple):
+            if c != idxs[0]:
+                out.append({"basis": basis, "why": f"unusual column order {c, pq, y}"})
                 continue
+            out.append({"basis": basis, "cols": (c, None, y), "fy_col": pq[1], "how": how, "rows": rows,
+                        "ncols": len(cols), "head_text": head_text, "h1": None, "months": months})
+            continue
         if c != idxs[0] or not (c < pq < y):
             out.append({"basis": basis, "why": f"unusual column order {c, pq, y}"})
             continue
         # September quarter: this quarter + last quarter must add up to the half-year column
-        h1 = idxs[3] if len(idxs) == 6 and qe.month == 9 and col_dates[idxs[3]] in ([], [qe]) else None
+        h1 = (idxs[3] if months == 3 and len(idxs) == 6 and qe.month == 9 and col_dates[idxs[3]] in ([], [qe])
+              else None)
         out.append({"basis": basis, "cols": (c, pq, y), "how": how, "rows": rows, "ncols": len(cols),
-                    "head_text": head_text, "h1": h1})
+                    "head_text": head_text, "h1": h1, "months": months})
     return out, None
 
 
@@ -463,7 +505,8 @@ def _extract(rows, cidx):
             k = _classify(lab2)
             if k:
                 lab = lab2
-        if k is None and i + 1 < len(rows) and not rows[i + 1]["vals"]:
+        if k is None and own and i + 1 < len(rows) and not rows[i + 1]["vals"]:
+            # (only for a label that continues below its numbers; a line of bare numbers belongs to the label above)
             lab3 = (own + " " + _norm_label(rows[i + 1]["label"])).strip()
             k3 = _classify(lab3)
             if k3:
@@ -499,6 +542,8 @@ def _check_col(v: dict, dec: int):
     oi, ti, te = g("oi"), g("ti"), g("te")
     fin, dep, jv = g("fin"), g("dep"), g("jv")
     pbe, exc, pbt, pat = g("pbe"), g("exc"), g("pbt"), g("pat")
+    if g("ppi") is not None:
+        exc = (exc or 0) + g("ppi")
     if rev is None and ti is not None and oi is not None:
         rev = ti - oi  # revenue line unreadable: total income - other income
     if pbt is None and pbe is not None:
@@ -539,7 +584,7 @@ def _check_col(v: dict, dec: int):
         if not ok:
             probs.append(f"total income - expenses {op:.2f} != profit before exceptional {pbe}")
         e2 = pbt - pbe
-        if exc is not None and not close(e2, exc) and not (jv is not None and close(e2, exc + jv)):
+        if exc is not None and not close(e2, exc) and not close(e2, -exc) and not (jv is not None and close(e2, exc + jv)):
             probs.append(f"PBT - PBE {e2:.2f} != exceptional {exc}")
     else:
         cands = [op + (exc or 0), op + (exc or 0) + (jv or 0)]
@@ -594,11 +639,12 @@ def _mentions_consolidated(text: str) -> bool:
     return False
 
 
-def _matches_known(cols: dict, fac: float, kn: dict) -> tuple[int, list]:
-    """How many known figures (from the company's earlier XBRL filings) the PDF columns agree with."""
+def _matches_known(cols: dict, fac: float, kn: dict, months: int = 3) -> tuple[int, list]:
+    """How many known figures (from the company's earlier XBRL filings) the PDF columns agree with.
+    kn: {"prev": .., "yoy": ..} for quarters, {"prev_h": .., "yoy_h": ..} for half years, "cur": the XBRL itself."""
     agree, probs = 0, []
-    for name in ("prev", "yoy"):
-        k = kn.get(name) or {}
+    for name in ("cur", "prev", "yoy"):
+        k = kn.get(name if months == 3 or name == "cur" else name + "_h") or {}
         for key, rel in (("revenue", 0.01), ("pat", 0.02)):
             x, y = k.get(key), cols[name].get(key)
             if x is None or y is None:
@@ -742,7 +788,10 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                 basis = ("C" if hc > hs else "S") if (hc >= 0 or hs >= 0) else "?"
                 st["cons"] = st["cons"] or basis == "C"
             raw, problems = {}, []
-            for name, ci in zip(("cur", "prev", "yoy"), g["cols"]):
+            col_list = list(zip(("cur", "prev", "yoy"), g["cols"]))
+            if g.get("fy_col") is not None:
+                col_list = [("cur", g["cols"][0]), ("yoy", g["cols"][2]), ("fy", g["fy_col"])]
+            for name, ci in col_list:
                 vals, order, labels = _extract(g["rows"], ci)
                 decs = [x[1] for x in vals.values() if x is not None]
                 dec = max(set(decs), key=decs.count) if decs else 2
@@ -752,6 +801,10 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
                     break
                 problems += [f"{name}: {x}" for x in probs]
                 raw[name] = m
+            if not problems and "fy" in raw:
+                raw["prev"] = {k: (None if raw["fy"].get(k) is None or raw["yoy"].get(k) is None
+                                   else raw["fy"][k] - raw["yoy"][k]) for k in raw["fy"]}
+                del raw["fy"]
             if not problems and len(raw) == 3 and g.get("h1") is not None:
                 hv, _, _ = _extract(g["rows"], g["h1"])
                 hm, _ = _check_col(hv, 2)
@@ -772,7 +825,7 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
             for b in options:
                 kn = known.get(b) or {}
                 for fac in facs:
-                    agree, probs = _matches_known(raw, fac, kn)
+                    agree, probs = _matches_known(raw, fac, kn, g.get("months", 3))
                     if probs:
                         continue
                     if agree or (unit and b == basis):
@@ -790,7 +843,7 @@ def read_results_pdf(content: bytes, qe: date, known: dict | None = None, max_pa
             cols = {n: {k: (None if x is None else round(x * fac, 4)) for k, x in m.items()} for n, m in raw.items()}
             unit_name = unit or next((k for k, v in FACTOR.items() if v == fac), "rupee")
             good.append({"ok": True, "basis": b, "unit": unit_name, "page": pno, "cols": cols, "how": g["how"],
-                         "ncols": g["ncols"], "history_checks": agree, "ocr": bool(how)})
+                         "ncols": g["ncols"], "history_checks": agree, "ocr": bool(how), "months": g.get("months", 3)})
 
     def done() -> bool:
         return any(r["basis"] == "C" for r in good) or (

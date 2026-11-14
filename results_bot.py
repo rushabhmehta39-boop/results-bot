@@ -1032,6 +1032,17 @@ class Prices:
         self.maps[exch] = result
         return result
 
+    def on_nse(self, isin: str):
+        """True if the company trades on NSE, False if not, None if NSE's price list is unavailable."""
+        d, by_isin, by_code = self._load("NSE")
+        if not by_isin or not isin:
+            return None
+        return isin.upper() in by_isin
+
+    def isin_for_scrip(self, scrip: str) -> str:
+        self._load("BSE")
+        return next((i for i, c in Prices._BSE_CODES.items() if c == scrip), "") if scrip else ""
+
     def close(self, exch, isin, code):
         d, by_isin, by_code = self._load(exch)
         px = by_isin.get(isin or "") or by_code.get((code or "").upper())
@@ -1314,8 +1325,13 @@ class Telegram:
         url = f"https://api.telegram.org/bot{self.token}/{method}"
         for _ in range(5):
             try:
-                r = requests.post(url, data=data, files=files, timeout=60)
-            except Exception as e:
+                r = requests.post(url, data=data, files=files, timeout=(10, 90))
+            except requests.exceptions.ReadTimeout:
+                # Telegram got the message but its answer was slow: sending again would duplicate the card
+                log(f"  ! Telegram {method}: no answer in time - counted as sent (not sent again)")
+                self.last = time.monotonic()
+                return -1
+            except Exception as e:  # nothing reached Telegram (connection failed): safe to try again
                 log(f"  ! Telegram error: {e}")
                 time.sleep(5)
                 continue
@@ -1656,6 +1672,16 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
     if need_ends and (sym or scrip):
         fill_history(http, st, cache_key, basis, need_ends, sym, scrip if scrip.isdigit() else "")
         cache = st.periods[cache_key]
+    hist_note = ""
+    missing = [(s0, e0) for (s0, e0) in needed if get_period(cache, s0, e0) is None]
+    if missing and span in (3, 6):
+        got = history_from_pdf(ctx, isin, sym, scrip, f.company, cs, ce, span, basis, cache.get(pkey(cs, ce)) or {})
+        for name, (s0, e0) in (("yoy", shift_period(cs, ce, -12)), ("prev", shift_period(cs, ce, -span))):
+            if got and got.get(name) and (s0, e0) in missing:
+                cache[pkey(s0, e0)] = got[name]
+                hist_note = "📄 Last " + ("quarter" if span == 3 else "half year") + " / last year from the results PDF"
+        if hist_note:
+            st.periods[cache_key] = cache
 
     res = build_result(f, parsed, cache, basis, mcap, price, pdate)
     png = render_card(res, cfg, ctx["fonts"])
@@ -1671,6 +1697,8 @@ def process_filing(f: Filing, ctx: dict, note: str = "") -> str:
         reply_to = half_fix.get("mid") or reply_to
     if half_note:
         caption += "\n" + html.escape(half_note)
+    if hist_note:
+        caption += "\n" + html.escape(hist_note)
     if correction_of is not None:
         caption = ("✏️ <b>Corrected numbers</b> from the exchange's data file "
                    "(the reading of the PDF differed)\n" + caption)
@@ -1733,6 +1761,8 @@ def mark_fresh(st: State, anns: list[dict], since: datetime) -> None:
             rec = st.data["fresh"].setdefault(k, {"t": a["ts"].isoformat(timespec="minutes")})
             if a.get("cons"):
                 rec["c"] = 1  # the announcement says consolidated results are out too
+            if a.get("pdf"):
+                rec["pdf"] = a["pdf"]  # its results PDF (fills missing comparison columns later)
 
 
 def is_fresh(st: State, keys: set) -> bool:
@@ -1845,6 +1875,43 @@ def _hint_consolidated(st: State, isin: str, sym: str, scrip: str, company: str)
         st.data["fresh"].setdefault(k, {"t": datetime.now(IST).isoformat(timespec="minutes")})["c"] = 1
 
 
+def history_from_pdf(ctx: dict, isin: str, sym: str, scrip: str, company: str, cs: date, ce: date, months: int,
+                     basis: str, cur: dict) -> dict:
+    """Last quarter / last year read from the company's results PDF, when the XBRL history lacks them
+    (new listings, BSE-only and SME companies). Only used if the PDF's current column matches the XBRL."""
+    st, cfg, http = ctx["st"], ctx["cfg"], ctx["http"]
+    if pdfnum is None or not _on(cfg["PDF_CARDS"]):
+        return {}
+    recs = [st.data["fresh"][k] for k in company_keys(isin, sym, scrip, company) if st.data["fresh"].get(k, {}).get("pdf")]
+    url = recs[0]["pdf"] if recs else None
+    d = derive(cur, "std") if cur else {}
+    tried = f"{url}|{basis}|{getattr(pdfnum, 'VERSION', 1)}"
+    if not url or d.get("revenue") is None or d.get("pat") is None or any(r.get("pdf_hist") == tried for r in recs):
+        return {}
+    for r0 in recs:
+        r0["pdf_hist"] = tried  # one try per PDF, basis and reader version
+    try:
+        kind = "bse" if "bseindia" in url else "nse"
+        r = http.get(url, kind, accept="application/pdf,*/*", referer=(BSE + "/") if kind == "bse" else NSE + "/",
+                     timeout=60, tries=2, quiet=True)
+        if r is None or r.status_code != 200 or not r.content[:1024].lstrip().startswith(b"%PDF"):
+            return {}
+        out = pdfnum.read_results_pdf(r.content, ce, known={basis: {"cur": {"revenue": d["revenue"], "pat": d["pat"]}}},
+                                      ocr_time=60.0)
+    except Exception as e:  # a bad PDF must never stop the card
+        log(f"  · {company}: results PDF not read for history ({type(e).__name__})")
+        return {}
+    if not out.get("ok"):
+        log(f"  · {company}: comparison columns not in a readable PDF table ({out.get('why', '')[:120]})")
+        return {}
+    if out["basis"] != basis or out.get("months", 3) != months or out.get("history_checks", 0) < 2:
+        log(f"  · {company}: results PDF does not match the XBRL (basis {out['basis']}, "
+            f"{out.get('history_checks', 0)} checks) - comparison columns left empty")
+        return {}
+    log(f"  · {company}: last period / last year taken from the results PDF (page {out['page']})")
+    return {"prev": out["cols"]["prev"], "yoy": out["cols"]["yoy"]}
+
+
 def quarter_end_before(d: date) -> date:
     """The last quarter end before date d (results out on 11 Nov -> quarter ended 30 Sep)."""
     m, y = ((d.month - 1) // 3) * 3, d.year
@@ -1902,8 +1969,10 @@ def pdf_card(item: dict, ctx: dict) -> str:
     for b in ("C", "S"):
         cache = st.periods.get(f"{ident}|{b}") or {}
         kn = {}
-        for name, months in (("prev", -3), ("yoy", -12)):
-            m = get_period(cache, *shift_period(qs, qe, months)) if cache else None
+        hs = date(qe.year, qe.month - 5, 1) if qe.month > 5 else date(qe.year - 1, qe.month + 7, 1)
+        for name, (s0, e0) in (("prev", shift_period(qs, qe, -3)), ("yoy", shift_period(qs, qe, -12)),
+                               ("prev_h", shift_period(hs, qe, -6)), ("yoy_h", shift_period(hs, qe, -12))):
+            m = get_period(cache, s0, e0) if cache else None
             if m:
                 d = derive(m, "std")
                 kn[name] = {"revenue": d.get("revenue"), "pat": d.get("pat")}
@@ -1921,7 +1990,10 @@ def pdf_card(item: dict, ctx: dict) -> str:
     if basis == "S" and expects_consolidated(st, isin, sym, scrip, item["company"], qe):
         return "fail: the company reports consolidated numbers; standalone not sent on its own"
     post_key = f"{ident}|{qe.isoformat()}|{basis}"
-    keys = {"cur": pkey(qs, qe), "prev": pkey(*shift_period(qs, qe, -3)), "yoy": pkey(*shift_period(qs, qe, -12))}
+    months = out.get("months", 3)
+    if months == 6:  # SME half-yearly results
+        qs = date(qe.year, qe.month - 5, 1) if qe.month > 5 else date(qe.year - 1, qe.month + 7, 1)
+    keys = {"cur": pkey(qs, qe), "prev": pkey(*shift_period(qs, qe, -months)), "yoy": pkey(*shift_period(qs, qe, -12))}
     periods = {keys[n]: cols[n] for n in ("cur", "prev", "yoy")}
     parsed = {"info": {"NameOfTheCompany": item["company"], "Symbol": sym, "ScripCode": scrip, "ISIN": isin},
               "kind": "std", "current": keys["cur"], "periods": periods, "shares": None}
@@ -2096,7 +2168,15 @@ def run(cfg: dict, dry_run: bool = False, http: Http | None = None) -> int:
             said_c = any(expects_consolidated(st, isin0, f.symbol, f.scrip, f.company, chosen.period_end) for f in fs)
             # Consolidated expected (filed it before, or the announcement / PDF says so): wait up to 24 h
             # for it. Only ever standalone: 15 min. Nothing known: 2 h.
-            if past_c or said_c:
+            bse_only = chosen.source == "BSE" and ctx["prices"].on_nse(
+                isin0 or ctx["prices"].isin_for_scrip(chosen.scrip)) is False
+            if bse_only and said_c:
+                # BSE publishes only the standalone data file: consolidated numbers can come only from the
+                # results PDF (tried when the PDF came out). Don't hold the standalone card for a day.
+                wait = max(settle, timedelta(minutes=30))
+                note = ("⚠️ Standalone numbers: BSE publishes only the standalone data file, and the consolidated "
+                        "table in the results PDF could not be read.")
+            elif past_c or said_c:
                 wait = timedelta(hours=float(cfg["CONSOLIDATED_WAIT_HOURS"]))
                 note = ("⚠️ Standalone numbers: the consolidated XBRL is not filed yet. "
                         "The consolidated card follows as a reply when it is.")
