@@ -5512,6 +5512,9 @@
 "BANN-11b2e1b9-bc7b-4280-a4c6-94ac02bd56a1": {
 "t": "2026-11-13T17:27+05:30"
 },
+"BANN-11e25838-e195-4f95-857b-341a794a783d": {
+"t": "2026-11-14T13:47+05:30"
+},
 "BANN-125f932d-197e-4072-9d67-a60ffa6d7a92": {
 "t": "2026-11-13T21:32+05:30"
 },
@@ -8574,6 +8577,9 @@
 },
 "BANN-ff4fb54d-6071-4401-ae1d-c031b1f24346": {
 "t": "2026-11-13T16:43+05:30"
+},
+"BANN-ff6c5856-477c-4dca-a729-9dad1791f18c": {
+"t": "2026-11-14T13:47+05:30"
 },
 "BANN-ff980847-624d-4462-a8eb-66b365bf09b4": {
 "t": "2026-11-13T17:38+05:30"
@@ -18822,6 +18828,9 @@
 "BSE|516016|2026-09-30": {
 "t": "2026-11-13T15:33+05:30"
 },
+"BSE|516096|2026-09-30": {
+"t": "2026-11-14T13:47+05:30"
+},
 "BSE|516106|2026-09-30": {
 "t": "2026-11-13T18:56+05:30"
 },
@@ -19739,6 +19748,9 @@
 },
 "BSE|531925|2026-09-30": {
 "t": "2026-11-13T19:05+05:30"
+},
+"BSE|531930|2026-09-30": {
+"t": "2026-11-14T13:47+05:30"
 },
 "BSE|531931|2026-09-30": {
 "t": "2026-11-13T16:58+05:30"
@@ -24798,6 +24810,10 @@
 "BSE:514348": {
 "t": "2026-11-12T19:23+05:30"
 },
+"BSE:514412": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc3a0ae1-1028-4d09-a268-dfde5ac80836.pdf",
+"t": "2026-11-14T13:42+05:30"
+},
 "BSE:514454": {
 "t": "2026-11-11T14:56+05:30"
 },
@@ -26036,6 +26052,10 @@
 },
 "BSE:531928": {
 "t": "2026-11-10T18:51+05:30"
+},
+"BSE:531930": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c54e21e-e00b-43cc-8673-88eba5cd2014.pdf",
+"t": "2026-11-14T13:44+05:30"
 },
 "BSE:531931": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddb4361f-bf92-437c-995a-2bd1e0483a43.pdf",
@@ -38052,9 +38072,17 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e70e0091-6f5f-4143-a318-7dfba8f442fb.pdf",
 "t": "2026-11-13T18:27+05:30"
 },
+"N:SARTHAKINDUSTRIES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c54e21e-e00b-43cc-8673-88eba5cd2014.pdf",
+"t": "2026-11-14T13:44+05:30"
+},
 "N:SARTHAKMETALS": {
 "pdf": "https://nsearchives.nseindia.com/corporate/SMLT_13112026124428_OUTCOMEFORUPLOAD.pdf",
 "t": "2026-11-13T12:44+05:30"
+},
+"N:SARUPINDUSTRIES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc3a0ae1-1028-4d09-a268-dfde5ac80836.pdf",
+"t": "2026-11-14T13:42+05:30"
 },
 "N:SARVESHWARFOODS": {
 "c": 1,
@@ -41508,6 +41536,10 @@
 "t": "2026-11-12T22:09+05:30",
 "v": 16.6
 },
+"BSE:514412": {
+"t": "2026-11-14T13:47+05:30",
+"v": 34.1
+},
 "BSE:515018": {
 "t": "2026-11-12T22:09+05:30",
 "v": 84.1
@@ -42563,6 +42595,10 @@
 "BSE:531925": {
 "t": "2026-11-13T18:33+05:30",
 "v": 3.7
+},
+"BSE:531930": {
+"t": "2026-11-14T13:47+05:30",
+"v": 23.0
 },
 "BSE:531931": {
 "t": "2026-11-13T17:02+05:30",
@@ -47199,6 +47235,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_514087_14112026124213_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_516096_14112026134249_IFIndAs.xml": {
+"company": "Sangal Papers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "516096",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T13:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_516096_14112026134249_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_516096_14112026134249_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_516096_14112026134249_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_517146_13112026224123_IFIndAs.xml": {
 "company": "Usha Martin Ltd",
 "consolidated": false,
@@ -47678,6 +47730,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531842_1311202618939_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531842_1311202618939_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531842_1311202618939_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531930_14112026134539_IFIndAs.xml": {
+"company": "Sarthak Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531930",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T13:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531930_14112026134539_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531930_14112026134539_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531930_14112026134539_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531979_1311202617948_IFIndAs.xml": {
 "company": "Hind Aluminium Industries Ltd-$",
