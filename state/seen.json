@@ -3105,9 +3105,6 @@
 }
 },
 "ann": {
-"ANN-equities-106854956-GREENPOWER": {
-"t": "2026-11-11T12:40+05:30"
-},
 "ANN-equities-106854986-SAKHTISUG": {
 "t": "2026-11-11T13:05+05:30"
 },
@@ -4515,6 +4512,9 @@
 "ANN-equities-106860389-AIRAN": {
 "t": "2026-11-14T12:36+05:30"
 },
+"ANN-equities-106860390-TVSSRICHAK": {
+"t": "2026-11-14T12:43+05:30"
+},
 "ANN-sme-106854971-CURIS": {
 "t": "2026-11-11T12:50+05:30"
 },
@@ -5886,6 +5886,9 @@
 "BANN-359185df-068c-4903-82cd-bd8d9daff986": {
 "t": "2026-11-12T18:05+05:30"
 },
+"BANN-35da2ade-8f20-458a-8c49-aa4fa842be6d": {
+"t": "2026-11-14T12:43+05:30"
+},
 "BANN-36025ea5-5eaa-4213-b79e-350ebfb084c1": {
 "t": "2026-11-12T16:54+05:30"
 },
@@ -6191,6 +6194,9 @@
 },
 "BANN-50d7ca40-857e-46f7-92e0-53aff42ac84a": {
 "t": "2026-11-11T15:46+05:30"
+},
+"BANN-50f7cfb1-a83f-4c78-aed4-b3095ec80615": {
+"t": "2026-11-14T12:43+05:30"
 },
 "BANN-514cb196-1874-4c64-9fee-d5a7055ad307": {
 "t": "2026-11-12T17:09+05:30"
@@ -6764,6 +6770,9 @@
 },
 "BANN-7cdeadc4-6348-43a5-997f-d82a5153fb9c": {
 "t": "2026-11-12T17:56+05:30"
+},
+"BANN-7d1ca945-c7ef-49db-94bd-7d7ce88eb446": {
+"t": "2026-11-14T12:43+05:30"
 },
 "BANN-7d251035-e8ef-4ec9-88e7-1d35462e6bbf": {
 "t": "2026-11-13T19:59+05:30"
@@ -17770,9 +17779,9 @@
 "t": "2026-11-14T12:18+05:30"
 },
 "NSE-sme-IF-214149": {
-"n": 3,
+"n": 4,
 "s": "retry",
-"t": "2026-11-14T12:36+05:30"
+"t": "2026-11-14T12:43+05:30"
 }
 },
 "first_seen": {
@@ -20028,6 +20037,9 @@
 },
 "BSE|538668|2026-09-30": {
 "t": "2026-11-13T17:46+05:30"
+},
+"BSE|538674|2026-09-30": {
+"t": "2026-11-14T12:42+05:30"
 },
 "BSE|538716|2026-09-30": {
 "t": "2026-11-12T18:44+05:30"
@@ -24402,6 +24414,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e42a1c89-204b-4a4f-aef4-7966de68027a.pdf",
 "t": "2026-11-13T16:49+05:30"
 },
+"BSE:514087": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a03377f7-8fd4-4903-9f25-e6bc9e09beec.pdf",
+"t": "2026-11-14T12:41+05:30"
+},
 "BSE:514140": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/74f2e296-491b-428a-b3b3-a919f6490f48.pdf",
 "t": "2026-11-13T17:29+05:30"
@@ -24646,6 +24663,10 @@
 },
 "BSE:520131": {
 "t": "2026-11-12T15:12+05:30"
+},
+"BSE:520141": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b9df37e5-4471-49b5-8194-25e7bb08f0ef.pdf",
+"t": "2026-11-14T12:35+05:30"
 },
 "BSE:521005": {
 "t": "2026-11-11T20:32+05:30"
@@ -27263,6 +27284,10 @@
 "BSE:544337": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e628665a-53ab-446c-a86a-7f7c88d8dfe0.pdf",
 "t": "2026-11-13T14:06+05:30"
+},
+"BSE:544341": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ae0e0f35-de64-44b3-b7f4-458f43d74f6e.pdf",
+"t": "2026-11-14T12:39+05:30"
 },
 "BSE:544343": {
 "c": 1,
@@ -30721,6 +30746,11 @@
 },
 "INE419M01035": {
 "t": "2026-11-12T17:29+05:30"
+},
+"INE421C01016": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.com/corporate/TVSSRICHAK_14112026122848_TVSSrichakraBMOutcome14112026.pdf",
+"t": "2026-11-14T12:37+05:30"
 },
 "INE421E01012": {
 "t": "2026-11-12T18:51+05:30"
@@ -35846,6 +35876,10 @@
 "c": 1,
 "t": "2026-11-12T19:04+05:30"
 },
+"N:LANDMARKGLOBALLEARNING": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ae0e0f35-de64-44b3-b7f4-458f43d74f6e.pdf",
+"t": "2026-11-14T12:39+05:30"
+},
 "N:LANDMARKPROPERTYDEVELOPMENTCOMPANY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a1241136-e167-4b14-a2c9-f5930972290a.pdf",
 "t": "2026-11-13T16:09+05:30"
@@ -36699,6 +36733,11 @@
 "N:PAULMERCHANTS": {
 "c": 1,
 "t": "2026-11-12T18:39+05:30"
+},
+"N:PBMPOLYTEX": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a03377f7-8fd4-4903-9f25-e6bc9e09beec.pdf",
+"t": "2026-11-14T12:41+05:30"
 },
 "N:PEANALYTICS": {
 "pdf": "https://nsearchives.nseindia.com/corporate/PROPEQUITY_13112026185627_Outcome_of_Board_Meeting.pdf",
@@ -37644,6 +37683,10 @@
 },
 "N:SHYAMACOMPUTRONICSANDSERVICES": {
 "t": "2026-11-11T15:57+05:30"
+},
+"N:SIBARAUTOPARTS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b9df37e5-4471-49b5-8194-25e7bb08f0ef.pdf",
+"t": "2026-11-14T12:35+05:30"
 },
 "N:SICALLOGISTICS": {
 "c": 1,
@@ -39611,6 +39654,11 @@
 "pdf": "https://nsearchives.nseindia.com/corporate/CSCOMPLIANCE_13112026193049_TVS_SCS_BM_Outcome_Disclosure_sd.pdf",
 "t": "2026-11-13T19:34+05:30"
 },
+"TVSSRICHAK": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.com/corporate/TVSSRICHAK_14112026122848_TVSSrichakraBMOutcome14112026.pdf",
+"t": "2026-11-14T12:37+05:30"
+},
 "UFLEX": {
 "t": "2026-11-12T20:05+05:30"
 },
@@ -40743,6 +40791,10 @@
 "t": "2026-11-13T16:52+05:30",
 "v": 131.7
 },
+"BSE:514087": {
+"t": "2026-11-14T12:43+05:30",
+"v": 43.2
+},
 "BSE:514140": {
 "t": "2026-11-13T17:38+05:30",
 "v": 9.3
@@ -40934,6 +40986,10 @@
 "BSE:520131": {
 "t": "2026-11-12T15:32+05:30",
 "v": 7.9
+},
+"BSE:520141": {
+"t": "2026-11-14T12:43+05:30",
+"v": 12.8
 },
 "BSE:521054": {
 "t": "2026-11-13T18:47+05:30",
@@ -43038,6 +43094,10 @@
 "BSE:544329": {
 "t": "2026-11-13T18:59+05:30",
 "v": 105.3
+},
+"BSE:544341": {
+"t": "2026-11-14T12:43+05:30",
+"v": 19.5
 },
 "BSE:544343": {
 "t": "2026-11-13T19:18+05:30",
@@ -47313,6 +47373,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538668_1311202617373_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538668_1311202617373_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538668_1311202617373_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_538674_1411202612373_IFIndAs.xml": {
+"company": "City Online Services Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "538674",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-14T12:42+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_538674_1411202612373_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538674_1411202612373_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538674_1411202612373_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_538891_13112026204723_IFIndAs.xml": {
 "company": "Magellanic Cloud Ltd",
