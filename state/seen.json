@@ -5122,6 +5122,9 @@
 "ANN-sme-106860223-ORIANA": {
 "t": "2026-11-14T08:06+05:30"
 },
+"ANN-sme-106860300-VELS": {
+"t": "2026-11-14T11:23+05:30"
+},
 "BANN-002f0c6c-8154-47a7-97a9-1799130eacf1": {
 "t": "2026-11-12T16:12+05:30"
 },
@@ -16159,9 +16162,9 @@
 "t": "2026-11-14T08:03+05:30"
 },
 "NSE-equities-IF-214138": {
-"n": 2,
+"n": 3,
 "s": "retry",
-"t": "2026-11-14T11:16+05:30"
+"t": "2026-11-14T11:23+05:30"
 },
 "NSE-sme-IF-211659": {
 "s": "superseded",
@@ -21314,6 +21317,9 @@
 },
 "NSE SME|USHAFIN|2026-09-30": {
 "t": "2026-11-12T21:59+05:30"
+},
+"NSE SME|UTKAL|2026-09-30": {
+"t": "2026-11-14T11:22+05:30"
 },
 "NSE SME|VALUE360|2026-09-30": {
 "t": "2026-11-12T18:12+05:30"
@@ -35617,6 +35623,9 @@
 "c": 1,
 "t": "2026-11-11T15:03+05:30"
 },
+"N:VELSFILMINTERNATIONAL": {
+"t": "2026-11-14T11:19+05:30"
+},
 "N:VENKYSINDIA": {
 "t": "2026-11-13T12:25+05:30"
 },
@@ -36643,6 +36652,9 @@
 },
 "VDEAL": {
 "t": "2026-11-13T15:32+05:30"
+},
+"VELS": {
+"t": "2026-11-14T11:19+05:30"
 },
 "VENKEYS": {
 "t": "2026-11-13T12:28+05:30"
@@ -46447,6 +46459,22 @@
 "uid": "NSE-sme-IF-214130",
 "view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214130_14112026025449_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758165_14112026025446_WEB.xml"
+},
+"NSE-sme-IF-214142": {
+"company": "Utkal Speciality Industries India Limited",
+"consolidated": false,
+"filed_at": "2026-11-14T11:20:55+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "UTKAL",
+"t": "2026-11-14T11:22+05:30",
+"uid": "NSE-sme-IF-214142",
+"view_url": "https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214142_14112026112054_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758181_14112026112054_WEB.xml"
 }
 },
 "posted": {
