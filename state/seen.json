@@ -23456,9 +23456,6 @@
 "BSE|519260|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
-"BSE|519307|2026-09-30": {
-"t": "2026-11-12T23:32+05:30"
-},
 "BSE|519331|2026-09-30": {
 "t": "2026-11-14T20:13+05:30"
 },
@@ -23866,9 +23863,6 @@
 },
 "BSE|526662|2026-09-30": {
 "t": "2026-11-14T17:56+05:30"
-},
-"BSE|526666|2026-09-30": {
-"t": "2026-11-12T23:32+05:30"
 },
 "BSE|526677|2026-09-30": {
 "t": "2026-11-14T20:40+05:30"
@@ -24316,9 +24310,6 @@
 },
 "BSE|531652|2026-09-30": {
 "t": "2026-11-14T18:37+05:30"
-},
-"BSE|531658|2026-09-30": {
-"t": "2026-11-12T23:32+05:30"
 },
 "BSE|531661|2026-09-30": {
 "t": "2026-11-14T18:23+05:30"
@@ -25613,9 +25604,6 @@
 "BSE|543861|2026-09-30": {
 "t": "2026-11-14T20:13+05:30"
 },
-"BSE|543896|2026-09-30": {
-"t": "2026-11-12T23:32+05:30"
-},
 "BSE|543902|2026-09-30": {
 "t": "2026-11-14T14:00+05:30"
 },
@@ -26362,6 +26350,9 @@
 },
 "NSE SME|ARISTO|2026-09-30": {
 "t": "2026-11-14T21:05+05:30"
+},
+"NSE SME|ARMOUR|2026-09-30": {
+"t": "2026-11-15T23:31+05:30"
 },
 "NSE SME|ASPIRE|2026-09-30": {
 "t": "2026-11-14T18:23+05:30"
@@ -64069,6 +64060,22 @@
 "uid": "NSE-sme-IF-214757",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214757_15112026184300_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758903_15112026064258_WEB.xml"
+},
+"NSE-sme-IF-214765": {
+"company": "Armour Security (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-15T23:31:45+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "ARMOUR",
+"t": "2026-11-15T23:31+05:30",
+"uid": "NSE-sme-IF-214765",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214765_15112026233144_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758912_15112026113143_WEB.xml"
 }
 },
 "posted": {
