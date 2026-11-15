@@ -24215,6 +24215,9 @@
 "BSE|531319|2026-09-30": {
 "t": "2026-11-13T17:10+05:30"
 },
+"BSE|531330|2026-09-30": {
+"t": "2026-11-15T23:25+05:30"
+},
 "BSE|531349|2026-09-30": {
 "t": "2026-11-14T20:40+05:30"
 },
@@ -60418,6 +60421,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531307_14112026181410_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531307_14112026181410_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531307_14112026181410_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531330_1511202623231_IFIndAs.xml": {
+"company": "Dynamic Microsteppers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531330",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-15T23:25+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531330_1511202623231_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531330_1511202623231_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531330_1511202623231_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_531349_14112026203223_IFIndAs.xml": {
 "company": "Panacea Biotec Ltd",
