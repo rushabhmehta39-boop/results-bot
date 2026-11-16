@@ -4832,8 +4832,8 @@
 "ANN-equities-106861883-FCONSUMER": {
 "t": "2026-11-16T11:41+05:30"
 },
-"ANN-sme-106858292-EMKAYTOOLS": {
-"t": "2026-11-13T12:08+05:30"
+"ANN-equities-106861963-TVVISION": {
+"t": "2026-11-16T12:09+05:30"
 },
 "ANN-sme-106858306-RAVITA": {
 "t": "2026-11-13T12:20+05:30"
@@ -23916,9 +23916,9 @@
 "t": "2026-11-16T08:07+05:30"
 },
 "NSE-sme-IF-214776": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-16T12:02+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-16T12:09+05:30"
 },
 "NSE-sme-IF-214782": {
 "s": "small",
@@ -23929,9 +23929,9 @@
 "t": "2026-11-16T12:02+05:30"
 },
 "NSE-sme-IF-214784": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-16T12:02+05:30"
+"t": "2026-11-16T12:09+05:30"
 }
 },
 "first_seen": {
@@ -27544,6 +27544,9 @@
 "BSE|544938|2026-09-30": {
 "t": "2026-11-14T19:51+05:30"
 },
+"BSE|544945|2026-09-30": {
+"t": "2026-11-16T12:08+05:30"
+},
 "BSE|544948|2026-09-30": {
 "t": "2026-11-14T20:40+05:30"
 },
@@ -28821,6 +28824,9 @@
 },
 "NSE|ELECTCAST|2026-09-30": {
 "t": "2026-11-13T17:46+05:30"
+},
+"NSE|ELEVATE|2026-09-30": {
+"t": "2026-11-16T12:08+05:30"
 },
 "NSE|ENERGYDEV|2026-09-30": {
 "t": "2026-11-14T19:04+05:30"
@@ -44644,6 +44650,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e4eda3ff-17c2-4ce0-a5d5-d74011292fd8.pdf",
 "t": "2026-11-14T20:56+05:30"
 },
+"INE871L01013": {
+"pdf": "https://nsearchives.nseindia.in/corporate/TVVISION_16112026120140_Intimation_of_non_Submission_sd.pdf",
+"t": "2026-11-16T12:02+05:30"
+},
 "INE873N01015": {
 "t": "2026-11-12T16:09+05:30"
 },
@@ -54065,6 +54075,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/CSCOMPLIANCE_13112026193049_TVS_SCS_BM_Outcome_Disclosure_sd.pdf",
 "t": "2026-11-13T19:34+05:30"
 },
+"N:TVVISION": {
+"pdf": "https://nsearchives.nseindia.in/corporate/TVVISION_16112026120140_Intimation_of_non_Submission_sd.pdf",
+"t": "2026-11-16T12:02+05:30"
+},
 "N:TWAMEVCONSTRUCTIONANDINFRASTRUCTURE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TCLCONS_13112026202217_OutcomeOfBM13112026.pdf",
 "t": "2026-11-13T20:23+05:30"
@@ -56075,6 +56089,10 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/TVSSRICHAK_14112026122848_TVSSrichakraBMOutcome14112026.pdf",
 "t": "2026-11-14T12:37+05:30"
+},
+"TVVISION": {
+"pdf": "https://nsearchives.nseindia.in/corporate/TVVISION_16112026120140_Intimation_of_non_Submission_sd.pdf",
+"t": "2026-11-16T12:02+05:30"
 },
 "UDAYJEW": {
 "pdf": "https://nsearchives.nseindia.in/corporate/UDAYJEW_14112026134808_Finaloutcome14112026_sd.pdf",
@@ -58249,10 +58267,6 @@
 "t": "2026-11-14T14:37+05:30",
 "v": 46.5
 },
-"BSE:544198": {
-"t": "2026-11-14T12:05+05:30",
-"v": 3958.7
-},
 "BSE:544204": {
 "t": "2026-11-14T18:29+05:30",
 "v": 436.2
@@ -58577,10 +58591,6 @@
 "t": "2026-11-14T18:29+05:30",
 "v": 490.1
 },
-"BSE:590072": {
-"t": "2026-11-14T12:05+05:30",
-"v": 255.8
-},
 "CALSOFT": {
 "t": "2026-11-14T22:52+05:30",
 "v": 104.8
@@ -58876,6 +58886,10 @@
 "TVSELECT": {
 "t": "2026-11-14T17:49+05:30",
 "v": 730.2
+},
+"TVVISION": {
+"t": "2026-11-16T12:09+05:30",
+"v": 10.8
 },
 "UDAYJEW": {
 "t": "2026-11-14T13:54+05:30",
@@ -60747,21 +60761,37 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml"
 },
-"NSE-sme-IF-214776": {
-"company": "Galaxy Medicare Limited",
+"BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
+"company": "Elevate Campuses Ltd",
 "consolidated": false,
-"filed_at": "2026-11-16T11:16:46+05:30",
-"index": "sme",
+"filed_at": null,
+"index": "bse",
 "isin": null,
 "period_end": "2026-09-30",
 "revised": false,
+"scrip": "544945",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-16T12:08+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml"
+},
+"NSE-equities-IF-214789": {
+"company": "Elevate Campuses Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T12:06:15+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
 "scrip": "",
-"source": "NSE SME",
-"symbol": "GML",
-"t": "2026-11-16T11:22+05:30",
-"uid": "NSE-sme-IF-214776",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214776_16112026111645_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758926_16112026111643_WEB.xml"
+"source": "NSE",
+"symbol": "ELEVATE",
+"t": "2026-11-16T12:08+05:30",
+"uid": "NSE-equities-IF-214789",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214789_16112026120614_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758943_16112026120613_WEB.xml"
 },
 "NSE-sme-IF-214784": {
 "company": "Ultra Wiring Connectivity System Limited",
@@ -64277,7 +64307,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T12:02+05:30",
+"t": "2026-11-16T12:09+05:30",
 "v": "INE00F301010"
 },
 "123456": {
@@ -71491,7 +71521,7 @@
 "v": 7000500
 },
 "INE00F301010": {
-"t": "2026-11-16T12:02+05:30",
+"t": "2026-11-16T12:09+05:30",
 "v": 5203600
 },
 "INE00FM01013": {
@@ -72247,7 +72277,7 @@
 "v": 23155000
 },
 "INE09A801015": {
-"t": "2026-11-16T12:02+05:30",
+"t": "2026-11-16T12:09+05:30",
 "v": 151719830000
 },
 "INE09E501017": {
