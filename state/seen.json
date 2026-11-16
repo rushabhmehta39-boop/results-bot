@@ -3578,9 +3578,6 @@
 }
 },
 "ann": {
-"ANN-equities-106858297-BBOX": {
-"t": "2026-11-13T12:14+05:30"
-},
 "ANN-equities-106858303-SUNDRMBRAK": {
 "t": "2026-11-13T12:20+05:30"
 },
@@ -5765,6 +5762,9 @@
 "ANN-sme-106861933-SONAMAC": {
 "t": "2026-11-16T11:41+05:30"
 },
+"ANN-sme-106861966-VISAMAN": {
+"t": "2026-11-16T12:15+05:30"
+},
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
 },
@@ -6454,9 +6454,6 @@
 },
 "BANN-30960d3b-e256-42d8-850c-0d52d91fe3c7": {
 "t": "2026-11-14T12:55+05:30"
-},
-"BANN-30e9945e-e105-444d-9880-d8f4a584387f": {
-"t": "2026-11-13T12:14+05:30"
 },
 "BANN-315bbc6d-dcfc-4b61-8d8f-ee3e4a7015c9": {
 "t": "2026-11-13T19:59+05:30"
@@ -8989,9 +8986,6 @@
 },
 "BANN-e5e292ba-9525-4254-a0a4-0deff631ada8": {
 "t": "2026-11-14T16:58+05:30"
-},
-"BANN-e60379a8-7034-4758-b475-551b4ac4f061": {
-"t": "2026-11-13T12:14+05:30"
 },
 "BANN-e665954b-3d16-4e94-b549-f4558a0bf014": {
 "t": "2026-11-13T19:18+05:30"
@@ -23929,9 +23923,14 @@
 "t": "2026-11-16T12:02+05:30"
 },
 "NSE-sme-IF-214784": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-16T12:09+05:30"
+"t": "2026-11-16T12:15+05:30"
+},
+"NSE-sme-IF-214791": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-16T12:15+05:30"
 }
 },
 "first_seen": {
@@ -25872,9 +25871,6 @@
 },
 "BSE|532309|2026-09-30": {
 "t": "2026-11-13T17:23+05:30"
-},
-"BSE|532329|2026-09-30": {
-"t": "2026-11-13T12:13+05:30"
 },
 "BSE|532339|2026-09-30": {
 "t": "2026-11-13T18:14+05:30"
@@ -28464,6 +28460,9 @@
 },
 "NSE SME|VILINBIO|2026-09-30": {
 "t": "2026-11-14T19:04+05:30"
+},
+"NSE SME|VISAMAN|2026-09-30": {
+"t": "2026-11-16T12:15+05:30"
 },
 "NSE SME|VISDEM|2026-09-30": {
 "t": "2026-11-14T22:57+05:30"
@@ -54512,7 +54511,7 @@
 "t": "2026-11-12T14:51+05:30"
 },
 "N:VISAMANGLOBALSALES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_13112026180641_Final_Outcome_Signed.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf",
 "t": "2026-11-13T18:10+05:30"
 },
 "N:VISDEMTECHNOSYS": {
@@ -56275,7 +56274,7 @@
 "t": "2026-11-12T14:51+05:30"
 },
 "VISAMAN": {
-"pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_13112026180641_Final_Outcome_Signed.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf",
 "t": "2026-11-13T18:10+05:30"
 },
 "VISDEM": {
@@ -60808,6 +60807,38 @@
 "uid": "NSE-sme-IF-214784",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214784_16112026114430_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758938_16112026114429_WEB.xml"
+},
+"NSE-sme-IF-214790": {
+"company": "Visaman Global Sales Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T12:11:59+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VISAMAN",
+"t": "2026-11-16T12:15+05:30",
+"uid": "NSE-sme-IF-214790",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214790_16112026121158_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758945_16112026121157_WEB.xml"
+},
+"NSE-sme-IF-214791": {
+"company": "Visaman Global Sales Limited",
+"consolidated": true,
+"filed_at": "2026-11-16T12:12:57+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "VISAMAN",
+"t": "2026-11-16T12:15+05:30",
+"uid": "NSE-sme-IF-214791",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214791_16112026121256_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758946_16112026121255_WEB.xml"
 }
 },
 "posted": {
@@ -64307,8 +64338,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T12:09+05:30",
-"v": "INE00F301010"
+"t": "2026-11-16T12:15+05:30",
+"v": "INE0BHK01012"
 },
 "123456": {
 "t": "2026-11-16T08:06+05:30",
@@ -71521,7 +71552,7 @@
 "v": 7000500
 },
 "INE00F301010": {
-"t": "2026-11-16T12:09+05:30",
+"t": "2026-11-16T12:15+05:30",
 "v": 5203600
 },
 "INE00FM01013": {
@@ -72359,6 +72390,10 @@
 "INE0B9A01018": {
 "t": "2026-11-16T08:03+05:30",
 "v": 16383400
+},
+"INE0BHK01012": {
+"t": "2026-11-16T12:15+05:30",
+"v": 212710990000
 },
 "INE0BIW01023": {
 "t": "2026-11-16T08:07+05:30",
