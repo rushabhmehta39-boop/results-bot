@@ -2744,9 +2744,6 @@
 }
 },
 "ann": {
-"ANN-equities-106859668-TVSSCS": {
-"t": "2026-11-13T19:49+05:30"
-},
 "ANN-equities-106859692-AHLWEST": {
 "t": "2026-11-13T19:59+05:30"
 },
@@ -3476,15 +3473,6 @@
 "ANN-equities-106862359-AIFL": {
 "t": "2026-11-16T16:35+05:30"
 },
-"ANN-sme-106859667-PHOGLOBAL": {
-"t": "2026-11-13T19:49+05:30"
-},
-"ANN-sme-106859675-BEACON": {
-"t": "2026-11-13T19:49+05:30"
-},
-"ANN-sme-106859681-FOCE": {
-"t": "2026-11-13T19:49+05:30"
-},
 "ANN-sme-106859688-ATCENERGY": {
 "t": "2026-11-13T19:59+05:30"
 },
@@ -4120,6 +4108,9 @@
 },
 "ANN-sme-106862428-MACOBSTECH": {
 "t": "2026-11-16T17:28+05:30"
+},
+"ANN-sme-106862847-TRANSTEEL": {
+"t": "2026-11-16T19:50+05:30"
 },
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
@@ -22755,6 +22746,9 @@
 "BSE|540358|2026-09-30": {
 "t": "2026-11-14T22:05+05:30"
 },
+"BSE|540359|2026-09-30": {
+"t": "2026-11-16T19:47+05:30"
+},
 "BSE|540468|2026-09-30": {
 "t": "2026-11-14T21:05+05:30"
 },
@@ -28055,9 +28049,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2071b86c-852d-4202-8c9a-12136cd88008.pdf",
 "t": "2026-11-13T15:43+05:30"
-},
-"BSE:526721": {
-"t": "2026-11-09T19:50+05:30"
 },
 "BSE:526727": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b630656a-4430-4ae2-89d5-1843b16588ed.pdf",
@@ -34556,6 +34547,10 @@
 "INE0OWZ01020": {
 "t": "2026-11-12T16:47+05:30"
 },
+"INE0P7001013": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4a3e4d9a-1319-43b2-bb0f-9c3574a76f16.pdf",
+"t": "2026-11-14T23:15+05:30"
+},
 "INE0P8B01020": {
 "c": 1,
 "t": "2026-11-12T20:36+05:30"
@@ -34981,7 +34976,7 @@
 "t": "2026-11-12T15:50+05:30"
 },
 "INE105I01020": {
-"pdf": "https://nsearchives.nseindia.in/corporate/SELMC_14112026125619_SelOutcomeNov2026File.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50802b51-001c-4225-942a-4d4cb023fdfe.pdf",
 "t": "2026-11-14T12:58+05:30"
 },
 "INE107A01015": {
@@ -35722,7 +35717,7 @@
 "t": "2026-11-13T16:09+05:30"
 },
 "INE198H01019": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6f25b7ab-c09d-4f46-ae93-d27c8513835f.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AAREYDRUGS_14112026183909_Financial_Result_outcome_Aarey.pdf",
 "t": "2026-11-14T18:40+05:30"
 },
 "INE199C01026": {
@@ -38323,7 +38318,7 @@
 "t": "2026-11-12T19:46+05:30"
 },
 "INE597L01014": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51dbde98-9272-4d30-b5fc-df10cee8635f.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/LOVABLE_14112026183522_SEP_FINANCIALS_30__Signed.pdf",
 "t": "2026-11-14T18:39+05:30"
 },
 "INE598C01011": {
@@ -38657,9 +38652,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/460c9490-662d-4fbc-9f38-1855723b4fb8.pdf",
 "t": "2026-11-14T22:09+05:30"
 },
-"INE653C01022": {
-"t": "2026-11-09T19:50+05:30"
-},
 "INE653S01028": {
 "c": 1,
 "t": "2026-11-12T16:05+05:30"
@@ -38895,7 +38887,7 @@
 },
 "INE692Z01013": {
 "c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd0b53f6-2e54-400c-8757-d6eb91be09f0.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AFFORDABLE_14112026183123_BMOutcome14112026signed.pdf",
 "t": "2026-11-14T18:36+05:30"
 },
 "INE693E01016": {
@@ -41352,7 +41344,7 @@
 "t": "2026-11-13T17:44+05:30"
 },
 "N:AAREYDRUGSANDPHARMACEUTICALS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6f25b7ab-c09d-4f46-ae93-d27c8513835f.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AAREYDRUGS_14112026183909_Financial_Result_outcome_Aarey.pdf",
 "t": "2026-11-14T18:40+05:30"
 },
 "N:AARSHYAMINDIAINVESTMENTCOMPANY": {
@@ -41547,7 +41539,7 @@
 },
 "N:AFFORDABLEROBOTICANDAUTOMATION": {
 "c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd0b53f6-2e54-400c-8757-d6eb91be09f0.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AFFORDABLE_14112026183123_BMOutcome14112026signed.pdf",
 "t": "2026-11-14T18:36+05:30"
 },
 "N:AGARWALINDUSTRIALCORPORATION": {
@@ -45520,7 +45512,7 @@
 "t": "2026-11-11T19:02+05:30"
 },
 "N:LOVABLELINGERIE": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51dbde98-9272-4d30-b5fc-df10cee8635f.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/LOVABLE_14112026183522_SEP_FINANCIALS_30__Signed.pdf",
 "t": "2026-11-14T18:39+05:30"
 },
 "N:LOYALTEXTILEMILLS": {
@@ -46346,9 +46338,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e92fad0c-c86f-4f62-9b1c-d6b601acfcda.pdf",
 "t": "2026-11-14T16:51+05:30"
-},
-"N:NICCOPARKSANDRESORTS": {
-"t": "2026-11-09T19:50+05:30"
 },
 "N:NICCOUCOALLIANCECREDIT": {
 "t": "2026-11-12T18:11+05:30"
@@ -48013,7 +48002,7 @@
 "t": "2026-11-14T19:19+05:30"
 },
 "N:SELMANUFACTURINGCOMPANY": {
-"pdf": "https://nsearchives.nseindia.in/corporate/SELMC_14112026125619_SelOutcomeNov2026File.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50802b51-001c-4225-942a-4d4cb023fdfe.pdf",
 "t": "2026-11-14T12:52+05:30"
 },
 "N:SEMACCONSTRUCTION": {
@@ -51786,10 +51775,6 @@
 "t": "2026-11-14T20:33+05:30",
 "v": 2367.1
 },
-"BSE:506003": {
-"t": "2026-11-14T19:45+05:30",
-"v": 32.9
-},
 "BSE:506640": {
 "t": "2026-11-14T20:59+05:30",
 "v": 44.1
@@ -51853,10 +51838,6 @@
 "BSE:521238": {
 "t": "2026-11-16T14:16+05:30",
 "v": 881.3
-},
-"BSE:522289": {
-"t": "2026-11-14T19:45+05:30",
-"v": 10.1
 },
 "BSE:523218": {
 "t": "2026-11-14T21:10+05:30",
@@ -51933,10 +51914,6 @@
 "BSE:531153": {
 "t": "2026-11-14T20:06+05:30",
 "v": 61.8
-},
-"BSE:531330": {
-"t": "2026-11-14T19:45+05:30",
-"v": 3.4
 },
 "BSE:531381": {
 "t": "2026-11-16T08:15+05:30",
@@ -52050,10 +52027,6 @@
 "t": "2026-11-14T20:59+05:30",
 "v": 4.8
 },
-"BSE:540151": {
-"t": "2026-11-14T19:45+05:30",
-"v": 227.2
-},
 "BSE:540358": {
 "t": "2026-11-14T20:06+05:30",
 "v": 186.0
@@ -52114,10 +52087,6 @@
 "t": "2026-11-16T08:15+05:30",
 "v": 94.2
 },
-"BSE:543453": {
-"t": "2026-11-14T19:45+05:30",
-"v": 68.9
-},
 "BSE:543512": {
 "t": "2026-11-14T22:28+05:30",
 "v": 71.8
@@ -52162,17 +52131,9 @@
 "t": "2026-11-14T20:59+05:30",
 "v": 32.0
 },
-"BSE:544422": {
-"t": "2026-11-14T19:45+05:30",
-"v": 20.6
-},
 "BSE:544476": {
 "t": "2026-11-14T20:45+05:30",
 "v": 4252.5
-},
-"BSE:544510": {
-"t": "2026-11-14T19:45+05:30",
-"v": 254.9
 },
 "BSE:544518": {
 "t": "2026-11-16T08:15+05:30",
@@ -52242,10 +52203,6 @@
 "t": "2026-11-16T08:15+05:30",
 "v": 288.3
 },
-"BSE:544938": {
-"t": "2026-11-14T19:45+05:30",
-"v": 687.4
-},
 "BSE:544958": {
 "t": "2026-11-14T19:56+05:30",
 "v": 102.0
@@ -52306,10 +52263,6 @@
 "t": "2026-11-16T15:09+05:30",
 "v": 29816.1
 },
-"KEEPLEARN": {
-"t": "2026-11-14T19:45+05:30",
-"v": 28.3
-},
 "KERNEX": {
 "t": "2026-11-14T20:45+05:30",
 "v": 2968.0
@@ -52330,10 +52283,6 @@
 "t": "2026-11-16T15:15+05:30",
 "v": 1958.0
 },
-"SONA": {
-"t": "2026-11-14T19:45+05:30",
-"v": 687.4
-},
 "SRM": {
 "t": "2026-11-14T22:15+05:30",
 "v": 926.1
@@ -52345,10 +52294,6 @@
 "TVVISION": {
 "t": "2026-11-16T12:09+05:30",
 "v": 10.8
-},
-"UMAEXPORTS": {
-"t": "2026-11-14T19:45+05:30",
-"v": 68.7
 },
 "USK": {
 "t": "2026-11-14T20:20+05:30",
@@ -54255,6 +54200,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_540359_16112026194350_IFIndAs.xml": {
+"company": "Parmax Pharma Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "540359",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-16T19:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_540359_16112026194350_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540359_16112026194350_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540359_16112026194350_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
 "company": "Elevate Campuses Ltd",
