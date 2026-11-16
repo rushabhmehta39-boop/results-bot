@@ -8117,6 +8117,9 @@
 "BANN-a461e7f2-dc7a-4c5a-8016-379f2644e73b": {
 "t": "2026-11-13T17:02+05:30"
 },
+"BANN-a47e1b30-0e6c-4b1d-a9eb-7d0091a4e299": {
+"t": "2026-11-16T11:23+05:30"
+},
 "BANN-a4a1728f-b4bf-44d2-a0ed-772407567dff": {
 "t": "2026-11-13T17:15+05:30"
 },
@@ -27940,6 +27943,9 @@
 "NSE SME|GIRIRAJ|2026-09-30": {
 "t": "2026-11-14T18:08+05:30"
 },
+"NSE SME|GML|2026-09-30": {
+"t": "2026-11-16T11:22+05:30"
+},
 "NSE SME|GOYALSALT|2026-09-30": {
 "t": "2026-11-14T17:56+05:30"
 },
@@ -34901,6 +34907,10 @@
 },
 "BSE:538965": {
 "t": "2026-11-12T19:02+05:30"
+},
+"BSE:538993": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/efc7e0a9-1d29-4513-9f8b-696f4d25f878.pdf",
+"t": "2026-11-16T11:22+05:30"
 },
 "BSE:539018": {
 "c": 1,
@@ -51866,6 +51876,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb94aa0-51ea-4903-8dbe-586967d1b41f.pdf",
 "t": "2026-11-13T14:33+05:30"
 },
+"N:PUROHITCONSTRUCTION": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/efc7e0a9-1d29-4513-9f8b-696f4d25f878.pdf",
+"t": "2026-11-16T11:22+05:30"
+},
 "N:PURVFLEXIPACK": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PURVFLEXI_14112026170006_OutcomeofBMPFL14112026.pdf",
 "t": "2026-11-14T17:03+05:30"
@@ -57851,6 +57865,10 @@
 "t": "2026-11-14T16:58+05:30",
 "v": 7.5
 },
+"BSE:538993": {
+"t": "2026-11-16T11:23+05:30",
+"v": 6.2
+},
 "BSE:539041": {
 "t": "2026-11-14T17:40+05:30",
 "v": 58.4
@@ -60752,6 +60770,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml"
+},
+"NSE-sme-IF-214776": {
+"company": "Galaxy Medicare Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T11:16:46+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "GML",
+"t": "2026-11-16T11:22+05:30",
+"uid": "NSE-sme-IF-214776",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214776_16112026111645_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758926_16112026111643_WEB.xml"
 }
 },
 "posted": {
