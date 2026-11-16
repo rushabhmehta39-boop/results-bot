@@ -3578,9 +3578,6 @@
 }
 },
 "ann": {
-"ANN-equities-106858317-VENKEYS": {
-"t": "2026-11-13T12:34+05:30"
-},
 "ANN-equities-106858411-SMLT": {
 "t": "2026-11-13T12:49+05:30"
 },
@@ -5759,6 +5756,9 @@
 "ANN-sme-106861966-VISAMAN": {
 "t": "2026-11-16T12:15+05:30"
 },
+"ANN-sme-106862016-CMMIPL": {
+"t": "2026-11-16T12:41+05:30"
+},
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
 },
@@ -7220,9 +7220,6 @@
 "BANN-69e08e67-cc8b-4597-abca-0b668e7960f6": {
 "t": "2026-11-13T15:54+05:30"
 },
-"BANN-6a3d16d2-3820-4f47-b719-57f92bce3415": {
-"t": "2026-11-13T12:34+05:30"
-},
 "BANN-6afda06b-ff59-42dd-8863-8da1ec9d726c": {
 "t": "2026-11-14T16:58+05:30"
 },
@@ -7633,12 +7630,6 @@
 },
 "BANN-85815294-7843-4c3d-afe0-27ceba59413e": {
 "t": "2026-11-14T18:29+05:30"
-},
-"BANN-85c1a192-d07b-4355-b981-dfad55c6f6ed": {
-"t": "2026-11-13T12:34+05:30"
-},
-"BANN-85d1f9c9-b1ac-4085-9fc8-246ca2eb1407": {
-"t": "2026-11-13T12:34+05:30"
 },
 "BANN-861c5e4d-3373-4141-9bd8-27af67381c25": {
 "t": "2026-11-14T14:30+05:30"
@@ -8234,9 +8225,6 @@
 "BANN-ae717b8b-e1fd-4921-ac82-b8645c845114": {
 "t": "2026-11-13T21:50+05:30"
 },
-"BANN-aec02348-c69d-40f9-8b42-ee35706e7319": {
-"t": "2026-11-13T12:41+05:30"
-},
 "BANN-aefed677-c3d3-4c7a-ab08-3dc001572f28": {
 "t": "2026-11-14T18:57+05:30"
 },
@@ -8305,9 +8293,6 @@
 },
 "BANN-b5262aac-7121-4108-abe1-2bd4e7fad350": {
 "t": "2026-11-13T13:36+05:30"
-},
-"BANN-b52d3323-1e92-4c49-90c1-d522e83fc7f1": {
-"t": "2026-11-13T12:41+05:30"
 },
 "BANN-b530f5b9-eee9-4716-9af3-79e2b7ed3b1d": {
 "t": "2026-11-14T14:43+05:30"
@@ -23914,14 +23899,14 @@
 "t": "2026-11-16T12:02+05:30"
 },
 "NSE-sme-IF-214784": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-16T12:32+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-16T12:41+05:30"
 },
 "NSE-sme-IF-214791": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-16T12:32+05:30"
+"t": "2026-11-16T12:41+05:30"
 }
 },
 "first_seen": {
@@ -25608,9 +25593,6 @@
 "BSE|531398|2026-09-30": {
 "t": "2026-11-14T19:04+05:30"
 },
-"BSE|531402|2026-09-30": {
-"t": "2026-11-13T12:40+05:30"
-},
 "BSE|531406|2026-09-30": {
 "t": "2026-11-13T17:23+05:30"
 },
@@ -25670,9 +25652,6 @@
 },
 "BSE|531616|2026-09-30": {
 "t": "2026-11-14T14:42+05:30"
-},
-"BSE|531621|2026-09-30": {
-"t": "2026-11-13T12:33+05:30"
 },
 "BSE|531625|2026-09-30": {
 "t": "2026-11-13T19:24+05:30"
@@ -37152,6 +37131,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/CMLL_13112026152858_Outcome_Board_Meeting_13112026_final.pdf",
 "t": "2026-11-13T15:29+05:30"
 },
+"CMMIPL": {
+"pdf": "https://nsearchives.nseindia.in/corporate/CMMIPL_16112026123650_BM_outcome_05112026_OCR.pdf",
+"t": "2026-11-16T12:38+05:30"
+},
 "COASTCORP": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COASTCORP_14112026135158_CCLoutcomefinancials30092026.pdf",
 "t": "2026-11-14T13:53+05:30"
@@ -47547,6 +47530,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc2eef6d-24e9-4281-8dc7-75241c2dd834.pdf",
 "t": "2026-11-14T19:19+05:30"
 },
+"N:CMMINFRAPROJECTS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/CMMIPL_16112026123650_BM_outcome_05112026_OCR.pdf",
+"t": "2026-11-16T12:38+05:30"
+},
 "N:CMSINFOSYSTEMS": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5391d49-d803-4d0d-a3db-b571fe684f59.pdf",
@@ -56667,10 +56654,6 @@
 "t": "2026-11-14T19:33+05:30",
 "v": 239.8
 },
-"BSE:509243": {
-"t": "2026-11-14T12:36+05:30",
-"v": 3313.0
-},
 "BSE:509732": {
 "t": "2026-11-14T19:09+05:30",
 "v": 1381.1
@@ -60781,22 +60764,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214789_16112026120614_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758943_16112026120613_WEB.xml"
 },
-"NSE-sme-IF-214784": {
-"company": "Ultra Wiring Connectivity System Limited",
-"consolidated": false,
-"filed_at": "2026-11-16T11:44:31+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "UWCSL",
-"t": "2026-11-16T11:47+05:30",
-"uid": "NSE-sme-IF-214784",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214784_16112026114430_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758938_16112026114429_WEB.xml"
-},
 "NSE-sme-IF-214790": {
 "company": "Visaman Global Sales Limited",
 "consolidated": false,
@@ -64327,7 +64294,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T12:32+05:30",
+"t": "2026-11-16T12:41+05:30",
 "v": "INE0BHK01012"
 },
 "123456": {
@@ -71541,7 +71508,7 @@
 "v": 7000500
 },
 "INE00F301010": {
-"t": "2026-11-16T12:32+05:30",
+"t": "2026-11-16T12:41+05:30",
 "v": 5203600
 },
 "INE00FM01013": {
@@ -72381,7 +72348,7 @@
 "v": 16383400
 },
 "INE0BHK01012": {
-"t": "2026-11-16T12:32+05:30",
+"t": "2026-11-16T12:41+05:30",
 "v": 212710990000
 },
 "INE0BIW01023": {
