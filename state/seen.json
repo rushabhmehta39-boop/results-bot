@@ -4841,6 +4841,9 @@
 "ANN-equities-106861437-KAYNES": {
 "t": "2026-11-16T08:15+05:30"
 },
+"ANN-equities-106861744-LASA": {
+"t": "2026-11-16T10:21+05:30"
+},
 "ANN-sme-106858133-KRISHCA": {
 "t": "2026-11-13T10:42+05:30"
 },
@@ -43478,6 +43481,10 @@
 "INE670C01026": {
 "t": "2026-11-12T19:58+05:30"
 },
+"INE670X01014": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LASA_16112026101249_outcomefinalforupload.pdf",
+"t": "2026-11-16T10:14+05:30"
+},
 "INE671C01016": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09a5521c-237b-452e-b815-171f48798a7f.pdf",
@@ -45693,6 +45700,10 @@
 "LAOPALA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LAOPALA_13112026184830_LORG_BM_Outcome_13112026_F.pdf",
 "t": "2026-11-13T18:50+05:30"
+},
+"LASA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LASA_16112026101249_outcomefinalforupload.pdf",
+"t": "2026-11-16T10:14+05:30"
 },
 "LASERPOWER": {
 "t": "2026-11-12T21:32+05:30"
@@ -50126,6 +50137,10 @@
 "N:LAPLAUTOMOTIVE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3335b762-03a1-4b20-ab3a-259e60f0dfa0.pdf",
 "t": "2026-11-13T19:13+05:30"
+},
+"N:LASASUPERGENERICS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LASA_16112026101249_outcomefinalforupload.pdf",
+"t": "2026-11-16T10:14+05:30"
 },
 "N:LASERPOWERANDINFRA": {
 "t": "2026-11-12T21:32+05:30"
