@@ -4841,8 +4841,8 @@
 "ANN-equities-106861860-GENCON": {
 "t": "2026-11-16T11:17+05:30"
 },
-"ANN-sme-106858233-SLONE": {
-"t": "2026-11-13T11:36+05:30"
+"ANN-equities-106861883-FCONSUMER": {
+"t": "2026-11-16T11:41+05:30"
 },
 "ANN-sme-106858292-EMKAYTOOLS": {
 "t": "2026-11-13T12:08+05:30"
@@ -5767,6 +5767,15 @@
 },
 "ANN-sme-106861859-GML": {
 "t": "2026-11-16T11:17+05:30"
+},
+"ANN-sme-106861927-SNEHAA": {
+"t": "2026-11-16T11:41+05:30"
+},
+"ANN-sme-106861932-UWCSL": {
+"t": "2026-11-16T11:41+05:30"
+},
+"ANN-sme-106861933-SONAMAC": {
+"t": "2026-11-16T11:41+05:30"
 },
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
@@ -8563,9 +8572,6 @@
 },
 "BANN-c62f844a-a388-4dc1-b6da-0629bfda9b8d": {
 "t": "2026-11-14T20:59+05:30"
-},
-"BANN-c6bd1d73-9556-46ea-a058-545880535241": {
-"t": "2026-11-13T11:36+05:30"
 },
 "BANN-c6d90522-9717-4ab5-92ad-ad7aeef70eae": {
 "t": "2026-11-13T15:17+05:30"
@@ -23940,9 +23946,9 @@
 "t": "2026-11-16T08:07+05:30"
 },
 "NSE-sme-IF-214776": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-16T11:35+05:30"
+"t": "2026-11-16T11:41+05:30"
 }
 },
 "first_seen": {
@@ -28109,9 +28115,6 @@
 },
 "NSE SME|MOXSH|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
-},
-"NSE SME|MPEL|2026-09-30": {
-"t": "2026-11-13T11:36+05:30"
 },
 "NSE SME|MPTODAY|2026-09-30": {
 "t": "2026-11-13T19:55+05:30"
@@ -36778,9 +36781,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94512b7f-759c-467f-ae99-aee46f8e4821.pdf",
 "t": "2026-11-13T20:56+05:30"
 },
-"BSE:544834": {
-"t": "2026-11-09T11:37+05:30"
-},
 "BSE:544835": {
 "t": "2026-11-12T19:50+05:30"
 },
@@ -37590,6 +37590,10 @@
 "FCL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FCL_13112026205855_OutcomeofBoardMeeting13112026Final.pdf",
 "t": "2026-11-13T20:59+05:30"
+},
+"FCONSUMER": {
+"pdf": "https://nsearchives.nseindia.in/corporate/FCEL1_16112026113613_delay_in_financial_results_30sep2026_signed.pdf",
+"t": "2026-11-16T11:36+05:30"
 },
 "FELIX": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FELIX_13112026165400_OutcomeToUpload.pdf",
@@ -40647,9 +40651,6 @@
 "INE1U6D01014": {
 "t": "2026-11-12T23:52+05:30"
 },
-"INE1WDC01012": {
-"t": "2026-11-09T11:37+05:30"
-},
 "INE1YPB01014": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9e0ef88b-27a2-4660-8962-c60f43f01fd0.pdf",
@@ -40791,6 +40792,10 @@
 "INE220C01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36728370-1988-4316-afdc-410d9b65edf3.pdf",
 "t": "2026-11-13T20:53+05:30"
+},
+"INE220J01025": {
+"pdf": "https://nsearchives.nseindia.in/corporate/FCEL1_16112026113613_delay_in_financial_results_30sep2026_signed.pdf",
+"t": "2026-11-16T11:36+05:30"
 },
 "INE220Z01013": {
 "c": 1,
@@ -48899,9 +48904,6 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4154f992-9973-46d3-97c7-6f9fcc4b7831.pdf|C|6",
 "t": "2026-11-14T15:34+05:30"
 },
-"N:GULFLLOYDSINDIA": {
-"t": "2026-11-09T11:37+05:30"
-},
 "N:GULSHANPOLYOLS": {
 "t": "2026-11-12T17:48+05:30"
 },
@@ -56590,10 +56592,6 @@
 "BSE:504369": {
 "t": "2026-11-14T15:40+05:30",
 "v": 7.3
-},
-"BSE:504697": {
-"t": "2026-11-14T11:40+05:30",
-"v": 30.7
 },
 "BSE:504746": {
 "t": "2026-11-14T17:27+05:30",
@@ -64299,7 +64297,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T11:35+05:30",
+"t": "2026-11-16T11:41+05:30",
 "v": "INE09A801015"
 },
 "123456": {
@@ -72265,7 +72263,7 @@
 "v": 23155000
 },
 "INE09A801015": {
-"t": "2026-11-16T11:35+05:30",
+"t": "2026-11-16T11:41+05:30",
 "v": 151719830000
 },
 "INE09E501017": {
