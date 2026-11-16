@@ -3578,9 +3578,6 @@
 }
 },
 "ann": {
-"ANN-equities-106858248-XELPMOC": {
-"t": "2026-11-13T11:42+05:30"
-},
 "ANN-equities-106858270-XTGLOBAL": {
 "t": "2026-11-13T11:55+05:30"
 },
@@ -6086,9 +6083,6 @@
 "BANN-13ae26b6-6dc1-4413-9777-13ca6bf8e1b4": {
 "t": "2026-11-13T13:44+05:30"
 },
-"BANN-13d3f293-17f6-4edc-bc20-cfff005457e4": {
-"t": "2026-11-13T11:48+05:30"
-},
 "BANN-140ae043-2ed6-4789-bdf5-6d61668181b7": {
 "t": "2026-11-13T17:02+05:30"
 },
@@ -8104,9 +8098,6 @@
 },
 "BANN-a260bed9-2e2a-40b3-9590-ab20f02d3109": {
 "t": "2026-11-13T13:53+05:30"
-},
-"BANN-a28d11a8-9041-4059-babb-8c6eeaec2f15": {
-"t": "2026-11-13T11:48+05:30"
 },
 "BANN-a2a0e3b2-2a1c-40be-bef3-578ce6590866": {
 "t": "2026-11-13T18:33+05:30"
@@ -23946,9 +23937,9 @@
 "t": "2026-11-16T08:07+05:30"
 },
 "NSE-sme-IF-214776": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-16T11:41+05:30"
+"t": "2026-11-16T11:48+05:30"
 }
 },
 "first_seen": {
@@ -28341,14 +28332,17 @@
 "NSE SME|SKYTECH|2026-09-30": {
 "t": "2026-11-13T12:55+05:30"
 },
-"NSE SME|SLONE|2026-09-30": {
-"t": "2026-11-13T11:42+05:30"
+"NSE SME|SNEHAA|2026-09-30": {
+"t": "2026-11-16T11:47+05:30"
 },
 "NSE SME|SOCL|2026-09-30": {
 "t": "2026-11-14T15:17+05:30"
 },
 "NSE SME|SOLEX|2026-09-30": {
 "t": "2026-11-13T16:58+05:30"
+},
+"NSE SME|SONAMAC|2026-09-30": {
+"t": "2026-11-16T11:47+05:30"
 },
 "NSE SME|SOTAC|2026-09-30": {
 "t": "2026-11-13T19:05+05:30"
@@ -28439,6 +28433,9 @@
 },
 "NSE SME|UTKAL|2026-09-30": {
 "t": "2026-11-14T11:22+05:30"
+},
+"NSE SME|UWCSL|2026-09-30": {
+"t": "2026-11-16T11:47+05:30"
 },
 "NSE SME|VAISHALI|2026-09-30": {
 "t": "2026-11-14T21:43+05:30"
@@ -58825,10 +58822,6 @@
 "t": "2026-11-14T18:16+05:30",
 "v": 223.4
 },
-"SAMMAANCAP": {
-"t": "2026-11-14T11:46+05:30",
-"v": 15977.0
-},
 "SANWARIA": {
 "t": "2026-11-14T18:57+05:30",
 "v": 36.1
@@ -60798,6 +60791,54 @@
 "uid": "NSE-sme-IF-214776",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214776_16112026111645_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758926_16112026111643_WEB.xml"
+},
+"NSE-sme-IF-214782": {
+"company": "Snehaa Organics Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T11:41:18+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SNEHAA",
+"t": "2026-11-16T11:47+05:30",
+"uid": "NSE-sme-IF-214782",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214782_16112026114117_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758931_16112026114115_WEB.xml"
+},
+"NSE-sme-IF-214783": {
+"company": "Sona Machinery Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T11:42:12+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SONAMAC",
+"t": "2026-11-16T11:47+05:30",
+"uid": "NSE-sme-IF-214783",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214783_16112026114211_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758934_16112026114210_WEB.xml"
+},
+"NSE-sme-IF-214784": {
+"company": "Ultra Wiring Connectivity System Limited",
+"consolidated": false,
+"filed_at": "2026-11-16T11:44:31+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "UWCSL",
+"t": "2026-11-16T11:47+05:30",
+"uid": "NSE-sme-IF-214784",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214784_16112026114430_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758938_16112026114429_WEB.xml"
 }
 },
 "posted": {
@@ -64297,7 +64338,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T11:41+05:30",
+"t": "2026-11-16T11:48+05:30",
 "v": "INE09A801015"
 },
 "123456": {
@@ -72263,7 +72304,7 @@
 "v": 23155000
 },
 "INE09A801015": {
-"t": "2026-11-16T11:41+05:30",
+"t": "2026-11-16T11:48+05:30",
 "v": 151719830000
 },
 "INE09E501017": {
