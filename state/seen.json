@@ -6899,6 +6899,9 @@
 "BANN-50f7cfb1-a83f-4c78-aed4-b3095ec80615": {
 "t": "2026-11-14T12:43+05:30"
 },
+"BANN-515e1b33-a054-499c-95c6-4e33b5bff042": {
+"t": "2026-11-16T10:40+05:30"
+},
 "BANN-5160e34c-a60e-45fb-9243-4f8ec37a6bea": {
 "t": "2026-11-14T17:18+05:30"
 },
@@ -32048,6 +32051,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8d5bc4-e1f6-4bea-8368-53a188bff842.pdf",
 "t": "2026-11-14T19:05+05:30"
 },
+"BSE:519383": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e33a0cb-35a6-4979-adc5-25af65fba699.pdf",
+"t": "2026-11-16T10:35+05:30"
+},
 "BSE:519397": {
 "c": 1,
 "t": "2026-11-12T16:15+05:30"
@@ -38679,7 +38686,7 @@
 "t": "2026-11-12T14:45+05:30"
 },
 "INE087B01017": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ANIKINDS_14112026180303_Outcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e33a0cb-35a6-4979-adc5-25af65fba699.pdf",
 "t": "2026-11-14T18:09+05:30"
 },
 "INE087E01011": {
@@ -46494,7 +46501,7 @@
 "t": "2026-11-13T18:34+05:30"
 },
 "N:ANIKINDUSTRIES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ANIKINDS_14112026180303_Outcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e33a0cb-35a6-4979-adc5-25af65fba699.pdf",
 "t": "2026-11-14T18:09+05:30"
 },
 "N:ANJANIFOODS": {
@@ -56907,6 +56914,10 @@
 "BSE:519331": {
 "t": "2026-11-14T19:22+05:30",
 "v": 52.6
+},
+"BSE:519383": {
+"t": "2026-11-16T10:40+05:30",
+"v": 113.3
 },
 "BSE:519413": {
 "t": "2026-11-14T13:21+05:30",
