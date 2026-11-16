@@ -32,14 +32,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:20+05:30"
 },
-"AVALON": {
-"d": "2026-11-12",
-"mcap": 14096.1,
-"mid": 404,
-"n": "AVALONTECHNOLOGIES",
-"pdf": 5,
-"t": "2026-11-12T22:48+05:30"
-},
 "AXISCADES": {
 "d": "2026-11-13",
 "mcap": 8144.9,
@@ -760,14 +752,6 @@
 "pdf": 6,
 "t": "2026-11-14T12:05+05:30"
 },
-"BSE:544224": {
-"d": "2026-11-12",
-"mcap": 4274.8,
-"mid": 405,
-"n": "AFCOMHOLDINGS",
-"pdf": 5,
-"t": "2026-11-12T22:48+05:30"
-},
 "BSE:544226": {
 "d": "2026-11-14",
 "mcap": 8374.3,
@@ -1297,14 +1281,6 @@
 "n": "MANOJVAIBHAVGEMSNJEWELLERS",
 "pdf": 5,
 "t": "2026-11-13T11:55+05:30"
-},
-"INE0LCL01028": {
-"d": "2026-11-12",
-"mcap": 14096.1,
-"mid": 404,
-"n": "AVALONTECHNOLOGIES",
-"pdf": 5,
-"t": "2026-11-12T22:48+05:30"
 },
 "INE0LGX01024": {
 "d": "2026-11-13",
@@ -3775,6 +3751,9 @@
 },
 "BANN-13053acb-b484-4c9f-b5e0-a41b5b816829": {
 "t": "2026-11-14T19:33+05:30"
+},
+"BANN-13d845ff-4d94-43d4-8a2f-80bd3da790f7": {
+"t": "2026-11-16T22:50+05:30"
 },
 "BANN-146199be-24cb-4c05-87d7-6ad038ccd666": {
 "t": "2026-11-14T20:45+05:30"
@@ -7778,10 +7757,6 @@
 "BSE-Integrated_Finance_Ind_As_516096_14112026134249_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T15:49+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_516098_9112026194037_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-09T22:44+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_516106_13112026184545_IFIndAs.xml": {
 "s": "superseded",
@@ -20963,6 +20938,9 @@
 "BSE|531286|2026-09-30": {
 "t": "2026-11-14T15:48+05:30"
 },
+"BSE|531300|2026-09-30": {
+"t": "2026-11-16T22:48+05:30"
+},
 "BSE|531307|2026-09-30": {
 "t": "2026-11-14T18:23+05:30"
 },
@@ -26945,6 +26923,10 @@
 },
 "BSE:531297": {
 "t": "2026-11-12T18:09+05:30"
+},
+"BSE:531300": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08ec20e2-b7c4-46b6-95e2-a2759a4c76b4.pdf",
+"t": "2026-11-16T22:47+05:30"
 },
 "BSE:531301": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f7ff526-bc23-4d2d-8432-427b2641ba22.pdf",
@@ -40072,6 +40054,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2d08c5f9-3b03-4a80-8ef6-617d03163832.pdf",
 "t": "2026-11-14T19:57+05:30"
 },
+"N:AMITINTERNATIONAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08ec20e2-b7c4-46b6-95e2-a2759a4c76b4.pdf",
+"t": "2026-11-16T22:47+05:30"
+},
 "N:AMITSECURITIES": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8bf3273-bc67-4154-b3e9-6cbe3973490f.pdf",
@@ -50126,6 +50112,10 @@
 "t": "2026-11-16T08:15+05:30",
 "v": 7.9
 },
+"BSE:531300": {
+"t": "2026-11-16T22:50+05:30",
+"v": 6.2
+},
 "BSE:531381": {
 "t": "2026-11-16T08:15+05:30",
 "v": 980.9
@@ -52095,6 +52085,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_520121_1611202621439_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520121_1611202621439_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_520121_1611202621439_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531300_16112026221740_IFIndAs.xml": {
+"company": "Amit International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531300",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-16T22:48+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531300_16112026221740_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531300_16112026221740_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531300_16112026221740_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml": {
 "company": "Supreme Infrastructure India Ltd",
