@@ -23827,9 +23827,9 @@
 "t": "2026-11-16T08:06+05:30"
 },
 "NSE-sme-IF-214700": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-16T09:33+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-16T09:39+05:30"
 },
 "NSE-sme-IF-214701": {
 "s": "superseded",
@@ -60747,22 +60747,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml"
-},
-"NSE-sme-IF-214700": {
-"company": "V R Infraspace Limited",
-"consolidated": false,
-"filed_at": "2026-11-14T23:38:28+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "VR",
-"t": "2026-11-14T23:39+05:30",
-"uid": "NSE-sme-IF-214700",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214700_14112026233827_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758848_14112026113827_WEB.xml"
 }
 },
 "posted": {
@@ -64262,7 +64246,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T09:33+05:30",
+"t": "2026-11-16T09:39+05:30",
 "v": "INE0QQM01017"
 },
 "123456": {
@@ -73232,7 +73216,7 @@
 "v": 18699000
 },
 "INE0QQM01017": {
-"t": "2026-11-16T09:33+05:30",
+"t": "2026-11-16T09:39+05:30",
 "v": 888000
 },
 "INE0QR801013": {
