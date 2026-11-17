@@ -2184,9 +2184,6 @@
 }
 },
 "ann": {
-"ANN-equities-106860573-JSIPL": {
-"t": "2026-11-14T14:49+05:30"
-},
 "ANN-equities-106860586-WCIL": {
 "t": "2026-11-14T14:57+05:30"
 },
@@ -3675,9 +3672,6 @@
 "BANN-4bad7647-793b-476c-9965-49b68d2f8220": {
 "t": "2026-11-14T20:06+05:30"
 },
-"BANN-4cc59a5b-12bb-4e0d-b944-b291e6c11d33": {
-"t": "2026-11-14T14:49+05:30"
-},
 "BANN-4d13e6b5-4a02-4805-81eb-55e5302a1011": {
 "t": "2026-11-14T18:01+05:30"
 },
@@ -4646,9 +4640,6 @@
 },
 "BANN-ee4dc38f-f9d0-43b1-8c48-d7865ebde9d5": {
 "t": "2026-11-14T21:50+05:30"
-},
-"BANN-ee6313b4-4039-41af-9572-2d8b97f8faba": {
-"t": "2026-11-14T14:49+05:30"
 },
 "BANN-eef4c46e-079c-4668-8947-e327055a7abc": {
 "t": "2026-11-14T18:57+05:30"
@@ -6203,9 +6194,9 @@
 "t": "2026-11-14T16:41+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_506580_16112026142930_IFIndAs.xml": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-17T14:47+05:30"
+"t": "2026-11-17T14:53+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_506640_1411202623913_IFIndAs.xml": {
 "s": "small",
@@ -9437,6 +9428,10 @@
 "BSE-Integrated_Finance_Ind_As_532896_1411202618030_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T20:18+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-17T14:53+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_532906_1411202618656_IFIndAs.xml": {
 "s": "small",
@@ -19518,9 +19513,6 @@
 "BSE|501945|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
-"BSE|502216|2026-09-30": {
-"t": "2026-11-14T14:48+05:30"
-},
 "BSE|503092|2026-09-30": {
 "t": "2026-11-14T16:55+05:30"
 },
@@ -19658,9 +19650,6 @@
 },
 "BSE|511628|2026-09-30": {
 "t": "2026-11-14T15:48+05:30"
-},
-"BSE|511642|2026-09-30": {
-"t": "2026-11-14T14:48+05:30"
 },
 "BSE|511700|2026-09-30": {
 "t": "2026-11-14T17:25+05:30"
@@ -20351,9 +20340,6 @@
 },
 "BSE|532712|2026-09-30": {
 "t": "2026-11-14T20:53+05:30"
-},
-"BSE|532730|2026-09-30": {
-"t": "2026-11-14T14:48+05:30"
 },
 "BSE|532788|2026-09-30": {
 "t": "2026-11-14T19:39+05:30"
@@ -22070,9 +22056,6 @@
 },
 "NSE|SEYAIND|2026-09-30": {
 "t": "2026-11-14T18:08+05:30"
-},
-"NSE|SGL|2026-09-30": {
-"t": "2026-11-14T14:48+05:30"
 },
 "NSE|SHAHINVEST|2026-09-30": {
 "t": "2026-11-14T19:51+05:30"
@@ -50848,22 +50831,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_506580_16112026142930_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_506580_16112026142930_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml": {
-"company": "Supreme Infrastructure India Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532904",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-16T14:53+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml"
-},
 "NSE-equities-IF-214918": {
 "company": "Shradha Realty Limited",
 "consolidated": false,
@@ -55093,7 +55060,7 @@
 "v": "INE881E01017"
 },
 "506580": {
-"t": "2026-11-17T14:47+05:30",
+"t": "2026-11-17T14:53+05:30",
 "v": "INE615W01011"
 },
 "506640": {
@@ -58649,7 +58616,7 @@
 "v": "INE387I01016"
 },
 "532904": {
-"t": "2026-11-16T16:01+05:30",
+"t": "2026-11-17T14:53+05:30",
 "v": "INE550H01011"
 },
 "532906": {
@@ -67627,7 +67594,7 @@
 "v": 288172000
 },
 "INE550H01011": {
-"t": "2026-11-16T16:01+05:30",
+"t": "2026-11-17T14:53+05:30",
 "v": 97502800
 },
 "INE550L01013": {
@@ -68043,7 +68010,7 @@
 "v": 134650000
 },
 "INE615W01011": {
-"t": "2026-11-17T14:47+05:30",
+"t": "2026-11-17T14:53+05:30",
 "v": 105000
 },
 "INE617A01013": {
