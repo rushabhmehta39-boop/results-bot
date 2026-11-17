@@ -2336,15 +2336,6 @@
 }
 },
 "ann": {
-"ANN-equities-106860414-CHEVIOT": {
-"t": "2026-11-14T13:02+05:30"
-},
-"ANN-equities-106860416-AMDIND": {
-"t": "2026-11-14T13:02+05:30"
-},
-"ANN-equities-106860420-SELMC": {
-"t": "2026-11-14T13:02+05:30"
-},
 "ANN-equities-106860432-SAKUMA": {
 "t": "2026-11-14T13:14+05:30"
 },
@@ -2911,9 +2902,6 @@
 },
 "ANN-equities-106862359-AIFL": {
 "t": "2026-11-16T16:35+05:30"
-},
-"ANN-sme-106860421-SAHASRA": {
-"t": "2026-11-14T13:02+05:30"
 },
 "ANN-sme-106860429-IWARE": {
 "t": "2026-11-14T13:08+05:30"
@@ -4234,9 +4222,6 @@
 },
 "BANN-763c1bd8-1520-443c-8046-1f5255827c1d": {
 "t": "2026-11-14T14:30+05:30"
-},
-"BANN-768fb727-eb89-4a5d-b352-c5dc51c10a2f": {
-"t": "2026-11-14T13:02+05:30"
 },
 "BANN-769890b3-1741-477d-9504-891117a54bb9": {
 "t": "2026-11-14T18:57+05:30"
@@ -19860,9 +19845,9 @@
 "t": "2026-11-17T12:53+05:30"
 },
 "NSE-sme-IF-215082": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-17T12:59+05:30"
+"t": "2026-11-17T13:05+05:30"
 }
 },
 "first_seen": {
@@ -22038,9 +22023,6 @@
 "NSE SME|SAHANA|2026-09-30": {
 "t": "2026-11-14T23:50+05:30"
 },
-"NSE SME|SAHASRA|2026-09-30": {
-"t": "2026-11-14T13:01+05:30"
-},
 "NSE SME|SANGANI|2026-09-30": {
 "t": "2026-11-14T17:33+05:30"
 },
@@ -23542,9 +23524,6 @@
 "BSE:500421": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c640ced0-5514-4bd5-aa31-2c1f638ddff5.pdf",
 "t": "2026-11-14T17:03+05:30"
-},
-"BSE:500439": {
-"t": "2026-11-10T13:03+05:30"
 },
 "BSE:500458": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fbcc369-8f64-46ad-bdad-4fcf33472322.pdf",
@@ -36705,9 +36684,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f4c1dd4-636d-4b75-8767-8ea118477cf0.pdf",
 "t": "2026-11-13T20:08+05:30"
 },
-"INE701A01023": {
-"t": "2026-11-10T13:02+05:30"
-},
 "INE704B01017": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/RACL1983_13112026153502_Outcome_of_Board_Meeting_-_November_13_2026.pdf",
@@ -47355,9 +47331,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c6294443-c8ba-4cca-9f17-75d15ef03418.pdf",
 "t": "2026-11-14T18:17+05:30"
 },
-"N:VARDHMANHOLDINGS": {
-"t": "2026-11-10T13:02+05:30"
-},
 "N:VARDHMANPOLYTEX": {
 "t": "2026-11-12T16:14+05:30"
 },
@@ -49311,9 +49284,6 @@
 "VGINFOTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VIRTUAL_13112026132629_BM_Outcome.pdf",
 "t": "2026-11-13T13:31+05:30"
-},
-"VHL": {
-"t": "2026-11-10T13:02+05:30"
 },
 "VHLTD": {
 "c": 1,
@@ -55121,7 +55091,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T12:59+05:30",
+"t": "2026-11-17T13:05+05:30",
 "v": "INE0OMO01025"
 },
 "123456": {
