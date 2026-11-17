@@ -19517,6 +19517,10 @@
 "s": "small",
 "t": "2026-11-16T14:09+05:30"
 },
+"NSE-sme-IF-214817": {
+"s": "small",
+"t": "2026-11-17T14:19+05:30"
+},
 "NSE-sme-IF-214829": {
 "s": "superseded",
 "t": "2026-11-16T15:09+05:30"
@@ -19565,9 +19569,9 @@
 "t": "2026-11-17T13:11+05:30"
 },
 "NSE-sme-IF-215098": {
-"n": 4,
+"n": 5,
 "s": "retry_mcap",
-"t": "2026-11-17T14:13+05:30"
+"t": "2026-11-17T14:19+05:30"
 }
 },
 "first_seen": {
@@ -19957,9 +19961,6 @@
 },
 "BSE|520121|2026-09-30": {
 "t": "2026-11-16T21:44+05:30"
-},
-"BSE|520141|2026-09-30": {
-"t": "2026-11-14T14:19+05:30"
 },
 "BSE|521036|2026-09-30": {
 "t": "2026-11-14T14:42+05:30"
@@ -20786,9 +20787,6 @@
 "BSE|540914|2026-09-30": {
 "t": "2026-11-14T17:45+05:30"
 },
-"BSE|540954|2026-09-30": {
-"t": "2026-11-14T14:19+05:30"
-},
 "BSE|541144|2026-09-30": {
 "t": "2026-11-14T16:01+05:30"
 },
@@ -20980,9 +20978,6 @@
 },
 "BSE|544053|2026-09-30": {
 "t": "2026-11-14T19:16+05:30"
-},
-"BSE|544072|2026-09-30": {
-"t": "2026-11-14T14:19+05:30"
 },
 "BSE|544083|2026-09-30": {
 "t": "2026-11-14T18:51+05:30"
@@ -51054,22 +51049,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_GOVERNANCE_215024_16112026195735_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_GOVERNANCE_1759239_16112026075734_WEB.xml"
 },
-"NSE-sme-IF-214817": {
-"company": "SMVD Poly Pack Limited",
-"consolidated": false,
-"filed_at": "2026-11-16T14:16:15+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "SMVD",
-"t": "2026-11-16T14:21+05:30",
-"uid": "NSE-sme-IF-214817",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214817_16112026141614_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758986_16112026021613_WEB.xml"
-},
 "NSE-sme-IF-214899": {
 "company": "Macobs Technologies Limited",
 "consolidated": false,
@@ -54655,7 +54634,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T14:13+05:30",
+"t": "2026-11-17T14:19+05:30",
 "v": "INE0MTP01013"
 },
 "123456": {
@@ -63305,7 +63284,7 @@
 "v": 4996900
 },
 "INE0MTP01013": {
-"t": "2026-11-17T14:13+05:30",
+"t": "2026-11-17T14:19+05:30",
 "v": 17482000000
 },
 "INE0MV001018": {
@@ -68767,6 +68746,10 @@
 "INE702E01015": {
 "t": "2026-11-14T13:35+05:30",
 "v": 6272600
+},
+"INE702Y01013": {
+"t": "2026-11-17T14:19+05:30",
+"v": 100000
 },
 "INE704B01017": {
 "t": "2026-11-13T16:21+05:30",
