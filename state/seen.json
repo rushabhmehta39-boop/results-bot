@@ -104,14 +104,6 @@
 "pdf": 5,
 "t": "2026-11-13T21:50+05:30"
 },
-"BSE:500168": {
-"d": "2026-11-13",
-"mcap": 1678.1,
-"mid": 435,
-"n": "GOODYEARINDIA",
-"pdf": 5,
-"t": "2026-11-13T13:44+05:30"
-},
 "BSE:500201": {
 "d": "2026-11-13",
 "mcap": 2085.5,
@@ -1274,14 +1266,6 @@
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
 },
-"INE0RYC01010": {
-"d": "2026-11-13",
-"mcap": 2177.8,
-"mid": 434,
-"n": "STALLIONINDIAFLUOROCHEMICALS",
-"pdf": 5,
-"t": "2026-11-13T13:44+05:30"
-},
 "INE0TY101024": {
 "d": "2026-11-13",
 "mcap": 970.7,
@@ -2149,14 +2133,6 @@
 "n": "SSRETAIL",
 "pdf": 5,
 "t": "2026-11-13T21:32+05:30"
-},
-"STALLION": {
-"d": "2026-11-13",
-"mcap": 2177.8,
-"mid": 434,
-"n": "STALLIONINDIAFLUOROCHEMICALS",
-"pdf": 5,
-"t": "2026-11-13T13:44+05:30"
 },
 "STYLEBAAZA": {
 "d": "2026-11-14",
@@ -3383,6 +3359,9 @@
 "ANN-sme-106863481-CELLECOR": {
 "t": "2026-11-17T12:31+05:30"
 },
+"ANN-sme-106863549-AMIABLE": {
+"t": "2026-11-17T13:44+05:30"
+},
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
 },
@@ -3559,9 +3538,6 @@
 },
 "BANN-1ca98375-7488-4331-9542-936e0084c580": {
 "t": "2026-11-14T15:18+05:30"
-},
-"BANN-1cd22cfe-d0e3-43b8-9508-1717ab3391c5": {
-"t": "2026-11-14T13:41+05:30"
 },
 "BANN-1dacc7e0-a6f0-4216-a7d3-a904954bfb7f": {
 "t": "2026-11-14T19:33+05:30"
@@ -3893,9 +3869,6 @@
 "BANN-51f867b2-379e-4db2-b8d1-0288415f66ed": {
 "t": "2026-11-14T18:29+05:30"
 },
-"BANN-524b3566-b7e8-4742-9294-306ebd363c37": {
-"t": "2026-11-14T13:41+05:30"
-},
 "BANN-52c4e822-2c11-4b30-b0cd-a96d3a6daca6": {
 "t": "2026-11-14T17:08+05:30"
 },
@@ -4009,9 +3982,6 @@
 },
 "BANN-62ba23da-b2ff-4412-bd92-71154a86582e": {
 "t": "2026-11-14T17:18+05:30"
-},
-"BANN-630b8455-4ff3-4052-93ed-7f21cbd1b404": {
-"t": "2026-11-14T13:41+05:30"
 },
 "BANN-6380f96a-454e-43dc-a497-732ad4d040b0": {
 "t": "2026-11-14T19:22+05:30"
@@ -20337,9 +20307,6 @@
 "BSE|526727|2026-09-30": {
 "t": "2026-11-14T16:09+05:30"
 },
-"BSE|526747|2026-09-30": {
-"t": "2026-11-14T13:41+05:30"
-},
 "BSE|526817|2026-09-30": {
 "t": "2026-11-14T14:56+05:30"
 },
@@ -21539,6 +21506,9 @@
 },
 "NSE SME|AMBAAUTO|2026-09-30": {
 "t": "2026-11-14T20:26+05:30"
+},
+"NSE SME|AMIABLE|2026-09-30": {
+"t": "2026-11-17T13:44+05:30"
 },
 "NSE SME|ANNAPURNA|2026-09-30": {
 "t": "2026-11-14T18:37+05:30"
@@ -22787,7 +22757,7 @@
 "t": "2026-11-14T12:56+05:30"
 },
 "AMIABLE": {
-"pdf": "https://nsearchives.nseindia.in/corporate/AMIABLE_13112026151347_BM_outcome_Finall_NSE.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AMIABLE_17112026133224_BM_outcome_Finall_NSE.pdf",
 "t": "2026-11-13T15:21+05:30"
 },
 "ANIKINDS": {
@@ -39293,7 +39263,7 @@
 "t": "2026-11-13T17:58+05:30"
 },
 "N:AMIABLELOGISTICSINDIA": {
-"pdf": "https://nsearchives.nseindia.in/corporate/AMIABLE_13112026151347_BM_outcome_Finall_NSE.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/AMIABLE_17112026133224_BM_outcome_Finall_NSE.pdf",
 "t": "2026-11-13T15:21+05:30"
 },
 "N:AMICFORGING": {
@@ -51365,6 +51335,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215098": {
+"company": "Amiable Logistics (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T13:40:16+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "AMIABLE",
+"t": "2026-11-17T13:44+05:30",
+"uid": "NSE-sme-IF-215098",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215098_17112026134015_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759355_17112026014015_WEB.xml"
 }
 },
 "posted": {
