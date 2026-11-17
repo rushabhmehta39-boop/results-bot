@@ -136,14 +136,6 @@
 "pdf": 5,
 "t": "2026-11-13T14:29+05:30"
 },
-"BSE:500463": {
-"d": "2026-11-13",
-"mcap": 15788.6,
-"mid": 426,
-"n": "BLACKBOX",
-"pdf": 5,
-"t": "2026-11-13T12:20+05:30"
-},
 "BSE:500645": {
 "d": "2026-11-13",
 "mcap": 15913.5,
@@ -2352,9 +2344,6 @@
 }
 },
 "ann": {
-"ANN-equities-106860370-HISARMETAL": {
-"t": "2026-11-14T12:24+05:30"
-},
 "ANN-equities-106860382-MBAPL": {
 "t": "2026-11-14T12:36+05:30"
 },
@@ -4163,9 +4152,6 @@
 },
 "BANN-6399b7fb-2f09-474f-b2c4-11eb5531dcf4": {
 "t": "2026-11-14T15:26+05:30"
-},
-"BANN-6441c059-1299-4558-bcdc-5f9f67bafe46": {
-"t": "2026-11-14T12:24+05:30"
 },
 "BANN-64979bc2-c065-4c6c-9406-ffe59db72255": {
 "t": "2026-11-14T17:40+05:30"
@@ -19914,6 +19900,11 @@
 "NSE-sme-IF-215020": {
 "s": "small",
 "t": "2026-11-16T20:11+05:30"
+},
+"NSE-sme-IF-215079": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-17T12:25+05:30"
 }
 },
 "first_seen": {
@@ -20102,9 +20093,6 @@
 },
 "BSE|511246|2026-09-30": {
 "t": "2026-11-14T15:48+05:30"
-},
-"BSE|511401|2026-09-30": {
-"t": "2026-11-14T12:23+05:30"
 },
 "BSE|511411|2026-09-30": {
 "t": "2026-11-14T19:04+05:30"
@@ -21945,6 +21933,9 @@
 "NSE SME|IPHL|2026-09-30": {
 "t": "2026-11-14T17:33+05:30"
 },
+"NSE SME|IPSL|2026-09-30": {
+"t": "2026-11-17T12:25+05:30"
+},
 "NSE SME|IWARE|2026-09-30": {
 "t": "2026-11-14T13:20+05:30"
 },
@@ -23555,9 +23546,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3f96584a-211c-46ec-9756-3795e73775cf.pdf",
 "t": "2026-11-14T16:13+05:30"
-},
-"BSE:500290": {
-"t": "2026-11-10T12:23+05:30"
 },
 "BSE:500298": {
 "t": "2026-11-11T19:08+05:30"
@@ -37843,9 +37831,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0acdfb4-4689-4aa0-804f-cff283b7c110.pdf",
 "t": "2026-11-14T13:40+05:30"
 },
-"INE883A01011": {
-"t": "2026-11-10T12:24+05:30"
-},
 "INE883B01027": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/495d58b0-6131-4e6c-a643-dc8b1a2969be.pdf",
@@ -39126,9 +39111,6 @@
 "MPTODAY": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MPTODAY_13112026194019_outcome_of_board_meeting.pdf",
 "t": "2026-11-12T20:47+05:30"
-},
-"MRF": {
-"t": "2026-11-10T12:24+05:30"
 },
 "MSPL": {
 "c": 1,
@@ -43911,9 +43893,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a27e06c3-d6c4-4913-bbae-2292d8440cc3.pdf",
 "t": "2026-11-14T21:29+05:30"
-},
-"N:MRF": {
-"t": "2026-11-10T12:24+05:30"
 },
 "N:MRPAGRO": {
 "c": 1,
@@ -51663,6 +51642,38 @@
 "uid": "NSE-sme-IF-214918",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214918_16112026173516_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759133_16112026053515_WEB.xml"
+},
+"NSE-sme-IF-215078": {
+"company": "Integrated Personnel Services Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T12:21:21+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "IPSL",
+"t": "2026-11-17T12:25+05:30",
+"uid": "NSE-sme-IF-215078",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215078_17112026122120_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759319_17112026122120_WEB.xml"
+},
+"NSE-sme-IF-215079": {
+"company": "Integrated Personnel Services Limited",
+"consolidated": true,
+"filed_at": "2026-11-17T12:24:21+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "IPSL",
+"t": "2026-11-17T12:25+05:30",
+"uid": "NSE-sme-IF-215079",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215079_17112026122420_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759321_17112026122420_WEB.xml"
 }
 },
 "posted": {
@@ -55169,8 +55180,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T12:13+05:30",
-"v": "INE0BHK01012"
+"t": "2026-11-17T12:25+05:30",
+"v": "INE02EE01019"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
