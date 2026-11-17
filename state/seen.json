@@ -2940,9 +2940,6 @@
 "ANN-equities-106862359-AIFL": {
 "t": "2026-11-16T16:35+05:30"
 },
-"ANN-sme-106860349-SAHASRA": {
-"t": "2026-11-14T12:12+05:30"
-},
 "ANN-sme-106860421-SAHASRA": {
 "t": "2026-11-14T13:02+05:30"
 },
@@ -11731,6 +11728,10 @@
 "s": "superseded",
 "t": "2026-11-13T22:28+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
+"s": "superseded",
+"t": "2026-11-17T12:14+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_544947_12112026214948_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T08:07+05:30"
@@ -19849,6 +19850,10 @@
 "s": "failed",
 "t": "2026-11-16T12:41+05:30"
 },
+"NSE-sme-IF-214790": {
+"s": "posted",
+"t": "2026-11-17T12:14+05:30"
+},
 "NSE-sme-IF-214791": {
 "n": 6,
 "s": "failed",
@@ -21840,9 +21845,6 @@
 },
 "NSE SME|COREIN|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
-},
-"NSE SME|CPS|2026-09-30": {
-"t": "2026-11-14T12:11+05:30"
 },
 "NSE SME|CRAYONS|2026-09-30": {
 "t": "2026-11-14T20:53+05:30"
@@ -26482,9 +26484,6 @@
 "BSE:531304": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/da9a74c3-b8a9-4950-bcf6-b628281b2a0c.pdf",
 "t": "2026-11-13T16:42+05:30"
-},
-"BSE:531306": {
-"t": "2026-11-10T12:12+05:30"
 },
 "BSE:531307": {
 "c": 1,
@@ -31968,6 +31967,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92e66905-e44a-47c1-9e59-fea4f727d283.pdf",
 "t": "2026-11-14T19:19+05:30"
 },
+"INE0BHK01012": {
+"c": 1,
+"t": "2026-11-17T12:14+05:30"
+},
 "INE0BIW01023": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43b8b7a6-45da-4592-9763-a5d7371892ec.pdf",
 "t": "2026-11-14T22:17+05:30"
@@ -36139,9 +36142,6 @@
 "INE590B01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d05ed683-f317-431f-9528-4371cc805439.pdf",
 "t": "2026-11-14T16:32+05:30"
-},
-"INE590D01016": {
-"t": "2026-11-10T12:12+05:30"
 },
 "INE590L01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b8063d4-9e4c-46cd-95e9-0044469fb8cb.pdf",
@@ -41054,9 +41054,6 @@
 "pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a7f9247-8037-4f48-8d0c-615713423e52.pdf|card|6",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a7f9247-8037-4f48-8d0c-615713423e52.pdf|S|6",
 "t": "2026-11-14T20:37+05:30"
-},
-"N:DHPINDIA": {
-"t": "2026-11-10T12:12+05:30"
 },
 "N:DIGIKORESTUDIOS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/DIGIKORE_14112026152328_DIGIKORE_OUTCOME_H1_14112026_Signed.pdf",
@@ -47679,7 +47676,9 @@
 "t": "2026-11-12T14:51+05:30"
 },
 "N:VISAMANGLOBALSALES": {
+"c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf|card|6",
 "t": "2026-11-13T18:10+05:30"
 },
 "N:VISDEMTECHNOSYS": {
@@ -49460,7 +49459,9 @@
 "t": "2026-11-12T14:51+05:30"
 },
 "VISAMAN": {
+"c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/VISAMAN2019_16112026120120_Final_Outcome_Signed.pdf|card|6",
 "t": "2026-11-13T18:10+05:30"
 },
 "VISDEM": {
@@ -51583,22 +51584,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
-"company": "Elevate Campuses Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544945",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-16T12:08+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml"
-},
 "NSE-equities-IF-214918": {
 "company": "Shradha Realty Limited",
 "consolidated": false,
@@ -51630,22 +51615,6 @@
 "uid": "NSE-equities-IF-215024",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_GOVERNANCE_215024_16112026195735_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_GOVERNANCE_1759239_16112026075734_WEB.xml"
-},
-"NSE-sme-IF-214790": {
-"company": "Visaman Global Sales Limited",
-"consolidated": false,
-"filed_at": "2026-11-16T12:11:59+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "VISAMAN",
-"t": "2026-11-16T12:15+05:30",
-"uid": "NSE-sme-IF-214790",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_214790_16112026121158_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1758945_16112026121157_WEB.xml"
 },
 "NSE-sme-IF-214817": {
 "company": "SMVD Poly Pack Limited",
@@ -52400,6 +52369,13 @@
 "n": "KRONOXLABSCIENCES",
 "pe": "2026-09-30",
 "t": "2026-11-06T23:14+05:30"
+},
+"INE0BHK01012|2026-09-30|S": {
+"b": "S",
+"mid": 922,
+"n": "VISAMANGLOBALSALES",
+"pe": "2026-09-30",
+"t": "2026-11-17T12:14+05:30"
 },
 "INE0BX301013|2026-09-30|C": {
 "b": "C",
@@ -55193,8 +55169,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-16T20:11+05:30",
-"v": "INE0NVI01020"
+"t": "2026-11-17T12:13+05:30",
+"v": "INE0BHK01012"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -63319,7 +63295,7 @@
 "v": 16383400
 },
 "INE0BHK01012": {
-"t": "2026-11-16T12:57+05:30",
+"t": "2026-11-17T12:13+05:30",
 "v": 212710990000
 },
 "INE0BIW01023": {
