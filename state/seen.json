@@ -40,14 +40,6 @@
 "pdf": 6,
 "t": "2026-11-14T18:29+05:30"
 },
-"BELRISE": {
-"d": "2026-11-13",
-"mcap": 20813.1,
-"mid": 568,
-"n": "BELRISEINDUSTRIES",
-"pdf": 5,
-"t": "2026-11-13T18:59+05:30"
-},
 "BRIGHTOUTD": {
 "d": "2026-11-14",
 "mcap": 798.7,
@@ -271,14 +263,6 @@
 "n": "MIDWESTENERGY",
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
-},
-"BSE:526947": {
-"d": "2026-11-13",
-"mcap": 1724.4,
-"mid": 569,
-"n": "LAOPALARG",
-"pdf": 5,
-"t": "2026-11-13T18:59+05:30"
 },
 "BSE:530199": {
 "d": "2026-11-14",
@@ -1072,14 +1056,6 @@
 "pdf": 6,
 "t": "2026-11-14T15:04+05:30"
 },
-"INE894V01022": {
-"d": "2026-11-13",
-"mcap": 20813.1,
-"mid": 568,
-"n": "BELRISEINDUSTRIES",
-"pdf": 5,
-"t": "2026-11-13T18:59+05:30"
-},
 "INE903A01025": {
 "d": "2026-11-13",
 "mcap": 2723.0,
@@ -1352,39 +1328,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861036-ARHAM": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861038-PANSARI": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861040-LOVABLE": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861042-AAREYDRUGS": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861046-AGASTYAEN": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861052-SANWARIA": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861056-ATALREAL": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861058-URAVIDEF": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861061-GUJAPOLLO": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861064-JAIPURKURT": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-equities-106861065-MOTISONS": {
-"t": "2026-11-14T18:57+05:30"
-},
 "ANN-equities-106861072-ENERGYDEV": {
 "t": "2026-11-14T19:09+05:30"
 },
@@ -1607,17 +1550,8 @@
 "ANN-equities-106863996-LIBAS": {
 "t": "2026-11-17T18:28+05:30"
 },
-"ANN-sme-106861039-ENCOMPAS": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-sme-106861049-PRATHAM": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-sme-106861050-VIJAYPD": {
-"t": "2026-11-14T18:57+05:30"
-},
-"ANN-sme-106861060-SNEHAA": {
-"t": "2026-11-14T18:57+05:30"
+"ANN-equities-106864045-GANGAFORGE": {
+"t": "2026-11-17T19:02+05:30"
 },
 "ANN-sme-106861068-VEEKAYEM": {
 "t": "2026-11-14T19:09+05:30"
@@ -1916,14 +1850,8 @@
 "BANN-07662d3c-873a-43eb-aa93-49841655b3aa": {
 "t": "2026-11-14T20:33+05:30"
 },
-"BANN-08ad4445-67fe-4236-be80-362db64117c8": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-09d67e5c-eca3-41f0-acfe-b3bb5fae7194": {
 "t": "2026-11-16T08:15+05:30"
-},
-"BANN-0b51af7e-11c7-40d7-8e79-9645379a328a": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-0b60c50f-7942-4cef-9aec-d60c0e54c26a": {
 "t": "2026-11-16T08:15+05:30"
@@ -1979,12 +1907,6 @@
 "BANN-25bdbef1-3331-4917-a6bf-bc79361b1f9f": {
 "t": "2026-11-14T20:33+05:30"
 },
-"BANN-28ed520d-aa49-4436-9f03-68187c3742ba": {
-"t": "2026-11-14T18:57+05:30"
-},
-"BANN-2a536cd0-a5c7-43bb-a97d-04bbb048ee91": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-2a6fd9fa-8cc3-4bfb-a583-cb68b86e4f67": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -2030,9 +1952,6 @@
 "BANN-3d42e895-894e-4000-a83a-8da9d1815ad0": {
 "t": "2026-11-16T08:15+05:30"
 },
-"BANN-3def995d-b8c2-4571-aa3d-912c558ee4ea": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-3f71a425-a56f-4721-a09f-cdc7f92b3689": {
 "t": "2026-11-14T19:22+05:30"
 },
@@ -2041,9 +1960,6 @@
 },
 "BANN-406d42b2-ba90-4cbb-a5bb-c02b895d4ec5": {
 "t": "2026-11-14T19:09+05:30"
-},
-"BANN-42e5f92a-339c-4e47-900f-e310395d56b4": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-43640ab3-978a-4fb9-b373-c8573f1d818f": {
 "t": "2026-11-14T19:33+05:30"
@@ -2086,9 +2002,6 @@
 },
 "BANN-58416534-9416-4dc7-b7a4-9edf53a6ca24": {
 "t": "2026-11-14T22:28+05:30"
-},
-"BANN-5a20a772-033e-44aa-a52c-7ff26e7705b0": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-5a707fbc-4bf9-42bf-866d-2981cd42072b": {
 "t": "2026-11-14T19:45+05:30"
@@ -2156,17 +2069,11 @@
 "BANN-761a8201-1c29-423e-a478-89cc0e9d7265": {
 "t": "2026-11-14T19:33+05:30"
 },
-"BANN-769890b3-1741-477d-9504-891117a54bb9": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-774ab825-860d-4138-b5d6-7bb7aeb0b983": {
 "t": "2026-11-14T19:45+05:30"
 },
 "BANN-77e5f15d-93eb-4409-8381-1712f7d323db": {
 "t": "2026-11-14T20:06+05:30"
-},
-"BANN-79629d45-fb10-4299-838c-425747c5f70f": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-7972b479-0db2-4196-9cec-ae3ecf9af823": {
 "t": "2026-11-16T08:15+05:30"
@@ -2189,14 +2096,14 @@
 "BANN-7ecddc86-0b8b-42c4-a7d5-e669e4ae18fc": {
 "t": "2026-11-14T21:30+05:30"
 },
-"BANN-7eec4b27-6d5f-472f-b3b5-9b50b300ded0": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-81497064-446f-44a0-91aa-137cfd3d3978": {
 "t": "2026-11-14T19:22+05:30"
 },
 "BANN-81a5bf1f-515a-48f1-8887-7d1018944939": {
 "t": "2026-11-14T19:45+05:30"
+},
+"BANN-81bda0cf-9221-4a8c-b32f-f3eadc29f432": {
+"t": "2026-11-17T19:02+05:30"
 },
 "BANN-820e5965-fe69-44f8-a882-c6999c6ca10b": {
 "t": "2026-11-14T19:33+05:30"
@@ -2299,9 +2206,6 @@
 },
 "BANN-abc0fe32-d9f0-407b-978e-a731c9411008": {
 "t": "2026-11-14T20:59+05:30"
-},
-"BANN-aefed677-c3d3-4c7a-ab08-3dc001572f28": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-afb767c2-c3b0-4fa3-a969-d63ade0f8bfa": {
 "t": "2026-11-14T22:40+05:30"
@@ -2417,9 +2321,6 @@
 "BANN-de8cf367-738c-4b8b-b308-804abe77d8e6": {
 "t": "2026-11-14T19:09+05:30"
 },
-"BANN-defca771-9480-4a51-b178-cb2b5359365d": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-df4d870c-a414-4b84-b8e8-a46be8109372": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -2450,20 +2351,11 @@
 "BANN-e5823a30-8aa7-4ffb-966e-7b00fea22802": {
 "t": "2026-11-14T20:20+05:30"
 },
-"BANN-e8e9f457-729a-480f-834f-805cedf045f5": {
-"t": "2026-11-14T18:57+05:30"
-},
-"BANN-e9c42477-00b9-48b6-9ba5-06baa762d5b1": {
-"t": "2026-11-14T18:57+05:30"
-},
 "BANN-ebab883f-659e-4dbe-bb08-25a3f1349722": {
 "t": "2026-11-14T21:50+05:30"
 },
 "BANN-ee4dc38f-f9d0-43b1-8c48-d7865ebde9d5": {
 "t": "2026-11-14T21:50+05:30"
-},
-"BANN-eef4c46e-079c-4668-8947-e327055a7abc": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-ef052c6c-cb1e-485b-99e5-79666f4ef1ed": {
 "t": "2026-11-14T21:30+05:30"
@@ -2473,9 +2365,6 @@
 },
 "BANN-f06fa989-2c35-4106-a73b-3e625d90f016": {
 "t": "2026-11-14T21:30+05:30"
-},
-"BANN-f0a26241-4eac-4437-95af-4edb506a9ef2": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-f14a313b-0257-4c5d-9b78-137a36771779": {
 "t": "2026-11-14T20:33+05:30"
@@ -2491,9 +2380,6 @@
 },
 "BANN-f2f6f166-b940-41c6-b5ca-50bff23c910e": {
 "t": "2026-11-14T20:20+05:30"
-},
-"BANN-f32255b7-dce8-4230-a620-81190eaa1acb": {
-"t": "2026-11-14T18:57+05:30"
 },
 "BANN-f4ea5647-19b6-409e-8ea1-217625fb5cba": {
 "t": "2026-11-14T19:22+05:30"
@@ -17677,6 +17563,9 @@
 "BSE|533632|2026-09-30": {
 "t": "2026-11-14T23:50+05:30"
 },
+"BSE|534659|2026-09-30": {
+"t": "2026-11-17T19:02+05:30"
+},
 "BSE|535647|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -17754,6 +17643,9 @@
 },
 "BSE|540023|2026-09-30": {
 "t": "2026-11-14T20:53+05:30"
+},
+"BSE|540027|2026-09-30": {
+"t": "2026-11-17T19:02+05:30"
 },
 "BSE|540072|2026-09-30": {
 "t": "2026-11-14T20:53+05:30"
@@ -24095,6 +23987,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0213fb24-0257-4cd3-8255-bf107aa53874.pdf",
 "t": "2026-11-14T17:53+05:30"
 },
+"BSE:540027": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
+"t": "2026-11-17T19:00+05:30"
+},
 "BSE:540048": {
 "t": "2026-11-12T17:32+05:30"
 },
@@ -26498,6 +26395,10 @@
 "GANESHIN": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GANESHINFRA_13112026162900_outcome_final-s.pdf",
 "t": "2026-11-13T16:30+05:30"
+},
+"GANGAFORGE": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
+"t": "2026-11-17T18:57+05:30"
 },
 "GANGOTRI": {
 "t": "2026-11-11T17:21+05:30"
@@ -32443,6 +32344,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/de5c3fda-84cf-4fcb-9eba-ed7838052332.pdf",
 "t": "2026-11-14T17:11+05:30"
 },
+"INE691Z01015": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
+"t": "2026-11-17T18:57+05:30"
+},
 "INE692B01014": {
 "c": 1,
 "t": "2026-11-12T12:58+05:30"
@@ -37307,6 +37212,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GANESHINFRA_13112026162900_outcome_final-s.pdf",
 "t": "2026-11-13T16:30+05:30"
 },
+"N:GANGAFORGING": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
+"t": "2026-11-17T18:57+05:30"
+},
 "N:GANGAPAPERSINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e6e8bfd-8b07-46e0-a17b-9f1da24c8a5a.pdf",
 "t": "2026-11-14T18:51+05:30"
@@ -40486,6 +40395,11 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/419e6ffb-af2b-4780-8ba4-957c063c28c0.pdf",
 "t": "2026-11-14T15:17+05:30"
+},
+"N:PRABHATTECHNOLOGIESINDIA": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
+"t": "2026-11-17T19:00+05:30"
 },
 "N:PRAGBOSIMISYNTHETICS": {
 "c": 1,
@@ -45251,6 +45165,10 @@
 "t": "2026-11-16T08:15+05:30",
 "v": 149.8
 },
+"BSE:540027": {
+"t": "2026-11-17T19:02+05:30",
+"v": 107.1
+},
 "BSE:540359": {
 "t": "2026-11-16T19:33+05:30",
 "v": 50.5
@@ -47124,6 +47042,38 @@
 "uid": "BSE-IFOtherthan_543606_17112026175958_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543606_17112026175958_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543606_17112026175958_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml": {
+"company": "Jointeca Education Solutions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "534659",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-17T19:02+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
+"company": "Prabhat Technologies (India) Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "540027",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-17T19:02+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.xml": {
 "company": "Navoday Enterprises Ltd",
