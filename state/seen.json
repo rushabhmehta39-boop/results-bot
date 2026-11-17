@@ -897,14 +897,6 @@
 "pdf": 6,
 "t": "2026-11-14T17:49+05:30"
 },
-"INE291D01011": {
-"d": "2026-11-13",
-"mcap": 5118.5,
-"mid": 584,
-"n": "KDDL",
-"pdf": 5,
-"t": "2026-11-13T19:34+05:30"
-},
 "INE325D01025": {
 "d": "2026-11-14",
 "mcap": 3824.8,
@@ -1048,14 +1040,6 @@
 "pdf": 6,
 "t": "2026-11-14T15:04+05:30"
 },
-"INE903A01025": {
-"d": "2026-11-13",
-"mcap": 2723.0,
-"mid": 583,
-"n": "JAYKAYENTERPRISES",
-"pdf": 5,
-"t": "2026-11-13T19:34+05:30"
-},
 "INE932A01024": {
 "d": "2026-11-13",
 "mcap": 2220.1,
@@ -1072,14 +1056,6 @@
 "pdf": 6,
 "t": "2026-11-14T15:40+05:30"
 },
-"JAYKAY": {
-"d": "2026-11-13",
-"mcap": 2723.0,
-"mid": 583,
-"n": "JAYKAYENTERPRISES",
-"pdf": 5,
-"t": "2026-11-13T19:34+05:30"
-},
 "JSIPL": {
 "d": "2026-11-14",
 "mcap": 875.3,
@@ -1095,14 +1071,6 @@
 "n": "JUBILANTPHARMOVA",
 "pdf": 5,
 "t": "2026-11-13T20:17+05:30"
-},
-"KDDL": {
-"d": "2026-11-13",
-"mcap": 5118.5,
-"mid": 584,
-"n": "KDDL",
-"pdf": 5,
-"t": "2026-11-13T19:34+05:30"
 },
 "KERNEX": {
 "d": "2026-11-14",
@@ -1312,21 +1280,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861132-PTCIL": {
-"t": "2026-11-14T19:33+05:30"
-},
-"ANN-equities-106861136-BONLON": {
-"t": "2026-11-14T19:33+05:30"
-},
-"ANN-equities-106861138-BILVYAPAR": {
-"t": "2026-11-14T19:33+05:30"
-},
-"ANN-equities-106861141-OSWALSEEDS": {
-"t": "2026-11-14T19:33+05:30"
-},
-"ANN-equities-106861142-SHANTI": {
-"t": "2026-11-14T19:33+05:30"
-},
 "ANN-equities-106861149-UMAEXPORTS": {
 "t": "2026-11-14T19:45+05:30"
 },
@@ -1509,12 +1462,6 @@
 },
 "ANN-equities-106864045-GANGAFORGE": {
 "t": "2026-11-17T19:02+05:30"
-},
-"ANN-sme-106861140-TCL": {
-"t": "2026-11-14T19:33+05:30"
-},
-"ANN-sme-106861146-BHADORA": {
-"t": "2026-11-14T19:33+05:30"
 },
 "ANN-sme-106861148-GENXAI": {
 "t": "2026-11-14T19:45+05:30"
@@ -1792,9 +1739,6 @@
 "BANN-10ed4971-b67d-4cd7-b66b-1cfce4d62eb7": {
 "t": "2026-11-16T11:29+05:30"
 },
-"BANN-13053acb-b484-4c9f-b5e0-a41b5b816829": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-13d845ff-4d94-43d4-8a2f-80bd3da790f7": {
 "t": "2026-11-16T22:50+05:30"
 },
@@ -1804,20 +1748,11 @@
 "BANN-147c853b-2442-4491-bba3-550d9f633644": {
 "t": "2026-11-14T23:02+05:30"
 },
-"BANN-14966738-7410-415c-b0ba-e1da0124e4df": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-14d790ff-c197-4667-a968-191671a81e0b": {
 "t": "2026-11-14T20:20+05:30"
 },
 "BANN-14de2418-10e7-4e45-a402-9205f3b25afd": {
 "t": "2026-11-14T20:33+05:30"
-},
-"BANN-18da438f-b4ba-44bc-b34d-9b2d429cdabb": {
-"t": "2026-11-14T19:33+05:30"
-},
-"BANN-1dacc7e0-a6f0-4216-a7d3-a904954bfb7f": {
-"t": "2026-11-14T19:33+05:30"
 },
 "BANN-1ea240b8-0671-44e6-bd8f-52801d36d464": {
 "t": "2026-11-14T19:45+05:30"
@@ -1872,9 +1807,6 @@
 },
 "BANN-405bf23f-3816-41ec-8d48-ade68f3d6c29": {
 "t": "2026-11-14T20:59+05:30"
-},
-"BANN-43640ab3-978a-4fb9-b373-c8573f1d818f": {
-"t": "2026-11-14T19:33+05:30"
 },
 "BANN-44415cc1-fccd-4d59-b6be-a7799f923a7c": {
 "t": "2026-11-14T22:15+05:30"
@@ -1960,9 +1892,6 @@
 "BANN-7512fe4f-aa94-4599-b53e-e1f8aabeeb26": {
 "t": "2026-11-14T21:50+05:30"
 },
-"BANN-761a8201-1c29-423e-a478-89cc0e9d7265": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-774ab825-860d-4138-b5d6-7bb7aeb0b983": {
 "t": "2026-11-14T19:45+05:30"
 },
@@ -1993,9 +1922,6 @@
 "BANN-81bda0cf-9221-4a8c-b32f-f3eadc29f432": {
 "t": "2026-11-17T19:02+05:30"
 },
-"BANN-820e5965-fe69-44f8-a882-c6999c6ca10b": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-862e1f88-d222-4246-b574-b63f08e91052": {
 "t": "2026-11-14T21:30+05:30"
 },
@@ -2020,17 +1946,11 @@
 "BANN-96188cd3-e1cc-44a4-8a20-be2f777e23cb": {
 "t": "2026-11-14T22:28+05:30"
 },
-"BANN-977afced-821a-4e01-a3eb-ecb4233ca852": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-9845073b-aa69-4a71-84df-5e8d6d071b0e": {
 "t": "2026-11-14T20:33+05:30"
 },
 "BANN-9a6cb61b-ac93-47eb-a9d7-ff3566e6941b": {
 "t": "2026-11-16T15:09+05:30"
-},
-"BANN-9c0c0d61-c354-4a1c-a218-fcd4c2a7ce3a": {
-"t": "2026-11-14T19:33+05:30"
 },
 "BANN-9cb9bb96-2d1b-4d23-89d5-1f857bf40303": {
 "t": "2026-11-14T21:50+05:30"
@@ -2049,9 +1969,6 @@
 },
 "BANN-a174dd8d-e3a6-4565-b3f4-d344515cb207": {
 "t": "2026-11-14T20:06+05:30"
-},
-"BANN-a1864d1b-f1d8-4848-8a18-a7c5d07ccc58": {
-"t": "2026-11-14T19:33+05:30"
 },
 "BANN-a1e7a0ae-0f13-404a-aea3-3fa15d0c6009": {
 "t": "2026-11-14T20:59+05:30"
@@ -2167,9 +2084,6 @@
 "BANN-cb248c66-0448-49ad-ae8b-c154e1f5d95d": {
 "t": "2026-11-14T21:10+05:30"
 },
-"BANN-cb3e1101-5f4b-4ec3-8934-35e977c4dd2d": {
-"t": "2026-11-14T19:33+05:30"
-},
 "BANN-cf014898-3607-4332-a2ca-5b7c2ed82a9c": {
 "t": "2026-11-16T14:16+05:30"
 },
@@ -2184,9 +2098,6 @@
 },
 "BANN-da700260-ec0f-4e22-b737-857a0eed6ff0": {
 "t": "2026-11-14T21:10+05:30"
-},
-"BANN-de60d1b6-0990-468b-8427-24f50e208a67": {
-"t": "2026-11-14T19:33+05:30"
 },
 "BANN-df4d870c-a414-4b84-b8e8-a46be8109372": {
 "t": "2026-11-16T08:15+05:30"
@@ -8126,6 +8037,10 @@
 "BSE-Integrated_Finance_Ind_As_543298_13112026132028_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T15:35+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-17T19:36+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_543312_12112026184133_IFIndAs.xml": {
 "s": "small",
@@ -28002,10 +27917,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3335b762-03a1-4b20-ab3a-259e60f0dfa0.pdf",
 "t": "2026-11-13T19:13+05:30"
 },
-"INE0XAD01024": {
-"c": 1,
-"t": "2026-11-10T19:35+05:30"
-},
 "INE0XBS01012": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/73f47fe9-16a6-492a-8eab-f43d006f71c0.pdf",
@@ -34222,9 +34133,6 @@
 "c": 1,
 "t": "2026-11-11T17:05+05:30"
 },
-"MIDWESTLTD": {
-"t": "2026-11-10T19:35+05:30"
-},
 "MIEL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MANGLAMINFRA_14112026222625_1_quick_results__2_files_merged_.pdf",
 "t": "2026-11-14T22:27+05:30"
@@ -38841,10 +38749,6 @@
 "N:MIDINDIAINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bdf3967-cff3-449d-a966-030290a1474d.pdf",
 "t": "2026-11-13T18:18+05:30"
-},
-"N:MIDWEST": {
-"c": 1,
-"t": "2026-11-10T19:35+05:30"
 },
 "N:MIDWESTENERGY": {
 "c": 1,
@@ -46677,22 +46581,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.xml": {
-"company": "Navoday Enterprises Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-03-31",
-"revised": false,
-"scrip": "543305",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-17T17:31+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543305_17112026172748_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml": {
 "company": "Manappuram Finance Ltd",
@@ -56034,6 +55922,10 @@
 "t": "2026-11-13T15:35+05:30",
 "v": "INE505Y01010"
 },
+"543305": {
+"t": "2026-11-17T19:36+05:30",
+"v": "INE0DB001013"
+},
 "543309": {
 "t": "2026-11-12T17:48+05:30",
 "v": "INE0H8J01015"
@@ -58531,6 +58423,10 @@
 "INE0D9X01018": {
 "t": "2026-11-14T21:30+05:30",
 "v": 5992900
+},
+"INE0DB001013": {
+"t": "2026-11-17T19:36+05:30",
+"v": 7708000
 },
 "INE0DEZ01013": {
 "t": "2026-11-14T18:27+05:30",
