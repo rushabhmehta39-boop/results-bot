@@ -984,9 +984,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861370-SRM": {
-"t": "2026-11-14T22:15+05:30"
-},
 "ANN-equities-106861376-SUPREMEENG": {
 "t": "2026-11-14T22:28+05:30"
 },
@@ -1079,15 +1076,6 @@
 },
 "ANN-equities-106864045-GANGAFORGE": {
 "t": "2026-11-17T19:02+05:30"
-},
-"ANN-sme-106861366-PPSL": {
-"t": "2026-11-14T22:15+05:30"
-},
-"ANN-sme-106861369-POOJALOGIS": {
-"t": "2026-11-14T22:15+05:30"
-},
-"ANN-sme-106861372-INVICTA": {
-"t": "2026-11-14T22:15+05:30"
 },
 "ANN-sme-106861381-ENSER": {
 "t": "2026-11-14T22:28+05:30"
@@ -1269,9 +1257,6 @@
 "BANN-3d42e895-894e-4000-a83a-8da9d1815ad0": {
 "t": "2026-11-16T08:15+05:30"
 },
-"BANN-44415cc1-fccd-4d59-b6be-a7799f923a7c": {
-"t": "2026-11-14T22:15+05:30"
-},
 "BANN-4813ac72-12b9-4fae-8794-76227c88a95f": {
 "t": "2026-11-17T18:45+05:30"
 },
@@ -1281,14 +1266,8 @@
 "BANN-515e1b33-a054-499c-95c6-4e33b5bff042": {
 "t": "2026-11-16T10:40+05:30"
 },
-"BANN-544240bd-9e77-4bac-8489-8d925172ff70": {
-"t": "2026-11-14T22:15+05:30"
-},
 "BANN-58416534-9416-4dc7-b7a4-9edf53a6ca24": {
 "t": "2026-11-14T22:28+05:30"
-},
-"BANN-5d97f2b0-5870-48d5-bd28-149e982c2da1": {
-"t": "2026-11-14T22:15+05:30"
 },
 "BANN-6d32313c-22fd-4792-abbe-7ec869f1f966": {
 "t": "2026-11-14T22:28+05:30"
@@ -1373,9 +1352,6 @@
 },
 "BANN-c61fe0c7-f083-4931-be65-f86398ab5af0": {
 "t": "2026-11-16T17:28+05:30"
-},
-"BANN-c8e4f425-41fc-4901-863d-dc6a8453226b": {
-"t": "2026-11-14T22:15+05:30"
 },
 "BANN-cf014898-3607-4332-a2ca-5b7c2ed82a9c": {
 "t": "2026-11-16T14:16+05:30"
@@ -16165,6 +16141,10 @@
 "NSE-sme-IF-215251": {
 "s": "small",
 "t": "2026-11-17T19:53+05:30"
+},
+"NSE-sme-IF-215265": {
+"s": "small",
+"t": "2026-11-17T22:15+05:30"
 }
 },
 "first_seen": {
@@ -45210,22 +45190,6 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
-},
-"NSE-sme-IF-215265": {
-"company": "Mobilise App Lab Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T21:58:40+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "MOBILISE",
-"t": "2026-11-17T21:58+05:30",
-"uid": "NSE-sme-IF-215265",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215265_17112026215838_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759645_17112026095838_WEB.xml"
 }
 },
 "posted": {
@@ -48732,8 +48696,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T20:04+05:30",
-"v": "INE0J1P01015"
+"t": "2026-11-17T22:15+05:30",
+"v": "INE1YNB01019"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -59680,6 +59644,10 @@
 "INE1XWN01017": {
 "t": "2026-11-07T22:08+05:30",
 "v": 18616900
+},
+"INE1YNB01019": {
+"t": "2026-11-17T22:15+05:30",
+"v": 9512000
 },
 "INE1YPB01014": {
 "t": "2026-11-14T20:44+05:30",
