@@ -19882,9 +19882,14 @@
 "t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215079": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-17T12:36+05:30"
+"t": "2026-11-17T12:42+05:30"
+},
+"NSE-sme-IF-215082": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-17T12:42+05:30"
 }
 },
 "first_seen": {
@@ -21009,9 +21014,6 @@
 },
 "BSE|538652|2026-09-30": {
 "t": "2026-11-14T17:25+05:30"
-},
-"BSE|538674|2026-09-30": {
-"t": "2026-11-14T12:42+05:30"
 },
 "BSE|538684|2026-09-30": {
 "t": "2026-11-14T18:23+05:30"
@@ -28125,9 +28127,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f25518a6-cf59-43bf-8708-38219f99bdfc.pdf",
 "t": "2026-11-13T23:15+05:30"
 },
-"BSE:539405": {
-"t": "2026-11-10T12:42+05:30"
-},
 "BSE:539407": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/005ee763-1f72-42d5-a037-ccdc2c89d123.pdf",
 "t": "2026-11-15T01:02+05:30"
@@ -33403,9 +33402,6 @@
 "INE183H01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89b4c16b-cde4-4f2b-85eb-4b0967ad1308.pdf",
 "t": "2026-11-14T18:57+05:30"
-},
-"INE183R01010": {
-"t": "2026-11-10T12:42+05:30"
 },
 "INE184D01026": {
 "c": 1,
@@ -40905,9 +40901,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aeea41a2-2d14-4a41-be14-dbaa9f4742a9.pdf",
 "t": "2026-11-14T16:53+05:30"
-},
-"N:DECOROUSINVESTMENTANDTRADINGCO": {
-"t": "2026-11-10T12:42+05:30"
 },
 "N:DEEDEVELOPMENTENGINEERS": {
 "c": 1,
@@ -51667,6 +51660,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215082": {
+"company": "Cellecor Gadgets Limited",
+"consolidated": true,
+"filed_at": "2026-11-17T12:38:23+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "CELLECOR",
+"t": "2026-11-17T12:42+05:30",
+"uid": "NSE-sme-IF-215082",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215082_17112026123822_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759333_17112026123822_WEB.xml"
 }
 },
 "posted": {
@@ -55173,7 +55182,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T12:36+05:30",
+"t": "2026-11-17T12:42+05:30",
 "v": "INE02EE01019"
 },
 "123456": {
