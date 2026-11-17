@@ -16594,6 +16594,9 @@
 "NSE SME|MIEL|2026-09-30": {
 "t": "2026-11-14T22:57+05:30"
 },
+"NSE SME|MOBILISE|2026-09-30": {
+"t": "2026-11-17T21:58+05:30"
+},
 "NSE SME|OWAIS|2026-09-30": {
 "t": "2026-11-15T01:37+05:30"
 },
@@ -45249,6 +45252,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215265": {
+"company": "Mobilise App Lab Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T21:58:40+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "MOBILISE",
+"t": "2026-11-17T21:58+05:30",
+"uid": "NSE-sme-IF-215265",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215265_17112026215838_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759645_17112026095838_WEB.xml"
 }
 },
 "posted": {
