@@ -17469,6 +17469,10 @@
 "s": "small",
 "t": "2026-11-16T21:17+05:30"
 },
+"NSE-equities-IF-215063": {
+"s": "small",
+"t": "2026-11-17T11:39+05:30"
+},
 "NSE-sme-IF-211864": {
 "n": 4,
 "s": "retry_mcap",
@@ -20054,9 +20058,6 @@
 "BSE|504369|2026-09-30": {
 "t": "2026-11-14T15:48+05:30"
 },
-"BSE|504697|2026-09-30": {
-"t": "2026-11-14T11:34+05:30"
-},
 "BSE|504746|2026-09-30": {
 "t": "2026-11-14T17:25+05:30"
 },
@@ -20494,9 +20495,6 @@
 },
 "BSE|524202|2026-09-30": {
 "t": "2026-11-14T20:02+05:30"
-},
-"BSE|524210|2026-09-30": {
-"t": "2026-11-14T11:34+05:30"
 },
 "BSE|524324|2026-09-30": {
 "t": "2026-11-14T18:08+05:30"
@@ -51715,22 +51713,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_GOVERNANCE_215024_16112026195735_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_GOVERNANCE_1759239_16112026075734_WEB.xml"
 },
-"NSE-equities-IF-215063": {
-"company": "Bhandari Hosiery Exports Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T11:22:02+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "BHANDARI",
-"t": "2026-11-17T11:22+05:30",
-"uid": "NSE-equities-IF-215063",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215063_17112026112201_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759297_17112026112201_WEB.xml"
-},
 "NSE-sme-IF-214790": {
 "company": "Visaman Global Sales Limited",
 "consolidated": false,
@@ -56585,7 +56567,7 @@
 "v": "INE307N01014"
 },
 "512608": {
-"t": "2026-11-17T11:22+05:30",
+"t": "2026-11-17T11:39+05:30",
 "v": "INE474E01029"
 },
 "512618": {
@@ -67995,7 +67977,7 @@
 "v": 34879000
 },
 "INE474E01029": {
-"t": "2026-11-17T11:22+05:30",
+"t": "2026-11-17T11:39+05:30",
 "v": 332956000
 },
 "INE474L01016": {
