@@ -2336,12 +2336,6 @@
 }
 },
 "ann": {
-"ANN-equities-106860382-MBAPL": {
-"t": "2026-11-14T12:36+05:30"
-},
-"ANN-equities-106860389-AIRAN": {
-"t": "2026-11-14T12:36+05:30"
-},
 "ANN-equities-106860390-TVSSRICHAK": {
 "t": "2026-11-14T12:43+05:30"
 },
@@ -4663,9 +4657,6 @@
 },
 "BANN-b0dffeb1-f2a4-4cf5-bfe3-4c970212a59b": {
 "t": "2026-11-14T16:58+05:30"
-},
-"BANN-b114258c-5295-4108-9604-aeec3a23fc45": {
-"t": "2026-11-14T12:36+05:30"
 },
 "BANN-b2856596-5c25-41b9-a108-7cfd2ef9bfcc": {
 "t": "2026-11-14T20:59+05:30"
@@ -19891,9 +19882,9 @@
 "t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215079": {
-"n": 2,
+"n": 3,
 "s": "retry_mcap",
-"t": "2026-11-17T12:31+05:30"
+"t": "2026-11-17T12:36+05:30"
 }
 },
 "first_seen": {
@@ -20431,9 +20422,6 @@
 "BSE|524506|2026-09-30": {
 "t": "2026-11-14T16:55+05:30"
 },
-"BSE|524534|2026-09-30": {
-"t": "2026-11-14T12:35+05:30"
-},
 "BSE|524546|2026-09-30": {
 "t": "2026-11-14T17:56+05:30"
 },
@@ -20727,9 +20715,6 @@
 },
 "BSE|531667|2026-09-30": {
 "t": "2026-11-14T18:51+05:30"
-},
-"BSE|531677|2026-09-30": {
-"t": "2026-11-14T12:35+05:30"
 },
 "BSE|531688|2026-09-30": {
 "t": "2026-11-14T15:31+05:30"
@@ -21810,6 +21795,9 @@
 },
 "NSE SME|CEDAAR|2026-09-30": {
 "t": "2026-11-14T18:08+05:30"
+},
+"NSE SME|CELLECOR|2026-09-30": {
+"t": "2026-11-17T12:36+05:30"
 },
 "NSE SME|CGRAPHICS|2026-09-30": {
 "t": "2026-11-14T20:40+05:30"
@@ -51663,6 +51651,22 @@
 "uid": "NSE-sme-IF-215079",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215079_17112026122420_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759321_17112026122420_WEB.xml"
+},
+"NSE-sme-IF-215081": {
+"company": "Cellecor Gadgets Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T12:32:40+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "CELLECOR",
+"t": "2026-11-17T12:36+05:30",
+"uid": "NSE-sme-IF-215081",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
 }
 },
 "posted": {
@@ -55169,7 +55173,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T12:31+05:30",
+"t": "2026-11-17T12:36+05:30",
 "v": "INE02EE01019"
 },
 "123456": {
