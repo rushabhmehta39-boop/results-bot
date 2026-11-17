@@ -3785,9 +3785,6 @@
 "BANN-31b56ccd-1c3d-476a-96a3-f30b04556257": {
 "t": "2026-11-14T18:16+05:30"
 },
-"BANN-31c282f4-849e-4b6d-8065-00605f74f5c4": {
-"t": "2026-11-14T12:49+05:30"
-},
 "BANN-31d18f0e-79de-4a57-a536-46a502bc105b": {
 "t": "2026-11-14T16:58+05:30"
 },
@@ -19870,14 +19867,14 @@
 "t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215079": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-17T12:48+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-17T12:53+05:30"
 },
 "NSE-sme-IF-215082": {
-"n": 2,
-"s": "retry",
-"t": "2026-11-17T12:48+05:30"
+"n": 3,
+"s": "retry_mcap",
+"t": "2026-11-17T12:53+05:30"
 }
 },
 "first_seen": {
@@ -51611,22 +51608,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215078_17112026122120_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759319_17112026122120_WEB.xml"
 },
-"NSE-sme-IF-215079": {
-"company": "Integrated Personnel Services Limited",
-"consolidated": true,
-"filed_at": "2026-11-17T12:24:21+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "IPSL",
-"t": "2026-11-17T12:25+05:30",
-"uid": "NSE-sme-IF-215079",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215079_17112026122420_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759321_17112026122420_WEB.xml"
-},
 "NSE-sme-IF-215081": {
 "company": "Cellecor Gadgets Limited",
 "consolidated": false,
@@ -55164,8 +55145,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T12:48+05:30",
-"v": "INE02EE01019"
+"t": "2026-11-17T12:53+05:30",
+"v": "INE0OMO01025"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
