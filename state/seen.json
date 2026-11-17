@@ -17219,6 +17219,14 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-17T14:25+05:30"
+},
+"NSE-sme-IF-215225": {
+"s": "superseded",
+"t": "2026-11-17T18:56+05:30"
+},
+"NSE-sme-IF-215228": {
+"s": "small",
+"t": "2026-11-17T18:56+05:30"
 }
 },
 "first_seen": {
@@ -27299,10 +27307,6 @@
 "INE058I01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cf248790-5e5d-4cae-a297-f0386aa89cf9.pdf",
 "t": "2026-11-14T14:29+05:30"
-},
-"INE059B01024": {
-"c": 1,
-"t": "2026-11-10T18:52+05:30"
 },
 "INE059D01012": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LAOPALA_13112026184830_LORG_BM_Outcome_13112026_F.pdf",
@@ -41823,10 +41827,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0d60cbea-2ad3-49c6-ad3f-b4f004f5b44f.pdf",
 "t": "2026-11-13T14:50+05:30"
 },
-"N:SIMPLEXINFRASTRUCTURES": {
-"c": 1,
-"t": "2026-11-10T18:52+05:30"
-},
 "N:SIMRANFARMS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2d9e46f-b0e0-4a30-8e57-3bdf67fc1710.pdf",
 "t": "2026-11-14T21:12+05:30"
@@ -44389,9 +44389,6 @@
 },
 "SIMCA": {
 "t": "2026-11-16T16:02+05:30"
-},
-"SIMPLEXINF": {
-"t": "2026-11-10T18:52+05:30"
 },
 "SINDHUTRAD": {
 "c": 1,
@@ -47223,22 +47220,6 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
-},
-"NSE-sme-IF-215225": {
-"company": "Ducol Organics And Colours Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T18:48:40+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "DUCOL",
-"t": "2026-11-17T18:51+05:30",
-"uid": "NSE-sme-IF-215225",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215225_17112026184839_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759571_17112026064839_WEB.xml"
 }
 },
 "posted": {
@@ -50745,8 +50726,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T17:37+05:30",
-"v": "INE715Y01031"
+"t": "2026-11-17T18:56+05:30",
+"v": "INE0LZ001015"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -59341,6 +59322,10 @@
 "INE0LY301010": {
 "t": "2026-11-13T18:19+05:30",
 "v": 1227000
+},
+"INE0LZ001015": {
+"t": "2026-11-17T18:56+05:30",
+"v": 18058700
 },
 "INE0M1F01011": {
 "t": "2026-11-14T23:02+05:30",
