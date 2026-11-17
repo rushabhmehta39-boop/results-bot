@@ -6657,6 +6657,10 @@
 "s": "small",
 "t": "2026-11-12T22:07+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-17T21:07+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_535136_14112026173254_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-16T08:25+05:30"
@@ -16742,9 +16746,6 @@
 "BSE|540359|2026-09-30": {
 "t": "2026-11-16T19:47+05:30"
 },
-"BSE|540468|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "BSE|540694|2026-09-30": {
 "t": "2026-11-15T01:37+05:30"
 },
@@ -16850,9 +16851,6 @@
 "BSE|544559|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
-"BSE|544602|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "BSE|544626|2026-09-30": {
 "t": "2026-11-14T23:28+05:30"
 },
@@ -16922,17 +16920,11 @@
 "NSE SME|ARABIAN|2026-09-30": {
 "t": "2026-11-14T22:45+05:30"
 },
-"NSE SME|ARISTO|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "NSE SME|ARMOUR|2026-09-30": {
 "t": "2026-11-15T23:31+05:30"
 },
 "NSE SME|AVROIND|2026-09-30": {
 "t": "2026-11-14T22:57+05:30"
-},
-"NSE SME|BAWEJA|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
 },
 "NSE SME|BHADORA|2026-09-30": {
 "t": "2026-11-14T23:39+05:30"
@@ -16951,9 +16943,6 @@
 },
 "NSE SME|CURRENT|2026-09-30": {
 "t": "2026-11-14T22:22+05:30"
-},
-"NSE SME|DELTIC|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
 },
 "NSE SME|DHANSA|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
@@ -17011,9 +17000,6 @@
 },
 "NSE SME|MOXSH|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
-},
-"NSE SME|NEWJAISA|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
 },
 "NSE SME|OWAIS|2026-09-30": {
 "t": "2026-11-15T01:37+05:30"
@@ -17078,9 +17064,6 @@
 "NSE SME|VEEKAYEM|2026-09-30": {
 "t": "2026-11-14T21:43+05:30"
 },
-"NSE SME|VIJAYPD|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "NSE SME|VISAMAN|2026-09-30": {
 "t": "2026-11-16T12:15+05:30"
 },
@@ -17092,9 +17075,6 @@
 },
 "NSE SME|VR|2026-09-30": {
 "t": "2026-11-14T23:39+05:30"
-},
-"NSE SME|WINSOL|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
 },
 "NSE|AARTISURF|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
@@ -17162,9 +17142,6 @@
 "NSE|GSS|2026-09-30": {
 "t": "2026-11-14T23:28+05:30"
 },
-"NSE|GUFICBIO|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "NSE|HEROMOTORS|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -17210,9 +17187,6 @@
 "NSE|ONELIFECAP|2026-09-30": {
 "t": "2026-11-14T22:22+05:30"
 },
-"NSE|OSWALSEEDS|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
-},
 "NSE|RMC|2026-09-30": {
 "t": "2026-11-14T22:05+05:30"
 },
@@ -17248,9 +17222,6 @@
 },
 "NSE|VASWANI|2026-09-30": {
 "t": "2026-11-14T22:34+05:30"
-},
-"NSE|VIKRAMSOLR|2026-09-30": {
-"t": "2026-11-14T21:05+05:30"
 },
 "NSE|VNL|2026-09-30": {
 "t": "2026-11-16T21:15+05:30"
@@ -45660,22 +45631,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml": {
-"company": "Jointeca Education Solutions Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "534659",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-17T19:02+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "company": "Prabhat Technologies (India) Ltd",
 "consolidated": false,
@@ -53792,6 +53747,10 @@
 "t": "2026-11-12T22:07+05:30",
 "v": "INE550L01013"
 },
+"534659": {
+"t": "2026-11-17T21:07+05:30",
+"v": "INE131N01018"
+},
 "534691": {
 "t": "2026-11-13T18:32+05:30",
 "v": "INE456N01019"
@@ -59321,6 +59280,10 @@
 "INE131H01028": {
 "t": "2026-11-14T08:06+05:30",
 "v": 37750000
+},
+"INE131N01018": {
+"t": "2026-11-17T21:07+05:30",
+"v": 10015300
 },
 "INE131Q01011": {
 "t": "2026-11-12T22:06+05:30",
