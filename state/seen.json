@@ -1280,15 +1280,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861149-UMAEXPORTS": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-equities-106861165-SONA": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-equities-106861167-KEEPLEARN": {
-"t": "2026-11-14T19:45+05:30"
-},
 "ANN-equities-106861173-ZEEMEDIA": {
 "t": "2026-11-14T19:56+05:30"
 },
@@ -1462,24 +1453,6 @@
 },
 "ANN-equities-106864045-GANGAFORGE": {
 "t": "2026-11-17T19:02+05:30"
-},
-"ANN-sme-106861148-GENXAI": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-sme-106861151-ACETEC": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-sme-106861152-PARAMPARA": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-sme-106861157-CGRAPHICS": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-sme-106861162-MHHL": {
-"t": "2026-11-14T19:45+05:30"
-},
-"ANN-sme-106861166-ATMASTCO": {
-"t": "2026-11-14T19:45+05:30"
 },
 "ANN-sme-106861211-VERTEXPLUS": {
 "t": "2026-11-14T19:56+05:30"
@@ -1715,6 +1688,9 @@
 "ANN-sme-106864075-RICHA": {
 "t": "2026-11-17T19:13+05:30"
 },
+"ANN-sme-106864124-RICHA": {
+"t": "2026-11-17T19:47+05:30"
+},
 "BANN-01d949fc-715b-47ed-b147-2abeae130ee4": {
 "t": "2026-11-14T21:50+05:30"
 },
@@ -1753,12 +1729,6 @@
 },
 "BANN-14de2418-10e7-4e45-a402-9205f3b25afd": {
 "t": "2026-11-14T20:33+05:30"
-},
-"BANN-1ea240b8-0671-44e6-bd8f-52801d36d464": {
-"t": "2026-11-14T19:45+05:30"
-},
-"BANN-1fdb1799-4a84-4398-ba2a-93f72e2b28e8": {
-"t": "2026-11-14T19:45+05:30"
 },
 "BANN-235a11f9-b22a-4efc-b42f-def3e35388a0": {
 "t": "2026-11-14T21:30+05:30"
@@ -1844,9 +1814,6 @@
 "BANN-58416534-9416-4dc7-b7a4-9edf53a6ca24": {
 "t": "2026-11-14T22:28+05:30"
 },
-"BANN-5a707fbc-4bf9-42bf-866d-2981cd42072b": {
-"t": "2026-11-14T19:45+05:30"
-},
 "BANN-5d97f2b0-5870-48d5-bd28-149e982c2da1": {
 "t": "2026-11-14T22:15+05:30"
 },
@@ -1892,9 +1859,6 @@
 "BANN-7512fe4f-aa94-4599-b53e-e1f8aabeeb26": {
 "t": "2026-11-14T21:50+05:30"
 },
-"BANN-774ab825-860d-4138-b5d6-7bb7aeb0b983": {
-"t": "2026-11-14T19:45+05:30"
-},
 "BANN-77e5f15d-93eb-4409-8381-1712f7d323db": {
 "t": "2026-11-14T20:06+05:30"
 },
@@ -1915,9 +1879,6 @@
 },
 "BANN-7ecddc86-0b8b-42c4-a7d5-e669e4ae18fc": {
 "t": "2026-11-14T21:30+05:30"
-},
-"BANN-81a5bf1f-515a-48f1-8887-7d1018944939": {
-"t": "2026-11-14T19:45+05:30"
 },
 "BANN-81bda0cf-9221-4a8c-b32f-f3eadc29f432": {
 "t": "2026-11-17T19:02+05:30"
@@ -1978,9 +1939,6 @@
 },
 "BANN-a67cc6c9-2fb8-432b-b742-83bbbda2646b": {
 "t": "2026-11-14T19:56+05:30"
-},
-"BANN-a8c1d66c-74cc-414c-aba4-a4bdff380f74": {
-"t": "2026-11-14T19:45+05:30"
 },
 "BANN-aa2ea2b7-82ce-4671-ae93-49ccfd2f00ad": {
 "t": "2026-11-14T21:10+05:30"
@@ -2108,9 +2066,6 @@
 "BANN-dff18048-c884-4c57-9d81-a33019e33680": {
 "t": "2026-11-16T08:15+05:30"
 },
-"BANN-e249b061-3d5c-461f-a301-379eeee2ccf4": {
-"t": "2026-11-14T19:45+05:30"
-},
 "BANN-e25efd09-7665-44b8-b739-979fd151a05f": {
 "t": "2026-11-14T22:52+05:30"
 },
@@ -2158,9 +2113,6 @@
 },
 "BANN-f66440d1-7a00-4941-b534-202b6b1e4027": {
 "t": "2026-11-14T20:20+05:30"
-},
-"BANN-fba6e0cd-31bd-4f6f-a204-ae0417d79101": {
-"t": "2026-11-14T19:45+05:30"
 },
 "BANN-fd99704a-dfac-4608-ba2d-7313c5eca8d1": {
 "t": "2026-11-14T20:06+05:30"
@@ -17100,6 +17052,9 @@
 "BSE|530253|2026-09-30": {
 "t": "2026-11-14T22:34+05:30"
 },
+"BSE|530267|2026-09-30": {
+"t": "2026-11-17T19:47+05:30"
+},
 "BSE|530565|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
 },
@@ -17744,6 +17699,9 @@
 },
 "NSE SME|PREMIUM|2026-09-30": {
 "t": "2026-11-14T22:45+05:30"
+},
+"NSE SME|RICHA|2026-09-30": {
+"t": "2026-11-17T19:47+05:30"
 },
 "NSE SME|SAHANA|2026-09-30": {
 "t": "2026-11-14T23:50+05:30"
@@ -46481,6 +46439,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543606_17112026175958_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_543606_17112026175958_IFOtherthan.xml"
 },
+"BSE-Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml": {
+"company": "Arigato Universe Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "530267",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-17T19:47+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml": {
 "company": "Jointeca Education Solutions Ltd",
 "consolidated": false,
@@ -46624,6 +46598,22 @@
 "uid": "NSE-sme-IF-215243",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215243_17112026192531_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759601_17112026072529_WEB.xml"
+},
+"NSE-sme-IF-215249": {
+"company": "Richa Info Systems Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T19:44:33+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "RICHA",
+"t": "2026-11-17T19:47+05:30",
+"uid": "NSE-sme-IF-215249",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215249_17112026194432_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759619_17112026074432_WEB.xml"
 }
 },
 "posted": {
