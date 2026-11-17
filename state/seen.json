@@ -1328,21 +1328,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861072-ENERGYDEV": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-equities-106861075-COMSYN": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-equities-106861079-XLENERGY": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-equities-106861093-SHAH": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-equities-106861097-BIOFILCHEM": {
-"t": "2026-11-14T19:09+05:30"
-},
 "ANN-equities-106861102-AHLADA": {
 "t": "2026-11-14T19:22+05:30"
 },
@@ -1552,21 +1537,6 @@
 },
 "ANN-equities-106864045-GANGAFORGE": {
 "t": "2026-11-17T19:02+05:30"
-},
-"ANN-sme-106861068-VEEKAYEM": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-sme-106861073-IPSL": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-sme-106861084-SUNREST": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-sme-106861095-THESL": {
-"t": "2026-11-14T19:09+05:30"
-},
-"ANN-sme-106861101-C2C": {
-"t": "2026-11-14T19:09+05:30"
 },
 "ANN-sme-106861103-SNEHAA": {
 "t": "2026-11-14T19:22+05:30"
@@ -1838,6 +1808,12 @@
 "ANN-sme-106863983-PARAMOUNT": {
 "t": "2026-11-17T18:22+05:30"
 },
+"ANN-sme-106864074-PARAMOUNT": {
+"t": "2026-11-17T19:13+05:30"
+},
+"ANN-sme-106864075-RICHA": {
+"t": "2026-11-17T19:13+05:30"
+},
 "BANN-01d949fc-715b-47ed-b147-2abeae130ee4": {
 "t": "2026-11-14T21:50+05:30"
 },
@@ -1886,9 +1862,6 @@
 "BANN-14de2418-10e7-4e45-a402-9205f3b25afd": {
 "t": "2026-11-14T20:33+05:30"
 },
-"BANN-180597d8-e727-453b-98ec-0a06918d3081": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-18da438f-b4ba-44bc-b34d-9b2d429cdabb": {
 "t": "2026-11-14T19:33+05:30"
 },
@@ -1931,17 +1904,11 @@
 "BANN-3337f914-9967-4eba-9142-32da84abc15a": {
 "t": "2026-11-14T20:06+05:30"
 },
-"BANN-33a9e4a5-9311-41a7-9a16-2dbaff5f0ce2": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-3441bf76-f0a5-454a-9b7f-27c2e48a9da9": {
 "t": "2026-11-14T19:56+05:30"
 },
 "BANN-3addf802-0271-4720-9ee5-279aebdf1538": {
 "t": "2026-11-16T19:33+05:30"
-},
-"BANN-3c53c23c-e1ab-426a-b35a-881393e673c9": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-3c642447-c664-49b2-aae2-3b585accdfa4": {
 "t": "2026-11-14T20:33+05:30"
@@ -1957,9 +1924,6 @@
 },
 "BANN-405bf23f-3816-41ec-8d48-ade68f3d6c29": {
 "t": "2026-11-14T20:59+05:30"
-},
-"BANN-406d42b2-ba90-4cbb-a5bb-c02b895d4ec5": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-43640ab3-978a-4fb9-b373-c8573f1d818f": {
 "t": "2026-11-14T19:33+05:30"
@@ -1996,9 +1960,6 @@
 },
 "BANN-544240bd-9e77-4bac-8489-8d925172ff70": {
 "t": "2026-11-14T22:15+05:30"
-},
-"BANN-57381e97-fbb7-497d-8530-e5bf1a63cc22": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-58416534-9416-4dc7-b7a4-9edf53a6ca24": {
 "t": "2026-11-14T22:28+05:30"
@@ -2042,9 +2003,6 @@
 "BANN-68eb7eb3-bcdc-47e3-8032-4004f6bfde7c": {
 "t": "2026-11-14T20:59+05:30"
 },
-"BANN-69868286-9e5d-4bf1-a04d-0be717cf4124": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-6b951739-6eb0-4efe-8e48-9491b270ce40": {
 "t": "2026-11-14T21:30+05:30"
 },
@@ -2077,9 +2035,6 @@
 },
 "BANN-7972b479-0db2-4196-9cec-ae3ecf9af823": {
 "t": "2026-11-16T08:15+05:30"
-},
-"BANN-79862215-060c-4721-a66c-f7532b54e083": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-7a6c7942-427b-4ead-8a24-6b49a7cf4b07": {
 "t": "2026-11-16T08:15+05:30"
@@ -2123,9 +2078,6 @@
 "BANN-879c860f-85ae-4c07-8b2f-1d29b6619084": {
 "t": "2026-11-14T21:30+05:30"
 },
-"BANN-8b385228-d4be-48e4-ab02-820c447fdd1f": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-8ba8f7bb-6e4d-4b2d-bf2d-b90092ba7ce2": {
 "t": "2026-11-14T20:45+05:30"
 },
@@ -2146,9 +2098,6 @@
 },
 "BANN-9845073b-aa69-4a71-84df-5e8d6d071b0e": {
 "t": "2026-11-14T20:33+05:30"
-},
-"BANN-98a3714b-b14e-45ca-9083-f2ff59e9e340": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-9a6cb61b-ac93-47eb-a9d7-ff3566e6941b": {
 "t": "2026-11-16T15:09+05:30"
@@ -2188,9 +2137,6 @@
 },
 "BANN-a67cc6c9-2fb8-432b-b742-83bbbda2646b": {
 "t": "2026-11-14T19:56+05:30"
-},
-"BANN-a83f9793-c577-4b03-981c-d5de85781a3c": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-a8c1d66c-74cc-414c-aba4-a4bdff380f74": {
 "t": "2026-11-14T19:45+05:30"
@@ -2318,9 +2264,6 @@
 "BANN-de60d1b6-0990-468b-8427-24f50e208a67": {
 "t": "2026-11-14T19:33+05:30"
 },
-"BANN-de8cf367-738c-4b8b-b308-804abe77d8e6": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-df4d870c-a414-4b84-b8e8-a46be8109372": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -2369,14 +2312,8 @@
 "BANN-f14a313b-0257-4c5d-9b78-137a36771779": {
 "t": "2026-11-14T20:33+05:30"
 },
-"BANN-f289c864-377d-4192-9f58-6078529418be": {
-"t": "2026-11-14T19:09+05:30"
-},
 "BANN-f2c439f5-c8cd-4ec4-9750-cb4aa0439a32": {
 "t": "2026-11-14T19:56+05:30"
-},
-"BANN-f2edc9ca-9aaf-49fe-8ad2-0404de0db6e1": {
-"t": "2026-11-14T19:09+05:30"
 },
 "BANN-f2f6f166-b940-41c6-b5ca-50bff23c910e": {
 "t": "2026-11-14T20:20+05:30"
@@ -18129,6 +18066,9 @@
 },
 "NSE SME|OWAIS|2026-09-30": {
 "t": "2026-11-15T01:37+05:30"
+},
+"NSE SME|PARAMOUNT|2026-09-30": {
+"t": "2026-11-17T19:13+05:30"
 },
 "NSE SME|PARAMPARA|2026-09-30": {
 "t": "2026-11-14T19:39+05:30"
@@ -40901,6 +40841,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/41fca3b5-2af6-42d2-a28d-01eb4fc600b6.pdf",
 "t": "2026-11-13T17:59+05:30"
 },
+"N:RICHAINFOSYSTEMS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
+"t": "2026-11-17T19:09+05:30"
+},
 "N:RICHFIELDFINANCIALSERVICES": {
 "t": "2026-11-12T16:26+05:30"
 },
@@ -43936,6 +43880,10 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/RHIM_13112026175630_Outcome.pdf",
 "t": "2026-11-13T17:59+05:30"
+},
+"RICHA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
+"t": "2026-11-17T19:09+05:30"
 },
 "RISHABH": {
 "c": 1,
@@ -47116,6 +47064,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215237": {
+"company": "Paramount Dye Tec Limited",
+"consolidated": false,
+"filed_at": "2026-11-17T19:11:26+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "PARAMOUNT",
+"t": "2026-11-17T19:13+05:30",
+"uid": "NSE-sme-IF-215237",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215237_17112026191125_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759592_17112026071124_WEB.xml"
 }
 },
 "posted": {
