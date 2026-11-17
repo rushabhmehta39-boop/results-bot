@@ -2903,9 +2903,6 @@
 "ANN-equities-106862359-AIFL": {
 "t": "2026-11-16T16:35+05:30"
 },
-"ANN-sme-106860429-IWARE": {
-"t": "2026-11-14T13:08+05:30"
-},
 "ANN-sme-106860435-ENVIRO": {
 "t": "2026-11-14T13:14+05:30"
 },
@@ -3920,9 +3917,6 @@
 "BANN-47c10d09-7061-4522-91fd-e46b400c5c2c": {
 "t": "2026-11-14T16:48+05:30"
 },
-"BANN-47c2872f-8441-4197-b97f-4991de623ecd": {
-"t": "2026-11-14T13:08+05:30"
-},
 "BANN-47c8fb5c-949e-47e1-b2ca-f3f348d85de7": {
 "t": "2026-11-14T17:40+05:30"
 },
@@ -4282,9 +4276,6 @@
 },
 "BANN-7d4a3fd4-b168-4364-8fde-3a7f6071b1b6": {
 "t": "2026-11-14T14:20+05:30"
-},
-"BANN-7daabdd3-178e-4b3d-ae04-7b2e0b07ae6a": {
-"t": "2026-11-14T13:08+05:30"
 },
 "BANN-7dc887a5-e08e-4779-877c-7aadb6938dcd": {
 "t": "2026-11-14T18:44+05:30"
@@ -4840,9 +4831,6 @@
 },
 "BANN-d02bf333-31dc-4ad8-9c13-9818dbe2c777": {
 "t": "2026-11-14T17:27+05:30"
-},
-"BANN-d07dc3c9-f366-4db0-998b-140c6d86a16f": {
-"t": "2026-11-14T13:08+05:30"
 },
 "BANN-d0a6ac86-db69-4874-9484-2ba400a32412": {
 "t": "2026-11-14T15:40+05:30"
@@ -19845,9 +19833,9 @@
 "t": "2026-11-17T12:53+05:30"
 },
 "NSE-sme-IF-215082": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-17T13:05+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-17T13:11+05:30"
 }
 },
 "first_seen": {
@@ -21294,9 +21282,6 @@
 "BSE|543805|2026-09-30": {
 "t": "2026-11-14T19:28+05:30"
 },
-"BSE|543811|2026-09-30": {
-"t": "2026-11-14T13:07+05:30"
-},
 "BSE|543831|2026-09-30": {
 "t": "2026-11-14T21:43+05:30"
 },
@@ -21398,9 +21383,6 @@
 },
 "BSE|544324|2026-09-30": {
 "t": "2026-11-14T21:24+05:30"
-},
-"BSE|544341|2026-09-30": {
-"t": "2026-11-14T13:07+05:30"
 },
 "BSE|544346|2026-09-30": {
 "t": "2026-11-14T23:28+05:30"
@@ -21671,9 +21653,6 @@
 },
 "NSE SME|AHLADA|2026-09-30": {
 "t": "2026-11-14T19:16+05:30"
-},
-"NSE SME|AIRAN|2026-09-30": {
-"t": "2026-11-14T13:07+05:30"
 },
 "NSE SME|AISL|2026-09-30": {
 "t": "2026-11-16T15:30+05:30"
@@ -22205,9 +22184,6 @@
 },
 "NSE|AHLUCONT|2026-09-30": {
 "t": "2026-11-14T18:37+05:30"
-},
-"NSE|AIRAN|2026-09-30": {
-"t": "2026-11-14T13:07+05:30"
 },
 "NSE|ALGOQUANT|2026-09-30": {
 "t": "2026-11-14T20:26+05:30"
@@ -35291,9 +35267,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba3a53e3-445e-4d46-83f9-3a676364c52b.pdf",
 "t": "2026-11-13T18:08+05:30"
 },
-"INE458F01011": {
-"t": "2026-11-10T13:10+05:30"
-},
 "INE459A01010": {
 "t": "2026-11-11T11:40+05:30"
 },
@@ -47224,9 +47197,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/34cdc41e-d23c-4b5d-a408-4635db2c1472.pdf",
 "t": "2026-11-13T21:02+05:30"
 },
-"N:UNITEDNILGIRITEAESTATESCOMPANY": {
-"t": "2026-11-10T13:10+05:30"
-},
 "N:UNITEDTEXTILES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e3bbb347-c9ce-426c-acb6-ca703e3fc192.pdf",
 "t": "2026-11-13T17:14+05:30"
@@ -49188,9 +49158,6 @@
 "UNITECH": {
 "c": 1,
 "t": "2026-11-12T14:50+05:30"
-},
-"UNITEDTEA": {
-"t": "2026-11-10T13:10+05:30"
 },
 "UNIVAFOODS": {
 "t": "2026-11-16T15:15+05:30"
@@ -51569,22 +51536,6 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
-},
-"NSE-sme-IF-215082": {
-"company": "Cellecor Gadgets Limited",
-"consolidated": true,
-"filed_at": "2026-11-17T12:38:23+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "CELLECOR",
-"t": "2026-11-17T12:42+05:30",
-"uid": "NSE-sme-IF-215082",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215082_17112026123822_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759333_17112026123822_WEB.xml"
 }
 },
 "posted": {
@@ -55091,7 +55042,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-17T13:05+05:30",
+"t": "2026-11-17T13:10+05:30",
 "v": "INE0OMO01025"
 },
 "123456": {
