@@ -3492,6 +3492,9 @@
 "ANN-sme-106862847-TRANSTEEL": {
 "t": "2026-11-16T19:50+05:30"
 },
+"ANN-sme-106863467-ICELCO": {
+"t": "2026-11-17T12:07+05:30"
+},
 "BANN-0053cb1b-4607-4a3a-a33b-67d682c8abc7": {
 "t": "2026-11-14T17:08+05:30"
 },
@@ -3566,9 +3569,6 @@
 },
 "BANN-0b60c50f-7942-4cef-9aec-d60c0e54c26a": {
 "t": "2026-11-16T08:15+05:30"
-},
-"BANN-0bbc5b87-597e-4a67-a6dd-d4f1de41dcb8": {
-"t": "2026-11-14T12:05+05:30"
 },
 "BANN-0c86f4ef-4efd-48cc-baf9-8669bf8fcf8a": {
 "t": "2026-11-14T17:49+05:30"
@@ -4559,9 +4559,6 @@
 },
 "BANN-9b6242ed-ccb8-4f29-9890-d03f75ad97e0": {
 "t": "2026-11-14T16:25+05:30"
-},
-"BANN-9c099e7d-98ef-44ed-894d-851559ba87db": {
-"t": "2026-11-14T12:05+05:30"
 },
 "BANN-9c0c0d61-c354-4a1c-a218-fcd4c2a7ce3a": {
 "t": "2026-11-14T19:33+05:30"
@@ -17367,6 +17364,10 @@
 "NSE-equities-IF-214773": {
 "s": "old",
 "t": "2026-11-17T01:15+05:30"
+},
+"NSE-equities-IF-214789": {
+"s": "superseded",
+"t": "2026-11-17T12:07+05:30"
 },
 "NSE-equities-IF-214806": {
 "s": "small",
@@ -31032,6 +31033,7 @@
 "t": "2026-11-11T16:52+05:30"
 },
 "ICELCO": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
 "t": "2026-11-11T19:37+05:30"
 },
 "ICSA": {
@@ -42273,6 +42275,7 @@
 "t": "2026-11-11T16:52+05:30"
 },
 "N:ICELECTRICALSCOMPANY": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
 "t": "2026-11-11T19:37+05:30"
 },
 "N:ICODEXPUBLISHINGSOLUTIONS": {
@@ -51595,22 +51598,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml"
-},
-"NSE-equities-IF-214789": {
-"company": "Elevate Campuses Limited",
-"consolidated": false,
-"filed_at": "2026-11-16T12:06:15+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "ELEVATE",
-"t": "2026-11-16T12:08+05:30",
-"uid": "NSE-equities-IF-214789",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_214789_16112026120614_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1758943_16112026120613_WEB.xml"
 },
 "NSE-equities-IF-214918": {
 "company": "Shradha Realty Limited",
