@@ -168,14 +168,6 @@
 "pdf": 6,
 "t": "2026-11-14T14:20+05:30"
 },
-"BSE:506687": {
-"d": "2026-11-13",
-"mcap": 747.9,
-"mid": 549,
-"n": "TRANSPEKINDUSTRY",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
-},
 "BSE:507514": {
 "d": "2026-11-13",
 "mcap": 1514.9,
@@ -400,14 +392,6 @@
 "pdf": 5,
 "t": "2026-11-13T21:32+05:30"
 },
-"BSE:538891": {
-"d": "2026-11-13",
-"mcap": 1410.2,
-"mid": 550,
-"n": "MAGELLANICCLOUD",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
-},
 "BSE:539018": {
 "d": "2026-11-13",
 "mcap": 751.9,
@@ -622,14 +606,6 @@
 "n": "DYNACONSSYSTEMSANDSOLUTIONS",
 "pdf": 6,
 "t": "2026-11-14T22:28+05:30"
-},
-"EKC": {
-"d": "2026-11-13",
-"mcap": 1202.4,
-"mid": 548,
-"n": "EVERESTKANTOCYLINDER",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
 },
 "EXPLEOSOL": {
 "d": "2026-11-14",
@@ -921,14 +897,6 @@
 "n": "CHENNAIPETROLEUMCORPORATION",
 "t": "2026-11-16T16:09+05:30"
 },
-"INE184H01027": {
-"d": "2026-11-13",
-"mcap": 1202.4,
-"mid": 548,
-"n": "EVERESTKANTOCYLINDER",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
-},
 "INE191A01027": {
 "d": "2026-11-14",
 "mcap": 5278.9,
@@ -1152,14 +1120,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:33+05:30"
 },
-"INE743M01012": {
-"d": "2026-11-13",
-"mcap": 7537.3,
-"mid": 547,
-"n": "RHIMAGNESITAINDIA",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
-},
 "INE758C01029": {
 "d": "2026-11-14",
 "mcap": 3549.3,
@@ -1366,14 +1326,6 @@
 "n": "RELIANCEINFRASTRUCTURE",
 "pdf": 5,
 "t": "2026-11-13T21:12+05:30"
-},
-"RHIM": {
-"d": "2026-11-13",
-"mcap": 7537.3,
-"mid": 547,
-"n": "RHIMAGNESITAINDIA",
-"pdf": 5,
-"t": "2026-11-13T18:19+05:30"
 },
 "SAMMAANCAP": {
 "d": "2026-11-14",
@@ -2115,6 +2067,9 @@
 },
 "ANN-sme-106863549-AMIABLE": {
 "t": "2026-11-17T13:44+05:30"
+},
+"ANN-sme-106863983-PARAMOUNT": {
+"t": "2026-11-17T18:22+05:30"
 },
 "BANN-01d949fc-715b-47ed-b147-2abeae130ee4": {
 "t": "2026-11-14T21:50+05:30"
@@ -21072,9 +21027,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba3a53e3-445e-4d46-83f9-3a676364c52b.pdf",
 "t": "2026-11-13T18:26+05:30"
 },
-"BSE:512301": {
-"t": "2026-11-10T18:21+05:30"
-},
 "BSE:512344": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/243a688c-78e2-4a4c-a615-48df873f3148.pdf",
 "t": "2026-11-13T16:10+05:30"
@@ -31538,9 +31490,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d1e684c8-78dd-4766-813d-8cc5f77e6e48.pdf",
 "t": "2026-11-14T16:29+05:30"
 },
-"INE417N01011": {
-"t": "2026-11-10T18:21+05:30"
-},
 "INE418B01048": {
 "c": 1,
 "t": "2026-11-12T18:11+05:30"
@@ -36895,9 +36844,6 @@
 "N:CHAMANLALSETIAEXPORTS": {
 "t": "2026-11-12T16:46+05:30"
 },
-"N:CHAMBALBREWERIESANDDISTILLERIES": {
-"t": "2026-11-10T18:21+05:30"
-},
 "N:CHANDANHEALTHCARE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CHANDAN_14112026224102_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-14T22:42+05:30"
@@ -40892,6 +40838,10 @@
 "N:PARAMOUNTCOMMUNICATIONS": {
 "t": "2026-11-16T15:24+05:30"
 },
+"N:PARAMOUNTDYETEC": {
+"pdf": "https://nsearchives.nseindia.in/corporate/PARAMOUNT_17112026181956_ParaCLBmOutcome_signed.pdf",
+"t": "2026-11-17T18:22+05:30"
+},
 "N:PARAMOUNTSPECIALITYFORGINGS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/9820035987_14112026181147_OutcomeofBM14112026.pdf",
 "t": "2026-11-14T18:15+05:30"
@@ -44421,6 +44371,10 @@
 "PARAMATRIX": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PARAMATRIX_13112026165948_Paramatrix_Financial_Results_For_H1_FY_2026_27_Sd.pdf",
 "t": "2026-11-13T17:02+05:30"
+},
+"PARAMOUNT": {
+"pdf": "https://nsearchives.nseindia.in/corporate/PARAMOUNT_17112026181956_ParaCLBmOutcome_signed.pdf",
+"t": "2026-11-17T18:22+05:30"
 },
 "PARAMPARA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AMJUMBO_14112026192834_Parampara_BM_Outcome_14Nov_Signed.pdf",
