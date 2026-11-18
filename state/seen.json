@@ -7849,30 +7849,6 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212366": {
-"s": "superseded",
-"t": "2026-11-11T17:54+05:30"
-},
-"NSE-equities-IF-212369": {
-"s": "dup",
-"t": "2026-11-11T17:54+05:30"
-},
-"NSE-equities-IF-212374": {
-"s": "superseded",
-"t": "2026-11-11T17:54+05:30"
-},
-"NSE-equities-IF-212376": {
-"s": "superseded",
-"t": "2026-11-11T17:54+05:30"
-},
-"NSE-equities-IF-212378": {
-"s": "small",
-"t": "2026-11-11T17:54+05:30"
-},
-"NSE-equities-IF-212379": {
-"s": "dup",
-"t": "2026-11-11T17:54+05:30"
-},
 "NSE-equities-IF-212393": {
 "s": "small",
 "t": "2026-11-11T17:59+05:30"
@@ -12594,11 +12570,6 @@
 "NSE-sme-IF-212300": {
 "s": "superseded",
 "t": "2026-11-11T18:55+05:30"
-},
-"NSE-sme-IF-212346": {
-"n": 6,
-"s": "failed",
-"t": "2026-11-11T17:54+05:30"
 },
 "NSE-sme-IF-212385": {
 "s": "small",
@@ -17616,9 +17587,6 @@
 "c": 1,
 "t": "2026-11-12T19:43+05:30"
 },
-"BSE:519214": {
-"t": "2026-11-11T17:53+05:30"
-},
 "BSE:519216": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3a50df72-a80f-4988-a3af-04c46531cef1.pdf",
 "t": "2026-11-14T15:56+05:30"
@@ -19452,9 +19420,6 @@
 "BSE:532320": {
 "c": 1,
 "t": "2026-11-12T18:11+05:30"
-},
-"BSE:532326": {
-"t": "2026-11-11T17:57+05:30"
 },
 "BSE:532329": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/711aefd5-098f-40cc-a01b-f72105c9d8ef.pdf",
@@ -21401,9 +21366,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78ac04bc-4a5e-464e-989d-86f6d7435a72.pdf",
 "t": "2026-11-14T18:38+05:30"
 },
-"BSE:543914": {
-"t": "2026-11-11T17:56+05:30"
-},
 "BSE:543916": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1c856261-962a-4f76-9f63-3459b2b02318.pdf",
@@ -21939,9 +21901,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b6074a88-0b70-42f5-bf12-b54853b31e69.pdf",
 "t": "2026-11-13T20:23+05:30"
 },
-"BSE:544557": {
-"t": "2026-11-11T17:53+05:30"
-},
 "BSE:544559": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7f132719-37ab-437d-9b4b-857907878ea4.pdf",
 "t": "2026-11-14T22:09+05:30"
@@ -22223,9 +22182,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56713391-27af-43a7-bc1e-1760d1eea4cc.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56713391-27af-43a7-bc1e-1760d1eea4cc.pdf|C|6",
 "t": "2026-11-14T17:50+05:30"
-},
-"BSE:544869": {
-"t": "2026-11-11T17:54+05:30"
 },
 "BSE:544870": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8a01766-a081-4f44-a149-94d55e86862e.pdf",
@@ -25015,9 +24971,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89d60782-e2a4-437e-9615-5e9e484922da.pdf",
 "t": "2026-11-14T22:58+05:30"
 },
-"INE0Z9N01013": {
-"t": "2026-11-11T17:54+05:30"
-},
 "INE0ZDY01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed56e0c6-e7f9-43fd-8b50-7d618315e7e0.pdf",
 "t": "2026-11-14T19:35+05:30"
@@ -25692,9 +25645,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/FACT_13112026132722_NSE_Board_Outcome_-_Unaudited_30092026.pdf",
 "t": "2026-11-13T13:30+05:30"
 },
-"INE188E01017": {
-"t": "2026-11-11T17:53+05:30"
-},
 "INE188Y01015": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VERTOZ_13112026234852_outcome_Financial_results.pdf",
 "t": "2026-11-13T23:50+05:30"
@@ -26012,9 +25962,6 @@
 },
 "INE210C01013": {
 "t": "2026-11-12T13:35+05:30"
-},
-"INE210F01016": {
-"t": "2026-11-11T17:56+05:30"
 },
 "INE212I01016": {
 "c": 1,
@@ -37605,9 +37552,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d880269c-3c3e-4f8b-9728-4cdcc3ee7940.pdf",
 "t": "2026-11-13T14:31+05:30"
 },
-"N:SHAMFOAM": {
-"t": "2026-11-11T17:54+05:30"
-},
 "N:SHANMUGAHOSPITAL": {
 "t": "2026-11-12T18:02+05:30"
 },
@@ -38460,9 +38404,6 @@
 "N:SWASTIVINAYAKASYNTHETICS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/81d9c4fc-49d3-4c87-b06c-d974f643ad53.pdf",
 "t": "2026-11-13T20:00+05:30"
-},
-"N:SWATIPROJECTS": {
-"t": "2026-11-11T17:56+05:30"
 },
 "N:SWELECTENERGYSYSTEMS": {
 "c": 1,
@@ -39362,9 +39303,6 @@
 "N:WHITEORGANICAGRO": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/126a8341-efb1-4746-ad29-78383c5c918f.pdf",
 "t": "2026-11-13T19:12+05:30"
-},
-"N:WILLIAMSONFINANCIALSERVICES": {
-"t": "2026-11-11T17:53+05:30"
 },
 "N:WILLIAMSONMAGORANDCOMPANY": {
 "t": "2026-11-12T18:41+05:30"
