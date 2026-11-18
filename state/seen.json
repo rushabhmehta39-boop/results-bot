@@ -1,13 +1,5 @@
 {
 "alerts": {
-"ASHOKLEY": {
-"d": "2026-11-14",
-"mcap": 99356.2,
-"mid": 843,
-"n": "ASHOKLEYLAND",
-"pdf": 6,
-"t": "2026-11-14T20:20+05:30"
-},
 "BALUFORGE": {
 "d": "2026-11-14",
 "mcap": 6674.7,
@@ -186,14 +178,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
 },
-"INE0GMR01016": {
-"d": "2026-11-14",
-"mcap": 960.3,
-"mid": 844,
-"n": "SWARAJSUITING",
-"pdf": 6,
-"t": "2026-11-14T20:20+05:30"
-},
 "INE0R6Z01013": {
 "d": "2026-11-14",
 "mcap": 926.1,
@@ -232,14 +216,6 @@
 "n": "KERNEXMICROSYSTEMSINDIA",
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
-},
-"INE208A01029": {
-"d": "2026-11-14",
-"mcap": 99356.2,
-"mid": 843,
-"n": "ASHOKLEYLAND",
-"pdf": 6,
-"t": "2026-11-14T20:20+05:30"
 },
 "INE417B01040": {
 "d": "2026-11-14",
@@ -293,14 +269,6 @@
 "n": "SRMCONTRACTORS",
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
-},
-"SWARAJ": {
-"d": "2026-11-14",
-"mcap": 960.3,
-"mid": 844,
-"n": "SWARAJSUITING",
-"pdf": 6,
-"t": "2026-11-14T20:20+05:30"
 },
 "VIKRAMSOLR": {
 "d": "2026-11-14",
@@ -1124,6 +1092,10 @@
 "BSE-IFOtherthan_544347_14112026223353_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-16T08:07+05:30"
+},
+"BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-18T20:22+05:30"
 },
 "BSE-IFOtherthan_544354_14112026173859_IFOtherthan.xml": {
 "s": "small",
@@ -3761,10 +3733,6 @@
 "BSE-Integrated_Finance_Ind_As_526247_1211202618177_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-13T18:32+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_526315_11112026181429_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T20:17+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_526355_14112026174616_IFIndAs.xml": {
 "s": "small",
@@ -20057,9 +20025,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6a2d035-f7e0-4255-887a-241762dbed54.pdf",
 "t": "2026-11-13T17:42+05:30"
 },
-"BSE:539287": {
-"t": "2026-11-11T20:19+05:30"
-},
 "BSE:539300": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2e1fbe6-6487-471d-b4f5-faf76a2b5b5d.pdf",
@@ -21126,9 +21091,6 @@
 "BSE:544169": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9b27d06d-f7d8-47e3-a9e7-a92490226e14.pdf",
 "t": "2026-11-14T18:28+05:30"
-},
-"BSE:544171": {
-"t": "2026-11-11T20:17+05:30"
 },
 "BSE:544183": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ded8e9fc-f67e-43fa-b748-44cd8ec7f788.pdf",
@@ -24300,9 +24262,6 @@
 "INE0RDR01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0bc5ef52-02ca-4c9c-901f-7c1624b511d5.pdf",
 "t": "2026-11-14T20:24+05:30"
-},
-"INE0RGM01016": {
-"t": "2026-11-11T20:17+05:30"
 },
 "INE0RH001011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b8cf57c4-0f37-4e16-ae40-a71a4184d6eb.pdf",
@@ -28542,9 +28501,6 @@
 },
 "INE748D01010": {
 "t": "2026-11-12T19:34+05:30"
-},
-"INE749B01020": {
-"t": "2026-11-11T20:19+05:30"
 },
 "INE750G01019": {
 "t": "2026-11-12T19:55+05:30"
@@ -35620,9 +35576,6 @@
 "N:OROSILSMITHSINDIA": {
 "t": "2026-11-12T17:44+05:30"
 },
-"N:ORTINGLOBAL": {
-"t": "2026-11-11T20:19+05:30"
-},
 "N:OSCARGLOBAL": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0997f10d-525d-4933-a0d8-28f03935ca84.pdf",
 "t": "2026-11-14T23:13+05:30"
@@ -37612,9 +37565,6 @@
 "N:STLGLOBAL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SGL_14112026140659_BM_OUTCOME.pdf",
 "t": "2026-11-14T14:08+05:30"
-},
-"N:STORAGETECHNOLOGIESANDAUTOMATION": {
-"t": "2026-11-11T20:17+05:30"
 },
 "N:STRATMONTINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/57e7319e-3840-4442-b6eb-1c360827793b.pdf",
@@ -42312,22 +42262,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml": {
-"company": "Malpani Pipes And Fittings Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544351",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T19:47+05:30",
-"uid": "BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544351_18112026194325_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544351_18112026194325_IFOtherthan.xml"
-},
 "BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml": {
 "company": "Ansal Properties & Infrastructure Ltd",
 "consolidated": false,
@@ -52389,6 +52323,10 @@
 "t": "2026-11-16T08:07+05:30",
 "v": "INE0WDX01010"
 },
+"544351": {
+"t": "2026-11-18T20:22+05:30",
+"v": "INE0YON01014"
+},
 "544354": {
 "t": "2026-11-14T22:28+05:30",
 "v": "INE0W0H01017"
@@ -55762,6 +55700,10 @@
 "INE0YKW01013": {
 "t": "2026-11-13T18:06+05:30",
 "v": 10920000
+},
+"INE0YON01014": {
+"t": "2026-11-18T20:22+05:30",
+"v": 10777500
 },
 "INE0YRN01025": {
 "t": "2026-11-14T20:16+05:30",
