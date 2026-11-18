@@ -7897,10 +7897,6 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212341": {
-"s": "dup",
-"t": "2026-11-11T17:23+05:30"
-},
 "NSE-equities-IF-212360": {
 "s": "superseded",
 "t": "2026-11-11T17:41+05:30"
@@ -12655,10 +12651,6 @@
 "s": "superseded",
 "t": "2026-11-11T18:55+05:30"
 },
-"NSE-sme-IF-212340": {
-"s": "small",
-"t": "2026-11-11T17:23+05:30"
-},
 "NSE-sme-IF-212346": {
 "n": 6,
 "s": "failed",
@@ -17070,9 +17062,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9326ff25-6a24-47b2-b3c5-dad570122460.pdf",
 "t": "2026-11-14T17:44+05:30"
 },
-"BSE:511756": {
-"t": "2026-11-11T17:23+05:30"
-},
 "BSE:511758": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/adbc222b-c7b6-478f-9910-8e77b5e699a6.pdf",
 "t": "2026-11-14T15:07+05:30"
@@ -18647,9 +18636,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f8bfd82f-b92b-4d59-86be-5a2d2a2799ae.pdf",
 "t": "2026-11-13T16:59+05:30"
 },
-"BSE:530317": {
-"t": "2026-11-11T17:21+05:30"
-},
 "BSE:530341": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd46b840-880e-4703-a842-c797d9e39f0f.pdf",
@@ -18801,9 +18787,6 @@
 "BSE:530805": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c10d869d-4115-4ec3-912a-4deb5163f64f.pdf",
 "t": "2026-11-14T16:00+05:30"
-},
-"BSE:530809": {
-"t": "2026-11-11T17:21+05:30"
 },
 "BSE:530843": {
 "c": 1,
@@ -23129,9 +23112,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
 "t": "2026-11-17T18:57+05:30"
 },
-"GANGOTRI": {
-"t": "2026-11-11T17:21+05:30"
-},
 "GATECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/STAMPEDE_13112026203206_Outcome_BM_GATECH.pdf",
 "t": "2026-11-13T20:33+05:30"
@@ -25876,9 +25856,6 @@
 "INE195E01020": {
 "t": "2026-11-12T20:22+05:30"
 },
-"INE195I01013": {
-"t": "2026-11-11T17:23+05:30"
-},
 "INE197901015": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/MODTHREAD_14112026160335_Outcome_of_BM.pdf",
@@ -26364,9 +26341,6 @@
 "INE244C01020": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1bb71651-ac79-41ae-8e3f-5e37db6b1d27.pdf",
 "t": "2026-11-13T16:52+05:30"
-},
-"INE245A01013": {
-"t": "2026-11-11T17:20+05:30"
 },
 "INE245A01021": {
 "t": "2026-11-11T17:29+05:30"
@@ -27019,9 +26993,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2d9e46f-b0e0-4a30-8e57-3bdf67fc1710.pdf",
 "t": "2026-11-14T21:12+05:30"
 },
-"INE355C01016": {
-"t": "2026-11-11T17:21+05:30"
-},
 "INE356B01024": {
 "c": 1,
 "t": "2026-11-12T20:09+05:30"
@@ -27064,9 +27035,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb352d1b-6f33-4a53-86aa-b13871b0e88b.pdf",
 "t": "2026-11-13T20:07+05:30"
-},
-"INE362C01012": {
-"t": "2026-11-11T17:21+05:30"
 },
 "INE362D01010": {
 "c": 1,
@@ -28516,10 +28484,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ea59c60-4a34-46a0-a602-24c4492697bd.pdf",
 "t": "2026-11-13T17:48+05:30"
 },
-"INE620D01011": {
-"c": 1,
-"t": "2026-11-11T17:21+05:30"
-},
 "INE621B01021": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb78a02d-4e44-4a97-8ccd-72863c7d994c.pdf",
 "t": "2026-11-14T15:21+05:30"
@@ -28784,9 +28748,6 @@
 "INE669Y01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/440f060b-74ed-41b5-ab52-77d06de737c3.pdf",
 "t": "2026-11-13T17:27+05:30"
-},
-"INE670B01028": {
-"t": "2026-11-11T17:21+05:30"
 },
 "INE670C01026": {
 "t": "2026-11-12T19:58+05:30"
@@ -31347,9 +31308,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e655ec9b-125e-4db8-9ad3-6581f63ad502.pdf",
 "t": "2026-11-14T20:41+05:30"
 },
-"N:ABIRAMIFINANCIALSERVICESINDIA": {
-"t": "2026-11-11T17:23+05:30"
-},
 "N:ABMINTERNATIONAL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ABMINTLLTD_13112026172223_OUTCOME_13112026_ABM.pdf",
 "t": "2026-11-13T17:26+05:30"
@@ -32406,9 +32364,6 @@
 },
 "N:BNRATHISECURITIES": {
 "t": "2026-11-12T17:56+05:30"
-},
-"N:BNRUDYOG": {
-"t": "2026-11-11T17:21+05:30"
 },
 "N:BODHITREEMULTIMEDIA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BTML_14112026150846_Final.pdf",
@@ -33679,9 +33634,6 @@
 "N:GANGESSECURITIES": {
 "t": "2026-11-12T16:53+05:30"
 },
-"N:GANGOTRITEXTILES": {
-"t": "2026-11-11T17:21+05:30"
-},
 "N:GANONPRODUCTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bbc01f41-b104-447b-9988-eadf21b9cfc1.pdf",
 "t": "2026-11-14T21:10+05:30"
@@ -33869,9 +33821,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56f70434-e99a-4dc2-a297-713174e4e5ea.pdf",
 "t": "2026-11-14T17:56+05:30"
-},
-"N:GODAVARIDRUGS": {
-"t": "2026-11-11T17:21+05:30"
 },
 "N:GODAWARIPOWERANDISPAT": {
 "c": 1,
@@ -38756,10 +38705,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/TATAMOTORSSJS_13112026161123_NSEBSEOutcome.pdf",
 "t": "2026-11-13T16:12+05:30"
 },
-"N:TATAPOWERCOMPANY": {
-"c": 1,
-"t": "2026-11-11T17:20+05:30"
-},
 "N:TAURIANMPS": {
 "t": "2026-11-16T15:55+05:30"
 },
@@ -40850,9 +40795,6 @@
 "TARSONS": {
 "c": 1,
 "t": "2026-11-12T13:51+05:30"
-},
-"TATAPOWER": {
-"t": "2026-11-11T17:20+05:30"
 },
 "TAURIAN": {
 "t": "2026-11-16T15:55+05:30"
