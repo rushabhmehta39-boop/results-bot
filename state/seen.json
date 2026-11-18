@@ -168,14 +168,6 @@
 "pdf": 6,
 "t": "2026-11-14T22:52+05:30"
 },
-"BSE:532842": {
-"d": "2026-11-14",
-"mcap": 882.4,
-"mid": 771,
-"n": "SREERAYALASEEMAHISTRENGTHHYPO",
-"pdf": 6,
-"t": "2026-11-14T16:17+05:30"
-},
 "BSE:532930": {
 "d": "2026-11-14",
 "mcap": 2235.6,
@@ -207,14 +199,6 @@
 "n": "SANCODETECHNOLOGIES",
 "pdf": 6,
 "t": "2026-11-16T08:15+05:30"
-},
-"BSE:543916": {
-"d": "2026-11-14",
-"mcap": 928.2,
-"mid": 770,
-"n": "HEMANTSURGICALINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T16:17+05:30"
 },
 "BSE:544053": {
 "d": "2026-11-14",
@@ -441,14 +425,6 @@
 "n": "CHENNAIPETROLEUMCORPORATION",
 "t": "2026-11-16T16:09+05:30"
 },
-"INE191A01027": {
-"d": "2026-11-14",
-"mcap": 5278.9,
-"mid": 769,
-"n": "ORCHIDPHARMA",
-"pdf": 6,
-"t": "2026-11-14T16:17+05:30"
-},
 "INE192H01020": {
 "d": "2026-11-14",
 "mcap": 1862.8,
@@ -559,14 +535,6 @@
 "n": "NIBE",
 "pdf": 6,
 "t": "2026-11-14T16:58+05:30"
-},
-"ORCHPHARMA": {
-"d": "2026-11-14",
-"mcap": 5278.9,
-"mid": 769,
-"n": "ORCHIDPHARMA",
-"pdf": 6,
-"t": "2026-11-14T16:17+05:30"
 },
 "PARACABLES": {
 "d": "2026-11-16",
@@ -886,6 +854,9 @@
 },
 "BANN-6eac18c0-d111-4e23-bd77-35c015a6d333": {
 "t": "2026-11-16T13:04+05:30"
+},
+"BANN-75c8dfb7-cb4f-47a9-9c78-70419c5f3da6": {
+"t": "2026-11-18T16:21+05:30"
 },
 "BANN-7972b479-0db2-4196-9cec-ae3ecf9af823": {
 "t": "2026-11-16T08:15+05:30"
@@ -5057,10 +5028,6 @@
 "BSE-Integrated_Finance_Ind_As_531971_14112026213017_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T08:24+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_531978_11112026042007_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-11T16:21+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531979_1311202617948_IFIndAs.xml": {
 "s": "small",
@@ -16602,9 +16569,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/290d35d4-1581-4818-bcdf-06c6fd0c777e.pdf",
 "t": "2026-11-13T15:34+05:30"
 },
-"BSE:502250": {
-"t": "2026-11-11T16:18+05:30"
-},
 "BSE:502405": {
 "t": "2026-11-12T14:42+05:30"
 },
@@ -17787,7 +17751,7 @@
 "t": "2026-11-12T18:34+05:30"
 },
 "BSE:517077": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e8557f8-f305-453a-b357-2e47930ca9ce.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91de88e3-5e2f-4f83-bc69-e9c7e055fdd8.pdf",
 "t": "2026-11-13T22:04+05:30"
 },
 "BSE:517146": {
@@ -25505,7 +25469,7 @@
 "t": "2026-11-13T18:03+05:30"
 },
 "INE115E01010": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e8557f8-f305-453a-b357-2e47930ca9ce.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91de88e3-5e2f-4f83-bc69-e9c7e055fdd8.pdf",
 "t": "2026-11-13T22:04+05:30"
 },
 "INE117A01022": {
@@ -27261,9 +27225,6 @@
 "INE347C01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/459a5d8f-039d-4479-8b4c-c725dfd4e474.pdf",
 "t": "2026-11-13T17:09+05:30"
-},
-"INE347D01011": {
-"t": "2026-11-11T16:18+05:30"
 },
 "INE347I01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/82a0005e-e707-43c6-a41b-98063fa63964.pdf",
@@ -34666,7 +34627,7 @@
 "t": "2026-11-13T16:37+05:30"
 },
 "N:INDAGIVCOMMERCE": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e8557f8-f305-453a-b357-2e47930ca9ce.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91de88e3-5e2f-4f83-bc69-e9c7e055fdd8.pdf",
 "t": "2026-11-13T22:04+05:30"
 },
 "N:INDERGIRIFINANCE": {
@@ -35639,9 +35600,6 @@
 "N:LEODRYFRUITSANDSPICESTRADING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b8cf57c4-0f37-4e16-ae40-a71a4184d6eb.pdf",
 "t": "2026-11-13T18:46+05:30"
-},
-"N:LERTHAIFINANCE": {
-"t": "2026-11-11T16:18+05:30"
 },
 "N:LEXNIMBLESOLUTIONS": {
 "t": "2026-11-12T21:35+05:30"
@@ -41765,6 +41723,10 @@
 }
 },
 "mcap": {
+"BSE:517077": {
+"t": "2026-11-18T16:21+05:30",
+"v": 16.7
+},
 "BSE:524324": {
 "t": "2026-11-16T17:28+05:30",
 "v": 30.6
