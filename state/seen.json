@@ -2435,10 +2435,6 @@
 "s": "small",
 "t": "2026-11-13T18:46+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_511194_1111202617242_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:06+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_511246_14112026154321_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T18:00+05:30"
@@ -5802,10 +5798,6 @@
 "s": "superseded",
 "t": "2026-11-16T08:25+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_539090_11112026165855_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:07+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_539096_13112026182136_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T21:31+05:30"
@@ -6041,6 +6033,10 @@
 "BSE-Integrated_Finance_Ind_As_540023_14112026204137_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T23:02+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-18T19:07+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_540047_12112026174534_IFIndAs.xml": {
 "s": "superseded",
@@ -7755,21 +7751,9 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212439": {
-"s": "small",
-"t": "2026-11-11T19:06+05:30"
-},
 "NSE-equities-IF-212446": {
 "s": "posted",
 "t": "2026-11-11T19:18+05:30"
-},
-"NSE-equities-IF-212449": {
-"s": "superseded",
-"t": "2026-11-11T19:06+05:30"
-},
-"NSE-equities-IF-212451": {
-"s": "posted",
-"t": "2026-11-11T19:06+05:30"
 },
 "NSE-equities-IF-212459": {
 "s": "posted",
@@ -18331,10 +18315,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ee445b01-4a6a-4ca2-8a92-9457c0e019be.pdf",
 "t": "2026-11-13T18:42+05:30"
 },
-"BSE:530235": {
-"c": 1,
-"t": "2026-11-11T19:03+05:30"
-},
 "BSE:530245": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ab9115c-39c7-48eb-a6b6-172ed883605e.pdf",
@@ -25718,9 +25698,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fbd04c55-9d1a-4f99-891b-f13cdedcdd12.pdf",
 "t": "2026-11-14T20:37+05:30"
 },
-"INE202Z01029": {
-"t": "2026-11-11T19:04+05:30"
-},
 "INE204D01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c3f8d870-32e2-4573-888f-239b861a325f.pdf",
 "t": "2026-11-13T18:41+05:30"
@@ -27582,10 +27559,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8dcdf629-937d-4927-a405-99631efe9f2c.pdf",
 "t": "2026-11-13T23:09+05:30"
-},
-"INE533C01018": {
-"c": 1,
-"t": "2026-11-11T19:03+05:30"
 },
 "INE535D01029": {
 "t": "2026-11-11T19:34+05:30"
@@ -34507,10 +34480,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5908e400-8458-46a4-9131-59bb8e90b808.pdf",
 "t": "2026-11-13T18:47+05:30"
 },
-"N:KJMCFINANCIALSERVICES": {
-"c": 1,
-"t": "2026-11-11T19:03+05:30"
-},
 "N:KKALPANAINDUSTRIESINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/942d199d-9c8f-48c0-b026-5faddbd0a335.pdf",
 "t": "2026-11-13T17:53+05:30"
@@ -38448,9 +38417,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/TSCINDIA_13112026140749_INTIMATIONTOEXCHANGEOCR.pdf",
 "t": "2026-11-13T14:08+05:30"
 },
-"N:TSFINVESTMENTS": {
-"t": "2026-11-11T19:04+05:30"
-},
 "N:TTIENTERPRISE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f549cf19-ca4e-4d2d-ab6c-177f1a8c274e.pdf",
 "t": "2026-11-14T14:22+05:30"
@@ -40374,9 +40340,6 @@
 "TSC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TSCINDIA_13112026140749_INTIMATIONTOEXCHANGEOCR.pdf",
 "t": "2026-11-13T14:08+05:30"
-},
-"TSFINV": {
-"t": "2026-11-11T19:04+05:30"
 },
 "TUNWAL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TUNWAL2024_14112026171846_Outcome_Final_SD.pdf",
@@ -42634,22 +42597,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
-"company": "Prabhat Technologies (India) Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "540027",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-17T19:02+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
 "company": "Apeejay Surrendra Park Hotels Ltd",
@@ -51464,6 +51411,10 @@
 "t": "2026-11-14T23:02+05:30",
 "v": "INE621I01042"
 },
+"540027": {
+"t": "2026-11-18T19:07+05:30",
+"v": "INE171P01019"
+},
 "540048": {
 "t": "2026-11-12T22:03+05:30",
 "v": "INE212I01016"
@@ -56701,6 +56652,10 @@
 "INE170V01027": {
 "t": "2026-11-14T18:26+05:30",
 "v": 1747950000
+},
+"INE171P01019": {
+"t": "2026-11-18T19:07+05:30",
+"v": 10706300
 },
 "INE171Z01026": {
 "t": "2026-11-12T15:31+05:30",
