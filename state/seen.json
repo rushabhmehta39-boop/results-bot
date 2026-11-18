@@ -176,14 +176,6 @@
 "pdf": 6,
 "t": "2026-11-14T18:29+05:30"
 },
-"BSE:544864": {
-"d": "2026-11-14",
-"mcap": 1960.1,
-"mid": 800,
-"n": "TECHNOCRAFTVENTURES",
-"pdf": 6,
-"t": "2026-11-14T18:01+05:30"
-},
 "BSE:544870": {
 "d": "2026-11-14",
 "mcap": 1915.2,
@@ -3149,10 +3141,6 @@
 "BSE-Integrated_Finance_Ind_As_517429_13112026213340_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T08:04+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_517449_11112026155446_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T17:59+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_517463_1211202618333_IFIndAs.xml": {
 "s": "small",
@@ -7849,25 +7837,9 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212393": {
-"s": "small",
-"t": "2026-11-11T17:59+05:30"
-},
-"NSE-equities-IF-212394": {
-"s": "superseded",
-"t": "2026-11-11T17:59+05:30"
-},
-"NSE-equities-IF-212395": {
-"s": "superseded",
-"t": "2026-11-11T17:59+05:30"
-},
 "NSE-equities-IF-212396": {
 "s": "small",
 "t": "2026-11-11T18:12+05:30"
-},
-"NSE-equities-IF-212397": {
-"s": "dup",
-"t": "2026-11-11T17:59+05:30"
 },
 "NSE-equities-IF-212410": {
 "s": "superseded",
@@ -21430,9 +21402,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bb5a4a7-4e55-4eb2-a18b-ee45f8df643f.pdf",
 "t": "2026-11-13T16:31+05:30"
 },
-"BSE:544015": {
-"t": "2026-11-11T18:02+05:30"
-},
 "BSE:544035": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0bc5ef52-02ca-4c9c-901f-7c1624b511d5.pdf",
 "t": "2026-11-14T20:24+05:30"
@@ -24276,10 +24245,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5854b402-cb23-4120-8a23-3af07c63fa26.pdf",
 "t": "2026-11-14T19:12+05:30"
 },
-"INE0FFK01017": {
-"c": 1,
-"t": "2026-11-11T17:59+05:30"
-},
 "INE0FMW01018": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/QMS_14112026163524_FINAL_ATTACHMENT.pdf",
@@ -24659,9 +24624,6 @@
 "INE0QFT01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dbc5575-7540-4081-bd7f-ebcbdf4586d9.pdf",
 "t": "2026-11-14T14:05+05:30"
-},
-"INE0QI101019": {
-"t": "2026-11-11T18:02+05:30"
 },
 "INE0QIS01011": {
 "c": 1,
@@ -25365,10 +25327,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f44a8c3b-ce20-4ccd-86a4-0569461b34c2.pdf",
 "t": "2026-11-14T17:37+05:30"
 },
-"INE152M01016": {
-"c": 1,
-"t": "2026-11-11T18:03+05:30"
-},
 "INE153A01019": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/MTNL_13112026183437_SD_SE_FR_13112026.pdf",
@@ -25978,10 +25936,6 @@
 "INE213S01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9a63d78f-b2d1-4a55-ad37-7fcd99eb2452.pdf",
 "t": "2026-11-13T17:12+05:30"
-},
-"INE215B01022": {
-"c": 1,
-"t": "2026-11-11T18:00+05:30"
 },
 "INE215I01019": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MAANALU_14112026170015_outcomeMerged.pdf",
@@ -35447,9 +35401,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/919161d1-104f-421d-90ef-efb82dc2661f.pdf",
 "t": "2026-11-13T18:06+05:30"
 },
-"N:MISHDESIGNS": {
-"t": "2026-11-11T18:02+05:30"
-},
 "N:MISQUITAENGINEERING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d0e87b79-05f5-4a21-9b69-449432f9fbdc.pdf",
 "t": "2026-11-14T15:06+05:30"
@@ -35834,10 +35785,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9fa70717-9677-4d3a-a7aa-3226b39f946f.pdf",
 "t": "2026-11-14T17:30+05:30"
 },
-"N:NETWORKPEOPLESERVICESTECHNOLOGIES": {
-"c": 1,
-"t": "2026-11-11T17:59+05:30"
-},
 "N:NEWEVERTRADEWINGS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96ff3c20-19ae-47ef-adf8-20f398ad3182.pdf",
 "t": "2026-11-13T22:54+05:30"
@@ -36144,10 +36091,6 @@
 "N:OPTIVALUETEKCONSULTING": {
 "pdf": "https://nsearchives.nseindia.in/corporate/OPTIVALUETEK_13112026180040_Outcome.pdf",
 "t": "2026-11-13T18:20+05:30"
-},
-"N:ORCHASP": {
-"c": 1,
-"t": "2026-11-11T18:00+05:30"
 },
 "N:ORCHIDPHARMA": {
 "c": 1,
@@ -38740,10 +38683,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd24c1e7-2a66-490b-bf56-be65402feb87.pdf",
 "t": "2026-11-13T19:42+05:30"
 },
-"N:TRIVENITURBINE": {
-"c": 1,
-"t": "2026-11-11T18:03+05:30"
-},
 "N:TSCINDIA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TSCINDIA_13112026140749_INTIMATIONTOEXCHANGEOCR.pdf",
 "t": "2026-11-13T14:08+05:30"
@@ -39564,10 +39503,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/NOVA_14112026142454_OUTCOMEOFMEETING.pdf",
 "t": "2026-11-14T14:27+05:30"
 },
-"NPST": {
-"c": 1,
-"t": "2026-11-11T17:59+05:30"
-},
 "NRL": {
 "t": "2026-11-12T18:13+05:30"
 },
@@ -39619,9 +39554,6 @@
 "OPTIVALUE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/OPTIVALUETEK_13112026180040_Outcome.pdf",
 "t": "2026-11-13T18:20+05:30"
-},
-"ORCHASP": {
-"t": "2026-11-11T18:00+05:30"
 },
 "ORCHPHARMA": {
 "c": 1,
@@ -40697,10 +40629,6 @@
 "TRAVELFOOD": {
 "c": 1,
 "t": "2026-11-12T19:32+05:30"
-},
-"TRITURBINE": {
-"c": 1,
-"t": "2026-11-11T18:03+05:30"
 },
 "TSC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TSCINDIA_13112026140749_INTIMATIONTOEXCHANGEOCR.pdf",
