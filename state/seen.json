@@ -579,6 +579,9 @@
 "ANN-sme-106865254-WHITEFORCE": {
 "t": "2026-11-18T18:50+05:30"
 },
+"ANN-sme-106865290-WHITEFORCE": {
+"t": "2026-11-18T19:02+05:30"
+},
 "BANN-01ef6c95-799d-4d29-8199-95e5242d06d4": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -2239,10 +2242,6 @@
 "BSE-Integrated_Finance_Ind_As_507690_13112026182844_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T21:31+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_507753_11112026165459_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-11T19:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_507759_1411202615126_IFIndAs.xml": {
 "s": "small",
@@ -5170,10 +5169,6 @@
 "BSE-Integrated_Finance_Ind_As_532773_1311202620642_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:27+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_532774_11112026165455_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_532782_13112026054443_IFIndAs.xml": {
 "s": "small",
@@ -15007,6 +15002,9 @@
 "BSE|526530|2026-09-30": {
 "t": "2026-11-16T18:22+05:30"
 },
+"BSE|530025|2026-09-30": {
+"t": "2026-11-18T19:01+05:30"
+},
 "BSE|530173|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -15216,6 +15214,9 @@
 },
 "NSE SME|VISAMAN|2026-09-30": {
 "t": "2026-11-16T12:15+05:30"
+},
+"NSE SME|WHITEFORCE|2026-09-30": {
+"t": "2026-11-18T19:01+05:30"
 },
 "NSE|ANSALAPI|2026-06-30": {
 "t": "2026-11-18T18:44+05:30"
@@ -29876,9 +29877,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1e08a703-7dcb-445f-bcc6-a3f163da819d.pdf",
 "t": "2026-11-14T13:50+05:30"
 },
-"INE947I01017": {
-"t": "2026-11-11T19:02+05:30"
-},
 "INE947T01014": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GICL_14112026203238_FS2026HALF.pdf",
 "t": "2026-11-14T20:39+05:30"
@@ -30506,9 +30504,6 @@
 },
 "LOKESHMACH": {
 "t": "2026-11-12T13:31+05:30"
-},
-"LOTUSEYE": {
-"t": "2026-11-11T19:02+05:30"
 },
 "LOVABLE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LOVABLE_14112026183522_SEP_FINANCIALS_30__Signed.pdf",
@@ -34814,9 +34809,6 @@
 },
 "N:LORENZINIAPPARELS": {
 "t": "2026-11-12T18:30+05:30"
-},
-"N:LOTUSEYEHOSPITALANDINSTITUTE": {
-"t": "2026-11-11T19:02+05:30"
 },
 "N:LOVABLELINGERIE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51dbde98-9272-4d30-b5fc-df10cee8635f.pdf",
@@ -42627,6 +42619,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml": {
+"company": "Samyak International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "530025",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T19:01+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "company": "Prabhat Technologies (India) Ltd",
 "consolidated": false,
@@ -42706,6 +42714,22 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
+},
+"NSE-sme-IF-215460": {
+"company": "Happy Square Outsourcing Services Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T18:59:55+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "WHITEFORCE",
+"t": "2026-11-18T19:01+05:30",
+"uid": "NSE-sme-IF-215460",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215460_18112026185954_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759909_18112026065953_WEB.xml"
 }
 },
 "posted": {
