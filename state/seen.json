@@ -15634,9 +15634,9 @@
 "t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215078": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-18T12:45+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-18T12:51+05:30"
 },
 "NSE-sme-IF-215079": {
 "n": 6,
@@ -15644,9 +15644,9 @@
 "t": "2026-11-17T12:53+05:30"
 },
 "NSE-sme-IF-215081": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-18T12:45+05:30"
+"t": "2026-11-18T12:51+05:30"
 },
 "NSE-sme-IF-215082": {
 "n": 6,
@@ -17357,9 +17357,6 @@
 "BSE:509084": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a17b8b94-df5b-4e4c-81a0-9429ae759db9.pdf",
 "t": "2026-11-13T11:34+05:30"
-},
-"BSE:509196": {
-"t": "2026-11-11T12:47+05:30"
 },
 "BSE:509243": {
 "c": 1,
@@ -23337,10 +23334,6 @@
 "CURAA": {
 "t": "2026-11-12T12:58+05:30"
 },
-"CURIS": {
-"c": 1,
-"t": "2026-11-11T12:48+05:30"
-},
 "CURRENT": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CURRENTINFRA_14112026175749_BM_OUTCOME_SIGNED_14112026.pdf",
 "t": "2026-11-14T18:08+05:30"
@@ -26239,9 +26232,6 @@
 "INE159C01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91c3dc49-1fb4-4473-8064-b8911581068f.pdf",
 "t": "2026-11-14T18:16+05:30"
-},
-"INE159E01026": {
-"t": "2026-11-11T12:47+05:30"
 },
 "INE159O01033": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d986954c-e7b9-4d44-824c-36b00bc8477d.pdf",
@@ -33690,10 +33680,6 @@
 "N:CURATECHNOLOGIES": {
 "t": "2026-11-12T12:58+05:30"
 },
-"N:CURISLIFESCIENCES": {
-"c": 1,
-"t": "2026-11-11T12:48+05:30"
-},
 "N:CURRENTINFRAPROJECTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CURRENTINFRA_14112026175749_BM_OUTCOME_SIGNED_14112026.pdf",
 "t": "2026-11-14T18:08+05:30"
@@ -36582,9 +36568,6 @@
 "N:MKPROTEINS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MKPL_13112026162142_Signed_MKPLBMOUTCOME_13112026_.pdf",
 "t": "2026-11-13T16:25+05:30"
-},
-"N:MMRUBBERCOMPANY": {
-"t": "2026-11-11T12:47+05:30"
 },
 "N:MOBILISEAPPLAB": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MOBILISE_17112026214818_NSESigned2026.pdf",
@@ -44295,22 +44278,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
 },
-"NSE-sme-IF-215078": {
-"company": "Integrated Personnel Services Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T12:21:21+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "IPSL",
-"t": "2026-11-17T12:25+05:30",
-"uid": "NSE-sme-IF-215078",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215078_17112026122120_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759319_17112026122120_WEB.xml"
-},
 "NSE-sme-IF-215081": {
 "company": "Cellecor Gadgets Limited",
 "consolidated": false,
@@ -47848,7 +47815,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T12:45+05:30",
+"t": "2026-11-18T12:51+05:30",
 "v": "INE0OMO01025"
 },
 "123456": {
