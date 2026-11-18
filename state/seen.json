@@ -14842,6 +14842,9 @@
 "BSE|512595|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
+"BSE|513721|2026-09-30": {
+"t": "2026-11-18T19:53+05:30"
+},
 "BSE|517236|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -19465,10 +19468,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd7dbcb3-b365-4529-aacf-0ca37e11ad96.pdf",
 "t": "2026-11-13T17:43+05:30"
-},
-"BSE:532945": {
-"c": 1,
-"t": "2026-11-11T19:49+05:30"
 },
 "BSE:532946": {
 "c": 1,
@@ -37004,10 +37003,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e0e6c0e5-2157-4df4-b05e-e6445b423c6c.pdf",
 "t": "2026-11-14T23:56+05:30"
 },
-"N:SEPC": {
-"c": 1,
-"t": "2026-11-11T19:49+05:30"
-},
 "N:SERVICECARE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SERVICECARE_14112026132321_Financials_H1_Outcome.pdf",
 "t": "2026-11-14T13:23+05:30"
@@ -42434,6 +42429,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
+"company": "MFS Intercorp Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "513721",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T19:53+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml": {
 "company": "Samyak International Ltd",
