@@ -15876,6 +15876,9 @@
 "NSE SME|DHANSA|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
+"NSE SME|DRONE|2026-09-30": {
+"t": "2026-11-18T10:46+05:30"
+},
 "NSE SME|DUCOL|2026-09-30": {
 "t": "2026-11-17T18:51+05:30"
 },
@@ -44381,6 +44384,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215275": {
+"company": "Drone Destination Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T10:45:56+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "DRONE",
+"t": "2026-11-18T10:46+05:30",
+"uid": "NSE-sme-IF-215275",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215275_18112026104555_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759662_18112026104555_WEB.xml"
 }
 },
 "posted": {
