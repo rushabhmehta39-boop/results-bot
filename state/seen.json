@@ -13114,10 +13114,13 @@
 "s": "old",
 "t": "2026-11-18T08:02+05:30"
 },
+"NSE-equities-IF-215306": {
+"s": "superseded",
+"t": "2026-11-18T13:53+05:30"
+},
 "NSE-equities-IF-215308": {
-"n": 3,
-"s": "retry",
-"t": "2026-11-18T13:47+05:30"
+"s": "posted",
+"t": "2026-11-18T13:53+05:30"
 },
 "NSE-sme-IF-212300": {
 "s": "superseded",
@@ -26399,10 +26402,6 @@
 "INE187A01017": {
 "t": "2026-11-12T16:14+05:30"
 },
-"INE187D01011": {
-"c": 1,
-"t": "2026-11-11T13:52+05:30"
-},
 "INE187D01029": {
 "c": 1,
 "t": "2026-11-11T14:03+05:30"
@@ -39527,10 +39526,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/71f16cf8-f9ed-4532-ae69-6200501f2867.pdf",
 "t": "2026-11-14T17:23+05:30"
 },
-"N:TALBROSAUTOMOTIVECOMPONENTS": {
-"c": 1,
-"t": "2026-11-11T13:52+05:30"
-},
 "N:TAMILNADUNEWSPRINTANDPAPERS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TNPL_13112026185413_326thBMOutcome13112026CSDSC.pdf",
 "t": "2026-11-13T18:57+05:30"
@@ -41699,10 +41694,6 @@
 "TAKE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TAKE_13112026183523_TAKE_Outcome_upload_sd_final.pdf",
 "t": "2026-11-13T18:38+05:30"
-},
-"TALBROAUTO": {
-"c": 1,
-"t": "2026-11-11T13:52+05:30"
 },
 "TANKUP": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TANKUP_14112026172007_Outcome_of_BM_14_11_2026__Final_.pdf",
@@ -44190,38 +44181,6 @@
 "uid": "NSE-equities-IF-215294",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
-},
-"NSE-equities-IF-215306": {
-"company": "Apeejay Surrendra Park Hotels Limited",
-"consolidated": false,
-"filed_at": "2026-11-18T13:34:55+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-03-31",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "PARKHOTELS",
-"t": "2026-11-18T13:36+05:30",
-"uid": "NSE-equities-IF-215306",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215306_18112026133454_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759712_18112026013454_WEB.xml"
-},
-"NSE-equities-IF-215308": {
-"company": "Apeejay Surrendra Park Hotels Limited",
-"consolidated": true,
-"filed_at": "2026-11-18T13:36:06+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-03-31",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "PARKHOTELS",
-"t": "2026-11-18T13:36+05:30",
-"uid": "NSE-equities-IF-215308",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215308_18112026133605_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759713_18112026013605_WEB.xml"
 },
 "NSE-sme-IF-215289": {
 "company": "Atmastco Limited",
@@ -47612,6 +47571,13 @@
 "n": "NATCOPHARMA",
 "pe": "2026-09-30",
 "t": "2026-11-13T15:27+05:30"
+},
+"INE988S01028|2026-03-31|C": {
+"b": "C",
+"mid": 923,
+"n": "APEEJAYSURRENDRAPARKHOTELS",
+"pe": "2026-03-31",
+"t": "2026-11-18T13:53+05:30"
 },
 "INE988S01028|2026-09-30|C": {
 "b": "C",
@@ -53916,7 +53882,7 @@
 "v": "INE0OLZ01015"
 },
 "544111": {
-"t": "2026-11-13T18:02+05:30",
+"t": "2026-11-18T13:53+05:30",
 "v": "INE988S01028"
 },
 "544121": {
@@ -63614,7 +63580,7 @@
 "v": 9992600
 },
 "INE988S01028": {
-"t": "2026-11-13T18:02+05:30",
+"t": "2026-11-18T13:53+05:30",
 "v": 213400000
 },
 "INE991B01010": {
