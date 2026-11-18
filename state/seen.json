@@ -7312,6 +7312,10 @@
 "s": "small",
 "t": "2026-11-14T20:06+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-18T14:33+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_544485_13112026184426_IFIndAs.xml": {
 "s": "dup",
 "t": "2026-11-13T21:31+05:30"
@@ -16301,9 +16305,6 @@
 "AVROIND": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AVONMPL_14112026222445_Results.pdf",
 "t": "2026-11-14T22:26+05:30"
-},
-"AVTNPL": {
-"t": "2026-11-11T14:29+05:30"
 },
 "AXISCADES": {
 "c": 1,
@@ -25798,9 +25799,6 @@
 "INE121B01014": {
 "t": "2026-11-12T16:57+05:30"
 },
-"INE121N01019": {
-"t": "2026-11-11T14:30+05:30"
-},
 "INE122D01026": {
 "t": "2026-11-12T19:26+05:30"
 },
@@ -28297,9 +28295,6 @@
 "INE488C01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4364001b-9e2d-40a2-b6e9-41cb8ca6714b.pdf",
 "t": "2026-11-13T18:01+05:30"
-},
-"INE488D01013": {
-"t": "2026-11-11T14:29+05:30"
 },
 "INE489D01011": {
 "c": 1,
@@ -32725,9 +32720,6 @@
 "N:AVROINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/460c9490-662d-4fbc-9f38-1855723b4fb8.pdf",
 "t": "2026-11-14T22:09+05:30"
-},
-"N:AVTNATURALPRODUCTS": {
-"t": "2026-11-11T14:29+05:30"
 },
 "N:AXELPOLYMERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/21ba5f15-5ede-411f-ae00-9f46c6a02681.pdf",
@@ -39573,9 +39565,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6cf55dc7-7a01-4bc7-a97f-fbea50e38ee5.pdf",
 "t": "2026-11-14T15:57+05:30"
 },
-"N:THEJOENGINEERING": {
-"t": "2026-11-11T14:30+05:30"
-},
 "N:THEMISMEDICARE": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d47cf282-f08c-43ae-a4e6-97a137fb2190.pdf",
@@ -41653,9 +41642,6 @@
 "TGL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
 "t": "2026-11-17T22:18+05:30"
-},
-"THEJO": {
-"t": "2026-11-11T14:30+05:30"
 },
 "THEMISMED": {
 "c": 1,
@@ -43985,22 +43971,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml": {
-"company": "Highway Infrastructure Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544477",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T12:28+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml": {
 "company": "Manappuram Finance Ltd",
@@ -54174,7 +54144,7 @@
 "v": "INE0J5801029"
 },
 "544477": {
-"t": "2026-11-14T20:06+05:30",
+"t": "2026-11-18T14:33+05:30",
 "v": "INE00RL01028"
 },
 "544482": {
@@ -54924,7 +54894,7 @@
 "v": 12921000
 },
 "INE00RL01028": {
-"t": "2026-11-14T20:06+05:30",
+"t": "2026-11-18T14:33+05:30",
 "v": 71720600
 },
 "INE00SY01011": {
