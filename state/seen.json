@@ -15645,6 +15645,11 @@
 "s": "small",
 "t": "2026-11-16T20:11+05:30"
 },
+"NSE-sme-IF-215078": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-18T12:22+05:30"
+},
 "NSE-sme-IF-215079": {
 "n": 6,
 "s": "failed",
@@ -19205,9 +19210,6 @@
 "BSE:530365": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56a5bb1a-ef62-4aa4-8ee3-88ccb995c53d.pdf",
 "t": "2026-11-13T14:20+05:30"
-},
-"BSE:530369": {
-"t": "2026-11-11T12:18+05:30"
 },
 "BSE:530405": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ecc87c69-6bcc-410e-ab54-31a8ee324a73.pdf",
@@ -27885,9 +27887,6 @@
 "INE378D01032": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MADHUCON_13112026224225_OutcomeBOD13112026MR.pdf",
 "t": "2026-11-13T22:53+05:30"
-},
-"INE380C01014": {
-"t": "2026-11-11T12:18+05:30"
 },
 "INE380K01017": {
 "t": "2026-11-11T19:27+05:30"
@@ -40208,9 +40207,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f3f47aa3-5e32-4b44-a16f-e11f07b3fe53.pdf",
 "t": "2026-11-14T18:27+05:30"
 },
-"N:VAMSHIRUBBER": {
-"t": "2026-11-11T12:18+05:30"
-},
 "N:VANICOMMERCIALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c92d1100-23ab-4624-876b-fdfd5bb07f58.pdf",
 "t": "2026-11-14T20:23+05:30"
@@ -47857,8 +47853,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T11:03+05:30",
-"v": "INE0P7201019"
+"t": "2026-11-18T12:22+05:30",
+"v": "INE02EE01019"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
