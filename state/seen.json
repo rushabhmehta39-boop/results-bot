@@ -15850,6 +15850,9 @@
 "NSE SME|ARMOUR|2026-09-30": {
 "t": "2026-11-15T23:31+05:30"
 },
+"NSE SME|ATMASTCO|2026-09-30": {
+"t": "2026-11-18T12:11+05:30"
+},
 "NSE SME|CELLECOR|2026-09-30": {
 "t": "2026-11-17T12:36+05:30"
 },
@@ -42459,10 +42462,6 @@
 "t": "2026-11-16T15:15+05:30",
 "v": 1958.0
 },
-"TVVISION": {
-"t": "2026-11-16T12:09+05:30",
-"v": 10.8
-},
 "UNIDT": {
 "t": "2026-11-18T10:58+05:30",
 "v": 327.4
@@ -44336,6 +44335,22 @@
 "uid": "NSE-sme-IF-215081",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
+},
+"NSE-sme-IF-215289": {
+"company": "Atmastco Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T12:09:40+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "ATMASTCO",
+"t": "2026-11-18T12:11+05:30",
+"uid": "NSE-sme-IF-215289",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215289_18112026120939_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759681_18112026120939_WEB.xml"
 }
 },
 "posted": {
