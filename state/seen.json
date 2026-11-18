@@ -610,6 +610,9 @@
 "BANN-13d845ff-4d94-43d4-8a2f-80bd3da790f7": {
 "t": "2026-11-16T22:50+05:30"
 },
+"BANN-238b66b8-6be6-4141-a4e9-f020791a9fb3": {
+"t": "2026-11-18T18:39+05:30"
+},
 "BANN-2a6fd9fa-8cc3-4bfb-a583-cb68b86e4f67": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -15876,6 +15879,7 @@
 "t": "2026-11-13T17:50+05:30"
 },
 "BSE:500013": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
 "t": "2026-11-12T11:07+05:30"
 },
 "BSE:500016": {
@@ -31352,6 +31356,7 @@
 "t": "2026-11-14T17:57+05:30"
 },
 "N:ANSALPROPERTIESANDINFRASTRUCTURE": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
 "t": "2026-11-12T11:16+05:30"
 },
 "N:ANSINDUSTRIES": {
@@ -40816,6 +40821,10 @@
 "BLSPOLY": {
 "t": "2026-11-18T18:26+05:30",
 "v": 1743.1
+},
+"BSE:500013": {
+"t": "2026-11-18T18:39+05:30",
+"v": 47.4
 },
 "BSE:517077": {
 "t": "2026-11-18T16:21+05:30",
