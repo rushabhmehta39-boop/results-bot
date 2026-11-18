@@ -815,6 +815,9 @@
 "BANN-6eac18c0-d111-4e23-bd77-35c015a6d333": {
 "t": "2026-11-16T13:04+05:30"
 },
+"BANN-7373fadc-e0d9-49f4-af0c-2473cc13211e": {
+"t": "2026-11-18T16:38+05:30"
+},
 "BANN-75c8dfb7-cb4f-47a9-9c78-70419c5f3da6": {
 "t": "2026-11-18T16:21+05:30"
 },
@@ -7977,10 +7980,6 @@
 "NSE-equities-IF-212179": {
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212305": {
-"s": "dup",
-"t": "2026-11-11T16:37+05:30"
 },
 "NSE-equities-IF-212320": {
 "s": "old",
@@ -17880,9 +17879,6 @@
 "BSE:519500": {
 "t": "2026-11-12T16:51+05:30"
 },
-"BSE:519506": {
-"t": "2026-11-11T16:37+05:30"
-},
 "BSE:519532": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d3490c4a-c3e0-4721-a0bb-2285f3ec8be9.pdf",
 "t": "2026-11-14T15:05+05:30"
@@ -22531,7 +22527,7 @@
 },
 "BSE:544920": {
 "c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bebeda8-a828-4d62-a933-541911ae2ed6.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddf7677f-9acb-4356-8da4-087f11546aaa.pdf",
 "t": "2026-11-13T20:31+05:30"
 },
 "BSE:544922": {
@@ -25076,7 +25072,7 @@
 },
 "INE0RMA01019": {
 "c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bebeda8-a828-4d62-a933-541911ae2ed6.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddf7677f-9acb-4356-8da4-087f11546aaa.pdf",
 "t": "2026-11-13T20:31+05:30"
 },
 "INE0RNF01016": {
@@ -28779,9 +28775,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/98971528-cc0a-47d3-aa5c-ec1ac6bb0ac1.pdf",
 "t": "2026-11-14T17:10+05:30"
 },
-"INE630N01019": {
-"t": "2026-11-11T16:37+05:30"
-},
 "INE633B01018": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9231b258-4adb-4080-ba45-db8e28f37806.pdf",
@@ -31916,7 +31909,7 @@
 },
 "N:AMTECHESTERS": {
 "c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bebeda8-a828-4d62-a933-541911ae2ed6.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddf7677f-9acb-4356-8da4-087f11546aaa.pdf",
 "t": "2026-11-13T20:31+05:30"
 },
 "N:ANANDPROJECTS": {
@@ -36281,9 +36274,6 @@
 "N:NAVODAYENTERPRISES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/68541589-fe3c-4791-bd71-6d8601340888.pdf",
 "t": "2026-11-14T19:20+05:30"
-},
-"N:NCCBLUEWATERPRODUCTS": {
-"t": "2026-11-11T16:37+05:30"
 },
 "N:NCLINDUSTRIES": {
 "c": 1,
@@ -41683,9 +41673,9 @@
 "t": "2026-11-16T21:17+05:30",
 "v": 572.0
 },
-"CMICABLES": {
-"t": "2026-11-16T16:35+05:30",
-"v": 3.2
+"BSE:544920": {
+"t": "2026-11-18T16:38+05:30",
+"v": 68.9
 },
 "SEYAIND": {
 "t": "2026-11-17T15:49+05:30",
