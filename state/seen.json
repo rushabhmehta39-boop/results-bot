@@ -128,14 +128,6 @@
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
 },
-"BSE:530199": {
-"d": "2026-11-14",
-"mcap": 934.8,
-"mid": 783,
-"n": "THEMISMEDICARE",
-"pdf": 6,
-"t": "2026-11-14T17:18+05:30"
-},
 "BSE:531381": {
 "d": "2026-11-16",
 "mcap": 980.9,
@@ -151,14 +143,6 @@
 "n": "RAJESHEXPORTS",
 "pdf": 6,
 "t": "2026-11-14T22:52+05:30"
-},
-"BSE:539300": {
-"d": "2026-11-14",
-"mcap": 1116.2,
-"mid": 784,
-"n": "SUNRAKSHAKKINDUSTRIESINDIA",
-"pdf": 6,
-"t": "2026-11-14T17:18+05:30"
 },
 "BSE:543272": {
 "d": "2026-11-14",
@@ -5424,10 +5408,6 @@
 "s": "small",
 "t": "2026-11-14T16:58+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_532918_11112026145349_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T17:17+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_532925_13112026185127_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T21:30+05:30"
@@ -7920,22 +7900,6 @@
 "NSE-equities-IF-212341": {
 "s": "dup",
 "t": "2026-11-11T17:23+05:30"
-},
-"NSE-equities-IF-212347": {
-"s": "superseded",
-"t": "2026-11-11T17:17+05:30"
-},
-"NSE-equities-IF-212350": {
-"s": "small",
-"t": "2026-11-11T17:17+05:30"
-},
-"NSE-equities-IF-212351": {
-"s": "superseded",
-"t": "2026-11-11T17:17+05:30"
-},
-"NSE-equities-IF-212354": {
-"s": "dup",
-"t": "2026-11-11T17:17+05:30"
 },
 "NSE-equities-IF-212360": {
 "s": "superseded",
@@ -15234,6 +15198,14 @@
 "NSE-sme-IF-215382": {
 "s": "small",
 "t": "2026-11-18T16:55+05:30"
+},
+"NSE-sme-IF-215394": {
+"s": "superseded",
+"t": "2026-11-18T17:18+05:30"
+},
+"NSE-sme-IF-215395": {
+"s": "small",
+"t": "2026-11-18T17:18+05:30"
 }
 },
 "first_seen": {
@@ -17835,9 +17807,6 @@
 },
 "BSE:521005": {
 "t": "2026-11-11T20:32+05:30"
-},
-"BSE:521034": {
-"t": "2026-11-11T17:16+05:30"
 },
 "BSE:521036": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3013ff7f-0530-4023-af51-a49b79e01f64.pdf",
@@ -22580,9 +22549,6 @@
 "BTML": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BTML_14112026150846_Final.pdf",
 "t": "2026-11-14T15:09+05:30"
-},
-"BURNPUR": {
-"t": "2026-11-11T17:15+05:30"
 },
 "BVCL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BVCL_13112026164210_Outcome_of_BM_13_Nov_2026.pdf",
@@ -29621,9 +29587,6 @@
 "INE817D01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/38e0cb21-0d1d-4411-9e59-dd09426a0ff7.pdf",
 "t": "2026-11-13T15:06+05:30"
-},
-"INE817H01014": {
-"t": "2026-11-11T17:15+05:30"
 },
 "INE819C01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/742f2005-1b7e-4bf7-be17-1697988c57ca.pdf",
@@ -46777,8 +46740,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T16:55+05:30",
-"v": "INE05DH01017"
+"t": "2026-11-18T17:18+05:30",
+"v": "INE0LZ001015"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -55411,7 +55374,7 @@
 "v": 1227000
 },
 "INE0LZ001015": {
-"t": "2026-11-17T18:56+05:30",
+"t": "2026-11-18T17:18+05:30",
 "v": 18058700
 },
 "INE0M1F01011": {
