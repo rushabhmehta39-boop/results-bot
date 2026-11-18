@@ -534,6 +534,9 @@
 "ANN-sme-106865290-WHITEFORCE": {
 "t": "2026-11-18T19:02+05:30"
 },
+"ANN-sme-106865372-KONSTELEC": {
+"t": "2026-11-18T20:04+05:30"
+},
 "BANN-01ef6c95-799d-4d29-8199-95e5242d06d4": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -14812,6 +14815,14 @@
 "NSE-sme-IF-215460": {
 "s": "small",
 "t": "2026-11-18T19:19+05:30"
+},
+"NSE-sme-IF-215483": {
+"s": "superseded",
+"t": "2026-11-18T20:04+05:30"
+},
+"NSE-sme-IF-215485": {
+"s": "small",
+"t": "2026-11-18T20:04+05:30"
 }
 },
 "first_seen": {
@@ -15030,6 +15041,9 @@
 },
 "NSE SME|JAIPURKURT|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
+},
+"NSE SME|KONSTELEC|2026-09-30": {
+"t": "2026-11-18T20:04+05:30"
 },
 "NSE SME|LIBAS|2026-09-30": {
 "t": "2026-11-17T19:30+05:30"
@@ -21372,10 +21386,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/378ef07e-044b-46d9-9195-6446873884a7.pdf",
 "t": "2026-11-14T17:53+05:30"
 },
-"BSE:544383": {
-"c": 1,
-"t": "2026-11-11T19:59+05:30"
-},
 "BSE:544388": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca8f6c43-4136-4414-90ef-a76f4e5dabaa.pdf",
@@ -24437,10 +24447,6 @@
 "INE0SLP01017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7031e7d3-3643-49a5-bf0f-57a4bc1bb326.pdf",
 "t": "2026-11-14T19:57+05:30"
-},
-"INE0SMW01011": {
-"c": 1,
-"t": "2026-11-11T19:59+05:30"
 },
 "INE0SR101016": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cfa3ffbb-945c-4c38-b93c-911f25c3f986.pdf",
@@ -30218,6 +30224,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/KOHINOOR_13112026183837_Outcome131126.pdf",
 "t": "2026-11-13T18:38+05:30"
 },
+"KONSTELEC": {
+"pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
+"t": "2026-11-18T19:59+05:30"
+},
 "KONTOR": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONTORSPACE_14112026195732_Outcome_Financial_Results_Signed.pdf",
 "pdf_card": "https://nsearchives.nseindia.in/corporate/KONTORSPACE_14112026195732_Outcome_Financial_Results_Signed.pdf|card|6",
@@ -34362,6 +34372,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1a6265dc-fa5f-4fae-8410-263bdde1c8d4.pdf",
 "t": "2026-11-14T19:59+05:30"
 },
+"N:KONSTELECENGINEERS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
+"t": "2026-11-18T19:59+05:30"
+},
 "N:KONTORSPACE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONTORSPACE_14112026195732_Outcome_Financial_Results_Signed.pdf",
 "pdf_card": "https://nsearchives.nseindia.in/corporate/KONTORSPACE_14112026195732_Outcome_Financial_Results_Signed.pdf|card|6",
@@ -35773,10 +35787,6 @@
 "N:PAPADMALJIAGROFOODS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PAPADMALJI_13112026172915_Outcome_BM.pdf",
 "t": "2026-11-13T17:30+05:30"
-},
-"N:PARADEEPPARIVAHAN": {
-"c": 1,
-"t": "2026-11-11T19:59+05:30"
 },
 "N:PARAMATRIXTECHNOLOGIES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PARAMATRIX_13112026165948_Paramatrix_Financial_Results_For_H1_FY_2026_27_Sd.pdf",
@@ -46031,8 +46041,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T19:19+05:30",
-"v": "INE0TLP01015"
+"t": "2026-11-18T20:04+05:30",
+"v": "INE0QEI01011"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -55131,6 +55141,10 @@
 "INE0QD201012": {
 "t": "2026-11-13T18:06+05:30",
 "v": 17281100
+},
+"INE0QEI01011": {
+"t": "2026-11-18T20:04+05:30",
+"v": 15100000
 },
 "INE0QFE01017": {
 "t": "2026-11-14T17:59+05:30",
