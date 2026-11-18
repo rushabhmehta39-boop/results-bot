@@ -13114,6 +13114,11 @@
 "s": "old",
 "t": "2026-11-18T08:02+05:30"
 },
+"NSE-equities-IF-215308": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-18T13:36+05:30"
+},
 "NSE-sme-IF-212300": {
 "s": "superseded",
 "t": "2026-11-11T18:55+05:30"
@@ -15789,6 +15794,9 @@
 "BSE|544035|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
+"BSE|544111|2026-03-31": {
+"t": "2026-11-18T13:36+05:30"
+},
 "BSE|544477|2026-09-30": {
 "t": "2026-11-18T12:28+05:30"
 },
@@ -15941,6 +15949,9 @@
 },
 "NSE|NDLVENTURE|2026-09-30": {
 "t": "2026-11-16T13:31+05:30"
+},
+"NSE|PARKHOTELS|2026-03-31": {
+"t": "2026-11-18T13:36+05:30"
 },
 "NSE|SANWARIA|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
@@ -17008,9 +17019,6 @@
 "BSE:505299": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/34ba6f1f-3ae2-4122-824b-22c4f1e18633.pdf",
 "t": "2026-11-13T13:04+05:30"
-},
-"BSE:505302": {
-"t": "2026-11-11T13:33+05:30"
 },
 "BSE:505343": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5545b853-5d33-482d-a38f-69585bc906b5.pdf",
@@ -23057,9 +23065,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/951940e7-cd1f-4f5b-9ed7-148a05309419.pdf",
 "t": "2026-11-13T16:22+05:30"
-},
-"BSE:545008": {
-"t": "2026-11-11T13:35+05:30"
 },
 "BSE:545013": {
 "t": "2026-11-12T17:34+05:30"
@@ -29726,9 +29731,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/04acdd64-1c0b-4379-a923-63df4290c4c6.pdf",
 "t": "2026-11-13T14:58+05:30"
 },
-"INE718M01022": {
-"t": "2026-11-11T13:33+05:30"
-},
 "INE718P01017": {
 "t": "2026-11-12T17:36+05:30"
 },
@@ -35964,9 +35966,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f16b7d69-a8c4-4da3-a2e7-85b6f43180c8.pdf",
 "t": "2026-11-13T18:02+05:30"
-},
-"N:LAKSHMIENGINEERINGANDWAREHOUSING": {
-"t": "2026-11-11T13:33+05:30"
 },
 "N:LALITHAAJEWELLERYMART": {
 "t": "2026-11-11T20:52+05:30"
@@ -44105,6 +44104,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
+"company": "Apeejay Surrendra Park Hotels Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-03-31",
+"revised": false,
+"scrip": "544111",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T13:36+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml": {
 "company": "Highway Infrastructure Ltd",
 "consolidated": false,
@@ -44184,6 +44199,38 @@
 "uid": "NSE-equities-IF-215294",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
+},
+"NSE-equities-IF-215306": {
+"company": "Apeejay Surrendra Park Hotels Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T13:34:55+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-03-31",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "PARKHOTELS",
+"t": "2026-11-18T13:36+05:30",
+"uid": "NSE-equities-IF-215306",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215306_18112026133454_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759712_18112026013454_WEB.xml"
+},
+"NSE-equities-IF-215308": {
+"company": "Apeejay Surrendra Park Hotels Limited",
+"consolidated": true,
+"filed_at": "2026-11-18T13:36:06+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-03-31",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "PARKHOTELS",
+"t": "2026-11-18T13:36+05:30",
+"uid": "NSE-equities-IF-215308",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215308_18112026133605_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759713_18112026013605_WEB.xml"
 },
 "NSE-sme-IF-215289": {
 "company": "Atmastco Limited",
