@@ -285,14 +285,6 @@
 "n": "HFCL",
 "t": "2026-11-16T15:09+05:30"
 },
-"HIMATSEIDE": {
-"d": "2026-11-14",
-"mcap": 749.4,
-"mid": 777,
-"n": "HIMATSINGKASEIDE",
-"pdf": 6,
-"t": "2026-11-14T16:48+05:30"
-},
 "INE011E01029": {
 "d": "2026-11-14",
 "mcap": 6674.7,
@@ -316,14 +308,6 @@
 "n": "DHAMPURSUGARMILLS",
 "pdf": 6,
 "t": "2026-11-14T18:16+05:30"
-},
-"INE049A01027": {
-"d": "2026-11-14",
-"mcap": 749.4,
-"mid": 777,
-"n": "HIMATSINGKASEIDE",
-"pdf": 6,
-"t": "2026-11-14T16:48+05:30"
 },
 "INE06ZD01017": {
 "d": "2026-11-16",
@@ -12735,6 +12719,10 @@
 "s": "old",
 "t": "2026-11-18T00:57+05:30"
 },
+"NSE-equities-IF-215152": {
+"s": "superseded",
+"t": "2026-11-18T16:49+05:30"
+},
 "NSE-equities-IF-215243": {
 "s": "superseded",
 "t": "2026-11-17T19:53+05:30"
@@ -12758,10 +12746,6 @@
 "NSE-sme-IF-212300": {
 "s": "superseded",
 "t": "2026-11-11T18:55+05:30"
-},
-"NSE-sme-IF-212313": {
-"s": "small",
-"t": "2026-11-11T16:46+05:30"
 },
 "NSE-sme-IF-212334": {
 "s": "superseded",
@@ -16854,9 +16838,6 @@
 "BSE:507690": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9f720374-dc21-467f-821c-d62be3e63e04.pdf",
 "t": "2026-11-13T18:44+05:30"
-},
-"BSE:507753": {
-"t": "2026-11-11T16:45+05:30"
 },
 "BSE:507759": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/59868b4f-131e-40ae-91f2-e8809bf21ce4.pdf",
@@ -23077,9 +23058,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/EIDPARRY1_13112026145718_SEOutcomeSd.pdf",
 "t": "2026-11-13T14:59+05:30"
 },
-"EIHAHOTELS": {
-"t": "2026-11-11T16:50+05:30"
-},
 "EIHOTEL": {
 "c": 1,
 "t": "2026-11-12T18:41+05:30"
@@ -26649,9 +26627,6 @@
 "INE275F01019": {
 "t": "2026-11-16T15:15+05:30"
 },
-"INE276C01014": {
-"t": "2026-11-11T16:50+05:30"
-},
 "INE276H01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/05c3d2b1-50f3-4f03-8307-921a3d038bab.pdf",
 "t": "2026-11-13T14:17+05:30"
@@ -26916,9 +26891,6 @@
 "INE312J01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ef615d61-19ca-4dbc-886f-903cf5bce05b.pdf",
 "t": "2026-11-14T18:04+05:30"
-},
-"INE314C01013": {
-"t": "2026-11-11T16:47+05:30"
 },
 "INE314D01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f0b6318-a231-48f1-afb4-5b9b9d67467f.pdf",
@@ -37203,9 +37175,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5b9d4ae8-67f9-4c4d-a8f3-477ebec0f4a8.pdf",
 "t": "2026-11-13T16:19+05:30"
 },
-"N:QUESTLABORATORIES": {
-"t": "2026-11-11T16:48+05:30"
-},
 "N:QUICKTOUCHTECHNOLOGIES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/QTLIPO_13112026174224_OutcomeQT.pdf",
 "t": "2026-11-13T17:46+05:30"
@@ -38431,9 +38400,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SPPL_13112026164705_OUTCOME.pdf",
 "t": "2026-11-13T16:50+05:30"
 },
-"N:SOMATEXTILESANDINDUSTRIES": {
-"t": "2026-11-11T16:47+05:30"
-},
 "N:SOMDISTILLERIESANDBREWERIES": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36e38ef8-d09f-4d8e-988f-1fbcfe135a52.pdf",
@@ -39097,9 +39063,6 @@
 "N:TEXMOPIPESANDPRODUCTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEXMOPIPES_13112026185552_SEOutcomeofBM13112026.pdf",
 "t": "2026-11-13T18:58+05:30"
-},
-"N:TGVSRAAC": {
-"t": "2026-11-11T16:45+05:30"
 },
 "N:THAAICASTING": {
 "pdf": "https://nsearchives.nseindia.in/corporate/THAAI_14112026192157_Outcome_of_BoardMeeting_Q2_H1_30_09_205_TCL.pdf",
@@ -40405,9 +40368,6 @@
 "QUADPRO": {
 "t": "2026-11-11T17:03+05:30"
 },
-"QUESTLAB": {
-"t": "2026-11-11T16:48+05:30"
-},
 "QUICKTOUCH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/QTLIPO_13112026174224_OutcomeQT.pdf",
 "t": "2026-11-13T17:46+05:30"
@@ -40896,9 +40856,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/SOLEX_13112026133435_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-13T13:36+05:30"
-},
-"SOMATEX": {
-"t": "2026-11-11T16:47+05:30"
 },
 "SOMICONVEY": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SOMICONVEY_14112026165208_SOMI_OutcomeofBM_FR_Sep2026_S.pdf",
@@ -43500,22 +43457,6 @@
 "uid": "BSE-Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml"
-},
-"NSE-equities-IF-215152": {
-"company": "Manappuram Finance Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T16:48:01+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "MANAPPURAM",
-"t": "2026-11-17T16:52+05:30",
-"uid": "NSE-equities-IF-215152",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NBFC_INDAS_215152_17112026164800_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1759451_17112026044759_WEB.xml"
 },
 "NSE-equities-IF-215270": {
 "company": "Manappuram Finance Limited",
