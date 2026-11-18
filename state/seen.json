@@ -1,13 +1,5 @@
 {
 "alerts": {
-"BALUFORGE": {
-"d": "2026-11-14",
-"mcap": 6674.7,
-"mid": 872,
-"n": "BALUFORGEINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T21:30+05:30"
-},
 "BLSPOLY": {
 "d": "2026-11-18",
 "mcap": 1743.1,
@@ -92,14 +84,6 @@
 "mid": 915,
 "n": "HFCL",
 "t": "2026-11-16T15:09+05:30"
-},
-"INE011E01029": {
-"d": "2026-11-14",
-"mcap": 6674.7,
-"mid": 872,
-"n": "BALUFORGEINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T21:30+05:30"
 },
 "INE06ZD01017": {
 "d": "2026-11-16",
@@ -859,10 +843,6 @@
 "BSE-IFOtherthan_544001_13112026173417_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-13T19:59+05:30"
-},
-"BSE-IFOtherthan_544015_1111202619236_IFOtherthan.xml": {
-"s": "small",
-"t": "2026-11-11T21:28+05:30"
 },
 "BSE-IFOtherthan_544035_15112026162448_IFOtherthan.xml": {
 "s": "small",
@@ -26827,9 +26807,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/UNIINFO_14112026174734_Outcome_of_Board_Meeting_14112026.pdf",
 "t": "2026-11-14T17:47+05:30"
 },
-"INE482B01010": {
-"t": "2026-11-11T21:28+05:30"
-},
 "INE482J01021": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GAL_14112026190001_Outcome_14112026.pdf",
 "t": "2026-11-14T19:01+05:30"
@@ -39719,9 +39696,6 @@
 "TEMBO": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEMBO_13112026183052_Final_Outcome_of_BM_13-11-26_SD.pdf",
 "t": "2026-11-13T18:32+05:30"
-},
-"TERASOFT": {
-"t": "2026-11-11T21:28+05:30"
 },
 "TEXMOPIPES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEXMOPIPES_13112026185552_SEOutcomeofBM13112026.pdf",
