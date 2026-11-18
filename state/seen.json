@@ -80,14 +80,6 @@
 "pdf": 6,
 "t": "2026-11-16T14:16+05:30"
 },
-"BSE:523606": {
-"d": "2026-11-14",
-"mcap": 1944.9,
-"mid": 817,
-"n": "SIKAINTERPLANTSYSTEMS",
-"pdf": 6,
-"t": "2026-11-14T18:44+05:30"
-},
 "BSE:526570": {
 "d": "2026-11-14",
 "mcap": 3079.6,
@@ -143,14 +135,6 @@
 "n": "JEENASIKHOLIFECARE",
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
-},
-"BSE:544870": {
-"d": "2026-11-14",
-"mcap": 1915.2,
-"mid": 818,
-"n": "BEHARILALENGINEERING",
-"pdf": 6,
-"t": "2026-11-14T18:44+05:30"
 },
 "CHENNPETRO": {
 "d": "2026-11-16",
@@ -7779,14 +7763,6 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212426": {
-"s": "superseded",
-"t": "2026-11-11T18:42+05:30"
-},
-"NSE-equities-IF-212427": {
-"s": "small",
-"t": "2026-11-11T18:42+05:30"
-},
 "NSE-equities-IF-212437": {
 "s": "superseded",
 "t": "2026-11-11T18:49+05:30"
@@ -15002,6 +14978,9 @@
 }
 },
 "first_seen": {
+"BSE|500013|2026-06-30": {
+"t": "2026-11-18T18:44+05:30"
+},
 "BSE|501945|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -15256,6 +15235,9 @@
 },
 "NSE SME|VISAMAN|2026-09-30": {
 "t": "2026-11-16T12:15+05:30"
+},
+"NSE|ANSALAPI|2026-06-30": {
+"t": "2026-11-18T18:44+05:30"
 },
 "NSE|ASMS|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
@@ -29487,10 +29469,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ab2fe040-746b-409a-bd85-b976a5544886.pdf",
 "t": "2026-11-13T19:14+05:30"
 },
-"INE870D01012": {
-"c": 1,
-"t": "2026-11-11T18:40+05:30"
-},
 "INE870V01014": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30331b87-5d4c-4edc-9eb6-738e4a321569.pdf",
 "t": "2026-11-14T14:24+05:30"
@@ -35527,10 +35505,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/db6838d0-9ab8-4a10-8130-2da7c81990e4.pdf",
 "t": "2026-11-14T17:13+05:30"
 },
-"N:NATIONALFERTILIZERS": {
-"c": 1,
-"t": "2026-11-11T18:40+05:30"
-},
 "N:NATIONALOXYGEN": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/970b5acf-0fac-45fb-aaec-f26212964ca4.pdf",
 "t": "2026-11-13T16:21+05:30"
@@ -39280,10 +39254,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/NEWJAISA2020_14112026204542_Outcome_Financial_Results_H1FY27_Final.pdf",
 "t": "2026-11-14T20:50+05:30"
 },
-"NFL": {
-"c": 1,
-"t": "2026-11-11T18:40+05:30"
-},
 "NFPSAMPOOR": {
 "pdf": "https://nsearchives.nseindia.in/corporate/NFPSAMPOORNA_13112026164754_Outcome_of_Board_Meeting__First_Half_Yearly_Financial_Results_.pdf",
 "t": "2026-11-13T16:48+05:30"
@@ -42681,6 +42651,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml": {
+"company": "Ansal Properties & Infrastructure Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-06-30",
+"revised": false,
+"scrip": "500013",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T18:44+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "company": "Prabhat Technologies (India) Ltd",
 "consolidated": false,
@@ -42744,6 +42730,22 @@
 "uid": "NSE-equities-IF-215294",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
+},
+"NSE-equities-IF-215441": {
+"company": "Ansal Properties & Infrastructure Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T18:42:29+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-06-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "ANSALAPI",
+"t": "2026-11-18T18:44+05:30",
+"uid": "NSE-equities-IF-215441",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
 }
 },
 "posted": {
