@@ -15646,9 +15646,9 @@
 "t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215078": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-18T12:22+05:30"
+"t": "2026-11-18T12:28+05:30"
 },
 "NSE-sme-IF-215079": {
 "n": 6,
@@ -15828,6 +15828,9 @@
 "BSE|544035|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
+"BSE|544477|2026-09-30": {
+"t": "2026-11-18T12:28+05:30"
+},
 "BSE|544559|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
 },
@@ -15950,6 +15953,9 @@
 },
 "NSE|HEROMOTORS|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
+},
+"NSE|HILINFRA|2026-09-30": {
+"t": "2026-11-18T12:28+05:30"
 },
 "NSE|IIRM|2026-09-30": {
 "t": "2026-11-16T18:22+05:30"
@@ -18234,9 +18240,6 @@
 "BSE:519262": {
 "t": "2026-11-12T15:18+05:30"
 },
-"BSE:519295": {
-"t": "2026-11-11T12:24+05:30"
-},
 "BSE:519307": {
 "t": "2026-11-12T23:20+05:30"
 },
@@ -18890,9 +18893,6 @@
 "BSE:526247": {
 "c": 1,
 "t": "2026-11-12T15:10+05:30"
-},
-"BSE:526315": {
-"t": "2026-11-11T12:26+05:30"
 },
 "BSE:526355": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bdbcb540-61e2-4367-8320-d28c2521d77e.pdf",
@@ -28055,9 +28055,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c7d9a62b-c8e3-4191-9618-d43f35621d0e.pdf",
 "t": "2026-11-13T14:39+05:30"
 },
-"INE410G01010": {
-"t": "2026-11-11T12:26+05:30"
-},
 "INE410M01018": {
 "t": "2026-11-11T14:56+05:30"
 },
@@ -30954,9 +30951,6 @@
 "INE919T01013": {
 "t": "2026-11-12T16:03+05:30"
 },
-"INE921D01013": {
-"t": "2026-11-11T12:24+05:30"
-},
 "INE922B01023": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e4d3008b-1498-4baa-93dd-ceb54e108fd7.pdf",
@@ -32991,9 +32985,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0948c5d9-399b-4a4e-84de-21c065812078.pdf",
 "t": "2026-11-13T16:22+05:30"
 },
-"N:BAMBINOAGROINDUSTRIES": {
-"t": "2026-11-11T12:24+05:30"
-},
 "N:BAMPSLSECURITIES": {
 "t": "2026-11-12T18:11+05:30"
 },
@@ -33937,9 +33928,6 @@
 },
 "N:DIVINEHIRAJEWELLERS": {
 "t": "2026-11-12T17:02+05:30"
-},
-"N:DIVYASHAKTI": {
-"t": "2026-11-11T12:26+05:30"
 },
 "N:DJMEDIAPRINTANDLOGISTICS": {
 "c": 1,
@@ -42398,10 +42386,6 @@
 "t": "2026-11-16T13:04+05:30",
 "v": 53.2
 },
-"BSE:539309": {
-"t": "2026-11-16T12:24+05:30",
-"v": 693.7
-},
 "BSE:540027": {
 "t": "2026-11-17T19:02+05:30",
 "v": 107.1
@@ -44252,6 +44236,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml": {
+"company": "Highway Infrastructure Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544477",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T12:28+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544477_18112026122341_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_NBFC_531213_17112026164521_IFNBFC.xml": {
 "company": "Manappuram Finance Ltd",
 "consolidated": false,
@@ -44299,6 +44299,22 @@
 "uid": "NSE-equities-IF-215270",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_GOVERNANCE_215270_18112026102556_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_GOVERNANCE_1759655_18112026102555_WEB.xml"
+},
+"NSE-equities-IF-215294": {
+"company": "Highway Infrastructure Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T12:26:11+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": true,
+"scrip": "",
+"source": "NSE",
+"symbol": "HILINFRA",
+"t": "2026-11-18T12:28+05:30",
+"uid": "NSE-equities-IF-215294",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
 },
 "NSE-sme-IF-215078": {
 "company": "Integrated Personnel Services Limited",
@@ -47853,7 +47869,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T12:22+05:30",
+"t": "2026-11-18T12:28+05:30",
 "v": "INE02EE01019"
 },
 "123456": {
