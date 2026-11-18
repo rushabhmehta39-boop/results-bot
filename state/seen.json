@@ -136,14 +136,6 @@
 "pdf": 6,
 "t": "2026-11-14T17:18+05:30"
 },
-"BSE:530929": {
-"d": "2026-11-14",
-"mcap": 794.2,
-"mid": 782,
-"n": "RRPDEFENSE",
-"pdf": 6,
-"t": "2026-11-14T17:08+05:30"
-},
 "BSE:531381": {
 "d": "2026-11-16",
 "mcap": 980.9,
@@ -7928,14 +7920,6 @@
 "NSE-equities-IF-212341": {
 "s": "dup",
 "t": "2026-11-11T17:23+05:30"
-},
-"NSE-equities-IF-212343": {
-"s": "small",
-"t": "2026-11-11T17:10+05:30"
-},
-"NSE-equities-IF-212344": {
-"s": "superseded",
-"t": "2026-11-11T17:10+05:30"
 },
 "NSE-equities-IF-212347": {
 "s": "superseded",
@@ -16381,10 +16365,6 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/db5572bc-1aab-437c-bf3d-b82d65e349ef.pdf|S|6",
 "t": "2026-11-14T17:39+05:30"
 },
-"BSE:501298": {
-"c": 1,
-"t": "2026-11-11T17:07+05:30"
-},
 "BSE:501343": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2c5feb97-0a51-46fa-aeba-f09f06607f24.pdf",
@@ -16604,9 +16584,6 @@
 "BSE:505368": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4536d8b9-de95-441b-99da-acfe667009a6.pdf",
 "t": "2026-11-13T15:49+05:30"
-},
-"BSE:505502": {
-"t": "2026-11-11T17:10+05:30"
 },
 "BSE:505523": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5dbb6c70-0d23-4d7d-a004-ceb55b2c0809.pdf",
@@ -19938,9 +19915,6 @@
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/BGRENERGY_14112026163531_BGRBMOutcome14112026signed.pdf|C|6",
 "t": "2026-11-14T16:30+05:30"
 },
-"BSE:532931": {
-"t": "2026-11-11T17:08+05:30"
-},
 "BSE:532932": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd7d8d34-42b4-45bd-8281-ca14a7fa3ad4.pdf",
 "t": "2026-11-13T16:26+05:30"
@@ -20626,10 +20600,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6a2d035-f7e0-4255-887a-241762dbed54.pdf",
 "t": "2026-11-13T17:42+05:30"
 },
-"BSE:539267": {
-"c": 1,
-"t": "2026-11-11T17:07+05:30"
-},
 "BSE:539287": {
 "t": "2026-11-11T20:19+05:30"
 },
@@ -21023,9 +20993,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b2060b53-63c2-409d-84d9-807945f15b3c.pdf",
 "t": "2026-11-13T20:20+05:30"
-},
-"BSE:541195": {
-"t": "2026-11-11T17:11+05:30"
 },
 "BSE:541196": {
 "t": "2026-11-12T21:35+05:30"
@@ -28344,10 +28311,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c6fc2ee-15d0-4d57-9a27-3a44d877ef3f.pdf",
 "t": "2026-11-13T16:25+05:30"
 },
-"INE579N01018": {
-"c": 1,
-"t": "2026-11-11T17:07+05:30"
-},
 "INE580D01017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ad50e37f-7620-4b69-915f-957ea20b87ec.pdf",
 "t": "2026-11-13T17:25+05:30"
@@ -29662,9 +29625,6 @@
 "INE817H01014": {
 "t": "2026-11-11T17:15+05:30"
 },
-"INE817H01022": {
-"t": "2026-11-11T17:08+05:30"
-},
 "INE819C01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/742f2005-1b7e-4bf7-be17-1697988c57ca.pdf",
 "t": "2026-11-13T14:50+05:30"
@@ -30439,9 +30399,6 @@
 "INE953E01022": {
 "t": "2026-11-12T20:36+05:30"
 },
-"INE953M01033": {
-"t": "2026-11-11T17:10+05:30"
-},
 "INE953W01016": {
 "t": "2026-11-12T17:33+05:30"
 },
@@ -31152,9 +31109,6 @@
 "MARC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MARC_14112026162611_OUTCOMES_OF_MEETING_SIGNED.pdf",
 "t": "2026-11-14T16:29+05:30"
-},
-"MARCO": {
-"t": "2026-11-11T17:11+05:30"
 },
 "MARKOLINES": {
 "t": "2026-11-12T16:49+05:30"
@@ -32555,9 +32509,6 @@
 "N:BSL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BSL_13112026165606_OUTCOMEbsl.pdf",
 "t": "2026-11-13T16:49+05:30"
-},
-"N:BURNPURCEMENT": {
-"t": "2026-11-11T17:08+05:30"
 },
 "N:C2CADVANCEDSYSTEMS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/C2CAS_14112026190333_C2C_ADV_EXTENSION_14_11_2026_F.pdf",
@@ -34493,10 +34444,6 @@
 "N:INDUSFILA": {
 "t": "2026-11-12T18:04+05:30"
 },
-"N:INDUSTRIALANDPRUDENTIALINVESTMENTCOMPANY": {
-"c": 1,
-"t": "2026-11-11T17:07+05:30"
-},
 "N:INFLAMEAPPLIANCES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
 "t": "2026-11-17T18:40+05:30"
@@ -35624,9 +35571,6 @@
 "N:MARCLOIREFASHIONS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c9626a3e-fc93-4b41-bd3f-dd05154508d5.pdf",
 "t": "2026-11-14T15:11+05:30"
-},
-"N:MARCOCABLESANDCONDUCTORS": {
-"t": "2026-11-11T17:11+05:30"
 },
 "N:MARCTECHNOCRATS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MARC_14112026162611_OUTCOMES_OF_MEETING_SIGNED.pdf",
@@ -36990,9 +36934,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/PRUDMOULI_14112026170259_PSCL_FR_30092026.pdf",
 "t": "2026-11-14T17:04+05:30"
 },
-"N:PSITINFRASTRUCTUREANDSERVICES": {
-"t": "2026-11-11T17:10+05:30"
-},
 "N:PSRAJSTEELS": {
 "t": "2026-11-12T18:52+05:30"
 },
@@ -37428,9 +37369,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4ef239bf-af6b-446c-9e15-eab4397079ae.pdf",
 "t": "2026-11-13T22:56+05:30"
 },
-"N:RITEZONECHEMCONINDIA": {
-"t": "2026-11-11T17:07+05:30"
-},
 "N:RKSWAMY": {
 "c": 1,
 "t": "2026-11-12T19:12+05:30"
@@ -37647,10 +37585,6 @@
 "N:SAMRATFORGINGS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba7c5ea0-f66c-4072-bec7-a707bc07f611.pdf",
 "t": "2026-11-14T17:22+05:30"
-},
-"N:SAMSRITALABS": {
-"c": 1,
-"t": "2026-11-11T17:07+05:30"
 },
 "N:SAMTEXFASHIONS": {
 "c": 1,
@@ -40381,9 +40315,6 @@
 "RITCO": {
 "pdf": "https://nsearchives.nseindia.in/corporate/RITCO_13112026225022_Outcome_of_the_BM_Ritco_13th_Nov_2026.pdf",
 "t": "2026-11-13T22:56+05:30"
-},
-"RITEZONE": {
-"t": "2026-11-11T17:07+05:30"
 },
 "RKDL": {
 "t": "2026-11-12T18:09+05:30"
