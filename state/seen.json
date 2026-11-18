@@ -15636,9 +15636,9 @@
 "t": "2026-11-17T12:53+05:30"
 },
 "NSE-sme-IF-215081": {
-"n": 5,
-"s": "retry_mcap",
-"t": "2026-11-18T12:56+05:30"
+"n": 6,
+"s": "failed",
+"t": "2026-11-18T13:02+05:30"
 },
 "NSE-sme-IF-215082": {
 "n": 6,
@@ -17203,9 +17203,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f1120e9-7bed-42b0-b5d0-6881202cd200.pdf",
 "t": "2026-11-14T14:39+05:30"
-},
-"BSE:507315": {
-"t": "2026-11-11T12:59+05:30"
 },
 "BSE:507442": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8affe26b-5e39-4459-8fdf-53b5678ed00e.pdf",
@@ -44281,22 +44278,6 @@
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
 },
-"NSE-sme-IF-215081": {
-"company": "Cellecor Gadgets Limited",
-"consolidated": false,
-"filed_at": "2026-11-17T12:32:40+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "CELLECOR",
-"t": "2026-11-17T12:36+05:30",
-"uid": "NSE-sme-IF-215081",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215081_17112026123240_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759327_17112026123238_WEB.xml"
-},
 "NSE-sme-IF-215289": {
 "company": "Atmastco Limited",
 "consolidated": false,
@@ -47818,8 +47799,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T12:56+05:30",
-"v": "INE0XE501015"
+"t": "2026-11-18T13:02+05:30",
+"v": "INE0OMO01025"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
