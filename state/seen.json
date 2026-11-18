@@ -47,14 +47,6 @@
 "n": "CHENNAIPETROLEUMCORPORATION",
 "t": "2026-11-16T16:09+05:30"
 },
-"DSSL": {
-"d": "2026-11-14",
-"mcap": 1341.0,
-"mid": 885,
-"n": "DYNACONSSYSTEMSANDSOLUTIONS",
-"pdf": 6,
-"t": "2026-11-14T22:28+05:30"
-},
 "GMBREW": {
 "d": "2026-11-16",
 "mcap": 1947.0,
@@ -104,14 +96,6 @@
 "mid": 918,
 "n": "CHENNAIPETROLEUMCORPORATION",
 "t": "2026-11-16T16:09+05:30"
-},
-"INE417B01040": {
-"d": "2026-11-14",
-"mcap": 1341.0,
-"mid": 885,
-"n": "DYNACONSSYSTEMSANDSOLUTIONS",
-"pdf": 6,
-"t": "2026-11-14T22:28+05:30"
 },
 "INE548A01028": {
 "d": "2026-11-16",
@@ -875,10 +859,6 @@
 "BSE-IFOtherthan_544169_1411202618319_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-14T20:45+05:30"
-},
-"BSE-IFOtherthan_544171_11112026202355_IFOtherthan.xml": {
-"s": "small",
-"t": "2026-11-11T22:33+05:30"
 },
 "BSE-IFOtherthan_544183_13112026184625_IFOtherthan.xml": {
 "s": "small",
@@ -5057,10 +5037,6 @@
 "s": "small",
 "t": "2026-11-14T19:33+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_533007_1111202620261_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T22:33+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_533012_13112026163716_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T18:45+05:30"
@@ -7389,22 +7365,6 @@
 "NSE-equities-IF-212321": {
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212510": {
-"s": "superseded",
-"t": "2026-11-11T22:33+05:30"
-},
-"NSE-equities-IF-212537": {
-"s": "posted",
-"t": "2026-11-11T22:33+05:30"
-},
-"NSE-equities-IF-212538": {
-"s": "superseded",
-"t": "2026-11-11T22:33+05:30"
-},
-"NSE-equities-IF-212539": {
-"s": "posted",
-"t": "2026-11-11T22:33+05:30"
 },
 "NSE-equities-IF-212540": {
 "s": "superseded",
@@ -14598,6 +14558,9 @@
 "BSE|544977|2026-09-30": {
 "t": "2026-11-16T14:36+05:30"
 },
+"BSE|545011|2026-09-30": {
+"t": "2026-11-18T22:33+05:30"
+},
 "NSE SME|AISL|2026-09-30": {
 "t": "2026-11-16T15:30+05:30"
 },
@@ -14708,6 +14671,9 @@
 },
 "NSE|ASMS|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
+},
+"NSE|BLSPOLY|2026-09-30": {
+"t": "2026-11-18T22:33+05:30"
 },
 "NSE|ELEVATE|2026-09-30": {
 "t": "2026-11-16T12:08+05:30"
@@ -41952,6 +41918,22 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
 },
+"BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
+"company": "BLS Polymers Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545011",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T22:33+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml"
+},
 "NSE-equities-IF-215270": {
 "company": "Manappuram Finance Limited",
 "consolidated": null,
@@ -41999,6 +41981,22 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
+},
+"NSE-equities-IF-215504": {
+"company": "BLS Polymers Limited",
+"consolidated": false,
+"filed_at": "2026-11-18T22:32:55+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "BLSPOLY",
+"t": "2026-11-18T22:33+05:30",
+"uid": "NSE-equities-IF-215504",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215504_18112026223254_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759957_18112026103254_WEB.xml"
 }
 },
 "posted": {
