@@ -666,6 +666,9 @@
 "BANN-dfbbdd03-39c1-4d38-a4fd-acebf1b6ac1a": {
 "t": "2026-11-16T08:15+05:30"
 },
+"BANN-dfdb6a67-2445-44c7-89ca-1abfd3e356fd": {
+"t": "2026-11-18T19:47+05:30"
+},
 "BANN-dff18048-c884-4c57-9d81-a33019e33680": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -2028,10 +2031,6 @@
 "s": "small",
 "t": "2026-11-13T18:07+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_505502_11112026172426_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_505523_13112026204821_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T08:04+05:30"
@@ -3227,10 +3226,6 @@
 "s": "small",
 "t": "2026-11-12T15:32+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_521034_11112026054021_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_521036_14112026143927_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T16:48+05:30"
@@ -4080,10 +4075,6 @@
 "s": "small",
 "t": "2026-11-14T08:05+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_530317_11112026173746_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_530323_13112026053126_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T19:48+05:30"
@@ -4207,10 +4198,6 @@
 "BSE-Integrated_Finance_Ind_As_530805_14112026171138_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T19:22+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_530809_11112026173344_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_530843_11112026184359_IFIndAs.xml": {
 "s": "superseded",
@@ -7696,22 +7683,6 @@
 "NSE-equities-IF-212321": {
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212479": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
-},
-"NSE-equities-IF-212480": {
-"s": "superseded",
-"t": "2026-11-11T19:42+05:30"
-},
-"NSE-equities-IF-212491": {
-"s": "superseded",
-"t": "2026-11-11T19:42+05:30"
-},
-"NSE-equities-IF-212493": {
-"s": "posted",
-"t": "2026-11-11T19:42+05:30"
 },
 "NSE-equities-IF-212496": {
 "s": "superseded",
@@ -12332,18 +12303,6 @@
 "s": "failed",
 "t": "2026-11-11T20:23+05:30"
 },
-"NSE-sme-IF-212477": {
-"s": "small",
-"t": "2026-11-11T19:42+05:30"
-},
-"NSE-sme-IF-212478": {
-"s": "superseded",
-"t": "2026-11-11T19:42+05:30"
-},
-"NSE-sme-IF-212485": {
-"s": "posted",
-"t": "2026-11-11T19:42+05:30"
-},
 "NSE-sme-IF-212527": {
 "s": "small",
 "t": "2026-11-11T21:52+05:30"
@@ -14997,6 +14956,9 @@
 "BSE|544111|2026-03-31": {
 "t": "2026-11-18T13:36+05:30"
 },
+"BSE|544351|2026-09-30": {
+"t": "2026-11-18T19:47+05:30"
+},
 "BSE|544477|2026-09-30": {
 "t": "2026-11-18T12:28+05:30"
 },
@@ -17019,6 +16981,10 @@
 "BSE:513713": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/126a8341-efb1-4746-ad29-78383c5c918f.pdf",
 "t": "2026-11-13T19:12+05:30"
+},
+"BSE:513721": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51c32cad-1183-4b2b-ab73-7d78910d03bb.pdf",
+"t": "2026-11-18T19:42+05:30"
 },
 "BSE:513729": {
 "t": "2026-11-12T13:34+05:30"
@@ -22957,6 +22923,10 @@
 "HVAX": {
 "pdf": "https://nsearchives.nseindia.in/corporate/HVAX_14112026161512_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-14T16:17+05:30"
+},
+"ICELCO": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
+"t": "2026-11-17T12:04+05:30"
 },
 "ICSA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ICSA_14112026175647_BM_Out_come.pdf",
@@ -33591,6 +33561,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/HVAX_14112026161512_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-14T16:17+05:30"
 },
+"N:ICELECTRICALSCOMPANY": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
+"t": "2026-11-17T12:04+05:30"
+},
 "N:ICODEXPUBLISHINGSOLUTIONS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/684b204e-3f23-48f0-bfb3-878bf29f9d4b.pdf",
 "t": "2026-11-14T14:16+05:30"
@@ -34971,6 +34945,10 @@
 "N:MFLINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1bb71651-ac79-41ae-8e3f-5e37db6b1d27.pdf",
 "t": "2026-11-13T16:52+05:30"
+},
+"N:MFSINTERCORP": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51c32cad-1183-4b2b-ab73-7d78910d03bb.pdf",
+"t": "2026-11-18T19:42+05:30"
 },
 "N:MIDEASTINTEGRATEDSTEELS": {
 "c": 1,
@@ -40562,6 +40540,10 @@
 "t": "2026-11-18T18:39+05:30",
 "v": 47.4
 },
+"BSE:513721": {
+"t": "2026-11-18T19:47+05:30",
+"v": 6.6
+},
 "BSE:517077": {
 "t": "2026-11-18T16:21+05:30",
 "v": 16.7
@@ -42421,6 +42403,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml": {
+"company": "Malpani Pipes And Fittings Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "544351",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T19:47+05:30",
+"uid": "BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544351_18112026194325_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544351_18112026194325_IFOtherthan.xml"
+},
 "BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml": {
 "company": "Ansal Properties & Infrastructure Ltd",
 "consolidated": false,
