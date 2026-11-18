@@ -24,6 +24,14 @@
 "pdf": 6,
 "t": "2026-11-14T18:29+05:30"
 },
+"BLSPOLY": {
+"d": "2026-11-18",
+"mcap": 1743.1,
+"mid": 924,
+"n": "BLSPOLYMERS",
+"pdf": 6,
+"t": "2026-11-18T18:26+05:30"
+},
 "BRIGHTOUTD": {
 "d": "2026-11-14",
 "mcap": 798.7,
@@ -298,6 +306,14 @@
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
 },
+"INE0ZCQ01019": {
+"d": "2026-11-18",
+"mcap": 1743.1,
+"mid": 924,
+"n": "BLSPOLYMERS",
+"pdf": 6,
+"t": "2026-11-18T18:26+05:30"
+},
 "INE178A01016": {
 "d": "2026-11-16",
 "mcap": 21199.8,
@@ -492,6 +508,9 @@
 },
 "ANN-equities-106864569-UNIDT": {
 "t": "2026-11-18T10:58+05:30"
+},
+"ANN-equities-106865201-BLSPOLY": {
+"t": "2026-11-18T18:26+05:30"
 },
 "ANN-sme-106861417-MACOBSTECH": {
 "t": "2026-11-16T08:15+05:30"
@@ -12503,10 +12522,6 @@
 "s": "superseded",
 "t": "2026-11-11T18:55+05:30"
 },
-"NSE-sme-IF-212401": {
-"s": "small",
-"t": "2026-11-11T18:23+05:30"
-},
 "NSE-sme-IF-212440": {
 "s": "small",
 "t": "2026-11-11T18:55+05:30"
@@ -15883,6 +15898,10 @@
 "BLKASHYAP": {
 "t": "2026-11-12T13:26+05:30"
 },
+"BLSPOLY": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
+"t": "2026-11-18T18:22+05:30"
+},
 "BLUECHIP": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BLUECHIP_13112026203454_BM_OUTCOME_FINAL__-_-SS.pdf",
 "t": "2026-11-13T20:38+05:30"
@@ -17823,9 +17842,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4378325d-bbb8-46ad-8367-8d6bc2246053.pdf",
 "t": "2026-11-14T18:03+05:30"
 },
-"BSE:523323": {
-"t": "2026-11-11T18:24+05:30"
-},
 "BSE:523351": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a6ee74f-096b-4f34-ac12-ba6eee8d8953.pdf",
 "t": "2026-11-14T17:16+05:30"
@@ -18102,9 +18118,6 @@
 "BSE:526113": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0dd2ce54-6359-44a1-9d8c-47ea6a3989d1.pdf",
 "t": "2026-11-13T15:42+05:30"
-},
-"BSE:526115": {
-"t": "2026-11-11T18:27+05:30"
 },
 "BSE:526117": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fc68d25e-eb1a-4fb6-9f96-e830798cde6b.pdf",
@@ -24873,6 +24886,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89d60782-e2a4-437e-9615-5e9e484922da.pdf",
 "t": "2026-11-14T22:58+05:30"
 },
+"INE0ZCQ01019": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
+"t": "2026-11-18T18:22+05:30"
+},
 "INE0ZDY01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed56e0c6-e7f9-43fd-8b50-7d618315e7e0.pdf",
 "t": "2026-11-14T19:35+05:30"
@@ -26556,9 +26573,6 @@
 },
 "INE326T01011": {
 "t": "2026-11-12T17:17+05:30"
-},
-"INE327D01013": {
-"t": "2026-11-11T18:27+05:30"
 },
 "INE329C01011": {
 "t": "2026-11-12T16:22+05:30"
@@ -32041,6 +32055,10 @@
 "c": 1,
 "t": "2026-11-12T13:26+05:30"
 },
+"N:BLSPOLYMERS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
+"t": "2026-11-18T18:22+05:30"
+},
 "N:BLTLOGISTICS": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f7b1178e-5155-4bb7-bfbd-1cc850fa5ad1.pdf",
@@ -34466,9 +34484,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43eb7acd-e0af-413e-b526-84f7cfdd941b.pdf",
 "t": "2026-11-13T16:46+05:30"
 },
-"N:KARANWOOSIN": {
-"t": "2026-11-11T18:27+05:30"
-},
 "N:KARBONSTEELENGINEERING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0210b186-4a3a-48fc-839e-f8deb8bb07db.pdf",
 "t": "2026-11-14T14:01+05:30"
@@ -34718,9 +34733,6 @@
 "N:KOTHARIPRODUCTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KOTHARIPRO_13112026172705_Results.pdf",
 "t": "2026-11-13T17:28+05:30"
-},
-"N:KOVAIMEDICALCENTERANDHOSPITAL": {
-"t": "2026-11-11T18:24+05:30"
 },
 "N:KOVILPATTILAKSHMIROLLERFLOURMILLS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dbcc9211-1451-4828-a05c-6d207d766425.pdf",
@@ -35578,9 +35590,6 @@
 "N:NAKSHPRECIOUSMETALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f25518a6-cf59-43bf-8708-38219f99bdfc.pdf",
 "t": "2026-11-13T23:15+05:30"
-},
-"N:NAMOEWASTEMANAGEMENT": {
-"t": "2026-11-11T18:26+05:30"
 },
 "N:NAMSECURITIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ee960b9-cfa4-440c-934f-f5bf479fbe14.pdf",
@@ -39320,9 +39329,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/NAHARINDUS_14112026153245_NIELRESULT30092026signed.pdf",
 "t": "2026-11-14T15:35+05:30"
 },
-"NAMOEWASTE": {
-"t": "2026-11-11T18:26+05:30"
-},
 "NATCAPSUQ": {
 "pdf": "https://nsearchives.nseindia.in/corporate/NCL1993_13112026190614_Outcome_of_BM.pdf",
 "t": "2026-11-13T19:09+05:30"
@@ -40904,6 +40910,10 @@
 }
 },
 "mcap": {
+"BLSPOLY": {
+"t": "2026-11-18T18:26+05:30",
+"v": 1743.1
+},
 "BSE:517077": {
 "t": "2026-11-18T16:21+05:30",
 "v": 16.7
@@ -41914,6 +41924,35 @@
 }
 },
 "t": "2026-11-14T22:16+05:30"
+},
+"INE0ZCQ01019|2026-09-30|S": {
+"p": {
+"2025-07-01_2025-09-30": {
+"depreciation": 1.5078,
+"finance": 4.095,
+"other_income": 2.8335,
+"pat": 13.7402,
+"pbe": 18.0722,
+"pbt": 18.0722,
+"revenue": 171.4877,
+"tax": 4.332,
+"total_expenses": 156.249,
+"total_income": 174.3212
+},
+"2026-04-01_2026-06-30": {
+"depreciation": 0.7641,
+"finance": 1.8108,
+"other_income": 0.7842,
+"pat": 10.2298,
+"pbe": 13.6833,
+"pbt": 13.6833,
+"revenue": 107.0255,
+"tax": 3.4535,
+"total_expenses": 94.1264,
+"total_income": 107.8097
+}
+},
+"t": "2026-11-18T18:28+05:30"
 },
 "INE133Y01011|2026-09-30|C": {
 "p": {
@@ -44009,6 +44048,16 @@
 "n": "PREV",
 "pe": "2026-09-30",
 "t": "2026-11-14T18:56+05:30"
+},
+"INE0ZCQ01019|2026-09-30|S": {
+"b": "S",
+"mid": -1,
+"n": "BLSPOLYMERS",
+"pat": 10.5406,
+"pe": "2026-09-30",
+"rev": 125.5629,
+"src": "pdf",
+"t": "2026-11-18T18:28+05:30"
 },
 "INE101A01026|2026-09-30|C": {
 "b": "C",
