@@ -7707,21 +7707,9 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212446": {
-"s": "posted",
-"t": "2026-11-11T19:18+05:30"
-},
 "NSE-equities-IF-212459": {
 "s": "posted",
 "t": "2026-11-11T19:24+05:30"
-},
-"NSE-equities-IF-212471": {
-"s": "superseded",
-"t": "2026-11-11T19:19+05:30"
-},
-"NSE-equities-IF-212473": {
-"s": "posted",
-"t": "2026-11-11T19:19+05:30"
 },
 "NSE-equities-IF-212479": {
 "s": "small",
@@ -12353,14 +12341,6 @@
 "s": "posted",
 "t": "2026-11-18T13:53+05:30"
 },
-"NSE-sme-IF-212471": {
-"s": "superseded",
-"t": "2026-11-11T19:19+05:30"
-},
-"NSE-sme-IF-212473": {
-"s": "dup",
-"t": "2026-11-11T19:19+05:30"
-},
 "NSE-sme-IF-212475": {
 "n": 6,
 "s": "failed",
@@ -14883,6 +14863,10 @@
 "NSE-sme-IF-215428": {
 "s": "small",
 "t": "2026-11-18T18:20+05:30"
+},
+"NSE-sme-IF-215460": {
+"s": "small",
+"t": "2026-11-18T19:19+05:30"
 }
 },
 "first_seen": {
@@ -21292,9 +21276,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/13d0a95d-d79d-4920-b5c1-861df651ea43.pdf",
 "t": "2026-11-14T18:10+05:30"
 },
-"BSE:544205": {
-"t": "2026-11-11T19:18+05:30"
-},
 "BSE:544220": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f174db28-5a1a-460f-83e0-8e5e9276e392.pdf",
@@ -24346,9 +24327,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ca8f6c43-4136-4414-90ef-a76f4e5dabaa.pdf",
 "t": "2026-11-13T12:53+05:30"
-},
-"INE0PO601011": {
-"t": "2026-11-11T19:18+05:30"
 },
 "INE0PQ101010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78aab244-8cb8-44ed-8763-1c7e8ef4e843.pdf",
@@ -35375,9 +35353,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/970b5acf-0fac-45fb-aaec-f26212964ca4.pdf",
 "t": "2026-11-13T16:21+05:30"
 },
-"N:NATIONALPEROXIDE": {
-"t": "2026-11-11T19:18+05:30"
-},
 "N:NATURAHUECHEM": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/83ae3e59-7fd2-4a06-ac13-21850af2ddf8.pdf",
 "t": "2026-11-13T16:10+05:30"
@@ -40676,10 +40651,6 @@
 "t": "2026-11-16T19:33+05:30",
 "v": 50.5
 },
-"BSE:540402": {
-"t": "2026-11-16T19:17+05:30",
-"v": 162.2
-},
 "BSE:541083": {
 "t": "2026-11-17T18:45+05:30",
 "v": 155.9
@@ -42602,22 +42573,6 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
-},
-"NSE-sme-IF-215460": {
-"company": "Happy Square Outsourcing Services Limited",
-"consolidated": false,
-"filed_at": "2026-11-18T18:59:55+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "WHITEFORCE",
-"t": "2026-11-18T19:01+05:30",
-"uid": "NSE-sme-IF-215460",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215460_18112026185954_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1759909_18112026065953_WEB.xml"
 }
 },
 "posted": {
@@ -46141,8 +46096,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T18:20+05:30",
-"v": "INE0B2N01016"
+"t": "2026-11-18T19:19+05:30",
+"v": "INE0TLP01015"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -55669,6 +55624,10 @@
 "INE0TJ801010": {
 "t": "2026-11-16T08:07+05:30",
 "v": 21263100
+},
+"INE0TLP01015": {
+"t": "2026-11-18T19:19+05:30",
+"v": 11600400
 },
 "INE0TNW01017": {
 "t": "2026-11-12T15:32+05:30",
