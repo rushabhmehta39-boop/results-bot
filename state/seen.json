@@ -40,14 +40,6 @@
 "pdf": 6,
 "t": "2026-11-14T22:52+05:30"
 },
-"BSE:543272": {
-"d": "2026-11-14",
-"mcap": 2394.8,
-"mid": 874,
-"n": "EASYTRIPPLANNERS",
-"pdf": 6,
-"t": "2026-11-14T21:50+05:30"
-},
 "BSE:543897": {
 "d": "2026-11-16",
 "mcap": 703.9,
@@ -1532,10 +1524,6 @@
 "s": "small",
 "t": "2026-11-16T08:08+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_500298_11112026194610_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T21:52+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_500300_13112026033826_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-14T15:49+05:30"
@@ -2613,6 +2601,10 @@
 "BSE-Integrated_Finance_Ind_As_513713_13112026195246_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:10+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-18T21:54+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_513729_12112026134412_IFIndAs.xml": {
 "s": "small",
@@ -11979,10 +11971,6 @@
 "NSE-equities-IF-215308": {
 "s": "posted",
 "t": "2026-11-18T13:53+05:30"
-},
-"NSE-sme-IF-212527": {
-"s": "small",
-"t": "2026-11-11T21:52+05:30"
 },
 "NSE-sme-IF-212575": {
 "s": "superseded",
@@ -41970,22 +41958,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
-"company": "MFS Intercorp Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "513721",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T19:53+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
 "company": "Apeejay Surrendra Park Hotels Ltd",
 "consolidated": false,
@@ -46998,6 +46970,10 @@
 "513713": {
 "t": "2026-11-13T22:10+05:30",
 "v": "INE146C01019"
+},
+"513721": {
+"t": "2026-11-18T21:53+05:30",
+"v": "INE614F01019"
 },
 "513729": {
 "t": "2026-11-12T17:40+05:30",
@@ -59240,6 +59216,10 @@
 "INE613B01010": {
 "t": "2026-11-11T19:06+05:30",
 "v": 13026700
+},
+"INE614F01019": {
+"t": "2026-11-18T21:53+05:30",
+"v": 4324900
 },
 "INE614G01033": {
 "t": "2026-11-12T22:01+05:30",
