@@ -32,14 +32,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
 },
-"BSE:505725": {
-"d": "2026-11-14",
-"mcap": 2367.1,
-"mid": 848,
-"n": "ALGOQUANTFINTECH",
-"pdf": 6,
-"t": "2026-11-14T20:33+05:30"
-},
 "BSE:521238": {
 "d": "2026-11-16",
 "mcap": 881.3,
@@ -125,14 +117,6 @@
 "n": "GRMOVERSEAS",
 "pdf": 6,
 "t": "2026-11-14T21:10+05:30"
-},
-"GUFICBIO": {
-"d": "2026-11-14",
-"mcap": 4728.8,
-"mid": 847,
-"n": "GUFICBIOSCIENCES",
-"pdf": 6,
-"t": "2026-11-14T20:33+05:30"
 },
 "HFCL": {
 "d": "2026-11-16",
@@ -231,14 +215,6 @@
 "mid": 915,
 "n": "HFCL",
 "t": "2026-11-16T15:09+05:30"
-},
-"INE742B01025": {
-"d": "2026-11-14",
-"mcap": 4728.8,
-"mid": 847,
-"n": "GUFICBIOSCIENCES",
-"pdf": 6,
-"t": "2026-11-14T20:33+05:30"
 },
 "KERNEX": {
 "d": "2026-11-14",
@@ -2796,10 +2772,6 @@
 "s": "failed",
 "t": "2026-11-14T16:33+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_514300_11112026062746_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T20:29+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_514306_1411202618415_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T20:16+05:30"
@@ -3376,10 +3348,6 @@
 "BSE-Integrated_Finance_Ind_As_523309_14112026195850_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T22:13+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_523323_11112026182732_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-11T20:29+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_523351_14112026221454_IFIndAs.xml": {
 "s": "small",
@@ -15129,10 +15097,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/AFFORDABLE_14112026183123_BMOutcome14112026signed.pdf",
 "t": "2026-11-14T18:36+05:30"
 },
-"AFSL": {
-"c": 1,
-"t": "2026-11-11T20:34+05:30"
-},
 "AGARIND": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AGARIND_13112026170812_Outcome_of_BM.pdf",
 "t": "2026-11-13T17:10+05:30"
@@ -17296,9 +17260,6 @@
 "BSE:520141": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b9df37e5-4471-49b5-8194-25e7bb08f0ef.pdf",
 "t": "2026-11-14T12:35+05:30"
-},
-"BSE:521005": {
-"t": "2026-11-11T20:32+05:30"
 },
 "BSE:521036": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3013ff7f-0530-4023-af51-a49b79e01f64.pdf",
@@ -22947,10 +22908,6 @@
 "INE00Y801016": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AKG_13112026172419_OutcomeofBM_LLR_Results.pdf",
 "t": "2026-11-13T17:26+05:30"
-},
-"INE00ZE01026": {
-"c": 1,
-"t": "2026-11-11T20:34+05:30"
 },
 "INE011D01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fc68d25e-eb1a-4fb6-9f96-e830798cde6b.pdf",
@@ -28776,9 +28733,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f9bb637-bb4c-45ad-8bb2-bab0a949fcb6.pdf",
 "t": "2026-11-13T17:36+05:30"
 },
-"INE807M01031": {
-"t": "2026-11-11T20:32+05:30"
-},
 "INE807O01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d6def7ff-7923-4bc7-b03e-771fee7d6208.pdf",
 "t": "2026-11-14T19:26+05:30"
@@ -30529,10 +30483,6 @@
 "N:AASTAMANGALAMFINANCE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e39504ee-5126-41ab-82ee-7694e170d38c.pdf",
 "t": "2026-11-13T23:05+05:30"
-},
-"N:ABANSFINANCIALSERVICES": {
-"c": 1,
-"t": "2026-11-11T20:34+05:30"
 },
 "N:ABATEASINDUSTRIES": {
 "t": "2026-11-12T23:24+05:30"
@@ -37999,9 +37949,6 @@
 "N:TIRUPATISTARCHANDCHEMICALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f0b6318-a231-48f1-afb4-5b9b9d67467f.pdf",
 "t": "2026-11-14T15:34+05:30"
-},
-"N:TITANINTECH": {
-"t": "2026-11-11T20:32+05:30"
 },
 "N:TMTINDIA": {
 "t": "2026-11-12T17:02+05:30"
