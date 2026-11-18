@@ -468,10 +468,6 @@
 }
 },
 "filings": {
-"BSE-IFOtherthan_507833_11112026141354_IFOtherthan.xml": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
-},
 "BSE-IFOtherthan_522267_11112026121518_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-12T15:32+05:30"
@@ -519,10 +515,6 @@
 "BSE-IFOtherthan_539116_14112026151421_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-14T17:27+05:30"
-},
-"BSE-IFOtherthan_539273_11112026182547_IFOtherthan.xml": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
 },
 "BSE-IFOtherthan_539401_13112026193713_IFOtherthan.xml": {
 "s": "small",
@@ -1275,10 +1267,6 @@
 "BSE-IFOtherthan_544925_12112026212149_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-13T08:05+05:30"
-},
-"BSE-IFOtherthan_544930_11112026173928_IFOtherthan.xml": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
 },
 "BSE-IFOtherthan_544931_14112026223151_IFOtherthan.xml": {
 "s": "small",
@@ -2069,10 +2057,6 @@
 "BSE-Integrated_Finance_Ind_As_509449_1311202616537_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T19:08+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_509525_11112026122546_IFIndAs.xml": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_509709_1311202622949_IFIndAs.xml": {
 "s": "small",
@@ -3107,10 +3091,6 @@
 "BSE-Integrated_Finance_Ind_As_522171_1211202617620_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-12T22:08+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_522195_11112026183944_IFIndAs.xml": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_522207_1411202618493_IFIndAs.xml": {
 "s": "small",
@@ -7341,18 +7321,6 @@
 "MANUAL-LANDMARK-C-2026-09-30": {
 "s": "posted",
 "t": "2026-11-12T22:40+05:30"
-},
-"NSE-equities-IF-212179": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212320": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212321": {
-"s": "old",
-"t": "2026-11-12T00:00+05:30"
 },
 "NSE-equities-IF-212582": {
 "s": "small",
@@ -11847,6 +11815,10 @@
 "NSE-equities-IF-215308": {
 "s": "posted",
 "t": "2026-11-18T13:53+05:30"
+},
+"NSE-equities-IF-215400": {
+"s": "old",
+"t": "2026-11-19T00:19+05:30"
 },
 "NSE-sme-IF-212575": {
 "s": "superseded",
