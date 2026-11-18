@@ -645,6 +645,9 @@
 "BANN-81bda0cf-9221-4a8c-b32f-f3eadc29f432": {
 "t": "2026-11-17T19:02+05:30"
 },
+"BANN-9a18f2c6-2ef6-46de-a15b-659215c563ed": {
+"t": "2026-11-18T18:56+05:30"
+},
 "BANN-9a6cb61b-ac93-47eb-a9d7-ff3566e6941b": {
 "t": "2026-11-16T15:09+05:30"
 },
@@ -12415,14 +12418,6 @@
 "s": "posted",
 "t": "2026-11-18T13:53+05:30"
 },
-"NSE-sme-IF-212300": {
-"s": "superseded",
-"t": "2026-11-11T18:55+05:30"
-},
-"NSE-sme-IF-212440": {
-"s": "small",
-"t": "2026-11-11T18:55+05:30"
-},
 "NSE-sme-IF-212468": {
 "s": "superseded",
 "t": "2026-11-11T19:12+05:30"
@@ -16893,9 +16888,6 @@
 "c": 1,
 "t": "2026-11-12T19:05+05:30"
 },
-"BSE:512161": {
-"t": "2026-11-11T18:55+05:30"
-},
 "BSE:512175": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e77bce44-987a-4eee-968a-b0f2001340db.pdf",
 "t": "2026-11-14T16:33+05:30"
@@ -17781,10 +17773,6 @@
 "BSE:523620": {
 "t": "2026-11-12T17:17+05:30"
 },
-"BSE:523630": {
-"c": 1,
-"t": "2026-11-11T18:56+05:30"
-},
 "BSE:523638": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2f859470-ee5d-458d-83f6-3ac2b6a48f7d.pdf",
@@ -18265,6 +18253,10 @@
 "BSE:530019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f4c1dd4-636d-4b75-8767-8ea118477cf0.pdf",
 "t": "2026-11-13T20:20+05:30"
+},
+"BSE:530025": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbecb85-7788-4aad-aa2b-0917065f23be.pdf",
+"t": "2026-11-18T18:52+05:30"
 },
 "BSE:530027": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a820b169-148f-4b50-8e23-924a0f698310.pdf",
@@ -37029,6 +37021,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/eb00eed8-a5bd-4b18-91ce-5c569559cbea.pdf",
 "t": "2026-11-13T21:55+05:30"
 },
+"N:SAMYAKINTERNATIONAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbecb85-7788-4aad-aa2b-0917065f23be.pdf",
+"t": "2026-11-18T18:52+05:30"
+},
 "N:SANCHAYFINVEST": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/766c6d3d-7a0e-4026-a42d-42061c5a5557.pdf",
 "t": "2026-11-14T19:05+05:30"
@@ -40759,6 +40755,10 @@
 "BSE:517077": {
 "t": "2026-11-18T16:21+05:30",
 "v": 16.7
+},
+"BSE:530025": {
+"t": "2026-11-18T18:56+05:30",
+"v": 27.3
 },
 "BSE:530267": {
 "t": "2026-11-17T19:42+05:30",
