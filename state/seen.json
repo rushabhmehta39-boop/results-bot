@@ -3833,6 +3833,10 @@
 "s": "superseded",
 "t": "2026-11-14T20:59+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-18T21:02+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_530027_13112026194045_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:11+05:30"
@@ -7506,14 +7510,6 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212502": {
-"s": "superseded",
-"t": "2026-11-11T20:58+05:30"
-},
-"NSE-equities-IF-212504": {
-"s": "posted",
-"t": "2026-11-11T20:58+05:30"
-},
 "NSE-equities-IF-212510": {
 "s": "superseded",
 "t": "2026-11-11T22:33+05:30"
@@ -7521,14 +7517,6 @@
 "NSE-equities-IF-212514": {
 "s": "small",
 "t": "2026-11-11T21:04+05:30"
-},
-"NSE-equities-IF-212515": {
-"s": "superseded",
-"t": "2026-11-11T20:58+05:30"
-},
-"NSE-equities-IF-212516": {
-"s": "posted",
-"t": "2026-11-11T20:58+05:30"
 },
 "NSE-equities-IF-212518": {
 "s": "posted",
@@ -20752,9 +20740,6 @@
 "BSE:543678": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/80786207-f144-490f-a31d-0ddb2906ec72.pdf",
 "t": "2026-11-13T19:46+05:30"
-},
-"BSE:543712": {
-"t": "2026-11-11T21:00+05:30"
 },
 "BSE:543714": {
 "c": 1,
@@ -42148,22 +42133,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml": {
-"company": "Samyak International Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "530025",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T19:01+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
 "company": "Apeejay Surrendra Park Hotels Ltd",
 "consolidated": false,
@@ -48452,6 +48421,10 @@
 "530019": {
 "t": "2026-11-13T20:50+05:30",
 "v": "INE700A01033"
+},
+"530025": {
+"t": "2026-11-18T21:02+05:30",
+"v": "INE607G01011"
 },
 "530027": {
 "t": "2026-11-13T22:11+05:30",
@@ -59370,6 +59343,10 @@
 "INE606K01049": {
 "t": "2026-11-14T20:45+05:30",
 "v": 1910079000
+},
+"INE607G01011": {
+"t": "2026-11-18T21:02+05:30",
+"v": 11997200
 },
 "INE609A01010": {
 "t": "2026-11-13T20:31+05:30",
