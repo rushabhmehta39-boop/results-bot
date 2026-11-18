@@ -72,14 +72,6 @@
 "pdf": 6,
 "t": "2026-11-14T18:16+05:30"
 },
-"BSE:505526": {
-"d": "2026-11-14",
-"mcap": 1151.7,
-"mid": 747,
-"n": "DOLATALGOTECH",
-"pdf": 6,
-"t": "2026-11-14T14:57+05:30"
-},
 "BSE:505725": {
 "d": "2026-11-14",
 "mcap": 2367.1,
@@ -167,14 +159,6 @@
 "n": "THEMISMEDICARE",
 "pdf": 6,
 "t": "2026-11-14T17:18+05:30"
-},
-"BSE:530245": {
-"d": "2026-11-14",
-"mcap": 941.0,
-"mid": 748,
-"n": "ARYAMANFINANCIALSERVICES",
-"pdf": 6,
-"t": "2026-11-14T14:57+05:30"
 },
 "BSE:530929": {
 "d": "2026-11-14",
@@ -490,14 +474,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
 },
-"INE0CJF01024": {
-"d": "2026-11-14",
-"mcap": 933.0,
-"mid": 746,
-"n": "WESTERNCARRIERSINDIA",
-"pdf": 6,
-"t": "2026-11-14T14:57+05:30"
-},
 "INE0GMR01016": {
 "d": "2026-11-14",
 "mcap": 960.3,
@@ -805,14 +781,6 @@
 "n": "VIKRAMSOLAR",
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
-},
-"WCIL": {
-"d": "2026-11-14",
-"mcap": 933.0,
-"mid": 746,
-"n": "WESTERNCARRIERSINDIA",
-"pdf": 6,
-"t": "2026-11-14T14:57+05:30"
 }
 },
 "ann": {
@@ -15667,6 +15635,9 @@
 },
 "BSE|531758|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
+},
+"BSE|531980|2026-09-30": {
+"t": "2026-11-18T15:01+05:30"
 },
 "BSE|532083|2026-09-30": {
 "t": "2026-11-15T23:01+05:30"
@@ -42039,10 +42010,6 @@
 }
 },
 "mcap": {
-"ANNU": {
-"t": "2026-11-16T15:01+05:30",
-"v": 253.8
-},
 "BSE:524324": {
 "t": "2026-11-16T17:28+05:30",
 "v": 30.6
@@ -43897,6 +43864,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-Integrated_Finance_Ind_As_531980_18112026145824_IFIndAs.xml": {
+"company": "Senthil Infotek Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531980",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-18T15:01+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531980_18112026145824_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531980_18112026145824_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531980_18112026145824_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "company": "Prabhat Technologies (India) Ltd",
 "consolidated": false,
