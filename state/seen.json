@@ -280,14 +280,6 @@
 "n": "HFCL",
 "t": "2026-11-16T15:09+05:30"
 },
-"INE596F01018": {
-"d": "2026-11-14",
-"mcap": 38707.9,
-"mid": 833,
-"n": "PTCINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T19:33+05:30"
-},
 "INE742B01025": {
 "d": "2026-11-14",
 "mcap": 4728.8,
@@ -310,14 +302,6 @@
 "mid": 917,
 "n": "PARAMOUNTCOMMUNICATIONS",
 "t": "2026-11-16T15:32+05:30"
-},
-"PTCIL": {
-"d": "2026-11-14",
-"mcap": 38707.9,
-"mid": 833,
-"n": "PTCINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T19:33+05:30"
 },
 "SHANTIGOLD": {
 "d": "2026-11-16",
@@ -645,6 +629,9 @@
 },
 "BANN-b3454fd9-29a3-4432-b33e-4fd5595e713d": {
 "t": "2026-11-16T08:15+05:30"
+},
+"BANN-b3fcde11-0b00-4bcf-808c-231a6b01ba12": {
+"t": "2026-11-18T19:36+05:30"
 },
 "BANN-b547b79b-19ad-4206-8ef5-9d8fcd8e7ff9": {
 "t": "2026-11-16T08:15+05:30"
@@ -18758,6 +18745,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/48b84ac8-8ced-4ef5-ba2d-a7ae707f84aa.pdf",
 "t": "2026-11-13T17:12+05:30"
 },
+"BSE:531512": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
+"t": "2026-11-18T19:30+05:30"
+},
 "BSE:531521": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/42da5b5b-3b11-42ee-bca3-5689b6c7f72c.pdf",
 "t": "2026-11-14T15:32+05:30"
@@ -27465,9 +27456,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8dcdf629-937d-4927-a405-99631efe9f2c.pdf",
 "t": "2026-11-13T23:09+05:30"
 },
-"INE535D01029": {
-"t": "2026-11-11T19:34+05:30"
-},
 "INE535P01015": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9fe5c521-ef3f-4f72-9e8d-48add8cda3da.pdf",
@@ -35731,6 +35719,10 @@
 "c": 1,
 "t": "2026-11-12T20:09+05:30"
 },
+"N:ORIENTTRADELINK": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
+"t": "2026-11-18T19:30+05:30"
+},
 "N:OROSILSMITHSINDIA": {
 "t": "2026-11-12T17:44+05:30"
 },
@@ -39548,9 +39540,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/ROLLT_13112026150925_RESULTS2026.pdf",
 "t": "2026-11-13T15:10+05:30"
 },
-"ROTO": {
-"t": "2026-11-11T19:34+05:30"
-},
 "ROXHITECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ROX_2002_13112026173920_BM.pdf",
 "t": "2026-11-13T17:42+05:30"
@@ -40597,6 +40586,10 @@
 "t": "2026-11-16T22:50+05:30",
 "v": 6.2
 },
+"BSE:531512": {
+"t": "2026-11-18T19:36+05:30",
+"v": 16.8
+},
 "BSE:534659": {
 "t": "2026-11-17T19:19+05:30",
 "v": 5.7
@@ -40604,10 +40597,6 @@
 "BSE:540027": {
 "t": "2026-11-17T19:02+05:30",
 "v": 107.1
-},
-"BSE:540359": {
-"t": "2026-11-16T19:33+05:30",
-"v": 50.5
 },
 "BSE:541083": {
 "t": "2026-11-17T18:45+05:30",
