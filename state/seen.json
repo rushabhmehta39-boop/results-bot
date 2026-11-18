@@ -16,14 +16,6 @@
 "pdf": 6,
 "t": "2026-11-14T21:30+05:30"
 },
-"BCG": {
-"d": "2026-11-14",
-"mcap": 1866.6,
-"mid": 810,
-"n": "BRIGHTCOMGROUP",
-"pdf": 6,
-"t": "2026-11-14T18:29+05:30"
-},
 "BLSPOLY": {
 "d": "2026-11-18",
 "mcap": 1743.1,
@@ -64,14 +56,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:33+05:30"
 },
-"BSE:506166": {
-"d": "2026-11-14",
-"mcap": 740.5,
-"mid": 811,
-"n": "APISINDIA",
-"pdf": 6,
-"t": "2026-11-14T18:29+05:30"
-},
 "BSE:509732": {
 "d": "2026-11-14",
 "mcap": 1381.1,
@@ -79,14 +63,6 @@
 "n": "KOTHARIINDUSTRIALCORPORATION",
 "pdf": 6,
 "t": "2026-11-14T19:09+05:30"
-},
-"BSE:514446": {
-"d": "2026-11-14",
-"mcap": 2742.5,
-"mid": 812,
-"n": "LSINDUSTRIES",
-"pdf": 6,
-"t": "2026-11-14T18:29+05:30"
 },
 "BSE:516038": {
 "d": "2026-11-14",
@@ -167,14 +143,6 @@
 "n": "JEENASIKHOLIFECARE",
 "pdf": 6,
 "t": "2026-11-14T20:45+05:30"
-},
-"BSE:544516": {
-"d": "2026-11-14",
-"mcap": 1230.6,
-"mid": 813,
-"n": "AIRFLOARAILTECHNOLOGY",
-"pdf": 6,
-"t": "2026-11-14T18:29+05:30"
 },
 "BSE:544870": {
 "d": "2026-11-14",
@@ -352,14 +320,6 @@
 "n": "DYNACONSSYSTEMSANDSOLUTIONS",
 "pdf": 6,
 "t": "2026-11-14T22:28+05:30"
-},
-"INE425B01027": {
-"d": "2026-11-14",
-"mcap": 1866.6,
-"mid": 810,
-"n": "BRIGHTCOMGROUP",
-"pdf": 6,
-"t": "2026-11-14T18:29+05:30"
 },
 "INE548A01028": {
 "d": "2026-11-16",
@@ -4455,10 +4415,6 @@
 "s": "small",
 "t": "2026-11-16T08:23+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_531219_11112026162255_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T18:29+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_531225_13112026201156_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:27+05:30"
@@ -7819,30 +7775,6 @@
 "NSE-equities-IF-212321": {
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212410": {
-"s": "superseded",
-"t": "2026-11-11T18:29+05:30"
-},
-"NSE-equities-IF-212417": {
-"s": "small",
-"t": "2026-11-11T18:29+05:30"
-},
-"NSE-equities-IF-212418": {
-"s": "superseded",
-"t": "2026-11-11T18:29+05:30"
-},
-"NSE-equities-IF-212419": {
-"s": "dup",
-"t": "2026-11-11T18:29+05:30"
-},
-"NSE-equities-IF-212420": {
-"s": "superseded",
-"t": "2026-11-11T18:29+05:30"
-},
-"NSE-equities-IF-212422": {
-"s": "small",
-"t": "2026-11-11T18:29+05:30"
 },
 "NSE-equities-IF-212426": {
 "s": "superseded",
@@ -17219,10 +17151,6 @@
 "c": 1,
 "t": "2026-11-11T21:36+05:30"
 },
-"BSE:513629": {
-"c": 1,
-"t": "2026-11-11T18:32+05:30"
-},
 "BSE:513642": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/21ba5f15-5ede-411f-ae00-9f46c6a02681.pdf",
 "t": "2026-11-13T21:42+05:30"
@@ -18637,10 +18565,6 @@
 "BSE:530805": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c10d869d-4115-4ec3-912a-4deb5163f64f.pdf",
 "t": "2026-11-14T16:00+05:30"
-},
-"BSE:530843": {
-"c": 1,
-"t": "2026-11-11T18:30+05:30"
 },
 "BSE:530855": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/29b7b9fb-1844-4105-b18c-bbd7c3e33dde.pdf",
@@ -22514,9 +22438,6 @@
 "CUDML": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CASHURDRIVE_15112026015019_Outcome_BM_14_Nov_2026.pdf",
 "t": "2026-11-15T01:53+05:30"
-},
-"CUPID": {
-"t": "2026-11-11T18:30+05:30"
 },
 "CURAA": {
 "t": "2026-11-12T12:58+05:30"
@@ -27362,10 +27283,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/PRUDMOULI_14112026170259_PSCL_FR_30092026.pdf",
 "t": "2026-11-14T17:04+05:30"
 },
-"INE463D01016": {
-"c": 1,
-"t": "2026-11-11T18:32+05:30"
-},
 "INE464H01015": {
 "t": "2026-11-12T19:21+05:30"
 },
@@ -27578,12 +27495,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b8ce304e-83e8-4c12-a93e-92d9602e87be.pdf",
 "t": "2026-11-14T18:19+05:30"
-},
-"INE509F01011": {
-"t": "2026-11-11T18:30+05:30"
-},
-"INE509F01029": {
-"t": "2026-11-11T18:30+05:30"
 },
 "INE510W01014": {
 "c": 1,
@@ -32545,10 +32456,6 @@
 "N:CSMTECHNOLOGIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7dc7ca6-3873-4f40-8ddf-2677e55a78ce.pdf",
 "t": "2026-11-13T19:00+05:30"
-},
-"N:CUPID": {
-"c": 1,
-"t": "2026-11-11T18:30+05:30"
 },
 "N:CURATECHNOLOGIES": {
 "t": "2026-11-12T12:58+05:30"
@@ -38614,10 +38521,6 @@
 "N:TTIENTERPRISE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f549cf19-ca4e-4d2d-ab6c-177f1a8c274e.pdf",
 "t": "2026-11-14T14:22+05:30"
-},
-"N:TULSYANNEC": {
-"c": 1,
-"t": "2026-11-11T18:32+05:30"
 },
 "N:TUNWALEMOTORS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TUNWAL2024_14112026171846_Outcome_Final_SD.pdf",
