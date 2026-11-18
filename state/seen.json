@@ -394,14 +394,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:06+05:30"
 },
-"INE0PX301025": {
-"d": "2026-11-14",
-"mcap": 1689.9,
-"mid": 772,
-"n": "SKYWAYSAIRSERVICES",
-"pdf": 6,
-"t": "2026-11-14T16:25+05:30"
-},
 "INE0R6Z01013": {
 "d": "2026-11-14",
 "mcap": 926.1,
@@ -432,14 +424,6 @@
 "n": "GRMOVERSEAS",
 "pdf": 6,
 "t": "2026-11-14T21:10+05:30"
-},
-"INE1B6101010": {
-"d": "2026-11-14",
-"mcap": 14816.6,
-"mid": 773,
-"n": "SHREEJISHIPPINGGLOBAL",
-"pdf": 6,
-"t": "2026-11-14T16:25+05:30"
 },
 "INE202H01019": {
 "d": "2026-11-14",
@@ -557,22 +541,6 @@
 "mid": 916,
 "n": "SHANTIGOLDINTERNATIONAL",
 "t": "2026-11-16T15:15+05:30"
-},
-"SHREEJISPG": {
-"d": "2026-11-14",
-"mcap": 14816.6,
-"mid": 773,
-"n": "SHREEJISHIPPINGGLOBAL",
-"pdf": 6,
-"t": "2026-11-14T16:25+05:30"
-},
-"SKYWAYS": {
-"d": "2026-11-14",
-"mcap": 1689.9,
-"mid": 772,
-"n": "SKYWAYSAIRSERVICES",
-"pdf": 6,
-"t": "2026-11-14T16:25+05:30"
 },
 "SRM": {
 "d": "2026-11-14",
@@ -8018,21 +7986,9 @@
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
 },
-"NSE-equities-IF-212296": {
-"s": "small",
-"t": "2026-11-11T16:26+05:30"
-},
 "NSE-equities-IF-212305": {
 "s": "dup",
 "t": "2026-11-11T16:37+05:30"
-},
-"NSE-equities-IF-212309": {
-"s": "superseded",
-"t": "2026-11-11T16:27+05:30"
-},
-"NSE-equities-IF-212312": {
-"s": "posted",
-"t": "2026-11-11T16:27+05:30"
 },
 "NSE-equities-IF-212320": {
 "s": "old",
@@ -23632,9 +23588,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/HITECHCORP_13112026202908_OutcomeBM13112026.pdf",
 "t": "2026-11-13T20:30+05:30"
 },
-"HOLMARC": {
-"t": "2026-11-11T16:27+05:30"
-},
 "HRHNEXT": {
 "pdf": "https://nsearchives.nseindia.in/corporate/HRHNEXT_13112026203353_BM_Outcome_FR_131126.pdf",
 "t": "2026-11-13T20:36+05:30"
@@ -23891,9 +23844,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/XELPMOC_13112026113745_OutcomeFinancialResult_Upload_00001_compressed.pdf",
 "t": "2026-11-13T11:41+05:30"
-},
-"INE020G01017": {
-"t": "2026-11-11T16:24+05:30"
 },
 "INE020J01029": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1d34d56b-e487-496a-a957-b1cbfff0e649.pdf",
@@ -30901,9 +30851,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/INSPIRE_14112026230617_Inspire_Fin_outcome_0926.pdf",
 "t": "2026-11-14T23:11+05:30"
 },
-"INSPIRISYS": {
-"t": "2026-11-11T16:24+05:30"
-},
 "INTENTECH": {
 "t": "2026-11-11T17:41+05:30"
 },
@@ -34536,9 +34483,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30d167df-1a14-4c56-8159-f5b50579f25c.pdf",
 "t": "2026-11-14T17:57+05:30"
 },
-"N:HOLMARCOPTOMECHATRONICS": {
-"t": "2026-11-11T16:27+05:30"
-},
 "N:HOWARDHOTELS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7f44fa82-e957-4760-a5d3-7f8ef090bb46.pdf",
 "t": "2026-11-13T16:38+05:30"
@@ -34798,9 +34742,6 @@
 "N:INSPIREFILMS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/INSPIRE_14112026230617_Inspire_Fin_outcome_0926.pdf",
 "t": "2026-11-14T23:11+05:30"
-},
-"N:INSPIRISYSSOLUTIONS": {
-"t": "2026-11-11T16:24+05:30"
 },
 "N:INTECCAPITAL": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/83bac55d-cd10-4d3a-a1da-aec9f8e278d1.pdf",
