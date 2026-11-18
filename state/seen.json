@@ -16,22 +16,6 @@
 "pdf": 6,
 "t": "2026-11-18T18:26+05:30"
 },
-"BSE:500227": {
-"d": "2026-11-14",
-"mcap": 3067.9,
-"mid": 856,
-"n": "JINDALPOLYFILMS",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
-},
-"BSE:501945": {
-"d": "2026-11-14",
-"mcap": 1964.1,
-"mid": 857,
-"n": "DHENUBUILDCONINFRA",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
-},
 "BSE:521238": {
 "d": "2026-11-16",
 "mcap": 881.3,
@@ -79,14 +63,6 @@
 "n": "SANCODETECHNOLOGIES",
 "pdf": 6,
 "t": "2026-11-16T08:15+05:30"
-},
-"BSE:544476": {
-"d": "2026-11-14",
-"mcap": 4252.5,
-"mid": 858,
-"n": "JEENASIKHOLIFECARE",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
 },
 "CHENNPETRO": {
 "d": "2026-11-16",
@@ -154,14 +130,6 @@
 "n": "GMBREWERIES",
 "t": "2026-11-16T16:16+05:30"
 },
-"INE078V01014": {
-"d": "2026-11-14",
-"mcap": 5199.8,
-"mid": 854,
-"n": "VIKRAMSOLAR",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
-},
 "INE0R6Z01013": {
 "d": "2026-11-14",
 "mcap": 926.1,
@@ -193,14 +161,6 @@
 "pdf": 6,
 "t": "2026-11-14T21:10+05:30"
 },
-"INE202H01019": {
-"d": "2026-11-14",
-"mcap": 2968.0,
-"mid": 855,
-"n": "KERNEXMICROSYSTEMSINDIA",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
-},
 "INE417B01040": {
 "d": "2026-11-14",
 "mcap": 1341.0,
@@ -215,14 +175,6 @@
 "mid": 915,
 "n": "HFCL",
 "t": "2026-11-16T15:09+05:30"
-},
-"KERNEX": {
-"d": "2026-11-14",
-"mcap": 2968.0,
-"mid": 855,
-"n": "KERNEXMICROSYSTEMSINDIA",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
 },
 "PARACABLES": {
 "d": "2026-11-16",
@@ -245,14 +197,6 @@
 "n": "SRMCONTRACTORS",
 "pdf": 6,
 "t": "2026-11-14T22:15+05:30"
-},
-"VIKRAMSOLR": {
-"d": "2026-11-14",
-"mcap": 5199.8,
-"mid": 854,
-"n": "VIKRAMSOLAR",
-"pdf": 6,
-"t": "2026-11-14T20:45+05:30"
 }
 },
 "ann": {
@@ -1488,6 +1432,10 @@
 "BSE-Integrated_Finance_Ind_As_500002_13112026175920_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-14T18:28+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-18T20:45+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_500016_13112026183947_IFIndAs.xml": {
 "s": "small",
@@ -42181,22 +42129,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml": {
-"company": "Ansal Properties & Infrastructure Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-06-30",
-"revised": false,
-"scrip": "500013",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T18:44+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500013_18112026184136_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
 "company": "MFS Intercorp Ltd",
 "consolidated": false,
@@ -45825,6 +45757,10 @@
 "500002": {
 "t": "2026-11-13T18:18+05:30",
 "v": "INE117A01022"
+},
+"500013": {
+"t": "2026-11-18T20:45+05:30",
+"v": "INE436A01026"
 },
 "500016": {
 "t": "2026-11-13T20:51+05:30",
@@ -58395,6 +58331,10 @@
 "INE435E01020": {
 "t": "2026-11-14T16:33+05:30",
 "v": 984328000
+},
+"INE436A01026": {
+"t": "2026-11-18T20:45+05:30",
+"v": 157400000
 },
 "INE437D01010": {
 "t": "2026-11-11T17:59+05:30",
