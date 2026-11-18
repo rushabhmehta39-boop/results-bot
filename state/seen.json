@@ -56,14 +56,6 @@
 "pdf": 6,
 "t": "2026-11-14T20:33+05:30"
 },
-"BSE:509732": {
-"d": "2026-11-14",
-"mcap": 1381.1,
-"mid": 824,
-"n": "KOTHARIINDUSTRIALCORPORATION",
-"pdf": 6,
-"t": "2026-11-14T19:09+05:30"
-},
 "BSE:516038": {
 "d": "2026-11-14",
 "mcap": 1616.1,
@@ -120,14 +112,6 @@
 "pdf": 6,
 "t": "2026-11-16T08:15+05:30"
 },
-"BSE:544053": {
-"d": "2026-11-14",
-"mcap": 1591.4,
-"mid": 825,
-"n": "MOTISONSJEWELLERS",
-"pdf": 6,
-"t": "2026-11-14T19:09+05:30"
-},
 "BSE:544476": {
 "d": "2026-11-14",
 "mcap": 4252.5,
@@ -142,14 +126,6 @@
 "mid": 918,
 "n": "CHENNAIPETROLEUMCORPORATION",
 "t": "2026-11-16T16:09+05:30"
-},
-"COMSYN": {
-"d": "2026-11-14",
-"mcap": 1031.4,
-"mid": 823,
-"n": "COMMERCIALSYNBAGS",
-"pdf": 6,
-"t": "2026-11-14T19:09+05:30"
 },
 "DSSL": {
 "d": "2026-11-14",
@@ -203,14 +179,6 @@
 "mid": 916,
 "n": "SHANTIGOLDINTERNATIONAL",
 "t": "2026-11-16T15:15+05:30"
-},
-"INE073V01015": {
-"d": "2026-11-14",
-"mcap": 1031.4,
-"mid": 823,
-"n": "COMMERCIALSYNBAGS",
-"pdf": 6,
-"t": "2026-11-14T19:09+05:30"
 },
 "INE074B01023": {
 "d": "2026-11-16",
@@ -1612,10 +1580,6 @@
 "BSE-Integrated_Finance_Ind_As_500032_111120261570_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-12T15:32+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_500041_11112026050610_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-11T19:12+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_500051_14112026233535_IFIndAs.xml": {
 "s": "small",
@@ -4458,10 +4422,6 @@
 "BSE-Integrated_Finance_Ind_As_531330_1511202623231_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T08:23+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_531343_1111202617741_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T19:12+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531346_12112026172521_IFIndAs.xml": {
 "s": "small",
@@ -7538,10 +7498,6 @@
 "BSE-Integrated_Finance_NBFC_533303_1311202612472_IFNBFC.xml": {
 "s": "superseded",
 "t": "2026-11-14T13:02+05:30"
-},
-"BSE-Integrated_Finance_NBFC_534060_1111202617533_IFNBFC.xml": {
-"s": "small",
-"t": "2026-11-11T19:12+05:30"
 },
 "BSE-Integrated_Finance_NBFC_534691_1211202618219_IFNBFC.xml": {
 "s": "small",
@@ -12397,14 +12353,6 @@
 "s": "posted",
 "t": "2026-11-18T13:53+05:30"
 },
-"NSE-sme-IF-212468": {
-"s": "superseded",
-"t": "2026-11-11T19:12+05:30"
-},
-"NSE-sme-IF-212470": {
-"s": "small",
-"t": "2026-11-11T19:12+05:30"
-},
 "NSE-sme-IF-212471": {
 "s": "superseded",
 "t": "2026-11-11T19:19+05:30"
@@ -15960,9 +15908,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3f96584a-211c-46ec-9756-3795e73775cf.pdf",
 "t": "2026-11-14T16:13+05:30"
-},
-"BSE:500298": {
-"t": "2026-11-11T19:08+05:30"
 },
 "BSE:500300": {
 "c": 1,
@@ -19625,9 +19570,6 @@
 "BSE:532986": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2de3e14-8010-449e-b9a2-d5191019d66f.pdf",
 "t": "2026-11-13T21:19+05:30"
-},
-"BSE:532998": {
-"t": "2026-11-11T19:12+05:30"
 },
 "BSE:533001": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37b7fe6e-2b0f-4039-a54e-11c776fa8028.pdf",
@@ -25288,6 +25230,11 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SALASAR_14112026162118_STEL_Outcome_BM_14112026.pdf",
 "t": "2026-11-14T16:23+05:30"
 },
+"INE171P01019": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
+"t": "2026-11-17T19:00+05:30"
+},
 "INE171Z01018": {
 "t": "2026-11-12T13:54+05:30"
 },
@@ -27867,9 +27814,6 @@
 },
 "INE584B01013": {
 "t": "2026-11-12T13:35+05:30"
-},
-"INE585A01020": {
-"t": "2026-11-11T19:08+05:30"
 },
 "INE586B01026": {
 "t": "2026-11-12T12:55+05:30"
@@ -35413,9 +35357,6 @@
 "N:NANDANICREATION": {
 "pdf": "https://nsearchives.nseindia.in/corporate/JAIPURKURT_14112026184450_JAIPURKURTRESULTSNCL30092026.pdf",
 "t": "2026-11-14T18:49+05:30"
-},
-"N:NAPEROLINVESTMENTS": {
-"t": "2026-11-11T19:08+05:30"
 },
 "N:NARMADAGELATINES": {
 "t": "2026-11-12T12:41+05:30"
