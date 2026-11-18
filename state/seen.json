@@ -545,6 +545,9 @@
 "BANN-ef53ac39-1ce0-4af6-9a70-6276f5a7ae5b": {
 "t": "2026-11-18T19:30+05:30"
 },
+"BANN-f304fb7d-20eb-426e-b880-2acd0a9fb4a6": {
+"t": "2026-11-18T20:56+05:30"
+},
 "BANN-f602faf3-a7c0-4c26-9826-793378b394ea": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -4861,10 +4864,6 @@
 "BSE-Integrated_Finance_Ind_As_532669_13112026192121_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:11+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_532674_11112026183030_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T20:52+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_532684_13112026192426_IFIndAs.xml": {
 "s": "superseded",
@@ -18672,6 +18671,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7d0cba01-0e38-44a2-8bb2-fa65a11d9859.pdf",
 "t": "2026-11-14T18:05+05:30"
 },
+"BSE:531780": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
+"t": "2026-11-18T20:51+05:30"
+},
 "BSE:531784": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2d276a34-be8d-467f-8fcd-8160679394cb.pdf",
 "t": "2026-11-14T18:21+05:30"
@@ -23810,9 +23813,6 @@
 "INE0K6L01010": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/03bbe9d7-15bf-42d9-a3f9-be8ce8d1d948.pdf",
 "t": "2026-11-13T17:00+05:30"
-},
-"INE0K9O01026": {
-"t": "2026-11-11T20:52+05:30"
 },
 "INE0KA601012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed66d08e-0f35-4593-a921-a52624910e57.pdf",
@@ -30032,9 +30032,6 @@
 "LAL": {
 "t": "2026-11-12T18:46+05:30"
 },
-"LALITHAA": {
-"t": "2026-11-11T20:52+05:30"
-},
 "LAMOSAIC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LAMOSAIC_14112026175650_BM_Outcome.pdf",
 "t": "2026-11-14T17:58+05:30"
@@ -33840,6 +33837,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/65355ba3-1503-4e0b-bf32-d4755935b964.pdf",
 "t": "2026-11-14T12:51+05:30"
 },
+"N:KAISERCORPORATION": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
+"t": "2026-11-18T20:51+05:30"
+},
 "N:KAIZENAGROINFRABUILD": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a63c1414-d84c-471a-be03-7bb6dfdad5e9.pdf",
 "t": "2026-11-13T14:51+05:30"
@@ -34253,9 +34254,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f16b7d69-a8c4-4da3-a2e7-85b6f43180c8.pdf",
 "t": "2026-11-13T18:02+05:30"
-},
-"N:LALITHAAJEWELLERYMART": {
-"t": "2026-11-11T20:52+05:30"
 },
 "N:LAMOSAICINDIA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LAMOSAIC_14112026175650_BM_Outcome.pdf",
@@ -40290,6 +40288,10 @@
 "BSE:531512": {
 "t": "2026-11-18T19:36+05:30",
 "v": 16.8
+},
+"BSE:531780": {
+"t": "2026-11-18T20:56+05:30",
+"v": 28.2
 },
 "BSE:534659": {
 "t": "2026-11-17T19:19+05:30",
