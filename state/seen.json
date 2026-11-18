@@ -576,6 +576,9 @@
 "ANN-sme-106864823-MADHAVBAUG": {
 "t": "2026-11-18T14:44+05:30"
 },
+"ANN-sme-106865254-WHITEFORCE": {
+"t": "2026-11-18T18:50+05:30"
+},
 "BANN-01ef6c95-799d-4d29-8199-95e5242d06d4": {
 "t": "2026-11-16T08:15+05:30"
 },
@@ -617,6 +620,9 @@
 },
 "BANN-515e1b33-a054-499c-95c6-4e33b5bff042": {
 "t": "2026-11-16T10:40+05:30"
+},
+"BANN-605a5175-09b6-4a61-906f-769353252f7a": {
+"t": "2026-11-18T18:50+05:30"
 },
 "BANN-6eac18c0-d111-4e23-bd77-35c015a6d333": {
 "t": "2026-11-16T13:04+05:30"
@@ -3209,10 +3215,6 @@
 "s": "small",
 "t": "2026-11-12T22:05+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_519506_11112026164032_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T18:49+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_519532_14112026151010_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T17:27+05:30"
@@ -4269,10 +4271,6 @@
 "BSE-Integrated_Finance_Ind_As_530897_12112026194812_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T08:06+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_530899_11112026164018_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T18:49+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_530905_1311202615811_IFIndAs.xml": {
 "s": "small",
@@ -5961,10 +5959,6 @@
 "BSE-Integrated_Finance_Ind_As_539523_12112026164547_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-13T17:02+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_539543_11112026164246_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-11T18:49+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_539544_14112026221013_IFIndAs.xml": {
 "s": "small",
@@ -7762,14 +7756,6 @@
 "NSE-equities-IF-212321": {
 "s": "old",
 "t": "2026-11-12T00:00+05:30"
-},
-"NSE-equities-IF-212437": {
-"s": "superseded",
-"t": "2026-11-11T18:49+05:30"
-},
-"NSE-equities-IF-212438": {
-"s": "posted",
-"t": "2026-11-11T18:49+05:30"
 },
 "NSE-equities-IF-212439": {
 "s": "small",
@@ -15716,10 +15702,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/BALLARPUR_13112026194730_Outcome_Final.pdf",
 "t": "2026-11-13T19:48+05:30"
 },
-"BALPHARMA": {
-"c": 1,
-"t": "2026-11-11T18:50+05:30"
-},
 "BALUFORGE": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/BALUFORGE_14112026211522_Submission.pdf",
@@ -22209,6 +22191,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/951940e7-cd1f-4f5b-9ed7-148a05309419.pdf",
 "t": "2026-11-13T16:22+05:30"
 },
+"BSE:545011": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
+"t": "2026-11-18T18:45+05:30"
+},
 "BSE:545013": {
 "t": "2026-11-12T17:34+05:30"
 },
@@ -27426,9 +27412,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8a6e72c-c839-4717-bff4-7025625df439.pdf",
 "t": "2026-11-13T18:13+05:30"
 },
-"INE498E01010": {
-"t": "2026-11-11T18:45+05:30"
-},
 "INE500D01015": {
 "t": "2026-11-12T13:58+05:30"
 },
@@ -28285,9 +28268,6 @@
 "INE650C01036": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c41bc055-190d-4f2d-8389-a39a75fea366.pdf",
 "t": "2026-11-14T19:54+05:30"
-},
-"INE650K01021": {
-"t": "2026-11-11T18:47+05:30"
 },
 "INE652F01027": {
 "c": 1,
@@ -30167,10 +30147,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4f5d5295-c9e3-4129-b19b-cfbb021d3364.pdf",
 "t": "2026-11-14T20:14+05:30"
 },
-"INM": {
-"c": 1,
-"t": "2026-11-11T18:49+05:30"
-},
 "INNOVACAP": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/INNOVACAPTAB_13112026174526_Board_meeting_outcome_Reg_30_Q2_FY27.pdf",
@@ -31950,7 +31926,7 @@
 "t": "2026-11-12T13:26+05:30"
 },
 "N:BLSPOLYMERS": {
-"pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
 "t": "2026-11-18T18:22+05:30"
 },
 "N:BLTLOGISTICS": {
@@ -33587,7 +33563,7 @@
 "t": "2026-11-13T16:45+05:30"
 },
 "N:HAPPYSQUAREOUTSOURCINGSERVICES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/HAPPYSQUARE_13112026175545_Disclosure_of_reasons_for_Delay.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/HAPPYSQUARE_18112026183952_Outcome_of_the_BM.pdf",
 "t": "2026-11-13T17:57+05:30"
 },
 "N:HAPPYSTEELS": {
@@ -34028,10 +34004,6 @@
 "N:INTERGLOBEFINANCE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2a0bfbf8-a837-4a8d-b9ff-30a5236c616e.pdf",
 "t": "2026-11-13T17:47+05:30"
-},
-"N:INTERIORSANDMORE": {
-"c": 1,
-"t": "2026-11-11T18:49+05:30"
 },
 "N:INTERNATIONALCONVEYORS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/39985fa2-6b84-4f1d-920b-88baa52ba418.pdf",
@@ -37030,9 +37002,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/91c3dc49-1fb4-4473-8064-b8911581068f.pdf",
 "t": "2026-11-14T18:16+05:30"
 },
-"N:SALONACOTSPIN": {
-"t": "2026-11-11T18:45+05:30"
-},
 "N:SALZERELECTRONICS": {
 "c": 1,
 "t": "2026-11-12T18:28+05:30"
@@ -37218,9 +37187,6 @@
 "N:SECURCREDENTIALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9bdeba4e-0c44-4b37-9bfe-951f3a868acb.pdf",
 "t": "2026-11-13T12:39+05:30"
-},
-"N:SECUREKLOUDTECHNOLOGIES": {
-"t": "2026-11-11T18:47+05:30"
 },
 "N:SEEMAXRESOURCES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1f80caa2-f113-4a64-b4cb-aa703ee26c12.pdf",
@@ -39829,9 +39795,6 @@
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/SALASAR_14112026162118_STEL_Outcome_BM_14112026.pdf|C|6",
 "t": "2026-11-14T16:23+05:30"
 },
-"SALONA": {
-"t": "2026-11-11T18:45+05:30"
-},
 "SALZERELEC": {
 "c": 1,
 "t": "2026-11-12T18:28+05:30"
@@ -39884,9 +39847,6 @@
 "SDBL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SDBL_13112026184908_outcome.pdf",
 "t": "2026-11-13T18:51+05:30"
-},
-"SECURKLOUD": {
-"t": "2026-11-11T18:47+05:30"
 },
 "SEL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNGARNER_14112026211207_Outcome_of_Board_Meeting_final-Signed.pdf",
@@ -40701,7 +40661,7 @@
 "t": "2026-11-12T14:04+05:30"
 },
 "WHITEFORCE": {
-"pdf": "https://nsearchives.nseindia.in/corporate/HAPPYSQUARE_13112026175545_Disclosure_of_reasons_for_Delay.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/HAPPYSQUARE_18112026183952_Outcome_of_the_BM.pdf",
 "t": "2026-11-13T17:57+05:30"
 },
 "WILLAMAGOR": {
