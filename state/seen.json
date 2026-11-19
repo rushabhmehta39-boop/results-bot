@@ -112,9 +112,6 @@
 }
 },
 "ann": {
-"ANN-equities-106861860-GENCON": {
-"t": "2026-11-16T11:17+05:30"
-},
 "ANN-equities-106861883-FCONSUMER": {
 "t": "2026-11-16T11:41+05:30"
 },
@@ -171,9 +168,6 @@
 },
 "ANN-equities-106865201-BLSPOLY": {
 "t": "2026-11-18T18:26+05:30"
-},
-"ANN-sme-106861859-GML": {
-"t": "2026-11-16T11:17+05:30"
 },
 "ANN-sme-106861927-SNEHAA": {
 "t": "2026-11-16T11:41+05:30"
@@ -282,6 +276,9 @@
 },
 "ANN-sme-106865372-KONSTELEC": {
 "t": "2026-11-18T20:04+05:30"
+},
+"BANN-0590a3ac-aa8d-4983-a36d-817b6553443c": {
+"t": "2026-11-19T11:20+05:30"
 },
 "BANN-10ed4971-b67d-4cd7-b66b-1cfce4d62eb7": {
 "t": "2026-11-16T11:29+05:30"
@@ -14722,9 +14719,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/ANONDITA_14112026203746_Outcome_of_BM_.pdf",
 "t": "2026-11-14T20:42+05:30"
 },
-"ANSALAPI": {
-"t": "2026-11-12T11:16+05:30"
-},
 "AONESTEELS": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/AONESTEELS_13112026194130_1_Outcome_of_Board_meeting_financials.pdf",
@@ -16489,6 +16483,10 @@
 "pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1b5611c-ade1-4857-8825-6a3efbeb0aca.pdf|card|6",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1b5611c-ade1-4857-8825-6a3efbeb0aca.pdf|S|6",
 "t": "2026-11-14T19:54+05:30"
+},
+"BSE:516086": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
+"t": "2026-11-19T11:18+05:30"
 },
 "BSE:516096": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0330a7a8-2766-4b5f-93b3-9c6bcb05b635.pdf",
@@ -26212,10 +26210,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d409beb8-f5d3-42fd-8f55-3e2ea467a298.pdf",
 "t": "2026-11-14T14:24+05:30"
 },
-"INE436A01026": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
-"t": "2026-11-12T11:16+05:30"
-},
 "INE438E01032": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09e44f0f-5c59-46ba-98c9-8d42d3b8258a.pdf",
@@ -30382,10 +30376,6 @@
 "N:ANSALHOUSING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1880cedf-7935-4e81-bc4a-9453244fb38e.pdf",
 "t": "2026-11-14T17:57+05:30"
-},
-"N:ANSALPROPERTIESANDINFRASTRUCTURE": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
-"t": "2026-11-12T11:16+05:30"
 },
 "N:ANSINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d3bbdc1-c159-424b-ac7c-7fbd50c025c4.pdf",
@@ -36475,6 +36465,10 @@
 },
 "N:SHREERAJASTHANSYNTEX": {
 "t": "2026-11-12T15:54+05:30"
+},
+"N:SHREERAJESHWARANANDPAPERMILLS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
+"t": "2026-11-19T11:18+05:30"
 },
 "N:SHREESALASARINVESTMENTS": {
 "c": 1,
