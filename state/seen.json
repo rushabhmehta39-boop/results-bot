@@ -112,12 +112,6 @@
 }
 },
 "ann": {
-"ANN-equities-106862206-UNIVAFOODS": {
-"t": "2026-11-16T15:25+05:30"
-},
-"ANN-equities-106862221-TIJARIA": {
-"t": "2026-11-16T15:25+05:30"
-},
 "ANN-equities-106862232-PARACABLES": {
 "t": "2026-11-16T15:32+05:30"
 },
@@ -153,9 +147,6 @@
 },
 "ANN-equities-106866037-GENSOL": {
 "t": "2026-11-19T13:14+05:30"
-},
-"ANN-sme-106862224-AISL": {
-"t": "2026-11-16T15:25+05:30"
 },
 "ANN-sme-106862237-SPCL": {
 "t": "2026-11-16T15:32+05:30"
@@ -14292,9 +14283,6 @@
 "BSE|545011|2026-09-30": {
 "t": "2026-11-18T22:33+05:30"
 },
-"NSE SME|AISL|2026-09-30": {
-"t": "2026-11-16T15:30+05:30"
-},
 "NSE SME|AMIABLE|2026-09-30": {
 "t": "2026-11-17T13:44+05:30"
 },
@@ -15051,9 +15039,6 @@
 "BSE:500319": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/76aea062-95ed-400e-bfa8-63b97552fa49.pdf",
 "t": "2026-11-13T21:11+05:30"
-},
-"BSE:500322": {
-"t": "2026-11-12T15:25+05:30"
 },
 "BSE:500337": {
 "t": "2026-11-12T17:52+05:30"
@@ -16052,10 +16037,6 @@
 "BSE:513117": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8de0ffe5-2ede-4cb6-807c-b62fe39abdd8.pdf",
 "t": "2026-11-13T17:58+05:30"
-},
-"BSE:513173": {
-"c": 1,
-"t": "2026-11-12T15:27+05:30"
 },
 "BSE:513228": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/582fbcad-4197-4c68-afe9-c4a571591ff0.pdf",
@@ -24354,10 +24335,6 @@
 "INE204E01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c4cb210c-abad-43ae-8796-4f4cbba03b1d.pdf",
 "t": "2026-11-13T17:10+05:30"
-},
-"INE205F01016": {
-"c": 1,
-"t": "2026-11-12T15:27+05:30"
 },
 "INE207C01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b592364-605a-4322-a41e-e79371873d43.pdf",
@@ -34113,9 +34090,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/PANSARI_14112026183559_BM_14-11-2026.pdf",
 "t": "2026-11-14T18:38+05:30"
 },
-"N:PANYAMCEMENTSANDMINERALINDUSTRIES": {
-"t": "2026-11-12T15:25+05:30"
-},
 "N:PAPADMALJIAGROFOODS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PAPADMALJI_13112026172915_Outcome_BM.pdf",
 "t": "2026-11-13T17:30+05:30"
@@ -35934,10 +35908,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0fab19bf-ad61-4339-930b-555549870aaf.pdf",
 "t": "2026-11-14T19:06+05:30"
-},
-"N:STEELSTRIPSINFRASTRUCTURES": {
-"c": 1,
-"t": "2026-11-12T15:27+05:30"
 },
 "N:STELLANTSECURITIESINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/decb7085-dd30-4368-a3ec-7b3002df9371.pdf",
