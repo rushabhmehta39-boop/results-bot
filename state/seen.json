@@ -145,12 +145,6 @@
 "ANN-equities-106866037-GENSOL": {
 "t": "2026-11-19T13:14+05:30"
 },
-"ANN-sme-106862286-TAURIAN": {
-"t": "2026-11-16T16:02+05:30"
-},
-"ANN-sme-106862292-MONOLITH": {
-"t": "2026-11-16T16:02+05:30"
-},
 "ANN-sme-106862296-SIMCA": {
 "t": "2026-11-16T16:09+05:30"
 },
@@ -7144,17 +7138,9 @@
 "s": "old",
 "t": "2026-11-13T04:10+05:30"
 },
-"NSE-equities-IF-212729": {
-"s": "superseded",
-"t": "2026-11-12T16:04+05:30"
-},
 "NSE-equities-IF-212730": {
 "s": "posted",
 "t": "2026-11-12T16:11+05:30"
-},
-"NSE-equities-IF-212732": {
-"s": "small",
-"t": "2026-11-12T16:04+05:30"
 },
 "NSE-equities-IF-212740": {
 "s": "old",
@@ -18848,10 +18834,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f8a2c85d-e986-4160-b32d-a6d04fec42ad.pdf",
 "t": "2026-11-13T14:43+05:30"
 },
-"BSE:539216": {
-"c": 1,
-"t": "2026-11-12T16:05+05:30"
-},
 "BSE:539217": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/995a1939-f021-43d0-8245-a4838fc8e8f9.pdf",
 "t": "2026-11-14T17:55+05:30"
@@ -19032,9 +19014,6 @@
 "BSE:539946": {
 "c": 1,
 "t": "2026-11-12T16:46+05:30"
-},
-"BSE:539947": {
-"t": "2026-11-12T16:03+05:30"
 },
 "BSE:539986": {
 "c": 1,
@@ -22713,10 +22692,6 @@
 "INE0LLZ01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c8375f2-8b41-4ce7-b461-707222cc7812.pdf",
 "t": "2026-11-14T19:36+05:30"
-},
-"INE0LXG01040": {
-"c": 1,
-"t": "2026-11-12T16:03+05:30"
 },
 "INE0M3901015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d7dce12a-84aa-45a0-8b1a-1c200e6cf086.pdf",
@@ -26483,10 +26458,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/460c9490-662d-4fbc-9f38-1855723b4fb8.pdf",
 "t": "2026-11-14T22:09+05:30"
 },
-"INE653S01028": {
-"c": 1,
-"t": "2026-11-12T16:05+05:30"
-},
 "INE654B01014": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0948c5d9-399b-4a4e-84de-21c065812078.pdf",
 "t": "2026-11-13T16:22+05:30"
@@ -27861,9 +27832,6 @@
 "INE919B01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4624cbf0-fa46-4f81-8a9e-d69048ac49c3.pdf",
 "t": "2026-11-13T16:55+05:30"
-},
-"INE919T01013": {
-"t": "2026-11-12T16:03+05:30"
 },
 "INE922B01023": {
 "c": 1,
@@ -31173,10 +31141,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebba0feb-d99d-46ae-b2c0-364f3c2f25a4.pdf",
 "t": "2026-11-14T18:03+05:30"
 },
-"N:GARMENTMANTRALIFESTYLE": {
-"c": 1,
-"t": "2026-11-12T16:05+05:30"
-},
 "N:GARNETCONSTRUCTION": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b630656a-4430-4ae2-89d5-1843b16588ed.pdf",
 "t": "2026-11-14T16:09+05:30"
@@ -32087,9 +32051,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/JINDRILL_13112026171000_BMOutcome.pdf",
 "t": "2026-11-13T16:59+05:30"
-},
-"N:JINDALLEASEFIN": {
-"t": "2026-11-12T16:03+05:30"
 },
 "N:JINDALPHOTO": {
 "c": 1,
@@ -33613,10 +33574,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d618688b-325a-40ae-bffd-629ac271b170.pdf",
 "t": "2026-11-14T17:02+05:30"
-},
-"N:OLAELECTRICMOBILITY": {
-"c": 1,
-"t": "2026-11-12T16:03+05:30"
 },
 "N:OLATECHSOLUTIONS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d7dce12a-84aa-45a0-8b1a-1c200e6cf086.pdf",
@@ -36937,10 +36894,6 @@
 },
 "OBSCP": {
 "t": "2026-11-16T14:39+05:30"
-},
-"OLAELEC": {
-"c": 1,
-"t": "2026-11-12T16:03+05:30"
 },
 "OLIL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ONECLICK_13112026165143_OLIL13112026__2_.pdf",
