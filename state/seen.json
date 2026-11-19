@@ -112,9 +112,6 @@
 }
 },
 "ann": {
-"ANN-equities-106862312-GMBREW": {
-"t": "2026-11-16T16:16+05:30"
-},
 "ANN-equities-106862353-CMICABLES": {
 "t": "2026-11-16T16:35+05:30"
 },
@@ -141,9 +138,6 @@
 },
 "ANN-equities-106866037-GENSOL": {
 "t": "2026-11-19T13:14+05:30"
-},
-"ANN-sme-106862316-SHAIVAL": {
-"t": "2026-11-16T16:16+05:30"
 },
 "ANN-sme-106862367-SAHAJ": {
 "t": "2026-11-16T16:42+05:30"
@@ -11495,11 +11489,6 @@
 "s": "dup",
 "t": "2026-11-19T08:02+05:30"
 },
-"NSE-sme-IF-212674": {
-"n": 6,
-"s": "failed",
-"t": "2026-11-12T16:17+05:30"
-},
 "NSE-sme-IF-212741": {
 "s": "small",
 "t": "2026-11-12T16:39+05:30"
@@ -16199,10 +16188,6 @@
 "BSE:519383": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e33a0cb-35a6-4979-adc5-25af65fba699.pdf",
 "t": "2026-11-16T10:35+05:30"
-},
-"BSE:519397": {
-"c": 1,
-"t": "2026-11-12T16:15+05:30"
 },
 "BSE:519413": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2eb1b2f1-3dfe-448d-9109-8d6113c33d32.pdf",
@@ -21191,10 +21176,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/FELIX_13112026165400_OutcomeToUpload.pdf",
 "t": "2026-11-13T16:55+05:30"
 },
-"FIEMIND": {
-"c": 1,
-"t": "2026-11-12T16:14+05:30"
-},
 "FILATEX": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FILATEX_13112026170759_Filatex_Results_13112026.pdf",
 "t": "2026-11-13T17:09+05:30"
@@ -23759,9 +23740,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ef4b4fe-94ba-438e-b54e-cde5d9fbc495.pdf",
 "t": "2026-11-14T17:54+05:30"
 },
-"INE187A01017": {
-"t": "2026-11-12T16:14+05:30"
-},
 "INE187U01015": {
 "c": 1,
 "t": "2026-11-12T17:57+05:30"
@@ -24128,10 +24106,6 @@
 "INE220J01025": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FCEL1_16112026113613_delay_in_financial_results_30sep2026_signed.pdf",
 "t": "2026-11-16T11:36+05:30"
-},
-"INE220Z01013": {
-"c": 1,
-"t": "2026-11-12T16:15+05:30"
 },
 "INE222B01028": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/624866e9-18ed-4196-8d55-1bd775542ad1.pdf",
@@ -26842,10 +26816,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b1b5611c-ade1-4857-8825-6a3efbeb0aca.pdf",
 "t": "2026-11-14T20:58+05:30"
 },
-"INE737H01014": {
-"c": 1,
-"t": "2026-11-12T16:14+05:30"
-},
 "INE738P01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d3759f45-4a64-41b2-bad2-5525a5d85870.pdf",
 "t": "2026-11-13T17:58+05:30"
@@ -27339,9 +27309,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ea0e105f-946d-42e2-b47a-c7e6307f46c8.pdf",
 "t": "2026-11-13T19:17+05:30"
-},
-"INE835A01011": {
-"t": "2026-11-12T16:14+05:30"
 },
 "INE835A01029": {
 "t": "2026-11-12T16:33+05:30"
@@ -28288,9 +28255,6 @@
 "JAYSREETEA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/JAYSREETEA_13112026144204_FS30092026.pdf",
 "t": "2026-11-13T14:45+05:30"
-},
-"JBFIND": {
-"t": "2026-11-12T16:14+05:30"
 },
 "JETKNIT": {
 "pdf": "https://nsearchives.nseindia.in/corporate/JETKNIT_13112026174252_BM_OUTCOME_sddd.pdf",
@@ -30923,10 +30887,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/FACT_13112026132722_NSE_Board_Outcome_-_Unaudited_30092026.pdf",
 "t": "2026-11-13T13:30+05:30"
 },
-"N:FIEMINDUSTRIES": {
-"c": 1,
-"t": "2026-11-12T16:14+05:30"
-},
 "N:FILATEXFASHIONS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FILATEXFASHIONS_14112026220033_Result_and_outcome_of_BM_nse.pdf",
 "t": "2026-11-14T22:07+05:30"
@@ -31967,9 +31927,6 @@
 "N:JAYUSHIN": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e857085c-31f7-47a7-abca-8b974318a131.pdf",
 "t": "2026-11-13T13:37+05:30"
-},
-"N:JBFINDUSTRIES": {
-"t": "2026-11-12T16:14+05:30"
 },
 "N:JEENASIKHOLIFECARE": {
 "c": 1,
@@ -34946,10 +34903,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SHANTI_14112026192417_Board_Meeting_Outcome_F_sd.pdf",
 "t": "2026-11-14T19:25+05:30"
 },
-"N:SHARATINDUSTRIES": {
-"c": 1,
-"t": "2026-11-12T16:15+05:30"
-},
 "N:SHARDAMOTORINDUSTRIES": {
 "t": "2026-11-12T19:52+05:30"
 },
@@ -36277,9 +36230,6 @@
 "N:VANTAGEKNOWLEDGEACADEMY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c6294443-c8ba-4cca-9f17-75d15ef03418.pdf",
 "t": "2026-11-14T18:17+05:30"
-},
-"N:VARDHMANPOLYTEX": {
-"t": "2026-11-12T16:14+05:30"
 },
 "N:VARIMANGLOBALENTERPRISES": {
 "c": 1,
@@ -37971,9 +37921,6 @@
 },
 "VALUE360": {
 "t": "2026-11-12T16:43+05:30"
-},
-"VARDMNPOLY": {
-"t": "2026-11-12T16:14+05:30"
 },
 "VASA": {
 "t": "2026-11-12T20:07+05:30"
