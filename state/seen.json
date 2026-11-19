@@ -14223,10 +14223,13 @@
 "s": "small",
 "t": "2026-11-18T20:04+05:30"
 },
+"NSE-sme-IF-215538": {
+"s": "superseded",
+"t": "2026-11-19T12:57+05:30"
+},
 "NSE-sme-IF-215539": {
-"n": 3,
-"s": "retry",
-"t": "2026-11-19T12:51+05:30"
+"s": "small",
+"t": "2026-11-19T12:57+05:30"
 }
 },
 "first_seen": {
@@ -14355,9 +14358,6 @@
 },
 "NSE SME|ICELCO|2026-09-30": {
 "t": "2026-11-18T12:56+05:30"
-},
-"NSE SME|INSPIRE|2026-09-30": {
-"t": "2026-11-16T12:55+05:30"
 },
 "NSE SME|IPSL|2026-09-30": {
 "t": "2026-11-17T12:25+05:30"
@@ -16911,9 +16911,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2f859470-ee5d-458d-83f6-3ac2b6a48f7d.pdf",
 "t": "2026-11-13T18:14+05:30"
 },
-"BSE:523712": {
-"t": "2026-11-12T12:52+05:30"
-},
 "BSE:523722": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/835d8280-68c8-41a1-be45-aae9895d9da5.pdf",
 "t": "2026-11-14T18:45+05:30"
@@ -18363,9 +18360,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/711aefd5-098f-40cc-a01b-f72105c9d8ef.pdf",
 "t": "2026-11-13T11:42+05:30"
 },
-"BSE:532332": {
-"t": "2026-11-12T12:52+05:30"
-},
 "BSE:532339": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7827aa03-5b13-4200-b4fc-f149d371c615.pdf",
@@ -18413,9 +18407,6 @@
 "BSE:532384": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a0c81fd-a5ac-41b7-8164-e8fde79f1c6d.pdf",
 "t": "2026-11-13T20:11+05:30"
-},
-"BSE:532390": {
-"t": "2026-11-12T12:52+05:30"
 },
 "BSE:532392": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e359ad3-2f72-49f5-9667-0f53f292503b.pdf",
@@ -19518,10 +19509,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e120f9e0-c333-4f2f-8d75-e2ba853ea338.pdf",
 "t": "2026-11-14T19:20+05:30"
-},
-"BSE:539997": {
-"c": 1,
-"t": "2026-11-12T12:55+05:30"
 },
 "BSE:540006": {
 "c": 1,
@@ -26869,9 +26856,6 @@
 "INE584B01013": {
 "t": "2026-11-12T13:35+05:30"
 },
-"INE586B01026": {
-"t": "2026-11-12T12:55+05:30"
-},
 "INE586D01014": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/86946cb6-7fb6-472a-9fb9-b0ce32b1db41.pdf",
 "t": "2026-11-14T15:45+05:30"
@@ -27738,9 +27722,6 @@
 "INE745B01028": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KHAICHEM_13112026131232_toupload.pdf",
 "t": "2026-11-13T13:13+05:30"
-},
-"INE745F01011": {
-"t": "2026-11-12T12:52+05:30"
 },
 "INE746D01014": {
 "c": 1,
@@ -33110,9 +33091,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/JKInfra_13112026134943_JKIL_SEoutcome.pdf",
 "t": "2026-11-13T13:51+05:30"
 },
-"N:JMGCORPORATION": {
-"t": "2026-11-12T12:52+05:30"
-},
 "N:JOHNCOCKERILLINDIA": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4c8ebcfe-d7eb-4af7-a241-20d2742cfae1.pdf",
@@ -33583,10 +33561,6 @@
 "N:KVTOYSINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d254c5c-27bf-4603-a9d3-f57c8599da7f.pdf",
 "t": "2026-11-14T22:25+05:30"
-},
-"N:KWALITYPHARMACEUTICALS": {
-"c": 1,
-"t": "2026-11-12T12:55+05:30"
 },
 "N:KWICKFORENSICSOLUTIONS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4e825720-b4f8-46ab-bd7d-99417b03fa5b.pdf",
@@ -37007,9 +36981,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8ab89bd7-5584-4730-a0ae-44e378f8ae75.pdf",
 "t": "2026-11-14T16:25+05:30"
 },
-"N:TAJGVKHOTELSANDRESORTS": {
-"t": "2026-11-12T12:55+05:30"
-},
 "N:TAKE": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a6ca910c-058f-4198-ae2c-605eaadb0280.pdf",
@@ -39043,9 +39014,6 @@
 "TAC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TAC_14112026171236_final_outcome.pdf",
 "t": "2026-11-14T17:15+05:30"
-},
-"TAJGVK": {
-"t": "2026-11-12T12:55+05:30"
 },
 "TAKE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TAKE_13112026183523_TAKE_Outcome_upload_sd_final.pdf",
@@ -41432,38 +41400,6 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
-},
-"NSE-sme-IF-215538": {
-"company": "SpectraA Technology Solutions Limited",
-"consolidated": false,
-"filed_at": "2026-11-19T12:38:39+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "SPECTRAA",
-"t": "2026-11-19T12:39+05:30",
-"uid": "NSE-sme-IF-215538",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215538_19112026123838_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760019_19112026123837_WEB.xml"
-},
-"NSE-sme-IF-215539": {
-"company": "SpectraA Technology Solutions Limited",
-"consolidated": true,
-"filed_at": "2026-11-19T12:39:20+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "SPECTRAA",
-"t": "2026-11-19T12:39+05:30",
-"uid": "NSE-sme-IF-215539",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215539_19112026123919_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760020_19112026123919_WEB.xml"
 }
 },
 "posted": {
@@ -44988,8 +44924,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-18T20:04+05:30",
-"v": "INE0QEI01011"
+"t": "2026-11-19T12:56+05:30",
+"v": "INE0GAN01010"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -53368,6 +53304,10 @@
 "INE0G1V01016": {
 "t": "2026-11-14T18:57+05:30",
 "v": 3739000
+},
+"INE0GAN01010": {
+"t": "2026-11-19T12:56+05:30",
+"v": 13347200
 },
 "INE0GAO01018": {
 "t": "2026-11-13T18:31+05:30",
