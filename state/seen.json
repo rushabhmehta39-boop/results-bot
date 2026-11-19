@@ -6708,6 +6708,10 @@
 "s": "small",
 "t": "2026-11-13T19:59+05:30"
 },
+"BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml": {
+"s": "small",
+"t": "2026-11-19T13:19+05:30"
+},
 "BSE-Integrated_Finance_NBFC_511557_14112026213116_IFNBFC.xml": {
 "s": "small",
 "t": "2026-11-16T08:28+05:30"
@@ -17071,10 +17075,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7dbf036-2bf0-4ee8-8f4d-d075f4121301.pdf",
 "t": "2026-11-13T19:34+05:30"
 },
-"BSE:524742": {
-"c": 1,
-"t": "2026-11-12T13:15+05:30"
-},
 "BSE:524743": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/63578454-b986-42de-b075-bf86373f6b02.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/63578454-b986-42de-b075-bf86373f6b02.pdf|C|6",
@@ -17727,9 +17727,6 @@
 "BSE:531092": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ecdc8330-7184-4d79-a87a-41a6d7c6f782.pdf",
 "t": "2026-11-14T19:14+05:30"
-},
-"BSE:531111": {
-"t": "2026-11-12T13:17+05:30"
 },
 "BSE:531112": {
 "c": 1,
@@ -26576,9 +26573,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94e571e3-0781-43c7-8be3-4180cf389765.pdf",
 "t": "2026-11-13T18:11+05:30"
 },
-"INE538G01018": {
-"t": "2026-11-12T13:17+05:30"
-},
 "INE540L01014": {
 "c": 1,
 "t": "2026-11-12T13:54+05:30"
@@ -32308,9 +32302,6 @@
 "N:GORANIINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d923a3c0-609e-4077-a614-dbf59d72064e.pdf",
 "t": "2026-11-13T14:23+05:30"
-},
-"N:GOTHIPLASCONINDIA": {
-"t": "2026-11-12T13:17+05:30"
 },
 "N:GOYALASSOCIATES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b955de7b-7243-43c6-8921-0dabbdfadcd0.pdf",
@@ -41355,22 +41346,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
 },
-"BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml": {
-"company": "NDA Securities Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-06-30",
-"revised": false,
-"scrip": "511535",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-19T13:02+05:30",
-"uid": "BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml"
-},
 "NSE-equities-IF-215441": {
 "company": "Ansal Properties & Infrastructure Limited",
 "consolidated": false,
@@ -45934,7 +45909,7 @@
 "v": "INE135C01012"
 },
 "511535": {
-"t": "2026-11-13T19:58+05:30",
+"t": "2026-11-19T13:19+05:30",
 "v": "INE026C01013"
 },
 "511539": {
@@ -52428,7 +52403,7 @@
 "v": 5108400
 },
 "INE026C01013": {
-"t": "2026-11-13T19:58+05:30",
+"t": "2026-11-19T13:19+05:30",
 "v": 5948400
 },
 "INE026I01010": {
