@@ -316,9 +316,6 @@
 "BANN-9a6cb61b-ac93-47eb-a9d7-ff3566e6941b": {
 "t": "2026-11-16T15:09+05:30"
 },
-"BANN-a47e1b30-0e6c-4b1d-a9eb-7d0091a4e299": {
-"t": "2026-11-16T11:23+05:30"
-},
 "BANN-aa9a0bc7-a37b-4799-b216-af25f7a2586c": {
 "t": "2026-11-16T19:57+05:30"
 },
@@ -14380,9 +14377,6 @@
 "NSE SME|DUCOL|2026-09-30": {
 "t": "2026-11-17T18:51+05:30"
 },
-"NSE SME|GML|2026-09-30": {
-"t": "2026-11-16T11:22+05:30"
-},
 "NSE SME|ICELCO|2026-09-30": {
 "t": "2026-11-18T12:56+05:30"
 },
@@ -18196,9 +18190,6 @@
 "BSE:531758": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f385788-e787-47e2-a38f-676c3ce1ec1a.pdf",
 "t": "2026-11-14T17:25+05:30"
-},
-"BSE:531769": {
-"t": "2026-11-12T11:24+05:30"
 },
 "BSE:531778": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7d0cba01-0e38-44a2-8bb2-fa65a11d9859.pdf",
@@ -26210,6 +26201,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d409beb8-f5d3-42fd-8f55-3e2ea467a298.pdf",
 "t": "2026-11-14T14:24+05:30"
 },
+"INE436A01026": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
+"t": "2026-11-18T18:38+05:30"
+},
 "INE438E01032": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09e44f0f-5c59-46ba-98c9-8d42d3b8258a.pdf",
@@ -27070,9 +27065,6 @@
 },
 "INE598F01014": {
 "t": "2026-11-12T16:51+05:30"
-},
-"INE600F01018": {
-"t": "2026-11-12T11:24+05:30"
 },
 "INE601A01017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fbcc369-8f64-46ad-bdad-4fcf33472322.pdf",
@@ -30376,6 +30368,10 @@
 "N:ANSALHOUSING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1880cedf-7935-4e81-bc4a-9453244fb38e.pdf",
 "t": "2026-11-14T17:57+05:30"
+},
+"N:ANSALPROPERTIESANDINFRASTRUCTURE": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
+"t": "2026-11-18T18:38+05:30"
 },
 "N:ANSINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d3bbdc1-c159-424b-ac7c-7fbd50c025c4.pdf",
@@ -35174,9 +35170,6 @@
 "N:PETPLASTICS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4a76b95-392b-44ee-a4c3-b5abdd70b816.pdf",
 "t": "2026-11-13T20:34+05:30"
-},
-"N:PFLINFOTECH": {
-"t": "2026-11-12T11:24+05:30"
 },
 "N:PGFOILS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64c56fc7-252e-471e-b986-49d74ead7f57.pdf",
