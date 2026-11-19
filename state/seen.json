@@ -163,9 +163,6 @@
 "ANN-equities-106865201-BLSPOLY": {
 "t": "2026-11-18T18:26+05:30"
 },
-"ANN-sme-106862016-CMMIPL": {
-"t": "2026-11-16T12:41+05:30"
-},
 "ANN-sme-106862079-QVCEL": {
 "t": "2026-11-16T13:26+05:30"
 },
@@ -14227,9 +14224,9 @@
 "t": "2026-11-18T20:04+05:30"
 },
 "NSE-sme-IF-215539": {
-"n": 1,
+"n": 2,
 "s": "retry",
-"t": "2026-11-19T12:39+05:30"
+"t": "2026-11-19T12:45+05:30"
 }
 },
 "first_seen": {
@@ -15275,9 +15272,6 @@
 "BSE:501479": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4deb7597-150f-4371-ae96-1d4777530ad9.pdf",
 "t": "2026-11-13T17:45+05:30"
-},
-"BSE:501630": {
-"t": "2026-11-12T12:45+05:30"
 },
 "BSE:501700": {
 "c": 1,
@@ -17316,9 +17310,6 @@
 "BSE:526727": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b630656a-4430-4ae2-89d5-1843b16588ed.pdf",
 "t": "2026-11-14T16:09+05:30"
-},
-"BSE:526739": {
-"t": "2026-11-12T12:41+05:30"
 },
 "BSE:526747": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64c56fc7-252e-471e-b986-49d74ead7f57.pdf",
@@ -24060,9 +24051,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/IFGLEXPOR_13112026153347_Letter_signed.pdf",
 "t": "2026-11-13T15:35+05:30"
 },
-"INE134R01013": {
-"t": "2026-11-12T12:45+05:30"
-},
 "INE135C01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8bd50964-ce2d-4233-8f2d-92fc8d7bf21d.pdf",
 "t": "2026-11-13T13:10+05:30"
@@ -28422,9 +28410,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6732f85e-6f34-4f30-bfc5-d9b0949b4289.pdf",
 "t": "2026-11-14T19:58+05:30"
 },
-"INE869A01010": {
-"t": "2026-11-12T12:41+05:30"
-},
 "INE869Y01010": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEMBO_13112026183052_Final_Outcome_of_BM_13-11-26_SD.pdf",
 "t": "2026-11-13T18:32+05:30"
@@ -30211,9 +30196,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ddf7677f-9acb-4356-8da4-087f11546aaa.pdf",
 "t": "2026-11-13T20:31+05:30"
-},
-"N:ANANDPROJECTS": {
-"t": "2026-11-12T12:45+05:30"
 },
 "N:ANDREWYULEANDCOMPANY": {
 "c": 1,
@@ -34407,9 +34389,6 @@
 "N:NANDANICREATION": {
 "pdf": "https://nsearchives.nseindia.in/corporate/JAIPURKURT_14112026184450_JAIPURKURTRESULTSNCL30092026.pdf",
 "t": "2026-11-14T18:49+05:30"
-},
-"N:NARMADAGELATINES": {
-"t": "2026-11-12T12:41+05:30"
 },
 "N:NATCOPHARMA": {
 "c": 1,
