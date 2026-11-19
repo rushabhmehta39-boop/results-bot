@@ -112,9 +112,6 @@
 }
 },
 "ann": {
-"ANN-equities-106862301-CHENNPETRO": {
-"t": "2026-11-16T16:09+05:30"
-},
 "ANN-equities-106862312-GMBREW": {
 "t": "2026-11-16T16:16+05:30"
 },
@@ -144,9 +141,6 @@
 },
 "ANN-equities-106866037-GENSOL": {
 "t": "2026-11-19T13:14+05:30"
-},
-"ANN-sme-106862296-SIMCA": {
-"t": "2026-11-16T16:09+05:30"
 },
 "ANN-sme-106862316-SHAIVAL": {
 "t": "2026-11-16T16:16+05:30"
@@ -243,9 +237,6 @@
 },
 "BANN-abc913c6-0bb7-4ff2-9eb9-c9b86c6a04bd": {
 "t": "2026-11-17T19:19+05:30"
-},
-"BANN-b018ad1b-5b83-4174-8f08-341fb94b13f8": {
-"t": "2026-11-16T16:09+05:30"
 },
 "BANN-b3fcde11-0b00-4bcf-808c-231a6b01ba12": {
 "t": "2026-11-18T19:36+05:30"
@@ -7137,10 +7128,6 @@
 "NSE-equities-IF-212727": {
 "s": "old",
 "t": "2026-11-13T04:10+05:30"
-},
-"NSE-equities-IF-212730": {
-"s": "posted",
-"t": "2026-11-12T16:11+05:30"
 },
 "NSE-equities-IF-212740": {
 "s": "old",
@@ -14229,9 +14216,6 @@
 "ACE": {
 "t": "2026-11-12T17:58+05:30"
 },
-"ACEINTEG": {
-"t": "2026-11-12T16:10+05:30"
-},
 "ACETEC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ACETECHINC_14112026192854_BM_Outcome_sd.pdf",
 "t": "2026-11-14T19:30+05:30"
@@ -16224,9 +16208,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2eb1b2f1-3dfe-448d-9109-8d6113c33d32.pdf",
 "t": "2026-11-14T13:20+05:30"
 },
-"BSE:519415": {
-"t": "2026-11-12T16:09+05:30"
-},
 "BSE:519421": {
 "t": "2026-11-12T20:36+05:30"
 },
@@ -17256,9 +17237,6 @@
 "BSE:531013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0d7c4a2d-9dd8-40b2-99bd-1f51fb62a50a.pdf",
 "t": "2026-11-14T19:23+05:30"
-},
-"BSE:531015": {
-"t": "2026-11-12T16:11+05:30"
 },
 "BSE:531017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b350f449-9988-4343-9f28-cf80c3303e22.pdf",
@@ -18300,9 +18278,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/86cb5bd1-c05a-446b-87a9-d78eed9ab924.pdf",
 "t": "2026-11-14T13:27+05:30"
 },
-"BSE:533106": {
-"t": "2026-11-12T16:07+05:30"
-},
 "BSE:533121": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/75de5a19-2fda-4d34-b5d1-9ad6e6831f72.pdf",
 "t": "2026-11-14T15:45+05:30"
@@ -18772,10 +18747,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/831c6e8a-4e12-44f0-a29a-ae532bee7db9.pdf",
 "t": "2026-11-13T17:18+05:30"
 },
-"BSE:539112": {
-"c": 1,
-"t": "2026-11-12T16:08+05:30"
-},
 "BSE:539113": {
 "c": 1,
 "t": "2026-11-12T18:39+05:30"
@@ -18872,9 +18843,6 @@
 "BSE:539335": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b0e26421-487a-4360-9c0d-8e0a2c656271.pdf",
 "t": "2026-11-14T18:54+05:30"
-},
-"BSE:539353": {
-"t": "2026-11-12T16:06+05:30"
 },
 "BSE:539378": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c96f96fb-debd-4090-b9af-a998f82e99f5.pdf",
@@ -23421,10 +23389,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e8bf3273-bc67-4154-b3e9-6cbe3973490f.pdf",
 "t": "2026-11-13T20:20+05:30"
 },
-"INE137M01017": {
-"c": 1,
-"t": "2026-11-12T16:08+05:30"
-},
 "INE138A01028": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a5024891-85be-4d25-bf9a-1016b9d8ff86.pdf",
 "t": "2026-11-13T18:06+05:30"
@@ -23563,9 +23527,6 @@
 "INE154B01023": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/72ba957e-63b7-4bae-b0d8-c9ce12959c2b.pdf",
 "t": "2026-11-14T13:12+05:30"
-},
-"INE154G01022": {
-"t": "2026-11-12T16:11+05:30"
 },
 "INE154M01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3bf630fb-197a-4d05-a65b-21775130b66a.pdf",
@@ -25857,9 +25818,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/KPIGLOBAL_13112026133932_KPI_Outcome_of_BM_13112026_To_exchange_SIgned_1_4501-1.pdf",
 "t": "2026-11-13T13:39+05:30"
 },
-"INE543V01017": {
-"t": "2026-11-12T16:10+05:30"
-},
 "INE544A01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5b340b72-8643-4b2b-a4ac-c49ab63b2bb1.pdf",
 "t": "2026-11-13T20:12+05:30"
@@ -26824,9 +26782,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f324701c-13eb-47b4-8809-d25a082fa172.pdf",
 "t": "2026-11-13T18:02+05:30"
 },
-"INE724G01014": {
-"t": "2026-11-12T16:06+05:30"
-},
 "INE725L01011": {
 "t": "2026-11-12T16:48+05:30"
 },
@@ -27563,9 +27518,6 @@
 "INE871L01013": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TVVISION_16112026120140_Intimation_of_non_Submission_sd.pdf",
 "t": "2026-11-16T12:02+05:30"
-},
-"INE873N01015": {
-"t": "2026-11-12T16:09+05:30"
 },
 "INE873S01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00b37ea4-dfc2-4283-87ea-d4a354304696.pdf",
@@ -28970,9 +28922,6 @@
 "N:ACEEDUTREND": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/18f94df0-47ce-4e08-a8d3-8b82c67b74a5.pdf",
 "t": "2026-11-13T17:43+05:30"
-},
-"N:ACEINTEGRATEDSOLUTIONS": {
-"t": "2026-11-12T16:10+05:30"
 },
 "N:ACETECHECOMMERCE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ACETECHINC_14112026192854_BM_Outcome_sd.pdf",
@@ -32401,9 +32350,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bf792908-5cb8-4344-a7b1-511388b780bc.pdf",
 "t": "2026-11-14T17:07+05:30"
 },
-"N:KMGMILKFOOD": {
-"t": "2026-11-12T16:09+05:30"
-},
 "N:KMSMEDISURGI": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30331b87-5d4c-4edc-9eb6-738e4a321569.pdf",
 "t": "2026-11-14T14:24+05:30"
@@ -34648,10 +34594,6 @@
 "c": 1,
 "t": "2026-11-12T17:56+05:30"
 },
-"N:SABINDUSTRIES": {
-"c": 1,
-"t": "2026-11-12T16:08+05:30"
-},
 "N:SABOOSODIUMCHLORO": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/26c56b6f-875c-44e2-89e7-5680cafd9958.pdf",
 "t": "2026-11-13T13:57+05:30"
@@ -34714,9 +34656,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SALASAR_14112026162118_STEL_Outcome_BM_14112026.pdf",
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/SALASAR_14112026162118_STEL_Outcome_BM_14112026.pdf|C|6",
 "t": "2026-11-14T16:23+05:30"
-},
-"N:SALAUTOMOTIVE": {
-"t": "2026-11-12T16:06+05:30"
 },
 "N:SALEMERODEINVESTMENTS": {
 "t": "2026-11-12T18:48+05:30"
@@ -36417,9 +36356,6 @@
 "N:VENLONENTERPRISES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c3f8d870-32e2-4573-888f-239b861a325f.pdf",
 "t": "2026-11-13T18:41+05:30"
-},
-"N:VENMAXDRUGSANDPHARMACEUTICALS": {
-"t": "2026-11-12T16:11+05:30"
 },
 "N:VENTURAGUARANTY": {
 "t": "2026-11-12T19:26+05:30"
