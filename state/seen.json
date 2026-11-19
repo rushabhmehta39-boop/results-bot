@@ -139,6 +139,9 @@
 "ANN-equities-106866037-GENSOL": {
 "t": "2026-11-19T13:14+05:30"
 },
+"ANN-equities-106866261-PARSVNATH": {
+"t": "2026-11-19T16:34+05:30"
+},
 "ANN-sme-106862367-SAHAJ": {
 "t": "2026-11-16T16:42+05:30"
 },
@@ -1552,10 +1555,6 @@
 "BSE-Integrated_Finance_Ind_As_505010_12112026064259_IFIndAs.xml": {
 "s": "dup",
 "t": "2026-11-12T22:04+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_505160_1111202616236_IFIndAs.xml": {
-"s": "superseded",
-"t": "2026-11-12T16:32+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_505196_14112026050544_IFIndAs.xml": {
 "s": "superseded",
@@ -15109,9 +15108,6 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8e749ef9-d064-44cd-a15b-f38ae6e3426c.pdf|C|6",
 "t": "2026-11-14T20:16+05:30"
 },
-"BSE:505729": {
-"t": "2026-11-12T16:34+05:30"
-},
 "BSE:505744": {
 "t": "2026-11-12T20:06+05:30"
 },
@@ -15902,9 +15898,6 @@
 "BSE:514165": {
 "t": "2026-11-12T17:04+05:30"
 },
-"BSE:514175": {
-"t": "2026-11-12T16:33+05:30"
-},
 "BSE:514177": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/670b4377-3150-4790-8722-140c7b6c9d3b.pdf",
 "t": "2026-11-13T17:27+05:30"
@@ -16428,10 +16421,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fccbf776-5a04-4218-a534-934e5e3dd303.pdf",
 "t": "2026-11-14T20:25+05:30"
-},
-"BSE:523384": {
-"c": 1,
-"t": "2026-11-12T16:31+05:30"
 },
 "BSE:523419": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c66830b5-e648-4931-a212-f93a40acfcd3.pdf",
@@ -19341,9 +19330,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/273dbe4d-c911-4cf8-8f18-9c7f63a8f8b3.pdf",
 "t": "2026-11-13T18:17+05:30"
 },
-"BSE:543187": {
-"t": "2026-11-12T16:34+05:30"
-},
 "BSE:543193": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b9ab0a98-5ef4-431e-ad03-6b0c7a971206.pdf",
@@ -20316,9 +20302,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0e81c966-4c3b-45d6-a092-33965100dcf4.pdf",
 "t": "2026-11-13T20:14+05:30"
-},
-"BSE:544738": {
-"t": "2026-11-12T16:30+05:30"
 },
 "BSE:544740": {
 "t": "2026-11-12T23:52+05:30"
@@ -22831,9 +22814,6 @@
 "INE0QZR01017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/05f3b718-6d38-4528-ad30-3fbda2746694.pdf",
 "t": "2026-11-13T17:53+05:30"
-},
-"INE0R0M01014": {
-"t": "2026-11-12T16:30+05:30"
 },
 "INE0R4701017": {
 "c": 1,
@@ -25865,6 +25845,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6a46fe3e-8748-45c7-a075-57371cada31d.pdf",
 "t": "2026-11-14T20:15+05:30"
 },
+"INE561H01018": {
+"pdf": "https://nsearchives.nseindia.in/corporate/PARSVNATH_19112026162940_Delay_disclosure_financial_results.pdf",
+"t": "2026-11-19T16:29+05:30"
+},
 "INE562B01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/905db7a1-65e3-40aa-bd8b-9bd9eacc1bb8.pdf",
 "t": "2026-11-13T17:42+05:30"
@@ -26260,9 +26244,6 @@
 "INE636P01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d7880a49-4fde-4416-8b6c-f2c57b8bd857.pdf",
 "t": "2026-11-13T12:09+05:30"
-},
-"INE638A01035": {
-"t": "2026-11-12T16:34+05:30"
 },
 "INE638C01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94eaac29-d5ea-4b04-bfcf-03b8c6991b7c.pdf",
@@ -27259,9 +27240,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ea0e105f-946d-42e2-b47a-c7e6307f46c8.pdf",
 "t": "2026-11-13T19:17+05:30"
 },
-"INE835A01029": {
-"t": "2026-11-12T16:33+05:30"
-},
 "INE835U01027": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f0e69d61-eaed-4f70-a99f-a276258943c2.pdf",
 "t": "2026-11-14T17:10+05:30"
@@ -27438,10 +27416,6 @@
 "INE873S01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00b37ea4-dfc2-4283-87ea-d4a354304696.pdf",
 "t": "2026-11-14T17:22+05:30"
-},
-"INE874F01027": {
-"c": 1,
-"t": "2026-11-12T16:31+05:30"
 },
 "INE875E01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ebba0feb-d99d-46ae-b2c0-364f3c2f25a4.pdf",
@@ -32598,10 +32572,6 @@
 "N:MAHARAJAANDSPEEDEXINDIA": {
 "t": "2026-11-12T21:18+05:30"
 },
-"N:MAHARASHTRAAPEXCORPORATION": {
-"c": 1,
-"t": "2026-11-12T16:31+05:30"
-},
 "N:MAHARASHTRACORPORATION": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5dbb6c70-0d23-4d7d-a004-ceb55b2c0809.pdf",
 "t": "2026-11-13T20:29+05:30"
@@ -35063,9 +35033,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SINDHUTRAD_14112026132425_Covering33Signed.pdf",
 "t": "2026-11-14T13:25+05:30"
 },
-"N:SINGERINDIA": {
-"t": "2026-11-12T16:34+05:30"
-},
 "N:SINNARBIDIUDYOG": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f00034a4-90f0-4d29-be23-de8b8178959f.pdf",
 "t": "2026-11-14T13:02+05:30"
@@ -35216,9 +35183,6 @@
 "N:SPARKLEGOLDROCK": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9889e3af-e182-48cc-89ec-57b0c6e909ec.pdf",
 "t": "2026-11-14T16:00+05:30"
-},
-"N:SPECIALITYMEDICINES": {
-"t": "2026-11-12T16:30+05:30"
 },
 "N:SPECTRAATECHNOLOGYSOLUTIONS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SPECTRAA_16112026140517_nse_final.pdf",
@@ -36806,6 +36770,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/ASPHL_13112026164722_Financial_Results.pdf",
 "t": "2026-11-13T16:50+05:30"
 },
+"PARSVNATH": {
+"pdf": "https://nsearchives.nseindia.in/corporate/PARSVNATH_19112026162940_Delay_disclosure_financial_results.pdf",
+"t": "2026-11-19T16:29+05:30"
+},
 "PARTYCRUS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PARTYCRUISERS_14112026134751_Outcome_Financials_final.pdf",
 "t": "2026-11-14T13:49+05:30"
@@ -36980,9 +36948,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/RACL1983_13112026153502_Outcome_of_Board_Meeting_-_November_13_2026.pdf",
 "t": "2026-11-13T15:36+05:30"
-},
-"RADAAN": {
-"t": "2026-11-12T16:31+05:30"
 },
 "RADIANTCMS": {
 "t": "2026-11-12T18:27+05:30"
