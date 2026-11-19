@@ -163,6 +163,9 @@
 "ANN-equities-106865201-BLSPOLY": {
 "t": "2026-11-18T18:26+05:30"
 },
+"ANN-equities-106866037-GENSOL": {
+"t": "2026-11-19T13:14+05:30"
+},
 "ANN-sme-106862079-QVCEL": {
 "t": "2026-11-16T13:26+05:30"
 },
@@ -14603,9 +14606,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/AKG_13112026172419_OutcomeofBM_LLR_Results.pdf",
 "t": "2026-11-13T17:26+05:30"
 },
-"ALBERTDAVD": {
-"t": "2026-11-12T13:13+05:30"
-},
 "ALCODIS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AURDIS_14112026190931_ADL_Outcome_of_Board_Meeting_14112026.pdf",
 "t": "2026-11-14T19:15+05:30"
@@ -21862,6 +21862,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GENESYS_13112026203139_Outcome_upload.pdf",
 "t": "2026-11-13T20:33+05:30"
 },
+"GENSOL": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
+"t": "2026-11-19T13:08+05:30"
+},
 "GENUSPOWER": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENUSPOWER_14112026174211_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-14T17:44+05:30"
@@ -22674,6 +22678,10 @@
 "INE06DM01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/096f1d59-82a6-40fd-bd32-7b17bcc45609.pdf",
 "t": "2026-11-14T17:38+05:30"
+},
+"INE06H201014": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
+"t": "2026-11-19T13:08+05:30"
 },
 "INE06HJ01020": {
 "c": 1,
@@ -24177,9 +24185,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/TATAMOTORSSJS_13112026161123_NSEBSEOutcome.pdf",
 "t": "2026-11-13T16:12+05:30"
-},
-"INE155C01010": {
-"t": "2026-11-12T13:13+05:30"
 },
 "INE155D01018": {
 "t": "2026-11-12T18:09+05:30"
@@ -27145,9 +27150,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7936d638-45a4-46ff-9f78-d3761745dff7.pdf",
 "t": "2026-11-14T22:00+05:30"
 },
-"INE642C01025": {
-"t": "2026-11-12T13:14+05:30"
-},
 "INE642I01014": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dd4e578d-3891-47e7-a03b-258890cfe3c9.pdf",
 "t": "2026-11-13T17:53+05:30"
@@ -30007,9 +30009,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/AKG_13112026172419_OutcomeofBM_LLR_Results.pdf",
 "t": "2026-11-13T17:26+05:30"
 },
-"N:ALBERTDAVID": {
-"t": "2026-11-12T13:13+05:30"
-},
 "N:ALCOKRAFTDISTILLERIES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AURDIS_14112026190931_ADL_Outcome_of_Board_Meeting_14112026.pdf",
 "t": "2026-11-14T19:15+05:30"
@@ -32153,6 +32152,10 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b8ce304e-83e8-4c12-a93e-92d9602e87be.pdf",
 "t": "2026-11-14T18:19+05:30"
+},
+"N:GENSOLENGINEERING": {
+"pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
+"t": "2026-11-19T13:08+05:30"
 },
 "N:GENUSPOWERINFRASTRUCTURES": {
 "c": 1,
@@ -35698,9 +35701,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f98670a6-699d-4f47-9879-b649f9356aa0.pdf",
 "t": "2026-11-14T17:51+05:30"
 },
-"N:RUBFILAINTERNATIONAL": {
-"t": "2026-11-12T13:14+05:30"
-},
 "N:RUBYMILLS": {
 "c": 1,
 "t": "2026-11-12T23:48+05:30"
@@ -38489,9 +38489,6 @@
 "pdf_card": "https://nsearchives.nseindia.com/corporate/RAMATELECOMIPO_14112026154737_BM_Outcome.pdf|card|6",
 "t": "2026-11-14T15:49+05:30"
 },
-"RUBFILA": {
-"t": "2026-11-12T13:14+05:30"
-},
 "RUBYMILLS": {
 "t": "2026-11-12T23:55+05:30"
 },
@@ -39526,6 +39523,10 @@
 "BSE:544920": {
 "t": "2026-11-18T16:38+05:30",
 "v": 68.9
+},
+"GENSOL": {
+"t": "2026-11-19T13:14+05:30",
+"v": 36.5
 },
 "SEYAIND": {
 "t": "2026-11-17T15:49+05:30",
