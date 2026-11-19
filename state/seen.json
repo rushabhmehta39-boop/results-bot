@@ -4202,6 +4202,10 @@
 "s": "small",
 "t": "2026-11-14T08:05+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-19T08:02+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_531521_141120262140_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T08:24+05:30"
@@ -4348,6 +4352,10 @@
 "BSE-Integrated_Finance_Ind_As_531778_14112026185823_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T21:10+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-19T08:02+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531784_14112026182158_IFIndAs.xml": {
 "s": "small",
@@ -6685,6 +6693,10 @@
 "BSE-Integrated_Finance_Ind_As_545000_13112026205759_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-14T21:30+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-19T08:02+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_545012_1211202619742_IFIndAs.xml": {
 "s": "small",
@@ -11819,6 +11831,10 @@
 "NSE-equities-IF-215400": {
 "s": "old",
 "t": "2026-11-19T00:19+05:30"
+},
+"NSE-equities-IF-215504": {
+"s": "dup",
+"t": "2026-11-19T08:02+05:30"
 },
 "NSE-sme-IF-212575": {
 "s": "superseded",
@@ -41691,38 +41707,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.xml": {
-"company": "Orient Tradelink Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531512",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T22:05+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.xml": {
-"company": "Kaiser Corporation Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531780",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T22:05+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
 "company": "Apeejay Surrendra Park Hotels Ltd",
 "consolidated": false,
@@ -41738,22 +41722,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
-"company": "BLS Polymers Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545011",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-18T22:33+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml"
 },
 "NSE-equities-IF-215270": {
 "company": "Manappuram Finance Limited",
@@ -41802,22 +41770,6 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
-},
-"NSE-equities-IF-215504": {
-"company": "BLS Polymers Limited",
-"consolidated": false,
-"filed_at": "2026-11-18T22:32:55+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "BLSPOLY",
-"t": "2026-11-18T22:33+05:30",
-"uid": "NSE-equities-IF-215504",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215504_18112026223254_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759957_18112026103254_WEB.xml"
 }
 },
 "posted": {
@@ -43037,6 +42989,7 @@
 },
 "INE0ZCQ01019|2026-09-30|S": {
 "b": "S",
+"checked": "ok",
 "mid": -1,
 "n": "BLSPOLYMERS",
 "pat": 10.5406,
@@ -48724,6 +48677,10 @@
 "t": "2026-11-13T19:26+05:30",
 "v": "INE628F01019"
 },
+"531512": {
+"t": "2026-11-19T08:02+05:30",
+"v": "INE681D01039"
+},
 "531521": {
 "t": "2026-11-16T08:24+05:30",
 "v": "INE971E01016"
@@ -48887,6 +48844,10 @@
 "531778": {
 "t": "2026-11-14T21:10+05:30",
 "v": "INE059E01010"
+},
+"531780": {
+"t": "2026-11-19T08:02+05:30",
+"v": "INE229G01022"
 },
 "531784": {
 "t": "2026-11-14T20:30+05:30",
@@ -56530,6 +56491,10 @@
 "t": "2026-11-12T18:37+05:30",
 "v": 4150000
 },
+"INE229G01022": {
+"t": "2026-11-19T08:02+05:30",
+"v": 52621000
+},
 "INE229R01011": {
 "t": "2026-11-12T22:05+05:30",
 "v": 11977100
@@ -59445,6 +59410,10 @@
 "INE681C01015": {
 "t": "2026-11-14T16:17+05:30",
 "v": 5566600
+},
+"INE681D01039": {
+"t": "2026-11-19T08:02+05:30",
+"v": 38685500
 },
 "INE681F01018": {
 "t": "2026-11-13T15:34+05:30",
