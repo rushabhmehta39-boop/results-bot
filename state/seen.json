@@ -13200,6 +13200,9 @@
 "BSE|500013|2026-06-30": {
 "t": "2026-11-18T18:44+05:30"
 },
+"BSE|500189|2026-09-30": {
+"t": "2026-11-19T20:30+05:30"
+},
 "BSE|501477|2026-09-30": {
 "t": "2026-11-19T14:39+05:30"
 },
@@ -13340,6 +13343,9 @@
 },
 "NSE|MANAPPURAM|2026-09-30": {
 "t": "2026-11-17T16:52+05:30"
+},
+"NSE|NDLVENTURE|2026-09-30": {
+"t": "2026-11-19T20:30+05:30"
 },
 "NSE|PARKHOTELS|2026-03-31": {
 "t": "2026-11-18T13:36+05:30"
@@ -14029,10 +14035,6 @@
 "BSE:501479": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4deb7597-150f-4371-ae96-1d4777530ad9.pdf",
 "t": "2026-11-13T17:45+05:30"
-},
-"BSE:501700": {
-"c": 1,
-"t": "2026-11-12T20:30+05:30"
 },
 "BSE:501831": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5d73f5d-d0d0-41e0-97ca-68c04c258ece.pdf",
@@ -14743,9 +14745,6 @@
 "BSE:512499": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d409beb8-f5d3-42fd-8f55-3e2ea467a298.pdf",
 "t": "2026-11-14T14:24+05:30"
-},
-"BSE:512517": {
-"t": "2026-11-12T20:26+05:30"
 },
 "BSE:512519": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1b452feb-35b5-428b-8003-4966647024f1.pdf",
@@ -19165,9 +19164,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/CEDAAR_14112026180530_OUTCOME_OF_BM_14112026_SIGNED.pdf",
 "t": "2026-11-14T18:06+05:30"
 },
-"CEINSYS": {
-"t": "2026-11-12T20:29+05:30"
-},
 "CELEBRITY": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CELEBRITY_13112026124849_CFL_Outcome_BM_13-11-2026.pdf",
 "t": "2026-11-13T12:51+05:30"
@@ -19991,9 +19987,6 @@
 "INE015D01022": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MANAKSIA_13112026160818_Outcome13112026.pdf",
 "t": "2026-11-13T16:10+05:30"
-},
-"INE016Q01014": {
-"t": "2026-11-12T20:29+05:30"
 },
 "INE017E01018": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/83bac55d-cd10-4d3a-a1da-aec9f8e278d1.pdf",
@@ -21482,9 +21475,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6fad2a0a-7375-4206-86f6-15b12aaea681.pdf",
 "t": "2026-11-13T18:57+05:30"
 },
-"INE132V01019": {
-"t": "2026-11-12T20:26+05:30"
-},
 "INE133B01027": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc3c0eef-c11c-4b79-9d56-fa5eb275175e.pdf",
 "t": "2026-11-13T17:22+05:30"
@@ -21935,9 +21925,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/55e0f5a5-8000-4a9c-bf92-db67dbff90f9.pdf",
 "t": "2026-11-13T22:24+05:30"
-},
-"INE1B3O01011": {
-"t": "2026-11-12T20:30+05:30"
 },
 "INE1B6101010": {
 "c": 1,
@@ -27351,9 +27338,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/CEDAAR_14112026180530_OUTCOME_OF_BM_14112026_SIGNED.pdf",
 "t": "2026-11-14T18:06+05:30"
 },
-"N:CEINSYSTECH": {
-"t": "2026-11-12T20:29+05:30"
-},
 "N:CELEBRITYFASHIONS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CELEBRITY_13112026124849_CFL_Outcome_BM_13-11-2026.pdf",
 "t": "2026-11-13T12:51+05:30"
@@ -28797,10 +28781,6 @@
 "N:INDIANINFOTECHANDSOFTWARE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/21d36ca6-3448-4949-9190-6bedfc68dec9.pdf",
 "t": "2026-11-13T16:39+05:30"
-},
-"N:INDIANIVESH": {
-"c": 1,
-"t": "2026-11-12T20:30+05:30"
 },
 "N:INDIANLINKCHAINMANUFACTURERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d1e0aba9-1398-4c8d-a662-05938224afda.pdf",
@@ -32279,9 +32259,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNRESTLIFESCIENCE_14112026185434_Outcome_of_BMSD.pdf",
 "t": "2026-11-14T18:58+05:30"
 },
-"N:SUNSHINEPICTURES": {
-"t": "2026-11-12T20:30+05:30"
-},
 "N:SUNTECHINFRASOLUTIONS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNTECH_13112026171501_Financial_Results_NSE_Submission.pdf",
 "t": "2026-11-13T17:17+05:30"
@@ -33031,9 +33008,6 @@
 "N:VILINBIOMED": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VILIN2005_14112026171822_VILINRESULTS.pdf",
 "t": "2026-11-14T17:19+05:30"
-},
-"N:VINAYAKVANIJYA": {
-"t": "2026-11-12T20:26+05:30"
 },
 "N:VIPCLOTHING": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VIPCLOTHNG_13112026181553_OutcomeOfBM13112026Final.pdf",
@@ -34107,9 +34081,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNRESTLIFESCIENCE_14112026185434_Outcome_of_BMSD.pdf",
 "t": "2026-11-14T18:58+05:30"
-},
-"SUNSHINE": {
-"t": "2026-11-12T20:30+05:30"
 },
 "SUNTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNTECH_13112026171501_Financial_Results_NSE_Submission.pdf",
@@ -36438,6 +36409,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml": {
+"company": "NDL Ventures Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "500189",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-19T20:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_526827_19112026182820_IFIndAs.xml": {
 "company": "Spice Islands Industries Ltd-$",
 "consolidated": false,
@@ -36469,6 +36456,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.xml"
+},
+"NSE-equities-IF-215726": {
+"company": "NDL Ventures Limited",
+"consolidated": false,
+"filed_at": "2026-11-19T20:27:32+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "NDLVENTURE",
+"t": "2026-11-19T20:30+05:30",
+"uid": "NSE-equities-IF-215726",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215726_19112026202731_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760265_19112026082730_WEB.xml"
 }
 },
 "posted": {
