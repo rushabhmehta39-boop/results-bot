@@ -112,15 +112,6 @@
 }
 },
 "ann": {
-"ANN-equities-106862353-CMICABLES": {
-"t": "2026-11-16T16:35+05:30"
-},
-"ANN-equities-106862354-AIFL": {
-"t": "2026-11-16T16:35+05:30"
-},
-"ANN-equities-106862359-AIFL": {
-"t": "2026-11-16T16:35+05:30"
-},
 "ANN-equities-106863675-SEYAIND": {
 "t": "2026-11-17T15:49+05:30"
 },
@@ -1382,6 +1373,10 @@
 "BSE-Integrated_Finance_Ind_As_501477_1211202619259_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T08:05+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-19T16:39+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_501479_1411202613810_IFIndAs.xml": {
 "s": "small",
@@ -7129,18 +7124,6 @@
 "s": "old",
 "t": "2026-11-13T04:10+05:30"
 },
-"NSE-equities-IF-212741": {
-"s": "small",
-"t": "2026-11-12T16:39+05:30"
-},
-"NSE-equities-IF-212745": {
-"s": "superseded",
-"t": "2026-11-12T16:39+05:30"
-},
-"NSE-equities-IF-212746": {
-"s": "small",
-"t": "2026-11-12T16:39+05:30"
-},
 "NSE-equities-IF-212747": {
 "s": "small",
 "t": "2026-11-12T16:54+05:30"
@@ -11490,10 +11473,6 @@
 "NSE-equities-IF-215504": {
 "s": "dup",
 "t": "2026-11-19T08:02+05:30"
-},
-"NSE-sme-IF-212741": {
-"s": "small",
-"t": "2026-11-12T16:39+05:30"
 },
 "NSE-sme-IF-212764": {
 "s": "small",
@@ -18254,10 +18233,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/648ee3b2-64c5-4efa-a288-193770f25240.pdf",
 "t": "2026-11-14T16:45+05:30"
 },
-"BSE:533192": {
-"c": 1,
-"t": "2026-11-12T16:38+05:30"
-},
 "BSE:533212": {
 "c": 1,
 "t": "2026-11-12T17:29+05:30"
@@ -18314,9 +18289,6 @@
 "BSE:533400": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e2dada32-8dfc-4606-acff-e25f919ad355.pdf",
 "t": "2026-11-16T11:27+05:30"
-},
-"BSE:533451": {
-"t": "2026-11-12T16:36+05:30"
 },
 "BSE:533482": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9d4cd611-48f6-432e-a73e-5ba5bdab9174.pdf",
@@ -21351,9 +21323,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GUJAPOLLO_14112026184704_GApolloOutcomeOfBMWithResults14112026CFinal.pdf",
 "t": "2026-11-14T18:48+05:30"
 },
-"GUJRAFFIA": {
-"t": "2026-11-12T16:39+05:30"
-},
 "GUJTHEM": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/GUJARATTHEMIS_14112026153239_OutcomeGTBL14112026.pdf",
@@ -23652,9 +23621,6 @@
 },
 "INE182E01010": {
 "t": "2026-11-12T17:02+05:30"
-},
-"INE183001010": {
-"t": "2026-11-12T16:39+05:30"
 },
 "INE183H01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/89b4c16b-cde4-4f2b-85eb-4b0967ad1308.pdf",
@@ -27280,10 +27246,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/881f1cc0-c698-4c3d-be1b-e51b799ad2ce.pdf",
 "t": "2026-11-13T23:20+05:30"
 },
-"INE843B01013": {
-"c": 1,
-"t": "2026-11-12T16:39+05:30"
-},
 "INE844A01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a59fc266-a3b7-40e4-bf6b-d7d743e253a4.pdf",
 "t": "2026-11-13T17:38+05:30"
@@ -28453,9 +28415,6 @@
 "MAGNUM": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MAGNUM_14112026150621_Intimation.pdf",
 "t": "2026-11-14T15:08+05:30"
-},
-"MAHAPEXLTD": {
-"t": "2026-11-12T16:39+05:30"
 },
 "MAHASTEEL": {
 "c": 1,
@@ -31253,9 +31212,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d7880a49-4fde-4416-8b6c-f2c57b8bd857.pdf",
 "t": "2026-11-13T12:09+05:30"
 },
-"N:GUJARATRAFFIAINDUSTRIES": {
-"t": "2026-11-12T16:39+05:30"
-},
 "N:GUJARATTHEMISBIOSYN": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4154f992-9973-46d3-97c7-6f9fcc4b7831.pdf",
@@ -32031,9 +31987,6 @@
 "N:KARBONSTEELENGINEERING": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0210b186-4a3a-48fc-839e-f8deb8bb07db.pdf",
 "t": "2026-11-14T14:01+05:30"
-},
-"N:KARMAENERGY": {
-"t": "2026-11-12T16:36+05:30"
 },
 "N:KARNAVATIFINANCE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4f2d0ed4-d082-40b2-89d5-96ff337c6100.pdf",
@@ -33949,9 +33902,6 @@
 "N:PURVFLEXIPACK": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PURVFLEXI_14112026170006_OutcomeofBMPFL14112026.pdf",
 "t": "2026-11-14T17:03+05:30"
-},
-"N:PUSHPAJEWELLERS": {
-"t": "2026-11-12T16:35+05:30"
 },
 "N:PVPVENTURES": {
 "c": 1,
@@ -36915,9 +36865,6 @@
 "PURVFLEXI": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PURVFLEXI_14112026170006_OutcomeofBMPFL14112026.pdf",
 "t": "2026-11-14T17:03+05:30"
-},
-"PUSHPA": {
-"t": "2026-11-12T16:35+05:30"
 },
 "PVP": {
 "c": 1,
@@ -39909,22 +39856,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.xml": {
-"company": "Muller & Phipps India Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "501477",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-19T14:39+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.xml": {
 "company": "Prabhatam Infra Venture Ltd",
 "consolidated": false,
@@ -43824,7 +43755,7 @@
 "v": "INE050A01025"
 },
 "501477": {
-"t": "2026-11-13T08:05+05:30",
+"t": "2026-11-19T16:39+05:30",
 "v": "INE003F01015"
 },
 "501479": {
@@ -50770,7 +50701,7 @@
 "v": 4992300
 },
 "INE003F01015": {
-"t": "2026-11-13T08:05+05:30",
+"t": "2026-11-19T16:39+05:30",
 "v": 625000
 },
 "INE004I01017": {
