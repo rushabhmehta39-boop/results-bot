@@ -310,9 +310,6 @@
 "BANN-b88039fa-dd82-4970-8bd9-397ccb016839": {
 "t": "2026-11-16T19:17+05:30"
 },
-"BANN-bfe2e96d-d251-4e11-8689-85682d732402": {
-"t": "2026-11-16T12:24+05:30"
-},
 "BANN-c61fe0c7-f083-4931-be65-f86398ab5af0": {
 "t": "2026-11-16T17:28+05:30"
 },
@@ -11695,6 +11692,10 @@
 "s": "nodata",
 "t": "2026-11-19T10:29+05:30"
 },
+"NSE-equities-IF-215294": {
+"s": "small",
+"t": "2026-11-19T12:28+05:30"
+},
 "NSE-equities-IF-215306": {
 "s": "superseded",
 "t": "2026-11-18T13:53+05:30"
@@ -14773,10 +14774,6 @@
 "ASPIRE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ASPIRE_14112026173430_financial_result.pdf",
 "t": "2026-11-14T17:37+05:30"
-},
-"ASTRAMICRO": {
-"c": 1,
-"t": "2026-11-12T12:27+05:30"
 },
 "ATALREAL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ATALREAL_14112026184457_Board_Meeting_Outcome_14112026.pdf",
@@ -25853,10 +25850,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6929ea8e-bed7-46bd-ab32-ff4a5a895415.pdf",
 "t": "2026-11-13T21:42+05:30"
 },
-"INE386C01029": {
-"c": 1,
-"t": "2026-11-12T12:27+05:30"
-},
 "INE387I01016": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f41f5630-a0cd-4552-a930-c2e5a84c4127.pdf",
 "t": "2026-11-14T15:08+05:30"
@@ -30553,10 +30546,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/47edca09-459f-49f3-b956-0c06a202ddf1.pdf",
 "t": "2026-11-14T17:55+05:30"
-},
-"N:ASTRAMICROWAVEPRODUCTS": {
-"c": 1,
-"t": "2026-11-12T12:27+05:30"
 },
 "N:ATALREALTECH": {
 "c": 1,
@@ -41524,22 +41513,6 @@
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
 },
-"NSE-equities-IF-215294": {
-"company": "Highway Infrastructure Limited",
-"consolidated": false,
-"filed_at": "2026-11-18T12:26:11+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "HILINFRA",
-"t": "2026-11-18T12:28+05:30",
-"uid": "NSE-equities-IF-215294",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215294_18112026122610_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759689_18112026122610_WEB.xml"
-},
 "NSE-equities-IF-215441": {
 "company": "Ansal Properties & Infrastructure Limited",
 "consolidated": false,
@@ -51691,7 +51664,7 @@
 "v": "INE0J5801029"
 },
 "544477": {
-"t": "2026-11-18T14:33+05:30",
+"t": "2026-11-19T12:28+05:30",
 "v": "INE00RL01028"
 },
 "544482": {
@@ -52441,7 +52414,7 @@
 "v": 12921000
 },
 "INE00RL01028": {
-"t": "2026-11-18T14:33+05:30",
+"t": "2026-11-19T12:28+05:30",
 "v": 71720600
 },
 "INE00SY01011": {
