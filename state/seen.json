@@ -1126,6 +1126,14 @@
 "s": "small",
 "t": "2026-11-13T21:49+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-19T22:30+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml": {
+"s": "superseded",
+"t": "2026-11-19T22:30+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_500192_1211202619422_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-13T22:11+05:30"
@@ -15191,9 +15199,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2ccb8fd3-afa2-4aa9-a522-7397f57d378c.pdf",
 "t": "2026-11-13T17:14+05:30"
 },
-"BSE:531583": {
-"t": "2026-11-12T22:27+05:30"
-},
 "BSE:531608": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d923a3c0-609e-4077-a614-dbf59d72064e.pdf",
 "t": "2026-11-13T14:23+05:30"
@@ -22069,9 +22074,6 @@
 "INE482J01021": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GAL_14112026190001_Outcome_14112026.pdf",
 "t": "2026-11-14T19:01+05:30"
-},
-"INE483D01014": {
-"t": "2026-11-12T22:27+05:30"
 },
 "INE485D01043": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/41185762-a223-4816-a6aa-3d2cc44c25e9.pdf",
@@ -29648,9 +29650,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afd1e3b5-3966-410a-9d26-6fccf2cca91e.pdf",
 "t": "2026-11-14T16:37+05:30"
 },
-"N:RAPCORP": {
-"t": "2026-11-12T22:27+05:30"
-},
 "N:RAPIDFLEETMANAGEMENTSERVICES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/RAPIDFLEET_13112026165458_BM_OUTCOME_NOV1326.pdf",
 "t": "2026-11-13T16:57+05:30"
@@ -34953,38 +34952,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml": {
-"company": "NDL Ventures Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "500189",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-19T20:36+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml": {
-"company": "NDL Ventures Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "500189",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-19T20:30+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_500189_19112026202623_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.xml": {
 "company": "Prabhatam Infra Venture Ltd",
 "consolidated": false,
@@ -38644,7 +38611,7 @@
 "v": "INE345A01011"
 },
 "500189": {
-"t": "2026-11-19T20:53+05:30",
+"t": "2026-11-19T22:30+05:30",
 "v": "INE353A01023"
 },
 "500192": {
@@ -50594,7 +50561,7 @@
 "v": 3560700
 },
 "INE353A01023": {
-"t": "2026-11-19T20:53+05:30",
+"t": "2026-11-19T22:30+05:30",
 "v": 33670000
 },
 "INE353H01010": {
