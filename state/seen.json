@@ -11721,6 +11721,10 @@
 "s": "old",
 "t": "2026-11-18T08:02+05:30"
 },
+"NSE-equities-IF-215270": {
+"s": "nodata",
+"t": "2026-11-19T10:29+05:30"
+},
 "NSE-equities-IF-215306": {
 "s": "superseded",
 "t": "2026-11-18T13:53+05:30"
@@ -41631,22 +41635,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
-},
-"NSE-equities-IF-215270": {
-"company": "Manappuram Finance Limited",
-"consolidated": null,
-"filed_at": "2026-11-18T10:25:57+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-06-30",
-"revised": true,
-"scrip": "",
-"source": "NSE",
-"symbol": "MANAPPURAM",
-"t": "2026-11-18T10:29+05:30",
-"uid": "NSE-equities-IF-215270",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_GOVERNANCE_215270_18112026102556_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_GOVERNANCE_1759655_18112026102555_WEB.xml"
 },
 "NSE-equities-IF-215294": {
 "company": "Highway Infrastructure Limited",
