@@ -14225,6 +14225,11 @@
 "NSE-sme-IF-215485": {
 "s": "small",
 "t": "2026-11-18T20:04+05:30"
+},
+"NSE-sme-IF-215539": {
+"n": 1,
+"s": "retry",
+"t": "2026-11-19T12:39+05:30"
 }
 },
 "first_seen": {
@@ -14395,6 +14400,9 @@
 },
 "NSE SME|SMVD|2026-09-30": {
 "t": "2026-11-16T14:21+05:30"
+},
+"NSE SME|SPECTRAA|2026-09-30": {
+"t": "2026-11-19T12:39+05:30"
 },
 "NSE SME|TRANSTEEL|2026-09-30": {
 "t": "2026-11-16T19:56+05:30"
@@ -15484,10 +15492,6 @@
 "BSE:505797": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f06f6604-745e-44c3-9aa0-d0d55c82b927.pdf",
 "t": "2026-11-13T21:11+05:30"
-},
-"BSE:505800": {
-"c": 1,
-"t": "2026-11-12T12:35+05:30"
 },
 "BSE:505978": {
 "c": 1,
@@ -16718,9 +16722,6 @@
 },
 "BSE:521141": {
 "t": "2026-11-12T19:26+05:30"
-},
-"BSE:521149": {
-"t": "2026-11-12T12:39+05:30"
 },
 "BSE:521151": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/23d07da5-8238-4caf-8b2e-0112c0767667.pdf",
@@ -21998,9 +21999,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GRASIM2_13112026142014_SE.pdf",
 "t": "2026-11-13T14:20+05:30"
 },
-"GREENASIA": {
-"t": "2026-11-12T12:37+05:30"
-},
 "GRMOVER": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/GRMOVER_14112026210032_outcome_to_upload.pdf",
@@ -26038,9 +26036,6 @@
 },
 "INE419D01026": {
 "t": "2026-11-12T16:55+05:30"
-},
-"INE419E01024": {
-"t": "2026-11-12T12:39+05:30"
 },
 "INE419H01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5426bdde-acb2-4edb-98b8-6727aa36e812.pdf",
@@ -32434,9 +32429,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GRASIM2_13112026142014_SE.pdf",
 "t": "2026-11-13T14:20+05:30"
 },
-"N:GREENASIAIMPEX": {
-"t": "2026-11-12T12:37+05:30"
-},
 "N:GREENCRESTFINANCIALSERVICES": {
 "t": "2026-11-12T20:32+05:30"
 },
@@ -35275,9 +35267,6 @@
 "N:PRIMESECURITIES": {
 "c": 1,
 "t": "2026-11-12T17:37+05:30"
-},
-"N:PRIMEURBANDEVELOPMENTINDIA": {
-"t": "2026-11-12T12:39+05:30"
 },
 "N:PRITHVIEXCHANGEINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb78a02d-4e44-4a97-8ccd-72863c7d994c.pdf",
@@ -41507,6 +41496,38 @@
 "uid": "NSE-equities-IF-215441",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_215441_18112026184228_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1759888_18112026064228_WEB.xml"
+},
+"NSE-sme-IF-215538": {
+"company": "SpectraA Technology Solutions Limited",
+"consolidated": false,
+"filed_at": "2026-11-19T12:38:39+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SPECTRAA",
+"t": "2026-11-19T12:39+05:30",
+"uid": "NSE-sme-IF-215538",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215538_19112026123838_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760019_19112026123837_WEB.xml"
+},
+"NSE-sme-IF-215539": {
+"company": "SpectraA Technology Solutions Limited",
+"consolidated": true,
+"filed_at": "2026-11-19T12:39:20+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "SPECTRAA",
+"t": "2026-11-19T12:39+05:30",
+"uid": "NSE-sme-IF-215539",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_215539_19112026123919_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760020_19112026123919_WEB.xml"
 }
 },
 "posted": {
