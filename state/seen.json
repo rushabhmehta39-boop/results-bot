@@ -14245,6 +14245,9 @@
 "BSE|511523|2026-09-30": {
 "t": "2026-11-16T14:01+05:30"
 },
+"BSE|511535|2026-06-30": {
+"t": "2026-11-19T13:02+05:30"
+},
 "BSE|512379|2026-09-30": {
 "t": "2026-11-16T15:53+05:30"
 },
@@ -16395,10 +16398,6 @@
 },
 "BSE:515018": {
 "t": "2026-11-12T19:16+05:30"
-},
-"BSE:515037": {
-"c": 1,
-"t": "2026-11-12T12:58+05:30"
 },
 "BSE:515085": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e48fd2b1-1d59-41c2-b3e9-7342d6170378.pdf",
@@ -21449,9 +21448,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/CASHURDRIVE_15112026015019_Outcome_BM_14_Nov_2026.pdf",
 "t": "2026-11-15T01:53+05:30"
 },
-"CURAA": {
-"t": "2026-11-12T12:58+05:30"
-},
 "CURRENT": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CURRENTINFRA_14112026175749_BM_OUTCOME_SIGNED_14112026.pdf",
 "t": "2026-11-14T18:08+05:30"
@@ -23878,9 +23874,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2210016c-ca5e-47bb-b99e-e2c595b54ceb.pdf",
 "t": "2026-11-13T17:50+05:30"
-},
-"INE117B01020": {
-"t": "2026-11-12T12:58+05:30"
 },
 "INE117C01010": {
 "t": "2026-11-12T14:32+05:30"
@@ -27458,10 +27451,6 @@
 "INE691Z01015": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
 "t": "2026-11-17T18:57+05:30"
-},
-"INE692B01014": {
-"c": 1,
-"t": "2026-11-12T12:58+05:30"
 },
 "INE692Z01013": {
 "c": 1,
@@ -31311,9 +31300,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b7dc7ca6-3873-4f40-8ddf-2677e55a78ce.pdf",
 "t": "2026-11-13T19:00+05:30"
 },
-"N:CURATECHNOLOGIES": {
-"t": "2026-11-12T12:58+05:30"
-},
 "N:CURRENTINFRAPROJECTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CURRENTINFRA_14112026175749_BM_OUTCOME_SIGNED_14112026.pdf",
 "t": "2026-11-14T18:08+05:30"
@@ -34259,10 +34245,6 @@
 "N:MUNOTHFINANCIALSERVICES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/30a97c24-f0f5-472f-b363-c3a3ae2bf17d.pdf",
 "t": "2026-11-13T16:20+05:30"
-},
-"N:MURUDESHWARCERAMICS": {
-"c": 1,
-"t": "2026-11-12T12:58+05:30"
 },
 "N:MUZALIARTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/00b37ea4-dfc2-4283-87ea-d4a354304696.pdf",
@@ -41384,6 +41366,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml": {
+"company": "NDA Securities Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-06-30",
+"revised": false,
+"scrip": "511535",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-19T13:02+05:30",
+"uid": "BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFNBFCDuplicateUploadDocument/Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml"
 },
 "NSE-equities-IF-215441": {
 "company": "Ansal Properties & Infrastructure Limited",
