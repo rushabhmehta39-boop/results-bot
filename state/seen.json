@@ -7386,6 +7386,9 @@
 "BSE|531980|2026-09-30": {
 "t": "2026-11-18T15:01+05:30"
 },
+"BSE|538607|2026-09-30": {
+"t": "2026-11-20T23:35+05:30"
+},
 "BSE|544111|2026-03-31": {
 "t": "2026-11-18T13:36+05:30"
 },
@@ -19898,6 +19901,22 @@
 "uid": "BSE-IFOtherthan_544794_20112026215417_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544794_20112026215417_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544794_20112026215417_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml": {
+"company": "Toyam Sports Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "538607",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-20T23:35+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
 }
 },
 "posted": {
