@@ -2682,6 +2682,14 @@
 "s": "superseded",
 "t": "2026-11-16T08:24+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-20T21:24+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-20T21:24+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_531497_1311202623629_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-14T08:05+05:30"
@@ -4843,10 +4851,6 @@
 "s": "small",
 "t": "2026-11-14T22:13+05:30"
 },
-"NSE-equities-IF-213207": {
-"s": "posted",
-"t": "2026-11-13T21:24+05:30"
-},
 "NSE-equities-IF-213229": {
 "s": "posted",
 "t": "2026-11-13T22:09+05:30"
@@ -4934,14 +4938,6 @@
 "NSE-equities-IF-213898": {
 "s": "old",
 "t": "2026-11-14T04:18+05:30"
-},
-"NSE-equities-IF-213943": {
-"s": "superseded",
-"t": "2026-11-13T21:24+05:30"
-},
-"NSE-equities-IF-213944": {
-"s": "posted",
-"t": "2026-11-13T21:24+05:30"
 },
 "NSE-equities-IF-213950": {
 "s": "superseded",
@@ -8718,10 +8714,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/ACETECHINC_14112026192854_BM_Outcome_sd.pdf",
 "t": "2026-11-14T19:30+05:30"
 },
-"ACTIVEINFR": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ACTIVEINFRA_13112026212151_Outcome.pdf",
-"t": "2026-11-13T21:22+05:30"
-},
 "AESTHETIK": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/AESTHETIK_14112026144334_Outcome_of_BM_14112026_signed.pdf",
@@ -10484,10 +10476,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1d34d56b-e487-496a-a957-b1cbfff0e649.pdf",
 "t": "2026-11-14T16:21+05:30"
 },
-"BSE:532986": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2de3e14-8010-449e-b9a2-d5191019d66f.pdf",
-"t": "2026-11-13T21:19+05:30"
-},
 "BSE:533001": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/37b7fe6e-2b0f-4039-a54e-11c776fa8028.pdf",
 "t": "2026-11-14T17:32+05:30"
@@ -11763,11 +11751,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/COMSYN1984_14112026185328_SE_Results_Q2.pdf",
 "t": "2026-11-14T18:55+05:30"
-},
-"CONFIPET": {
-"c": 1,
-"pdf": "https://nsearchives.nseindia.in/corporate/CONFIPET_13112026212050_CPIL-RESULT-SEPT-2026-SIGNED.pdf",
-"t": "2026-11-13T21:22+05:30"
 },
 "COOLCAPS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COOLCAPS_14112026154246_OutcomeofBMCCIL14112026.pdf",
@@ -14147,11 +14130,6 @@
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/UDAYJEW_14112026134808_Finaloutcome14112026_sd.pdf|S|6",
 "t": "2026-11-14T13:50+05:30"
 },
-"INE552D01024": {
-"c": 1,
-"pdf": "https://nsearchives.nseindia.in/corporate/CONFIPET_13112026212050_CPIL-RESULT-SEPT-2026-SIGNED.pdf",
-"t": "2026-11-13T21:22+05:30"
-},
 "INE552Q01018": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a9e12628-3f61-455a-9ccd-d7bfa36c8b50.pdf",
 "t": "2026-11-14T18:06+05:30"
@@ -14507,11 +14485,6 @@
 "INE707C01018": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94c3047d-a168-4e18-857e-a8c9e8a18881.pdf",
 "t": "2026-11-14T17:10+05:30"
-},
-"INE709A01018": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e7d1e7cb-b7a5-4fd5-8893-056ff230f801.pdf",
-"t": "2026-11-13T21:24+05:30"
 },
 "INE712B01010": {
 "c": 1,
@@ -15463,10 +15436,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
 "t": "2026-11-14T12:56+05:30"
 },
-"N:ACTIVEINFRASTRUCTURES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ACTIVEINFRA_13112026212151_Outcome.pdf",
-"t": "2026-11-13T21:22+05:30"
-},
 "N:ADDIINDUSTRIES": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9090bb23-91c9-4463-8cad-ddbba3cfc8f0.pdf",
@@ -16097,11 +16066,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e120f9e0-c333-4f2f-8d75-e2ba853ea338.pdf",
 "t": "2026-11-14T18:55+05:30"
-},
-"N:CONFIDENCEPETROLEUMINDIA": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/746c4d38-5451-46bd-a6c6-446adad0c8e6.pdf",
-"t": "2026-11-13T21:22+05:30"
 },
 "N:CONSTRONICSINFRA": {
 "c": 1,
@@ -19773,10 +19737,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/VLINFRA_14112026171051_OutcomeFR.pdf",
 "t": "2026-11-14T17:16+05:30"
 },
-"VLSFINANCE": {
-"pdf": "https://nsearchives.nseindia.in/corporate/VLSFINANCE_13112026212055_OutcomeofBoardMeeting13112026.pdf",
-"t": "2026-11-13T21:24+05:30"
-},
 "VNL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/9822042244_14112026154711_VNL_Financial_statement_as_on_Sep_26__2_.pdf",
 "t": "2026-11-14T15:49+05:30"
@@ -21674,40 +21634,7 @@
 }
 },
 "pdfq": {},
-"pending": {
-"BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml": {
-"company": "Boston Commerce Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-06-30",
-"revised": false,
-"scrip": "531458",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-20T21:07+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.xml": {
-"company": "Boston Commerce Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "531458",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-20T21:07+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.xml"
-}
-},
+"pending": {},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
@@ -28601,6 +28528,10 @@
 "t": "2026-11-13T19:59+05:30",
 "v": "INE323D01020"
 },
+"531458": {
+"t": "2026-11-20T21:24+05:30",
+"v": "INE109B01019"
+},
 "531460": {
 "t": "2026-11-13T08:05+05:30",
 "v": "INE545B01022"
@@ -35182,6 +35113,10 @@
 "INE108E01023": {
 "t": "2026-11-13T19:08+05:30",
 "v": 473878000
+},
+"INE109B01019": {
+"t": "2026-11-20T21:24+05:30",
+"v": 7002200
 },
 "INE10A501018": {
 "t": "2026-11-14T16:02+05:30",
