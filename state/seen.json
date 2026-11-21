@@ -4934,6 +4934,10 @@
 "s": "small",
 "t": "2026-11-20T20:04+05:30"
 },
+"NSE-equities-IF-215977": {
+"s": "small",
+"t": "2026-11-21T13:00+05:30"
+},
 "NSE-sme-IF-213488": {
 "n": 6,
 "s": "failed",
@@ -5031,11 +5035,6 @@
 "NSE-sme-IF-214130": {
 "s": "small",
 "t": "2026-11-16T08:06+05:30"
-},
-"NSE-sme-IF-214149": {
-"n": 6,
-"s": "failed",
-"t": "2026-11-14T12:55+05:30"
 },
 "NSE-sme-IF-214153": {
 "n": 6,
@@ -6414,6 +6413,10 @@
 "NSE-sme-IF-215948": {
 "s": "small",
 "t": "2026-11-20T20:04+05:30"
+},
+"NSE-sme-IF-215977": {
+"s": "small",
+"t": "2026-11-21T13:00+05:30"
 }
 },
 "first_seen": {
@@ -6483,11 +6486,11 @@
 "NSE SME|FASCINATE|2026-09-30": {
 "t": "2026-11-20T18:45+05:30"
 },
+"NSE SME|GICL|2026-09-30": {
+"t": "2026-11-21T12:59+05:30"
+},
 "NSE SME|GVPTECH|2026-09-30": {
 "t": "2026-11-20T20:04+05:30"
-},
-"NSE SME|ICELCO|2026-09-30": {
-"t": "2026-11-18T12:56+05:30"
 },
 "NSE SME|KONSTELEC|2026-09-30": {
 "t": "2026-11-18T20:04+05:30"
@@ -6509,6 +6512,9 @@
 },
 "NSE|BLSPOLY|2026-09-30": {
 "t": "2026-11-18T22:33+05:30"
+},
+"NSE|GICL|2026-09-30": {
+"t": "2026-11-21T12:59+05:30"
 },
 "NSE|GVPTECH|2026-09-30": {
 "t": "2026-11-20T20:04+05:30"
@@ -6605,10 +6611,6 @@
 "AMBAAUTO": {
 "pdf": "https://nsearchives.nseindia.in/corporate/9900367421_14112026201525_BM.pdf",
 "t": "2026-11-14T20:16+05:30"
-},
-"AMDIND": {
-"pdf": "https://nsearchives.nseindia.in/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
-"t": "2026-11-14T12:56+05:30"
 },
 "ANIKINDS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ANIKINDS_14112026180303_Outcome.pdf",
@@ -8542,10 +8544,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
 "t": "2026-11-17T18:40+05:30"
 },
-"BSE:541144": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
-"t": "2026-11-14T12:56+05:30"
-},
 "BSE:541347": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d62317f-16f5-4200-af37-2e735761d414.pdf",
 "t": "2026-11-14T20:34+05:30"
@@ -9632,10 +9630,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f98670a6-699d-4f47-9879-b649f9356aa0.pdf",
 "t": "2026-11-14T17:51+05:30"
 },
-"INE005I01014": {
-"pdf": "https://nsearchives.nseindia.in/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
-"t": "2026-11-14T12:56+05:30"
-},
 "INE009C01019": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/36253776-6998-4417-a1da-fca9892e6eca.pdf",
@@ -10381,10 +10375,6 @@
 },
 "INE105C01023": {
 "t": "2026-11-16T14:44+05:30"
-},
-"INE105I01020": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/50802b51-001c-4225-942a-4d4cb023fdfe.pdf",
-"t": "2026-11-14T12:58+05:30"
 },
 "INE109B01019": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/716f9a8a-75b3-452e-b7e8-93eb52124b47.pdf",
@@ -11156,10 +11146,6 @@
 "INE377E01024": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d5d73f5d-d0d0-41e0-97ca-68c04c258ece.pdf",
 "t": "2026-11-14T13:57+05:30"
-},
-"INE380Z01015": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
-"t": "2026-11-14T12:56+05:30"
 },
 "INE382T01030": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -12708,10 +12694,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d4de00b-6f40-4f54-b833-46d8eca8cd09.pdf",
 "t": "2026-11-14T16:51+05:30"
 },
-"N:ACTIVECLOTHINGCO": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/737a9703-05a3-4ac9-a7df-9ac3a6c91951.pdf",
-"t": "2026-11-14T12:56+05:30"
-},
 "N:ADDIINDUSTRIES": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/9090bb23-91c9-4463-8cad-ddbba3cfc8f0.pdf",
@@ -12832,10 +12814,6 @@
 "N:AMBAAUTOSALESANDSERVICES": {
 "pdf": "https://nsearchives.nseindia.in/corporate/9900367421_14112026201525_BM.pdf",
 "t": "2026-11-14T20:16+05:30"
-},
-"N:AMDINDUSTRIES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/AMDIND_14112026125518_sIGNEDFinalresultsBM14112026.pdf",
-"t": "2026-11-14T12:56+05:30"
 },
 "N:AMINTANNERY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2d08c5f9-3b03-4a80-8ef6-617d03163832.pdf",
@@ -16295,10 +16273,6 @@
 "SEL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SUNGARNER_14112026211207_Outcome_of_Board_Meeting_final-Signed.pdf",
 "t": "2026-11-14T21:12+05:30"
-},
-"SELMC": {
-"pdf": "https://nsearchives.nseindia.in/corporate/SELMC_14112026125619_SelOutcomeNov2026File.pdf",
-"t": "2026-11-14T12:58+05:30"
 },
 "SERVICE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SERVICECARE_14112026132321_Financials_H1_Outcome.pdf",
@@ -22068,8 +22042,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-20T20:50+05:30",
-"v": "INE1Q2D01019"
+"t": "2026-11-21T13:00+05:30",
+"v": "INE947T01022"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -37834,7 +37808,7 @@
 "v": 20796300
 },
 "INE947T01022": {
-"t": "2026-11-16T08:07+05:30",
+"t": "2026-11-21T13:00+05:30",
 "v": 111954600
 },
 "INE948G01019": {
