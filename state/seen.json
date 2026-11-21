@@ -3994,14 +3994,6 @@
 "s": "superseded",
 "t": "2026-11-14T08:02+05:30"
 },
-"NSE-equities-IF-213290": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
-"NSE-equities-IF-213328": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
 "NSE-equities-IF-213353": {
 "s": "superseded",
 "t": "2026-11-14T13:53+05:30"
@@ -4009,10 +4001,6 @@
 "NSE-equities-IF-213427": {
 "s": "small",
 "t": "2026-11-14T16:02+05:30"
-},
-"NSE-equities-IF-213480": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
 },
 "NSE-equities-IF-213551": {
 "s": "superseded",
@@ -4038,21 +4026,9 @@
 "s": "superseded",
 "t": "2026-11-14T14:13+05:30"
 },
-"NSE-equities-IF-213805": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
-"NSE-equities-IF-213807": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
 "NSE-equities-IF-213816": {
 "s": "superseded",
 "t": "2026-11-14T19:32+05:30"
-},
-"NSE-equities-IF-213828": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
 },
 "NSE-equities-IF-213836": {
 "s": "small",
@@ -4061,10 +4037,6 @@
 "NSE-equities-IF-213850": {
 "s": "small",
 "t": "2026-11-14T19:55+05:30"
-},
-"NSE-equities-IF-213898": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
 },
 "NSE-equities-IF-213950": {
 "s": "superseded",
@@ -5715,10 +5687,6 @@
 "s": "small",
 "t": "2026-11-20T20:04+05:30"
 },
-"NSE-sme-IF-213290": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
 "NSE-sme-IF-213312": {
 "s": "small",
 "t": "2026-11-14T12:49+05:30"
@@ -5783,14 +5751,6 @@
 "s": "failed",
 "t": "2026-11-14T20:57+05:30"
 },
-"NSE-sme-IF-213974": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
-"NSE-sme-IF-213979": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
 "NSE-sme-IF-213981": {
 "s": "superseded",
 "t": "2026-11-14T18:27+05:30"
@@ -5818,14 +5778,6 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-14T08:19+05:30"
-},
-"NSE-sme-IF-214044": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
-},
-"NSE-sme-IF-214045": {
-"s": "old",
-"t": "2026-11-14T04:18+05:30"
 },
 "NSE-sme-IF-214057": {
 "s": "superseded",
@@ -7330,6 +7282,10 @@
 "s": "small",
 "t": "2026-11-19T17:53+05:30"
 },
+"NSE-sme-IF-215818": {
+"s": "old",
+"t": "2026-11-21T05:43+05:30"
+},
 "NSE-sme-IF-215919": {
 "s": "small",
 "t": "2026-11-20T20:50+05:30"
@@ -7638,6 +7594,9 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/AVIANSH_14112026154628_Outcome_of_the_meeting.pdf",
 "t": "2026-11-14T15:46+05:30"
 },
+"AVPINFRA": {
+"t": "2026-11-21T00:11+05:30"
+},
 "AVROIND": {
 "pdf": "https://nsearchives.nseindia.in/corporate/AVONMPL_14112026222445_Results.pdf",
 "t": "2026-11-14T22:26+05:30"
@@ -7754,10 +7713,6 @@
 "BSE:500421": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c640ced0-5514-4bd5-aa31-2c1f638ddff5.pdf",
 "t": "2026-11-14T17:03+05:30"
-},
-"BSE:500458": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fbcc369-8f64-46ad-bdad-4fcf33472322.pdf",
-"t": "2026-11-14T00:18+05:30"
 },
 "BSE:500477": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e6ba97b-b37f-4229-bec5-d7f4a78355c0.pdf",
@@ -10518,10 +10473,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/FRESHARA_14112026141636_Outcome_of_BM_dt_14112026_signed.pdf",
 "t": "2026-11-14T14:18+05:30"
 },
-"FUSIONCX": {
-"pdf": "https://nsearchives.nseindia.in/corporate/FUSIONCX_14112026001553_OutcomeofBoardMeetingIntimationFusionCX.pdf",
-"t": "2026-11-14T00:19+05:30"
-},
 "FWSTC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/FLYWINGSINC_14112026172900_BM_Outcome_141126_S.pdf",
 "t": "2026-11-14T17:29+05:30"
@@ -11217,10 +11168,6 @@
 "INE0N0Y01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba7cb834-e42a-402e-bf3f-9fd7dd0ae55b.pdf",
 "t": "2026-11-14T20:04+05:30"
-},
-"INE0N2201019": {
-"pdf": "https://nsearchives.nseindia.in/corporate/FUSIONCX_14112026001553_OutcomeofBoardMeetingIntimationFusionCX.pdf",
-"t": "2026-11-14T00:19+05:30"
 },
 "INE0NC801013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/948b9a46-7f6e-4e7b-9cf5-90cd28635832.pdf",
@@ -12702,10 +12649,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/8e749ef9-d064-44cd-a15b-f38ae6e3426c.pdf",
 "t": "2026-11-14T20:48+05:30"
 },
-"INE601A01017": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fbcc369-8f64-46ad-bdad-4fcf33472322.pdf",
-"t": "2026-11-14T00:18+05:30"
-},
 "INE601B01023": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3a50df72-a80f-4988-a3af-04c46531cef1.pdf",
 "t": "2026-11-14T15:56+05:30"
@@ -14182,6 +14125,9 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d26e8d4f-e666-430d-b20b-62eada572a95.pdf",
 "t": "2026-11-14T20:34+05:30"
 },
+"N:AVPINFRACON": {
+"t": "2026-11-21T00:11+05:30"
+},
 "N:AVROINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/460c9490-662d-4fbc-9f38-1855723b4fb8.pdf",
 "t": "2026-11-14T22:09+05:30"
@@ -14773,10 +14719,6 @@
 "N:FRUITIONVENTURE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/92c6b28d-83e9-4863-8dd8-7821b4d0130c.pdf",
 "t": "2026-11-14T16:17+05:30"
-},
-"N:FUSIONCX": {
-"pdf": "https://nsearchives.nseindia.in/corporate/FUSIONCX_14112026001553_OutcomeofBoardMeetingIntimationFusionCX.pdf",
-"t": "2026-11-14T00:19+05:30"
 },
 "N:FUTURECONSUMER": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e2dada32-8dfc-4606-acff-e25f919ad355.pdf",
@@ -15916,10 +15858,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4d571749-205a-4fee-b8d2-6912c220b485.pdf",
 "t": "2026-11-14T16:15+05:30"
 },
-"N:ORIANAPOWER": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ORIANA_14112026023539_FinalResult.pdf",
-"t": "2026-11-14T02:37+05:30"
-},
 "N:ORIENTTRADELINK": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
 "t": "2026-11-18T19:30+05:30"
@@ -16951,10 +16889,6 @@
 "N:TAURIANMPS": {
 "t": "2026-11-16T15:55+05:30"
 },
-"N:TEAM24CONSUMERPRODUCTS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2fbcc369-8f64-46ad-bdad-4fcf33472322.pdf",
-"t": "2026-11-14T00:18+05:30"
-},
 "N:TECHNOCRAFTVENTURES": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/56713391-27af-43a7-bc1e-1760d1eea4cc.pdf",
@@ -17009,11 +16943,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/TIL_14112026164834_FINANCIALSSET2026.pdf",
 "t": "2026-11-14T16:49+05:30"
 },
-"N:TIMESCANLOGISTICSINDIA": {
-"c": 1,
-"pdf": "https://nsearchives.nseindia.in/corporate/TIMESCAN_14112026005003_Outcome_of_Board_Meeting_-_13th_Nov_2026.pdf",
-"t": "2026-11-14T00:52+05:30"
-},
 "N:TIRUPATISTARCHANDCHEMICALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5f0b6318-a231-48f1-afb4-5b9b9d67467f.pdf",
 "t": "2026-11-14T15:34+05:30"
@@ -17030,10 +16959,6 @@
 "N:TPIINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c640ced0-5514-4bd5-aa31-2c1f638ddff5.pdf",
 "t": "2026-11-14T17:03+05:30"
-},
-"N:TRANSTEELSEATINGTECHNOLOGIES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/TRANSTEEL_16112026194503_Transteel_Outcome_sd.pdf",
-"t": "2026-11-14T00:00+05:30"
 },
 "N:TRANWAY21TECHNOLOGIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/43b8b7a6-45da-4592-9763-a5d7371892ec.pdf",
@@ -17416,10 +17341,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/ORCHPHARMA_14112026161414_Stx_Ltr_BM_Outcome.pdf",
 "t": "2026-11-14T16:15+05:30"
-},
-"ORIANA": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ORIANA_14112026023539_FinalResult.pdf",
-"t": "2026-11-14T02:37+05:30"
 },
 "OSWALSEEDS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/OSWALSEEDS_14112026192311_Result_Sep_2026.pdf",
@@ -17819,18 +17740,9 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/TIL_14112026164834_FINANCIALSSET2026.pdf",
 "t": "2026-11-14T16:49+05:30"
 },
-"TIMESCAN": {
-"c": 1,
-"pdf": "https://nsearchives.nseindia.in/corporate/TIMESCAN_14112026005003_Outcome_of_Board_Meeting_-_13th_Nov_2026.pdf",
-"t": "2026-11-14T00:52+05:30"
-},
 "TOLINS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/tolins_14112026154947_Outcome_BM_Q2.pdf",
 "t": "2026-11-14T15:49+05:30"
-},
-"TRANSTEEL": {
-"pdf": "https://nsearchives.nseindia.in/corporate/TRANSTEEL_16112026194503_Transteel_Outcome_sd.pdf",
-"t": "2026-11-14T00:00+05:30"
 },
 "TUNWAL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TUNWAL2024_14112026171846_Outcome_Final_SD.pdf",
