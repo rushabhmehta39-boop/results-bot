@@ -54,6 +54,9 @@
 "ANN-sme-106866345-NEELAM": {
 "t": "2026-11-19T17:30+05:30"
 },
+"ANN-sme-106867963-AVPINFRA": {
+"t": "2026-11-21T08:01+05:30"
+},
 "BANN-0590a3ac-aa8d-4983-a36d-817b6553443c": {
 "t": "2026-11-19T11:20+05:30"
 },
@@ -592,6 +595,10 @@
 "s": "small",
 "t": "2026-11-16T08:08+05:30"
 },
+"BSE-IFOtherthan_544771_20112026221214_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-21T08:01+05:30"
+},
 "BSE-IFOtherthan_544772_14112026232714_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-16T08:08+05:30"
@@ -599,6 +606,10 @@
 "BSE-IFOtherthan_544773_14112026221823_IFOtherthan.xml": {
 "s": "posted",
 "t": "2026-11-16T08:08+05:30"
+},
+"BSE-IFOtherthan_544794_20112026215417_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-21T08:01+05:30"
 },
 "BSE-IFOtherthan_544810_14112026153642_IFOtherthan.xml": {
 "s": "small",
@@ -8345,10 +8356,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fccbf776-5a04-4218-a534-934e5e3dd303.pdf",
 "t": "2026-11-14T20:25+05:30"
 },
-"BSE:523419": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c66830b5-e648-4931-a212-f93a40acfcd3.pdf",
-"t": "2026-11-14T06:43+05:30"
-},
 "BSE:523606": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/09e44f0f-5c59-46ba-98c9-8d42d3b8258a.pdf",
@@ -11459,10 +11466,6 @@
 "INE13G401012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4bf4430b-27a5-4bd2-99d6-07972af58284.pdf",
 "t": "2026-11-14T17:01+05:30"
-},
-"INE141D01018": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c66830b5-e648-4931-a212-f93a40acfcd3.pdf",
-"t": "2026-11-14T06:43+05:30"
 },
 "INE144C01014": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f58cd009-f0a4-4ead-b9a0-bd2e695acca2.pdf",
@@ -16860,10 +16863,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f739e3a7-9ce6-4c16-bf9f-8982ee03648a.pdf",
 "t": "2026-11-14T15:51+05:30"
 },
-"N:TAMILNADUTELECOMMUNICATIONS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c66830b5-e648-4931-a212-f93a40acfcd3.pdf",
-"t": "2026-11-14T06:43+05:30"
-},
 "N:TANDHANENERGIESFORMERLYKNOWNASSHAHFOODS": {
 "c": 1,
 "t": "2026-11-16T08:12+05:30"
@@ -19758,38 +19757,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-IFOtherthan_544771_20112026221214_IFOtherthan.xml": {
-"company": "Rajnandini Fashion India Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544771",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-20T22:15+05:30",
-"uid": "BSE-IFOtherthan_544771_20112026221214_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544771_20112026221214_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544771_20112026221214_IFOtherthan.xml"
-},
-"BSE-IFOtherthan_544794_20112026215417_IFOtherthan.xml": {
-"company": "Horizon Reclaim (India) Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "544794",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-20T22:04+05:30",
-"uid": "BSE-IFOtherthan_544794_20112026215417_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544794_20112026215417_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_544794_20112026215417_IFOtherthan.xml"
-},
 "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml": {
 "company": "Toyam Sports Ltd",
 "consolidated": false,
@@ -30228,6 +30195,10 @@
 "t": "2026-11-16T08:08+05:30",
 "v": "INE1T6L01010"
 },
+"544771": {
+"t": "2026-11-21T08:01+05:30",
+"v": "INE1GM501015"
+},
 "544772": {
 "t": "2026-11-16T08:08+05:30",
 "v": "INE1KVL01010"
@@ -30243,6 +30214,10 @@
 "544786": {
 "t": "2026-11-12T22:05+05:30",
 "v": "INE155D01018"
+},
+"544794": {
+"t": "2026-11-21T08:01+05:30",
+"v": "INE1SEO01013"
 },
 "544797": {
 "t": "2026-11-13T08:05+05:30",
@@ -34206,6 +34181,10 @@
 "t": "2026-11-14T08:03+05:30",
 "v": 14286200
 },
+"INE1GM501015": {
+"t": "2026-11-21T08:01+05:30",
+"v": 10370000
+},
 "INE1GUJ01014": {
 "t": "2026-11-13T17:02+05:30",
 "v": 17892800
@@ -34321,6 +34300,10 @@
 "INE1S7M01017": {
 "t": "2026-11-13T22:28+05:30",
 "v": 20893400
+},
+"INE1SEO01013": {
+"t": "2026-11-21T08:01+05:30",
+"v": 19515400
 },
 "INE1SPP01016": {
 "t": "2026-11-13T21:31+05:30",
