@@ -707,6 +707,10 @@
 "s": "small",
 "t": "2026-11-14T21:49+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-21T21:18+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_523790_14112026173252_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T08:13+05:30"
@@ -3162,10 +3166,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/69beb364-a336-435b-9983-9d8204c50276.pdf",
 "t": "2026-11-14T23:31+05:30"
 },
-"BSE:512634": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7199c465-c068-4966-8449-234e638e33c3.pdf",
-"t": "2026-11-14T21:17+05:30"
-},
 "BSE:513513": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f010cbae-7d52-4a2a-aeb7-0e7de6d7a857.pdf",
 "t": "2026-11-14T22:40+05:30"
@@ -3723,10 +3723,6 @@
 "INE0ZCQ01019": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
 "t": "2026-11-18T18:22+05:30"
-},
-"INE104E01014": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7199c465-c068-4966-8449-234e638e33c3.pdf",
-"t": "2026-11-14T21:17+05:30"
 },
 "INE105C01023": {
 "t": "2026-11-16T14:44+05:30"
@@ -4494,10 +4490,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4a3e4d9a-1319-43b2-bb0f-9c3574a76f16.pdf",
 "t": "2026-11-14T23:15+05:30"
-},
-"N:SAVERAINDUSTRIES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7199c465-c068-4966-8449-234e638e33c3.pdf",
-"t": "2026-11-14T21:17+05:30"
 },
 "N:SENTHILINFOTEK": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/e0e6c0e5-2157-4df4-b05e-e6445b423c6c.pdf",
@@ -6249,22 +6241,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.xml": {
-"company": "Trans India House Impex Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "523752",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-21T19:17+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml": {
 "company": "Toyam Sports Ltd",
 "consolidated": false,
@@ -12062,6 +12038,10 @@
 "523732": {
 "t": "2026-11-14T19:45+05:30",
 "v": "INE866A01016"
+},
+"523752": {
+"t": "2026-11-21T21:18+05:30",
+"v": "INE502D01011"
 },
 "523790": {
 "t": "2026-11-16T08:13+05:30",
@@ -22912,6 +22892,10 @@
 "INE501Y01019": {
 "t": "2026-11-07T22:08+05:30",
 "v": 10500000
+},
+"INE502D01011": {
+"t": "2026-11-21T21:18+05:30",
+"v": 71052000
 },
 "INE503D01027": {
 "t": "2026-11-13T21:49+05:30",
