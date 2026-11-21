@@ -4841,6 +4841,14 @@
 "s": "small",
 "t": "2026-11-21T13:00+05:30"
 },
+"NSE-equities-IF-215987": {
+"s": "superseded",
+"t": "2026-11-21T14:07+05:30"
+},
+"NSE-equities-IF-215988": {
+"s": "small",
+"t": "2026-11-21T14:07+05:30"
+},
 "NSE-sme-IF-213488": {
 "n": 6,
 "s": "failed",
@@ -6324,6 +6332,9 @@
 "BSE|531980|2026-09-30": {
 "t": "2026-11-18T15:01+05:30"
 },
+"BSE|532389|2026-09-30": {
+"t": "2026-11-21T14:07+05:30"
+},
 "BSE|538607|2026-09-30": {
 "t": "2026-11-20T23:35+05:30"
 },
@@ -6380,6 +6391,9 @@
 },
 "NSE|NDLVENTURE|2026-09-30": {
 "t": "2026-11-19T20:30+05:30"
+},
+"NSE|VALECHAENG|2026-09-30": {
+"t": "2026-11-21T14:07+05:30"
 }
 },
 "fresh": {
@@ -6538,10 +6552,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/ATALREAL_14112026184457_Board_Meeting_Outcome_14112026.pdf",
 "t": "2026-11-14T18:45+05:30"
 },
-"ATAM": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ATAM_14112026140208_INTIMATIONTOEXCHANGE.pdf",
-"t": "2026-11-14T14:07+05:30"
-},
 "ATMASTCO": {
 "pdf": "https://nsearchives.nseindia.in/corporate/atmastcoipo_14112026193616_Outcome_of_Financial_Approval.pdf",
 "t": "2026-11-14T19:38+05:30"
@@ -6657,10 +6667,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3f96584a-211c-46ec-9756-3795e73775cf.pdf",
 "t": "2026-11-14T16:13+05:30"
-},
-"BSE:500368": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7acb217e-d179-422d-9946-235999338810.pdf",
-"t": "2026-11-14T14:04+05:30"
 },
 "BSE:500421": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c640ced0-5514-4bd5-aa31-2c1f638ddff5.pdf",
@@ -6973,10 +6979,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1045bda5-6e56-4add-afb8-75990a1cc038.pdf",
 "t": "2026-11-14T16:47+05:30"
-},
-"BSE:514113": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b592364-605a-4322-a41e-e79371873d43.pdf",
-"t": "2026-11-14T14:05+05:30"
 },
 "BSE:514128": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1a6265dc-fa5f-4fae-8410-263bdde1c8d4.pdf",
@@ -8554,10 +8556,6 @@
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/MOTISONS_14112026184845_Outcome_SE_Signed.pdf|S|6",
 "t": "2026-11-14T18:56+05:30"
 },
-"BSE:544072": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dbc5575-7540-4081-bd7f-ebcbdf4586d9.pdf",
-"t": "2026-11-14T14:05+05:30"
-},
 "BSE:544083": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/70485265-aad0-404f-bfab-5fdb28e2d1ee.pdf",
@@ -9254,10 +9252,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/GOKUL_14112026161051_BMoutcome.pdf",
 "t": "2026-11-14T16:12+05:30"
 },
-"GOYALSALT": {
-"pdf": "https://nsearchives.nseindia.in/corporate/GOYAL_14112026140142_Outcome_of_Board_Meeting_with_Financial_result.pdf",
-"t": "2026-11-14T14:04+05:30"
-},
 "GRMOVER": {
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/GRMOVER_14112026210032_outcome_to_upload.pdf",
@@ -9654,10 +9648,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/dbe7b643-e059-4dc3-be99-8fb8280f5a9e.pdf",
 "t": "2026-11-14T17:44+05:30"
 },
-"INE09KD01013": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96b1ca90-9eed-4197-9f85-2ebd2a1be1f3.pdf",
-"t": "2026-11-14T14:07+05:30"
-},
 "INE0A8401016": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0f0788f6-da2e-47f6-b3f0-b932e2707eab.pdf",
 "t": "2026-11-14T20:59+05:30"
@@ -9899,10 +9889,6 @@
 "INE0Q9W01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ecce39ca-8977-42b4-837b-427c871bb0c3.pdf",
 "t": "2026-11-14T16:07+05:30"
-},
-"INE0QFT01015": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dbc5575-7540-4081-bd7f-ebcbdf4586d9.pdf",
-"t": "2026-11-14T14:05+05:30"
 },
 "INE0QIS01011": {
 "c": 1,
@@ -10431,10 +10417,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fbd04c55-9d1a-4f99-891b-f13cdedcdd12.pdf",
 "t": "2026-11-14T20:37+05:30"
-},
-"INE207C01019": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b592364-605a-4322-a41e-e79371873d43.pdf",
-"t": "2026-11-14T14:05+05:30"
 },
 "INE208A01029": {
 "c": 1,
@@ -12242,10 +12224,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/86946cb6-7fb6-472a-9fb9-b0ce32b1db41.pdf",
 "t": "2026-11-14T15:45+05:30"
 },
-"N:ADINATHTEXTILES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2b592364-605a-4322-a41e-e79371873d43.pdf",
-"t": "2026-11-14T14:05+05:30"
-},
 "N:ADITYAISPAT": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f010cbae-7d52-4a2a-aeb7-0e7de6d7a857.pdf",
 "t": "2026-11-14T22:40+05:30"
@@ -12284,10 +12262,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/532811_14112026163203_BODM_OutCome_14112026.pdf",
 "t": "2026-11-14T16:36+05:30"
-},
-"N:AIKPIPESANDPOLYMERS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2dbc5575-7540-4081-bd7f-ebcbdf4586d9.pdf",
-"t": "2026-11-14T14:05+05:30"
 },
 "N:AIRFLOARAILTECHNOLOGY": {
 "c": 1,
@@ -12507,10 +12481,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78ac04bc-4a5e-464e-989d-86f6d7435a72.pdf",
 "t": "2026-11-14T18:45+05:30"
-},
-"N:ATAMVALVES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/96b1ca90-9eed-4197-9f85-2ebd2a1be1f3.pdf",
-"t": "2026-11-14T14:07+05:30"
 },
 "N:ATENPAPERSANDFOAM": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7dc4990f-6969-4725-8522-c40dea320b64.pdf",
@@ -13243,10 +13213,6 @@
 "N:GOYALASSOCIATES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b955de7b-7243-43c6-8921-0dabbdfadcd0.pdf",
 "t": "2026-11-14T20:58+05:30"
-},
-"N:GOYALSALT": {
-"pdf": "https://nsearchives.nseindia.in/corporate/GOYAL_14112026140142_Outcome_of_Board_Meeting_with_Financial_result.pdf",
-"t": "2026-11-14T14:04+05:30"
 },
 "N:GRANDMATRADINGANDAGENCIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2f0e3f44-1302-4e94-8d0e-da81109ad053.pdf",
@@ -17727,6 +17693,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml": {
+"company": "Valecha Engineering Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532389",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-21T14:07+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml": {
 "company": "Toyam Sports Ltd",
 "consolidated": false,
@@ -25172,6 +25154,10 @@
 "532386": {
 "t": "2026-11-16T08:24+05:30",
 "v": "INE526B01014"
+},
+"532389": {
+"t": "2026-11-21T14:07+05:30",
+"v": "INE624C01015"
 },
 "532390": {
 "t": "2026-11-12T15:31+05:30",
@@ -35082,6 +35068,10 @@
 "INE623Y01011": {
 "t": "2026-11-14T16:25+05:30",
 "v": 23811800
+},
+"INE624C01015": {
+"t": "2026-11-21T14:07+05:30",
+"v": 22530000
 },
 "INE625B01014": {
 "t": "2026-11-13T20:31+05:30",
