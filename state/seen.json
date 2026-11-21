@@ -33,9 +33,6 @@
 "ANN-equities-106867794-GVPTECH": {
 "t": "2026-11-20T19:19+05:30"
 },
-"ANN-sme-106864823-MADHAVBAUG": {
-"t": "2026-11-18T14:44+05:30"
-},
 "ANN-sme-106865254-WHITEFORCE": {
 "t": "2026-11-18T18:50+05:30"
 },
@@ -2398,10 +2395,6 @@
 "BSE-Integrated_Finance_Ind_As_538668_1311202617373_IFIndAs.xml": {
 "s": "posted",
 "t": "2026-11-14T18:01+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_538674_1411202612373_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-14T14:43+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_538795_14112026203129_IFIndAs.xml": {
 "s": "small",
@@ -6779,13 +6772,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cfb82888-94a3-459c-a36b-1019581303e9.pdf",
 "t": "2026-11-14T16:22+05:30"
 },
-"BSE:511144": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf",
-"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf|card|6",
-"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf|S|6",
-"t": "2026-11-14T14:43+05:30"
-},
 "BSE:511411": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2f18cf90-cad0-44b2-b2fb-9382d63d73e9.pdf",
 "t": "2026-11-14T17:02+05:30"
@@ -6813,10 +6799,6 @@
 "pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/286fdfc0-cb97-4b1f-808c-563555c58058.pdf|card|6",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/286fdfc0-cb97-4b1f-808c-563555c58058.pdf|S|6",
 "t": "2026-11-14T15:39+05:30"
-},
-"BSE:511642": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94eaac29-d5ea-4b04-bfcf-03b8c6991b7c.pdf",
-"t": "2026-11-14T14:44+05:30"
 },
 "BSE:511700": {
 "c": 1,
@@ -10975,10 +10957,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3d4de00b-6f40-4f54-b833-46d8eca8cd09.pdf",
 "t": "2026-11-14T16:51+05:30"
 },
-"INE638C01015": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94eaac29-d5ea-4b04-bfcf-03b8c6991b7c.pdf",
-"t": "2026-11-14T14:44+05:30"
-},
 "INE638N01012": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/af609a4d-6f7e-418a-9a11-f1489b88761f.pdf",
@@ -12221,13 +12199,6 @@
 "N:AVROINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/460c9490-662d-4fbc-9f38-1855723b4fb8.pdf",
 "t": "2026-11-14T22:09+05:30"
-},
-"N:AXISSOLUTIONS": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf",
-"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf|card|6",
-"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7c8eda36-cc89-4ccb-9eca-f39e100ac29f.pdf|S|6",
-"t": "2026-11-14T14:43+05:30"
 },
 "N:BAAZARSTYLERETAIL": {
 "c": 1,
@@ -14938,10 +14909,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d3adaa99-74e7-4c8c-b040-51fd7fcda0c8.pdf",
 "t": "2026-11-14T16:49+05:30"
 },
-"N:WISECGLOBAL": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/94eaac29-d5ea-4b04-bfcf-03b8c6991b7c.pdf",
-"t": "2026-11-14T14:44+05:30"
-},
 "N:WISETRAVELINDIA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/WTIIPO_14112026155522_Outcome.pdf",
 "t": "2026-11-14T15:55+05:30"
@@ -16678,35 +16645,6 @@
 }
 },
 "t": "2026-11-13T21:50+05:30"
-},
-"INE211R01019|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 17.42,
-"finance": 28.4,
-"other_income": 10.93,
-"pat": 78.11,
-"pbe": 111.37,
-"pbt": 111.37,
-"revenue": 1237.87,
-"tax": 33.26,
-"total_expenses": 1136.63,
-"total_income": 1248.8
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 23.0,
-"finance": 26.62,
-"other_income": 8.68,
-"pat": 89.33,
-"pbe": 126.38,
-"pbt": 126.38,
-"revenue": 1623.68,
-"tax": 37.05,
-"total_expenses": 1505.98,
-"total_income": 1632.36
-}
-},
-"t": "2026-11-11T14:46+05:30"
 },
 "INE213D01015|2026-09-30|C": {
 "p": {
