@@ -3458,11 +3458,6 @@
 "s": "small",
 "t": "2026-11-16T08:03+05:30"
 },
-"NSE-equities-IF-214153": {
-"n": 6,
-"s": "failed",
-"t": "2026-11-14T13:21+05:30"
-},
 "NSE-equities-IF-214154": {
 "s": "small",
 "t": "2026-11-14T13:35+05:30"
@@ -5023,11 +5018,6 @@
 "NSE-sme-IF-214130": {
 "s": "small",
 "t": "2026-11-16T08:06+05:30"
-},
-"NSE-sme-IF-214153": {
-"n": 6,
-"s": "failed",
-"t": "2026-11-14T13:21+05:30"
 },
 "NSE-sme-IF-214158": {
 "s": "superseded",
@@ -7250,10 +7240,6 @@
 "BSE:519383": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3e33a0cb-35a6-4979-adc5-25af65fba699.pdf",
 "t": "2026-11-16T10:35+05:30"
-},
-"BSE:519413": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2eb1b2f1-3dfe-448d-9109-8d6113c33d32.pdf",
-"t": "2026-11-14T13:20+05:30"
 },
 "BSE:519451": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/46f44a83-f86d-40af-99d4-69577b9e4d9a.pdf",
@@ -10931,10 +10917,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2804b102-78b3-432b-b347-fbccc3abdb3a.pdf",
 "t": "2026-11-14T16:50+05:30"
 },
-"INE330H01018": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2de5e7db-1d75-4f92-a5f6-328b5ee62577.pdf",
-"t": "2026-11-14T13:19+05:30"
-},
 "INE331L01026": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1c7549f9-e720-4b47-a783-89d228d69ff3.pdf",
 "t": "2026-11-14T15:01+05:30"
@@ -11635,10 +11617,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/d2e1fbe6-6487-471d-b4f5-faf76a2b5b5d.pdf",
 "t": "2026-11-16T08:26+05:30"
-},
-"INE673U01014": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2eb1b2f1-3dfe-448d-9109-8d6113c33d32.pdf",
-"t": "2026-11-14T13:20+05:30"
 },
 "INE679C01027": {
 "c": 1,
@@ -13186,10 +13164,6 @@
 "N:CURRENTINFRAPROJECTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/CURRENTINFRA_14112026175749_BM_OUTCOME_SIGNED_14112026.pdf",
 "t": "2026-11-14T18:08+05:30"
-},
-"N:DATIWAREMARITIMEINFRA": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2eb1b2f1-3dfe-448d-9109-8d6113c33d32.pdf",
-"t": "2026-11-14T13:20+05:30"
 },
 "N:DCMSHRIRAMFINECHEMICALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/af8f116d-55b3-4aa6-8f04-7213be8f9afa.pdf",
@@ -14843,10 +14817,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5426bdde-acb2-4edb-98b8-6727aa36e812.pdf",
 "t": "2026-11-14T14:53+05:30"
 },
-"N:RELIANCECOMMUNICATIONS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2de5e7db-1d75-4f92-a5f6-328b5ee62577.pdf",
-"t": "2026-11-14T13:19+05:30"
-},
 "N:RESGEN": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/c96ceb5c-3f84-4cc5-9a85-2e168baded7e.pdf",
@@ -16028,10 +15998,6 @@
 "c": 1,
 "pdf": "https://nsearchives.nseindia.in/corporate/RAMASTEEL_14112026173244_SignedOutcomeofBoardmeetingDated14112026.pdf",
 "t": "2026-11-14T17:40+05:30"
-},
-"RCOM": {
-"pdf": "https://nsearchives.nseindia.in/corporate/RCOM_14112026131710_RCOMSEOutcomeResults13022026.pdf",
-"t": "2026-11-14T13:19+05:30"
 },
 "RICHA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
