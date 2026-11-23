@@ -286,6 +286,10 @@
 "s": "dup",
 "t": "2026-11-19T08:02+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-23T22:06+05:30"
+},
 "BSE-Integrated_Finance_NBFC_511535_1911202613154_IFNBFC.xml": {
 "s": "small",
 "t": "2026-11-19T13:19+05:30"
@@ -413,6 +417,10 @@
 "NSE-equities-IF-215988": {
 "s": "small",
 "t": "2026-11-21T14:07+05:30"
+},
+"NSE-equities-IF-216205": {
+"s": "small",
+"t": "2026-11-23T22:06+05:30"
 },
 "NSE-sme-IF-214790": {
 "s": "posted",
@@ -602,9 +610,6 @@
 },
 "BSE|544771|2026-09-30": {
 "t": "2026-11-20T22:15+05:30"
-},
-"BSE|544794|2026-09-30": {
-"t": "2026-11-20T22:04+05:30"
 },
 "BSE|545015|2026-09-30": {
 "t": "2026-11-23T21:43+05:30"
@@ -1766,38 +1771,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml": {
-"company": "Bombay Coated And Special Steels Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545018",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-23T20:05+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml"
-},
-"NSE-equities-IF-216205": {
-"company": "Bombay Coated and Special Steels Limited",
-"consolidated": false,
-"filed_at": "2026-11-23T20:03:13+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "BCSSL",
-"t": "2026-11-23T20:05+05:30",
-"uid": "NSE-equities-IF-216205",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216205_23112026200312_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760930_23112026080312_WEB.xml"
 }
 },
 "posted": {
@@ -12613,6 +12586,10 @@
 "t": "2026-11-13T21:24+05:30",
 "v": "INE2W6901017"
 },
+"545018": {
+"t": "2026-11-23T22:06+05:30",
+"v": "INE0XFY01011"
+},
 "570005": {
 "t": "2026-11-14T08:06+05:30",
 "v": "INE224E01036"
@@ -15174,6 +15151,10 @@
 "INE0XE501015": {
 "t": "2026-11-18T12:56+05:30",
 "v": 18261600
+},
+"INE0XFY01011": {
+"t": "2026-11-23T22:06+05:30",
+"v": 40500100
 },
 "INE0XIL01012": {
 "t": "2026-11-14T17:39+05:30",
