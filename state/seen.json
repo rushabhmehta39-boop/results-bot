@@ -612,6 +612,9 @@
 "BSE|543624|2026-09-30": {
 "t": "2026-11-21T18:54+05:30"
 },
+"BSE|543895|2026-09-30": {
+"t": "2026-11-23T22:45+05:30"
+},
 "BSE|545015|2026-09-30": {
 "t": "2026-11-23T21:43+05:30"
 },
@@ -1761,6 +1764,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml": {
+"company": "Exhicon Events Media Solutions Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "543895",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-23T22:45+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml"
 }
 },
 "posted": {
