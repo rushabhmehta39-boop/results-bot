@@ -42,6 +42,9 @@
 "ANN-equities-106869046-BELRISE": {
 "t": "2026-11-23T17:32+05:30"
 },
+"ANN-equities-106869053-STCINDIA": {
+"t": "2026-11-23T17:43+05:30"
+},
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
 },
@@ -925,6 +928,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a06d08d3-9965-430b-8eb6-f2e0ddd7725d.pdf",
 "t": "2026-11-21T18:01+05:30"
 },
+"INE655A01013": {
+"c": 1,
+"t": "2026-11-23T17:41+05:30"
+},
 "INE663P01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0b959b80-0697-4727-aedf-39acb51ccedf.pdf",
 "t": "2026-11-21T18:35+05:30"
@@ -1140,6 +1147,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa220c32-5fc3-4a29-bef6-9da03b4e30d2.pdf",
 "t": "2026-11-19T18:22+05:30"
 },
+"N:STATETRADINGCORPORATIONOFINDIA": {
+"c": 1,
+"t": "2026-11-23T17:41+05:30"
+},
 "N:TEERTHGOPICON": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
 "t": "2026-11-17T22:18+05:30"
@@ -1182,6 +1193,10 @@
 "SEYAIND": {
 "pdf": "https://nsearchives.nseindia.in/corporate/SEYAIND_17112026154331_results30092026.pdf",
 "t": "2026-11-17T15:45+05:30"
+},
+"STCINDIA": {
+"c": 1,
+"t": "2026-11-23T17:41+05:30"
 },
 "TGL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
@@ -1235,6 +1250,10 @@
 "BSE:543895": {
 "t": "2026-11-23T15:10+05:30",
 "v": 725.8
+},
+"STCINDIA": {
+"t": "2026-11-23T17:43+05:30",
+"v": 625.8
 }
 },
 "pdfper": {
