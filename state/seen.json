@@ -326,18 +326,6 @@
 "s": "superseded",
 "t": "2026-11-17T12:07+05:30"
 },
-"NSE-equities-IF-214822": {
-"s": "superseded",
-"t": "2026-11-16T16:01+05:30"
-},
-"NSE-equities-IF-214854": {
-"s": "dup",
-"t": "2026-11-16T16:01+05:30"
-},
-"NSE-equities-IF-214864": {
-"s": "small",
-"t": "2026-11-16T16:01+05:30"
-},
 "NSE-equities-IF-214891": {
 "s": "old",
 "t": "2026-11-17T01:15+05:30"
@@ -785,11 +773,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
 "t": "2026-11-17T18:40+05:30"
 },
-"BSE:543262": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78b721a7-c0d4-4892-99f7-2374cf04005c.pdf",
-"t": "2026-11-16T16:02+05:30"
-},
 "BSE:543439": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a238ac02-f079-4914-848a-3bce2ae6ec6e.pdf",
@@ -994,9 +977,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/VSAL1999_18112026144122_SEOutcomeBM05112026.pdf",
 "t": "2026-11-18T14:44+05:30"
 },
-"MONOLITH": {
-"t": "2026-11-16T15:59+05:30"
-},
 "N:ADSDIAGNOSTICS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ccbac27d-dcae-44e2-942b-286733d1990e.pdf",
 "t": "2026-11-19T18:32+05:30"
@@ -1116,14 +1096,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51c32cad-1183-4b2b-ab73-7d78910d03bb.pdf",
 "t": "2026-11-18T19:42+05:30"
 },
-"N:MONOLITHISCHINDIA": {
-"t": "2026-11-16T15:59+05:30"
-},
-"N:MRPAGRO": {
-"c": 1,
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/78b721a7-c0d4-4892-99f7-2374cf04005c.pdf",
-"t": "2026-11-16T16:02+05:30"
-},
 "N:ORIENTTRADELINK": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
 "t": "2026-11-18T19:30+05:30"
@@ -1166,9 +1138,6 @@
 "N:SHREERAJESHWARANANDPAPERMILLS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
 "t": "2026-11-19T11:18+05:30"
-},
-"N:SIMCAADVERTISING": {
-"t": "2026-11-16T16:02+05:30"
 },
 "N:SPICEISLANDSINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa220c32-5fc3-4a29-bef6-9da03b4e30d2.pdf",
@@ -1217,9 +1186,6 @@
 "SHAIVAL": {
 "t": "2026-11-16T16:09+05:30"
 },
-"SIMCA": {
-"t": "2026-11-16T16:02+05:30"
-},
 "TGL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
 "t": "2026-11-17T22:18+05:30"
@@ -1257,10 +1223,6 @@
 "BSE:538579": {
 "t": "2026-11-21T18:03+05:30",
 "v": 12.1
-},
-"BSE:543546": {
-"t": "2026-11-21T16:00+05:30",
-"v": 24.8
 },
 "BSE:543895": {
 "t": "2026-11-23T15:10+05:30",
