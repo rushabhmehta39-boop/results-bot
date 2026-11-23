@@ -42,6 +42,9 @@
 "ANN-equities-106869232-BCSSL": {
 "t": "2026-11-23T19:19+05:30"
 },
+"ANN-equities-106869286-KSERASERA": {
+"t": "2026-11-23T20:11+05:30"
+},
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
 },
@@ -440,10 +443,6 @@
 "NSE-sme-IF-214918": {
 "s": "small",
 "t": "2026-11-17T17:37+05:30"
-},
-"NSE-sme-IF-215020": {
-"s": "small",
-"t": "2026-11-16T20:11+05:30"
 },
 "NSE-sme-IF-215078": {
 "n": 6,
@@ -873,6 +872,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14754538-67ad-49b9-8839-3e9d756e6279.pdf",
 "t": "2026-11-20T21:51+05:30"
 },
+"INE216D01018": {
+"pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
+"t": "2026-11-23T20:07+05:30"
+},
 "INE229G01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
 "t": "2026-11-18T20:51+05:30"
@@ -954,6 +957,10 @@
 "KONSTELEC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
 "t": "2026-11-18T19:59+05:30"
+},
+"KSERASERA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
+"t": "2026-11-23T20:07+05:30"
 },
 "LIBAS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LIBAS_17112026182615_Outcome.pdf",
@@ -1075,6 +1082,10 @@
 "N:KONSTELECENGINEERS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
 "t": "2026-11-18T19:59+05:30"
+},
+"N:KSS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
+"t": "2026-11-23T20:07+05:30"
 },
 "N:LIBASCONSUMERPRODUCTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LIBAS_17112026182615_Outcome.pdf",
