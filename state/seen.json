@@ -16,6 +16,9 @@
 "ANN-equities-106867794-GVPTECH": {
 "t": "2026-11-20T19:19+05:30"
 },
+"ANN-equities-106868885-ARSHIYA": {
+"t": "2026-11-23T16:13+05:30"
+},
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
 },
@@ -112,10 +115,6 @@
 "s": "small",
 "t": "2026-11-19T16:39+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_503657_161120261409_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-16T16:09+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_503657_1611202617357_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T17:44+05:30"
@@ -124,10 +123,6 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-17T15:04+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_511523_1611202613577_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-16T16:09+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_512379_16112026155136_IFIndAs.xml": {
 "s": "small",
@@ -450,10 +445,6 @@
 "s": "small",
 "t": "2026-11-17T14:19+05:30"
 },
-"NSE-sme-IF-214863": {
-"s": "small",
-"t": "2026-11-16T16:09+05:30"
-},
 "NSE-sme-IF-214899": {
 "s": "small",
 "t": "2026-11-17T17:14+05:30"
@@ -675,6 +666,10 @@
 "fresh": {
 "AIFL": {
 "t": "2026-11-16T16:33+05:30"
+},
+"ARSHIYA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
+"t": "2026-11-23T16:10+05:30"
 },
 "AVPINFRA": {
 "t": "2026-11-21T00:11+05:30"
@@ -950,6 +945,10 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/LIBAS_17112026182615_Outcome.pdf",
 "t": "2026-11-17T18:27+05:30"
 },
+"INE968D01022": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
+"t": "2026-11-23T16:10+05:30"
+},
 "INE981B01011": {
 "t": "2026-11-16T16:28+05:30"
 },
@@ -1114,9 +1113,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbecb85-7788-4aad-aa2b-0917065f23be.pdf",
 "t": "2026-11-18T18:52+05:30"
 },
-"N:SHAIVALREALITY": {
-"t": "2026-11-16T16:09+05:30"
-},
 "N:SHREERAJESHWARANANDPAPERMILLS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
 "t": "2026-11-19T11:18+05:30"
@@ -1165,9 +1161,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/SEYAIND_17112026154331_results30092026.pdf",
 "t": "2026-11-17T15:45+05:30"
 },
-"SHAIVAL": {
-"t": "2026-11-16T16:09+05:30"
-},
 "TGL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
 "t": "2026-11-17T22:18+05:30"
@@ -1186,6 +1179,10 @@
 }
 },
 "mcap": {
+"ARSHIYA": {
+"t": "2026-11-23T16:13+05:30",
+"v": 21.6
+},
 "BSE:506074": {
 "t": "2026-11-23T15:56+05:30",
 "v": 21.6
