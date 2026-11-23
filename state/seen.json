@@ -920,6 +920,10 @@
 "s": "small",
 "t": "2026-11-17T19:36+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-23T08:04+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_543512_14112026224744_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T08:27+05:30"
@@ -927,6 +931,10 @@
 "BSE-Integrated_Finance_Ind_As_543593_14112026100452_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-16T08:27+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_543624_21112026185249_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-23T08:04+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_543664_15112026121120_IFIndAs.xml": {
 "s": "superseded",
@@ -1174,131 +1182,15 @@
 "s": "small",
 "t": "2026-11-16T08:29+05:30"
 },
-"NSE-equities-IF-214112": {
-"s": "superseded",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214113": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214114": {
-"s": "superseded",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214137": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214232": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
 "NSE-equities-IF-214410": {
 "n": 6,
 "s": "failed",
 "t": "2026-11-16T08:55+05:30"
 },
-"NSE-equities-IF-214433": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214469": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
-"NSE-equities-IF-214527": {
-"s": "small",
-"t": "2026-11-16T08:03+05:30"
-},
 "NSE-equities-IF-214576": {
 "n": 6,
 "s": "failed",
 "t": "2026-11-16T08:55+05:30"
-},
-"NSE-equities-IF-214621": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214624": {
-"s": "dup",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214626": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214679": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214681": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214683": {
-"s": "dup",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214685": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214687": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214690": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214691": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214692": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214693": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214694": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214695": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214696": {
-"s": "posted",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214697": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214699": {
-"s": "posted",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214702": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214705": {
-"s": "posted",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214706": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
-"NSE-equities-IF-214709": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
 },
 "NSE-equities-IF-214711": {
 "s": "superseded",
@@ -1316,10 +1208,6 @@
 "s": "superseded",
 "t": "2026-11-16T08:05+05:30"
 },
-"NSE-equities-IF-214722": {
-"s": "superseded",
-"t": "2026-11-16T08:04+05:30"
-},
 "NSE-equities-IF-214723": {
 "s": "superseded",
 "t": "2026-11-16T08:05+05:30"
@@ -1327,10 +1215,6 @@
 "NSE-equities-IF-214724": {
 "s": "small",
 "t": "2026-11-16T08:05+05:30"
-},
-"NSE-equities-IF-214725": {
-"s": "small",
-"t": "2026-11-16T08:04+05:30"
 },
 "NSE-equities-IF-214726": {
 "s": "superseded",
@@ -3981,38 +3865,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.xml": {
-"company": "Brandbucket Media & Technology Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "543439",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-21T19:00+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_543624_21112026185249_IFIndAs.xml": {
-"company": "Maagh Advertising and Marketing Services Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "543624",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-21T18:54+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_543624_21112026185249_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543624_21112026185249_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543624_21112026185249_IFIndAs.xml"
 }
 },
 "posted": {
@@ -13400,6 +13252,10 @@
 "t": "2026-11-16T08:07+05:30",
 "v": "INE0JJS01014"
 },
+"543439": {
+"t": "2026-11-23T08:04+05:30",
+"v": "INE0ILD01014"
+},
 "543441": {
 "t": "2026-11-13T21:48+05:30",
 "v": "INE925R01014"
@@ -13527,6 +13383,10 @@
 "543623": {
 "t": "2026-11-14T17:39+05:30",
 "v": "INE0NC801013"
+},
+"543624": {
+"t": "2026-11-23T08:04+05:30",
+"v": "INE0KY201021"
 },
 "543645": {
 "t": "2026-11-06T22:39+05:30",
@@ -16058,6 +15918,10 @@
 "t": "2026-11-16T08:55+05:30",
 "v": 6988000
 },
+"INE0ILD01014": {
+"t": "2026-11-23T08:04+05:30",
+"v": 23241200
+},
 "INE0INJ01017": {
 "t": "2026-11-13T20:17+05:30",
 "v": 43752000
@@ -16181,6 +16045,10 @@
 "INE0KXN01014": {
 "t": "2026-11-14T20:59+05:30",
 "v": 7853000
+},
+"INE0KY201021": {
+"t": "2026-11-23T08:04+05:30",
+"v": 22501300
 },
 "INE0KZ301010": {
 "t": "2026-11-16T08:06+05:30",
