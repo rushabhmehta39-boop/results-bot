@@ -66,6 +66,9 @@
 "BANN-08cd2d52-6568-4597-ae54-5d5e5ec351b8": {
 "t": "2026-11-20T21:53+05:30"
 },
+"BANN-0f7aba13-9150-4b20-98f0-642711840141": {
+"t": "2026-11-23T18:45+05:30"
+},
 "BANN-15f3d1c0-2718-4d31-9820-b9fab0c04c94": {
 "t": "2026-11-21T16:00+05:30"
 },
@@ -631,9 +634,6 @@
 "BSE|544794|2026-09-30": {
 "t": "2026-11-20T22:04+05:30"
 },
-"NSE SME|FASCINATE|2026-09-30": {
-"t": "2026-11-20T18:45+05:30"
-},
 "NSE SME|GICL|2026-09-30": {
 "t": "2026-11-21T12:59+05:30"
 },
@@ -790,6 +790,11 @@
 "BSE:545011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
 "t": "2026-11-18T18:45+05:30"
+},
+"BSE:545015": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
+"t": "2026-11-23T18:43+05:30"
 },
 "GANGAFORGE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
@@ -1008,6 +1013,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a238ac02-f079-4914-848a-3bce2ae6ec6e.pdf",
 "t": "2026-11-17T20:32+05:30"
 },
+"N:CARVERROBOWELD": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
+"t": "2026-11-23T18:43+05:30"
+},
 "N:EKAMLEASINGANDFINANCECOMPANY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
@@ -1208,10 +1218,6 @@
 "t": "2026-11-23T15:56+05:30",
 "v": 21.6
 },
-"BSE:523752": {
-"t": "2026-11-21T18:43+05:30",
-"v": 19.0
-},
 "BSE:530581": {
 "t": "2026-11-21T19:47+05:30",
 "v": 6.5
@@ -1219,6 +1225,10 @@
 "BSE:543895": {
 "t": "2026-11-23T15:10+05:30",
 "v": 725.8
+},
+"BSE:545015": {
+"t": "2026-11-23T18:45+05:30",
+"v": 130.0
 },
 "STCINDIA": {
 "t": "2026-11-23T17:43+05:30",
