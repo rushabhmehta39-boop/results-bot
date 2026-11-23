@@ -291,10 +291,6 @@
 "s": "small",
 "t": "2026-11-18T14:33+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_544881_16112026154123_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-16T17:51+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-17T12:14+05:30"
@@ -1253,35 +1249,6 @@
 }
 },
 "pdfper": {
-"BSE:500068|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 1.28,
-"finance": 0.17,
-"other_income": 3.42,
-"pat": 12.2,
-"pbe": 16.4,
-"pbt": 16.4,
-"revenue": 103.7,
-"tax": 4.15,
-"total_expenses": 90.72,
-"total_income": 107.12
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 1.56,
-"finance": 0.27,
-"other_income": 3.4,
-"pat": 10.58,
-"pbe": 14.18,
-"pbt": 14.18,
-"revenue": 87.16,
-"tax": 3.61,
-"total_expenses": 76.38,
-"total_income": 90.56
-}
-},
-"t": "2026-11-13T17:52+05:30"
-},
 "BSE:500645|2026-09-30|C": {
 "p": {
 "2025-07-01_2025-09-30": {
@@ -1397,35 +1364,6 @@
 }
 },
 "t": "2026-11-13T19:00+05:30"
-},
-"BSE:530517|2026-09-30|S": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 39.36,
-"finance": 5.21,
-"other_income": 12.26,
-"pat": 36.16,
-"pbe": 48.85,
-"pbt": 48.85,
-"revenue": 628.54,
-"tax": 12.69,
-"total_expenses": 591.95,
-"total_income": 640.8
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 40.21,
-"finance": 5.9,
-"other_income": 12.96,
-"pat": 54.94,
-"pbe": 75.08,
-"pbt": 75.08,
-"revenue": 705.05,
-"tax": 20.14,
-"total_expenses": 642.93,
-"total_income": 718.01
-}
-},
-"t": "2026-11-13T17:52+05:30"
 },
 "BSE:538891|2026-09-30|C": {
 "p": {
