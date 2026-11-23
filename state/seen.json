@@ -627,6 +627,9 @@
 "NSE|GICL|2026-09-30": {
 "t": "2026-11-21T12:59+05:30"
 },
+"NSE|SFCTECH|2026-09-30": {
+"t": "2026-11-23T23:48+05:30"
+},
 "NSE|VALECHAENG|2026-09-30": {
 "t": "2026-11-21T14:07+05:30"
 }
@@ -1781,6 +1784,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml"
+},
+"NSE-equities-IF-216223": {
+"company": "SFC Environmental Technologies Limited",
+"consolidated": true,
+"filed_at": "2026-11-23T23:44:30+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "SFCTECH",
+"t": "2026-11-23T23:48+05:30",
+"uid": "NSE-equities-IF-216223",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216223_23112026234429_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760949_23112026114428_WEB.xml"
 }
 },
 "posted": {
