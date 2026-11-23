@@ -1,5 +1,14 @@
 {
-"alerts": {},
+"alerts": {
+"BSE:543895": {
+"d": "2026-11-23",
+"mcap": 725.8,
+"mid": 932,
+"n": "EXHICONEVENTSMEDIASOLUTIONS",
+"pdf": 6,
+"t": "2026-11-23T15:10+05:30"
+}
+},
 "ann": {
 "ANN-equities-106867786-VALECHAENG": {
 "t": "2026-11-20T19:08+05:30"
@@ -18,6 +27,9 @@
 },
 "BANN-15f3d1c0-2718-4d31-9820-b9fab0c04c94": {
 "t": "2026-11-21T16:00+05:30"
+},
+"BANN-2af97d30-8849-4698-a20f-025afff7800c": {
+"t": "2026-11-23T15:10+05:30"
 },
 "BANN-47450107-7542-442a-8860-d61e9fa07af6": {
 "t": "2026-11-20T19:02+05:30"
@@ -447,14 +459,6 @@
 "s": "small",
 "t": "2026-11-17T14:19+05:30"
 },
-"NSE-sme-IF-214829": {
-"s": "superseded",
-"t": "2026-11-16T15:09+05:30"
-},
-"NSE-sme-IF-214831": {
-"s": "small",
-"t": "2026-11-16T15:09+05:30"
-},
 "NSE-sme-IF-214843": {
 "s": "superseded",
 "t": "2026-11-16T15:47+05:30"
@@ -809,6 +813,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/390bc6a7-a1e7-43b1-af48-c023d9298c80.pdf",
 "t": "2026-11-16T20:52+05:30"
 },
+"BSE:543895": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf",
+"t": "2026-11-23T15:08+05:30"
+},
 "BSE:544351": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/668f28f4-f222-4073-9a68-52a58b8bf11c.pdf",
@@ -849,9 +858,6 @@
 "GVPTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
 "t": "2026-11-20T19:18+05:30"
-},
-"HFCL": {
-"t": "2026-11-16T15:06+05:30"
 },
 "ICELCO": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
@@ -951,9 +957,6 @@
 "INE502D01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
-},
-"INE548A01028": {
-"t": "2026-11-16T15:06+05:30"
 },
 "INE561H01018": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PARSVNATH_19112026162940_Delay_disclosure_financial_results.pdf",
@@ -1071,6 +1074,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
 },
+"N:EXHICONEVENTSMEDIASOLUTIONS": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf",
+"t": "2026-11-23T15:08+05:30"
+},
 "N:FASCINATETEXTILES": {
 "t": "2026-11-16T15:49+05:30"
 },
@@ -1092,9 +1100,6 @@
 "N:HEALTHYLIFEAGRITEC": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
 "t": "2026-11-21T15:57+05:30"
-},
-"N:HFCL": {
-"t": "2026-11-16T15:06+05:30"
 },
 "N:HORIZONRECLAIMINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14754538-67ad-49b9-8839-3e9d756e6279.pdf",
@@ -1311,6 +1316,10 @@
 "BSE:543546": {
 "t": "2026-11-21T16:00+05:30",
 "v": 24.8
+},
+"BSE:543895": {
+"t": "2026-11-23T15:10+05:30",
+"v": 725.8
 }
 },
 "pdfper": {
