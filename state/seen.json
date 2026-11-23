@@ -809,9 +809,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
 "t": "2026-11-18T18:45+05:30"
 },
-"CHENNPETRO": {
-"t": "2026-11-16T16:04+05:30"
-},
 "CMICABLES": {
 "t": "2026-11-16T16:28+05:30"
 },
@@ -822,9 +819,6 @@
 "GENSOL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
 "t": "2026-11-19T13:08+05:30"
-},
-"GMBREW": {
-"t": "2026-11-16T16:07+05:30"
 },
 "GVPTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -849,9 +843,6 @@
 "INE06H201014": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
 "t": "2026-11-19T13:08+05:30"
-},
-"INE075D01018": {
-"t": "2026-11-16T16:07+05:30"
 },
 "INE0BHK01012": {
 "c": 1,
@@ -882,9 +873,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
 "t": "2026-11-17T19:00+05:30"
-},
-"INE178A01016": {
-"t": "2026-11-16T16:04+05:30"
 },
 "INE1GM501015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb91d948-17df-47ea-9dea-2d0e50a81685.pdf",
@@ -1024,9 +1012,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a238ac02-f079-4914-848a-3bce2ae6ec6e.pdf",
 "t": "2026-11-17T20:32+05:30"
 },
-"N:CHENNAIPETROLEUMCORPORATION": {
-"t": "2026-11-16T16:04+05:30"
-},
 "N:CMI": {
 "t": "2026-11-16T16:28+05:30"
 },
@@ -1046,9 +1031,6 @@
 "N:GENSOLENGINEERING": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
 "t": "2026-11-19T13:08+05:30"
-},
-"N:GMBREWERIES": {
-"t": "2026-11-16T16:07+05:30"
 },
 "N:GVPINFOTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -2012,35 +1994,6 @@
 }
 },
 "t": "2026-11-16T08:12+05:30"
-},
-"INE459N01021|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 150.85,
-"finance": 156.07,
-"other_income": 47.96,
-"pat": 317.78,
-"pbe": 412.67,
-"pbt": 417.79,
-"revenue": 2475.42,
-"tax": 100.01,
-"total_expenses": 2110.71,
-"total_income": 2523.38
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 187.25,
-"finance": 293.27,
-"other_income": 74.56,
-"pat": 243.43,
-"pbe": 330.65,
-"pbt": 315.18,
-"revenue": 3090.63,
-"tax": 71.75,
-"total_expenses": 2834.54,
-"total_income": 3165.19
-}
-},
-"t": "2026-11-13T16:04+05:30"
 },
 "INE501A01019|2026-09-30|C": {
 "p": {
