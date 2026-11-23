@@ -176,14 +176,6 @@
 "s": "failed",
 "t": "2026-11-21T20:50+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_526504_16112026182221_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-16T21:17+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_526530_16112026181551_IFIndAs.xml": {
-"s": "superseded",
-"t": "2026-11-16T21:17+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_526827_19112026182820_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T20:36+05:30"
@@ -324,17 +316,9 @@
 "s": "small",
 "t": "2026-11-17T17:37+05:30"
 },
-"NSE-equities-IF-214958": {
-"s": "superseded",
-"t": "2026-11-16T21:17+05:30"
-},
 "NSE-equities-IF-215024": {
 "s": "nodata",
 "t": "2026-11-17T19:59+05:30"
-},
-"NSE-equities-IF-215035": {
-"s": "small",
-"t": "2026-11-16T21:17+05:30"
 },
 "NSE-equities-IF-215063": {
 "s": "small",
@@ -1730,35 +1714,6 @@
 }
 },
 "t": "2026-11-16T08:12+05:30"
-},
-"INE501A01019|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 106.33,
-"finance": 74.78,
-"other_income": 26.99,
-"pat": 214.02,
-"pbe": 309.52,
-"pbt": 309.52,
-"revenue": 3005.83,
-"tax": 95.5,
-"total_expenses": 2723.3,
-"total_income": 3032.82
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 105.19,
-"finance": 94.79,
-"other_income": 5.95,
-"pat": 490.04,
-"pbe": 651.37,
-"pbt": 651.37,
-"revenue": 3256.26,
-"tax": 161.33,
-"total_expenses": 2610.84,
-"total_income": 3262.21
-}
-},
-"t": "2026-11-13T21:16+05:30"
 },
 "INE552D01024|2026-09-30|C": {
 "p": {
