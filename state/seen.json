@@ -57,6 +57,9 @@
 "ANN-sme-106869029-KARNIKA": {
 "t": "2026-11-23T17:21+05:30"
 },
+"ANN-sme-106869285-DIVINEHIRA": {
+"t": "2026-11-23T20:05+05:30"
+},
 "BANN-0795fbb1-361e-443c-8067-85399bb4b6a3": {
 "t": "2026-11-21T18:03+05:30"
 },
@@ -624,17 +627,17 @@
 "BSE|544794|2026-09-30": {
 "t": "2026-11-20T22:04+05:30"
 },
+"BSE|545018|2026-09-30": {
+"t": "2026-11-23T20:05+05:30"
+},
 "NSE SME|GICL|2026-09-30": {
 "t": "2026-11-21T12:59+05:30"
 },
-"NSE SME|GVPTECH|2026-09-30": {
-"t": "2026-11-20T20:04+05:30"
+"NSE|BCSSL|2026-09-30": {
+"t": "2026-11-23T20:05+05:30"
 },
 "NSE|GICL|2026-09-30": {
 "t": "2026-11-21T12:59+05:30"
-},
-"NSE|GVPTECH|2026-09-30": {
-"t": "2026-11-20T20:04+05:30"
 },
 "NSE|VALECHAENG|2026-09-30": {
 "t": "2026-11-21T14:07+05:30"
@@ -789,6 +792,9 @@
 "BSE:545018": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
 "t": "2026-11-23T19:53+05:30"
+},
+"DIVINEHIRA": {
+"t": "2026-11-23T20:05+05:30"
 },
 "GANGAFORGE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
@@ -1015,6 +1021,9 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
 "t": "2026-11-23T18:43+05:30"
+},
+"N:DIVINEHIRAJEWELLERS": {
+"t": "2026-11-23T20:05+05:30"
 },
 "N:EKAMLEASINGANDFINANCECOMPANY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
@@ -1262,35 +1271,6 @@
 }
 },
 "t": "2026-11-13T21:56+05:30"
-},
-"BSE:512025|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 0.42,
-"finance": 0.2356,
-"other_income": 0.0009,
-"pat": 0.1695,
-"pbe": 0.235,
-"pbt": 0.235,
-"revenue": 24.1203,
-"tax": 0.0656,
-"total_expenses": 23.8862,
-"total_income": 24.1212
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 2.789,
-"finance": 1.2148,
-"other_income": 0.2441,
-"pat": 1.6922,
-"pbe": 1.3912,
-"pbt": 1.3912,
-"revenue": 53.0383,
-"tax": -0.301,
-"total_expenses": 51.8912,
-"total_income": 53.2824
-}
-},
-"t": "2026-11-13T20:03+05:30"
 },
 "BSE:526217|2026-09-30|C": {
 "p": {
@@ -1948,6 +1928,38 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml": {
+"company": "Bombay Coated And Special Steels Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545018",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-23T20:05+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml"
+},
+"NSE-equities-IF-216205": {
+"company": "Bombay Coated and Special Steels Limited",
+"consolidated": false,
+"filed_at": "2026-11-23T20:03:13+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "BCSSL",
+"t": "2026-11-23T20:05+05:30",
+"uid": "NSE-equities-IF-216205",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216205_23112026200312_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760930_23112026080312_WEB.xml"
 }
 },
 "posted": {
