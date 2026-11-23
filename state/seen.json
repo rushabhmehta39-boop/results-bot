@@ -34,6 +34,9 @@
 "ANN-sme-106868942-TRANSWIND": {
 "t": "2026-11-23T16:41+05:30"
 },
+"ANN-sme-106869029-KARNIKA": {
+"t": "2026-11-23T17:21+05:30"
+},
 "BANN-0795fbb1-361e-443c-8067-85399bb4b6a3": {
 "t": "2026-11-21T18:03+05:30"
 },
@@ -931,6 +934,9 @@
 "JFLLIFE": {
 "t": "2026-11-23T16:35+05:30"
 },
+"KARNIKA": {
+"t": "2026-11-23T17:20+05:30"
+},
 "KONSTELEC": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
 "t": "2026-11-18T19:59+05:30"
@@ -1030,6 +1036,9 @@
 "N:KAISERCORPORATION": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
 "t": "2026-11-18T20:51+05:30"
+},
+"N:KARNIKAINDUSTRIES": {
+"t": "2026-11-23T17:20+05:30"
 },
 "N:KONSTELECENGINEERS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KONSTELEC_18112026195317_NSE_INTIMATION_OUTCOME__BM.pdf",
@@ -1278,35 +1287,6 @@
 },
 "t": "2026-11-13T20:03+05:30"
 },
-"BSE:522108|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 5.2125,
-"finance": 2.5596,
-"other_income": 0.9673,
-"pat": 5.1182,
-"pbe": 6.6107,
-"pbt": 6.6107,
-"revenue": 112.5272,
-"tax": 1.4925,
-"total_expenses": 106.8695,
-"total_income": 113.4945
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 5.9132,
-"finance": 3.0031,
-"other_income": 1.0688,
-"pat": 5.2074,
-"pbe": 6.9426,
-"pbt": 6.9426,
-"revenue": 134.3268,
-"tax": 1.7352,
-"total_expenses": 128.1496,
-"total_income": 135.3956
-}
-},
-"t": "2026-11-13T17:18+05:30"
-},
 "BSE:526217|2026-09-30|C": {
 "p": {
 "2025-07-01_2025-09-30": {
@@ -1335,35 +1315,6 @@
 }
 },
 "t": "2026-11-13T20:35+05:30"
-},
-"BSE:526227|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 19.46,
-"finance": 4.77,
-"other_income": 5.44,
-"pat": 47.55,
-"pbe": 63.76,
-"pbt": 63.76,
-"revenue": 1075.93,
-"tax": 16.21,
-"total_expenses": 1017.61,
-"total_income": 1081.37
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 19.67,
-"finance": 3.35,
-"other_income": 9.86,
-"pat": 48.52,
-"pbe": 65.25,
-"pbt": 65.25,
-"revenue": 1145.3,
-"tax": 16.73,
-"total_expenses": 1089.91,
-"total_income": 1155.16
-}
-},
-"t": "2026-11-13T17:18+05:30"
 },
 "BSE:526947|2026-09-30|S": {
 "p": {
