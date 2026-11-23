@@ -24,9 +24,6 @@
 }
 },
 "ann": {
-"ANN-equities-106867794-GVPTECH": {
-"t": "2026-11-20T19:19+05:30"
-},
 "ANN-equities-106868885-ARSHIYA": {
 "t": "2026-11-23T16:13+05:30"
 },
@@ -41,6 +38,9 @@
 },
 "ANN-equities-106869053-STCINDIA": {
 "t": "2026-11-23T17:43+05:30"
+},
+"ANN-equities-106869232-BCSSL": {
+"t": "2026-11-23T19:19+05:30"
 },
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
@@ -652,6 +652,10 @@
 "AVPINFRA": {
 "t": "2026-11-21T00:11+05:30"
 },
+"BCSSL": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"t": "2026-11-23T19:17+05:30"
+},
 "BELRISE": {
 "t": "2026-11-23T17:30+05:30"
 },
@@ -833,6 +837,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
 "t": "2026-11-21T15:57+05:30"
 },
+"INE0XFY01011": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"t": "2026-11-23T19:17+05:30"
+},
 "INE0YON01014": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/668f28f4-f222-4073-9a68-52a58b8bf11c.pdf",
@@ -997,6 +1005,10 @@
 "N:BLSPOLYMERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
 "t": "2026-11-18T18:22+05:30"
+},
+"N:BOMBAYCOATEDANDSPECIALSTEELS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"t": "2026-11-23T19:17+05:30"
 },
 "N:BOSTONCOMMERCE": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/716f9a8a-75b3-452e-b7e8-93eb52124b47.pdf",
@@ -1203,6 +1215,10 @@
 "ARSHIYA": {
 "t": "2026-11-23T16:13+05:30",
 "v": 21.6
+},
+"BCSSL": {
+"t": "2026-11-23T19:19+05:30",
+"v": 531.4
 },
 "BELRISE": {
 "t": "2026-11-23T17:32+05:30",
