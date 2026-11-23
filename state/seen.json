@@ -1,5 +1,12 @@
 {
 "alerts": {
+"BELRISE": {
+"d": "2026-11-23",
+"mcap": 23003.7,
+"mid": 933,
+"n": "BELRISEINDUSTRIES",
+"t": "2026-11-23T17:32+05:30"
+},
 "BSE:543895": {
 "d": "2026-11-23",
 "mcap": 725.8,
@@ -7,6 +14,13 @@
 "n": "EXHICONEVENTSMEDIASOLUTIONS",
 "pdf": 6,
 "t": "2026-11-23T15:10+05:30"
+},
+"INE894V01022": {
+"d": "2026-11-23",
+"mcap": 23003.7,
+"mid": 933,
+"n": "BELRISEINDUSTRIES",
+"t": "2026-11-23T17:32+05:30"
 }
 },
 "ann": {
@@ -24,6 +38,9 @@
 },
 "ANN-equities-106869034-MWL": {
 "t": "2026-11-23T17:26+05:30"
+},
+"ANN-equities-106869046-BELRISE": {
+"t": "2026-11-23T17:32+05:30"
 },
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
@@ -242,10 +259,6 @@
 "BSE-Integrated_Finance_Ind_As_538351_21112026184217_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-21T20:50+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_538993_1611202615419_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-16T17:28+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml": {
 "s": "small",
@@ -665,6 +678,9 @@
 "AVPINFRA": {
 "t": "2026-11-21T00:11+05:30"
 },
+"BELRISE": {
+"t": "2026-11-23T17:30+05:30"
+},
 "BLSPOLY": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BLSPOLYMERS_18112026181634_Outcome.pdf",
 "t": "2026-11-18T18:22+05:30"
@@ -925,6 +941,9 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa220c32-5fc3-4a29-bef6-9da03b4e30d2.pdf",
 "t": "2026-11-19T18:22+05:30"
 },
+"INE894V01022": {
+"t": "2026-11-23T17:30+05:30"
+},
 "INE906L01025": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
@@ -988,6 +1007,9 @@
 },
 "N:AVPINFRACON": {
 "t": "2026-11-21T00:11+05:30"
+},
+"N:BELRISEINDUSTRIES": {
+"t": "2026-11-23T17:30+05:30"
 },
 "N:BLSPOLYMERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
@@ -1185,6 +1207,10 @@
 "ARSHIYA": {
 "t": "2026-11-23T16:13+05:30",
 "v": 21.6
+},
+"BELRISE": {
+"t": "2026-11-23T17:32+05:30",
+"v": 23003.7
 },
 "BSE:506074": {
 "t": "2026-11-23T15:56+05:30",
