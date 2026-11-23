@@ -22,6 +22,9 @@
 "ANN-sme-106867963-AVPINFRA": {
 "t": "2026-11-21T08:01+05:30"
 },
+"ANN-sme-106868937-PATILAUTOM": {
+"t": "2026-11-23T16:36+05:30"
+},
 "BANN-0795fbb1-361e-443c-8067-85399bb4b6a3": {
 "t": "2026-11-21T18:03+05:30"
 },
@@ -252,10 +255,6 @@
 "BSE-Integrated_Finance_Ind_As_539546_1611202614252_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-16T16:42+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_540006_1611202616300_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-16T16:35+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "s": "small",
@@ -664,9 +663,6 @@
 }
 },
 "fresh": {
-"AIFL": {
-"t": "2026-11-16T16:33+05:30"
-},
 "ARSHIYA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
 "t": "2026-11-23T16:10+05:30"
@@ -886,9 +882,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
 "t": "2026-11-20T19:18+05:30"
 },
-"INE428O01016": {
-"t": "2026-11-16T16:33+05:30"
-},
 "INE436A01026": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
 "t": "2026-11-18T18:38+05:30"
@@ -981,9 +974,6 @@
 "N:ARSHIYA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
 "t": "2026-11-23T15:52+05:30"
-},
-"N:ASHAPURAINTIMATESFASHION": {
-"t": "2026-11-16T16:33+05:30"
 },
 "N:ASIANFERTILIZERS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
@@ -1084,6 +1074,9 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3b507942-879c-4044-a67c-98906c1eaffb.pdf",
 "t": "2026-11-19T16:17+05:30"
 },
+"N:PATILAUTOMATION": {
+"t": "2026-11-23T16:34+05:30"
+},
 "N:PRABHATTECHNOLOGIESINDIA": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
@@ -1140,6 +1133,9 @@
 "PARSVNATH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/PARSVNATH_19112026162940_Delay_disclosure_financial_results.pdf",
 "t": "2026-11-19T16:29+05:30"
+},
+"PATILAUTOM": {
+"t": "2026-11-23T16:34+05:30"
 },
 "RICHA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
@@ -1896,35 +1892,6 @@
 },
 "t": "2026-11-14T20:33+05:30"
 },
-"INE233A01035|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 120.76,
-"finance": 583.86,
-"other_income": 1257.55,
-"pat": 492.95,
-"pbe": 723.19,
-"pbt": 723.19,
-"revenue": 5032.14,
-"tax": 230.24,
-"total_expenses": 5602.86,
-"total_income": 6289.69
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 133.37,
-"finance": 745.14,
-"other_income": 912.21,
-"pat": 523.36,
-"pbe": 732.2,
-"pbt": 732.2,
-"revenue": 5448.09,
-"tax": 208.84,
-"total_expenses": 5751.92,
-"total_income": 6360.3
-}
-},
-"t": "2026-11-13T16:34+05:30"
-},
 "INE236G01019|2026-09-30|S": {
 "p": {
 "2025-07-01_2025-09-30": {
@@ -2127,35 +2094,6 @@
 }
 },
 "t": "2026-11-14T16:58+05:30"
-},
-"INE848A01014|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 4.4032,
-"finance": 0.3984,
-"other_income": 4.4523,
-"pat": 12.5594,
-"pbe": 13.1645,
-"pbt": 13.1645,
-"revenue": 60.1069,
-"tax": 0.6051,
-"total_expenses": 51.3947,
-"total_income": 64.5592
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 4.0617,
-"finance": 0.4789,
-"other_income": 0.3442,
-"pat": 12.195,
-"pbe": 12.195,
-"pbt": 12.195,
-"revenue": 65.3802,
-"tax": 0.0,
-"total_expenses": 53.5294,
-"total_income": 65.7244
-}
-},
-"t": "2026-11-13T16:34+05:30"
 }
 },
 "pdfq": {},
