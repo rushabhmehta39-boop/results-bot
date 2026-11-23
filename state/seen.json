@@ -60,6 +60,9 @@
 "BANN-0795fbb1-361e-443c-8067-85399bb4b6a3": {
 "t": "2026-11-21T18:03+05:30"
 },
+"BANN-07c9b938-33e6-4e82-b3df-255e82c0b9f6": {
+"t": "2026-11-23T19:54+05:30"
+},
 "BANN-08cd2d52-6568-4597-ae54-5d5e5ec351b8": {
 "t": "2026-11-20T21:53+05:30"
 },
@@ -783,6 +786,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
 "t": "2026-11-23T18:43+05:30"
 },
+"BSE:545018": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
+"t": "2026-11-23T19:53+05:30"
+},
 "GANGAFORGE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GANGAFORGE_17112026185712_Intimation_to_NSE_for_Delay_in_submission_of_Results.pdf",
 "t": "2026-11-17T18:57+05:30"
@@ -992,7 +999,7 @@
 "t": "2026-11-18T18:22+05:30"
 },
 "N:BOMBAYCOATEDANDSPECIALSTEELS": {
-"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
 "t": "2026-11-23T19:17+05:30"
 },
 "N:BOSTONCOMMERCE": {
@@ -1216,6 +1223,10 @@
 "BSE:545015": {
 "t": "2026-11-23T18:45+05:30",
 "v": 130.0
+},
+"BSE:545018": {
+"t": "2026-11-23T19:54+05:30",
+"v": 531.4
 },
 "STCINDIA": {
 "t": "2026-11-23T17:43+05:30",
