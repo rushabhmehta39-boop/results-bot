@@ -1031,10 +1031,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb91d948-17df-47ea-9dea-2d0e50a81685.pdf",
 "t": "2026-11-20T19:47+05:30"
 },
-"N:RICHAINFOSYSTEMS": {
-"pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
-"t": "2026-11-17T19:09+05:30"
-},
 "N:SAMYAKINTERNATIONAL": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bbecb85-7788-4aad-aa2b-0917065f23be.pdf",
 "t": "2026-11-18T18:52+05:30"
@@ -1086,10 +1082,6 @@
 },
 "PATILAUTOM": {
 "t": "2026-11-23T16:34+05:30"
-},
-"RICHA": {
-"pdf": "https://nsearchives.nseindia.in/corporate/RICHA_17112026190754_Outcome_of_BM_F_signed.pdf",
-"t": "2026-11-17T19:09+05:30"
 },
 "SFCTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
@@ -1191,35 +1183,6 @@
 }
 },
 "t": "2026-11-14T21:50+05:30"
-},
-"INE073V01015|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 2.6696,
-"finance": 2.0968,
-"other_income": 0.3577,
-"pat": 8.4226,
-"pbe": 8.5932,
-"pbt": 8.5932,
-"revenue": 98.4537,
-"tax": 0.1706,
-"total_expenses": 90.2182,
-"total_income": 98.8114
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 2.975,
-"finance": 1.9861,
-"other_income": 0.7968,
-"pat": 8.9331,
-"pbe": 11.5115,
-"pbt": 11.5115,
-"revenue": 109.1257,
-"tax": 2.5784,
-"total_expenses": 98.411,
-"total_income": 109.9225
-}
-},
-"t": "2026-11-14T19:09+05:30"
 },
 "INE0OMI01019|2026-09-30|S": {
 "p": {
