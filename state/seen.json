@@ -66,6 +66,9 @@
 "ANN-sme-106869308-KRISHCA": {
 "t": "2026-11-23T21:31+05:30"
 },
+"ANN-sme-106869502-DHANLAXMI": {
+"t": "2026-11-24T11:26+05:30"
+},
 "BANN-0795fbb1-361e-443c-8067-85399bb4b6a3": {
 "t": "2026-11-21T18:03+05:30"
 },
@@ -151,10 +154,6 @@
 "n": 6,
 "s": "failed",
 "t": "2026-11-17T15:04+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_512608_17112026111626_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T11:22+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
 "s": "small",
@@ -771,6 +770,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
 "t": "2026-11-23T19:53+05:30"
 },
+"DHANLAXMI": {
+"pdf": "https://nsearchives.nseindia.in/corporate/DHANLAXMI_24112026112155_Outcome.pdf",
+"t": "2026-11-24T11:24+05:30"
+},
 "DIVINEHIRA": {
 "t": "2026-11-23T20:05+05:30"
 },
@@ -1018,6 +1021,10 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
 "t": "2026-11-23T18:43+05:30"
+},
+"N:DHANLAXMICROPSCIENCE": {
+"pdf": "https://nsearchives.nseindia.in/corporate/DHANLAXMI_24112026112155_Outcome.pdf",
+"t": "2026-11-24T11:24+05:30"
 },
 "N:DIVINEHIRAJEWELLERS": {
 "t": "2026-11-23T20:05+05:30"
