@@ -383,10 +383,6 @@
 "s": "failed",
 "t": "2026-11-18T13:02+05:30"
 },
-"NSE-sme-IF-215265": {
-"s": "small",
-"t": "2026-11-17T22:15+05:30"
-},
 "NSE-sme-IF-215275": {
 "s": "small",
 "t": "2026-11-18T11:03+05:30"
@@ -1018,10 +1014,6 @@
 "c": 1,
 "t": "2026-11-23T17:41+05:30"
 },
-"N:TEERTHGOPICON": {
-"pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
-"t": "2026-11-17T22:18+05:30"
-},
 "N:TRANSINDIAHOUSEIMPEX": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
@@ -1057,10 +1049,6 @@
 "STCINDIA": {
 "c": 1,
 "t": "2026-11-23T17:41+05:30"
-},
-"TGL": {
-"pdf": "https://nsearchives.nseindia.in/corporate/TEERTHGOPICON_17112026221753_NSE_Reply_.pdf",
-"t": "2026-11-17T22:18+05:30"
 },
 "TRANSWIND": {
 "t": "2026-11-23T16:36+05:30"
@@ -1129,35 +1117,6 @@
 }
 },
 "pdfper": {
-"INE0R6Z01013|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 3.3423,
-"finance": 1.6225,
-"other_income": 1.313,
-"pat": 20.0796,
-"pbe": 25.7112,
-"pbt": 25.7112,
-"revenue": 206.221,
-"tax": 5.6316,
-"total_expenses": 181.8229,
-"total_income": 207.534
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 10.2905,
-"finance": 4.5706,
-"other_income": 0.923,
-"pat": 19.7125,
-"pbe": 24.2739,
-"pbt": 24.2739,
-"revenue": 196.262,
-"tax": 4.5614,
-"total_expenses": 172.9111,
-"total_income": 197.185
-}
-},
-"t": "2026-11-14T22:16+05:30"
-},
 "INE0ZCQ01019|2026-09-30|S": {
 "p": {
 "2025-07-01_2025-09-30": {
