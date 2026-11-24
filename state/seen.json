@@ -56,6 +56,9 @@
 "ANN-equities-106869390-SFCTECH": {
 "t": "2026-11-24T08:04+05:30"
 },
+"ANN-equities-106869730-LEXUS": {
+"t": "2026-11-24T17:20+05:30"
+},
 "ANN-sme-106868937-PATILAUTOM": {
 "t": "2026-11-23T16:36+05:30"
 },
@@ -835,6 +838,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/497d7398-e4c9-4fcd-920c-caa705e29397.pdf",
 "t": "2026-11-18T18:38+05:30"
 },
+"INE500X01013": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LEXUS_24112026171644_Outcome_Lexus.pdf",
+"t": "2026-11-24T17:19+05:30"
+},
 "INE502D01011": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
@@ -916,6 +923,10 @@
 "KSERASERA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
 "t": "2026-11-23T20:07+05:30"
+},
+"LEXUS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LEXUS_24112026171644_Outcome_Lexus.pdf",
+"t": "2026-11-24T17:19+05:30"
 },
 "LIBAS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LIBAS_17112026182615_Outcome.pdf",
@@ -1049,6 +1060,10 @@
 "N:KSS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
 "t": "2026-11-23T20:07+05:30"
+},
+"N:LEXUSGRANITOINDIA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/LEXUS_24112026171644_Outcome_Lexus.pdf",
+"t": "2026-11-24T17:19+05:30"
 },
 "N:LIBASCONSUMERPRODUCTS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/LIBAS_17112026182615_Outcome.pdf",
