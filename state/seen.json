@@ -7,6 +7,14 @@
 "n": "BELRISEINDUSTRIES",
 "t": "2026-11-23T17:32+05:30"
 },
+"BSE:506373": {
+"d": "2026-11-24",
+"mcap": 1313.7,
+"mid": 941,
+"n": "CITURGIABIOCHEMICALS",
+"pdf": 6,
+"t": "2026-11-24T13:37+05:30"
+},
 "BSE:543895": {
 "d": "2026-11-23",
 "mcap": 725.8,
@@ -104,6 +112,9 @@
 },
 "BANN-ccaca6cb-70ec-4fac-84cc-1e544e3892ee": {
 "t": "2026-11-21T18:43+05:30"
+},
+"BANN-e1d2ba6c-8c1e-4569-a495-a6933a4e262b": {
+"t": "2026-11-24T13:37+05:30"
 },
 "BANN-e5ab149a-b38d-49fb-9ae0-c79cb59b2949": {
 "t": "2026-11-24T08:04+05:30"
@@ -624,6 +635,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
 "t": "2026-11-23T15:52+05:30"
 },
+"BSE:506373": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
+"t": "2026-11-24T13:31+05:30"
+},
 "BSE:513721": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51c32cad-1183-4b2b-ab73-7d78910d03bb.pdf",
 "t": "2026-11-18T19:42+05:30"
@@ -989,6 +1004,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
 "t": "2026-11-23T18:43+05:30"
 },
+"N:CITURGIABIOCHEMICALS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
+"t": "2026-11-24T13:31+05:30"
+},
 "N:DHANLAXMICROPSCIENCE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/DHANLAXMI_24112026112155_Outcome.pdf",
 "t": "2026-11-24T11:24+05:30"
@@ -1206,6 +1225,10 @@
 "BSE:506074": {
 "t": "2026-11-23T15:56+05:30",
 "v": 21.6
+},
+"BSE:506373": {
+"t": "2026-11-24T13:37+05:30",
+"v": 1313.7
 },
 "BSE:538351": {
 "t": "2026-11-23T21:26+05:30",
