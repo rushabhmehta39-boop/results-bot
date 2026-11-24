@@ -101,9 +101,6 @@
 "BANN-a60872ca-a042-4f95-8ced-3db3a63a3f30": {
 "t": "2026-11-23T21:26+05:30"
 },
-"BANN-ccaca6cb-70ec-4fac-84cc-1e544e3892ee": {
-"t": "2026-11-21T18:43+05:30"
-},
 "BANN-e1d2ba6c-8c1e-4569-a495-a6933a4e262b": {
 "t": "2026-11-24T13:37+05:30"
 },
@@ -681,10 +678,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fd84e2f6-6bed-4d3b-b8eb-24ee284ecae0.pdf",
 "t": "2026-11-17T19:00+05:30"
 },
-"BSE:541083": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
-"t": "2026-11-17T18:40+05:30"
-},
 "BSE:543439": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a238ac02-f079-4914-848a-3bce2ae6ec6e.pdf",
@@ -1024,10 +1017,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14754538-67ad-49b9-8839-3e9d756e6279.pdf",
 "t": "2026-11-20T21:51+05:30"
 },
-"N:INFLAMEAPPLIANCES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
-"t": "2026-11-17T18:40+05:30"
-},
 "N:JFLLIFESCIENCES": {
 "t": "2026-11-23T16:35+05:30"
 },
@@ -1246,35 +1235,6 @@
 }
 },
 "t": "2026-11-14T21:50+05:30"
-},
-"BSE:544870|2026-09-30|S": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 3.253,
-"finance": 0.434,
-"other_income": 2.383,
-"pat": 13.624,
-"pbe": 18.069,
-"pbt": 18.069,
-"revenue": 126.641,
-"tax": 4.445,
-"total_expenses": 110.955,
-"total_income": 129.024
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 3.548,
-"finance": 0.432,
-"other_income": 2.174,
-"pat": 19.194,
-"pbe": 25.754,
-"pbt": 25.754,
-"revenue": 151.674,
-"tax": 6.56,
-"total_expenses": 128.094,
-"total_income": 153.848
-}
-},
-"t": "2026-11-14T18:45+05:30"
 },
 "INE073V01015|2026-09-30|C": {
 "p": {
