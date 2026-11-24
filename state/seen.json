@@ -89,9 +89,6 @@
 "BANN-0f7aba13-9150-4b20-98f0-642711840141": {
 "t": "2026-11-23T18:45+05:30"
 },
-"BANN-15f3d1c0-2718-4d31-9820-b9fab0c04c94": {
-"t": "2026-11-21T16:00+05:30"
-},
 "BANN-2af97d30-8849-4698-a20f-025afff7800c": {
 "t": "2026-11-23T15:10+05:30"
 },
@@ -160,6 +157,10 @@
 "BSE-Integrated_Finance_Ind_As_501477_19112026143250_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T16:39+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_506373_2411202613549_IFIndAs.xml": {
+"s": "posted",
+"t": "2026-11-24T16:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
 "s": "small",
@@ -616,6 +617,8 @@
 },
 "BSE:506373": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
+"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|card|6",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|S|6",
 "t": "2026-11-24T13:31+05:30"
 },
 "BSE:513721": {
@@ -985,6 +988,8 @@
 },
 "N:CITURGIABIOCHEMICALS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
+"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|card|6",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|S|6",
 "t": "2026-11-24T13:31+05:30"
 },
 "N:DHANLAXMICROPSCIENCE": {
@@ -1636,22 +1641,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_506373_2411202613549_IFIndAs.xml": {
-"company": "Citurgia Biochemicals Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "506373",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-24T13:59+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_506373_2411202613549_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_506373_2411202613549_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_506373_2411202613549_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml": {
 "company": "Toyam Sports Ltd",
 "consolidated": false,
@@ -4717,6 +4706,13 @@
 "pe": "2026-09-30",
 "t": "2026-11-13T18:58+05:30"
 },
+"INE795B01031|2026-09-30|S": {
+"b": "S",
+"mid": 942,
+"n": "PREV",
+"pe": "2026-09-30",
+"t": "2026-11-24T16:01+05:30"
+},
 "INE796G01012|2026-09-30|C": {
 "b": "C",
 "mid": 609,
@@ -5831,6 +5827,10 @@
 "506180": {
 "t": "2026-11-13T17:38+05:30",
 "v": "INE668L01013"
+},
+"506373": {
+"t": "2026-11-24T16:00+05:30",
+"v": "INE795B01031"
 },
 "506520": {
 "t": "2026-11-12T22:07+05:30",
@@ -20157,6 +20157,10 @@
 "INE794W01014": {
 "t": "2026-11-16T08:08+05:30",
 "v": 34775200
+},
+"INE795B01031": {
+"t": "2026-11-24T16:00+05:30",
+"v": 132095000
 },
 "INE795E01019": {
 "t": "2026-11-13T22:27+05:30",
