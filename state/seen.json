@@ -599,6 +599,9 @@
 "BSE|545018|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
 },
+"NSE SME|DHANLAXMI|2026-09-30": {
+"t": "2026-11-24T12:00+05:30"
+},
 "NSE SME|GICL|2026-09-30": {
 "t": "2026-11-21T12:59+05:30"
 },
@@ -818,12 +821,12 @@
 "t": "2026-11-24T08:04+05:30"
 },
 "INE0PKN01028": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:41+05:30"
 },
 "INE0XFY01011": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
 "t": "2026-11-23T19:17+05:30"
 },
 "INE0YON01014": {
@@ -983,7 +986,7 @@
 "t": "2026-11-17T19:41+05:30"
 },
 "N:ARSHIYA": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
 "t": "2026-11-23T15:52+05:30"
 },
 "N:ASIANFERTILIZERS": {
@@ -1001,7 +1004,7 @@
 "t": "2026-11-18T18:22+05:30"
 },
 "N:BOMBAYCOATEDANDSPECIALSTEELS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
 "t": "2026-11-23T19:17+05:30"
 },
 "N:BOSTONCOMMERCE": {
@@ -1135,7 +1138,7 @@
 "t": "2026-11-18T18:52+05:30"
 },
 "N:SFCENVIRONMENTALTECHNOLOGIES": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
+"pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:26+05:30"
 },
@@ -1773,6 +1776,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
+},
+"NSE-sme-IF-216248": {
+"company": "Dhanlaxmi Crop Science Limited",
+"consolidated": false,
+"filed_at": "2026-11-24T12:00:21+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "DHANLAXMI",
+"t": "2026-11-24T12:00+05:30",
+"uid": "NSE-sme-IF-216248",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216248_24112026120019_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760992_24112026120019_WEB.xml"
 }
 },
 "posted": {
