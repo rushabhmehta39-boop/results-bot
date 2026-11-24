@@ -280,10 +280,6 @@
 "s": "superseded",
 "t": "2026-11-18T16:55+05:30"
 },
-"NSE-equities-IF-215086": {
-"s": "old",
-"t": "2026-11-18T00:57+05:30"
-},
 "NSE-equities-IF-215152": {
 "s": "superseded",
 "t": "2026-11-18T16:49+05:30"
@@ -371,6 +367,14 @@
 "NSE-equities-IF-216226": {
 "s": "superseded",
 "t": "2026-11-24T08:04+05:30"
+},
+"NSE-equities-IF-216293": {
+"s": "old",
+"t": "2026-11-25T04:07+05:30"
+},
+"NSE-equities-IF-216294": {
+"s": "old",
+"t": "2026-11-25T04:07+05:30"
 },
 "NSE-equities-IF-216307": {
 "s": "small",
@@ -504,8 +508,14 @@
 "BSE|545009|2026-09-30": {
 "t": "2026-11-23T23:59+05:30"
 },
+"BSE|545010|2026-09-30": {
+"t": "2026-11-25T04:07+05:30"
+},
 "BSE|545015|2026-09-30": {
 "t": "2026-11-23T21:43+05:30"
+},
+"BSE|545017|2026-09-30": {
+"t": "2026-11-25T04:07+05:30"
 },
 "BSE|545018|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
@@ -524,6 +534,9 @@
 },
 "NSE|LEXUS|2026-09-30": {
 "t": "2026-11-24T17:31+05:30"
+},
+"NSE|MKJEWELS|2026-09-30": {
+"t": "2026-11-25T04:07+05:30"
 },
 "NSE|SFCTECH|2026-09-30": {
 "t": "2026-11-23T23:48+05:30"
@@ -1193,6 +1206,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-IFOtherthan_545010_251120260230_IFOtherthan.xml": {
+"company": "Wiscon Industries Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545010",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-25T04:07+05:30",
+"uid": "BSE-IFOtherthan_545010_251120260230_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545010_251120260230_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545010_251120260230_IFOtherthan.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml": {
 "company": "Starbeam Ventures Ltd",
 "consolidated": false,
@@ -1208,6 +1237,38 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml": {
+"company": "M. K. Sons Fine Jewels Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545017",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-25T04:07+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml"
+},
+"NSE-equities-IF-216360": {
+"company": "M. K. Sons Fine Jewels Limited",
+"consolidated": false,
+"filed_at": "2026-11-25T01:33:25+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "MKJEWELS",
+"t": "2026-11-25T04:07+05:30",
+"uid": "NSE-equities-IF-216360",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216360_25112026013324_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761121_25112026013322_WEB.xml"
 }
 },
 "posted": {
