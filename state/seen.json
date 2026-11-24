@@ -388,9 +388,8 @@
 "t": "2026-11-24T08:04+05:30"
 },
 "NSE-equities-IF-216307": {
-"n": 1,
-"s": "retry",
-"t": "2026-11-24T17:42+05:30"
+"s": "small",
+"t": "2026-11-24T17:49+05:30"
 },
 "NSE-sme-IF-215078": {
 "n": 6,
@@ -531,9 +530,8 @@
 "t": "2026-11-24T12:17+05:30"
 },
 "NSE-sme-IF-216307": {
-"n": 1,
-"s": "retry",
-"t": "2026-11-24T17:42+05:30"
+"s": "small",
+"t": "2026-11-24T17:49+05:30"
 }
 },
 "first_seen": {
@@ -1644,38 +1642,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
-},
-"NSE-equities-IF-216307": {
-"company": "Lexus Granito (India) Limited",
-"consolidated": false,
-"filed_at": "2026-11-24T17:26:40+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "LEXUS",
-"t": "2026-11-24T17:31+05:30",
-"uid": "NSE-equities-IF-216307",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216307_24112026172640_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761070_24112026052638_WEB.xml"
-},
-"NSE-sme-IF-216307": {
-"company": "Lexus Granito (India) Limited",
-"consolidated": false,
-"filed_at": "2026-11-24T17:26:40+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "LEXUS",
-"t": "2026-11-24T17:31+05:30",
-"uid": "NSE-sme-IF-216307",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216307_24112026172640_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761070_24112026052638_WEB.xml"
 }
 },
 "posted": {
@@ -5229,8 +5195,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-24T12:17+05:30",
-"v": "INE0V9V01010"
+"t": "2026-11-24T17:49+05:30",
+"v": "INE500X01013"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -18333,6 +18299,10 @@
 "INE500D01015": {
 "t": "2026-11-12T22:07+05:30",
 "v": 5232900
+},
+"INE500X01013": {
+"t": "2026-11-24T17:49+05:30",
+"v": 20790700
 },
 "INE501A01019": {
 "t": "2026-11-14T08:02+05:30",
