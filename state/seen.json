@@ -45,8 +45,8 @@
 "ANN-equities-106869286-KSERASERA": {
 "t": "2026-11-23T20:11+05:30"
 },
-"ANN-sme-106867963-AVPINFRA": {
-"t": "2026-11-21T08:01+05:30"
+"ANN-equities-106869390-SFCTECH": {
+"t": "2026-11-24T08:04+05:30"
 },
 "ANN-sme-106868937-PATILAUTOM": {
 "t": "2026-11-23T16:36+05:30"
@@ -101,13 +101,12 @@
 },
 "BANN-ccaca6cb-70ec-4fac-84cc-1e544e3892ee": {
 "t": "2026-11-21T18:43+05:30"
+},
+"BANN-e5ab149a-b38d-49fb-9ae0-c79cb59b2949": {
+"t": "2026-11-24T08:04+05:30"
 }
 },
 "filings": {
-"BSE-IFOtherthan_543541_15112026163611_IFOtherthan.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
-},
 "BSE-IFOtherthan_543546_21112026155935_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-21T18:09+05:30"
@@ -165,14 +164,6 @@
 "s": "small",
 "t": "2026-11-18T21:54+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_519260_15112026172121_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_520121_1611202621439_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_523031_19112026183334_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T18:54+05:30"
@@ -197,10 +188,6 @@
 "BSE-Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-17T21:47+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_531300_16112026221740_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml": {
 "s": "small",
@@ -234,10 +221,6 @@
 "s": "small",
 "t": "2026-11-21T16:12+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_532441_1611202623101_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-17T14:53+05:30"
@@ -249,10 +232,6 @@
 "BSE-Integrated_Finance_Ind_As_538351_21112026184217_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-21T20:50+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_539407_1511202614445_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "s": "small",
@@ -270,6 +249,10 @@
 "s": "small",
 "t": "2026-11-23T08:04+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml": {
+"s": "posted",
+"t": "2026-11-24T08:04+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_544111_1811202613291_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-19T13:37+05:30"
@@ -282,9 +265,9 @@
 "s": "superseded",
 "t": "2026-11-17T12:14+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_544973_16112026084527_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T08:03+05:30"
+"BSE-Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.xml": {
+"s": "superseded",
+"t": "2026-11-24T08:04+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
 "s": "dup",
@@ -413,6 +396,14 @@
 "NSE-equities-IF-216205": {
 "s": "small",
 "t": "2026-11-23T22:06+05:30"
+},
+"NSE-equities-IF-216223": {
+"s": "posted",
+"t": "2026-11-24T08:04+05:30"
+},
+"NSE-equities-IF-216226": {
+"s": "superseded",
+"t": "2026-11-24T08:04+05:30"
 },
 "NSE-sme-IF-214790": {
 "s": "posted",
@@ -570,6 +561,14 @@
 "NSE-sme-IF-215977": {
 "s": "small",
 "t": "2026-11-21T13:00+05:30"
+},
+"NSE-sme-IF-216224": {
+"s": "superseded",
+"t": "2026-11-24T08:04+05:30"
+},
+"NSE-sme-IF-216225": {
+"s": "posted",
+"t": "2026-11-24T08:04+05:30"
 }
 },
 "first_seen": {
@@ -741,6 +740,8 @@
 "BSE:543895": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf",
+"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|card|6",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|S|6",
 "t": "2026-11-23T15:08+05:30"
 },
 "BSE:544351": {
@@ -758,6 +759,7 @@
 },
 "BSE:545009": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:26+05:30"
 },
 "BSE:545011": {
@@ -815,8 +817,13 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
 "t": "2026-11-21T15:57+05:30"
 },
+"INE0O8901016": {
+"c": 1,
+"t": "2026-11-24T08:04+05:30"
+},
 "INE0PKN01028": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:41+05:30"
 },
 "INE0XFY01011": {
@@ -1025,6 +1032,8 @@
 "N:EXHICONEVENTSMEDIASOLUTIONS": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf",
+"pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|card|6",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|S|6",
 "t": "2026-11-23T15:08+05:30"
 },
 "N:GANGAFORGING": {
@@ -1127,6 +1136,7 @@
 },
 "N:SFCENVIRONMENTALTECHNOLOGIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:26+05:30"
 },
 "N:SHREERAJESHWARANANDPAPERMILLS": {
@@ -1186,6 +1196,7 @@
 },
 "SFCTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+"pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:41+05:30"
 },
 "STCINDIA": {
@@ -1762,102 +1773,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml": {
-"company": "Exhicon Events Media Solutions Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "543895",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-23T22:45+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_543895_23112026224254_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.xml": {
-"company": "SFC Environmental Technologies Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545009",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-23T23:59+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.xml"
-},
-"NSE-equities-IF-216223": {
-"company": "SFC Environmental Technologies Limited",
-"consolidated": true,
-"filed_at": "2026-11-23T23:44:30+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SFCTECH",
-"t": "2026-11-23T23:48+05:30",
-"uid": "NSE-equities-IF-216223",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216223_23112026234429_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760949_23112026114428_WEB.xml"
-},
-"NSE-equities-IF-216226": {
-"company": "SFC Environmental Technologies Limited",
-"consolidated": false,
-"filed_at": "2026-11-23T23:58:50+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "SFCTECH",
-"t": "2026-11-23T23:59+05:30",
-"uid": "NSE-equities-IF-216226",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216226_23112026235850_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760952_23112026115847_WEB.xml"
-},
-"NSE-sme-IF-216224": {
-"company": "Krishca Strapping Solutions Limited",
-"consolidated": false,
-"filed_at": "2026-11-23T23:54:38+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "KRISHCA",
-"t": "2026-11-23T23:59+05:30",
-"uid": "NSE-sme-IF-216224",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216224_23112026235438_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760950_23112026115436_WEB.xml"
-},
-"NSE-sme-IF-216225": {
-"company": "Krishca Strapping Solutions Limited",
-"consolidated": true,
-"filed_at": "2026-11-23T23:55:09+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "KRISHCA",
-"t": "2026-11-23T23:59+05:30",
-"uid": "NSE-sme-IF-216225",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216225_23112026235509_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760951_23112026115509_WEB.xml"
 }
 },
 "posted": {
@@ -2828,6 +2743,21 @@
 "pe": "2026-09-30",
 "t": "2026-11-12T22:02+05:30"
 },
+"INE0NR701018|2026-09-30|C": {
+"b": "C",
+"mid": 937,
+"n": "KRISHCASTRAPPINGSOLUTIONS",
+"pe": "2026-09-30",
+"t": "2026-11-24T08:04+05:30"
+},
+"INE0O8901016|2026-09-30|S": {
+"b": "S",
+"mid": 938,
+"n": "PREV",
+"pe": "2026-09-30",
+"span": 6,
+"t": "2026-11-24T08:04+05:30"
+},
 "INE0OC301013|2026-09-30|C": {
 "b": "C",
 "mid": 327,
@@ -2910,6 +2840,13 @@
 "pe": "2026-09-30",
 "span": 6,
 "t": "2026-11-14T08:03+05:30"
+},
+"INE0PKN01028|2026-09-30|C": {
+"b": "C",
+"mid": 936,
+"n": "PREV",
+"pe": "2026-09-30",
+"t": "2026-11-24T08:04+05:30"
 },
 "INE0PRF01011|2026-09-30|C": {
 "b": "C",
@@ -5382,8 +5319,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-21T13:00+05:30",
-"v": "INE947T01022"
+"t": "2026-11-24T08:04+05:30",
+"v": "INE0NR701018"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -11473,6 +11410,10 @@
 "t": "2026-11-14T22:28+05:30",
 "v": "INE0N0Y01013"
 },
+"543895": {
+"t": "2026-11-24T08:04+05:30",
+"v": "INE0O8901016"
+},
 "543897": {
 "t": "2026-11-16T19:41+05:30",
 "v": "INE0P7001013"
@@ -12664,6 +12605,10 @@
 "545001": {
 "t": "2026-11-06T23:16+05:30",
 "v": "INE356Y01018"
+},
+"545009": {
+"t": "2026-11-24T08:03+05:30",
+"v": "INE0PKN01028"
 },
 "545012": {
 "t": "2026-11-13T08:07+05:30",
@@ -14259,6 +14204,10 @@
 "t": "2026-11-13T22:28+05:30",
 "v": 50477400
 },
+"INE0NR701018": {
+"t": "2026-11-24T08:04+05:30",
+"v": 155761630000
+},
 "INE0NTC01019": {
 "t": "2026-11-14T16:03+05:30",
 "v": 15340000
@@ -14326,6 +14275,10 @@
 "INE0O7R01011": {
 "t": "2026-11-12T18:57+05:30",
 "v": 14668800
+},
+"INE0O8901016": {
+"t": "2026-11-24T08:04+05:30",
+"v": 16397100
 },
 "INE0O9L01010": {
 "t": "2026-11-14T19:22+05:30",
@@ -14470,6 +14423,10 @@
 "INE0PE401018": {
 "t": "2026-11-16T15:09+05:30",
 "v": 14880200
+},
+"INE0PKN01028": {
+"t": "2026-11-24T08:03+05:30",
+"v": 93410000
 },
 "INE0PLZ01012": {
 "t": "2026-11-16T08:55+05:30",
