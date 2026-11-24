@@ -788,10 +788,6 @@
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
 "t": "2026-11-20T19:18+05:30"
 },
-"ICELCO": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
-"t": "2026-11-17T12:04+05:30"
-},
 "INE01OY01018": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
 "t": "2026-11-21T16:09+05:30"
@@ -821,12 +817,12 @@
 "t": "2026-11-24T08:04+05:30"
 },
 "INE0PKN01028": {
-"pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:41+05:30"
 },
 "INE0XFY01011": {
-"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
 "t": "2026-11-23T19:17+05:30"
 },
 "INE0YON01014": {
@@ -986,7 +982,7 @@
 "t": "2026-11-17T19:41+05:30"
 },
 "N:ARSHIYA": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
 "t": "2026-11-23T15:52+05:30"
 },
 "N:ASIANFERTILIZERS": {
@@ -1004,7 +1000,7 @@
 "t": "2026-11-18T18:22+05:30"
 },
 "N:BOMBAYCOATEDANDSPECIALSTEELS": {
-"pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/446a151d-be58-46b4-9b3b-cc6ee1ee7526.pdf",
 "t": "2026-11-23T19:17+05:30"
 },
 "N:BOSTONCOMMERCE": {
@@ -1058,10 +1054,6 @@
 "N:HORIZONRECLAIMINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14754538-67ad-49b9-8839-3e9d756e6279.pdf",
 "t": "2026-11-20T21:51+05:30"
-},
-"N:ICELECTRICALSCOMPANY": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ICEL_17112026115946_Half_Yearly_Results_with_Fund_Utilisation.pdf",
-"t": "2026-11-17T12:04+05:30"
 },
 "N:INFLAMEAPPLIANCES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/27074c93-283f-480a-9f3c-d46f7c7d1ab5.pdf",
@@ -1138,7 +1130,7 @@
 "t": "2026-11-18T18:52+05:30"
 },
 "N:SFCENVIRONMENTALTECHNOLOGIES": {
-"pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:26+05:30"
 },
@@ -1293,35 +1285,6 @@
 }
 },
 "t": "2026-11-14T21:50+05:30"
-},
-"BSE:544198|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 13.1572,
-"finance": 13.7301,
-"other_income": 5.1725,
-"pat": 17.7984,
-"pbe": 22.344,
-"pbt": 22.344,
-"revenue": 269.9999,
-"tax": 4.5456,
-"total_expenses": 252.8284,
-"total_income": 275.1724
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 15.0077,
-"finance": 17.163,
-"other_income": 2.4789,
-"pat": 16.083,
-"pbe": 20.0543,
-"pbt": 20.0543,
-"revenue": 294.4622,
-"tax": 3.9713,
-"total_expenses": 276.8868,
-"total_income": 296.9411
-}
-},
-"t": "2026-11-14T12:06+05:30"
 },
 "BSE:544870|2026-09-30|S": {
 "p": {
