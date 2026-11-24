@@ -256,10 +256,6 @@
 "s": "small",
 "t": "2026-11-18T14:33+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_544945_1611202612045_IFIndAs.xml": {
-"s": "superseded",
-"t": "2026-11-17T12:14+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_545009_23112026235739_IFIndAs.xml": {
 "s": "superseded",
 "t": "2026-11-24T08:04+05:30"
@@ -391,10 +387,6 @@
 "NSE-equities-IF-216226": {
 "s": "superseded",
 "t": "2026-11-24T08:04+05:30"
-},
-"NSE-sme-IF-214790": {
-"s": "posted",
-"t": "2026-11-17T12:14+05:30"
 },
 "NSE-sme-IF-214817": {
 "s": "small",
@@ -556,6 +548,10 @@
 "NSE-sme-IF-216225": {
 "s": "posted",
 "t": "2026-11-24T08:04+05:30"
+},
+"NSE-sme-IF-216248": {
+"s": "small",
+"t": "2026-11-24T12:17+05:30"
 }
 },
 "first_seen": {
@@ -795,10 +791,6 @@
 "INE06H201014": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
 "t": "2026-11-19T13:08+05:30"
-},
-"INE0BHK01012": {
-"c": 1,
-"t": "2026-11-17T12:14+05:30"
 },
 "INE0JYY01011": {
 "t": "2026-11-23T17:23+05:30"
@@ -1735,22 +1727,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
-},
-"NSE-sme-IF-216248": {
-"company": "Dhanlaxmi Crop Science Limited",
-"consolidated": false,
-"filed_at": "2026-11-24T12:00:21+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "DHANLAXMI",
-"t": "2026-11-24T12:00+05:30",
-"uid": "NSE-sme-IF-216248",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216248_24112026120019_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1760992_24112026120019_WEB.xml"
 }
 },
 "posted": {
@@ -5297,8 +5273,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-24T08:04+05:30",
-"v": "INE0NR701018"
+"t": "2026-11-24T12:17+05:30",
+"v": "INE0V9V01010"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -15069,6 +15045,10 @@
 "INE0V9I01017": {
 "t": "2026-11-10T23:49+05:30",
 "v": 5485100
+},
+"INE0V9V01010": {
+"t": "2026-11-24T12:17+05:30",
+"v": 16328000
 },
 "INE0VBS01016": {
 "t": "2026-11-14T19:33+05:30",
