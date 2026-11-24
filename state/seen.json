@@ -227,10 +227,6 @@
 "s": "small",
 "t": "2026-11-21T16:12+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_532904_16112026144523_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T14:53+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_534659_17112026185920_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-17T21:07+05:30"
@@ -1355,35 +1351,6 @@
 }
 },
 "t": "2026-11-14T19:09+05:30"
-},
-"INE0CJF01024|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 6.497,
-"finance": 4.528,
-"other_income": 4.363,
-"pat": 8.946,
-"pbe": 12.159,
-"pbt": 12.16,
-"revenue": 439.615,
-"tax": 3.214,
-"total_expenses": 431.819,
-"total_income": 443.978
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 6.63,
-"finance": 3.693,
-"other_income": 3.512,
-"pat": 8.692,
-"pbe": 11.867,
-"pbt": 11.868,
-"revenue": 464.875,
-"tax": 3.176,
-"total_expenses": 456.52,
-"total_income": 468.387
-}
-},
-"t": "2026-11-14T14:57+05:30"
 },
 "INE0JUI01012|2026-09-30|C": {
 "p": {
