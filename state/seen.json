@@ -23,12 +23,28 @@
 "pdf": 6,
 "t": "2026-11-23T15:10+05:30"
 },
+"INE2IXO01012": {
+"d": "2026-11-24",
+"mcap": 897.0,
+"mid": 943,
+"n": "MKSONSFINEJEWELS",
+"pdf": 6,
+"t": "2026-11-24T21:51+05:30"
+},
 "INE894V01022": {
 "d": "2026-11-23",
 "mcap": 23003.7,
 "mid": 933,
 "n": "BELRISEINDUSTRIES",
 "t": "2026-11-23T17:32+05:30"
+},
+"MKJEWELS": {
+"d": "2026-11-24",
+"mcap": 897.0,
+"mid": 943,
+"n": "MKSONSFINEJEWELS",
+"pdf": 6,
+"t": "2026-11-24T21:51+05:30"
 }
 },
 "ann": {
@@ -58,6 +74,9 @@
 },
 "ANN-equities-106869730-LEXUS": {
 "t": "2026-11-24T17:20+05:30"
+},
+"ANN-equities-106869920-MKJEWELS": {
+"t": "2026-11-24T21:51+05:30"
 },
 "ANN-sme-106868937-PATILAUTOM": {
 "t": "2026-11-23T16:36+05:30"
@@ -170,10 +189,6 @@
 "BSE-Integrated_Finance_Ind_As_530025_18112026185827_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-18T21:02+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_530267_17112026194237_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-17T21:47+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml": {
 "s": "small",
@@ -723,6 +738,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
 "t": "2026-11-18T20:51+05:30"
 },
+"INE2IXO01012": {
+"pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"t": "2026-11-24T21:49+05:30"
+},
 "INE382T01030": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
 "t": "2026-11-20T19:18+05:30"
@@ -816,6 +835,10 @@
 "MADHAVBAUG": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VSAL1999_18112026144122_SEOutcomeBM05112026.pdf",
 "t": "2026-11-18T14:44+05:30"
+},
+"MKJEWELS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"t": "2026-11-24T21:49+05:30"
 },
 "MWL": {
 "t": "2026-11-23T17:23+05:30"
@@ -940,6 +963,10 @@
 "N:MFSINTERCORP": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/51c32cad-1183-4b2b-ab73-7d78910d03bb.pdf",
 "t": "2026-11-18T19:42+05:30"
+},
+"N:MKSONSFINEJEWELS": {
+"pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"t": "2026-11-24T21:49+05:30"
 },
 "N:ORIENTTRADELINK": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
@@ -1074,41 +1101,16 @@
 "t": "2026-11-23T19:54+05:30",
 "v": 531.4
 },
+"MKJEWELS": {
+"t": "2026-11-24T21:51+05:30",
+"v": 897.0
+},
 "STCINDIA": {
 "t": "2026-11-23T17:43+05:30",
 "v": 625.8
 }
 },
 "pdfper": {
-"BSE:543272|2026-09-30|C": {
-"p": {
-"2025-07-01_2025-09-30": {
-"depreciation": 4.638,
-"finance": 1.32,
-"other_income": 8.121,
-"pat": -36.043,
-"pbe": 5.4,
-"pbt": -45.557,
-"revenue": 118.339,
-"tax": -9.514,
-"total_expenses": 120.338,
-"total_income": 126.46
-},
-"2026-04-01_2026-06-30": {
-"depreciation": 4.054,
-"finance": 1.055,
-"other_income": 6.577,
-"pat": -11.688,
-"pbe": -11.975,
-"pbt": -11.975,
-"revenue": 134.706,
-"tax": -0.287,
-"total_expenses": 152.698,
-"total_income": 141.283
-}
-},
-"t": "2026-11-14T21:50+05:30"
-},
 "INE0R6Z01013|2026-09-30|C": {
 "p": {
 "2025-07-01_2025-09-30": {
