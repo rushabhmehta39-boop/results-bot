@@ -574,8 +574,14 @@
 "NSE SME|KRISHCA|2026-09-30": {
 "t": "2026-11-23T23:59+05:30"
 },
+"NSE SME|LEXUS|2026-09-30": {
+"t": "2026-11-24T17:31+05:30"
+},
 "NSE|BCSSL|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
+},
+"NSE|LEXUS|2026-09-30": {
+"t": "2026-11-24T17:31+05:30"
 },
 "NSE|SFCTECH|2026-09-30": {
 "t": "2026-11-23T23:48+05:30"
@@ -1636,6 +1642,38 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538607_20112026113318_IFIndAs.xml"
+},
+"NSE-equities-IF-216307": {
+"company": "Lexus Granito (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-24T17:26:40+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "LEXUS",
+"t": "2026-11-24T17:31+05:30",
+"uid": "NSE-equities-IF-216307",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216307_24112026172640_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761070_24112026052638_WEB.xml"
+},
+"NSE-sme-IF-216307": {
+"company": "Lexus Granito (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-24T17:26:40+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "LEXUS",
+"t": "2026-11-24T17:31+05:30",
+"uid": "NSE-sme-IF-216307",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216307_24112026172640_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761070_24112026052638_WEB.xml"
 }
 },
 "posted": {
