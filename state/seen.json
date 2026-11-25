@@ -145,6 +145,9 @@
 "BANN-4ba535c1-0785-486c-bac7-9752938987b4": {
 "t": "2026-11-24T22:55+05:30"
 },
+"BANN-79d23066-32ac-4e42-8bd4-3aa96787f4f3": {
+"t": "2026-11-25T20:30+05:30"
+},
 "BANN-7b50c8c4-41d1-4170-a540-516faba5d226": {
 "t": "2026-11-25T18:43+05:30"
 },
@@ -458,6 +461,9 @@
 "BSE|506373|2026-09-30": {
 "t": "2026-11-24T13:59+05:30"
 },
+"BSE|512591|2026-09-30": {
+"t": "2026-11-25T20:30+05:30"
+},
 "BSE|539175|2026-09-30": {
 "t": "2026-11-24T22:02+05:30"
 },
@@ -611,6 +617,10 @@
 "pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|card|6",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|S|6",
 "t": "2026-11-23T15:08+05:30"
+},
+"BSE:544390": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b498aec5-9f3e-4e87-a416-2af9441395df.pdf",
+"t": "2026-11-25T20:26+05:30"
 },
 "BSE:544771": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb91d948-17df-47ea-9dea-2d0e50a81685.pdf",
@@ -958,7 +968,7 @@
 "t": "2026-11-19T11:18+05:30"
 },
 "N:SIEMENSENERGYINDIA": {
-"pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b498aec5-9f3e-4e87-a416-2af9441395df.pdf",
 "t": "2026-11-25T20:19+05:30"
 },
 "N:SIMBHAOLISUGARS": {
@@ -1158,6 +1168,22 @@
 "uid": "BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml": {
+"company": "Pulsar International Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "512591",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-25T20:30+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml"
 },
 "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
 "company": "Simbhaoli Sugars Ltd",
