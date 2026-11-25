@@ -78,6 +78,9 @@
 "ANN-equities-106869920-MKJEWELS": {
 "t": "2026-11-24T21:51+05:30"
 },
+"ANN-equities-106870786-SIMBHALS": {
+"t": "2026-11-25T18:48+05:30"
+},
 "ANN-sme-106868937-PATILAUTOM": {
 "t": "2026-11-23T16:36+05:30"
 },
@@ -460,6 +463,9 @@
 "BSE|545015|2026-09-30": {
 "t": "2026-11-23T21:43+05:30"
 },
+"BSE|545016|2026-09-30": {
+"t": "2026-11-25T18:48+05:30"
+},
 "BSE|545017|2026-09-30": {
 "t": "2026-11-25T04:07+05:30"
 },
@@ -619,10 +625,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5289b80c-8086-4d49-98c4-c9a589f17668.pdf",
 "t": "2026-11-24T23:42+05:30"
 },
-"BSE:545011": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/833766cd-e8db-416c-b65b-663b0d127169.pdf",
-"t": "2026-11-18T18:45+05:30"
-},
 "BSE:545015": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ead908e-6a68-4e2c-8aa8-075b2a7e495a.pdf",
@@ -770,6 +772,11 @@
 "INE681D01039": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ed2490e3-aead-4b69-98c5-b86be17a7dcc.pdf",
 "t": "2026-11-18T19:30+05:30"
+},
+"INE748T01016": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.in/corporate/SIMBHALS_25112026183853_Finaloutcome25Nov2026forupload.pdf",
+"t": "2026-11-25T18:44+05:30"
 },
 "INE795B01031": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
@@ -980,6 +987,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
 "t": "2026-11-19T11:18+05:30"
 },
+"N:SIMBHAOLISUGARS": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.in/corporate/SIMBHALS_25112026183853_Finaloutcome25Nov2026forupload.pdf",
+"t": "2026-11-25T18:44+05:30"
+},
 "N:SPICEISLANDSINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa220c32-5fc3-4a29-bef6-9da03b4e30d2.pdf",
 "t": "2026-11-19T18:22+05:30"
@@ -1028,6 +1040,11 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
 "t": "2026-11-23T23:41+05:30"
 },
+"SIMBHALS": {
+"c": 1,
+"pdf": "https://nsearchives.nseindia.in/corporate/SIMBHALS_25112026183853_Finaloutcome25Nov2026forupload.pdf",
+"t": "2026-11-25T18:44+05:30"
+},
 "STCINDIA": {
 "c": 1,
 "t": "2026-11-23T17:41+05:30"
@@ -1073,10 +1090,6 @@
 "t": "2026-11-25T08:01+05:30",
 "v": 461.7
 },
-"BSE:545015": {
-"t": "2026-11-23T18:45+05:30",
-"v": 130.0
-},
 "BSE:545016": {
 "t": "2026-11-25T18:43+05:30",
 "v": 44.1
@@ -1088,6 +1101,10 @@
 "MKJEWELS": {
 "t": "2026-11-24T21:51+05:30",
 "v": 897.0
+},
+"SIMBHALS": {
+"t": "2026-11-25T18:48+05:30",
+"v": 25.0
 }
 },
 "pdfper": {
@@ -1151,7 +1168,24 @@
 }
 },
 "pdfq": {},
-"pending": {},
+"pending": {
+"BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml": {
+"company": "Ajwa Projects Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545016",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-25T18:48+05:30",
+"uid": "BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.xml"
+}
+},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
