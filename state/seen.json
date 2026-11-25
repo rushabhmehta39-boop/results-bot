@@ -191,6 +191,10 @@
 "s": "small",
 "t": "2026-11-23T22:17+05:30"
 },
+"BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-25T20:53+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T22:30+05:30"
@@ -573,10 +577,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/716f9a8a-75b3-452e-b7e8-93eb52124b47.pdf",
 "t": "2026-11-20T18:01+05:30"
 },
-"BSE:531780": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
-"t": "2026-11-18T20:51+05:30"
-},
 "BSE:532389": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/562d536e-a1d8-46a0-92e6-6a42200797ad.pdf",
 "t": "2026-11-20T18:58+05:30"
@@ -730,10 +730,6 @@
 "INE216D01018": {
 "pdf": "https://nsearchives.nseindia.in/corporate/KSERASERA_23112026200705_OutcomeandUnauditedFinancialResults.pdf",
 "t": "2026-11-23T20:07+05:30"
-},
-"INE229G01022": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
-"t": "2026-11-18T20:51+05:30"
 },
 "INE2IXO01012": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/79775222-6e1c-47fd-b095-852b71231db6.pdf",
@@ -910,10 +906,6 @@
 },
 "N:JFLLIFESCIENCES": {
 "t": "2026-11-23T16:35+05:30"
-},
-"N:KAISERCORPORATION": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/64938863-327f-48fc-a428-17d61097a1e7.pdf",
-"t": "2026-11-18T20:51+05:30"
 },
 "N:KARNIKAINDUSTRIES": {
 "t": "2026-11-23T17:20+05:30"
@@ -1149,22 +1141,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml": {
-"company": "Ajwa Projects Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545016",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-25T18:48+05:30",
-"uid": "BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.xml"
-},
 "BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml": {
 "company": "Pulsar International Ltd",
 "consolidated": false,
@@ -12075,6 +12051,10 @@
 "t": "2026-11-23T22:17+05:30",
 "v": "INE1FY301017"
 },
+"545016": {
+"t": "2026-11-25T20:53+05:30",
+"v": "INE1NMO01017"
+},
 "545017": {
 "t": "2026-11-25T08:00+05:30",
 "v": "INE2IXO01012"
@@ -15828,6 +15808,10 @@
 "INE1N9E01015": {
 "t": "2026-11-13T22:49+05:30",
 "v": 7211100
+},
+"INE1NMO01017": {
+"t": "2026-11-25T20:53+05:30",
+"v": 4000000
 },
 "INE1O5L01025": {
 "t": "2026-11-17T08:03+05:30",
