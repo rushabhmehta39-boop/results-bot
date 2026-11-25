@@ -211,10 +211,6 @@
 "s": "posted",
 "t": "2026-11-24T16:01+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_513721_18112026194711_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-18T21:54+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_523031_19112026183334_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T18:54+05:30"
@@ -316,10 +312,6 @@
 "s": "small",
 "t": "2026-11-19T12:28+05:30"
 },
-"NSE-equities-IF-215400": {
-"s": "old",
-"t": "2026-11-19T00:19+05:30"
-},
 "NSE-equities-IF-215441": {
 "s": "small",
 "t": "2026-11-19T18:43+05:30"
@@ -396,6 +388,10 @@
 "s": "posted",
 "t": "2026-11-25T08:01+05:30"
 },
+"NSE-equities-IF-216362": {
+"s": "old",
+"t": "2026-11-26T01:56+05:30"
+},
 "NSE-equities-IF-216511": {
 "s": "superseded",
 "t": "2026-11-25T19:00+05:30"
@@ -451,6 +447,14 @@
 "NSE-sme-IF-216307": {
 "s": "small",
 "t": "2026-11-24T17:49+05:30"
+},
+"NSE-sme-IF-216362": {
+"s": "old",
+"t": "2026-11-26T01:56+05:30"
+},
+"NSE-sme-IF-216481": {
+"s": "old",
+"t": "2026-11-26T01:56+05:30"
 }
 },
 "first_seen": {
@@ -498,6 +502,9 @@
 },
 "NSE|BCSSL|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
+},
+"NSE|ENRIN|2026-09-30": {
+"t": "2026-11-26T01:56+05:30"
 },
 "NSE|LEXUS|2026-09-30": {
 "t": "2026-11-24T17:31+05:30"
@@ -1168,6 +1175,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
+},
+"NSE-equities-IF-216554": {
+"company": "Siemens Energy India Limited",
+"consolidated": false,
+"filed_at": "2026-11-25T22:53:50+05:30",
+"index": "equities",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE",
+"symbol": "ENRIN",
+"t": "2026-11-26T01:56+05:30",
+"uid": "NSE-equities-IF-216554",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216554_25112026225349_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761378_25112026105349_WEB.xml"
 }
 },
 "posted": {
