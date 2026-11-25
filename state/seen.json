@@ -114,6 +114,9 @@
 "BANN-32ea6213-c721-40df-b76f-6f84e9f6d78b": {
 "t": "2026-11-23T15:56+05:30"
 },
+"BANN-4ae3334c-fa72-4eed-94f4-5f23cfa9b2e9": {
+"t": "2026-11-25T16:05+05:30"
+},
 "BANN-4b67d0aa-0606-4137-a36e-e4c254b9b920": {
 "t": "2026-11-24T21:57+05:30"
 },
@@ -580,6 +583,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
 },
+"BSE:530595": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7807e3d1-6fdc-4e07-82c7-ffc4a95a5049.pdf",
+"t": "2026-11-25T16:01+05:30"
+},
 "BSE:531458": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/716f9a8a-75b3-452e-b7e8-93eb52124b47.pdf",
 "t": "2026-11-20T18:01+05:30"
@@ -1023,6 +1030,10 @@
 "c": 1,
 "t": "2026-11-23T17:41+05:30"
 },
+"N:TELECANORGLOBAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7807e3d1-6fdc-4e07-82c7-ffc4a95a5049.pdf",
+"t": "2026-11-25T16:01+05:30"
+},
 "N:TRANSINDIAHOUSEIMPEX": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
@@ -1087,6 +1098,10 @@
 "BSE:506373": {
 "t": "2026-11-24T13:37+05:30",
 "v": 1313.7
+},
+"BSE:530595": {
+"t": "2026-11-25T16:05+05:30",
+"v": 8.8
 },
 "BSE:538351": {
 "t": "2026-11-23T21:26+05:30",
