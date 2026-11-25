@@ -23,6 +23,22 @@
 "pdf": 6,
 "t": "2026-11-23T15:10+05:30"
 },
+"ENRIN": {
+"d": "2026-11-25",
+"mcap": 106088.3,
+"mid": 947,
+"n": "SIEMENSENERGYINDIA",
+"pdf": 6,
+"t": "2026-11-25T20:25+05:30"
+},
+"INE1NPP01017": {
+"d": "2026-11-25",
+"mcap": 106088.3,
+"mid": 947,
+"n": "SIEMENSENERGYINDIA",
+"pdf": 6,
+"t": "2026-11-25T20:25+05:30"
+},
 "INE2IXO01012": {
 "d": "2026-11-24",
 "mcap": 897.0,
@@ -80,6 +96,9 @@
 },
 "ANN-equities-106870786-SIMBHALS": {
 "t": "2026-11-25T18:48+05:30"
+},
+"ANN-equities-106870893-ENRIN": {
+"t": "2026-11-25T20:25+05:30"
 },
 "ANN-sme-106868937-PATILAUTOM": {
 "t": "2026-11-23T16:36+05:30"
@@ -152,10 +171,6 @@
 "BSE-IFOtherthan_543546_21112026155935_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-21T18:09+05:30"
-},
-"BSE-IFOtherthan_544351_18112026194325_IFOtherthan.xml": {
-"s": "small",
-"t": "2026-11-18T20:22+05:30"
 },
 "BSE-IFOtherthan_544771_20112026221214_IFOtherthan.xml": {
 "s": "small",
@@ -640,6 +655,10 @@
 "DIVINEHIRA": {
 "t": "2026-11-23T20:05+05:30"
 },
+"ENRIN": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"t": "2026-11-25T20:19+05:30"
+},
 "GENSOL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/GENSOLRP_19112026130749_NSE_Reply_for_12112026_Regulation_33.pdf",
 "t": "2026-11-19T13:08+05:30"
@@ -693,6 +712,10 @@
 "INE1GM501015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb91d948-17df-47ea-9dea-2d0e50a81685.pdf",
 "t": "2026-11-20T19:47+05:30"
+},
+"INE1NPP01017": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"t": "2026-11-25T20:19+05:30"
 },
 "INE1SEO01013": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14754538-67ad-49b9-8839-3e9d756e6279.pdf",
@@ -934,6 +957,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5a5e7d99-2111-4f4c-a175-b4ff5999a590.pdf",
 "t": "2026-11-19T11:18+05:30"
 },
+"N:SIEMENSENERGYINDIA": {
+"pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"t": "2026-11-25T20:19+05:30"
+},
 "N:SIMBHAOLISUGARS": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3eacac73-f445-4686-9108-20cf1bfe2d63.pdf",
@@ -1040,6 +1067,10 @@
 "BSE:545016": {
 "t": "2026-11-25T18:43+05:30",
 "v": 44.1
+},
+"ENRIN": {
+"t": "2026-11-25T20:25+05:30",
+"v": 106088.3
 },
 "MKJEWELS": {
 "t": "2026-11-24T21:51+05:30",
