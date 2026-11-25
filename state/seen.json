@@ -129,6 +129,9 @@
 "BANN-7b50c8c4-41d1-4170-a540-516faba5d226": {
 "t": "2026-11-25T18:43+05:30"
 },
+"BANN-83b56d0f-9df3-4e0d-a7b5-7f59ea04dd10": {
+"t": "2026-11-25T19:00+05:30"
+},
 "BANN-a60872ca-a042-4f95-8ced-3db3a63a3f30": {
 "t": "2026-11-23T21:26+05:30"
 },
@@ -383,6 +386,14 @@
 "s": "posted",
 "t": "2026-11-25T08:01+05:30"
 },
+"NSE-equities-IF-216511": {
+"s": "superseded",
+"t": "2026-11-25T19:00+05:30"
+},
+"NSE-equities-IF-216512": {
+"s": "small",
+"t": "2026-11-25T19:00+05:30"
+},
 "NSE-sme-IF-215460": {
 "s": "small",
 "t": "2026-11-18T19:19+05:30"
@@ -451,6 +462,9 @@
 "BSE|539175|2026-09-30": {
 "t": "2026-11-24T22:02+05:30"
 },
+"BSE|539742|2026-09-30": {
+"t": "2026-11-25T18:59+05:30"
+},
 "BSE|543895|2026-09-30": {
 "t": "2026-11-23T22:45+05:30"
 },
@@ -492,6 +506,9 @@
 },
 "NSE|SFCTECH|2026-09-30": {
 "t": "2026-11-23T23:48+05:30"
+},
+"NSE|SIMBHALS|2026-09-30": {
+"t": "2026-11-25T18:59+05:30"
 }
 },
 "fresh": {
@@ -587,6 +604,11 @@
 "BSE:539175": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/95fb166d-1768-4f67-a789-53f4a67de7f9.pdf",
 "t": "2026-11-24T21:55+05:30"
+},
+"BSE:539742": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3eacac73-f445-4686-9108-20cf1bfe2d63.pdf",
+"t": "2026-11-25T18:57+05:30"
 },
 "BSE:543546": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
@@ -977,7 +999,7 @@
 },
 "N:SIMBHAOLISUGARS": {
 "c": 1,
-"pdf": "https://nsearchives.nseindia.in/corporate/SIMBHALS_25112026183853_Finaloutcome25Nov2026forupload.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3eacac73-f445-4686-9108-20cf1bfe2d63.pdf",
 "t": "2026-11-25T18:44+05:30"
 },
 "N:SPICEISLANDSINDUSTRIES": {
@@ -1073,6 +1095,10 @@
 "BSE:539175": {
 "t": "2026-11-24T21:57+05:30",
 "v": 37.9
+},
+"BSE:539742": {
+"t": "2026-11-25T19:00+05:30",
+"v": 25.0
 },
 "BSE:545010": {
 "t": "2026-11-25T08:01+05:30",
@@ -1172,6 +1198,22 @@
 "uid": "BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545016_25112026184112_IFOtherthan.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
+"company": "Simbhaoli Sugars Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539742",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-25T18:59+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
 }
 },
 "posted": {
@@ -9950,6 +9992,10 @@
 "539697": {
 "t": "2026-11-14T11:40+05:30",
 "v": "INE966Q01010"
+},
+"539742": {
+"t": "2026-11-25T19:00+05:30",
+"v": "INE748T01016"
 },
 "539760": {
 "t": "2026-11-14T08:06+05:30",
@@ -19444,6 +19490,10 @@
 "INE748D01010": {
 "t": "2026-11-13T08:08+05:30",
 "v": 10000100
+},
+"INE748T01016": {
+"t": "2026-11-25T19:00+05:30",
+"v": 41279000
 },
 "INE749B01020": {
 "t": "2026-11-11T22:56+05:30",
