@@ -299,10 +299,6 @@
 "s": "superseded",
 "t": "2026-11-18T16:49+05:30"
 },
-"NSE-equities-IF-215266": {
-"s": "old",
-"t": "2026-11-18T08:02+05:30"
-},
 "NSE-equities-IF-215270": {
 "s": "nodata",
 "t": "2026-11-19T10:29+05:30"
@@ -741,6 +737,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
 "t": "2026-11-21T15:57+05:30"
 },
+"INE0NZ501012": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5289b80c-8086-4d49-98c4-c9a589f17668.pdf",
+"t": "2026-11-24T23:42+05:30"
+},
 "INE0O8901016": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf",
@@ -790,7 +790,7 @@
 "t": "2026-11-18T20:51+05:30"
 },
 "INE2IXO01012": {
-"pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/79775222-6e1c-47fd-b095-852b71231db6.pdf",
 "pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T21:49+05:30"
@@ -858,6 +858,10 @@
 "INE906L01025": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
+},
+"INE924N01024": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/95fb166d-1768-4f67-a789-53f4a67de7f9.pdf",
+"t": "2026-11-24T21:55+05:30"
 },
 "INE968D01022": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
