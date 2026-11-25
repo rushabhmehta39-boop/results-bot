@@ -123,6 +123,9 @@
 "BANN-a60872ca-a042-4f95-8ced-3db3a63a3f30": {
 "t": "2026-11-23T21:26+05:30"
 },
+"BANN-a8a4c255-757d-4feb-aec2-1e7f79a61292": {
+"t": "2026-11-25T08:01+05:30"
+},
 "BANN-e1d2ba6c-8c1e-4569-a495-a6933a4e262b": {
 "t": "2026-11-24T13:37+05:30"
 },
@@ -146,6 +149,10 @@
 "BSE-IFOtherthan_544794_20112026215417_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-21T08:01+05:30"
+},
+"BSE-IFOtherthan_545010_251120260230_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-25T08:01+05:30"
 },
 "BSE-IFOtherthan_545015_23112026214033_IFOtherthan.xml": {
 "s": "small",
@@ -232,6 +239,10 @@
 "s": "small",
 "t": "2026-11-21T20:50+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-25T08:01+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_540027_1711202619128_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-18T19:07+05:30"
@@ -263,6 +274,10 @@
 "BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
 "s": "dup",
 "t": "2026-11-19T08:02+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml": {
+"s": "dup",
+"t": "2026-11-25T08:01+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_545018_231120262001_IFIndAs.xml": {
 "s": "small",
@@ -379,6 +394,10 @@
 "NSE-equities-IF-216307": {
 "s": "small",
 "t": "2026-11-24T17:49+05:30"
+},
+"NSE-equities-IF-216360": {
+"s": "posted",
+"t": "2026-11-25T08:01+05:30"
 },
 "NSE-sme-IF-215078": {
 "n": 6,
@@ -684,6 +703,8 @@
 },
 "BSE:545017": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/79775222-6e1c-47fd-b095-852b71231db6.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
+"pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T22:52+05:30"
 },
 "BSE:545018": {
@@ -770,6 +791,8 @@
 },
 "INE2IXO01012": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
+"pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T21:49+05:30"
 },
 "INE382T01030": {
@@ -868,6 +891,8 @@
 },
 "MKJEWELS": {
 "pdf": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
+"pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T21:49+05:30"
 },
 "MWL": {
@@ -996,6 +1021,8 @@
 },
 "N:MKSONSFINEJEWELS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/79775222-6e1c-47fd-b095-852b71231db6.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
+"pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T21:49+05:30"
 },
 "N:ORIENTTRADELINK": {
@@ -1127,6 +1154,10 @@
 "t": "2026-11-23T15:10+05:30",
 "v": 725.8
 },
+"BSE:545010": {
+"t": "2026-11-25T08:01+05:30",
+"v": 461.7
+},
 "BSE:545015": {
 "t": "2026-11-23T18:45+05:30",
 "v": 130.0
@@ -1205,72 +1236,7 @@
 }
 },
 "pdfq": {},
-"pending": {
-"BSE-IFOtherthan_545010_251120260230_IFOtherthan.xml": {
-"company": "Wiscon Industries Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545010",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-25T04:07+05:30",
-"uid": "BSE-IFOtherthan_545010_251120260230_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545010_251120260230_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545010_251120260230_IFOtherthan.xml"
-},
-"BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml": {
-"company": "Starbeam Ventures Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "539175",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-24T22:02+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml": {
-"company": "M. K. Sons Fine Jewels Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545017",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-25T04:07+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml"
-},
-"NSE-equities-IF-216360": {
-"company": "M. K. Sons Fine Jewels Limited",
-"consolidated": false,
-"filed_at": "2026-11-25T01:33:25+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "MKJEWELS",
-"t": "2026-11-25T04:07+05:30",
-"uid": "NSE-equities-IF-216360",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216360_25112026013324_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761121_25112026013322_WEB.xml"
-}
-},
+"pending": {},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
@@ -3208,6 +3174,13 @@
 "n": "HBLENGINEERING",
 "pe": "2026-09-30",
 "t": "2026-11-07T15:59+05:30"
+},
+"INE2IXO01012|2026-09-30|S": {
+"b": "S",
+"mid": 944,
+"n": "PREV",
+"pe": "2026-09-30",
+"t": "2026-11-25T08:01+05:30"
 },
 "INE2W6901017|2026-09-30|S": {
 "b": "S",
@@ -9857,6 +9830,10 @@
 "t": "2026-11-13T20:32+05:30",
 "v": "INE738P01015"
 },
+"539175": {
+"t": "2026-11-25T08:01+05:30",
+"v": "INE924N01024"
+},
 "539189": {
 "t": "2026-11-13T19:59+05:30",
 "v": "INE578L01014"
@@ -12117,6 +12094,10 @@
 "t": "2026-11-24T08:03+05:30",
 "v": "INE0PKN01028"
 },
+"545010": {
+"t": "2026-11-25T08:01+05:30",
+"v": "INE0NZ501012"
+},
 "545012": {
 "t": "2026-11-13T08:07+05:30",
 "v": "INE2WCT01016"
@@ -12128,6 +12109,10 @@
 "545015": {
 "t": "2026-11-23T22:17+05:30",
 "v": "INE1FY301017"
+},
+"545017": {
+"t": "2026-11-25T08:00+05:30",
+"v": "INE2IXO01012"
 },
 "545018": {
 "t": "2026-11-23T22:06+05:30",
@@ -13738,6 +13723,10 @@
 "INE0NYN01016": {
 "t": "2026-11-14T20:06+05:30",
 "v": 20975000
+},
+"INE0NZ501012": {
+"t": "2026-11-25T08:01+05:30",
+"v": 19987500
 },
 "INE0O0001013": {
 "t": "2026-11-11T16:46+05:30",
@@ -16606,6 +16595,10 @@
 "INE2HJL01019": {
 "t": "2026-11-07T22:08+05:30",
 "v": 15084000
+},
+"INE2IXO01012": {
+"t": "2026-11-25T08:00+05:30",
+"v": 42691000
 },
 "INE2J7801015": {
 "t": "2026-11-16T08:08+05:30",
@@ -20582,6 +20575,10 @@
 "INE924H01018": {
 "t": "2026-11-16T08:25+05:30",
 "v": 25064200
+},
+"INE924N01024": {
+"t": "2026-11-25T08:01+05:30",
+"v": 653631000
 },
 "INE925C01016": {
 "t": "2026-11-14T20:31+05:30",
