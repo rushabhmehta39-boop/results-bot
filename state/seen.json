@@ -97,9 +97,6 @@
 "ANN-equities-106870893-ENRIN": {
 "t": "2026-11-25T20:25+05:30"
 },
-"ANN-sme-106868937-PATILAUTOM": {
-"t": "2026-11-23T16:36+05:30"
-},
 "ANN-sme-106868939-JFLLIFE": {
 "t": "2026-11-23T16:41+05:30"
 },
@@ -477,6 +474,9 @@
 },
 "NSE SME|LEXUS|2026-09-30": {
 "t": "2026-11-24T17:31+05:30"
+},
+"NSE SME|MAXENGS|2026-09-30": {
+"t": "2026-11-26T16:36+05:30"
 },
 "NSE|BCSSL|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
@@ -1124,6 +1124,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
+},
+"NSE-sme-IF-216631": {
+"company": "Maxwell Engineering Solutions Limited",
+"consolidated": false,
+"filed_at": "2026-11-26T16:34:20+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "MAXENGS",
+"t": "2026-11-26T16:36+05:30",
+"uid": "NSE-sme-IF-216631",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216631_26112026163420_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761519_26112026043420_WEB.xml"
 }
 },
 "posted": {
