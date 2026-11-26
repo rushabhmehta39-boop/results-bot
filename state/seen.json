@@ -64,9 +64,6 @@
 }
 },
 "ann": {
-"ANN-equities-106869034-MWL": {
-"t": "2026-11-23T17:26+05:30"
-},
 "ANN-equities-106869046-BELRISE": {
 "t": "2026-11-23T17:32+05:30"
 },
@@ -411,6 +408,14 @@
 "NSE-sme-IF-216481": {
 "s": "old",
 "t": "2026-11-26T01:56+05:30"
+},
+"NSE-sme-IF-216648": {
+"s": "superseded",
+"t": "2026-11-26T17:27+05:30"
+},
+"NSE-sme-IF-216653": {
+"s": "small",
+"t": "2026-11-26T17:27+05:30"
 }
 },
 "first_seen": {
@@ -1127,22 +1132,6 @@
 "uid": "NSE-sme-IF-216631",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216631_26112026163420_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761519_26112026043420_WEB.xml"
-},
-"NSE-sme-IF-216648": {
-"company": "HGS (India) Limited",
-"consolidated": false,
-"filed_at": "2026-11-26T17:18:56+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "HGSINDIALT",
-"t": "2026-11-26T17:21+05:30",
-"uid": "NSE-sme-IF-216648",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216648_26112026171855_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761549_26112026051854_WEB.xml"
 }
 },
 "posted": {
@@ -4710,8 +4699,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-24T17:49+05:30",
-"v": "INE500X01013"
+"t": "2026-11-26T17:27+05:30",
+"v": "INE813R01012"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -19858,6 +19847,10 @@
 "INE813B01016": {
 "t": "2026-11-14T16:03+05:30",
 "v": 6000800
+},
+"INE813R01012": {
+"t": "2026-11-26T17:27+05:30",
+"v": 8532700
 },
 "INE813V01022": {
 "t": "2026-11-14T17:39+05:30",
