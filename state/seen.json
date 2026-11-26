@@ -420,6 +420,9 @@
 "BSE|538539|2026-09-30": {
 "t": "2026-11-26T18:41+05:30"
 },
+"BSE|539008|2026-09-30": {
+"t": "2026-11-26T19:39+05:30"
+},
 "BSE|539175|2026-09-30": {
 "t": "2026-11-24T22:02+05:30"
 },
@@ -1139,6 +1142,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_539008_26112026193425_IFIndAs.xml": {
+"company": "Tirupati Fincorp Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "539008",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-26T19:39+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_539008_26112026193425_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539008_26112026193425_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539008_26112026193425_IFIndAs.xml"
 }
 },
 "posted": {
