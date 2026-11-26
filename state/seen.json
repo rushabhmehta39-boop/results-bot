@@ -154,6 +154,9 @@
 "BANN-7b50c8c4-41d1-4170-a540-516faba5d226": {
 "t": "2026-11-25T18:43+05:30"
 },
+"BANN-805dfe93-754b-415c-99f3-7d4bd01c4626": {
+"t": "2026-11-26T15:17+05:30"
+},
 "BANN-83b56d0f-9df3-4e0d-a7b5-7f59ea04dd10": {
 "t": "2026-11-25T19:00+05:30"
 },
@@ -545,6 +548,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fa220c32-5fc3-4a29-bef6-9da03b4e30d2.pdf",
 "t": "2026-11-19T18:22+05:30"
 },
+"BSE:530369": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a473c5-6034-4cfb-82ba-048c719cbc38.pdf",
+"t": "2026-11-26T15:16+05:30"
+},
 "BSE:530581": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
@@ -727,6 +734,10 @@
 "pdf_card": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|card|6",
 "pdf_hist": "https://nsearchives.nseindia.in/corporate/MK123_24112026214754_MK_Results_300926_S.pdf|S|6",
 "t": "2026-11-24T21:49+05:30"
+},
+"INE380C01014": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a473c5-6034-4cfb-82ba-048c719cbc38.pdf",
+"t": "2026-11-26T15:16+05:30"
 },
 "INE382T01030": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -995,6 +1006,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/562d536e-a1d8-46a0-92e6-6a42200797ad.pdf",
 "t": "2026-11-20T18:58+05:30"
 },
+"N:VAMSHIRUBBER": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a473c5-6034-4cfb-82ba-048c719cbc38.pdf",
+"t": "2026-11-26T15:16+05:30"
+},
 "N:WISCONINDUSTRIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5289b80c-8086-4d49-98c4-c9a589f17668.pdf",
 "t": "2026-11-24T23:42+05:30"
@@ -1041,6 +1056,10 @@
 "BSE:512591": {
 "t": "2026-11-25T18:43+05:30",
 "v": 15.8
+},
+"BSE:530369": {
+"t": "2026-11-26T15:17+05:30",
+"v": 15.6
 },
 "BSE:530595": {
 "t": "2026-11-25T16:05+05:30",
