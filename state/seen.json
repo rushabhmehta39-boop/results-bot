@@ -358,10 +358,6 @@
 "s": "posted",
 "t": "2026-11-26T08:02+05:30"
 },
-"NSE-sme-IF-215641": {
-"s": "small",
-"t": "2026-11-19T17:53+05:30"
-},
 "NSE-sme-IF-215818": {
 "s": "old",
 "t": "2026-11-21T05:43+05:30"
@@ -451,6 +447,9 @@
 },
 "BSE|545018|2026-09-30": {
 "t": "2026-11-23T20:05+05:30"
+},
+"BSE|545021|2026-09-30": {
+"t": "2026-11-26T17:56+05:30"
 },
 "NSE SME|DHANLAXMI|2026-09-30": {
 "t": "2026-11-24T12:00+05:30"
@@ -1110,6 +1109,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-IFOtherthan_545021_26112026175519_IFOtherthan.xml": {
+"company": "Johnsoncab Electricals Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "545021",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-26T17:56+05:30",
+"uid": "BSE-IFOtherthan_545021_26112026175519_IFOtherthan.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545021_26112026175519_IFOtherthan.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545021_26112026175519_IFOtherthan.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
 "company": "Simbhaoli Sugars Ltd",
 "consolidated": false,
