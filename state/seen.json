@@ -211,6 +211,10 @@
 "s": "posted",
 "t": "2026-11-24T16:01+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-26T08:02+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_523031_19112026183334_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T18:54+05:30"
@@ -236,10 +240,6 @@
 "s": "small",
 "t": "2026-11-20T21:24+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_531512_1811202622013_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-19T08:02+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_531512_19112026185820_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-19T19:00+05:30"
@@ -247,10 +247,6 @@
 "BSE-Integrated_Finance_Ind_As_531647_1911202615525_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-20T15:57+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_531780_1811202622224_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-19T08:02+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml": {
 "s": "small",
@@ -284,10 +280,6 @@
 "s": "superseded",
 "t": "2026-11-24T08:04+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_545011_18112026223148_IFIndAs.xml": {
-"s": "dup",
-"t": "2026-11-19T08:02+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_545017_25112026013337_IFIndAs.xml": {
 "s": "dup",
 "t": "2026-11-25T08:01+05:30"
@@ -315,10 +307,6 @@
 "NSE-equities-IF-215441": {
 "s": "small",
 "t": "2026-11-19T18:43+05:30"
-},
-"NSE-equities-IF-215504": {
-"s": "dup",
-"t": "2026-11-19T08:02+05:30"
 },
 "NSE-equities-IF-215523": {
 "s": "old",
@@ -399,6 +387,10 @@
 "NSE-equities-IF-216512": {
 "s": "small",
 "t": "2026-11-25T19:00+05:30"
+},
+"NSE-equities-IF-216554": {
+"s": "posted",
+"t": "2026-11-26T08:02+05:30"
 },
 "NSE-sme-IF-215538": {
 "s": "superseded",
@@ -619,6 +611,7 @@
 },
 "BSE:544390": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b498aec5-9f3e-4e87-a416-2af9441395df.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf|card|6",
 "t": "2026-11-25T20:26+05:30"
 },
 "BSE:544771": {
@@ -666,6 +659,7 @@
 },
 "ENRIN": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf|card|6",
 "t": "2026-11-25T20:19+05:30"
 },
 "GENSOL": {
@@ -728,6 +722,7 @@
 },
 "INE1NPP01017": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf|card|6",
 "t": "2026-11-25T20:19+05:30"
 },
 "INE1SEO01013": {
@@ -964,6 +959,7 @@
 },
 "N:SIEMENSENERGYINDIA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/b498aec5-9f3e-4e87-a416-2af9441395df.pdf",
+"pdf_card": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf|card|6",
 "t": "2026-11-25T20:19+05:30"
 },
 "N:SIMBHAOLISUGARS": {
@@ -1144,22 +1140,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml": {
-"company": "Pulsar International Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "512591",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-25T20:30+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_512591_2511202620230_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
 "company": "Simbhaoli Sugars Ltd",
 "consolidated": false,
@@ -1175,22 +1155,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
-},
-"NSE-equities-IF-216554": {
-"company": "Siemens Energy India Limited",
-"consolidated": false,
-"filed_at": "2026-11-25T22:53:50+05:30",
-"index": "equities",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE",
-"symbol": "ENRIN",
-"t": "2026-11-26T01:56+05:30",
-"uid": "NSE-equities-IF-216554",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216554_25112026225349_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761378_25112026105349_WEB.xml"
 }
 },
 "posted": {
@@ -2818,6 +2782,13 @@
 "n": "QLINEBIOTECH",
 "pe": "2026-09-30",
 "t": "2026-11-12T22:04+05:30"
+},
+"INE1NPP01017|2026-09-30|S": {
+"b": "S",
+"mid": 948,
+"n": "SIEMENSENERGYINDIA",
+"pe": "2026-09-30",
+"t": "2026-11-26T08:02+05:30"
 },
 "INE1RQS01010|2026-09-30|S": {
 "b": "S",
@@ -6041,6 +6012,10 @@
 "512573": {
 "t": "2026-11-10T23:48+05:30",
 "v": "INE871C01038"
+},
+"512591": {
+"t": "2026-11-26T08:02+05:30",
+"v": "INE183U01022"
 },
 "512595": {
 "t": "2026-11-16T08:12+05:30",
@@ -11306,6 +11281,10 @@
 "t": "2026-11-14T11:35+05:30",
 "v": "INE0PA401012"
 },
+"544390": {
+"t": "2026-11-26T08:01+05:30",
+"v": "INE1NPP01017"
+},
 "544392": {
 "t": "2026-11-11T03:45+05:30",
 "v": "INE10XX01012"
@@ -15472,6 +15451,10 @@
 "t": "2026-11-11T03:45+05:30",
 "v": 3450000
 },
+"INE183U01022": {
+"t": "2026-11-26T08:02+05:30",
+"v": 428340000
+},
 "INE184D01026": {
 "t": "2026-11-14T21:29+05:30",
 "v": 76873667
@@ -15831,6 +15814,10 @@
 "INE1NMO01017": {
 "t": "2026-11-25T20:53+05:30",
 "v": 4000000
+},
+"INE1NPP01017": {
+"t": "2026-11-26T08:01+05:30",
+"v": 356000000
 },
 "INE1O5L01025": {
 "t": "2026-11-17T08:03+05:30",
