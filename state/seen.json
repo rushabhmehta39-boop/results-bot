@@ -97,9 +97,6 @@
 "ANN-sme-106871572-HGSINDIALT": {
 "t": "2026-11-26T13:18+05:30"
 },
-"BANN-07c9b938-33e6-4e82-b3df-255e82c0b9f6": {
-"t": "2026-11-23T19:54+05:30"
-},
 "BANN-0c95365e-f093-4d3f-ae55-dbe6013269f5": {
 "t": "2026-11-23T21:43+05:30"
 },
@@ -179,6 +176,10 @@
 "BSE-IFOtherthan_545016_25112026184112_IFOtherthan.xml": {
 "s": "small",
 "t": "2026-11-25T20:53+05:30"
+},
+"BSE-IFOtherthan_545021_26112026175519_IFOtherthan.xml": {
+"s": "small",
+"t": "2026-11-26T19:56+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_500189_19112026083358_IFIndAs.xml": {
 "s": "small",
@@ -1126,22 +1127,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-IFOtherthan_545021_26112026175519_IFOtherthan.xml": {
-"company": "Johnsoncab Electricals Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "545021",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-26T17:56+05:30",
-"uid": "BSE-IFOtherthan_545021_26112026175519_IFOtherthan.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545021_26112026175519_IFOtherthan.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFOtherthanDuplicateUploadDocument/IFOtherthan_545021_26112026175519_IFOtherthan.xml"
-},
 "BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml": {
 "company": "Annvrridhhi  Ventures Ltd",
 "consolidated": false,
@@ -12083,6 +12068,10 @@
 "t": "2026-11-23T22:06+05:30",
 "v": "INE0XFY01011"
 },
+"545021": {
+"t": "2026-11-26T19:56+05:30",
+"v": "INE1ZSR01011"
+},
 "570005": {
 "t": "2026-11-14T08:06+05:30",
 "v": "INE224E01036"
@@ -15952,6 +15941,10 @@
 "INE1YPB01014": {
 "t": "2026-11-14T20:44+05:30",
 "v": 985000000
+},
+"INE1ZSR01011": {
+"t": "2026-11-26T19:56+05:30",
+"v": 7770000
 },
 "INE200P01016": {
 "t": "2026-11-13T08:07+05:30",
