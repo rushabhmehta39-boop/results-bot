@@ -193,10 +193,6 @@
 "s": "small",
 "t": "2026-11-26T08:02+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_523031_19112026183334_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-19T18:54+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_523752_21112026191437_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-21T21:18+05:30"
@@ -241,6 +237,10 @@
 "BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-25T08:01+05:30"
+},
+"BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-26T18:59+05:30"
 },
 "BSE-Integrated_Finance_Ind_As_543439_21112026185758_IFIndAs.xml": {
 "s": "small",
@@ -1131,22 +1131,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml"
-},
-"BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
-"company": "Simbhaoli Sugars Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "539742",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-25T18:59+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
 }
 },
 "posted": {
@@ -9942,7 +9926,7 @@
 "v": "INE966Q01010"
 },
 "539742": {
-"t": "2026-11-25T19:00+05:30",
+"t": "2026-11-26T18:59+05:30",
 "v": "INE748T01016"
 },
 "539760": {
@@ -19468,7 +19452,7 @@
 "v": 10000100
 },
 "INE748T01016": {
-"t": "2026-11-25T19:00+05:30",
+"t": "2026-11-26T18:59+05:30",
 "v": 41279000
 },
 "INE749B01020": {
