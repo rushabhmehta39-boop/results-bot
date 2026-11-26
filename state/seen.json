@@ -94,9 +94,6 @@
 "ANN-equities-106870893-ENRIN": {
 "t": "2026-11-25T20:25+05:30"
 },
-"ANN-sme-106869029-KARNIKA": {
-"t": "2026-11-23T17:21+05:30"
-},
 "ANN-sme-106869285-DIVINEHIRA": {
 "t": "2026-11-23T20:05+05:30"
 },
@@ -455,6 +452,9 @@
 },
 "NSE SME|DHANLAXMI|2026-09-30": {
 "t": "2026-11-24T12:00+05:30"
+},
+"NSE SME|HGSINDIALT|2026-09-30": {
+"t": "2026-11-26T17:21+05:30"
 },
 "NSE SME|KRISHCA|2026-09-30": {
 "t": "2026-11-23T23:59+05:30"
@@ -1127,6 +1127,22 @@
 "uid": "NSE-sme-IF-216631",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216631_26112026163420_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761519_26112026043420_WEB.xml"
+},
+"NSE-sme-IF-216648": {
+"company": "HGS (India) Limited",
+"consolidated": false,
+"filed_at": "2026-11-26T17:18:56+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "HGSINDIALT",
+"t": "2026-11-26T17:21+05:30",
+"uid": "NSE-sme-IF-216648",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216648_26112026171855_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761549_26112026051854_WEB.xml"
 }
 },
 "posted": {
