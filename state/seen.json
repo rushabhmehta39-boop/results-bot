@@ -163,6 +163,9 @@
 "BANN-cf4c9f95-4203-4ea1-9558-f15bea3c9cc7": {
 "t": "2026-11-25T18:43+05:30"
 },
+"BANN-dbad1ca0-ca3b-4d92-9617-7b10b16dd242": {
+"t": "2026-11-26T12:43+05:30"
+},
 "BANN-e1d2ba6c-8c1e-4569-a495-a6933a4e262b": {
 "t": "2026-11-24T13:37+05:30"
 },
@@ -448,6 +451,9 @@
 "BSE|512591|2026-09-30": {
 "t": "2026-11-25T20:30+05:30"
 },
+"BSE|531797|2026-09-30": {
+"t": "2026-11-26T12:43+05:30"
+},
 "BSE|539175|2026-09-30": {
 "t": "2026-11-24T22:02+05:30"
 },
@@ -559,6 +565,10 @@
 "BSE:531458": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/716f9a8a-75b3-452e-b7e8-93eb52124b47.pdf",
 "t": "2026-11-20T18:01+05:30"
+},
+"BSE:531797": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1af68d6-8cd1-4480-86df-93b4f269d7a4.pdf",
+"t": "2026-11-26T12:42+05:30"
 },
 "BSE:532389": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/562d536e-a1d8-46a0-92e6-6a42200797ad.pdf",
@@ -940,6 +950,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/cb91d948-17df-47ea-9dea-2d0e50a81685.pdf",
 "t": "2026-11-20T19:47+05:30"
 },
+"N:SCANPROJECTS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1af68d6-8cd1-4480-86df-93b4f269d7a4.pdf",
+"t": "2026-11-26T12:42+05:30"
+},
 "N:SFCENVIRONMENTALTECHNOLOGIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
@@ -1037,6 +1051,10 @@
 "t": "2026-11-25T16:05+05:30",
 "v": 8.8
 },
+"BSE:531797": {
+"t": "2026-11-26T12:43+05:30",
+"v": 28.6
+},
 "BSE:539175": {
 "t": "2026-11-24T21:57+05:30",
 "v": 37.9
@@ -1099,6 +1117,22 @@
 },
 "pdfq": {},
 "pending": {
+"BSE-Integrated_Finance_Ind_As_531797_261120269583_IFIndAs.xml": {
+"company": "Scan Projects Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "531797",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-26T12:43+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531797_261120269583_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531797_261120269583_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531797_261120269583_IFIndAs.xml"
+},
 "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml": {
 "company": "Simbhaoli Sugars Ltd",
 "consolidated": false,
