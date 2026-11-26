@@ -109,6 +109,9 @@
 "BANN-0f7aba13-9150-4b20-98f0-642711840141": {
 "t": "2026-11-23T18:45+05:30"
 },
+"BANN-194172b9-3914-4ef1-8430-bfb41f161f5e": {
+"t": "2026-11-26T18:36+05:30"
+},
 "BANN-297420e7-7072-4d27-b281-a8126c219feb": {
 "t": "2026-11-26T17:50+05:30"
 },
@@ -402,6 +405,10 @@
 "s": "old",
 "t": "2026-11-26T01:56+05:30"
 },
+"NSE-sme-IF-216631": {
+"s": "small",
+"t": "2026-11-26T18:36+05:30"
+},
 "NSE-sme-IF-216648": {
 "s": "superseded",
 "t": "2026-11-26T17:27+05:30"
@@ -514,10 +521,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/816d2e74-0692-4433-8aa8-d8f71f221992.pdf",
 "t": "2026-11-25T18:39+05:30"
 },
-"BSE:523031": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ccbac27d-dcae-44e2-942b-286733d1990e.pdf",
-"t": "2026-11-19T18:32+05:30"
-},
 "BSE:523752": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
@@ -553,6 +556,10 @@
 "BSE:538351": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bad0f029-2d37-424b-9cd4-44bcef95196e.pdf",
 "t": "2026-11-21T18:35+05:30"
+},
+"BSE:538539": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/72754dc0-19ad-4353-af2f-09c366cb2f87.pdf",
+"t": "2026-11-26T18:32+05:30"
 },
 "BSE:538579": {
 "c": 1,
@@ -805,10 +812,6 @@
 "MWL": {
 "t": "2026-11-23T17:23+05:30"
 },
-"N:ADSDIAGNOSTICS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ccbac27d-dcae-44e2-942b-286733d1990e.pdf",
-"t": "2026-11-19T18:32+05:30"
-},
 "N:AFENTERPRISES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bad0f029-2d37-424b-9cd4-44bcef95196e.pdf",
 "t": "2026-11-21T18:35+05:30"
@@ -816,6 +819,10 @@
 "N:AJWAPROJECTS": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6ed65aaf-a9b4-42a0-8038-79b423f9524a.pdf",
 "t": "2026-11-25T18:39+05:30"
+},
+"N:ANNVRRIDHHIVENTURES": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/72754dc0-19ad-4353-af2f-09c366cb2f87.pdf",
+"t": "2026-11-26T18:32+05:30"
 },
 "N:ARSHIYA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
@@ -1008,10 +1015,6 @@
 "VALECHAENG": {
 "pdf": "https://nsearchives.nseindia.in/corporate/VALECHAENG_20112026190422_Outcome_of_Board_Meeting.pdf",
 "t": "2026-11-20T19:06+05:30"
-},
-"ZZZ999Z99999": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/ccbac27d-dcae-44e2-942b-286733d1990e.pdf",
-"t": "2026-11-19T18:32+05:30"
 }
 },
 "mcap": {
@@ -1030,6 +1033,10 @@
 "BSE:531797": {
 "t": "2026-11-26T12:43+05:30",
 "v": 28.6
+},
+"BSE:538539": {
+"t": "2026-11-26T18:36+05:30",
+"v": 18.3
 },
 "BSE:539175": {
 "t": "2026-11-24T21:57+05:30",
@@ -1128,22 +1135,6 @@
 "uid": "BSE-Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_539742_25112026185736_IFIndAs.xml"
-},
-"NSE-sme-IF-216631": {
-"company": "Maxwell Engineering Solutions Limited",
-"consolidated": false,
-"filed_at": "2026-11-26T16:34:20+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "MAXENGS",
-"t": "2026-11-26T16:36+05:30",
-"uid": "NSE-sme-IF-216631",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_NONINDAS_216631_26112026163420_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NONINDAS_1761519_26112026043420_WEB.xml"
 }
 },
 "posted": {
@@ -4711,8 +4702,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-26T17:27+05:30",
-"v": "INE813R01012"
+"t": "2026-11-26T18:36+05:30",
+"v": "INE1W3F01014"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -15895,6 +15886,10 @@
 "INE1W0N01014": {
 "t": "2026-11-14T19:44+05:30",
 "v": 17943600
+},
+"INE1W3F01014": {
+"t": "2026-11-26T18:36+05:30",
+"v": 10050300
 },
 "INE1WDC01012": {
 "t": "2026-11-14T13:35+05:30",
