@@ -224,6 +224,10 @@
 "s": "small",
 "t": "2026-11-21T20:50+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-26T20:42+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_539175_24112026215613_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-25T08:01+05:30"
@@ -1115,22 +1119,6 @@
 },
 "pdfq": {},
 "pending": {
-"BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml": {
-"company": "Annvrridhhi  Ventures Ltd",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "538539",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-26T18:41+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_538539_26112026183839_IFIndAs.xml"
-},
 "BSE-Integrated_Finance_Ind_As_539008_26112026193425_IFIndAs.xml": {
 "company": "Tirupati Fincorp Ltd",
 "consolidated": false,
@@ -9484,6 +9472,10 @@
 "t": "2026-11-16T13:26+05:30",
 "v": "INE969E01010"
 },
+"538539": {
+"t": "2026-11-26T20:42+05:30",
+"v": "INE075K01013"
+},
 "538540": {
 "t": "2026-11-16T08:29+05:30",
 "v": "INE516P01015"
@@ -12721,6 +12713,10 @@
 "INE075H01019": {
 "t": "2026-11-13T20:52+05:30",
 "v": 3000000
+},
+"INE075K01013": {
+"t": "2026-11-26T20:42+05:30",
+"v": 29406400
 },
 "INE078D01012": {
 "t": "2026-11-14T15:49+05:30",
