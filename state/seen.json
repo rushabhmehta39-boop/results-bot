@@ -288,6 +288,10 @@
 "s": "old",
 "t": "2026-11-27T01:23+05:30"
 },
+"NSE-equities-IF-216753": {
+"s": "old",
+"t": "2026-11-28T01:22+05:30"
+},
 "NSE-equities-IF-216760": {
 "s": "small",
 "t": "2026-11-27T13:13+05:30"
@@ -349,6 +353,9 @@
 "BSE|512591|2026-09-30": {
 "t": "2026-11-25T20:30+05:30"
 },
+"BSE|526407|2026-03-31": {
+"t": "2026-11-28T01:22+05:30"
+},
 "BSE|531797|2026-09-30": {
 "t": "2026-11-26T12:43+05:30"
 },
@@ -402,9 +409,6 @@
 "ARSHIYA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/ARSHIYA_23112026160004_11.pdf",
 "t": "2026-11-23T16:10+05:30"
-},
-"AVPINFRA": {
-"t": "2026-11-21T00:11+05:30"
 },
 "BCSSL": {
 "pdf": "https://nsearchives.nseindia.in/corporate/BCSSL_23112026191706_BoardMeetingOutcome.pdf",
@@ -767,9 +771,6 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
 "t": "2026-11-21T16:09+05:30"
 },
-"N:AVPINFRACON": {
-"t": "2026-11-21T00:11+05:30"
-},
 "N:BELRISEINDUSTRIES": {
 "t": "2026-11-23T17:30+05:30"
 },
@@ -1045,7 +1046,24 @@
 }
 },
 "pdfq": {},
-"pending": {},
+"pending": {
+"BSE-Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.xml": {
+"company": "Hampton Sky Realty Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-03-31",
+"revised": false,
+"scrip": "526407",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-28T01:22+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.xml"
+}
+},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
