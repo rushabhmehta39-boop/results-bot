@@ -110,6 +110,9 @@
 },
 "BANN-dbad1ca0-ca3b-4d92-9617-7b10b16dd242": {
 "t": "2026-11-26T12:43+05:30"
+},
+"BANN-dc217eb7-e7c3-4e84-8a06-92d927e4bf9a": {
+"t": "2026-11-27T17:52+05:30"
 }
 },
 "filings": {
@@ -473,6 +476,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1af68d6-8cd1-4480-86df-93b4f269d7a4.pdf",
 "t": "2026-11-26T12:42+05:30"
 },
+"BSE:532183": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cc4280a-2075-4b07-8817-f034628afc60.pdf",
+"t": "2026-11-27T17:45+05:30"
+},
 "BSE:532389": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/562d536e-a1d8-46a0-92e6-6a42200797ad.pdf",
 "t": "2026-11-20T18:58+05:30"
@@ -700,6 +707,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
 },
+"INE622E01023": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cc4280a-2075-4b07-8817-f034628afc60.pdf",
+"t": "2026-11-27T17:45+05:30"
+},
 "INE624C01015": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/562d536e-a1d8-46a0-92e6-6a42200797ad.pdf",
 "t": "2026-11-20T19:06+05:30"
@@ -849,6 +860,10 @@
 "N:FILATEXFASHIONS": {
 "c": 1,
 "t": "2026-11-27T13:13+05:30"
+},
+"N:GAYATRISUGARS": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cc4280a-2075-4b07-8817-f034628afc60.pdf",
+"t": "2026-11-27T17:45+05:30"
 },
 "N:GVPINFOTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -1023,6 +1038,10 @@
 "BSE:531797": {
 "t": "2026-11-26T12:43+05:30",
 "v": 28.6
+},
+"BSE:532183": {
+"t": "2026-11-27T17:52+05:30",
+"v": 53.9
 },
 "BSE:538539": {
 "t": "2026-11-26T18:36+05:30",
