@@ -77,6 +77,9 @@
 "ANN-equities-106872622-CORDELIA": {
 "t": "2026-11-27T13:24+05:30"
 },
+"ANN-equities-106872787-SETCO": {
+"t": "2026-11-27T16:03+05:30"
+},
 "ANN-sme-106871558-MAXENGS": {
 "t": "2026-11-26T13:00+05:30"
 },
@@ -750,6 +753,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf",
 "t": "2026-11-24T13:31+05:30"
 },
+"INE878E01021": {
+"pdf": "https://nsearchives.nseindia.in/corporate/SETCO_27112026160110_FINAL_SIGNED_OUTCOME_27112026.pdf",
+"t": "2026-11-27T16:02+05:30"
+},
 "INE894V01022": {
 "t": "2026-11-23T17:30+05:30"
 },
@@ -936,6 +943,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1af68d6-8cd1-4480-86df-93b4f269d7a4.pdf",
 "t": "2026-11-26T12:42+05:30"
 },
+"N:SETCOAUTOMOTIVE": {
+"pdf": "https://nsearchives.nseindia.in/corporate/SETCO_27112026160110_FINAL_SIGNED_OUTCOME_27112026.pdf",
+"t": "2026-11-27T16:02+05:30"
+},
 "N:SFCENVIRONMENTALTECHNOLOGIES": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcf77903-cf55-445b-b2ea-409aff7e81dc.pdf|C|6",
@@ -996,6 +1007,10 @@
 },
 "PATILAUTOM": {
 "t": "2026-11-23T16:34+05:30"
+},
+"SETCO": {
+"pdf": "https://nsearchives.nseindia.in/corporate/SETCO_27112026160110_FINAL_SIGNED_OUTCOME_27112026.pdf",
+"t": "2026-11-27T16:02+05:30"
 },
 "SFCTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/COMPLIANCE_SFC_23112026234018_sfcoutcom.pdf",
@@ -1063,6 +1078,10 @@
 "ENRIN": {
 "t": "2026-11-25T20:25+05:30",
 "v": 106088.3
+},
+"SETCO": {
+"t": "2026-11-27T16:03+05:30",
+"v": 230.3
 },
 "SIMBHALS": {
 "t": "2026-11-25T18:48+05:30",
