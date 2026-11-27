@@ -78,6 +78,9 @@
 "BANN-297420e7-7072-4d27-b281-a8126c219feb": {
 "t": "2026-11-26T17:50+05:30"
 },
+"BANN-338d7cf4-42ad-49aa-b132-7a45cf226a10": {
+"t": "2026-11-27T21:37+05:30"
+},
 "BANN-3fb4ef44-05b2-4f3d-9c86-ca8e1823cb42": {
 "t": "2026-11-26T19:33+05:30"
 },
@@ -447,6 +450,11 @@
 "BSE:524695": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
 "t": "2026-11-21T16:09+05:30"
+},
+"BSE:526407": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd89314f-3888-41d2-99e8-fb5acd2263a2.pdf",
+"t": "2026-11-27T21:34+05:30"
 },
 "BSE:530369": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/14a473c5-6034-4cfb-82ba-048c719cbc38.pdf",
@@ -833,6 +841,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cc4280a-2075-4b07-8817-f034628afc60.pdf",
 "t": "2026-11-27T17:45+05:30"
 },
+"N:HAMPTONSKYREALTY": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd89314f-3888-41d2-99e8-fb5acd2263a2.pdf",
+"t": "2026-11-27T21:34+05:30"
+},
 "N:HEALTHYLIFEAGRITEC": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
 "t": "2026-11-21T15:57+05:30"
@@ -986,6 +999,10 @@
 "BSE:511642": {
 "t": "2026-11-27T19:17+05:30",
 "v": 3.4
+},
+"BSE:526407": {
+"t": "2026-11-27T21:37+05:30",
+"v": 185.4
 },
 "BSE:530369": {
 "t": "2026-11-26T15:17+05:30",
