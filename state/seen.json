@@ -188,6 +188,10 @@
 "s": "small",
 "t": "2026-11-26T14:43+05:30"
 },
+"BSE-Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml": {
+"s": "small",
+"t": "2026-11-27T15:19+05:30"
+},
 "BSE-Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-21T16:12+05:30"
@@ -1101,24 +1105,7 @@
 }
 },
 "pdfq": {},
-"pending": {
-"BSE-Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml": {
-"company": "KSS Ltd-$",
-"consolidated": false,
-"filed_at": null,
-"index": "bse",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "532081",
-"source": "BSE",
-"symbol": "",
-"t": "2026-11-27T13:13+05:30",
-"uid": "BSE-Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml",
-"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.html",
-"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml"
-}
-},
+"pending": {},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
@@ -8456,7 +8443,7 @@
 "v": "INE407E01029"
 },
 "532081": {
-"t": "2026-11-27T13:13+05:30",
+"t": "2026-11-27T15:19+05:30",
 "v": "INE216D01026"
 },
 "532083": {
@@ -16018,7 +16005,7 @@
 "v": 13985300
 },
 "INE216D01026": {
-"t": "2026-11-27T13:13+05:30",
+"t": "2026-11-27T15:19+05:30",
 "v": 2135875000
 },
 "INE217A01012": {
