@@ -389,6 +389,9 @@
 "BSE|545021|2026-09-30": {
 "t": "2026-11-26T17:56+05:30"
 },
+"NSE SME|C2C|2026-09-30": {
+"t": "2026-11-27T21:15+05:30"
+},
 "NSE SME|HGSINDIALT|2026-09-30": {
 "t": "2026-11-26T17:21+05:30"
 },
@@ -1053,7 +1056,24 @@
 }
 },
 "pdfq": {},
-"pending": {},
+"pending": {
+"NSE-sme-IF-216887": {
+"company": "C2C Advanced Systems Limited",
+"consolidated": false,
+"filed_at": "2026-11-27T21:10:56+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "C2C",
+"t": "2026-11-27T21:15+05:30",
+"uid": "NSE-sme-IF-216887",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216887_27112026211055_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761998_27112026091054_WEB.xml"
+}
+},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
