@@ -170,14 +170,6 @@
 "s": "failed",
 "t": "2026-11-21T20:50+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_531458_2011202621345_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-20T21:24+05:30"
-},
-"BSE-Integrated_Finance_Ind_As_531458_2011202621425_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-20T21:24+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_531797_261120269583_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-26T14:43+05:30"
@@ -353,6 +345,10 @@
 "NSE-sme-IF-216653": {
 "s": "small",
 "t": "2026-11-26T17:27+05:30"
+},
+"NSE-sme-IF-216887": {
+"s": "small",
+"t": "2026-11-27T21:26+05:30"
 }
 },
 "first_seen": {
@@ -1056,24 +1052,7 @@
 }
 },
 "pdfq": {},
-"pending": {
-"NSE-sme-IF-216887": {
-"company": "C2C Advanced Systems Limited",
-"consolidated": false,
-"filed_at": "2026-11-27T21:10:56+05:30",
-"index": "sme",
-"isin": null,
-"period_end": "2026-09-30",
-"revised": false,
-"scrip": "",
-"source": "NSE SME",
-"symbol": "C2C",
-"t": "2026-11-27T21:15+05:30",
-"uid": "NSE-sme-IF-216887",
-"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216887_27112026211055_iXBRL_WEB.html",
-"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1761998_27112026091054_WEB.xml"
-}
-},
+"pending": {},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
@@ -4639,8 +4618,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-26T18:36+05:30",
-"v": "INE1W3F01014"
+"t": "2026-11-27T21:26+05:30",
+"v": "INE0U7V01015"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -14431,6 +14410,10 @@
 "INE0U6201010": {
 "t": "2026-11-14T11:40+05:30",
 "v": 27479300
+},
+"INE0U7V01015": {
+"t": "2026-11-27T21:26+05:30",
+"v": 16968400
 },
 "INE0U9D01019": {
 "t": "2026-11-13T19:58+05:30",
