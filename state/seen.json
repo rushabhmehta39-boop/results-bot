@@ -96,8 +96,14 @@
 "BANN-805dfe93-754b-415c-99f3-7d4bd01c4626": {
 "t": "2026-11-26T15:17+05:30"
 },
+"BANN-830b4db5-970d-4f5f-9005-12115db161ef": {
+"t": "2026-11-27T19:17+05:30"
+},
 "BANN-83b56d0f-9df3-4e0d-a7b5-7f59ea04dd10": {
 "t": "2026-11-25T19:00+05:30"
+},
+"BANN-973b7944-7daf-49dc-ac64-f55c0f85fa77": {
+"t": "2026-11-27T19:17+05:30"
 },
 "BANN-a8a4c255-757d-4feb-aec2-1e7f79a61292": {
 "t": "2026-11-25T08:01+05:30"
@@ -444,6 +450,10 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|S|6",
 "t": "2026-11-24T13:31+05:30"
 },
+"BSE:511642": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4331a689-6bcc-4ccc-91b9-26e9a7fa15df.pdf",
+"t": "2026-11-27T19:12+05:30"
+},
 "BSE:512591": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/816d2e74-0692-4433-8aa8-d8f71f221992.pdf",
 "t": "2026-11-25T18:39+05:30"
@@ -698,6 +708,10 @@
 "INE622E01023": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3cc4280a-2075-4b07-8817-f034628afc60.pdf",
 "t": "2026-11-27T17:45+05:30"
+},
+"INE638C01015": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4331a689-6bcc-4ccc-91b9-26e9a7fa15df.pdf",
+"t": "2026-11-27T19:12+05:30"
 },
 "INE641Q01019": {
 "c": 1,
@@ -968,6 +982,10 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/5289b80c-8086-4d49-98c4-c9a589f17668.pdf",
 "t": "2026-11-24T23:42+05:30"
 },
+"N:WISECGLOBAL": {
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/4331a689-6bcc-4ccc-91b9-26e9a7fa15df.pdf",
+"t": "2026-11-27T19:12+05:30"
+},
 "N:ZINEMAMEDIAANDENTERTAINMENT": {
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a06d08d3-9965-430b-8eb6-f2e0ddd7725d.pdf",
@@ -999,6 +1017,10 @@
 }
 },
 "mcap": {
+"BSE:511642": {
+"t": "2026-11-27T19:17+05:30",
+"v": 3.4
+},
 "BSE:530369": {
 "t": "2026-11-26T15:17+05:30",
 "v": 15.6
