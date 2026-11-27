@@ -76,6 +76,9 @@
 "ANN-equities-106870893-ENRIN": {
 "t": "2026-11-25T20:25+05:30"
 },
+"ANN-equities-106872614-FILATFASH": {
+"t": "2026-11-27T13:13+05:30"
+},
 "ANN-sme-106871558-MAXENGS": {
 "t": "2026-11-26T13:00+05:30"
 },
@@ -314,6 +317,14 @@
 "s": "old",
 "t": "2026-11-27T01:23+05:30"
 },
+"NSE-equities-IF-216760": {
+"s": "small",
+"t": "2026-11-27T13:13+05:30"
+},
+"NSE-equities-IF-216761": {
+"s": "superseded",
+"t": "2026-11-27T13:13+05:30"
+},
 "NSE-sme-IF-215818": {
 "s": "old",
 "t": "2026-11-21T05:43+05:30"
@@ -381,6 +392,9 @@
 "BSE|531797|2026-09-30": {
 "t": "2026-11-26T12:43+05:30"
 },
+"BSE|532081|2026-09-30": {
+"t": "2026-11-27T13:13+05:30"
+},
 "BSE|538539|2026-09-30": {
 "t": "2026-11-26T18:41+05:30"
 },
@@ -416,6 +430,9 @@
 },
 "NSE|ENRIN|2026-09-30": {
 "t": "2026-11-26T01:56+05:30"
+},
+"NSE|KSERASERA|2026-09-30": {
+"t": "2026-11-27T13:13+05:30"
 },
 "NSE|LEXUS|2026-09-30": {
 "t": "2026-11-24T17:31+05:30"
@@ -586,6 +603,10 @@
 "pdf_card": "https://nsearchives.nseindia.in/corporate/ENRIN_25112026201025_BoardMeetingOutcome25112026signed.pdf|card|6",
 "t": "2026-11-25T20:19+05:30"
 },
+"FILATFASH": {
+"c": 1,
+"t": "2026-11-27T13:13+05:30"
+},
 "GVPTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
 "t": "2026-11-20T19:18+05:30"
@@ -634,6 +655,10 @@
 "INE183U01022": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/816d2e74-0692-4433-8aa8-d8f71f221992.pdf",
 "t": "2026-11-25T18:39+05:30"
+},
+"INE185E01013": {
+"c": 1,
+"t": "2026-11-27T13:13+05:30"
 },
 "INE1FY301017": {
 "c": 1,
@@ -829,6 +854,10 @@
 "pdf_card": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|card|6",
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/08119b55-e569-4b35-b152-7e4f5a35f890.pdf|S|6",
 "t": "2026-11-23T15:08+05:30"
+},
+"N:FILATEXFASHIONS": {
+"c": 1,
+"t": "2026-11-27T13:13+05:30"
 },
 "N:GVPINFOTECH": {
 "pdf": "https://nsearchives.nseindia.in/corporate/4THDIM_20112026191220_Financial_Results-Sep-26_Signed.pdf",
@@ -1062,7 +1091,24 @@
 }
 },
 "pdfq": {},
-"pending": {},
+"pending": {
+"BSE-Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml": {
+"company": "KSS Ltd-$",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "532081",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-27T13:13+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532081_2711202613848_IFIndAs.xml"
+}
+},
 "posted": {
 "BSE:500068|2026-09-30|C": {
 "b": "C",
@@ -8398,6 +8444,10 @@
 "532078": {
 "t": "2026-11-13T19:17+05:30",
 "v": "INE407E01029"
+},
+"532081": {
+"t": "2026-11-27T13:13+05:30",
+"v": "INE216D01026"
 },
 "532083": {
 "t": "2026-11-16T08:29+05:30",
@@ -15956,6 +16006,10 @@
 "INE216C01010": {
 "t": "2026-11-16T08:12+05:30",
 "v": 13985300
+},
+"INE216D01026": {
+"t": "2026-11-27T13:13+05:30",
+"v": 2135875000
 },
 "INE217A01012": {
 "t": "2026-11-12T21:44+05:30",
