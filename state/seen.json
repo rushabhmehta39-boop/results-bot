@@ -97,6 +97,9 @@
 "BANN-83b56d0f-9df3-4e0d-a7b5-7f59ea04dd10": {
 "t": "2026-11-25T19:00+05:30"
 },
+"BANN-85cca764-e6fd-4df7-9810-8ce67cb36204": {
+"t": "2026-11-28T16:01+05:30"
+},
 "BANN-973b7944-7daf-49dc-ac64-f55c0f85fa77": {
 "t": "2026-11-27T19:17+05:30"
 },
@@ -316,9 +319,9 @@
 "t": "2026-11-27T21:26+05:30"
 },
 "NSE-sme-IF-216932": {
-"n": 1,
+"n": 2,
 "s": "retry_mcap",
-"t": "2026-11-28T15:56+05:30"
+"t": "2026-11-28T16:01+05:30"
 }
 },
 "first_seen": {
@@ -426,6 +429,11 @@
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7807e3d1-6fdc-4e07-82c7-ffc4a95a5049.pdf",
 "t": "2026-11-25T16:01+05:30"
 },
+"BSE:531472": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/22cf32ed-4fea-4e1f-86c0-c0d741687d83.pdf",
+"t": "2026-11-28T15:59+05:30"
+},
 "BSE:531797": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f1af68d6-8cd1-4480-86df-93b4f269d7a4.pdf",
 "t": "2026-11-26T12:42+05:30"
@@ -459,10 +467,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/3eacac73-f445-4686-9108-20cf1bfe2d63.pdf",
 "t": "2026-11-25T18:57+05:30"
-},
-"BSE:543546": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
-"t": "2026-11-21T15:57+05:30"
 },
 "BSE:543895": {
 "c": 1,
@@ -555,10 +559,6 @@
 },
 "INE0JYY01011": {
 "t": "2026-11-23T17:23+05:30"
-},
-"INE0L3501015": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
-"t": "2026-11-21T15:57+05:30"
 },
 "INE0LZF01013": {
 "t": "2026-11-27T13:19+05:30"
@@ -763,6 +763,11 @@
 "pdf_hist": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/54847877-fcd2-4c2a-aca8-95238196a22b.pdf|S|6",
 "t": "2026-11-24T13:31+05:30"
 },
+"N:CYBELEINDUSTRIES": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/22cf32ed-4fea-4e1f-86c0-c0d741687d83.pdf",
+"t": "2026-11-28T15:59+05:30"
+},
 "N:DHANLAXMICROPSCIENCE": {
 "pdf": "https://nsearchives.nseindia.in/corporate/DHANLAXMI_24112026112155_Outcome.pdf",
 "t": "2026-11-24T11:24+05:30"
@@ -796,10 +801,6 @@
 "c": 1,
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/bd89314f-3888-41d2-99e8-fb5acd2263a2.pdf",
 "t": "2026-11-27T21:34+05:30"
-},
-"N:HEALTHYLIFEAGRITEC": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7fb27832-dcc6-468a-9ea5-3756809ba3b1.pdf",
-"t": "2026-11-21T15:57+05:30"
 },
 "N:HGSINDIA": {
 "pdf": "https://nsearchives.nseindia.in/corporate/HGSINDIA_26112026125826_HGSINDIALT_OUTCOME_OF_BM_26112026.pdf",
@@ -954,6 +955,10 @@
 "BSE:526407": {
 "t": "2026-11-27T21:37+05:30",
 "v": 185.4
+},
+"BSE:531472": {
+"t": "2026-11-28T16:01+05:30",
+"v": 35.1
 },
 "BSE:532183": {
 "t": "2026-11-27T17:52+05:30",
@@ -4627,7 +4632,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-28T15:56+05:30",
+"t": "2026-11-28T16:01+05:30",
 "v": "INE00UG01014"
 },
 "123456": {
@@ -12121,7 +12126,7 @@
 "v": 11525300
 },
 "INE00UG01014": {
-"t": "2026-11-28T15:56+05:30",
+"t": "2026-11-28T16:01+05:30",
 "v": 23110500
 },
 "INE00VM01036": {
