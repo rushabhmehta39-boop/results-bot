@@ -100,6 +100,9 @@
 "BANN-973b7944-7daf-49dc-ac64-f55c0f85fa77": {
 "t": "2026-11-27T19:17+05:30"
 },
+"BANN-9afbe995-7857-42b8-9207-daf8808948e4": {
+"t": "2026-11-28T16:52+05:30"
+},
 "BANN-c9ed556c-14d2-4f72-ae6c-816383164159": {
 "t": "2026-11-26T19:50+05:30"
 },
@@ -324,6 +327,9 @@
 "BSE|526407|2026-03-31": {
 "t": "2026-11-28T01:22+05:30"
 },
+"BSE|531035|2026-06-30": {
+"t": "2026-11-28T16:52+05:30"
+},
 "BSE|531797|2026-09-30": {
 "t": "2026-11-26T12:43+05:30"
 },
@@ -417,6 +423,11 @@
 "BSE:530595": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/7807e3d1-6fdc-4e07-82c7-ffc4a95a5049.pdf",
 "t": "2026-11-25T16:01+05:30"
+},
+"BSE:531035": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11e0f883-dde6-4d6f-a22e-e37bd85168d3.pdf",
+"t": "2026-11-28T16:47+05:30"
 },
 "BSE:531472": {
 "c": 1,
@@ -756,6 +767,11 @@
 "N:DIVINEHIRAJEWELLERS": {
 "t": "2026-11-23T20:05+05:30"
 },
+"N:EBIX": {
+"c": 1,
+"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/11e0f883-dde6-4d6f-a22e-e37bd85168d3.pdf",
+"t": "2026-11-28T16:47+05:30"
+},
 "N:EKAMLEASINGANDFINANCECOMPANY": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/f776be7a-a5e9-4de1-b64b-9c5141c0eb2c.pdf",
 "t": "2026-11-21T19:47+05:30"
@@ -937,6 +953,10 @@
 "t": "2026-11-27T21:37+05:30",
 "v": 185.4
 },
+"BSE:531035": {
+"t": "2026-11-28T16:52+05:30",
+"v": 302.6
+},
 "BSE:531472": {
 "t": "2026-11-28T16:01+05:30",
 "v": 35.1
@@ -1014,6 +1034,22 @@
 "uid": "BSE-Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.xml",
 "view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.html",
 "xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_526407_2811202602517_IFIndAs.xml"
+},
+"BSE-Integrated_Finance_Ind_As_531035_28112026164935_IFIndAs.xml": {
+"company": "EBIX Ltd",
+"consolidated": false,
+"filed_at": null,
+"index": "bse",
+"isin": null,
+"period_end": "2026-06-30",
+"revised": false,
+"scrip": "531035",
+"source": "BSE",
+"symbol": "",
+"t": "2026-11-28T16:52+05:30",
+"uid": "BSE-Integrated_Finance_Ind_As_531035_28112026164935_IFIndAs.xml",
+"view_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531035_28112026164935_IFIndAs.html",
+"xbrl_url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_531035_28112026164935_IFIndAs.xml"
 },
 "NSE-sme-IF-216931": {
 "company": "Khfm Hospitality And Facility Management Services Limited",
