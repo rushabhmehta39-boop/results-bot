@@ -314,6 +314,11 @@
 "NSE-sme-IF-216887": {
 "s": "small",
 "t": "2026-11-27T21:26+05:30"
+},
+"NSE-sme-IF-216932": {
+"n": 1,
+"s": "retry_mcap",
+"t": "2026-11-28T15:56+05:30"
 }
 },
 "first_seen": {
@@ -1039,6 +1044,22 @@
 "uid": "NSE-sme-IF-216931",
 "view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216931_28112026154950_iXBRL_WEB.html",
 "xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1762072_28112026034950_WEB.xml"
+},
+"NSE-sme-IF-216932": {
+"company": "Khfm Hospitality And Facility Management Services Limited",
+"consolidated": true,
+"filed_at": "2026-11-28T15:52:42+05:30",
+"index": "sme",
+"isin": null,
+"period_end": "2026-09-30",
+"revised": false,
+"scrip": "",
+"source": "NSE SME",
+"symbol": "KHFM",
+"t": "2026-11-28T15:55+05:30",
+"uid": "NSE-sme-IF-216932",
+"view_url": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_216932_28112026155241_iXBRL_WEB.html",
+"xbrl_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1762073_28112026035241_WEB.xml"
 }
 },
 "posted": {
@@ -4606,8 +4627,8 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-27T21:26+05:30",
-"v": "INE0U7V01015"
+"t": "2026-11-28T15:56+05:30",
+"v": "INE00UG01014"
 },
 "123456": {
 "t": "2026-11-16T13:55+05:30",
@@ -12098,6 +12119,10 @@
 "INE00SY01011": {
 "t": "2026-11-13T20:31+05:30",
 "v": 11525300
+},
+"INE00UG01014": {
+"t": "2026-11-28T15:56+05:30",
+"v": 23110500
 },
 "INE00VM01036": {
 "t": "2026-11-12T22:02+05:30",
