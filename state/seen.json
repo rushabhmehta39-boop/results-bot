@@ -159,10 +159,6 @@
 "s": "small",
 "t": "2026-11-27T15:19+05:30"
 },
-"BSE-Integrated_Finance_Ind_As_532389_2111202614317_IFIndAs.xml": {
-"s": "small",
-"t": "2026-11-21T16:12+05:30"
-},
 "BSE-Integrated_Finance_Ind_As_538351_21112026184217_IFIndAs.xml": {
 "s": "small",
 "t": "2026-11-21T20:50+05:30"
@@ -316,9 +312,9 @@
 "t": "2026-11-27T21:26+05:30"
 },
 "NSE-sme-IF-216932": {
-"n": 3,
+"n": 4,
 "s": "retry_mcap",
-"t": "2026-11-28T16:07+05:30"
+"t": "2026-11-28T16:13+05:30"
 }
 },
 "first_seen": {
@@ -404,10 +400,6 @@
 "BSE:523752": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/337d5ff6-c7f8-4f01-8ef3-cc3016bec00f.pdf",
 "t": "2026-11-21T18:42+05:30"
-},
-"BSE:524695": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
-"t": "2026-11-21T16:09+05:30"
 },
 "BSE:526407": {
 "c": 1,
@@ -542,10 +534,6 @@
 "HGSINDIALT": {
 "pdf": "https://nsearchives.nseindia.in/corporate/HGSINDIA_26112026125826_HGSINDIALT_OUTCOME_OF_BM_26112026.pdf",
 "t": "2026-11-26T13:12+05:30"
-},
-"INE01OY01018": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
-"t": "2026-11-21T16:09+05:30"
 },
 "INE039E01020": {
 "t": "2026-11-27T13:16+05:30"
@@ -733,10 +721,6 @@
 "N:ARSHIYA": {
 "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6824ddda-7902-4b3f-b266-fee05552a792.pdf",
 "t": "2026-11-23T15:52+05:30"
-},
-"N:ASIANFERTILIZERS": {
-"pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/558bfbd5-aba4-4a7d-8a43-1be710ecf66b.pdf",
-"t": "2026-11-21T16:09+05:30"
 },
 "N:BELRISEINDUSTRIES": {
 "t": "2026-11-23T17:30+05:30"
@@ -4629,7 +4613,7 @@
 },
 "scrip_isin": {
 "000000": {
-"t": "2026-11-28T16:07+05:30",
+"t": "2026-11-28T16:13+05:30",
 "v": "INE00UG01014"
 },
 "123456": {
@@ -12123,7 +12107,7 @@
 "v": 11525300
 },
 "INE00UG01014": {
-"t": "2026-11-28T16:07+05:30",
+"t": "2026-11-28T16:13+05:30",
 "v": 23110500
 },
 "INE00VM01036": {
